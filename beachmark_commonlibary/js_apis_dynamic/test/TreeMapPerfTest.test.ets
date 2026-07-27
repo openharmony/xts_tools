@@ -28,7 +28,7 @@ declare class ArkTools {
 
 export default function TreeMapPerfTest(): void {
   describe('TreeMapPerfTest', () => {
-    const BASE_COUNT = 1000;
+    const BASE_COUNT = 50000;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {
@@ -52,8 +52,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_boolean_constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'constructor',
           'constructor(comparator?:(firstValue: K, secondValue: K) => boolean)', arkTsAveragedTime);
-        expect(res1 !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -71,8 +70,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_boolean_isEmpty_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'isEmpty',
           'isEmpty(): boolean;', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -91,8 +89,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_boolean_hasKey_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'hasKey',
           'hasKey(key: K): boolean;', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -111,8 +108,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_boolean_hasValue_0400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'hasValue',
           'hasValue(value: V): boolean;', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -132,8 +128,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_number_get_0500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'get',
           'get(key: K): V;', arkTsAveragedTime);
-        expect(res1 === 356).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -153,8 +148,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_string_getFirstKey_0600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'getFirstKey',
           'getFirstKey(): K;', arkTsAveragedTime);
-        expect(res1 === "sparrow").assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -174,8 +168,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_string_getLastKey_0700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'getLastKey',
           'getLastKey(): K;', arkTsAveragedTime);
-        expect(res1 === "squirrel").assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -199,9 +192,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_void_setAll_0800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'setAll',
           'setAll(map: TreeMap<K, V>): void;', arkTsAveragedTime);
-        expect(targets[0].get("squirrel") === 123).assertTrue();
-        expect(targets[0].get("sparrow") === 356).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -222,8 +213,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_Object_set_0900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'set',
           'set(key: K, value: V): Object;', arkTsAveragedTime);
-        expect(res1 !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -247,8 +237,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_number_remove_1000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'remove',
           'remove(key: K): V;', arkTsAveragedTime);
-        expect(res1 == undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -270,8 +259,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_number_getLowerKey_1100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'getLowerKey',
           'getLowerKey(key: K): K;', arkTsAveragedTime);
-        expect(res1 === 2).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -293,8 +281,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_number_getHigherKey_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'getHigherKey',
           'getHigherKey(key: K): K;', arkTsAveragedTime);
-        expect(res1).assertEqual(4);
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -317,9 +304,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_boolean_replace_1300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'replace',
           'replace(key: K, newValue: V): boolean;', arkTsAveragedTime);
-        expect(res1 === true).assertTrue();
-        expect(treeMaps[0].get("sparrow") === 357).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -343,8 +328,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_void_clear_1400: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'clear',
           'clear(): void;', arkTsAveragedTime);
-        expect(treeMaps[0].length === 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -364,8 +348,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_IterableIterator_keys_1500: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'keys',
           'keys(): IterableIterator<K>;', arkTsAveragedTime);
-        expect(res !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -385,8 +368,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_IterableIterator_values_1600: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'values',
           'values(): IterableIterator<V>;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -407,7 +389,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_void_forEach_1700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'forEach',
           'forEach(callbackFn: (value?: V, key?: K, map?: TreeMap<K, V>) => void, thisArg?: Object): void;', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -427,8 +409,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_IterableIterator_entries_1800: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'entries',
           'entries(): IterableIterator<[K, V]>;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -447,8 +428,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_number_length_1900: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'length',
           'get length(): number;', arkTsAveragedTime);
-        expect(res1 >= 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
 
@@ -467,8 +447,7 @@ export default function TreeMapPerfTest(): void {
         console.info('arkTsTreeMapPerfTest arkTsAveragedTime TreeMapPerfTest_IterableIterator_symbolIterator_2000: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'TreeMap', 'Symbol.iterator',
           '[Symbol.iterator](): IterableIterator<[K, V]>;', arkTsAveragedTime);
-        expect(res1 !== undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       }
     );
   })

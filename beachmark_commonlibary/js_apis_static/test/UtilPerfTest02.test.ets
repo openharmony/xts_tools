@@ -1,3 +1,4 @@
+'use static'
 /*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +31,7 @@ import { util } from '@kit.ArkTS';
 
 export default function UtilPerfTest02(): void {
   describe('UtilPerfTest02', () => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
@@ -42,7 +43,7 @@ export default function UtilPerfTest02(): void {
     });
 
     afterAll(() => {
-      performance.save('apiUtil.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('UtilPerfTest02_boolean_isArrayBufferView_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

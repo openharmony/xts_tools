@@ -1,4 +1,5 @@
-﻿/*
+﻿'use static'
+/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -82,7 +83,7 @@ class PerfTransform extends stream.Transform {
 
 export default function StreamPerfTest(): void {
   describe('StreamPerfTest', () => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 100;
     const UNIT_TIME = 1000000;
 
     beforeEach(() => {

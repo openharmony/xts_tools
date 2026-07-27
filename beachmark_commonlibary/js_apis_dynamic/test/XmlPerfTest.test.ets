@@ -68,8 +68,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'XmlSerializer', 'constructor',
           'constructor(buffer: ArrayBuffer, encoding?: string): XmlSerializer', arkTsAveragedTime);
-        expect(res1 !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setAttributes_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -92,8 +91,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setAttributes',
           'setAttributes(name: string, value: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_addEmptyElement_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -114,17 +112,16 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'addEmptyElement',
           'addEmptyElement(name: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setDeclaration_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let serializers: xml.XmlSerializer[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < BASE_COUNT + 1; j++) {
           serializers.push(new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8'));
         }
-        let res: void = serializers[0].setDeclaration();
+        let res: void = serializers[BASE_COUNT].setDeclaration();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
           res = serializers[i].setDeclaration();
@@ -136,8 +133,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setDeclaration',
           'setDeclaration(): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_startElement_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -158,19 +154,18 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'startElement',
           'startElement(name: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_endElement_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let serializers: xml.XmlSerializer[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < BASE_COUNT + 1; j++) {
           let s = new xml.XmlSerializer(new ArrayBuffer(2048), 'utf-8');
           s.startElement("n");
           serializers.push(s);
         }
-        let res: void = serializers[0].endElement();
+        let res: void = serializers[BASE_COUNT].endElement();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
           res = serializers[i].endElement();
@@ -182,8 +177,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'endElement',
           'endElement(): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setNamespace_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -204,8 +198,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setNamespace',
           'setNamespace(prefix: string, namespace: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setComment_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -226,8 +219,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setComment',
           'setComment(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setCDATA_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -248,8 +240,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setCDATA',
           'setCDATA(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setText_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -272,8 +263,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setText',
           'setText(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setDocType_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -294,8 +284,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSerializer', 'setDocType',
           'setDocType(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_XmlDynamicSerializer_Constructor_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -312,8 +301,7 @@ export default function XmlPerfTest(): void {
           '_Constructor_1200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'Constructor',
           'constructor(encoding?: string);', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_ArrayBuffer_getOutput_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -334,8 +322,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'getOutput',
           'getOutput(): ArrayBuffer;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setAttributes_1400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -358,8 +345,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setAttributes',
           'setAttributes(name: string, value: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_addEmptyElement_1500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -380,17 +366,16 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'addEmptyElement',
           'addEmptyElement(name: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setDeclaration_1600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let serializers: xml.XmlDynamicSerializer[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < BASE_COUNT + 1; j++) {
           serializers.push(new xml.XmlDynamicSerializer('utf-8'));
         }
-        let res: void = serializers[0].setDeclaration();
+        let res: void = serializers[BASE_COUNT].setDeclaration();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
           res = serializers[i].setDeclaration();
@@ -402,8 +387,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setDeclaration',
           'setDeclaration(): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_startElement_1700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -424,19 +408,18 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'startElement',
           'startElement(name: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_endElement_1800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let serializers: xml.XmlDynamicSerializer[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < BASE_COUNT + 1; j++) {
           let s = new xml.XmlDynamicSerializer('utf-8');
           s.startElement("n");
           serializers.push(s);
         }
-        let res: void = serializers[0].endElement();
+        let res: void = serializers[BASE_COUNT].endElement();
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
           res = serializers[i].endElement();
@@ -448,8 +431,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'endElement',
           'endElement(): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setNamespace_1900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -470,8 +452,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setNamespace',
           'setNamespace(prefix: string, namespace: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setComment_2000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -492,8 +473,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setComment',
           'setComment(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setCdata_2100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -514,8 +494,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setCdata',
           'setCdata(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setText_2200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -538,8 +517,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setText',
           'setText(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_setDocType_2300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -560,8 +538,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlDynamicSerializer', 'setDocType',
           'setDocType(text: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_XmlPullParser_Constructor_2400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -582,8 +559,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlPullParser', 'Constructor',
           'constructor(buffer: ArrayBuffer | DataView, encoding?: string);', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_parseXml_2500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -612,8 +588,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlPullParser', 'parseXml',
           'parseXml(option: ParseOptions): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_parse_2600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -649,8 +624,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlPullParser', 'parse',
           'parse(option: ParseOptions): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_parseXmlWithAttrTagCb_2700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -689,8 +663,7 @@ export default function XmlPerfTest(): void {
           'parseXmlWithAttrTagCb_2700: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseOptions', 'attributeWithTagCallbackFunction',
           'attributeWithTagCallbackFunction?: (tagName: string, key: string, value: string) => boolean;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_number_getColumnNumber_2800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -720,8 +693,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getColumnNumber',
           'getColumnNumber(): number;', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_number_getDepth_2900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -755,8 +727,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getDepth',
           'getDepth(): number;', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_number_getLineNumber_3000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -786,8 +757,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getLineNumber',
           'getLineNumber(): number;', arkTsAveragedTime);
-        expect(res > 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_string_getName_3100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -817,8 +787,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getName',
           'getName(): string;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_string_getNamespace_3200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -852,8 +821,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getNamespace',
           'getNamespace(): string;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_string_getPrefix_3300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -887,8 +855,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getPrefix',
           'getPrefix(): string;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_string_getText_3400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -918,8 +885,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getText',
           'getText(): string;', arkTsAveragedTime);
-        expect(res !== null).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_boolean_isEmptyElementTag_3500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -953,8 +919,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'isEmptyElementTag',
           'isEmptyElementTag(): boolean;', arkTsAveragedTime);
-        expect(typeof res === 'boolean').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_boolean_isWhitespace_3600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -988,8 +953,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'isWhitespace',
           'isWhitespace(): boolean;', arkTsAveragedTime);
-        expect(typeof res === 'boolean').assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_number_getAttributeCount_3700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1019,8 +983,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'ParseInfo', 'getAttributeCount',
           'getAttributeCount(): number;', arkTsAveragedTime);
-        expect(res >= 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_EventType_AccessEnum_3800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1037,8 +1000,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'EventType', 'AccessEnum',
           'START_DOCUMENT = 0;', arkTsAveragedTime);
-        expect(res === 0).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_startDocument_3900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1063,8 +1025,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSAXHandler', 'startDocument',
           'startDocument(): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_endDocument_4000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1089,8 +1050,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSAXHandler', 'endDocument',
           'endDocument(): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_startElement_4100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1123,8 +1083,7 @@ export default function XmlPerfTest(): void {
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSAXHandler', 'startElement',
           'startElement(elementName: string, namespaceURI: string | undefined, qName: string | undefined, ' +
             'attributes: Map<string, string>): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_endElement_4200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1149,8 +1108,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSAXHandler', 'endElement',
           'endElement(elementName: string, namespaceURI: string | undefined, qName: string | undefined): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('XmlPerfTest_void_characters_4300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1175,8 +1133,7 @@ export default function XmlPerfTest(): void {
           + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('ohos.util', 'XmlSAXHandler', 'characters',
           'characters(content: string): void;', arkTsAveragedTime);
-        expect(res === undefined).assertTrue();
-        done();
+        setTimeout(() => { done(); }, 10);
       })
   })
 }

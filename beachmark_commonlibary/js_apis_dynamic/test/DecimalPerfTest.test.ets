@@ -35,7 +35,6 @@ declare class ArkTools {
 
 export default function DecimalPerfTest(): void {
   describe('DecimalPerfTest', () => {
-    // Decimal arithmetic is computationally expensive; 100 avoids excessive test duration
     const BASE_COUNT = 100;
 
     beforeEach(() => {
@@ -66,7 +65,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'constructor',
           'constructor(n: number)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_Constructor_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -83,7 +82,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'constructor',
           'constructor(n: string)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_Constructor_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -101,7 +100,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Constructor_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'constructor',
           'constructor(n: Decimal)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== abs ====================
@@ -121,7 +120,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Abs_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'abs',
           'abs(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== floor ====================
@@ -141,7 +140,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Floor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'floor',
           'floor(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== ceil ====================
@@ -161,7 +160,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Ceil_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'ceil',
           'ceil(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== trunc ====================
@@ -181,7 +180,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Trunc_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'trunc',
           'trunc(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== clamp ====================
@@ -201,7 +200,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Clamp_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'clamp',
           'clamp(min: Value, max: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== add ====================
@@ -221,7 +220,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'add',
           'add(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== sub ====================
@@ -241,7 +240,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Sub_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sub',
           'sub(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== mul ====================
@@ -261,7 +260,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Mul_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'mul',
           'mul(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== div ====================
@@ -281,7 +280,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Div_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'div',
           'div(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== mod ====================
@@ -301,7 +300,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Mod_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'mod',
           'mod(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== sqrt ====================
@@ -321,7 +320,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Sqrt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sqrt',
           'sqrt(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== cbrt ====================
@@ -341,7 +340,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Cbrt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cbrt',
           'cbrt(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== pow ====================
@@ -361,7 +360,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Pow_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'pow',
           'pow(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== exp ====================
@@ -381,7 +380,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Exp_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'exp',
           'exp(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== log ====================
@@ -401,7 +400,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Log_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'log',
           'log(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== ln ====================
@@ -421,7 +420,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Ln_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'ln',
           'ln(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== cos ====================
@@ -441,7 +440,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Cos_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cos',
           'cos(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== sin ====================
@@ -461,7 +460,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Sin_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sin',
           'sin(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== tan ====================
@@ -481,7 +480,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Tan_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'tan',
           'tan(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== cosh ====================
@@ -501,7 +500,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Cosh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cosh',
           'cosh(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== sinh ====================
@@ -521,7 +520,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Sinh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sinh',
           'sinh(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== tanh ====================
@@ -541,7 +540,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Tanh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'tanh',
           'tanh(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== acos ====================
@@ -561,7 +560,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Acos_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'acos',
           'acos(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== asin ====================
@@ -581,7 +580,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Asin_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'asin',
           'asin(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== atan ====================
@@ -601,7 +600,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Atan_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atan',
           'atan(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== acosh ====================
@@ -621,7 +620,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Acosh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'acosh',
           'acosh(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== asinh ====================
@@ -641,7 +640,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Asinh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'asinh',
           'asinh(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== atanh ====================
@@ -661,7 +660,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Atanh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atanh',
           'atanh(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== comparedTo ====================
@@ -682,7 +681,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ComparedTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'comparedTo',
           'comparedTo(n: Value): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== equals ====================
@@ -702,7 +701,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Equals_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'equals',
           'equals(n: Value): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== greaterThan ====================
@@ -723,7 +722,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_GreaterThan_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'greaterThan',
           'greaterThan(n: Value): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== greaterThanOrEqualTo ====================
@@ -743,7 +742,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_GreaterThanOrEqualTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'greaterThanOrEqualTo',
           'greaterThanOrEqualTo(n: Value): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== lessThan ====================
@@ -763,7 +762,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_LessThan_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'lessThan',
           'lessThan(n: Value): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== lessThanOrEqualTo ====================
@@ -784,7 +783,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_LessThanOrEqualTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'lessThanOrEqualTo',
           'lessThanOrEqualTo(n: Value): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isFinite ====================
@@ -804,7 +803,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_IsFinite_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'isFinite',
           'isFinite(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isInteger ====================
@@ -824,7 +823,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_IsInteger_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'isInteger',
           'isInteger(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isNaN ====================
@@ -844,7 +843,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_IsNaN_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'isNaN',
           'isNaN(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isNegative ====================
@@ -864,7 +863,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_IsNegative_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'isNegative',
           'isNegative(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isPositive ====================
@@ -884,7 +883,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_IsPositive_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'isPositive',
           'isPositive(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isZero ====================
@@ -904,7 +903,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_IsZero_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'isZero',
           'isZero(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== dividedToIntegerBy ====================
@@ -925,7 +924,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_DividedToIntegerBy_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'dividedToIntegerBy',
           'dividedToIntegerBy(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== negate ====================
@@ -945,7 +944,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Negate_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'negate',
           'negate(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toBinary ====================
@@ -965,7 +964,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToBinary_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toBinary',
           'toBinary(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToBinary_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -983,7 +982,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToBinary_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toBinary',
           'toBinary(significantDigits: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToBinary_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1001,7 +1000,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToBinary_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toBinary',
           'toBinary(significantDigits: number, rounding: Rounding): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toOctal ====================
@@ -1021,7 +1020,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToOctal_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toOctal',
           'toOctal(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToOctal_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1039,7 +1038,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToOctal_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toOctal',
           'toOctal(significantDigits: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToOctal_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1057,7 +1056,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToOctal_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toOctal',
           'toOctal(significantDigits: number, rounding: Rounding): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toHexadecimal ====================
@@ -1077,7 +1076,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToHexadecimal_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toHexadecimal',
           'toHexadecimal(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToHexadecimal_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1095,7 +1094,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToHexadecimal_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toHexadecimal',
           'toHexadecimal(significantDigits: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToHexadecimal_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1113,7 +1112,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToHexadecimal_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toHexadecimal',
           'toHexadecimal(significantDigits: number, rounding: Rounding): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toDecimalPlaces ====================
@@ -1133,7 +1132,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToDecimalPlaces_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toDecimalPlaces',
           'toDecimalPlaces(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToDecimalPlaces_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1151,7 +1150,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToDecimalPlaces_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toDecimalPlaces',
           'toDecimalPlaces(decimalPlaces: number): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToDecimalPlaces_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1169,7 +1168,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToDecimalPlaces_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toDecimalPlaces',
           'toDecimalPlaces(decimalPlaces: number, rounding: Rounding): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toExponential ====================
@@ -1189,7 +1188,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToExponential_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toExponential',
           'toExponential(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToExponential_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1207,7 +1206,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToExponential_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toExponential',
           'toExponential(decimalPlaces: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToExponential_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1225,7 +1224,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToExponential_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toExponential',
           'toExponential(decimalPlaces: number, rounding: Rounding): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toFixed ====================
@@ -1245,7 +1244,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToFixed_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toFixed',
           'toFixed(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToFixed_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1263,7 +1262,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToFixed_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toFixed',
           'toFixed(decimalPlaces: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToFixed_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1281,7 +1280,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToFixed_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toFixed',
           'toFixed(decimalPlaces: number, rounding: Rounding): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toFraction ====================
@@ -1301,7 +1300,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToFraction_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toFraction',
           'toFraction(): Decimal[]', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToFraction_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1319,7 +1318,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToFraction_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toFraction',
           'toFraction(maxDenominator: Value): Decimal[]', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toNearest ====================
@@ -1339,7 +1338,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToNearest_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toNearest',
           'toNearest(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToNearest_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1357,7 +1356,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToNearest_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toNearest',
           'toNearest(n: Value, rounding: Rounding): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toPrecision ====================
@@ -1377,7 +1376,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToPrecision_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toPrecision',
           'toPrecision(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToPrecision_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1395,7 +1394,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToPrecision_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toPrecision',
           'toPrecision(significantDigits: number): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToPrecision_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1413,7 +1412,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToPrecision_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toPrecision',
           'toPrecision(significantDigits: number, rounding: Rounding): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toSignificantDigits ====================
@@ -1433,7 +1432,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToSignificantDigits_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toSignificantDigits',
           'toSignificantDigits(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToSignificantDigits_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1451,7 +1450,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToSignificantDigits_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toSignificantDigits',
           'toSignificantDigits(significantDigits: number): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_ToSignificantDigits_0300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1469,7 +1468,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToSignificantDigits_0300: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toSignificantDigits',
           'toSignificantDigits(significantDigits: number, rounding: Rounding): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toNumber ====================
@@ -1489,7 +1488,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToNumber_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toNumber',
           'toNumber(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== toString ====================
@@ -1509,7 +1508,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ToString_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'toString',
           'toString(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== valueOf ====================
@@ -1529,7 +1528,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_ValueOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'valueOf',
           'valueOf(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== decimalPlaces ====================
@@ -1549,7 +1548,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_DecimalPlaces_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'decimalPlaces',
           'decimalPlaces(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== precision ====================
@@ -1569,7 +1568,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Precision_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'precision',
           'precision(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_Precision_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1587,7 +1586,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_Precision_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'precision',
           'precision(includeZeros: boolean | number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static abs ====================
@@ -1606,7 +1605,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAbs_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'abs',
           'static abs(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static floor ====================
@@ -1625,7 +1624,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticFloor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'floor',
           'static floor(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static ceil ====================
@@ -1644,7 +1643,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticCeil_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'ceil',
           'static ceil(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static trunc ====================
@@ -1663,7 +1662,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticTrunc_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'trunc',
           'static trunc(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static clamp ====================
@@ -1682,7 +1681,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticClamp_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'clamp',
           'static clamp(n: Value, min: Value, max: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static add ====================
@@ -1701,7 +1700,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAdd_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'add',
           'static add(x: Value, y: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static sum ====================
@@ -1720,7 +1719,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSum_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sum',
           'static sum(...n: Value[]): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static sub ====================
@@ -1739,7 +1738,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSub_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sub',
           'static sub(x: Value, y: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static mul ====================
@@ -1758,7 +1757,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticMul_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'mul',
           'static mul(x: Value, y: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static div ====================
@@ -1777,7 +1776,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticDiv_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'div',
           'static div(x: Value, y: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static mod ====================
@@ -1796,7 +1795,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticMod_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'mod',
           'static mod(x: Value, y: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static sqrt ====================
@@ -1815,7 +1814,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSqrt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sqrt',
           'static sqrt(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static cbrt ====================
@@ -1834,7 +1833,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticCbrt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cbrt',
           'static cbrt(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static pow ====================
@@ -1853,7 +1852,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticPow_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'pow',
           'static pow(base: Value, exponent: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static exp ====================
@@ -1872,7 +1871,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticExp_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'exp',
           'static exp(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static log ====================
@@ -1891,7 +1890,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticLog_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'log',
           'static log(n: Value, base: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static ln ====================
@@ -1910,7 +1909,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticLn_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'ln',
           'static ln(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static log2 ====================
@@ -1929,7 +1928,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticLog2_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'log2',
           'static log2(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static log10 ====================
@@ -1948,7 +1947,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticLog10_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'log10',
           'static log10(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static cos ====================
@@ -1967,7 +1966,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticCos_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cos',
           'static cos(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static sin ====================
@@ -1986,7 +1985,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSin_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sin',
           'static sin(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static tan ====================
@@ -2005,7 +2004,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticTan_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'tan',
           'static tan(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static cosh ====================
@@ -2024,7 +2023,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticCosh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'cosh',
           'static cosh(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static sinh ====================
@@ -2043,7 +2042,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSinh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sinh',
           'static sinh(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static tanh ====================
@@ -2062,7 +2061,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticTanh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'tanh',
           'static tanh(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static acos ====================
@@ -2081,7 +2080,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAcos_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'acos',
           'static acos(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static asin ====================
@@ -2100,7 +2099,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAsin_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'asin',
           'static asin(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static atan ====================
@@ -2119,7 +2118,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAtan_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atan',
           'static atan(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static acosh ====================
@@ -2138,7 +2137,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAcosh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'acosh',
           'static acosh(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static asinh ====================
@@ -2157,7 +2156,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAsinh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'asinh',
           'static asinh(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static atanh ====================
@@ -2176,7 +2175,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAtanh_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atanh',
           'static atanh(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static atan2 ====================
@@ -2195,7 +2194,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticAtan2_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'atan2',
           'static atan2(y: Value, x: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static hypot ====================
@@ -2214,7 +2213,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticHypot_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'hypot',
           'static hypot(...n: Value[]): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static max ====================
@@ -2233,7 +2232,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticMax_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'max',
           'static max(...n: Value[]): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static min ====================
@@ -2252,7 +2251,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticMin_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'min',
           'static min(...n: Value[]): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static random ====================
@@ -2271,7 +2270,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticRandom_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'random',
           'static random(): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Decimal_StaticRandom_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -2288,7 +2287,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticRandom_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'random',
           'static random(significantDigits: number): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static sign ====================
@@ -2307,7 +2306,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSign_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'sign',
           'static sign(n: Value): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static round ====================
@@ -2326,7 +2325,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticRound_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'round',
           'static round(n: Value): Decimal', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== static set ====================
@@ -2344,7 +2343,7 @@ export default function DecimalPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Decimal_StaticSet_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Decimal', 'set',
           'static set(config: DecimalConfig): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

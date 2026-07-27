@@ -52,7 +52,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length ====================
@@ -73,7 +73,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. push ====================
@@ -96,7 +96,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Push_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'push',
           'push(item: T): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. pop ====================
@@ -121,7 +121,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Pop_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'pop',
           'pop(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. peek ====================
@@ -142,7 +142,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Peek_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'peek',
           'peek(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. locate ====================
@@ -163,7 +163,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Locate_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'locate',
           'locate(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. isEmpty ====================
@@ -183,7 +183,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. forEach ====================
@@ -206,7 +206,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'forEach',
           'forEach(callbackfn: StackForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -227,7 +227,7 @@ export default function StackPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

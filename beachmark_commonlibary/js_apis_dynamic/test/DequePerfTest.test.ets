@@ -52,7 +52,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length ====================
@@ -73,7 +73,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. insertFront ====================
@@ -96,7 +96,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_InsertFront_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'insertFront',
           'insertFront(element: T): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. insertEnd ====================
@@ -119,7 +119,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_InsertEnd_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'insertEnd',
           'insertEnd(element: T): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. has ====================
@@ -140,7 +140,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'has',
           'has(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. popFirst ====================
@@ -165,7 +165,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_PopFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'popFirst',
           'popFirst(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. popLast ====================
@@ -190,7 +190,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_PopLast_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'popLast',
           'popLast(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. getFirst ====================
@@ -211,7 +211,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_GetFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'getFirst',
           'getFirst(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. getLast ====================
@@ -232,7 +232,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_GetLast_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'getLast',
           'getLast(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. forEach ====================
@@ -257,7 +257,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'forEach',
           'forEach(callbackFn: DequeForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. [index] ====================
@@ -279,7 +279,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_IndexAccess_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', '[index]',
           '[index: number]: T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -300,7 +300,7 @@ export default function DequePerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

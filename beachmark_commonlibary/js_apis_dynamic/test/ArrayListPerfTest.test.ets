@@ -53,7 +53,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== length ====================
@@ -74,7 +74,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== add ====================
@@ -97,7 +97,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'add',
           'add(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== insert ====================
@@ -122,7 +122,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Insert_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'insert',
           'insert(element: T, index: number): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== has ====================
@@ -146,7 +146,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'has',
           'has(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== getIndexOf ====================
@@ -170,7 +170,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_GetIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'getIndexOf',
           'getIndexOf(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== getLastIndexOf ====================
@@ -194,7 +194,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_GetLastIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'getLastIndexOf',
           'getLastIndexOf(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== removeByIndex ====================
@@ -219,7 +219,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_RemoveByIndex_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'removeByIndex',
           'removeByIndex(index: number): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== remove ====================
@@ -244,7 +244,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'remove',
           'remove(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== removeByRange ====================
@@ -269,7 +269,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_RemoveByRange_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'removeByRange',
           'removeByRange(fromIndex: number, toIndex: number): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== replaceAllElements ====================
@@ -300,7 +300,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_ReplaceAllElements_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'replaceAllElements',
           'replaceAllElements(callbackFn: ArrayListReplaceCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== forEach ====================
@@ -326,7 +326,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'forEach',
           'forEach(callbackFn: ArrayListForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== sort ====================
@@ -352,7 +352,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Sort_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'sort',
           'sort(comparator: ArrayListComparatorFn<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_ArrayList_Sort_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -375,7 +375,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Sort_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'sort',
           'sort(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== subArrayList ====================
@@ -399,7 +399,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_SubArrayList_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'subArrayList',
           'subArrayList(fromIndex: number, toIndex: number): ArrayList<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== clear ====================
@@ -424,7 +424,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== clone ====================
@@ -448,7 +448,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Clone_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'clone',
           'clone(): ArrayList<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== getCapacity ====================
@@ -472,7 +472,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_GetCapacity_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'getCapacity',
           'getCapacity(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== convertToArray ====================
@@ -496,7 +496,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_ConvertToArray_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'convertToArray',
           'convertToArray(): Array<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== isEmpty ====================
@@ -520,7 +520,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== [index] ====================
@@ -544,7 +544,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_IndexAccess_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', '[index]',
           '[index: number]: T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== increaseCapacityTo ====================
@@ -572,7 +572,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_IncreaseCapacityTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'increaseCapacityTo',
           'increaseCapacityTo(newCapacity: number): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== trimToCurrentLength ====================
@@ -600,7 +600,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_TrimToCurrentLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', 'trimToCurrentLength',
           'trimToCurrentLength(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -624,7 +624,7 @@ export default function ArrayListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ArrayList_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArrayList', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

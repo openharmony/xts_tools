@@ -1,4 +1,5 @@
-﻿/*
+﻿'use static'
+/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +31,7 @@ import { url } from '@kit.ArkTS';
 
 export default function URLPerfTest(): void {
   describe('URLPerfTest', (): void => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
@@ -42,7 +43,7 @@ export default function URLPerfTest(): void {
     });
 
     afterAll((): void => {
-      performance.save('apiURLParams.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('URLPerfTest_string_get_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {

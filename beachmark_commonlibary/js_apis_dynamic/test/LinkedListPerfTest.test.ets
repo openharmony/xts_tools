@@ -52,7 +52,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length (Attributes) ====================
@@ -73,7 +73,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. add ====================
@@ -96,7 +96,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'add',
           'add(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. insert ====================
@@ -117,7 +117,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Insert_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'insert',
           'insert(index: number, element: T): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. addFirst ====================
@@ -140,7 +140,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_AddFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'addFirst',
           'addFirst(element: T): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. get ====================
@@ -161,7 +161,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Get_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'get',
           'get(index: number): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. getFirst ====================
@@ -182,7 +182,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_GetFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'getFirst',
           'getFirst(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. getLast ====================
@@ -203,7 +203,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_GetLast_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'getLast',
           'getLast(): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. has ====================
@@ -224,7 +224,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'has',
           'has(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. getLastIndexOf ====================
@@ -247,7 +247,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_GetLastIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'getLastIndexOf',
           'getLastIndexOf(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. getIndexOf ====================
@@ -269,7 +269,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_GetIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'getIndexOf',
           'getIndexOf(element: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. set ====================
@@ -296,7 +296,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Set_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'set',
           'set(index: number, element: T): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. remove ====================
@@ -321,7 +321,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'remove',
           'remove(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. removeFirstFound ====================
@@ -346,7 +346,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_RemoveFirstFound_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'removeFirstFound',
           'removeFirstFound(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 15. removeLastFound ====================
@@ -371,7 +371,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_RemoveLastFound_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'removeLastFound',
           'removeLastFound(element: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 16. removeByIndex ====================
@@ -396,7 +396,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_RemoveByIndex_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'removeByIndex',
           'removeByIndex(index: number): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 17. removeFirst ====================
@@ -421,7 +421,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_RemoveFirst_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'removeFirst',
           'removeFirst(): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 18. removeLast ====================
@@ -446,7 +446,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_RemoveLast_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'removeLast',
           'removeLast(): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 19. clear ====================
@@ -470,7 +470,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 20. clone ====================
@@ -491,7 +491,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Clone_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'clone',
           'clone(): LinkedList<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 21. convertToArray ====================
@@ -512,7 +512,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_ConvertToArray_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'convertToArray',
           'convertToArray(): Array<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 22. forEach ====================
@@ -533,7 +533,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', 'forEach',
           'forEach(callbackfn: LinkedListForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 23. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -554,7 +554,7 @@ export default function LinkedListPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LinkedList_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LinkedList', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

@@ -26,7 +26,7 @@ declare class ArkTools {
 
 export default function ArkTsUtilsPerfTest(): void {
   describe('ArkTsUtilsPerfTest', () => {
-    const BASE_COUNT = 1;
+    const BASE_COUNT = 500;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
@@ -53,7 +53,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_IsSendable_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ArkTSUtils', 'isSendable',
           'isSendable(value: Object | null | undefined): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 
@@ -73,7 +73,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_AsyncLockConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncLock', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. AsyncLock.request ====================
@@ -92,7 +92,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_AsyncLockRequest_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncLock', 'request',
           'static request(name: string): AsyncLock', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. AsyncLock.query ====================
@@ -112,7 +112,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_AsyncLockQuery_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncLock', 'query',
           'static query(name: string): AsyncLockState', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. AsyncLock.queryAll ====================
@@ -132,7 +132,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_AsyncLockQueryAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncLock', 'queryAll',
           'static queryAll(): AsyncLockState[]', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. AsyncLock.name (Attribute) ====================
@@ -152,7 +152,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_AsyncLockName_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncLock', 'name',
           'readonly name: string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. AsyncLockOptions constructor ====================
@@ -171,7 +171,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_AsyncLockOptionsConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncLockOptions', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. ConditionVariable constructor ====================
@@ -190,7 +190,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ConditionVariableConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConditionVariable', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. ConditionVariable.request ====================
@@ -209,7 +209,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ConditionVariableRequest_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConditionVariable', 'request',
           'static request(name: string): ConditionVariable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. ConditionVariable.notifyAll ====================
@@ -231,7 +231,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ConditionVariableNotifyAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConditionVariable', 'notifyAll',
           'notifyAll(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. ConditionVariable.notifyOne ====================
@@ -253,7 +253,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ConditionVariableNotifyOne_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ConditionVariable', 'notifyOne',
           'notifyOne(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. ASON.parse ====================
@@ -273,7 +273,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ASONParse_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ASON', 'parse',
           'parse(text: string, reviver?: Transformer, options?: ParseOptions): ISendable | null', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. ASON.stringify ====================
@@ -294,7 +294,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_ASONStringify_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ASON', 'stringify',
           'stringify(value: Object | null | undefined): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. SendableLruCache constructor ====================
@@ -313,7 +313,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'constructor',
           'constructor(capacity?: number)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 15. SendableLruCache.length (Attribute) ====================
@@ -334,7 +334,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'length',
           'readonly length: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 16. SendableLruCache.updateCapacity ====================
@@ -357,7 +357,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheUpdateCapacity_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'updateCapacity',
           'updateCapacity(newCapacity: number): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 17. SendableLruCache.toString ====================
@@ -378,7 +378,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheToString_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'toString',
           'toString(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 18. SendableLruCache.getCapacity ====================
@@ -398,7 +398,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGetCapacity_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'getCapacity',
           'getCapacity(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 19. SendableLruCache.clear ====================
@@ -422,7 +422,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheClear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 20. SendableLruCache.getCreateCount ====================
@@ -443,7 +443,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGetCreateCount_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'getCreateCount',
           'getCreateCount(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 21. SendableLruCache.getMissCount ====================
@@ -465,7 +465,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGetMissCount_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'getMissCount',
           'getMissCount(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 22. SendableLruCache.getRemoveCount ====================
@@ -486,7 +486,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGetRemoveCount_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'getRemoveCount',
           'getRemoveCount(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 23. SendableLruCache.getMatchCount ====================
@@ -508,7 +508,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGetMatchCount_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'getMatchCount',
           'getMatchCount(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 24. SendableLruCache.getPutCount ====================
@@ -529,7 +529,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGetPutCount_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'getPutCount',
           'getPutCount(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 25. SendableLruCache.isEmpty ====================
@@ -549,7 +549,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheIsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 26. SendableLruCache.get ====================
@@ -570,7 +570,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheGet_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'get',
           'get(key: K): V | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 27. SendableLruCache.put ====================
@@ -593,7 +593,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCachePut_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'put',
           'put(key: K, value: V): V', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 28. SendableLruCache.values ====================
@@ -615,7 +615,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheValues_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'values',
           'values(): V[]', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 29. SendableLruCache.keys ====================
@@ -637,7 +637,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheKeys_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'keys',
           'keys(): K[]', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 30. SendableLruCache.remove ====================
@@ -662,7 +662,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheRemove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'remove',
           'remove(key: K): V | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 31. SendableLruCache.contains ====================
@@ -683,7 +683,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheContains_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'contains',
           'contains(key: K): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 32. SendableLruCache.entries ====================
@@ -705,7 +705,7 @@ export default function ArkTsUtilsPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Utils_SendableLruCacheEntries_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SendableLruCache', 'entries',
           'entries(): IterableIterator<[K, V]>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

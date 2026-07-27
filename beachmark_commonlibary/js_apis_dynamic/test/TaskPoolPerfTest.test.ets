@@ -66,7 +66,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'constructor',
           'constructor(func: Function, ...args: Object[])', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. Task constructor(name, func, ...args) ====================
@@ -85,7 +85,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_Constructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'constructor',
           'constructor(name: string, func: Function, ...args: Object[])', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. Task.isCanceled (static) ====================
@@ -104,7 +104,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_IsCanceled_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'isCanceled',
           'static isCanceled(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. task.setTransferList ====================
@@ -128,7 +128,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_SetTransferList_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'setTransferList',
           'setTransferList(transfer?: ArrayBuffer[]): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. task.setCloneList ====================
@@ -151,7 +151,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_SetCloneList_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'setCloneList',
           'setCloneList(cloneList: Object[] | ArrayBuffer[]): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. task.onReceiveData ====================
@@ -174,7 +174,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_OnReceiveData_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'onReceiveData',
           'onReceiveData(callback?: Function): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. task.addDependency ====================
@@ -189,17 +189,16 @@ export default function TaskPoolPerfTest(): void {
         }
         tasks[0].addDependency(deps[0]);
         let arkTsAveragedTime: number = 0;
-        let res1 = tasks[0];
         let Stime = systemDateTime.getTime(true);
         for (let i = 1; i <= BASE_COUNT; i++) {
-          res1 = tasks[i].addDependency(deps[i]);
+          tasks[i].addDependency(deps[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_AddDependency_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'addDependency',
           'addDependency(...tasks: Task[]): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. task.removeDependency ====================
@@ -215,17 +214,16 @@ export default function TaskPoolPerfTest(): void {
         }
         tasks[0].removeDependency(deps[0]);
         let arkTsAveragedTime: number = 0;
-        let res1 = tasks[0];
         let Stime = systemDateTime.getTime(true);
         for (let i = 1; i <= BASE_COUNT; i++) {
-          res1 = tasks[i].removeDependency(deps[i]);
+          tasks[i].removeDependency(deps[i]);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         arkTsAveragedTime = Dtime / BASE_COUNT;
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_RemoveDependency_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'removeDependency',
           'removeDependency(...tasks: Task[]): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. task.onEnqueued ====================
@@ -248,7 +246,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_OnEnqueued_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'onEnqueued',
           'onEnqueued(callback: CallbackFunction): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. task.onStartExecution ====================
@@ -271,7 +269,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_OnStartExecution_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'onStartExecution',
           'onStartExecution(callback: CallbackFunction): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. task.onExecutionFailed ====================
@@ -294,7 +292,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_OnExecutionFailed_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'onExecutionFailed',
           'onExecutionFailed(callback: CallbackFunctionWithError): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. task.onExecutionSucceeded ====================
@@ -317,7 +315,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_OnExecutionSucceeded_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'onExecutionSucceeded',
           'onExecutionSucceeded(callback: CallbackFunction): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. task.isDone ====================
@@ -337,7 +335,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_IsDone_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'isDone',
           'isDone(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. task.name (attribute) ====================
@@ -357,7 +355,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_Name_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'name',
           'get name: string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 15. task.taskId (attribute) ====================
@@ -377,7 +375,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TaskId_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'taskId',
           'get taskId: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 16. task.function (attribute) ====================
@@ -397,7 +395,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_Function_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'function',
           'get function: Function', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 17. task.totalDuration (attribute) ====================
@@ -417,7 +415,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TotalDuration_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'totalDuration',
           'get totalDuration: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 18. task.ioDuration (attribute) ====================
@@ -437,7 +435,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_IoDuration_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'ioDuration',
           'get ioDuration: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 19. task.cpuDuration (attribute) ====================
@@ -457,7 +455,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_CpuDuration_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Task', 'cpuDuration',
           'get cpuDuration: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 20. taskpool.isConcurrent ====================
@@ -476,7 +474,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_IsConcurrent_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'taskpool', 'isConcurrent',
           'isConcurrent(func: Function): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 21. taskpool.getTaskPoolInfo ====================
@@ -495,7 +493,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_GetTaskPoolInfo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'taskpool', 'getTaskPoolInfo',
           'getTaskPoolInfo(): TaskPoolInfo', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 22. TaskGroup constructor() ====================
@@ -514,7 +512,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TaskGroupConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'TaskGroup', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 23. TaskGroup constructor(name) ====================
@@ -533,7 +531,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TaskGroupConstructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'TaskGroup', 'constructor',
           'constructor(name: string)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 24. taskGroup.addTask(func, ...args) ====================
@@ -555,7 +553,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TaskGroupAddTask_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'TaskGroup', 'addTask',
           'addTask(func: Function, ...args: Object[]): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 25. taskGroup.addTask(task) ====================
@@ -579,7 +577,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TaskGroupAddTask_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'TaskGroup', 'addTask',
           'addTask(task: Task): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 26. TaskGroup.name (attribute) ====================
@@ -599,7 +597,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_TaskGroupName_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'TaskGroup', 'name',
           'get name: string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 27. SequenceRunner constructor() ====================
@@ -618,7 +616,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_SequenceRunnerConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SequenceRunner', 'constructor',
           'constructor(priority?: Priority)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 28. SequenceRunner constructor(priority) ====================
@@ -637,7 +635,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_SequenceRunnerConstructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'SequenceRunner', 'constructor',
           'constructor(priority?: Priority)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 29. LongTask constructor ====================
@@ -656,7 +654,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_LongTaskConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LongTask', 'constructor',
           'constructor(func: Function, ...args: Object[])', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 30. GenericsTask constructor(func, ...args) ====================
@@ -675,7 +673,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_GenericsTaskConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'GenericsTask', 'constructor',
           'constructor(func: (...args: A) => R | Promise<R>, ...args: A)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 31. GenericsTask constructor(name, func, ...args) ====================
@@ -694,7 +692,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_GenericsTaskConstructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'GenericsTask', 'constructor',
           'constructor(name: string, func: (...args: A) => R | Promise<R>, ...args: A)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 32. AsyncRunner constructor(runningCapacity) ====================
@@ -713,7 +711,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_AsyncRunnerConstructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncRunner', 'constructor',
           'constructor(runningCapacity: number, waitingCapacity?: number)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 33. AsyncRunner constructor(name, runningCapacity) ====================
@@ -732,7 +730,7 @@ export default function TaskPoolPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_TaskPool_AsyncRunnerConstructor_0200: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'AsyncRunner', 'constructor',
           'constructor(name: string, runningCapacity: number, waitingCapacity?: number)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
   })
 }

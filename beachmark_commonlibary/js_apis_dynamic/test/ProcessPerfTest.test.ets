@@ -52,7 +52,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_Uid_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'uid',
           'get uid: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. pid ====================
@@ -71,7 +71,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_Pid_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'pid',
           'get pid: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. tid ====================
@@ -90,7 +90,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_Tid_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'tid',
           'get tid: number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. isIsolatedProcess ====================
@@ -109,7 +109,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_IsIsolatedProcess_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'isIsolatedProcess',
           'isIsolatedProcess(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. is64Bit ====================
@@ -128,7 +128,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_Is64Bit_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'is64Bit',
           'is64Bit(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. getStartRealtime ====================
@@ -147,7 +147,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_GetStartRealtime_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'getStartRealtime',
           'getStartRealtime(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. getPastCpuTime ====================
@@ -166,7 +166,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_GetPastCpuTime_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'getPastCpuTime',
           'getPastCpuTime(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. uptime ====================
@@ -185,7 +185,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Process_Uptime_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'process', 'uptime',
           'uptime(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. ProcessManager constructor ====================
@@ -204,7 +204,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ProcessManager_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ProcessManager', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. ProcessManager.isAppUid ====================
@@ -225,7 +225,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ProcessManager_IsAppUid_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ProcessManager', 'isAppUid',
           'isAppUid(v: number): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. ProcessManager.getUidForName ====================
@@ -245,7 +245,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ProcessManager_GetUidForName_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ProcessManager', 'getUidForName',
           'getUidForName(v: string): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. ProcessManager.getThreadPriority ====================
@@ -266,7 +266,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ProcessManager_GetThreadPriority_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ProcessManager', 'getThreadPriority',
           'getThreadPriority(v: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. ProcessManager.getSystemConfig ====================
@@ -287,7 +287,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ProcessManager_GetSystemConfig_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ProcessManager', 'getSystemConfig',
           'getSystemConfig(name: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. ProcessManager.getEnvironmentVar ====================
@@ -308,7 +308,7 @@ export default function ProcessPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_ProcessManager_GetEnvironmentVar_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'ProcessManager', 'getEnvironmentVar',
           'getEnvironmentVar(name: string): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

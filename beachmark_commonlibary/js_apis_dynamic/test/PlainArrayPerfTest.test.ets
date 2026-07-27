@@ -52,7 +52,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length ====================
@@ -73,7 +73,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. isEmpty ====================
@@ -93,7 +93,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. has ====================
@@ -114,7 +114,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'has',
           'has(key: number): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. get ====================
@@ -135,7 +135,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Get_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'get',
           'get(key: number): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. getIndexOfKey ====================
@@ -156,7 +156,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetIndexOfKey_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getIndexOfKey',
           'getIndexOfKey(key: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. getIndexOfValue ====================
@@ -177,7 +177,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetIndexOfValue_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getIndexOfValue',
           'getIndexOfValue(value: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. getKeyAt ====================
@@ -198,7 +198,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetKeyAt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getKeyAt',
           'getKeyAt(index: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. getValueAt ====================
@@ -219,7 +219,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetValueAt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getValueAt',
           'getValueAt(index: number): T', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. clone ====================
@@ -240,7 +240,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Clone_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'clone',
           'clone(): PlainArray<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. add ====================
@@ -263,7 +263,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'add',
           'add(key: number, value: T): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. remove ====================
@@ -288,7 +288,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'remove',
           'remove(key: number): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. removeAt ====================
@@ -313,7 +313,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_RemoveAt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'removeAt',
           'removeAt(index: number): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. removeRangeFrom ====================
@@ -338,7 +338,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_RemoveRangeFrom_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'removeRangeFrom',
           'removeRangeFrom(index: number, size: number): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 15. setValueAt ====================
@@ -365,7 +365,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_SetValueAt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'setValueAt',
           'setValueAt(index: number, value: T): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 16. toString ====================
@@ -386,7 +386,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_ToString_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'toString',
           'toString(): String', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 17. clear ====================
@@ -410,7 +410,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 18. forEach ====================
@@ -431,7 +431,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'forEach',
           'forEach(callbackfn: PlainArrayForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 19. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -452,7 +452,7 @@ export default function PlainArrayPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', '$_iterator',
           '$_iterator(): IterableIterator<[number, T]>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 

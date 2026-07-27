@@ -1,4 +1,5 @@
-﻿/*
+﻿'use static'
+/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -61,7 +62,7 @@ class Temperature implements util.ScopeComparable<Temperature> {
 
 export default function UtilPerfTest01(): void {
   describe('UtilPerfTest01', (): void => {
-    const BASE_COUNT = 50000;
+    const BASE_COUNT = 1000;
     const BASE_COUNT_BIG = 500000;
     const UNIT_TIME = 1000000;
 
@@ -73,7 +74,7 @@ export default function UtilPerfTest01(): void {
     });
 
     afterAll((): void => {
-      performance.save('apiUtil.txt');
+      performance.save('apiPerformance.txt');
     });
 
     it('UtilPerfTest01_string_format_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {

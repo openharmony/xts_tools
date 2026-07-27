@@ -1,4 +1,5 @@
-﻿/*
+﻿'use static'
+/*
  * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +43,7 @@ export default function TreeMapPerfTest(): void {
     })
 
     afterAll(() => {
-      performance.save('apiTreeMap.txt');
+      performance.save('apiPerformance.txt');
     })
 
     it('TreeMapPerfTest_Object_Set_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {

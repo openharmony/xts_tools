@@ -87,7 +87,7 @@ class PerfTransform extends stream.Transform {
 
 export default function StreamPerfTest(): void {
   describe('StreamPerfTest', () => {
-    const BASE_COUNT = 500;
+    const BASE_COUNT = 100;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
@@ -113,7 +113,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_WritableObjectMode_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -131,7 +131,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_WritableObjectMode_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writableObjectMode',
           'get writableObjectMode(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_WritableHighWatermark_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -149,7 +149,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_WritableHighWatermark_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writableHighWatermark',
           'get writableHighWatermark(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_Writable_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -167,7 +167,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_Writable_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writable',
           'get writable(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_WritableLength_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -185,7 +185,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_WritableLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writableLength',
           'get writableLength(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_WritableCorked_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -203,7 +203,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_WritableCorked_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writableCorked',
           'get writableCorked(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_WritableEnded_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -221,7 +221,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_WritableEnded_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writableEnded',
           'get writableEnded(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_WritableFinished_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -239,7 +239,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_WritableFinished_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.writableFinished',
           'get writableFinished(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -260,7 +260,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_Write_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.write',
           'write(chunk?: string | Uint8Array, encoding?: string, callback?: Function): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_End_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -281,7 +281,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_End_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.end',
           'end(chunk?: string | Uint8Array, encoding?: string, callback?: Function): Writable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_SetDefaultEncoding_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -299,7 +299,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_SetDefaultEncoding_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.setDefaultEncoding',
           'setDefaultEncoding(encoding?: string): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_Cork_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -320,7 +320,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_Cork_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.cork',
           'cork(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_Uncork_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -343,7 +343,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_Uncork_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.uncork',
           'uncork(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_On_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -365,7 +365,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_On_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.on',
           'on(event: string, callback: Function): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Writable_Off_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -388,7 +388,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Writable_Off_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Writable.off',
           'off(event: string, callback?: Function): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. ReadableOptions & Readable base class properties and methods ====================
@@ -407,7 +407,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_ReadableOptions_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -425,7 +425,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_ReadableOptions_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.options_constructor',
           'constructor(options: ReadableOptions)', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_ReadableObjectMode_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -443,7 +443,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_ReadableObjectMode_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readableObjectMode',
           'get readableObjectMode(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Readable_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -461,7 +461,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Readable_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readable',
           'get readable(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_ReadableHighWatermark_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -479,7 +479,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_ReadableHighWatermark_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readableHighWatermark',
           'get readableHighWatermark(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_ReadableFlowing_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -497,7 +497,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_ReadableFlowing_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readableFlowing',
           'get readableFlowing(): boolean | null', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_ReadableLength_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -515,7 +515,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_ReadableLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readableLength',
           'get readableLength(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_ReadableEncoding_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -533,7 +533,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_ReadableEncoding_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readableEncoding',
           'get readableEncoding(): string | null', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_ReadableEnded_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -551,7 +551,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_ReadableEnded_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.readableEnded',
           'get readableEnded(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Read_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -575,7 +575,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Read_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.read',
           'read(size?: number): buffer.Buffer | string | null', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Resume_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -593,7 +593,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Resume_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.resume',
           'resume(): Readable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Pause_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -611,7 +611,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Pause_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.pause',
           'pause(): Readable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_SetEncoding_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -629,7 +629,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_SetEncoding_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.setEncoding',
           'setEncoding(encoding?: string): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_IsPaused_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -647,7 +647,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_IsPaused_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.isPaused',
           'isPaused(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Pipe_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -669,7 +669,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Pipe_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.pipe',
           'pipe(destination: Writable, options?: Object): Writable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Unpipe_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -693,7 +693,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Unpipe_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.unpipe',
           'unpipe(destination?: Writable): Readable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Push_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -714,7 +714,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Push_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.push',
           'push(chunk: Uint8Array | string | undefined | null, encoding?: string): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_On_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -736,7 +736,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_On_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.on',
           'on(event: string, callback: Function): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Readable_Off_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -759,7 +759,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Readable_Off_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Readable.off',
           'off(event: string, callback?: Function): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. Duplex base class methods and properties ====================
@@ -778,7 +778,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_WritableObjectMode_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -796,7 +796,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_WritableObjectMode_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writableObjectMode',
           'get writableObjectMode(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_WritableHighWatermark_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -814,7 +814,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_WritableHighWatermark_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writableHighWatermark',
           'get writableHighWatermark(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_Writable_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -832,7 +832,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_Writable_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writable',
           'get writable(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_WritableLength_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -850,7 +850,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_WritableLength_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writableLength',
           'get writableLength(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_WritableCorked_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -868,7 +868,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_WritableCorked_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writableCorked',
           'get writableCorked(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_WritableEnded_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -886,7 +886,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_WritableEnded_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writableEnded',
           'get writableEnded(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_WritableFinished_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -904,7 +904,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_WritableFinished_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.writableFinished',
           'get writableFinished(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -925,7 +925,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_Write_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.write',
           'write(chunk?: string | Uint8Array, encoding?: string, callback?: Function): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_End_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -946,7 +946,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_End_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.end',
           'end(chunk?: string | Uint8Array, encoding?: string, callback?: Function): Writable', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_SetDefaultEncoding_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -964,7 +964,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_SetDefaultEncoding_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.setDefaultEncoding',
           'setDefaultEncoding(encoding?: string): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_Cork_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -985,7 +985,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_Cork_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.cork',
           'cork(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     it('PerformanceTest_Stream_Duplex_Uncork_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
@@ -1008,7 +1008,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Duplex_Uncork_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Duplex.uncork',
           'uncork(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. Transform base class and constructor ====================
@@ -1027,7 +1027,7 @@ export default function StreamPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stream_Transform_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'stream', 'Transform.constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
   })

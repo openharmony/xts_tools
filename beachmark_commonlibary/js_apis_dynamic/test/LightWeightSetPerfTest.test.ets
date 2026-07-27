@@ -52,7 +52,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Constructor_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'constructor',
           'constructor()', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 2. length (Attributes) ====================
@@ -73,7 +73,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Length_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'length',
           'get length(): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 3. isEmpty ====================
@@ -93,7 +93,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'isEmpty',
           'isEmpty(): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 4. add ====================
@@ -120,7 +120,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Add_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'add',
           'add(value: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 5. addAll ====================
@@ -147,7 +147,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_AddAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'addAll',
           'addAll(set: LightWeightSet<T>): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 6. has ====================
@@ -168,7 +168,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Has_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'has',
           'has(value: T): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 7. hasAll ====================
@@ -191,7 +191,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_HasAll_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'hasAll',
           'hasAll(set: LightWeightSet<T>): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 8. getIndexOf ====================
@@ -212,7 +212,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_GetIndexOf_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'getIndexOf',
           'getIndexOf(key: T): number', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 9. getValueAt ====================
@@ -233,7 +233,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_GetValueAt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'getValueAt',
           'getValueAt(index: number): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 10. remove ====================
@@ -258,7 +258,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Remove_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'remove',
           'remove(key: T): T | undefined', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 11. removeAt ====================
@@ -283,7 +283,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_RemoveAt_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'removeAt',
           'removeAt(index: number): boolean', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 12. clear ====================
@@ -308,7 +308,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Clear_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'clear',
           'clear(): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 13. increaseCapacityTo ====================
@@ -316,14 +316,14 @@ export default function LightWeightSetPerfTest(): void {
     it('PerformanceTest_LightWeightSet_IncreaseCapacityTo_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let sets: LightWeightSet<string>[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < BASE_COUNT + 1; j++) {
           sets.push(new LightWeightSet<string>());
         }
-        let res: void = sets[0].increaseCapacityTo(20);
+        let res: void = sets[BASE_COUNT].increaseCapacityTo(21);
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
         for (let i = 0; i < BASE_COUNT; i++) {
-          res = sets[i].increaseCapacityTo(20);
+          res = sets[i].increaseCapacityTo(21);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
         let res1 = res;
@@ -331,7 +331,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_IncreaseCapacityTo_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'increaseCapacityTo',
           'increaseCapacityTo(minimumCapacity: number): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 14. toString ====================
@@ -352,7 +352,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_ToString_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'toString',
           'toString(): string', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 15. toArray ====================
@@ -373,7 +373,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_ToArray_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'toArray',
           'toArray(): Array<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 16. values ====================
@@ -394,7 +394,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Values_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'values',
           'values(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 17. entries ====================
@@ -415,7 +415,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Entries_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'entries',
           'entries(): IterableIterator<[T, T]>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 18. forEach ====================
@@ -440,7 +440,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_ForEach_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'forEach',
           'forEach(callbackFn: LightWeightSetForEachCb<T>): void', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
 
     // ==================== 19. $_iterator (skipped: not available in 1.1 Dyn) ====================
@@ -461,7 +461,7 @@ export default function LightWeightSetPerfTest(): void {
         console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Iterator_0100: ' + arkTsAveragedTime + 'ns');
         performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', '$_iterator',
           '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
-        done();
+        setTimeout(() => { done(); }, 10);
       })
     */
 
