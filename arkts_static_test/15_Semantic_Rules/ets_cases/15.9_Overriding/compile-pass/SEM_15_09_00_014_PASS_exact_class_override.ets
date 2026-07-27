@@ -16,7 +16,8 @@
  * @id SEM_15_09_00_014_PASS_exact_class_override
  * @expect compile-pass
  * @section 15.9
- * @design | 类方法重写 | Java 参数类型变化不是重写。 | Swift 要求显式 `override` 且签名更严格。 | `SEM_15_09_016_PASS_exact_class_override` | `SEM_15_09_017_FAIL_private_method_override_assumed` |
+ * @design | 绫绘柟娉曢噸鍐?| Java 鍙傛暟绫诲瀷鍙樺寲涓嶆槸閲嶅啓銆?| Swift 瑕佹眰鏄惧紡 `override` 涓旂鍚嶆洿涓ユ牸銆?|
+ *    `SEM_15_09_016_PASS_exact_class_override` | `SEM_15_09_017_FAIL_private_method_override_assumed` |
  * @note Generated one-to-one from test_design.
  */
 

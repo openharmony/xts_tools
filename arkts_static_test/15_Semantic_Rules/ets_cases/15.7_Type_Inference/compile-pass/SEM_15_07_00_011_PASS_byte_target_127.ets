@@ -16,7 +16,8 @@
  * @id SEM_15_07_00_011_PASS_byte_target_127
  * @expect compile-pass
  * @section 15.7
- * @design | 常量数值推断 | Java 字面量窄化和重载推断不同。 | Swift 数字字面量由协议和上下文驱动。 | `SEM_15_07_019_PASS_byte_target_127` | `SEM_15_07_020_FAIL_byte_target_128` |
+ * @design | 甯搁噺鏁板€兼帹鏂?| Java 瀛楅潰閲忕獎鍖栧拰閲嶈浇鎺ㄦ柇涓嶅悓銆?| Swift 鏁板瓧瀛楅潰閲忕敱鍗忚鍜屼笂涓嬫枃椹卞姩銆?|
+ *    `SEM_15_07_019_PASS_byte_target_127` | `SEM_15_07_020_FAIL_byte_target_128` |
  * @note Generated one-to-one from test_design.
  */
 

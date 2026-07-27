@@ -16,7 +16,8 @@
  * @id SEM_15_10_00_006_PASS_function_overload_by_param
  * @expect compile-pass
  * @section 15.10
- * @design | 函数重载 | Java 按参数列表重载，受擦除影响。 | Swift 重载还涉及参数标签和上下文。 | `SEM_15_10_013_PASS_function_overload_by_param` | `SEM_15_10_014_FAIL_return_only_difference` |
+ * @design | 鍑芥暟閲嶈浇 | Java 鎸夊弬鏁板垪琛ㄩ噸杞斤紝鍙楁摝闄ゅ奖鍝嶃€?| Swift 閲嶈浇杩樻秹鍙婂弬鏁版爣绛惧拰涓婁笅鏂囥€?|
+ *    `SEM_15_10_013_PASS_function_overload_by_param` | `SEM_15_10_014_FAIL_return_only_difference` |
  * @note Generated one-to-one from test_design.
  */
 

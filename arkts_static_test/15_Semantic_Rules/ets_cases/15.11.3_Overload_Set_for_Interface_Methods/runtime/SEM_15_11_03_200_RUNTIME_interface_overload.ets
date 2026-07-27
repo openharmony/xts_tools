@@ -24,4 +24,5 @@ class C implements I { f(x: int): string { return 'ok'; } }
 function main(): void { let c: C = new C(); let r = c.f(1); if (r != 'ok') {
     throw new Error('fail');
   }
-console.log('verified'); }
+console.log('verified');
+}

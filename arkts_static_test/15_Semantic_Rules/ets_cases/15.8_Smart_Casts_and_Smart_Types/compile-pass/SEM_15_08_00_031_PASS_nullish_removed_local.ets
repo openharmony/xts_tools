@@ -16,7 +16,8 @@
  * @id SEM_15_08_00_031_PASS_nullish_removed_local
  * @expect compile-pass
  * @section 15.8
- * @design | nullish 缩窄 | Java null check 不生成 union-minus-null 类型。 | Swift Optional unwrap 生成新值。 | `SEM_15_08_025_PASS_nullish_removed_local` | `SEM_15_08_028_FAIL_nullish_removed_without_check` |
+ * @design | nullish 缂╃獎 | Java null check 涓嶇敓鎴?union-minus-null 绫诲瀷銆?| Swift Optional unwrap 鐢熸垚鏂板€笺€?|
+ *    `SEM_15_08_025_PASS_nullish_removed_local` | `SEM_15_08_028_FAIL_nullish_removed_without_check` |
  * @note Generated one-to-one from test_design.
  */
 

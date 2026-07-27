@@ -16,7 +16,8 @@
  * @id SEM_15_08_00_032_PASS_copy_field_to_local
  * @expect compile-pass
  * @section 15.8
- * @design | 存储稳定性 | Java pattern variable 是局部变量，不是字段。 | Swift 常用局部绑定避免字段不稳定。 | `SEM_15_08_026_PASS_copy_field_to_local` | `SEM_15_08_030_FAIL_getter_assumed_stable` |
+ * @design | 瀛樺偍绋冲畾鎬?| Java pattern variable 鏄眬閮ㄥ彉閲忥紝涓嶆槸瀛楁銆?| Swift 甯哥敤灞€閮ㄧ粦瀹氶伩鍏嶅瓧娈典笉绋冲畾銆?|
+ *    `SEM_15_08_026_PASS_copy_field_to_local` | `SEM_15_08_030_FAIL_getter_assumed_stable` |
  * @note Generated one-to-one from test_design.
  */
 

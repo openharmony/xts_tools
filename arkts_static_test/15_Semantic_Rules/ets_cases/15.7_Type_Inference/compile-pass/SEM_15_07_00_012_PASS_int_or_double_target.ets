@@ -16,7 +16,8 @@
  * @id SEM_15_07_00_012_PASS_int_or_double_target
  * @expect compile-pass
  * @section 15.7
- * @design | union 目标推断 | Java 无 union 目标类型。 | Swift 无通用 union 类型。 | `SEM_15_07_020_PASS_int_or_double_target` | `SEM_15_07_022_FAIL_numeric_union_ambiguous` |
+ * @design | union 鐩爣鎺ㄦ柇 | Java 鏃?union 鐩爣绫诲瀷銆?| Swift 鏃犻€氱敤 union 绫诲瀷銆?|
+ *    `SEM_15_07_020_PASS_int_or_double_target` | `SEM_15_07_022_FAIL_numeric_union_ambiguous` |
  * @note Generated one-to-one from test_design.
  */
 

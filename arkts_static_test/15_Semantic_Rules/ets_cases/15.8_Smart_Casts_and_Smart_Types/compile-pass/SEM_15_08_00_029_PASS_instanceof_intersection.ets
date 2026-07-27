@@ -16,7 +16,8 @@
  * @id SEM_15_08_00_029_PASS_instanceof_intersection
  * @expect compile-pass
  * @section 15.8
- * @design | 类型表达式 | Java 不暴露通用交叉/差集智能类型表达式。 | Swift 通过新绑定表达缩窄，不使用 ArkTS 差集类型。 | `SEM_15_08_023_PASS_instanceof_intersection` | `SEM_15_08_024_FAIL_unexpressible_smart_return` |
+ * @design | 绫诲瀷琛ㄨ揪寮?| Java 涓嶆毚闇查€氱敤浜ゅ弶/宸泦鏅鸿兘绫诲瀷琛ㄨ揪寮忋€?| Swift 閫氳繃鏂扮粦瀹氳〃杈剧缉绐勶紝涓嶄娇鐢?ArkTS 宸泦绫诲瀷銆?|
+ *    `SEM_15_08_023_PASS_instanceof_intersection` | `SEM_15_08_024_FAIL_unexpressible_smart_return` |
  * @note Generated one-to-one from test_design.
  */
 

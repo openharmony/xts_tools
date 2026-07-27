@@ -16,7 +16,8 @@
  * @id SEM_15_10_00_008_PASS_constructor_overload
  * @expect compile-pass
  * @section 15.10
- * @design | 构造器重载 | Java 构造器重载类似，但转换/排名不同。 | Swift initializer 使用标签和委托规则。 | `SEM_15_10_015_PASS_constructor_overload` | `SEM_15_10_018_FAIL_constructor_equivalent_signature` |
+ * @design | 鏋勯€犲櫒閲嶈浇 | Java 鏋勯€犲櫒閲嶈浇绫讳技锛屼絾杞崲/鎺掑悕涓嶅悓銆?| Swift initializer 浣跨敤鏍囩鍜屽鎵樿鍒欍€?|
+ *    `SEM_15_10_015_PASS_constructor_overload` | `SEM_15_10_018_FAIL_constructor_equivalent_signature` |
  * @note Generated one-to-one from test_design.
  */
 

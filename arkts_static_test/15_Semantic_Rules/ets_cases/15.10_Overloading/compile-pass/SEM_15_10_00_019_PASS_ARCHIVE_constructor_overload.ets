@@ -16,8 +16,10 @@
  * @id SEM_15_10_00_019_PASS_ARCHIVE_constructor_overload
  * @expect compile-pass
  * @section 15.10
- * @design 归档吸纳：constructor overload。来源 `Overloading\compile-pass\OVERLOAD_PASS_010_constructor_overload.ets`；用于补充 ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_010_constructor_overload.ets
+ * @design 归档吸纳：constructor overload。来源 `Overloading\compile-pass\OVERLOAD_PASS_010_constructor_overload.ets`；用于补充
+ *  ArkTS overload / overload resolution / effective signature 覆盖。
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_010_constructor_overload.ets
  */
 
 class OverloadPass010Box {

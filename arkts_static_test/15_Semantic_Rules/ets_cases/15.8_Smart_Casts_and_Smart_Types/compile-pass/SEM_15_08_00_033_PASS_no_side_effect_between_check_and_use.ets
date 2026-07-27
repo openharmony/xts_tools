@@ -16,7 +16,8 @@
  * @id SEM_15_08_00_033_PASS_no_side_effect_between_check_and_use
  * @expect compile-pass
  * @section 15.8
- * @design | 副作用 | Java 也会因赋值影响 flow fact。 | Swift 捕获可变状态规则不同。 | `SEM_15_08_027_PASS_no_side_effect_between_check_and_use` | `SEM_15_08_032_FAIL_closure_or_call_mutates_value` |
+ * @design | 鍓綔鐢?| Java 涔熶細鍥犺祴鍊煎奖鍝?flow fact銆?| Swift 鎹曡幏鍙彉鐘舵€佽鍒欎笉鍚屻€?|
+ *    `SEM_15_08_027_PASS_no_side_effect_between_check_and_use` | `SEM_15_08_032_FAIL_closure_or_call_mutates_value` |
  * @note Generated one-to-one from test_design.
  */
 

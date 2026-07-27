@@ -16,7 +16,8 @@
  * @id SEM_15_07_00_013_PASS_all_paths_common_supertype
  * @expect compile-pass
  * @section 15.7
- * @design | 返回类型推断 | Java 方法必须显式写返回类型。 | Swift 允许部分函数/闭包推断，但边界不同。 | `SEM_15_07_021_PASS_all_paths_common_supertype` | `SEM_15_07_024_FAIL_missing_return_path` |
+ * @design | 杩斿洖绫诲瀷鎺ㄦ柇 | Java 鏂规硶蹇呴』鏄惧紡鍐欒繑鍥炵被鍨嬨€?| Swift 鍏佽閮ㄥ垎鍑芥暟/闂寘鎺ㄦ柇锛屼絾杈圭晫涓嶅悓銆?|
+ *    `SEM_15_07_021_PASS_all_paths_common_supertype` | `SEM_15_07_024_FAIL_missing_return_path` |
  * @note Generated one-to-one from test_design.
  */
 

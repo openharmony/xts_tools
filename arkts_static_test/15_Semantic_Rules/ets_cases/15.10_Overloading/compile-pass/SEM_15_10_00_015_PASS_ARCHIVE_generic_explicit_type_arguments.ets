@@ -16,8 +16,10 @@
  * @id SEM_15_10_00_015_PASS_ARCHIVE_generic_explicit_type_arguments
  * @expect compile-pass
  * @section 15.10
- * @design 归档吸纳：generic explicit type arguments。来源 `Overloading\compile-pass\OVERLOAD_PASS_005_generic_explicit_type_arguments.ets`；用于补充 ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_005_generic_explicit_type_arguments.ets
+ * @design 归档吸纳：generic explicit type arguments。来源
+ *  `Overloading\compile-pass\OVERLOAD_PASS_005_generic_explicit_type_arguments.ets`；用于补充 ArkTS overload / overload resolution / effective signature 覆盖。
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_005_generic_explicit_type_arguments.ets
  */
 
 function overloadPass005One<T>(p: T): string {

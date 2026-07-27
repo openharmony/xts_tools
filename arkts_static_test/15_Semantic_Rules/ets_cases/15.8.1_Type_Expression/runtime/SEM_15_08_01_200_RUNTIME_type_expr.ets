@@ -23,4 +23,5 @@ class A { public name: string = ''; } class D extends A { }
 function main(): void { let a: A = new D(); a.name = 'x'; if (a.name != 'x') {
     throw new Error('fail');
 }
-console.log('verified'); }
+console.log('verified');
+}
