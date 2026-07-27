@@ -21,5 +21,5 @@
  *       2026-07-17 PDF原文核查确认：compile-time warning非compile-time error。
  */
 class ThisInit {
-  f0 = this
+  public f0 = this
 }

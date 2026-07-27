@@ -13,14 +13,24 @@
  * limitations under the License.
 */
 /**
- * @id LEX_02_01_012_FAIL_LONE_HIGH_SURROGATE
+ * @id SEM_15_11_05_004_PASS_class_superclass_superinterface
  * @expect compile-pass
- * @section 2.1
- * @design 反向用例：spec要求字符串中不允许孤立高代理(U+DB00)，但编译器实际允许
- * @note 反向用例：spec 要求报错，但 ArkTS 实际编译通过
- *       ⚠️ SPEC 不一致：spec/experimental.md 未明确定义孤立代理规则，但Unicode规范(UAX#16)要求代理必须成对使用
- *       分类：D 类（Spec 与实现不一致）
+ * @section 15.11.5
+ * @design Class with superclass and superinterface, overload set and dedup
+ * @note Spec lines 56-80, class D extends C implements I
  */
-function testLoneHighSurrogate(): void {
-  let s: string = '\uDB00'
+interface I {
+    foo(x: number): void
+}
+class C {
+    foo(s: string): void {}
+}
+class D extends C implements I {
+    foo(x: number): void {}
+    foo(x: boolean): void {}
+}
+function main(): void {
+    let d: D = new D()
+    d.foo(1)
+    d.foo(true)
 }

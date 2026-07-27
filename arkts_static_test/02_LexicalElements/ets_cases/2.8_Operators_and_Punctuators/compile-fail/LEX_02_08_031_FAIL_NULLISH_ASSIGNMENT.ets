@@ -33,4 +33,5 @@ function main(): void {
   if (b.value !== 'ok') { throw new Error('??= failed')
 }
   if (len !== 2) { throw new Error('optional chain failed')
-}}
+}
+}

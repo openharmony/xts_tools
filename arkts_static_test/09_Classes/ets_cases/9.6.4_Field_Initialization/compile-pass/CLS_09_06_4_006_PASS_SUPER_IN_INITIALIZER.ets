@@ -24,5 +24,5 @@ class SuperBase006 {
   method(): number { return 10 }
 }
 class SuperInitField extends SuperBase006 {
-  f0 = super.method()
+  public f0 = super.method()
 }
