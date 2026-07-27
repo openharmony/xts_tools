@@ -31,15 +31,15 @@ function testTypeExpressionSimplification(): void {
   if (x != undefined) {
     // x 的智能类型是 number | string（差集简化）
     if (typeof x === 'number') {
-      console.log("Simplified: " + (x * 2))
+      console.log('Simplified: ' + (x * 2))
     } else {
-      console.log("Simplified: " + x.toUpperCase())
+      console.log('Simplified: ' + x.toUpperCase())
     }
   }
   
   // 并集简化：A | never = A
   let y: number | never = 42
-  console.log("Union simplification: " + (y * 2))
+  console.log('Union simplification: ' + (y * 2))
   
   // 交集简化：A & Any = A
   // 注意：ArkTS 可能不直接支持 Any 类型

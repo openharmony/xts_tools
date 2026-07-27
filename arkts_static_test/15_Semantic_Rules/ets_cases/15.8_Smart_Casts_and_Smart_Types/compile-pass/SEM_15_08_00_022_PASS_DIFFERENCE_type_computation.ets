@@ -26,7 +26,7 @@ function testDiferenceTypeComputation(x: string | undefined): void {
   if (x != undefined) {
     // 在这个分支中，x 的智能类型是 string | undefined - undefined = string
     let len: number = x.length  // OK: 智能类型是 string
-    console.log("Length: " + len)
+    console.log('Length: ' + len)
   }
 }
 
@@ -37,10 +37,10 @@ function testComplexDiferenceType(x: number | string | null | undefined): void {
     // 在这个分支中，x 的智能类型是 (number | string | null | undefined) - (null | undefined)
     if (typeof x === 'number') {
       // 在这个分支中，x 的智能类型是 number
-      console.log("Number: " + (x * 2))
+      console.log('Number: ' + (x * 2))
     } else {
       // 在这个分支中，x 的智能类型是 string
-      console.log("String: " + x.toUpperCase())
+      console.log('String: ' + x.toUpperCase())
     }
   }
 }
@@ -50,9 +50,9 @@ function testDiferenceTypeWithUnion(x: (number | string) | null): void {
   if (x != null) {
     // 在这个分支中，x 的智能类型是 (number | string) | null - null = number | string
     if (typeof x === 'number') {
-      console.log("Union - null (number): " + (x * 2))
+      console.log('Union - null (number): ' + (x * 2))
     } else {
-      console.log("Union - null (string): " + x.toUpperCase())
+      console.log('Union - null (string): ' + x.toUpperCase())
     }
   }
 }

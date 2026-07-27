@@ -22,4 +22,5 @@
 class B { f(): string { return 'b'; } } class D extends B { override f(): string { return 'd'; } }
 function main(): void { let d: D = new D(); let r = d.f(); if (r != 'd') {
     throw new Error('fail');
-  } console.log('verified'); }
+}
+console.log('verified'); }

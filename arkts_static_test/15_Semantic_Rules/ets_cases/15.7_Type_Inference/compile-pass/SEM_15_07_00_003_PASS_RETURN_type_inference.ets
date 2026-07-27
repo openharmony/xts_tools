@@ -46,9 +46,9 @@ function testReturnTypeInference(): void {
   // 有 throw 语句，推断为 never
   function foo4(): never {
     throw new Error('error')
-  }
-    
-  console.log('Return type inference test passed')
+  
+}
+console.log('Return type inference test passed')
 }
 
 // 测试异步函数的返回类型推断

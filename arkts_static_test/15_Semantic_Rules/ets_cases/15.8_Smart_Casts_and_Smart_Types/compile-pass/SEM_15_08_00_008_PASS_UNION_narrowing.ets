@@ -26,15 +26,15 @@ function testUnionNarrowing(value: number | string | boolean): void {
   if (typeof value === 'number') {
     // 在这个分支中，value 的智能类型是 number
     let doubled: number = value * 2
-    console.log("Number: " + doubled)
+    console.log('Number: ' + doubled)
   } else if (typeof value === 'string') {
     // 在这个分支中，value 的智能类型是 string
     let upper: string = value.toUpperCase()
-    console.log("String: " + upper)
+    console.log('String: ' + upper)
   } else {
     // 在这个分支中，value 的智能类型是 boolean
     let notV: boolean = !value
-    console.log("Boolean: " + notV)
+    console.log('Boolean: ' + notV)
   }
 }
 
@@ -46,9 +46,9 @@ function testUnionSmartCast(): void {
   if (x != undefined) {
     // x 的智能类型是 number | string
     if (typeof x === 'number') {
-      console.log("Number: " + (x * 2))
+      console.log('Number: ' + (x * 2))
     } else {
-      console.log("String: " + x)
+      console.log('String: ' + x)
     }
   }
   
@@ -56,9 +56,9 @@ function testUnionSmartCast(): void {
   if (x != undefined) {
     // x 的智能类型是 number | string
     if (typeof x === 'string') {
-      console.log("String: " + x.toUpperCase())
+      console.log('String: ' + x.toUpperCase())
     } else {
-      console.log("Number: " + (x + 1))
+      console.log('Number: ' + (x + 1))
     }
   }
 }

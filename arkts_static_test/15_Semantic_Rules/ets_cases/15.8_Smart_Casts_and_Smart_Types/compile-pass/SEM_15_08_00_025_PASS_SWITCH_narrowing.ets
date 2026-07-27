@@ -27,17 +27,17 @@ function testSwitchNarrowing(value: number | string | boolean): void {
     case 'number':
       // 在这个分支中，value 的智能类型是 number
       let doubled: number = value * 2
-      console.log("Number: " + doubled)
+      console.log('Number: ' + doubled)
       break
     case 'string':
       // 在这个分支中，value 的智能类型是 string
       let upper: string = value.toUpperCase()
-      console.log("String: " + upper)
+      console.log('String: ' + upper)
       break
     case 'boolean':
       // 在这个分支中，value 的智能类型是 boolean
       let notV: boolean = !value
-      console.log("Boolean: " + notV)
+      console.log('Boolean: ' + notV)
       break
     default:
       console.log('Unknown type')
@@ -50,10 +50,10 @@ function testSwitchUnionNarrowing(value: number | string | undefined): void {
     // value 的智能类型是 number | string
     switch (typeof value) {
       case 'number':
-        console.log("Number: " + (value * 2))
+        console.log('Number: ' + (value * 2))
         break
       case 'string':
-        console.log("String: " + value.toUpperCase())
+        console.log('String: ' + value.toUpperCase())
         break
     }
   }

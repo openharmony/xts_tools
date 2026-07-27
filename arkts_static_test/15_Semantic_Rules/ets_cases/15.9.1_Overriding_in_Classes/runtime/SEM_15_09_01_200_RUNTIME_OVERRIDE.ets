@@ -24,6 +24,7 @@ class Derived extends Base { override greet(): string { return 'derived'; } }
 function main(): void {
     let b: Base = new Derived();
     let s: string = b.greet();
-    if (s != 'derived') { throw new Error("assertion failed: " + s); }
-    console.log('verified');
+    if (s != 'derived') { throw new Error('assertion failed: ' + s); 
+}
+console.log('verified');
 }

@@ -30,16 +30,16 @@ function testNestedIfNarrowing(value: number | string | boolean): void {
     if (typeof value === 'number') {
       // 在这个分支中，value 的智能类型是 number
       let doubled: number = value * 2
-      console.log("Number doubled: " + doubled)
+      console.log('Number doubled: ' + doubled)
     } else {
       // 在这个分支中，value 的智能类型是 string
       let upper: string = value.toUpperCase()
-      console.log("String upper: " + upper)
+      console.log('String upper: ' + upper)
     }
   } else {
     // 在这个分支中，value 的智能类型是 boolean
     let notV: boolean = !value
-    console.log("Boolean negated: " + notV)
+    console.log('Boolean negated: ' + notV)
   }
 }
 
@@ -50,10 +50,10 @@ function testNestedIfElseNarrowing(value: number | string | undefined): void {
     
     if (typeof value === 'string') {
       // value 的智能类型是 string
-      console.log("String: " + value.toUpperCase())
+      console.log('String: ' + value.toUpperCase())
     } else {
       // value 的智能类型是 number
-      console.log("Number: " + (value * 2))
+      console.log('Number: ' + (value * 2))
     }
   } else {
     // value 的智能类型是 undefined

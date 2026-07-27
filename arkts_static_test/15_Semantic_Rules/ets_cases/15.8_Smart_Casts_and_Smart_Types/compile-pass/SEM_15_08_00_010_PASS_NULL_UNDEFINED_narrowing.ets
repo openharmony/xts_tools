@@ -29,7 +29,7 @@ function testNullUndefinedNarrowing(value: string | null | undefined): void {
   if (v != null && v != undefined) {
     // 在这个分支中，v 的智能类型是 string
     let len: number = v.length  // OK: string 有 length 属性
-    console.log("String length: " + len)
+    console.log('String length: ' + len)
   } else if (v === null) {
     // 在这个分支中，v 的智能类型是 null
     console.log('Value is null')
@@ -40,5 +40,5 @@ function testNullUndefinedNarrowing(value: string | null | undefined): void {
   
   // 使用可选链和空值合并
   let length: number = v?.length ?? 0
-  console.log("Length with optional chaining: " + length)
+  console.log('Length with optional chaining: ' + length)
 }

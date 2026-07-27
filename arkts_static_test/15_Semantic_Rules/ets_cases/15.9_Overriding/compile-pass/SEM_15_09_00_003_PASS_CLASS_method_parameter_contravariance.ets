@@ -33,14 +33,14 @@ class Dog extends Animal {
 
 class Base {
   acceptAnimal(animal: Animal): void {
-    console.log("Base accepts: " + animal.name)
+    console.log('Base accepts: ' + animal.name)
   }
 }
 
 class Derived extends Base {
   // 参数类型逆变：Dog >: Animal
   override acceptAnimal(animal: Dog): void {
-    console.log("Derived accepts dog: " + animal.name)
+    console.log('Derived accepts dog: ' + animal.name)
     animal.bark()
   }
 }

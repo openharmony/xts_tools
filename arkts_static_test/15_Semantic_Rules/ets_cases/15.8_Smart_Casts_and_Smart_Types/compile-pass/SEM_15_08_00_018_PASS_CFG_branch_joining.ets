@@ -27,17 +27,17 @@ function testCfgBranchJoining(x: number | string | boolean): void {
   // if-else 分支合并
   if (typeof x === 'number') {
     // 分支1：x 的智能类型是 number
-    result = "number: " + (x * 2).toString()
+    result = 'number: ' + (x * 2).toString()
   } else if (typeof x === 'string') {
     // 分支2：x 的智能类型是 string
-    result = "string: " + x.toUpperCase()
+    result = 'string: ' + x.toUpperCase()
   } else {
     // 分支3：x 的智能类型是 boolean
-    result = "boolean: " + x.toString()
+    result = 'boolean: ' + x.toString()
   }
   // 分支合并后，result 的类型是 string（所有分支都赋值了 string）
   
-  console.log("Branch joining result: " + result)
+  console.log('Branch joining result: ' + result)
 }
 
 // 测试 while 循环中的类型收窄
@@ -48,7 +48,7 @@ function testWhileLoopNarrowing(value: number | undefined): void {
   while (x != undefined) {
     // 在这个循环中，x 的智能类型是 number
     let doubled: number = x * 2
-    console.log("While loop: " + doubled)
+    console.log('While loop: ' + doubled)
     break  // 简化示例，实际中可能需要其他退出条件
   }
 }
@@ -59,9 +59,9 @@ function testForLoopNarrowing(values: (number | string)[]): void {
     let value: number | string = values[i]
     
     if (typeof value === 'number') {
-      console.log("For loop (number): " + (value * 2))
+      console.log('For loop (number): ' + (value * 2))
     } else {
-      console.log("For loop (string): " + value.toUpperCase())
+      console.log('For loop (string): ' + value.toUpperCase())
     }
   }
 }

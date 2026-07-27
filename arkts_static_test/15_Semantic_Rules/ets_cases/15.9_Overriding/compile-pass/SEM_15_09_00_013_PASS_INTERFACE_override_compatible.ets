@@ -52,7 +52,7 @@ function testInterfaceOverrideCompatible(): void {
   console.log(result1)
     
   let result2: number = impl.method2('test')
-  console.log("Method2 result: " + result2)
+  console.log('Method2 result: ' + result2)
     
   console.log('Interface override compatible test passed')
 }

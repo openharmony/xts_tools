@@ -26,28 +26,28 @@ function testBackedgeLoopVariable(): void {
   
   // 循环前：x 的智能类型是 number | string
   if (typeof x === 'number') {
-    console.log("Before loop: " + (x * 2))
+    console.log('Before loop: ' + (x * 2))
   }
   
   // while 循环
   while (typeof x === 'number') {
     // 循环内：x 的智能类型是 number
-    console.log("In loop: " + (x * 2))
+    console.log('In loop: ' + (x * 2))
     break  // 简化示例
   }
     
   // 循环后：x 的智能类型重置为声明类型 number | string
   if (typeof x === 'string') {
-    console.log("After loop (string): " + x.toUpperCase())
+    console.log('After loop (string): ' + x.toUpperCase())
   } else if (typeof x === 'number') {
-    console.log("After loop (number): " + (x * 2))
+    console.log('After loop (number): ' + (x * 2))
   }
   
   // for 循环
   for (let i = 0; i < 10; i++) {
     // 循环内：i 的智能类型是 number
-    console.log("For loop: " + i)
-  }
+    console.log('For loop: ' + i)
   
-  console.log('Backedge loop variable test passed')
+}
+console.log('Backedge loop variable test passed')
 }

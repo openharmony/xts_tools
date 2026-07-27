@@ -31,10 +31,10 @@ function testMustAliasSets(): void {
   if (typeof x === 'number') {
     // 在这个分支中，x 的智能类型是 number
     // must-alias 集可能包含 x 和 y
-    console.log("x is number: " + (x * 2))
+    console.log('x is number: ' + (x * 2))
   } else {
     // 在这个分支中，x 的智能类型是 string
-    console.log("x is string: " + x.toUpperCase())
+    console.log('x is string: ' + x.toUpperCase())
   }
   
   // 测试多个变量的 must-alias 关系
@@ -45,8 +45,8 @@ function testMustAliasSets(): void {
   
   if (a != undefined) {
     // 在这个分支中，a 的智能类型是 number
-    console.log("a is number: " + (a * 2))
-  }
+    console.log('a is number: ' + (a * 2))
   
-  console.log('Must-alias sets test passed')
+}
+console.log('Must-alias sets test passed')
 }

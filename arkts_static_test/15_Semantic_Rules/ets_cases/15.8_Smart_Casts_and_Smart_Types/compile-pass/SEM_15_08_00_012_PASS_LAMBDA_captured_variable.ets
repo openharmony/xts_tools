@@ -28,17 +28,17 @@ function testLambdaCapturedVariable(): void {
   if (typeof x === 'string') {
     // 在这个分支中，x 的智能类型是 string
     let len: number = x.length  // OK: string 有 length 属性
-    console.log("Length: " + len)
+    console.log('Length: ' + len)
   }
   
   // Lambda 捕获变量
   let lambda: () => void = () => {
     // 在 lambda 内部，x 的智能类型可能不准确（因为可能被修改）
-    console.log("Lambda: " + x)
+    console.log('Lambda: ' + x)
   }
   
   lambda()
   
   // 在 lambda 调用后，x 的智能类型可能被重置
-  console.log("After lambda: " + x)
+  console.log('After lambda: ' + x)
 }

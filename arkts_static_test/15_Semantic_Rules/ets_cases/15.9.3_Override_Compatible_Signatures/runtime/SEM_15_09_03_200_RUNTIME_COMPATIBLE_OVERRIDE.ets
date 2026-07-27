@@ -26,6 +26,7 @@ class Derived extends Base { override make(): Dog { let d: Dog = new Dog(); d.na
 function main(): void {
     let b: Base = new Derived();
     let a: Animal = b.make();
-    if (a.name != 'Rex') { throw new Error('assertion failed'); }
-    console.log('verified');
+    if (a.name != 'Rex') { throw new Error('assertion failed'); 
+}
+console.log('verified');
 }

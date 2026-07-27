@@ -28,7 +28,7 @@ function testWhileLoopNarrowing(value: number | undefined): void {
   while (x != undefined) {
     // 在这个循环中，x 的智能类型是 number
     let doubled: number = x * 2
-    console.log("While loop: " + doubled)
+    console.log('While loop: ' + doubled)
     break  // 简化示例
   }
 }
@@ -40,7 +40,7 @@ function testDoWhileLoopNarrowing(value: string | null): void {
   if (x != null) {
     // 在这个分支中，x 的智能类型是 string
     let len: number = x.length
-    console.log("Do-while loop: " + len)
+    console.log('Do-while loop: ' + len)
   }
 }
 
@@ -50,14 +50,14 @@ function testWhileLoopAfterReset(): void {
   
   while (typeof x === 'number') {
     // 在这个循环中，x 的智能类型是 number
-    console.log("In while: " + (x * 2))
+    console.log('In while: ' + (x * 2))
     break
   }
   
   // 循环后，x 的智能类型重置为声明类型 number | string
   if (typeof x === 'string') {
-    console.log("After while (string): " + x.toUpperCase())
+    console.log('After while (string): ' + x.toUpperCase())
   } else if (typeof x === 'number') {
-    console.log("After while (number): " + (x * 2))
+    console.log('After while (number): ' + (x * 2))
   }
 }

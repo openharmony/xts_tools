@@ -50,7 +50,7 @@ function testOverrideKeyword(): void {
   derived.method()
   
   let value: number = derived.getValue()
-  console.log("Value: " + value)
+  console.log('Value: ' + value)
   
   let base: Base = derived
   base.method()  // 运行时调用 Derived.method()
