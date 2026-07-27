@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 */
-﻿/**
+/**
  * @id SEM_15_07_02_102_FAIL_unexpressible_smart_return
  * @expect compile-pass
  * @section 15.7.2

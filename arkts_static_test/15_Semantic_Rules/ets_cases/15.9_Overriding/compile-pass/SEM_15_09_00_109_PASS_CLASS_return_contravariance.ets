@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 */
-﻿/*
+/*
  * @id SEM_15_09_00_109_FAIL_CLASS_return_contravariance
  * @expect compile-pass
  * @section 15.9
