@@ -26,13 +26,13 @@ class Animal {
   
   move(): void {
     console.log(this.name + ' moves')
-  }
+}
 }
 
 class Dog extends Animal {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 function testInstanceofInvalidAccess(animal: Animal): void {

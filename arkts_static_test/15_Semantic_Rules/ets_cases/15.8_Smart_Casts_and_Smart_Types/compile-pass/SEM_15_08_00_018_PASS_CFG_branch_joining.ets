@@ -28,13 +28,13 @@ function testCfgBranchJoining(x: number | string | boolean): void {
   if (typeof x === 'number') {
     // 分支1：x 的智能类型是 number
     result = 'number: ' + (x * 2).toString()
-  } else if (typeof x === 'string') {
+} else if (typeof x === 'string') {
     // 分支2：x 的智能类型是 string
     result = 'string: ' + x.toUpperCase()
-  } else {
+} else {
     // 分支3：x 的智能类型是 boolean
     result = 'boolean: ' + x.toString()
-  }
+}
   // 分支合并后，result 的类型是 string（所有分支都赋值了 string）
   
   console.log('Branch joining result: ' + result)
@@ -59,9 +59,8 @@ function testForLoopNarrowing(values: (number | string)[]): void {
     let value: number | string = values[i]
     
     if (typeof value === 'number') {
-      console.log('For loop (number): ' + (value * 2))
-    } else {
-      console.log('For loop (string): ' + value.toUpperCase())
-    }
+    console.log('For loop (number): ' + (value * 2))
+  } else {
+    console.log('For loop (string): ' + value.toUpperCase())}
   }
 }

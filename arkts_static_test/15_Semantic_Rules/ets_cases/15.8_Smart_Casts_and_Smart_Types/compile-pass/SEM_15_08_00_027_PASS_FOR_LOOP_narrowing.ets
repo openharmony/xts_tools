@@ -27,10 +27,9 @@ function testForLoopNarrowing(values: (number | string)[]): void {
     
     // for 循环体内的类型收窄
     if (typeof value === 'number') {
-      console.log('For loop (number): ' + (value * 2))
-    } else {
-      console.log('For loop (string): ' + value.toUpperCase())
-    }
+    console.log('For loop (number): ' + (value * 2))
+  } else {
+    console.log('For loop (string): ' + value.toUpperCase())}
   }
 }
 
@@ -39,7 +38,7 @@ function testForInNarrowing(obj: any): void {
   for (let key in obj) {
     // for-in 循环中，key 的智能类型是 string
     console.log('Key: ' + key)
-  }
+}
 }
 
 // 测试 for-of 循环中的类型收窄
@@ -47,9 +46,8 @@ function testForOfNarrowing(values: (number | string)[]): void {
   for (let value of values) {
     // for-of 循环中，value 的智能类型是 number | string
     if (typeof value === 'number') {
-      console.log('For-of (number): ' + (value * 2))
-    } else {
-      console.log('For-of (string): ' + value.toUpperCase())
-    }
+    console.log('For-of (number): ' + (value * 2))
+  } else {
+    console.log('For-of (string): ' + value.toUpperCase())}
   }
 }

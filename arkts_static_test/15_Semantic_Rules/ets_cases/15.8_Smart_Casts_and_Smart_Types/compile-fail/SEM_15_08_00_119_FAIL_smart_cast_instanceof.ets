@@ -28,8 +28,8 @@ function sem1508Pass200SmartCastInstanceof(): void {
   function bar(c: C): void {
     if (c instanceof D) {
       c.foo()
-    }
+}
     (c as D).foo()
-  }
+}
   bar(new D())
 }

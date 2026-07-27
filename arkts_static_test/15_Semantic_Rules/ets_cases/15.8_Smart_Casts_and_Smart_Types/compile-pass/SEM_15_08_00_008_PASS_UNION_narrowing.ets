@@ -27,15 +27,15 @@ function testUnionNarrowing(value: number | string | boolean): void {
     // 在这个分支中，value 的智能类型是 number
     let doubled: number = value * 2
     console.log('Number: ' + doubled)
-  } else if (typeof value === 'string') {
+} else if (typeof value === 'string') {
     // 在这个分支中，value 的智能类型是 string
     let upper: string = value.toUpperCase()
     console.log('String: ' + upper)
-  } else {
+} else {
     // 在这个分支中，value 的智能类型是 boolean
     let notV: boolean = !value
     console.log('Boolean: ' + notV)
-  }
+}
 }
 
 // 测试联合类型的智能类型转换
@@ -46,19 +46,18 @@ function testUnionSmartCast(): void {
   if (x != undefined) {
     // x 的智能类型是 number | string
     if (typeof x === 'number') {
-      console.log('Number: ' + (x * 2))
-    } else {
-      console.log('String: ' + x)
-    }
+    console.log('Number: ' + (x * 2))
+  } else {
+    console.log('String: ' + x)
+}
   }
   
   x = 'hello'
   if (x != undefined) {
     // x 的智能类型是 number | string
     if (typeof x === 'string') {
-      console.log('String: ' + x.toUpperCase())
-    } else {
-      console.log('Number: ' + (x + 1))
-    }
+    console.log('String: ' + x.toUpperCase())
+  } else {
+    console.log('Number: ' + (x + 1))}
   }
 }

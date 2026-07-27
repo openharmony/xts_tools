@@ -30,13 +30,13 @@ function testNullUndefinedNarrowing(value: string | null | undefined): void {
     // 在这个分支中，v 的智能类型是 string
     let len: number = v.length  // OK: string 有 length 属性
     console.log('String length: ' + len)
-  } else if (v === null) {
+} else if (v === null) {
     // 在这个分支中，v 的智能类型是 null
     console.log('Value is null')
-  } else {
+} else {
     // 在这个分支中，v 的智能类型是 undefined
     console.log('Value is undefined')
-  }
+}
   
   // 使用可选链和空值合并
   let length: number = v?.length ?? 0

@@ -24,5 +24,9 @@ function foo(x: string): string { return 'str'; }
 function main(): void { let r = foo(42); if (r != 'int') {
     throw new Error('fail');
   }
+  }
+  }
+  }
+  }
 console.log('verified');
 }

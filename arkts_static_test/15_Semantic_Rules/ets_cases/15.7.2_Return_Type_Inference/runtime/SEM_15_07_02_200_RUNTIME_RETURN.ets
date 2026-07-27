@@ -22,7 +22,12 @@
 function add(a: int, b: int): int { return a + b; }
 function main(): void {
     let r: int = add(20, 22);
-    if (r != 42) { throw new Error('assertion failed: ' + r.toString()); 
+    if (r != 42) {
+    throw new Error('assertion failed: ' + r.toString());
+  }
+  }
+  }
+  } 
 }
 console.log('verified');
 }

@@ -30,13 +30,13 @@ function testTypeofNarrowing(value: Object): void {
     // 在这个分支中，v 的智能类型是 string
     let len: number = v.length  // OK: string 有 length 属性
     console.log('String length: ' + len)
-  } else if (typeof v === 'number') {
+} else if (typeof v === 'number') {
     // 在这个分支中，v 的智能类型是 number
     let doubled: number = v * 2  // OK: number 可以进行乘法运算
     console.log('Number doubled: ' + doubled)
-  } else if (typeof v === 'boolean') {
+} else if (typeof v === 'boolean') {
     // 在这个分支中，v 的智能类型是 boolean
     let notV: boolean = !v  // OK: boolean 可以进行逻辑非运算
     console.log('Boolean negated: ' + notV)
-  }
+}
 }

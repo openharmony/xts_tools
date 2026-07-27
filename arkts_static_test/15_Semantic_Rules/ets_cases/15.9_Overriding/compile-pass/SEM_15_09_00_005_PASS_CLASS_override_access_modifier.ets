@@ -24,18 +24,18 @@
 class Base {
   public publicMethod(): void {
     console.log('Base public method')
-  }
+}
   
   protected protectedMethod(): void {
     console.log('Base protected method')
-  }
+}
 }
 
 class Derived extends Base {
   // 可以保持 public
   override publicMethod(): void {
     console.log('Derived public method')
-  }
+}
   
   // 可以将 protected 改为 public
   override protectedMethod(): void {

@@ -24,7 +24,7 @@
 class Base {
   method(): void {
     console.log('Base method')
-  }
+}
   
   getValue(): number {
     return 42
@@ -35,7 +35,7 @@ class Derived extends Base {
   // 必须使用 override 关键字
   override method(): void {
     console.log('Derived method')
-  }
+}
   
   // 重写并返回协变类型
   override getValue(): number {

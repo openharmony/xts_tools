@@ -26,18 +26,18 @@ function testControlFlowNarrowing(value: number | string | undefined): void {
   if (value != undefined) {
     // 在这个分支中，value 的智能类型是 number | string
     if (typeof value === 'string') {
-      // 在这个分支中，value 的智能类型是 string
+    // 在这个分支中，value 的智能类型是 string
       let upper: string = value.toUpperCase()
       console.log(upper)
-    } else {
-      // 在这个分支中，value 的智能类型是 number
+} else {
+    // 在这个分支中，value 的智能类型是 number
       let doubled: number = value * 2
       console.log(doubled)
-    }
+}
   } else {
     // 在这个分支中，value 的智能类型是 undefined
     console.log('Value is undefined')
-  }
+}
   
   // 三元条件表达式收窄
   let result: string = typeof value === 'string' ? value : 'default'

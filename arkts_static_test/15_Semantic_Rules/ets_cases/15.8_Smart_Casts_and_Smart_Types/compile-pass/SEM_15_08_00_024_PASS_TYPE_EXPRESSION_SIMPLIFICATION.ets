@@ -31,10 +31,9 @@ function testTypeExpressionSimplification(): void {
   if (x != undefined) {
     // x 的智能类型是 number | string（差集简化）
     if (typeof x === 'number') {
-      console.log('Simplified: ' + (x * 2))
-    } else {
-      console.log('Simplified: ' + x.toUpperCase())
-    }
+    console.log('Simplified: ' + (x * 2))
+  } else {
+    console.log('Simplified: ' + x.toUpperCase())}
   }
   
   // 并集简化：A | never = A

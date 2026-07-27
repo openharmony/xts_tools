@@ -19,8 +19,10 @@
  * @design Function overload by parameter type resolves correctly
  * @note Spec lines 18-26
  */
-function foo(p: number): void { console.log('number') }
-function foo(p: string): void { console.log('string') }
+function foo(p: number): void { console.log('number')
+}
+function foo(p: string): void { console.log('string')
+}
 function main(): void {
     foo(5)
     foo('5')

@@ -28,7 +28,7 @@ class Animal {
 class Dog extends Animal {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 class Base {

@@ -28,7 +28,7 @@ class Animal {
 class Dog extends Animal {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 class Base {
@@ -54,5 +54,5 @@ function testMethodReturnCovariance(): void {
   // 如果实际类型是 Dog，可以调用 Dog 的方法
   if (animal instanceof Dog) {
     animal.bark()
-  }
+}
 }

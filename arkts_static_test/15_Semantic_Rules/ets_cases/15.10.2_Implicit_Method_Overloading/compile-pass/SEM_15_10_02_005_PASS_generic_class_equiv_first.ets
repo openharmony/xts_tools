@@ -20,10 +20,14 @@
  * @note Spec lines 60-79: Template<T> with foo(T)/foo(number), bar(number)/bar(T)
  */
 class Template<T> {
-    foo(p: T): void { console.log('generic foo') }
-    foo(p: number): void { console.log('plain foo') }
-    bar(p: number): void { console.log('plain bar') }
-    bar(p: T): void { console.log('generic bar') }
+    foo(p: T): void { console.log('generic foo')
+}
+    foo(p: number): void { console.log('plain foo')
+}
+    bar(p: number): void { console.log('plain bar')
+}
+    bar(p: T): void { console.log('generic bar')
+}
 }
 function main(): void {
     let instantiation: Template<number> = new Template<number>()

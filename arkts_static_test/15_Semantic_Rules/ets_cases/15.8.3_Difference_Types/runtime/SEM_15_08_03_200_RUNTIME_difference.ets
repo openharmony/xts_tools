@@ -21,6 +21,10 @@
  */
 function main(): void { let x: string = 'hi'; if (x != 'hi') {
     throw new Error('fail');
+  }
+  }
+  }
+  }
 }
 console.log('verified');
 }

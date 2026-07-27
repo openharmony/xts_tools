@@ -41,7 +41,7 @@ function testDoWhileLoopNarrowing(value: string | null): void {
     // 在这个分支中，x 的智能类型是 string
     let len: number = x.length
     console.log('Do-while loop: ' + len)
-  }
+}
 }
 
 // 测试 while 循环后的类型重置

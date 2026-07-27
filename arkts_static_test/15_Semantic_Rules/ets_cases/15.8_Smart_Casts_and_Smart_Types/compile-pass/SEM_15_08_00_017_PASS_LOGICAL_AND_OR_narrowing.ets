@@ -51,7 +51,7 @@ function testShortCircuit(value: number | string | null): void {
   // 短路 AND：如果第一个操作数为 false，则不评估第二个操作数
   if (value != null && typeof value === 'string') {
     console.log('Short-circuit AND: ' + value)
-  }
+}
   
   // 短路 OR：如果第一个操作数为 true，则不评估第二个操作数
   let defaultValue: number | string = value ?? 'default'

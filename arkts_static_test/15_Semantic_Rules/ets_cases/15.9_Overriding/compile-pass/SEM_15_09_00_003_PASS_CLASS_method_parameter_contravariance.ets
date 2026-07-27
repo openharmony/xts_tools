@@ -28,13 +28,13 @@ class Animal {
 class Dog extends Animal {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 class Base {
   acceptAnimal(animal: Animal): void {
     console.log('Base accepts: ' + animal.name)
-  }
+}
 }
 
 class Derived extends Base {
@@ -42,7 +42,7 @@ class Derived extends Base {
   override acceptAnimal(animal: Dog): void {
     console.log('Derived accepts dog: ' + animal.name)
     animal.bark()
-  }
+}
 }
 
 function testMethodParameterContravariance(): void {

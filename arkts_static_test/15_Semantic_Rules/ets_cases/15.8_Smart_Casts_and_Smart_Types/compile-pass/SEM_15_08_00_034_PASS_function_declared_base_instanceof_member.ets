@@ -30,7 +30,7 @@ function main(): void {
   let b: Base = new Derived()
   if (b instanceof Derived) {
     let s: string = b.onlyDerived()
-  }
+}
 }
 
 

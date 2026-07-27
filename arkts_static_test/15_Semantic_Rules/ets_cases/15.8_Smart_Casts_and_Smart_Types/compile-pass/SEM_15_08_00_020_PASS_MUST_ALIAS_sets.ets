@@ -34,8 +34,7 @@ function testMustAliasSets(): void {
     console.log('x is number: ' + (x * 2))
   } else {
     // 在这个分支中，x 的智能类型是 string
-    console.log('x is string: ' + x.toUpperCase())
-  }
+    console.log('x is string: ' + x.toUpperCase())}
   
   // 测试多个变量的 must-alias 关系
   let a: number | undefined = 42

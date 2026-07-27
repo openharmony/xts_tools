@@ -26,19 +26,19 @@ class Animal {
   
   move(): void {
     console.log(this.name + ' moves')
-  }
+}
 }
 
 class Dog extends Animal {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 class Cat extends Animal {
   meow(): void {
     console.log('Meow!')
-  }
+}
 }
 
 function testInstanceofNarrowing(animal: Animal): void {
@@ -55,6 +55,5 @@ function testInstanceofNarrowing(animal: Animal): void {
     a.meow()  // OK: 智能类型是 Cat
     a.move()  // OK: Cat 继承自 Animal
   } else {
-    a.move()  // OK: 智能类型仍然是 Animal
-  }
+    a.move()  // OK: 智能类型仍然是 Animal}
 }

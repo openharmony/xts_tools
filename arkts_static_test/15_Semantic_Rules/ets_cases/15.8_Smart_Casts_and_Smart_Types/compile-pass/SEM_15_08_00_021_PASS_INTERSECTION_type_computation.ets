@@ -30,7 +30,7 @@ class Document implements Printable {
   
   print(): void {
     console.log(this.content)
-  }
+}
 }
 
 function testIntersectionTypeComputation(doc: Document | Printable): void {
@@ -52,12 +52,12 @@ class File implements Printable, Writable {
   
   print(): void {
     console.log(this.content)
-  }
+}
   
   write(content: string): void {
     this.content = content
     console.log('Written: ' + content)
-  }
+}
 }
 
 function testComplexIntersectionType(file: File | Printable | Writable): void {

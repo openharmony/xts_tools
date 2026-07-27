@@ -28,19 +28,19 @@ class Animal {
 class Dog extends Animal {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 class Base {
   acceptDog(dog: Dog): void {
     console.log('Base accepts dog')
-  }
+}
 }
 
 class Derived extends Base {
   // 编译失败：参数协变（Dog 是 Animal 的子类型，但重写方法不能缩小参数类型）
   override acceptDog(animal: Animal): void {
     console.log('Derived accepts animal')
-  }
+}
 }
 

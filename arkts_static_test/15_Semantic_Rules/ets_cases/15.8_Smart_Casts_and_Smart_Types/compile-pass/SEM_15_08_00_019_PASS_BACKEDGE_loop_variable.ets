@@ -47,7 +47,6 @@ function testBackedgeLoopVariable(): void {
   for (let i = 0; i < 10; i++) {
     // 循环内：i 的智能类型是 number
     console.log('For loop: ' + i)
-  
 }
 console.log('Backedge loop variable test passed')
 }

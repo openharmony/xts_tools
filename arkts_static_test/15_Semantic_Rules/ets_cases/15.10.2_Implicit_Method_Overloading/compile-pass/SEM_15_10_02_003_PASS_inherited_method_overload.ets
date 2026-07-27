@@ -20,10 +20,12 @@
  * @note Spec lines 20-38
  */
 class Base {
-    foo(p: number): void { console.log('Base.number') }
+    foo(p: number): void { console.log('Base.number')
+}
 }
 class Derived extends Base {
-    foo(p: string): void { console.log('Derived.string') }
+    foo(p: string): void { console.log('Derived.string')
+}
 }
 function main(): void {
     let d: Derived = new Derived()

@@ -25,7 +25,7 @@ function testReturnTypeInference(): void {
   // 没有返回语句，推断为 void
   function foo1(): void {
     console.log('foo1')
-  }
+}
   
   // 所有返回语句有相同的表达式类型 R，推断为 R
   function foo2() {
@@ -36,10 +36,9 @@ function testReturnTypeInference(): void {
   // 有多个返回语句，推断为联合类型
   function foo3(condition: boolean) {
     if (condition) {
-      return 1
-    } else {
-      return 'hello'
-    }
+    return 1
+  } else {
+    return 'hello'}
   }
   let result3: number | string = foo3(true)  // OK: 推断返回类型是 number | string
   

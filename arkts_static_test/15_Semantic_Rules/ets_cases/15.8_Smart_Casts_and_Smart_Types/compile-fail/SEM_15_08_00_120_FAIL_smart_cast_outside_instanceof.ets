@@ -27,6 +27,6 @@ function sem1508Fail299OutsideInstanceof(): void {
   }
   function bar(c: C): void {
     c.foo()
-  }
+}
   bar(new D())
 }
