@@ -20,7 +20,9 @@
  *  `Overloading\compile-fail\OVERLOAD_FAIL_027_receiver_same_name_instance_method.ets`；用于补充
  *  `Overloading\compile-fail\OVERLOAD_FAIL_027_receiver_same_name_instance_method.ets`；
  *  ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-fail\OVERLOAD_FAIL_027_receiver_same_name_instance_method.ets
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\
+ *  Overloading\compile-fail\OVERLOAD_FAIL_027_receiver_same_name_instance_method.ets
  */
 class OverloadFail027C {
   hit(): string {

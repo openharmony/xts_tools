@@ -20,7 +20,9 @@
  *  `Overloading\compile-fail\OVERLOAD_FAIL_002_overload_equivalent_return_ignored.ets`；用于补充
  *  `Overloading\compile-fail\OVERLOAD_FAIL_002_overload_equivalent_return_ignored.ets`；
  *  ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-fail\OVERLOAD_FAIL_002_overload_equivalent_return_ignored.ets
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\
+ *  Overloading\compile-fail\OVERLOAD_FAIL_002_overload_equivalent_return_ignored.ets
  */
 function overloadFail002Value(p: string[]): string {
   return 's'

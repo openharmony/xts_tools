@@ -20,7 +20,9 @@
  *  `NullishOverloadResolution\runtime\SEM_RT_002_undefined_selects_inherited_generic_method.ets`；用于补充
  *  `NullishOverloadResolution\runtime\SEM_RT_002_undefined_selects_inherited_generic_method.ets`；
  *  ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\NullishOverloadResolution\runtime\SEM_RT_002_undefined_selects_inherited_generic_method.ets
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\
+ *  NullishOverloadResolution\runtime\SEM_RT_002_undefined_selects_inherited_generic_method.ets
  */
 // Expected runtime: 1
 class SemRt002Parent {

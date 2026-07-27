@@ -20,7 +20,9 @@
  *  `Overloading\compile-fail\OVERLOAD_FAIL_026_static_method_not_inherited_for_overload.ets`；用于补充
  *  `Overloading\compile-fail\OVERLOAD_FAIL_026_static_method_not_inherited_for_overload.ets`；
  *  ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-fail\OVERLOAD_FAIL_026_static_method_not_inherited_for_overload.ets
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\
+ *  Overloading\compile-fail\OVERLOAD_FAIL_026_static_method_not_inherited_for_overload.ets
  */
 class OverloadFail026Base {
   static select(p: int): string {
@@ -32,5 +34,6 @@ class OverloadFail026Derived extends OverloadFail026Base {
     return 'derived-string'
   }
 }
-// KNOWN_ISSUE: spec expects no fallback to inherited static method because the static overload set uses only methods directly defined in the class; current WSL compiler resolves the base static method and passes.
+// KNOWN_ISSUE: spec expects no fallback to inherited static method because the static overload set uses only
+// methods directly defined in the class; current WSL compiler resolves the base static method and passes.
 let overloadFail026Value: string = OverloadFail026Derived.select(26)

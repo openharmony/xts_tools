@@ -20,7 +20,9 @@
  *  `NullishOverloadResolution\runtime\SEM_RT_005_parent_static_type_keeps_parent_generic.ets`；用于补充
  *  `NullishOverloadResolution\runtime\SEM_RT_005_parent_static_type_keeps_parent_generic.ets`；
  *  ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\NullishOverloadResolution\runtime\SEM_RT_005_parent_static_type_keeps_parent_generic.ets
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\
+ *  NullishOverloadResolution\runtime\SEM_RT_005_parent_static_type_keeps_parent_generic.ets
  */
 // Expected runtime: 1
 class SemRt005Parent {

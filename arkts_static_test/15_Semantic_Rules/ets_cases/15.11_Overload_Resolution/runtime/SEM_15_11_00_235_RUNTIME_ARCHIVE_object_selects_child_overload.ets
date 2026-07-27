@@ -20,7 +20,9 @@
  *  `NullishOverloadResolution\runtime\SEM_RT_004_object_selects_child_overload.ets`；用于补充
  *  `NullishOverloadResolution\runtime\SEM_RT_004_object_selects_child_overload.ets`；
  *  ArkTS overload / overload resolution / effective signature 覆盖。
- * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\NullishOverloadResolution\runtime\SEM_RT_004_object_selects_child_overload.ets
+ * @source
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\
+ *  NullishOverloadResolution\runtime\SEM_RT_004_object_selects_child_overload.ets
  */
 // Expected runtime: 2
 class SemRt004Parent {
