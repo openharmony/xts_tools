@@ -33,7 +33,8 @@ function testTypeExpressionSimplification(): void {
     if (typeof x === 'number') {
     console.log('Simplified: ' + (x * 2))
   } else {
-    console.log('Simplified: ' + x.toUpperCase())}
+    console.log('Simplified: ' + x.toUpperCase())
+    }
   }
   
   // 并集简化：A | never = A

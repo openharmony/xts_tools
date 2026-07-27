@@ -61,6 +61,7 @@ function testForLoopNarrowing(values: (number | string)[]): void {
     if (typeof value === 'number') {
     console.log('For loop (number): ' + (value * 2))
   } else {
-    console.log('For loop (string): ' + value.toUpperCase())}
+    console.log('For loop (string): ' + value.toUpperCase())
+    }
   }
 }

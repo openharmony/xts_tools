@@ -30,8 +30,10 @@ function main(): void {
 }
   b.value ??= getMaybe031(true)
   let len: int | undefined = b.value?.length
-  if (b.value !== 'ok') { throw new Error('??= failed')
-}
-  if (len !== 2) { throw new Error('optional chain failed')
-}
+  if (b.value !== 'ok') {
+        throw new Error('??= failed')
+    }
+  if (len !== 2) {
+        throw new Error('optional chain failed')
+    }
 }

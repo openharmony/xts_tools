@@ -23,7 +23,8 @@ function foo(x: string | undefined): number {
     if (x == undefined) {
     return 0;
   } else {
-    return x.length;}
+    return x.length;
+    }
 }
 function main(): void {
     let r: number = foo('hello');

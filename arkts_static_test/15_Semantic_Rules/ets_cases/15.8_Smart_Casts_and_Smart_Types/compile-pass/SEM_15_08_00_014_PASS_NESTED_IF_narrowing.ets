@@ -53,9 +53,10 @@ function testNestedIfElseNarrowing(value: number | string | undefined): void {
       console.log('String: ' + value.toUpperCase())
   } else {
     // value 的智能类型是 number
-      console.log('Number: ' + (value * 2))}
+      console.log('Number: ' + (value * 2))
+    }
   } else {
     // value 的智能类型是 undefined
     console.log('Value is undefined')
-}
+    }
 }

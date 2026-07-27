@@ -20,8 +20,9 @@
  * @note Spec lines 42-56
  */
 class C {
-    foo(p: number): void { console.log('number')
-}
+    foo(p: number): void {
+        console.log('number')
+    }
     foo(p: string): void { console.log('string')
 }
 }

@@ -16,7 +16,8 @@
  * @id SEM_15_11_00_024_PASS_ARCHIVE_receiver_instance_method_priority_combined
  * @expect compile-pass
  * @section 15.11
- * @design Archive import: instance method lookup has priority for method-call syntax, while receiver function
+ * @design Archive import: instance method lookup has priority for method-call syntax,
+ *  while receiver function
  *  remains callable as a function.
  * @source
  *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_022_receiver_instance_method_priority_combined.ets

@@ -38,7 +38,7 @@ function testReturnTypeInference(): void {
     if (condition) {
     return 1
   } else {
-    return 'hello'}
+    return 'hello'
   }
   let result3: number | string = foo3(true)  // OK: 推断返回类型是 number | string
   

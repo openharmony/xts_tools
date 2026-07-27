@@ -20,4 +20,4 @@
  * @note spec: override field must be explicitly initialized
  */
 class Base012 { public f: int = 1 }
-class Derived012 extends Base012 { f: int}
+class Derived012 extends Base012 { public f: int}

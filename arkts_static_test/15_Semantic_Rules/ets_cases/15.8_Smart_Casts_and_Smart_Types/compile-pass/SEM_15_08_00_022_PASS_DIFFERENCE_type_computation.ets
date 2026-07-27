@@ -40,7 +40,8 @@ function testComplexDiferenceType(x: number | string | null | undefined): void {
       console.log('Number: ' + (x * 2))
   } else {
     // 在这个分支中，x 的智能类型是 string
-      console.log('String: ' + x.toUpperCase())}
+      console.log('String: ' + x.toUpperCase())
+    }
   }
 }
 
@@ -51,6 +52,7 @@ function testDiferenceTypeWithUnion(x: (number | string) | null): void {
     if (typeof x === 'number') {
     console.log('Union - null (number): ' + (x * 2))
   } else {
-    console.log('Union - null (string): ' + x.toUpperCase())}
+    console.log('Union - null (string): ' + x.toUpperCase())
+    }
   }
 }

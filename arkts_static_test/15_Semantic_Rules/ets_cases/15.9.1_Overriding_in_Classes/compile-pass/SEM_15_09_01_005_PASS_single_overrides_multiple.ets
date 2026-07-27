@@ -24,8 +24,9 @@ class B {}
 class C {
     foo(a: A): void { console.log('C.A')
 }
-    foo(b: B): void { console.log('C.B')
-}
+    foo(b: B): void {
+        console.log('C.B')
+    }
 }
 class D extends C {
     foo(o: Object): void { console.log('D.Object')

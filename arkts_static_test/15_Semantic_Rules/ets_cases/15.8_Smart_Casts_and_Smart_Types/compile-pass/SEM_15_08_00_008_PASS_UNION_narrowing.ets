@@ -58,6 +58,7 @@ function testUnionSmartCast(): void {
     if (typeof x === 'string') {
     console.log('String: ' + x.toUpperCase())
   } else {
-    console.log('Number: ' + (x + 1))}
+    console.log('Number: ' + (x + 1))
+    }
   }
 }

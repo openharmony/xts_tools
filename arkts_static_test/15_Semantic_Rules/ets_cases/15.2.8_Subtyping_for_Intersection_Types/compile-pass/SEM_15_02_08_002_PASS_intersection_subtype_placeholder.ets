@@ -21,8 +21,11 @@
  */
 interface Flyable { fly(): void; }
 class Bird { public name: string = ''; }
-class Eagle extends Bird { fly(): void { console.log('verified');
-} }
+class Eagle extends Bird {
+    fly(): void {
+        console.log('verified');
+    }
+}
 function main(): void {
     let b: Bird = new Eagle();
     if (b instanceof Eagle) {

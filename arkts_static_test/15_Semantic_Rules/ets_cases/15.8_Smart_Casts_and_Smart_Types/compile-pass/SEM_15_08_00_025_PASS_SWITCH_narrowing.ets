@@ -39,9 +39,9 @@ function testSwitchNarrowing(value: number | string | boolean): void {
       let notV: boolean = !value
       console.log('Boolean: ' + notV)
       break
-    default:
-      console.log('Unknown type')
-}
+  default:
+    console.log('Unknown type')
+  }
 }
 
 // 测试 switch 语句中的联合类型收窄

@@ -27,7 +27,7 @@ function testWhileLoopExtended(): void {
   while (num) {
     console.log('While loop (number): ' + num)
     num--
-    if (num == 0) break
+    if (num == 0) { break }
   }
   // 输出: 10, 9, 8, ..., 1
   

@@ -22,8 +22,9 @@
 class BigFloat {
     constructor(n: number) { console.log('number')
 }
-    constructor(s: string) { console.log('string')
-}
+    constructor(s: string) {
+        console.log('string')
+    }
 }
 function main(): void {
     new BigFloat(1)

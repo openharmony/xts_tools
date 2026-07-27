@@ -48,6 +48,20 @@ function testForOfNarrowing(values: (number | string)[]): void {
     if (typeof value === 'number') {
     console.log('For-of (number): ' + (value * 2))
   } else {
-    console.log('For-of (string): ' + value.toUpperCase())}
+    console.log('For-of (string): ' + value.toUpperCase())
+    }
   }
 }
+
+// 测试 for 循环中的类型收窄
+function testForLoopNarrowing(values: (number | string)[]): void {
+  for (let i = 0; i < values.length; i++) {
+    let value: number | string = values[i]
+    
+    // for 循环体内的类型收窄
+    if (typeof value === 'number') {
+    console.log('For loop (number): ' + (value * 2))
+  } else {
+    console.log('For loop (string): ' + value.toUpperCase())
+    }
+  }

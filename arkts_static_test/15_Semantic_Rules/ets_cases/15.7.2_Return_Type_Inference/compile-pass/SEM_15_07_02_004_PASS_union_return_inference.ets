@@ -26,8 +26,8 @@ function bar(condition: boolean): Base {
     if (condition) {
     return new Derived1();
   } else {
-    return new Derived2();}
-}
+    return new Derived2();
+  }
 function main(): void {
     let r: Base = bar(true);
     console.log('verified');
