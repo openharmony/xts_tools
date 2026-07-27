@@ -19623,6 +19623,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/relational_store",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/distributeddatamgr/udmf",
             "bundle_name": [
                 "udmf"
