@@ -56,7 +56,7 @@ class File implements Printable, Writable {
   
   write(content: string): void {
     this.content = content
-    console.log("Written: " + content)
+    console.log('Written: ' + content)
   }
 }
 

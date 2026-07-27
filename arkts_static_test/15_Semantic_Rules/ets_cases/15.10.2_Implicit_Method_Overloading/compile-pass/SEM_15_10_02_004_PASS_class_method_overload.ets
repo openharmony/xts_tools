@@ -26,5 +26,5 @@ class C {
 function main(): void {
     let c: C = new C()
     c.foo(5)
-    c.foo("5")
+    c.foo('5')
 }

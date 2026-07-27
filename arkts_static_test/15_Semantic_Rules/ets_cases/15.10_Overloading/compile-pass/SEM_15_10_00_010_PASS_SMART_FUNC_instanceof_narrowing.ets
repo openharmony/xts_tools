@@ -17,7 +17,7 @@
  * @expect compile-pass
  * @section 15.10
  * @design 函数体内 Base 值经过 instanceof Derived 显式缩窄后，允许按 Derived 使用。
- * @note Cross-cutting smart type scope case: global/top-level and function-scope behavior must be checked for every section.
+ * @note Cross-cutting smart type scope case: global/function-scope behavior per section.
  */
 
 class SmartBase {}

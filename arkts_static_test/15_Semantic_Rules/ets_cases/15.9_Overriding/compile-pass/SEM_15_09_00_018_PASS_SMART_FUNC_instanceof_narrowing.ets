@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Copyright (c) 2021-2026 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
  * @id SEM_15_09_00_018_PASS_SMART_FUNC_instanceof_narrowing
  * @expect compile-pass
  * @section 15.9
- * @design 函数体内 Base 值经过 instanceof Derived 显式缩窄后，允许按 Derived 使用。
- * @note Cross-cutting smart type scope case: global/top-level and function-scope behavior must be checked for every section.
+ * @design 鍑芥暟浣撳唴 Base 鍊肩粡杩?instanceof Derived 鏄惧紡缂╃獎鍚庯紝鍏佽鎸?Derived 浣跨敤銆?
+ * @note Cross-cutting smart type scope case: global/function-scope behavior per section.
  */
 
 class SmartBase {}

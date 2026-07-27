@@ -17,7 +17,7 @@
  * @expect compile-fail
  * @section 15.8
  * @design 顶层/全局 Base 声明变量即使初始化为 Derived，未显式缩窄也不应访问 Derived 独有成员。
- * @note Cross-cutting smart type scope case: global/top-level and function-scope behavior must be checked for every section.
+ * @note Cross-cutting smart type scope case: global/function-scope behavior per section.
  */
 
 class SmartBase {}

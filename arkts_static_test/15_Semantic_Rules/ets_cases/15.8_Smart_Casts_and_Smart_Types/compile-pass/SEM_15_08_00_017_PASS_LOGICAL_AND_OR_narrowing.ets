@@ -26,34 +26,34 @@ function testLogicalAndNarrowing(value: number | string | null): void {
   if (value != null && typeof value === 'string') {
     // 在这个分支中，value 的智能类型是 string
     let upper: string = value.toUpperCase()
-    console.log("AND narrowing (string): " + upper)
+    console.log('AND narrowing (string): ' + upper)
   }
   
   if (value != null && typeof value === 'number') {
     // 在这个分支中，value 的智能类型是 number
     let doubled: number = value * 2
-    console.log("AND narrowing (number): " + doubled)
+    console.log('AND narrowing (number): ' + doubled)
   }
 }
 
 function testLogicalOrNarrowing(value: number | string): void {
   // 逻辑 OR 表达式中的类型收窄
   let result: string = (typeof value === 'string') ? value : value.toString()
-  console.log("OR narrowing result: " + result)
+  console.log('OR narrowing result: ' + result)
   
   // 使用逻辑 OR 提供默认值
   let str: string = (typeof value === 'string') ? value : String(value)
-  console.log("OR narrowing with default: " + str)
+  console.log('OR narrowing with default: ' + str)
 }
 
 // 测试逻辑 AND/OR 的短路行为
 function testShortCircuit(value: number | string | null): void {
   // 短路 AND：如果第一个操作数为 false，则不评估第二个操作数
   if (value != null && typeof value === 'string') {
-    console.log("Short-circuit AND: " + value)
+    console.log('Short-circuit AND: ' + value)
   }
   
   // 短路 OR：如果第一个操作数为 true，则不评估第二个操作数
   let defaultValue: number | string = value ?? 'default'
-  console.log("Short-circuit OR (??): " + defaultValue)
+  console.log('Short-circuit OR (??): ' + defaultValue)
 }
