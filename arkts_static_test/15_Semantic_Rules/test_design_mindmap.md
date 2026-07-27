@@ -1,0 +1,305 @@
+# 15 Semantic Rules Test Design Mindmap
+
+- Semantic Rules
+  - compile-pass
+  - compile-fail
+  - runtime
+  - boundary
+  - negative diagnostics
+  - interoperability with related chapters
+
+## Subtopics
+
+- 15.1_Semantic_Essentials
+  - normal cases
+  - edge cases
+  - error cases
+- 15.1.1_Type_of_Standalone_Expression
+  - numeric literals (int/long, double/float)
+  - constant expressions
+  - array literals
+  - object literal (compile-fail)
+- 15.1.2_Specifics_of_Assignment_like_Contexts
+  - known RHS type
+  - unknown RHS type, infer from LHS
+- 15.1.3_Specifics_of_Variable_Initialization_Context
+  - explicit type annotation
+  - type inference from initializer
+- 15.1.4_Specifics_of_Numeric_Operator_Contexts
+  - postfix/prefix increment on byte/short (no widening)
+  - numeric operators widening (min int)
+- 15.1.5_Specifics_of_String_Operator_Contexts
+  - '+' with string operand (string conversion)
+- 15.1.6_Other_Contexts
+  - overriding uses subtyping
+- 15.1.7_Specifics_of_Type_Parameters
+  - type parameter provides no inference info in assignment context
+  - compile-time error expected
+- 15.1.8_Semantic_Essentials_Summary
+  - terminology verification
+- 15.2_Subtyping
+  - normal cases
+  - edge cases
+  - error cases
+- 15.2.1_Subtyping_Non_Generic
+  - class extends
+  - interface extends
+  - transitive closure
+  - Object as implicit supertype
+- 15.2.2_Subtyping_Generic
+  - invariance verification
+  - constraint checking
+  - type parameter substitution
+- 15.2.3_Subtyping_Literal_Types
+  - string literal subtype of string
+  - numeric literal subtype of numeric type
+- 15.2.4_Subtyping_Tuple_Types
+  - identical tuple types
+  - different tuple types (no subtyping)
+- 15.2.5_Subtyping_Union_Types
+  - union assignability
+  - each member must be subtype
+- 15.2.6_Subtyping_Function_Types
+  - parameter contravariance
+  - return type covariance
+  - function type assignment compatibility
+- 15.2.7_Subtyping_Fixed_Size_Array_Types
+  - identical FixedArray types
+  - different FixedArray types (no subtyping)
+- 15.2.8_Subtyping_Intersection_Types
+  - S<:T1&T2 when S<:T1 and S<:T2
+- 15.2.9_Subtyping_Difference_Types
+  - S<:T1-T2 when S<:T1 and S not subtype of T2
+- 15.3_Type_Identity
+  - array type identity (T1[] vs Array<T2>)
+  - tuple type identity (same length and identical elements)
+  - union type identity (permutation of types)
+  - type alias identity (alias is indistinguishable from base type)
+  - generic class/interface type parameter shadowing
+  - identity relation symmetry and transitivity
+  - class type parameter vs method type parameter conflict
+- 15.4_Assignability
+  - subtyping-based assignability
+  - implicit conversion-based assignability
+  - assignability asymmetry verification
+  - assignability with union types
+  - assignability with intersection types
+  - assignability with literal types
+  - assignability with null/undefined
+  - failed assignability (compile-error)
+- 15.5_Invariance_Covariance_Contravariance
+  - generic class invariance (no subtyping for different type args)
+  - method return type covariance (valid overriding)
+  - method parameter type contravariance (valid overriding)
+  - prohibition of parameter type covariance (compile-error)
+  - prohibition of return type contravariance (compile-error)
+  - generic interface variance annotations (in/out)
+  - variance in function types
+  - invariance with wildcard types
+  - covariance with array types (restricted in ArkTS)
+- 15.6_Compatibility_of_Call_Arguments
+  - spread expression linearization (Step 1)
+  - non-rest parameter assignment (Step 2 arg_pos/par_pos increment)
+  - rest array parameter matching (type assignability)
+  - rest tuple parameter matching (element-wise assignability)
+  - excess argument error (no matching parameter)
+  - missing required argument error
+  - assignability check for each argument
+  - implicit conversions in call arguments
+  - spread of non-array expression (compile-error)
+  - argument count exceeding parameter count (compile-error)
+- 15.7_Type_Inference
+  - normal cases
+  - edge cases
+  - error cases
+- 15.7.1_Type_Inference_for_Constant_Expressions
+  - constant expression type inference
+- 15.7.2_Return_Type_Inference
+  - explicit return type annotation
+  - inference from return statements
+  - no return (infer void)
+- 15.8_Smart_Casts_and_Smart_Types
+  - normal cases
+  - edge cases
+  - error cases
+- 15.8.1_Type_Expression
+  - type expression syntax and evaluation
+- 15.8.2_Intersection_Types
+  - intersection type computation in smart casts
+- 15.8.3_Difference_Types
+  - difference type computation in smart casts
+- 15.8.4_Computing_Smart_Types
+  - variable declaration (l(v) and s(l(v)) initialization)
+  - assignment (variable alias update)
+  - instanceof assumption (s'(l(v)) := s(l(v)) & A)
+  - strict equality with string literal (s'(l(v)) := str)
+  - strict equality with undefined (s'(l(v)) := undefined)
+  - strict equality with null (s'(l(v)) := null)
+  - loose equality with undefined (s'(l(v)) := undefined|null)
+  - typeof assumption (type T evaluation)
+  - strict equality with enum constant (s'(l(v)) := N(ec))
+  - truthiness check (s'(l(v)) := s(l(v)) - (null|undefined|""))
+  - CFG branch joining (union of smart types)
+  - backedge node update (loop variable reset to declared type)
+  - must-alias sets computation
+  - smart type for captured variables in lambdas
+- 15.8.5_Control_flow_Graph
+  - CFG node types (expression, branching, assuming, backedge)
+  - if/else statement translation to CFG
+  - if/else if/else chain translation
+  - switch statement translation (with cases and default)
+  - while loop translation (with backedge)
+  - do-while loop translation
+  - for loop translation (with initialization, condition, update)
+  - for-in/for-of loop translation
+  - ternary conditional expression translation
+  - logical AND/OR short-circuit translation
+  - variable declaration node creation
+  - assignment node creation
+  - instanceof expression node creation
+  - typeof expression node creation
+  - branching node with true/false branches
+  - assuming node with assumed condition
+  - backedge node marking loop transfer
+  - CFG branch joining (union of smart types)
+  - must-alias sets computation across CFG
+  - TBD: language construct to CFG fragment mapping verification
+- 15.8.6_Type_Expression_Simplification
+  - intersection associativity ((A&B)&C = A&(B&C))
+  - intersection commutativity (A&B = B&A)
+  - intersection with subtyping (A&B = A if A<:B)
+  - intersection with never (A&never = never)
+  - intersection with Any (A&Any = A)
+  - union associativity ((A|B)|C = A|(B|C))
+  - union commutativity (A|B = B|A)
+  - union with subtyping (A|B = A if A<:B)
+  - union with never (A|never = A)
+  - union with Any (A|Any = Any)
+  - difference with never (A-never = A)
+  - difference with subtyping (A-B = never if A<:B)
+  - difference with Any (A-Any = never)
+  - difference commutativity ((B-A)&A = never)
+  - intersection-difference simplification ((A&B)-C = (A-C)&(B-C))
+  - union-difference simplification ((A|B)-C = (A-C)|(B-C))
+  - nested difference simplification ((A-B)-C = A-(B|C))
+  - object type simplification (A&B = never if neither extends the other)
+  - final class-interface simplification (A&I = never if A not implement I)
+  - class/interface with never/undefined (A&U = never, A-U = A)
+  - push difference inside intersection/union
+  - push intersection inside union
+  - union type normalization after simplification
+  - difference type approximation (A-B recursively replaced by A)
+- 15.8.7_Smart_Cast_Examples
+  - union type smart cast
+  - type narrowing
+- 15.9_Overriding
+  - normal cases
+  - edge cases
+  - error cases
+- 15.9.1_Overriding_in_Classes
+  - override keyword required
+  - return type covariance
+  - access modifier cannot be more strict
+  - static methods cannot be overridden
+- 15.9.2_Overriding_in_Interfaces
+  - default method override
+  - abstract method implementation
+- 15.9.3_Override_Compatible_Signatures
+  - parameter types same
+  - return type covariance
+- 15.10_Overloading
+  - normal cases
+  - edge cases
+  - error cases
+- 15.10.1_Implicit_Function_Overloading
+  - function overloading with different params
+  - overload resolution
+- 15.10.2_Implicit_Method_Overloading
+  - method overloading in class
+- 15.10.3_Implicit_Constructor_Overloading
+  - constructor overloading
+- 15.10.4_Overload_Equivalent_Signatures
+  - equivalent signatures (should fail compilation)
+- 15.11_Overload_Resolution
+  - normal cases
+  - edge cases
+  - error cases (ambiguous)
+- 15.11.1_Forming_an_Overload_Set
+  - overload set formation rules
+- 15.11.2_Overload_Set_for_Functions
+  - exact match priority
+  - assignability match
+- 15.11.3_Overload_Set_for_Interface_Methods
+  - interface method overload resolution
+- 15.11.4_Overload_Set_for_Class_Static_Methods
+  - static method overload resolution
+- 15.11.5_Overload_Set_for_Class_Instance_Methods
+  - instance method overload resolution
+- 15.11.6_Overload_Set_for_Constructors
+  - constructor overload resolution
+- 15.11.7_Overload_Set_Warning
+  - ambiguous call warning
+- 15.11.8_Overload_Set_at_Method_Call
+  - overload set selection at method call
+- 15.11.9_Overloading_and_Overriding
+  - interaction between overloading and overriding
+- 15.11.10_Dynamic_Resolution_of_Method_Calls
+  - static method call (no overriding, use statically determined method)
+  - super call (no overriding, use superclass method)
+  - instance method call (use actual objectReference type T)
+  - method resolution with T = C (result is M)
+  - method resolution with T has superclass (search superclass hierarchy)
+  - multiple overriding methods in subclass (exactly one matches)
+  - multiple overriding methods error (more than one matches)
+  - superinterface default method search
+  - superinterface method resolution (no default method)
+  - superinterface method resolution (multiple default methods error)
+  - closest superclass definition priority
+  - closest superinterface definition priority
+  - method resolution failure (runtime error)
+  - static type vs runtime type interaction
+  - overload resolution followed by dynamic dispatch
+  - overriding with contravariant parameters and covariant return
+  - bridge method generation for generic overriding
+  - resolution with generic type erasure
+  - resolution safety for programs compiled without source updates
+- 15.12_Type_Erasure
+  - generic type erasure (covariant → constraint, contravariant → never, invariant → wildcard)
+  - type parameter erasure (to constraint type)
+  - union type erasure (effective type of union members)
+  - array type erasure (to Array<effective type>)
+  - FixedArray erasure (to FixedArray<effective type>)
+  - function type erasure (parameters → Any, return → never)
+  - rest parameter function type erasure
+  - tuple type erasure (to internal generic tuple type)
+  - string literal type erasure (to string)
+  - Awaited type erasure (based on Promise type)
+  - NonNullable erasure (effective type - null)
+  - Record<K,V> erasure (to Map<effective K, effective V>)
+  - effective signature type (return never → never)
+  - runtime type safety checks after erasure
+  - cast expression with erased types (potential ClassCastError)
+- 15.13_Static_Initialization
+  - class static field initialization before first access
+  - namespace initialization before member use
+  - module initialization before function call
+  - static block execution order
+  - recursive static initialization prevention
+  - concurrent initialization synchronization
+  - deadlock potential in circular dependencies
+  - initialization failure and exception handling
+  - static initialization of direct subclass triggers superclass initialization
+- 15.13.1_Static_Initialization_Safety
+  - access to not yet initialized variable (compile-error)
+  - access to not yet initialized static field (compile-error)
+  - default value for uninitialized entity with default type
+  - NullPointerError for uninitialized entity without default value
+  - safe access to fully initialized entities
+  - concurrent access to static initialization guard
+- 15.14_Compatibility_Features
+  - deprecated extended semantics
+  - conditional expressions
+- 15.14.1_Extended_Conditional_Expressions
+  - ternary conditional expressions
+  - conditional-and/or
+  - logical complement
