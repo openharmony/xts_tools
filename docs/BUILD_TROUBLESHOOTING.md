@@ -2,7 +2,7 @@
 
 ## 无法找到接口文件对应的XTS目标配置
 
-```bash1
+```bash
 [ERROR] Failed to obtain interface file ownership. Please config in test/xts/tools/config/ci_api_part_name.json
 [ERROR] Cannot match path ...
 ```
