@@ -1,0 +1,1972 @@
+{
+  "chapter": "15",
+  "topic": "Semantic Rules",
+  "directory": "15_Semantic_Rules",
+  "prefix": "SEM_",
+  "total_cases": 873,
+  "subtopics": [
+    "15.1.1_Type_of_Standalone_Expression",
+    "15.1.2_Specifics_of_Assignment_like_Contexts",
+    "15.1.3_Specifics_of_Variable_Initialization_Context",
+    "15.1.4_Specifics_of_Numeric_Operator_Contexts",
+    "15.1.5_Specifics_of_String_Operator_Contexts",
+    "15.1.6_Other_Contexts",
+    "15.1.7_Specifics_of_Type_Parameters",
+    "15.1.8_Semantic_Essentials_Summary",
+    "15.1_Semantic_Essentials",
+    "15.10.1_Implicit_Function_Overloading",
+    "15.10.2_Implicit_Method_Overloading",
+    "15.10.3_Implicit_Constructor_Overloading",
+    "15.10.4_Overload_Equivalent_Signatures",
+    "15.10_Overloading",
+    "15.11.1_Forming_an_Overload_Set",
+    "15.11.10_Dynamic_Resolution_of_Method_Calls",
+    "15.11.2_Overload_Set_for_Functions",
+    "15.11.3_Overload_Set_for_Interface_Methods",
+    "15.11.4_Overload_Set_for_Class_Static_Methods",
+    "15.11.5_Overload_Set_for_Class_Instance_Methods",
+    "15.11.6_Overload_Set_for_Constructors",
+    "15.11.7_Overload_Set_Warning",
+    "15.11.8_Overload_Set_at_Method_Call",
+    "15.11.9_Overloading_and_Overriding",
+    "15.11_Overload_Resolution",
+    "15.12_Type_Erasure",
+    "15.13.1_Static_Initialization_Safety",
+    "15.13_Static_Initialization",
+    "15.14.1_Extended_Conditional_Expressions",
+    "15.14_Compatibility_Features",
+    "15.2.1_Subtyping_for_Non_Generic_Classes_and_Interfaces",
+    "15.2.2_Subtyping_for_Generic_Classes_and_Interfaces",
+    "15.2.3_Subtyping_for_Literal_Types",
+    "15.2.4_Subtyping_for_Tuple_Types",
+    "15.2.5_Subtyping_for_Union_Types",
+    "15.2.6_Subtyping_for_Function_Types",
+    "15.2.7_Subtyping_for_Fixed_Size_Array_Types",
+    "15.2.8_Subtyping_for_Intersection_Types",
+    "15.2.9_Subtyping_for_Difference_Types",
+    "15.2_Subtyping",
+    "15.3_Type_Identity",
+    "15.4_Assignability",
+    "15.5_Invariance_Covariance_Contravariance",
+    "15.6_Compatibility_of_Call_Arguments",
+    "15.7.1_Type_Inference_for_Constant_Expressions",
+    "15.7.2_Return_Type_Inference",
+    "15.7_Type_Inference",
+    "15.8.1_Type_Expression",
+    "15.8.2_Intersection_Types",
+    "15.8.3_Difference_Types",
+    "15.8.4_Computing_Smart_Types",
+    "15.8.5_Control_flow_Graph",
+    "15.8.6_Type_Expression_Simplification",
+    "15.8.7_Smart_Cast_Examples",
+    "15.8_Smart_Casts_and_Smart_Types",
+    "15.9.1_Overriding_in_Classes",
+    "15.9.2_Overriding_in_Interfaces",
+    "15.9.3_Override_Compatible_Signatures",
+    "15.9_Overriding"
+  ],
+  "case_roots": [
+    "ets_cases"
+  ],
+  "categories": [
+    "compile-pass",
+    "compile-fail",
+    "runtime"
+  ],
+  "cases": [
+    {
+      "id": "SEM_15_01_01_001_PASS_INT_LITERAL_TYPE",
+      "section": "15.1.1_Type_of_Standalone_Expression",
+      "category": "compile-pass",
+      "description": "SEM_15_01_01_001_PASS_INT_LITERAL_TYPE"
+    },
+    {
+      "id": "SEM_15_01_01_002_PASS_FLOAT_LITERAL_TYPE",
+      "section": "15.1.1_Type_of_Standalone_Expression",
+      "category": "compile-pass",
+      "description": "SEM_15_01_01_002_PASS_FLOAT_LITERAL_TYPE"
+    },
+    {
+      "id": "SEM_15_01_01_003_PASS_CONST_EXPR_TYPE",
+      "section": "15.1.1_Type_of_Standalone_Expression",
+      "category": "compile-pass",
+      "description": "SEM_15_01_01_003_PASS_CONST_EXPR_TYPE"
+    },
+    {
+      "id": "SEM_15_01_01_004_PASS_ARRAY_LITERAL_TYPE",
+      "section": "15.1.1_Type_of_Standalone_Expression",
+      "category": "compile-pass",
+      "description": "SEM_15_01_01_004_PASS_ARRAY_LITERAL_TYPE"
+    },
+    {
+      "id": "SEM_15_01_01_100_FAIL_OBJECT_LITERAL_STANDALONE",
+      "section": "15.1.1_Type_of_Standalone_Expression",
+      "category": "compile-fail",
+      "description": "SEM_15_01_01_100_FAIL_OBJECT_LITERAL_STANDALONE"
+    },
+    {
+      "id": "SEM_15_01_01_200_RUNTIME_STANDALONE",
+      "section": "15.1.1_Type_of_Standalone_Expression",
+      "category": "runtime",
+      "description": "SEM_15_01_01_200_RUNTIME_STANDALONE"
+    },
+    {
+      "id": "SEM_15_01_02_001_PASS_KNOWN_RHS_ASSIGN",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_02_001_PASS_KNOWN_RHS_ASSIGN"
+    },
+    {
+      "id": "SEM_15_01_02_002_PASS_UNKNOWN_RHS_INFER",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_02_002_PASS_UNKNOWN_RHS_INFER"
+    },
+    {
+      "id": "SEM_15_01_02_003_PASS_WIDENING_ASSIGN",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_02_003_PASS_WIDENING_ASSIGN"
+    },
+    {
+      "id": "SEM_15_01_02_004_PASS_SUBTYPE_ASSIGN",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_02_004_PASS_SUBTYPE_ASSIGN"
+    },
+    {
+      "id": "SEM_15_01_02_100_FAIL_TYPE_MISMATCH",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "compile-fail",
+      "description": "SEM_15_01_02_100_FAIL_TYPE_MISMATCH"
+    },
+    {
+      "id": "SEM_15_01_02_101_FAIL_UNRELATED_ASSIGN",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "compile-fail",
+      "description": "SEM_15_01_02_101_FAIL_UNRELATED_ASSIGN"
+    },
+    {
+      "id": "SEM_15_01_02_200_RUNTIME_ASSIGN_SEMANTICS",
+      "section": "15.1.2_Specifics_of_Assignment_like_Contexts",
+      "category": "runtime",
+      "description": "SEM_15_01_02_200_RUNTIME_ASSIGN_SEMANTICS"
+    },
+    {
+      "id": "SEM_15_01_03_001_PASS_EXPLICIT_TYPE_INIT",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-pass",
+      "description": "SEM_15_01_03_001_PASS_EXPLICIT_TYPE_INIT"
+    },
+    {
+      "id": "SEM_15_01_03_002_PASS_INFER_FROM_INITIALIZER",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-pass",
+      "description": "SEM_15_01_03_002_PASS_INFER_FROM_INITIALIZER"
+    },
+    {
+      "id": "SEM_15_01_03_003_PASS_CONST_INIT",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-pass",
+      "description": "SEM_15_01_03_003_PASS_CONST_INIT"
+    },
+    {
+      "id": "SEM_15_01_03_004_PASS_EXPR_INIT",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-pass",
+      "description": "SEM_15_01_03_004_PASS_EXPR_INIT"
+    },
+    {
+      "id": "SEM_15_01_03_005_PASS_infer_from_param",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-pass",
+      "description": "SEM_15_01_03_005_PASS_infer_from_param"
+    },
+    {
+      "id": "SEM_15_01_03_006_PASS_infer_array_from_literal",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-pass",
+      "description": "SEM_15_01_03_006_PASS_infer_array_from_literal"
+    },
+    {
+      "id": "SEM_15_01_03_100_FAIL_INIT_TYPE_MISMATCH",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "compile-fail",
+      "description": "SEM_15_01_03_100_FAIL_INIT_TYPE_MISMATCH"
+    },
+    {
+      "id": "SEM_15_01_03_200_RUNTIME_INIT",
+      "section": "15.1.3_Specifics_of_Variable_Initialization_Context",
+      "category": "runtime",
+      "description": "SEM_15_01_03_200_RUNTIME_INIT"
+    },
+    {
+      "id": "SEM_15_01_04_001_PASS_NUMERIC_OPERATOR_WIDEN",
+      "section": "15.1.4_Specifics_of_Numeric_Operator_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_04_001_PASS_NUMERIC_OPERATOR_WIDEN"
+    },
+    {
+      "id": "SEM_15_01_04_002_PASS_BYTE_SHORT_INC",
+      "section": "15.1.4_Specifics_of_Numeric_Operator_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_04_002_PASS_BYTE_SHORT_INC"
+    },
+    {
+      "id": "SEM_15_01_04_003_PASS_MIXED_NUMERIC",
+      "section": "15.1.4_Specifics_of_Numeric_Operator_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_04_003_PASS_MIXED_NUMERIC"
+    },
+    {
+      "id": "SEM_15_01_04_100_FAIL_BOOL_NUMERIC",
+      "section": "15.1.4_Specifics_of_Numeric_Operator_Contexts",
+      "category": "compile-fail",
+      "description": "SEM_15_01_04_100_FAIL_BOOL_NUMERIC"
+    },
+    {
+      "id": "SEM_15_01_04_200_RUNTIME_NUMERIC_OPS",
+      "section": "15.1.4_Specifics_of_Numeric_Operator_Contexts",
+      "category": "runtime",
+      "description": "SEM_15_01_04_200_RUNTIME_NUMERIC_OPS"
+    },
+    {
+      "id": "SEM_15_01_05_001_PASS_STRING_OPERATOR_CONVERSION",
+      "section": "15.1.5_Specifics_of_String_Operator_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_05_001_PASS_STRING_OPERATOR_CONVERSION"
+    },
+    {
+      "id": "SEM_15_01_05_002_PASS_STRING_BOOL",
+      "section": "15.1.5_Specifics_of_String_Operator_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_05_002_PASS_STRING_BOOL"
+    },
+    {
+      "id": "SEM_15_01_05_003_PASS_STRING_DOUBLE",
+      "section": "15.1.5_Specifics_of_String_Operator_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_05_003_PASS_STRING_DOUBLE"
+    },
+    {
+      "id": "SEM_15_01_05_100_FAIL_STRING_SUB",
+      "section": "15.1.5_Specifics_of_String_Operator_Contexts",
+      "category": "compile-fail",
+      "description": "SEM_15_01_05_100_FAIL_STRING_SUB"
+    },
+    {
+      "id": "SEM_15_01_05_200_RUNTIME_STRING_CONCAT",
+      "section": "15.1.5_Specifics_of_String_Operator_Contexts",
+      "category": "runtime",
+      "description": "SEM_15_01_05_200_RUNTIME_STRING_CONCAT"
+    },
+    {
+      "id": "SEM_15_01_06_001_PASS_string_standalone",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_06_001_PASS_string_standalone"
+    },
+    {
+      "id": "SEM_15_01_06_002_PASS_BOOL_CONTEXT",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_06_002_PASS_BOOL_CONTEXT"
+    },
+    {
+      "id": "SEM_15_01_06_003_PASS_ARRAY_CONTEXT",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_06_003_PASS_ARRAY_CONTEXT"
+    },
+    {
+      "id": "SEM_15_01_06_004_PASS_FUNC_RETURN_CONTEXT",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_06_004_PASS_FUNC_RETURN_CONTEXT"
+    },
+    {
+      "id": "SEM_15_01_06_005_PASS_PROPERTY_ACCESS",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_06_005_PASS_PROPERTY_ACCESS"
+    },
+    {
+      "id": "SEM_15_01_06_006_PASS_bool_string_concat",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-pass",
+      "description": "SEM_15_01_06_006_PASS_bool_string_concat"
+    },
+    {
+      "id": "SEM_15_01_06_100_FAIL_MISMATCH",
+      "section": "15.1.6_Other_Contexts",
+      "category": "compile-fail",
+      "description": "SEM_15_01_06_100_FAIL_MISMATCH"
+    },
+    {
+      "id": "SEM_15_01_06_200_RUNTIME_other_contexts",
+      "section": "15.1.6_Other_Contexts",
+      "category": "runtime",
+      "description": "SEM_15_01_06_200_RUNTIME_other_contexts"
+    },
+    {
+      "id": "SEM_15_01_07_001_PASS_TYPE_PARAM_RETURN",
+      "section": "15.1.7_Specifics_of_Type_Parameters",
+      "category": "compile-pass",
+      "description": "SEM_15_01_07_001_PASS_TYPE_PARAM_RETURN"
+    },
+    {
+      "id": "SEM_15_01_07_002_PASS_TYPE_PARAM_CONSTRAINT",
+      "section": "15.1.7_Specifics_of_Type_Parameters",
+      "category": "compile-pass",
+      "description": "SEM_15_01_07_002_PASS_TYPE_PARAM_CONSTRAINT"
+    },
+    {
+      "id": "SEM_15_01_07_100_FAIL_TYPE_PARAM_LHS_INFERENCE",
+      "section": "15.1.7_Specifics_of_Type_Parameters",
+      "category": "compile-fail",
+      "description": "SEM_15_01_07_100_FAIL_TYPE_PARAM_LHS_INFERENCE"
+    },
+    {
+      "id": "SEM_15_01_07_101_FAIL_type_param_ctor_inference",
+      "section": "15.1.7_Specifics_of_Type_Parameters",
+      "category": "compile-fail",
+      "description": "SEM_15_01_07_101_FAIL_type_param_ctor_inference"
+    },
+    {
+      "id": "SEM_15_01_07_200_RUNTIME_TYPE_PARAM",
+      "section": "15.1.7_Specifics_of_Type_Parameters",
+      "category": "runtime",
+      "description": "SEM_15_01_07_200_RUNTIME_TYPE_PARAM"
+    },
+    {
+      "id": "SEM_15_01_08_001_PASS_comprehensive_expr",
+      "section": "15.1.8_Semantic_Essentials_Summary",
+      "category": "compile-pass",
+      "description": "SEM_15_01_08_001_PASS_comprehensive_expr"
+    },
+    {
+      "id": "SEM_15_01_08_100_FAIL_invalid_operation",
+      "section": "15.1.8_Semantic_Essentials_Summary",
+      "category": "compile-fail",
+      "description": "SEM_15_01_08_100_FAIL_invalid_operation"
+    },
+    {
+      "id": "SEM_15_01_08_200_RUNTIME_summary",
+      "section": "15.1.8_Semantic_Essentials_Summary",
+      "category": "runtime",
+      "description": "SEM_15_01_08_200_RUNTIME_summary"
+    },
+    {
+      "id": "SEM_15_01_00_001_PASS_standalone_int_literal",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_001_PASS_standalone_int_literal"
+    },
+    {
+      "id": "SEM_15_01_00_002_PASS_target_double_literal",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_002_PASS_target_double_literal"
+    },
+    {
+      "id": "SEM_15_01_00_003_PASS_array_literal_target_double",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_003_PASS_array_literal_target_double"
+    },
+    {
+      "id": "SEM_15_01_00_004_PASS_function_arg_target_type",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_004_PASS_function_arg_target_type"
+    },
+    {
+      "id": "SEM_15_01_00_005_PASS_string_plus_int",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_005_PASS_string_plus_int"
+    },
+    {
+      "id": "SEM_15_01_00_006_PASS_string_plus_boolean",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_006_PASS_string_plus_boolean"
+    },
+    {
+      "id": "SEM_15_01_00_007_PASS_byte_increment",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_007_PASS_byte_increment"
+    },
+    {
+      "id": "SEM_15_01_00_008_PASS_short_compound_assignment",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_008_PASS_short_compound_assignment"
+    },
+    {
+      "id": "SEM_15_01_00_009_PASS_explicit_generic_number",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_009_PASS_explicit_generic_number"
+    },
+    {
+      "id": "SEM_15_01_00_010_PASS_standalone_numeric_array",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_010_PASS_standalone_numeric_array"
+    },
+    {
+      "id": "SEM_15_01_00_011_PASS_call_arg_target_double",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_011_PASS_call_arg_target_double"
+    },
+    {
+      "id": "SEM_15_01_00_012_PASS_int_division_result",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_012_PASS_int_division_result"
+    },
+    {
+      "id": "SEM_15_01_00_013_PASS_string_plus_nullish",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_013_PASS_string_plus_nullish"
+    },
+    {
+      "id": "SEM_15_01_00_014_PASS_explicit_T_number",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_014_PASS_explicit_T_number"
+    },
+    {
+      "id": "SEM_15_01_00_015_PASS_SMART_FUNC_instanceof_narrowing",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_015_PASS_SMART_FUNC_instanceof_narrowing"
+    },
+    {
+      "id": "SEM_15_01_00_016_PASS_type_annotated_declaration",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-pass",
+      "description": "SEM_15_01_00_016_PASS_type_annotated_declaration"
+    },
+    {
+      "id": "SEM_15_01_00_100_FAIL_standalone_object_literal",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_100_FAIL_standalone_object_literal"
+    },
+    {
+      "id": "SEM_15_01_00_101_FAIL_incompatible_assignment_like_rhs",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_101_FAIL_incompatible_assignment_like_rhs"
+    },
+    {
+      "id": "SEM_15_01_00_102_FAIL_generic_target_no_extra_inference",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_102_FAIL_generic_target_no_extra_inference"
+    },
+    {
+      "id": "SEM_15_01_00_103_FAIL_string_minus_int",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_103_FAIL_string_minus_int"
+    },
+    {
+      "id": "SEM_15_01_00_104_FAIL_boolean_numeric_operator",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_104_FAIL_boolean_numeric_operator"
+    },
+    {
+      "id": "SEM_15_01_00_105_FAIL_implicit_numeric_narrowing",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_105_FAIL_implicit_numeric_narrowing"
+    },
+    {
+      "id": "SEM_15_01_00_106_FAIL_SMART_GLOBAL_global_base_member_without_narrow",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_106_FAIL_SMART_GLOBAL_global_base_member_without_narrow"
+    },
+    {
+      "id": "SEM_15_01_00_107_FAIL_type_mismatch",
+      "section": "15.1_Semantic_Essentials",
+      "category": "compile-fail",
+      "description": "SEM_15_01_00_107_FAIL_type_mismatch"
+    },
+    {
+      "id": "SEM_15_01_00_200_RUNTIME_SMART_GLOBAL_overload_declared_base_top_level",
+      "section": "15.1_Semantic_Essentials",
+      "category": "runtime",
+      "description": "SEM_15_01_00_200_RUNTIME_SMART_GLOBAL_overload_declared_base_top_level"
+    },
+    {
+      "id": "SEM_15_01_00_201_RUNTIME_semantic_essentials",
+      "section": "15.1_Semantic_Essentials",
+      "category": "runtime",
+      "description": "SEM_15_01_00_201_RUNTIME_semantic_essentials"
+    },
+    {
+      "id": "SEM_15_10_01_001_PASS_FUNCTION_OVERLOAD",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_001_PASS_FUNCTION_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_01_002_PASS_PARAM_COUNT_OVERLOAD",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_002_PASS_PARAM_COUNT_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_01_003_PASS_UNION_OVERLOAD",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_003_PASS_UNION_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_01_004_PASS_UNAMBIGUOUS_OVERLOAD",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_004_PASS_UNAMBIGUOUS_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_01_005_PASS_function_overload_by_type",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_005_PASS_function_overload_by_type"
+    },
+    {
+      "id": "SEM_15_10_01_006_PASS_generic_plain_equiv_first",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_006_PASS_generic_plain_equiv_first"
+    },
+    {
+      "id": "SEM_15_10_01_007_PASS_plain_generic_equiv_first",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_01_007_PASS_plain_generic_equiv_first"
+    },
+    {
+      "id": "SEM_15_10_01_100_FAIL_ERASURE_AMBIGUOUS",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_01_100_FAIL_ERASURE_AMBIGUOUS"
+    },
+    {
+      "id": "SEM_15_10_01_101_FAIL_overload_equivalent_non_generic",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_01_101_FAIL_overload_equivalent_non_generic"
+    },
+    {
+      "id": "SEM_15_10_01_200_RUNTIME_FUNCTION_OVERLOAD",
+      "section": "15.10.1_Implicit_Function_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_01_200_RUNTIME_FUNCTION_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_02_001_PASS_METHOD_OVERLOAD_2",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_02_001_PASS_METHOD_OVERLOAD_2"
+    },
+    {
+      "id": "SEM_15_10_02_002_PASS_METHOD_OVERLOAD",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_02_002_PASS_METHOD_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_02_003_PASS_inherited_method_overload",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_02_003_PASS_inherited_method_overload"
+    },
+    {
+      "id": "SEM_15_10_02_004_PASS_class_method_overload",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_02_004_PASS_class_method_overload"
+    },
+    {
+      "id": "SEM_15_10_02_005_PASS_generic_class_equiv_first",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_02_005_PASS_generic_class_equiv_first"
+    },
+    {
+      "id": "SEM_15_10_02_100_FAIL_EQUIVALENT_METHOD",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_02_100_FAIL_EQUIVALENT_METHOD"
+    },
+    {
+      "id": "SEM_15_10_02_200_RUNTIME_method_overload",
+      "section": "15.10.2_Implicit_Method_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_02_200_RUNTIME_method_overload"
+    },
+    {
+      "id": "SEM_15_10_03_001_PASS_CTOR_OVERLOAD",
+      "section": "15.10.3_Implicit_Constructor_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_03_001_PASS_CTOR_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_03_002_PASS_constructor_overload",
+      "section": "15.10.3_Implicit_Constructor_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_03_002_PASS_constructor_overload"
+    },
+    {
+      "id": "SEM_15_10_03_100_FAIL_CTOR_OVERLOAD",
+      "section": "15.10.3_Implicit_Constructor_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_03_100_FAIL_CTOR_OVERLOAD"
+    },
+    {
+      "id": "SEM_15_10_03_200_RUNTIME_ctor_overload",
+      "section": "15.10.3_Implicit_Constructor_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_03_200_RUNTIME_ctor_overload"
+    },
+    {
+      "id": "SEM_15_10_04_001_PASS_distinguishable_overload",
+      "section": "15.10.4_Overload_Equivalent_Signatures",
+      "category": "compile-pass",
+      "description": "SEM_15_10_04_001_PASS_distinguishable_overload"
+    },
+    {
+      "id": "SEM_15_10_04_100_FAIL_EQUIVALENT_SIG",
+      "section": "15.10.4_Overload_Equivalent_Signatures",
+      "category": "compile-fail",
+      "description": "SEM_15_10_04_100_FAIL_EQUIVALENT_SIG"
+    },
+    {
+      "id": "SEM_15_10_04_101_FAIL_overload_equivalent_sig",
+      "section": "15.10.4_Overload_Equivalent_Signatures",
+      "category": "compile-fail",
+      "description": "SEM_15_10_04_101_FAIL_overload_equivalent_sig"
+    },
+    {
+      "id": "SEM_15_10_04_200_RUNTIME_equivalent_sig",
+      "section": "15.10.4_Overload_Equivalent_Signatures",
+      "category": "runtime",
+      "description": "SEM_15_10_04_200_RUNTIME_equivalent_sig"
+    },
+    {
+      "id": "SEM_15_10_00_001_PASS_implicit_function",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_001_PASS_implicit_function"
+    },
+    {
+      "id": "SEM_15_10_00_002_PASS_implicit_method",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_002_PASS_implicit_method"
+    },
+    {
+      "id": "SEM_15_10_00_003_PASS_implicit_constructor",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_003_PASS_implicit_constructor"
+    },
+    {
+      "id": "SEM_15_10_00_004_PASS_generic_and_nongeneric_equivalent",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_004_PASS_generic_and_nongeneric_equivalent"
+    },
+    {
+      "id": "SEM_15_10_00_005_PASS_static_method_overload",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_005_PASS_static_method_overload"
+    },
+    {
+      "id": "SEM_15_10_00_006_PASS_function_overload_by_param",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_006_PASS_function_overload_by_param"
+    },
+    {
+      "id": "SEM_15_10_00_007_PASS_static_and_instance_overloads",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_007_PASS_static_and_instance_overloads"
+    },
+    {
+      "id": "SEM_15_10_00_008_PASS_constructor_overload",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_008_PASS_constructor_overload"
+    },
+    {
+      "id": "SEM_15_10_00_009_PASS_single_main",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_009_PASS_single_main"
+    },
+    {
+      "id": "SEM_15_10_00_010_PASS_SMART_FUNC_instanceof_narrowing",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_010_PASS_SMART_FUNC_instanceof_narrowing"
+    },
+    {
+      "id": "SEM_15_10_00_011_PASS_ARCHIVE_implicit_function_by_type",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_011_PASS_ARCHIVE_implicit_function_by_type"
+    },
+    {
+      "id": "SEM_15_10_00_012_PASS_ARCHIVE_implicit_function_by_arity",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_012_PASS_ARCHIVE_implicit_function_by_arity"
+    },
+    {
+      "id": "SEM_15_10_00_013_PASS_ARCHIVE_explicit_function_order",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_013_PASS_ARCHIVE_explicit_function_order"
+    },
+    {
+      "id": "SEM_15_10_00_014_PASS_ARCHIVE_explicit_function_rest",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_014_PASS_ARCHIVE_explicit_function_rest"
+    },
+    {
+      "id": "SEM_15_10_00_015_PASS_ARCHIVE_generic_explicit_type_arguments",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_015_PASS_ARCHIVE_generic_explicit_type_arguments"
+    },
+    {
+      "id": "SEM_15_10_00_016_PASS_ARCHIVE_class_explicit_method",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_016_PASS_ARCHIVE_class_explicit_method"
+    },
+    {
+      "id": "SEM_15_10_00_017_PASS_ARCHIVE_class_static_method",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_017_PASS_ARCHIVE_class_static_method"
+    },
+    {
+      "id": "SEM_15_10_00_018_PASS_ARCHIVE_interface_overload_inherited_by_class",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_018_PASS_ARCHIVE_interface_overload_inherited_by_class"
+    },
+    {
+      "id": "SEM_15_10_00_019_PASS_ARCHIVE_constructor_overload",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_019_PASS_ARCHIVE_constructor_overload"
+    },
+    {
+      "id": "SEM_15_10_00_020_PASS_ARCHIVE_ambient_overload_combined",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_020_PASS_ARCHIVE_ambient_overload_combined"
+    },
+    {
+      "id": "SEM_15_10_00_021_PASS_ARCHIVE_explicit_overload_list_order_over_text_order",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_021_PASS_ARCHIVE_explicit_overload_list_order_over_text_order"
+    },
+    {
+      "id": "SEM_15_10_00_022_PASS_function_overload",
+      "section": "15.10_Overloading",
+      "category": "compile-pass",
+      "description": "SEM_15_10_00_022_PASS_function_overload"
+    },
+    {
+      "id": "SEM_15_10_00_100_FAIL_nongeneric_equivalent",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_100_FAIL_nongeneric_equivalent"
+    },
+    {
+      "id": "SEM_15_10_00_101_FAIL_overload_main",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_101_FAIL_overload_main"
+    },
+    {
+      "id": "SEM_15_10_00_102_FAIL_return_only_difference",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_102_FAIL_return_only_difference"
+    },
+    {
+      "id": "SEM_15_10_00_103_FAIL_erasure_equivalent_conflict",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_103_FAIL_erasure_equivalent_conflict"
+    },
+    {
+      "id": "SEM_15_10_00_104_FAIL_static_method_not_inherited_by_subclass_name",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_104_FAIL_static_method_not_inherited_by_subclass_name"
+    },
+    {
+      "id": "SEM_15_10_00_105_FAIL_SMART_GLOBAL_global_base_member_without_narrow",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_105_FAIL_SMART_GLOBAL_global_base_member_without_narrow"
+    },
+    {
+      "id": "SEM_15_10_00_106_FAIL_ARCHIVE_explicit_overload_missing_identifier",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_106_FAIL_ARCHIVE_explicit_overload_missing_identifier"
+    },
+    {
+      "id": "SEM_15_10_00_107_FAIL_ARCHIVE_explicit_overload_non_function",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_107_FAIL_ARCHIVE_explicit_overload_non_function"
+    },
+    {
+      "id": "SEM_15_10_00_108_FAIL_ARCHIVE_explicit_overload_implicit_name",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_108_FAIL_ARCHIVE_explicit_overload_implicit_name"
+    },
+    {
+      "id": "SEM_15_10_00_109_FAIL_ARCHIVE_overload_name_same_as_function_not_listed",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_109_FAIL_ARCHIVE_overload_name_same_as_function_not_listed"
+    },
+    {
+      "id": "SEM_15_10_00_110_FAIL_ARCHIVE_export_overload_contains_unexported",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_110_FAIL_ARCHIVE_export_overload_contains_unexported"
+    },
+    {
+      "id": "SEM_15_10_00_111_FAIL_ARCHIVE_public_overload_contains_protected",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_111_FAIL_ARCHIVE_public_overload_contains_protected"
+    },
+    {
+      "id": "SEM_15_10_00_112_FAIL_ARCHIVE_static_overload_non_static_method",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_112_FAIL_ARCHIVE_static_overload_non_static_method"
+    },
+    {
+      "id": "SEM_15_10_00_113_FAIL_ARCHIVE_non_static_overload_static_method",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_113_FAIL_ARCHIVE_non_static_overload_static_method"
+    },
+    {
+      "id": "SEM_15_10_00_114_FAIL_ARCHIVE_class_overload_missing_method",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_114_FAIL_ARCHIVE_class_overload_missing_method"
+    },
+    {
+      "id": "SEM_15_10_00_115_FAIL_ARCHIVE_class_overload_implicit_method_name",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_115_FAIL_ARCHIVE_class_overload_implicit_method_name"
+    },
+    {
+      "id": "SEM_15_10_00_116_FAIL_ARCHIVE_class_overload_same_name_method_not_listed",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_116_FAIL_ARCHIVE_class_overload_same_name_method_not_listed"
+    },
+    {
+      "id": "SEM_15_10_00_117_FAIL_ARCHIVE_ambient_missing_overload_target",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_117_FAIL_ARCHIVE_ambient_missing_overload_target"
+    },
+    {
+      "id": "SEM_15_10_00_118_FAIL_ARCHIVE_main_overload_prohibited",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_118_FAIL_ARCHIVE_main_overload_prohibited"
+    },
+    {
+      "id": "SEM_15_10_00_119_FAIL_overload_arg_type_mismatch",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_119_FAIL_overload_arg_type_mismatch"
+    },
+    {
+      "id": "SEM_15_10_00_120_FAIL_OVERLOAD_equivalent_signatures",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_120_FAIL_OVERLOAD_equivalent_signatures"
+    },
+    {
+      "id": "SEM_15_10_00_121_FAIL_overload_main_prohibited",
+      "section": "15.10_Overloading",
+      "category": "compile-fail",
+      "description": "SEM_15_10_00_121_FAIL_overload_main_prohibited"
+    },
+    {
+      "id": "SEM_15_10_00_200_RUNTIME_function_overload_value",
+      "section": "15.10_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_00_200_RUNTIME_function_overload_value"
+    },
+    {
+      "id": "SEM_15_10_00_201_RUNTIME_method_overload_value",
+      "section": "15.10_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_00_201_RUNTIME_method_overload_value"
+    },
+    {
+      "id": "SEM_15_10_00_202_RUNTIME_constructor_overload_value",
+      "section": "15.10_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_00_202_RUNTIME_constructor_overload_value"
+    },
+    {
+      "id": "SEM_15_10_00_203_RUNTIME_SMART_GLOBAL_overload_declared_base_top_level",
+      "section": "15.10_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_00_203_RUNTIME_SMART_GLOBAL_overload_declared_base_top_level"
+    },
+    {
+      "id": "SEM_15_10_00_204_RUNTIME_overloading",
+      "section": "15.10_Overloading",
+      "category": "runtime",
+      "description": "SEM_15_10_00_204_RUNTIME_overloading"
+    },
+    {
+      "id": "SEM_15_11_01_001_PASS_same_name_overload",
+      "section": "15.11.1_Forming_an_Overload_Set",
+      "category": "compile-pass",
+      "description": "SEM_15_11_01_001_PASS_same_name_overload"
+    },
+    {
+      "id": "SEM_15_11_01_002_PASS_union_param_overload",
+      "section": "15.11.1_Forming_an_Overload_Set",
+      "category": "compile-pass",
+      "description": "SEM_15_11_01_002_PASS_union_param_overload"
+    },
+    {
+      "id": "SEM_15_11_01_100_FAIL_type_mismatch",
+      "section": "15.11.1_Forming_an_Overload_Set",
+      "category": "compile-fail",
+      "description": "SEM_15_11_01_100_FAIL_type_mismatch"
+    },
+    {
+      "id": "SEM_15_11_01_101_FAIL_return_type_only_diff",
+      "section": "15.11.1_Forming_an_Overload_Set",
+      "category": "compile-fail",
+      "description": "SEM_15_11_01_101_FAIL_return_type_only_diff"
+    },
+    {
+      "id": "SEM_15_11_01_200_RUNTIME_overload_set",
+      "section": "15.11.1_Forming_an_Overload_Set",
+      "category": "runtime",
+      "description": "SEM_15_11_01_200_RUNTIME_overload_set"
+    },
+    {
+      "id": "SEM_15_11_10_001_PASS_polymorphic_dispatch",
+      "section": "15.11.10_Dynamic_Resolution_of_Method_Calls",
+      "category": "compile-pass",
+      "description": "SEM_15_11_10_001_PASS_polymorphic_dispatch"
+    },
+    {
+      "id": "SEM_15_11_10_002_PASS_runtime_type_selects_overload",
+      "section": "15.11.10_Dynamic_Resolution_of_Method_Calls",
+      "category": "compile-pass",
+      "description": "SEM_15_11_10_002_PASS_runtime_type_selects_overload"
+    },
+    {
+      "id": "SEM_15_11_10_100_FAIL_param_type_mismatch",
+      "section": "15.11.10_Dynamic_Resolution_of_Method_Calls",
+      "category": "compile-fail",
+      "description": "SEM_15_11_10_100_FAIL_param_type_mismatch"
+    },
+    {
+      "id": "SEM_15_11_10_101_FAIL_dynamic_arg_mismatch",
+      "section": "15.11.10_Dynamic_Resolution_of_Method_Calls",
+      "category": "compile-fail",
+      "description": "SEM_15_11_10_101_FAIL_dynamic_arg_mismatch"
+    },
+    {
+      "id": "SEM_15_11_10_200_RUNTIME_dynamic_resolution",
+      "section": "15.11.10_Dynamic_Resolution_of_Method_Calls",
+      "category": "runtime",
+      "description": "SEM_15_11_10_200_RUNTIME_dynamic_resolution"
+    },
+    {
+      "id": "SEM_15_11_02_001_PASS_OVERLOAD_RESOLUTION",
+      "section": "15.11.2_Overload_Set_for_Functions",
+      "category": "compile-pass",
+      "description": "SEM_15_11_02_001_PASS_OVERLOAD_RESOLUTION"
+    },
+    {
+      "id": "SEM_15_11_02_002_PASS_generic_func_overload",
+      "section": "15.11.2_Overload_Set_for_Functions",
+      "category": "compile-pass",
+      "description": "SEM_15_11_02_002_PASS_generic_func_overload"
+    },
+    {
+      "id": "SEM_15_11_02_100_FAIL_no_matching_overload",
+      "section": "15.11.2_Overload_Set_for_Functions",
+      "category": "compile-fail",
+      "description": "SEM_15_11_02_100_FAIL_no_matching_overload"
+    },
+    {
+      "id": "SEM_15_11_02_101_FAIL_param_type_not_assignable",
+      "section": "15.11.2_Overload_Set_for_Functions",
+      "category": "compile-fail",
+      "description": "SEM_15_11_02_101_FAIL_param_type_not_assignable"
+    },
+    {
+      "id": "SEM_15_11_02_102_FAIL_overload_set_functions",
+      "section": "15.11.2_Overload_Set_for_Functions",
+      "category": "compile-fail",
+      "description": "SEM_15_11_02_102_FAIL_overload_set_functions"
+    },
+    {
+      "id": "SEM_15_11_02_200_RUNTIME_func_overload",
+      "section": "15.11.2_Overload_Set_for_Functions",
+      "category": "runtime",
+      "description": "SEM_15_11_02_200_RUNTIME_func_overload"
+    },
+    {
+      "id": "SEM_15_11_03_001_PASS_interface_overload_set",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_03_001_PASS_interface_overload_set"
+    },
+    {
+      "id": "SEM_15_11_03_002_PASS_interface_method_overloads",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_03_002_PASS_interface_method_overloads"
+    },
+    {
+      "id": "SEM_15_11_03_003_PASS_interface_no_super",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_03_003_PASS_interface_no_super"
+    },
+    {
+      "id": "SEM_15_11_03_004_PASS_interface_extends_order",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_03_004_PASS_interface_extends_order"
+    },
+    {
+      "id": "SEM_15_11_03_005_PASS_interface_override_dedup",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_03_005_PASS_interface_override_dedup"
+    },
+    {
+      "id": "SEM_15_11_03_006_PASS_interface_implicit_explicit_combine",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_03_006_PASS_interface_implicit_explicit_combine"
+    },
+    {
+      "id": "SEM_15_11_03_100_FAIL_no_matching_overload",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_03_100_FAIL_no_matching_overload"
+    },
+    {
+      "id": "SEM_15_11_03_101_FAIL_call_no_matching_overload",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_03_101_FAIL_call_no_matching_overload"
+    },
+    {
+      "id": "SEM_15_11_03_102_FAIL_interface_with_overload",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_03_102_FAIL_interface_with_overload"
+    },
+    {
+      "id": "SEM_15_11_03_200_RUNTIME_interface_overload",
+      "section": "15.11.3_Overload_Set_for_Interface_Methods",
+      "category": "runtime",
+      "description": "SEM_15_11_03_200_RUNTIME_interface_overload"
+    },
+    {
+      "id": "SEM_15_11_04_001_PASS_static_method_overload",
+      "section": "15.11.4_Overload_Set_for_Class_Static_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_04_001_PASS_static_method_overload"
+    },
+    {
+      "id": "SEM_15_11_04_002_PASS_static_method_multi_overload",
+      "section": "15.11.4_Overload_Set_for_Class_Static_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_04_002_PASS_static_method_multi_overload"
+    },
+    {
+      "id": "SEM_15_11_04_100_FAIL_static_arg_mismatch",
+      "section": "15.11.4_Overload_Set_for_Class_Static_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_04_100_FAIL_static_arg_mismatch"
+    },
+    {
+      "id": "SEM_15_11_04_101_FAIL_conflicting_signatures",
+      "section": "15.11.4_Overload_Set_for_Class_Static_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_04_101_FAIL_conflicting_signatures"
+    },
+    {
+      "id": "SEM_15_11_04_200_RUNTIME_static_overload",
+      "section": "15.11.4_Overload_Set_for_Class_Static_Methods",
+      "category": "runtime",
+      "description": "SEM_15_11_04_200_RUNTIME_static_overload"
+    },
+    {
+      "id": "SEM_15_11_05_001_PASS_instance_overload_set",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_05_001_PASS_instance_overload_set"
+    },
+    {
+      "id": "SEM_15_11_05_002_PASS_instance_method_multi_params",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_05_002_PASS_instance_method_multi_params"
+    },
+    {
+      "id": "SEM_15_11_05_003_PASS_class_no_super",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_05_003_PASS_class_no_super"
+    },
+    {
+      "id": "SEM_15_11_05_004_PASS_class_superclass_superinterface",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-pass",
+      "description": "SEM_15_11_05_004_PASS_class_superclass_superinterface"
+    },
+    {
+      "id": "SEM_15_11_05_100_FAIL_instance_arg_mismatch",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_05_100_FAIL_instance_arg_mismatch"
+    },
+    {
+      "id": "SEM_15_11_05_101_FAIL_call_no_matching_overload",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_05_101_FAIL_call_no_matching_overload"
+    },
+    {
+      "id": "SEM_15_11_05_102_FAIL_class_with_overload",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_05_102_FAIL_class_with_overload"
+    },
+    {
+      "id": "SEM_15_11_05_103_FAIL_class_inheritance_chain",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "compile-fail",
+      "description": "SEM_15_11_05_103_FAIL_class_inheritance_chain"
+    },
+    {
+      "id": "SEM_15_11_05_200_RUNTIME_instance_overload",
+      "section": "15.11.5_Overload_Set_for_Class_Instance_Methods",
+      "category": "runtime",
+      "description": "SEM_15_11_05_200_RUNTIME_instance_overload"
+    },
+    {
+      "id": "SEM_15_11_06_001_PASS_CTOR_RESOLUTION",
+      "section": "15.11.6_Overload_Set_for_Constructors",
+      "category": "compile-pass",
+      "description": "SEM_15_11_06_001_PASS_CTOR_RESOLUTION"
+    },
+    {
+      "id": "SEM_15_11_06_002_PASS_constructor_multi_params",
+      "section": "15.11.6_Overload_Set_for_Constructors",
+      "category": "compile-pass",
+      "description": "SEM_15_11_06_002_PASS_constructor_multi_params"
+    },
+    {
+      "id": "SEM_15_11_06_003_PASS_constructor_overload_set",
+      "section": "15.11.6_Overload_Set_for_Constructors",
+      "category": "compile-pass",
+      "description": "SEM_15_11_06_003_PASS_constructor_overload_set"
+    },
+    {
+      "id": "SEM_15_11_06_100_FAIL_ctor_arg_mismatch",
+      "section": "15.11.6_Overload_Set_for_Constructors",
+      "category": "compile-fail",
+      "description": "SEM_15_11_06_100_FAIL_ctor_arg_mismatch"
+    },
+    {
+      "id": "SEM_15_11_06_101_FAIL_call_no_matching_ctor",
+      "section": "15.11.6_Overload_Set_for_Constructors",
+      "category": "compile-fail",
+      "description": "SEM_15_11_06_101_FAIL_call_no_matching_ctor"
+    },
+    {
+      "id": "SEM_15_11_06_200_RUNTIME_ctor_overload",
+      "section": "15.11.6_Overload_Set_for_Constructors",
+      "category": "runtime",
+      "description": "SEM_15_11_06_200_RUNTIME_ctor_overload"
+    },
+    {
+      "id": "SEM_15_11_07_001_PASS_OVERLOAD_WARNING",
+      "section": "15.11.7_Overload_Set_Warning",
+      "category": "compile-pass",
+      "description": "SEM_15_11_07_001_PASS_OVERLOAD_WARNING"
+    },
+    {
+      "id": "SEM_15_11_07_002_PASS_distinguishable_no_warning",
+      "section": "15.11.7_Overload_Set_Warning",
+      "category": "compile-pass",
+      "description": "SEM_15_11_07_002_PASS_distinguishable_no_warning"
+    },
+    {
+      "id": "SEM_15_11_07_003_PASS_wide_hides_narrow",
+      "section": "15.11.7_Overload_Set_Warning",
+      "category": "compile-pass",
+      "description": "SEM_15_11_07_003_PASS_wide_hides_narrow"
+    },
+    {
+      "id": "SEM_15_11_07_004_PASS_overload_warning_unreachable",
+      "section": "15.11.7_Overload_Set_Warning",
+      "category": "compile-pass",
+      "description": "SEM_15_11_07_004_PASS_overload_warning_unreachable"
+    },
+    {
+      "id": "SEM_15_11_07_100_FAIL_unreachable_overload",
+      "section": "15.11.7_Overload_Set_Warning",
+      "category": "compile-fail",
+      "description": "SEM_15_11_07_100_FAIL_unreachable_overload"
+    },
+    {
+      "id": "SEM_15_11_07_200_RUNTIME_warning",
+      "section": "15.11.7_Overload_Set_Warning",
+      "category": "runtime",
+      "description": "SEM_15_11_07_200_RUNTIME_warning"
+    },
+    {
+      "id": "SEM_15_11_08_001_PASS_arg_based_resolution",
+      "section": "15.11.8_Overload_Set_at_Method_Call",
+      "category": "compile-pass",
+      "description": "SEM_15_11_08_001_PASS_arg_based_resolution"
+    },
+    {
+      "id": "SEM_15_11_08_002_PASS_subtype_param_selects_overload",
+      "section": "15.11.8_Overload_Set_at_Method_Call",
+      "category": "compile-pass",
+      "description": "SEM_15_11_08_002_PASS_subtype_param_selects_overload"
+    },
+    {
+      "id": "SEM_15_11_08_003_PASS_function_with_receiver",
+      "section": "15.11.8_Overload_Set_at_Method_Call",
+      "category": "compile-pass",
+      "description": "SEM_15_11_08_003_PASS_function_with_receiver"
+    },
+    {
+      "id": "SEM_15_11_08_100_FAIL_no_matching_overload",
+      "section": "15.11.8_Overload_Set_at_Method_Call",
+      "category": "compile-fail",
+      "description": "SEM_15_11_08_100_FAIL_no_matching_overload"
+    },
+    {
+      "id": "SEM_15_11_08_101_FAIL_no_matching_overload",
+      "section": "15.11.8_Overload_Set_at_Method_Call",
+      "category": "compile-fail",
+      "description": "SEM_15_11_08_101_FAIL_no_matching_overload"
+    },
+    {
+      "id": "SEM_15_11_08_200_RUNTIME_call_overload",
+      "section": "15.11.8_Overload_Set_at_Method_Call",
+      "category": "runtime",
+      "description": "SEM_15_11_08_200_RUNTIME_call_overload"
+    },
+    {
+      "id": "SEM_15_11_09_001_PASS_overload_override_interact",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "compile-pass",
+      "description": "SEM_15_11_09_001_PASS_overload_override_interact"
+    },
+    {
+      "id": "SEM_15_11_09_002_PASS_subclass_overrides_partial",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "compile-pass",
+      "description": "SEM_15_11_09_002_PASS_subclass_overrides_partial"
+    },
+    {
+      "id": "SEM_15_11_09_003_PASS_overload_override_interact",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "compile-pass",
+      "description": "SEM_15_11_09_003_PASS_overload_override_interact"
+    },
+    {
+      "id": "SEM_15_11_09_004_PASS_single_override_both",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "compile-pass",
+      "description": "SEM_15_11_09_004_PASS_single_override_both"
+    },
+    {
+      "id": "SEM_15_11_09_100_FAIL_override_param_mismatch",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "compile-fail",
+      "description": "SEM_15_11_09_100_FAIL_override_param_mismatch"
+    },
+    {
+      "id": "SEM_15_11_09_101_FAIL_derived_call_no_match",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "compile-fail",
+      "description": "SEM_15_11_09_101_FAIL_derived_call_no_match"
+    },
+    {
+      "id": "SEM_15_11_09_200_RUNTIME_overload_override",
+      "section": "15.11.9_Overloading_and_Overriding",
+      "category": "runtime",
+      "description": "SEM_15_11_09_200_RUNTIME_overload_override"
+    },
+    {
+      "id": "SEM_15_11_00_001_PASS_FUNCTION_overload_resolution",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_001_PASS_FUNCTION_overload_resolution"
+    },
+    {
+      "id": "SEM_15_11_00_002_PASS_METHOD_overload_resolution",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_002_PASS_METHOD_overload_resolution"
+    },
+    {
+      "id": "SEM_15_11_00_003_PASS_CONSTRUCTOR_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_003_PASS_CONSTRUCTOR_overload"
+    },
+    {
+      "id": "SEM_15_11_00_004_PASS_EXPLICIT_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_004_PASS_EXPLICIT_overload"
+    },
+    {
+      "id": "SEM_15_11_00_005_PASS_INTERFACE_method_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_005_PASS_INTERFACE_method_overload"
+    },
+    {
+      "id": "SEM_15_11_00_006_PASS_STATIC_method_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_006_PASS_STATIC_method_overload"
+    },
+    {
+      "id": "SEM_15_11_00_007_PASS_OVERLOAD_warning",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_007_PASS_OVERLOAD_warning"
+    },
+    {
+      "id": "SEM_15_11_00_008_PASS_unreachable_entity",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_008_PASS_unreachable_entity"
+    },
+    {
+      "id": "SEM_15_11_00_009_PASS_broad_hides_narrow",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_009_PASS_broad_hides_narrow"
+    },
+    {
+      "id": "SEM_15_11_00_010_PASS_broad_hides_narrow",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_010_PASS_broad_hides_narrow"
+    },
+    {
+      "id": "SEM_15_11_00_011_PASS_SMART_FUNC_instanceof_narrowing",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_011_PASS_SMART_FUNC_instanceof_narrowing"
+    },
+    {
+      "id": "SEM_15_11_00_012_PASS_ARCHIVE_null_selects_inherited_generic_method",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_012_PASS_ARCHIVE_null_selects_inherited_generic_method"
+    },
+    {
+      "id": "SEM_15_11_00_013_PASS_ARCHIVE_undefined_selects_inherited_generic_method",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_013_PASS_ARCHIVE_undefined_selects_inherited_generic_method"
+    },
+    {
+      "id": "SEM_15_11_00_014_PASS_ARCHIVE_explicit_null_generic_selects_parent",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_014_PASS_ARCHIVE_explicit_null_generic_selects_parent"
+    },
+    {
+      "id": "SEM_15_11_00_015_PASS_ARCHIVE_object_selects_child_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_015_PASS_ARCHIVE_object_selects_child_overload"
+    },
+    {
+      "id": "SEM_15_11_00_016_PASS_ARCHIVE_parent_static_type_keeps_parent_generic",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_016_PASS_ARCHIVE_parent_static_type_keeps_parent_generic"
+    },
+    {
+      "id": "SEM_15_11_00_017_PASS_ARCHIVE_parent_static_type_null_keeps_parent_generic",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_017_PASS_ARCHIVE_parent_static_type_null_keeps_parent_generic"
+    },
+    {
+      "id": "SEM_15_11_00_018_PASS_ARCHIVE_subclass_reorders_explicit_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_018_PASS_ARCHIVE_subclass_reorders_explicit_overload"
+    },
+    {
+      "id": "SEM_15_11_00_019_PASS_ARCHIVE_receiver_function_overload_as_function",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_019_PASS_ARCHIVE_receiver_function_overload_as_function"
+    },
+    {
+      "id": "SEM_15_11_00_020_PASS_ARCHIVE_overload_set_warning_unreachable",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_020_PASS_ARCHIVE_overload_set_warning_unreachable"
+    },
+    {
+      "id": "SEM_15_11_00_021_PASS_ARCHIVE_interface_extends_order",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_021_PASS_ARCHIVE_interface_extends_order"
+    },
+    {
+      "id": "SEM_15_11_00_022_PASS_ARCHIVE_interface_override_dedup",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_022_PASS_ARCHIVE_interface_override_dedup"
+    },
+    {
+      "id": "SEM_15_11_00_023_PASS_ARCHIVE_class_parent_before_interface",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_023_PASS_ARCHIVE_class_parent_before_interface"
+    },
+    {
+      "id": "SEM_15_11_00_024_PASS_ARCHIVE_receiver_instance_method_priority_combined",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_024_PASS_ARCHIVE_receiver_instance_method_priority_combined"
+    },
+    {
+      "id": "SEM_15_11_00_025_PASS_ARCHIVE_overload_resolution_then_override_dispatch",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_025_PASS_ARCHIVE_overload_resolution_then_override_dispatch"
+    },
+    {
+      "id": "SEM_15_11_00_026_PASS_ARCHIVE_super_static_no_override_dispatch",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_026_PASS_ARCHIVE_super_static_no_override_dispatch"
+    },
+    {
+      "id": "SEM_15_11_00_027_PASS_ARCHIVE_direct_supertypes_only",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_027_PASS_ARCHIVE_direct_supertypes_only"
+    },
+    {
+      "id": "SEM_15_11_00_028_PASS_ARCHIVE_declared_receiver_type_top_level",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_028_PASS_ARCHIVE_declared_receiver_type_top_level"
+    },
+    {
+      "id": "SEM_15_11_00_029_PASS_ARCHIVE_declared_receiver_type_function_body",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_029_PASS_ARCHIVE_declared_receiver_type_function_body"
+    },
+    {
+      "id": "SEM_15_11_00_030_PASS_overload_resolution",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-pass",
+      "description": "SEM_15_11_00_030_PASS_overload_resolution"
+    },
+    {
+      "id": "SEM_15_11_00_100_FAIL_no_valid_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_100_FAIL_no_valid_overload"
+    },
+    {
+      "id": "SEM_15_11_00_101_FAIL_missing_required_all",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_101_FAIL_missing_required_all"
+    },
+    {
+      "id": "SEM_15_11_00_102_FAIL_excess_arg_all",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_102_FAIL_excess_arg_all"
+    },
+    {
+      "id": "SEM_15_11_00_103_FAIL_not_assignable_all",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_103_FAIL_not_assignable_all"
+    },
+    {
+      "id": "SEM_15_11_00_104_FAIL_global_not_narrowed_for_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_104_FAIL_global_not_narrowed_for_overload"
+    },
+    {
+      "id": "SEM_15_11_00_105_FAIL_SMART_GLOBAL_global_base_member_without_narrow",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_105_FAIL_SMART_GLOBAL_global_base_member_without_narrow"
+    },
+    {
+      "id": "SEM_15_11_00_106_FAIL_ARCHIVE_object_method_reject_null",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_106_FAIL_ARCHIVE_object_method_reject_null"
+    },
+    {
+      "id": "SEM_15_11_00_107_FAIL_ARCHIVE_object_method_reject_undefined",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_107_FAIL_ARCHIVE_object_method_reject_undefined"
+    },
+    {
+      "id": "SEM_15_11_00_108_FAIL_ARCHIVE_no_matching_function",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_108_FAIL_ARCHIVE_no_matching_function"
+    },
+    {
+      "id": "SEM_15_11_00_109_FAIL_ARCHIVE_return_type_not_used_for_resolution",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_109_FAIL_ARCHIVE_return_type_not_used_for_resolution"
+    },
+    {
+      "id": "SEM_15_11_00_110_FAIL_ARCHIVE_constructor_no_matching",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_110_FAIL_ARCHIVE_constructor_no_matching"
+    },
+    {
+      "id": "SEM_15_11_00_111_FAIL_ARCHIVE_union_common_member_overloaded",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_111_FAIL_ARCHIVE_union_common_member_overloaded"
+    },
+    {
+      "id": "SEM_15_11_00_112_FAIL_ARCHIVE_receiver_overload_method_call",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_112_FAIL_ARCHIVE_receiver_overload_method_call"
+    },
+    {
+      "id": "SEM_15_11_00_113_FAIL_ARCHIVE_static_method_not_inherited_for_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_113_FAIL_ARCHIVE_static_method_not_inherited_for_overload"
+    },
+    {
+      "id": "SEM_15_11_00_114_FAIL_ARCHIVE_receiver_same_name_instance_method",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_114_FAIL_ARCHIVE_receiver_same_name_instance_method"
+    },
+    {
+      "id": "SEM_15_11_00_115_FAIL_overload_no_match",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_115_FAIL_overload_no_match"
+    },
+    {
+      "id": "SEM_15_11_00_116_FAIL_return_type_ignored",
+      "section": "15.11_Overload_Resolution",
+      "category": "compile-fail",
+      "description": "SEM_15_11_00_116_FAIL_return_type_ignored"
+    },
+    {
+      "id": "SEM_15_11_00_200_RUNTIME_broad_before_narrow",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_200_RUNTIME_broad_before_narrow"
+    },
+    {
+      "id": "SEM_15_11_00_201_RUNTIME_narrow_before_broad",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_201_RUNTIME_narrow_before_broad"
+    },
+    {
+      "id": "SEM_15_11_00_202_RUNTIME_generic_before_nongeneric",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_202_RUNTIME_generic_before_nongeneric"
+    },
+    {
+      "id": "SEM_15_11_00_203_RUNTIME_nongeneric_before_generic",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_203_RUNTIME_nongeneric_before_generic"
+    },
+    {
+      "id": "SEM_15_11_00_204_RUNTIME_interface_super_order",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_204_RUNTIME_interface_super_order"
+    },
+    {
+      "id": "SEM_15_11_00_205_RUNTIME_class_instance_order",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_205_RUNTIME_class_instance_order"
+    },
+    {
+      "id": "SEM_15_11_00_206_RUNTIME_static_method_order",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_206_RUNTIME_static_method_order"
+    },
+    {
+      "id": "SEM_15_11_00_207_RUNTIME_OVERLOAD_OVERRIDE_interaction",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_207_RUNTIME_OVERLOAD_OVERRIDE_interaction"
+    },
+    {
+      "id": "SEM_15_11_00_208_RUNTIME_constructor_order",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_208_RUNTIME_constructor_order"
+    },
+    {
+      "id": "SEM_15_11_00_209_RUNTIME_DYNAMIC_dispatch",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_209_RUNTIME_DYNAMIC_dispatch"
+    },
+    {
+      "id": "SEM_15_11_00_210_RUNTIME_receiver_vs_method",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_210_RUNTIME_receiver_vs_method"
+    },
+    {
+      "id": "SEM_15_11_00_211_RUNTIME_overload_override_dynamic",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_211_RUNTIME_overload_override_dynamic"
+    },
+    {
+      "id": "SEM_15_11_00_212_RUNTIME_function_smart_selects_subtype",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_212_RUNTIME_function_smart_selects_subtype"
+    },
+    {
+      "id": "SEM_15_11_00_213_RUNTIME_declared_type_selects_base",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_213_RUNTIME_declared_type_selects_base"
+    },
+    {
+      "id": "SEM_15_11_00_214_RUNTIME_reassignment_changes_selection",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_214_RUNTIME_reassignment_changes_selection"
+    },
+    {
+      "id": "SEM_15_11_00_215_RUNTIME_class_instance_order",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_215_RUNTIME_class_instance_order"
+    },
+    {
+      "id": "SEM_15_11_00_216_RUNTIME_broad_before_narrow_selects_broad",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_216_RUNTIME_broad_before_narrow_selects_broad"
+    },
+    {
+      "id": "SEM_15_11_00_217_RUNTIME_static_select_dynamic_dispatch",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_217_RUNTIME_static_select_dynamic_dispatch"
+    },
+    {
+      "id": "SEM_15_11_00_218_RUNTIME_receiver_declared_base_function_scope",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_218_RUNTIME_receiver_declared_base_function_scope"
+    },
+    {
+      "id": "SEM_15_11_00_219_RUNTIME_receiver_declared_base_top_level",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_219_RUNTIME_receiver_declared_base_top_level"
+    },
+    {
+      "id": "SEM_15_11_00_220_RUNTIME_receiver_declared_base_direct_new_function",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_220_RUNTIME_receiver_declared_base_direct_new_function"
+    },
+    {
+      "id": "SEM_15_11_00_221_RUNTIME_receiver_declared_base_parameter_function",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_221_RUNTIME_receiver_declared_base_parameter_function"
+    },
+    {
+      "id": "SEM_15_11_00_222_RUNTIME_receiver_declared_base_from_return_function",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_222_RUNTIME_receiver_declared_base_from_return_function"
+    },
+    {
+      "id": "SEM_15_11_00_223_RUNTIME_receiver_declared_base_field_access",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_223_RUNTIME_receiver_declared_base_field_access"
+    },
+    {
+      "id": "SEM_15_11_00_224_RUNTIME_receiver_declared_base_local_copy_global",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_224_RUNTIME_receiver_declared_base_local_copy_global"
+    },
+    {
+      "id": "SEM_15_11_00_225_RUNTIME_receiver_declared_base_after_reassignment",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_225_RUNTIME_receiver_declared_base_after_reassignment"
+    },
+    {
+      "id": "SEM_15_11_00_226_RUNTIME_receiver_declared_base_after_side_effect_call",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_226_RUNTIME_receiver_declared_base_after_side_effect_call"
+    },
+    {
+      "id": "SEM_15_11_00_227_RUNTIME_receiver_declared_base_explicit_cast",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_227_RUNTIME_receiver_declared_base_explicit_cast"
+    },
+    {
+      "id": "SEM_15_11_00_228_RUNTIME_receiver_declared_derived_still_derived",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_228_RUNTIME_receiver_declared_derived_still_derived"
+    },
+    {
+      "id": "SEM_15_11_00_229_RUNTIME_receiver_smart_instanceof_selects_derived",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_229_RUNTIME_receiver_smart_instanceof_selects_derived"
+    },
+    {
+      "id": "SEM_15_11_00_230_RUNTIME_SMART_GLOBAL_overload_declared_base_top_level",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_230_RUNTIME_SMART_GLOBAL_overload_declared_base_top_level"
+    },
+    {
+      "id": "SEM_15_11_00_231_RUNTIME_SMART_FUNC_overload_declared_base_function",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_231_RUNTIME_SMART_FUNC_overload_declared_base_function"
+    },
+    {
+      "id": "SEM_15_11_00_232_RUNTIME_ARCHIVE_null_selects_inherited_generic_method",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_232_RUNTIME_ARCHIVE_null_selects_inherited_generic_method"
+    },
+    {
+      "id": "SEM_15_11_00_233_RUNTIME_ARCHIVE_undefined_selects_inherited_generic_method",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_233_RUNTIME_ARCHIVE_undefined_selects_inherited_generic_method"
+    },
+    {
+      "id": "SEM_15_11_00_234_RUNTIME_ARCHIVE_explicit_null_generic_selects_parent",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_234_RUNTIME_ARCHIVE_explicit_null_generic_selects_parent"
+    },
+    {
+      "id": "SEM_15_11_00_235_RUNTIME_ARCHIVE_object_selects_child_overload",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_235_RUNTIME_ARCHIVE_object_selects_child_overload"
+    },
+    {
+      "id": "SEM_15_11_00_236_RUNTIME_ARCHIVE_parent_static_type_keeps_parent_generic",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_236_RUNTIME_ARCHIVE_parent_static_type_keeps_parent_generic"
+    },
+    {
+      "id": "SEM_15_11_00_237_RUNTIME_ARCHIVE_parent_static_type_null_keeps_parent_generic",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_237_RUNTIME_ARCHIVE_parent_static_type_null_keeps_parent_generic"
+    },
+    {
+      "id": "SEM_15_11_00_238_RUNTIME_overload_resolution",
+      "section": "15.11_Overload_Resolution",
+      "category": "runtime",
+      "description": "SEM_15_11_00_238_RUNTIME_overload_resolution"
+    },
+    {
+      "id": "SEM_15_12_00_001_PASS_GENERIC_erasure",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_001_PASS_GENERIC_erasure"
+    },
+    {
+      "id": "SEM_15_12_00_002_PASS_TYPE_ERASURE",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_002_PASS_TYPE_ERASURE"
+    },
+    {
+      "id": "SEM_15_12_00_003_PASS_string_literal_effective_string",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_003_PASS_string_literal_effective_string"
+    },
+    {
+      "id": "SEM_15_12_00_004_PASS_EFFECTIVE_type_mapping",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_004_PASS_EFFECTIVE_type_mapping"
+    },
+    {
+      "id": "SEM_15_12_00_005_PASS_type_parameter_constraint",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_005_PASS_type_parameter_constraint"
+    },
+    {
+      "id": "SEM_15_12_00_006_PASS_union_effective",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_006_PASS_union_effective"
+    },
+    {
+      "id": "SEM_15_12_00_007_PASS_array_effective_array",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_007_PASS_array_effective_array"
+    },
+    {
+      "id": "SEM_15_12_00_008_PASS_fixed_array_preserved",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_008_PASS_fixed_array_preserved"
+    },
+    {
+      "id": "SEM_15_12_00_009_PASS_nonnullish_effective",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_009_PASS_nonnullish_effective"
+    },
+    {
+      "id": "SEM_15_12_00_010_PASS_literal_effective_string",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_010_PASS_literal_effective_string"
+    },
+    {
+      "id": "SEM_15_12_00_011_PASS_non_conflicting_effective_signatures",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_011_PASS_non_conflicting_effective_signatures"
+    },
+    {
+      "id": "SEM_15_12_00_012_PASS_SMART_FUNC_instanceof_narrowing",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_012_PASS_SMART_FUNC_instanceof_narrowing"
+    },
+    {
+      "id": "SEM_15_12_00_013_PASS_ARCHIVE_different_arity_not_equivalent",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_013_PASS_ARCHIVE_different_arity_not_equivalent"
+    },
+    {
+      "id": "SEM_15_12_00_014_PASS_ARCHIVE_explicit_equivalent_signatures_allowed",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_014_PASS_ARCHIVE_explicit_equivalent_signatures_allowed"
+    },
+    {
+      "id": "SEM_15_12_00_015_PASS_ARCHIVE_generic_plain_equivalent_textual_order",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_015_PASS_ARCHIVE_generic_plain_equivalent_textual_order"
+    },
+    {
+      "id": "SEM_15_12_00_016_PASS_ARCHIVE_generic_class_method_equivalent_textual_order",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_016_PASS_ARCHIVE_generic_class_method_equivalent_textual_order"
+    },
+    {
+      "id": "SEM_15_12_00_017_PASS_generic_erasure_runtime",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-pass",
+      "description": "SEM_15_12_00_017_PASS_generic_erasure_runtime"
+    },
+    {
+      "id": "SEM_15_12_00_100_FAIL_erased_signature_conflict",
+      "section": "15.12_Type_Erasure",
+      "category": "compile-fail",
+      "description": "SEM_15_12_00_100_FAIL_erased_signature_conflict"
+    },
