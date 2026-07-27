@@ -137,11 +137,11 @@ A name of a numeric type	The same numeric type
 "object"	(Object - all types for which typeof is not equal to "object")
 
 
-At a node that joins two CFG branches, namely C1 = ( l1 , s1 ), and C2 = ( l2 , s2 ), the following is performed for each variable v:
+At a node that joins two CFG branches, namely C₁ = ( l₁ , s₁ ), and C₂ = ( l₂ , s₂ ), the following is performed for each variable v:
 
-• l ' (v):=l1 (v)∩ l2 (v); and
+• l ' (v):=l₁ (v)∩ l₂ (v); and
 
-• s ' (l ' (v)):=s1 (l1 (v)) | s2 (l2 (v)).
+• s ' (l ' (v)):=s₁ (l₁ (v)) | s₂ (l₂ (v)).
 
 At each backedge node, the following updates are performed for each variable m modified in the loop body:
 

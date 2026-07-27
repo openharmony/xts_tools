@@ -22,4 +22,5 @@
 function main(): void { let x = 42; if (x != 42) {
     throw new Error('fail');
 }
-console.log('verified'); }
+console.log('verified');
+}

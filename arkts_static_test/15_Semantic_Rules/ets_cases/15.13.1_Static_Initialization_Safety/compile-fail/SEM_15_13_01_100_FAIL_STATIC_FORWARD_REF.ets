@@ -20,7 +20,7 @@
  * @note 反向用例：静态字段在声明前引用应报错
  */
 class BadConfig {
-    static derived: int = BadConfig.base * 2;
-    static base: int = 10;
+    public static derived: int = BadConfig.base * 2;
+    public static base: int = 10;
 }
 function main(): void {}

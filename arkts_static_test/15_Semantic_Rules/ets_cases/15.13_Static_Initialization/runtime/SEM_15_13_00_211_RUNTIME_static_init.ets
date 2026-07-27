@@ -23,4 +23,5 @@ class C { static val: int = 42; }
 function main(): void { if (C.val != 42) {
     throw new Error('fail');
 }
-console.log('verified'); }
+console.log('verified');
+}

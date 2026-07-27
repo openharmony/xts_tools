@@ -20,8 +20,8 @@
  * @note 正向用例：静态字段引用前一声明的静态字段
  */
 class Config {
-    static base: int = 10;
-    static derived: int = Config.base * 2;
+    public static base: int = 10;
+    public static derived: int = Config.base * 2;
 }
 function main(): void {
     let v: int = Config.derived;

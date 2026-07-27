@@ -31,5 +31,5 @@ function bar(condition: boolean): Base {
 }
 function main(): void {
     let r: Base = bar(true);
-    console.log('union return inference OK');
+    console.log('verified');
 }

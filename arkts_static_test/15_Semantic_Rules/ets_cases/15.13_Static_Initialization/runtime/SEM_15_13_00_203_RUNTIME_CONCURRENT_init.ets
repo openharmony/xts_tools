@@ -22,7 +22,7 @@
 
 // 测试并发静态初始化安全性
 class ConcurrentCounter {
-  static count: number = 0
+  public static count: number = 0
   
   static {
     console.log('Static initialization started')

@@ -24,6 +24,6 @@ class Dog extends Animal { public breed: string = ''; }
 function main(): void {
     let a: Animal = new Dog();
     if (a instanceof Dog) {
-        console.log('dog');
-    }
+        console.log('verified');
+}
 }

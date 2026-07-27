@@ -23,4 +23,5 @@ interface I { f(): string; } class C implements I { f(): string { return 'ok'; }
 function main(): void { let c: C = new C(); let r = c.f(); if (r != 'ok') {
     throw new Error('fail');
 }
-console.log('verified'); }
+console.log('verified');
+}

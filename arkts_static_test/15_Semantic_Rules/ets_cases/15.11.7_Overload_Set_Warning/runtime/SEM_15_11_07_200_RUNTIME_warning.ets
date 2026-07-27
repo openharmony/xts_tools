@@ -23,4 +23,5 @@ function f(x: int): string { return 'ok'; }
 function main(): void { let r = f(1); if (r != 'ok') {
     throw new Error('fail');
 }
-console.log('verified'); }
+console.log('verified');
+}

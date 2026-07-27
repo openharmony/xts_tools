@@ -22,7 +22,7 @@
 
 // 测试静态初始化基础
 class Config {
-  static val: int = 42
+  public static val: int = 42
 }
 
 function testStaticInitBasic(): void {

@@ -23,5 +23,5 @@ class Holder<T> { public val: T | undefined; }
 function main(): void {
     let a: Holder<int> = new Holder<int>();
     let b: Holder<int> = a;
-    console.log('ok');
+    console.log('verified');
 }

@@ -22,7 +22,7 @@
 
 // 测试类静态初始化
 class Counter {
-  static count: number = 0
+  public static count: number = 0
   
   // 静态初始化块
   static {

@@ -22,11 +22,11 @@
 
 // 测试循环静态初始化依赖
 class A {
-  static value: number = B.value + 1
+  public static value: number = B.value + 1
 }
 
 class B {
-  static value: number = A.value + 1
+  public static value: number = A.value + 1
 }
 
 function testCircularInit(): void {

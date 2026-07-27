@@ -25,5 +25,5 @@ function sem1502ArraySubtypeMismatch(): void {
 class Derived extends Base {}
   let ab: Base[] = [new Base()]
   let ad: Derived[] = [new Derived()]
-  ab = ad
+  public ab = ad
 }

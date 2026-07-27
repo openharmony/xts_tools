@@ -21,5 +21,5 @@
  */
 function main(): void {
     let x: string = 'hi';
-    console.log('ok');
+    console.log('verified');
 }

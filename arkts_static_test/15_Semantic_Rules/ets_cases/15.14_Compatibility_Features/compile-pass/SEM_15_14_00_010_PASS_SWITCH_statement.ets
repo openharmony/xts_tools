@@ -53,7 +53,7 @@ function testSwitchStatementExtended(): void {
   
   let empty: string = ''
   switch (empty) {
-    case "":
+    case '':
       console.log('Switch (empty): empty string')
       break
     default:

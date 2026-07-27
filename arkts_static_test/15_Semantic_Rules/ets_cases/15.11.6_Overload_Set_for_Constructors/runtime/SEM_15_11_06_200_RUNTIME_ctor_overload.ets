@@ -23,4 +23,5 @@ class C { public v: int = 0; constructor(x: int) { this.v = x; } }
 function main(): void { let c: C = new C(42); if (c.v != 42) {
     throw new Error('fail');
 }
-console.log('verified'); }
+console.log('verified');
+}

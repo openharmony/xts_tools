@@ -20,10 +20,12 @@
  * @note 正向用例：b instanceof Base和d!=undefined后调用method
  */
 class Base {
-    method(): void { console.log('Base'); }
+    method(): void { console.log('verified');
+}
 }
 class Derived extends Base {
-    method(): void { console.log('Derived'); }
+    method(): void { console.log('verified');
+}
 }
 function foo(b: Base | null, d: Derived | undefined): void {
     if (b instanceof Base) {

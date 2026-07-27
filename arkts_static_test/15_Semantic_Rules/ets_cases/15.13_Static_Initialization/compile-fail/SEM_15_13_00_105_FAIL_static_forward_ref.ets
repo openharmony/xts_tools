@@ -23,8 +23,8 @@
 // 测试静态前向引用（编译失败）
 class C {
   // 编译失败：b 尚未初始化
-  static a: int = C.b
-  static b: int = 1
+  public static a: int = C.b
+  public static b: int = 1
 }
 
 function testStaticForwardRef(): void {}

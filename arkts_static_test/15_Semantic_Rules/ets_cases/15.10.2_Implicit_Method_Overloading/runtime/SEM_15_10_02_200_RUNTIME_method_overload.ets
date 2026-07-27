@@ -23,4 +23,5 @@ class C { foo(x: int): string { return 'i'; } foo(x: string): string { return 's
 function main(): void { let c: C = new C(); if (c.foo(1) != 'i') {
     throw new Error('fail');
   }
-console.log('verified'); }
+console.log('verified');
+}
