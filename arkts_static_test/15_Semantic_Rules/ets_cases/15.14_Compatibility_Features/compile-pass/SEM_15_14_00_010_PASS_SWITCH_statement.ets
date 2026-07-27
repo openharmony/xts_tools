@@ -28,8 +28,8 @@ function testSwitchStatementExtended(): void {
     case 10:
       console.log('Switch (number): ' + num)
       break
-      default:
-        console.log('Default')
+    default:
+      console.log('Default')
   }
   
   let zero: number = 0
@@ -37,8 +37,8 @@ function testSwitchStatementExtended(): void {
     case 0:
       console.log('Switch (zero): ' + zero)
       break
-      default:
-        console.log('Default')
+    default:
+      console.log('Default')
   }
   
   // 字符串的真值检查
