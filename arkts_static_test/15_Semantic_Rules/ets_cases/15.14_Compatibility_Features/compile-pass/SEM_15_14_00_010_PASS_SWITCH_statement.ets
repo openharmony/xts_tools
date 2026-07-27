@@ -28,18 +28,18 @@ function testSwitchStatementExtended(): void {
     case 10:
       console.log('Switch (number): ' + num)
       break
-    default:
-      console.log('Default')
-}
+      default:
+        console.log('Default')
+  }
   
   let zero: number = 0
   switch (zero) {
     case 0:
       console.log('Switch (zero): ' + zero)
       break
-    default:
-      console.log('Default')
-}
+      default:
+        console.log('Default')
+  }
   
   // 字符串的真值检查
   let str: string = 'hello'
@@ -49,7 +49,7 @@ function testSwitchStatementExtended(): void {
       break
     default:
       console.log('Default')
-}
+  }
   
   let empty: string = ''
   switch (empty) {
@@ -59,5 +59,5 @@ function testSwitchStatementExtended(): void {
     default:
       console.log('Default')
   }
-console.log('Switch statement extended semantics test passed')
+  console.log('Switch statement extended semantics test passed')
 }

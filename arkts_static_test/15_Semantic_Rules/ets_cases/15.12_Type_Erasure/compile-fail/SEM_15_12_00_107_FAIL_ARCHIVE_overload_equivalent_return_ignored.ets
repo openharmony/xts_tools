@@ -22,4 +22,10 @@
  *  ArkTS overload / overload resolution / effective signature 覆盖。
  * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-fail\OVERLOAD_FAIL_002_overload_equivalent_return_ignored.ets
  */
-function overloadFail002Value(p: string[]): string {  return 's'}// @expect-error: ESE0131 Function overloadFail002Value with this assembly signature already declared.function overloadFail002Value(p: int[]): int {  return 2}
+function overloadFail002Value(p: string[]): string {
+  return 's'
+}
+// @expect-error: ESE0131 Function overloadFail002Value with this assembly signature already declared.
+function overloadFail002Value(p: int[]): int {
+  return 2
+}

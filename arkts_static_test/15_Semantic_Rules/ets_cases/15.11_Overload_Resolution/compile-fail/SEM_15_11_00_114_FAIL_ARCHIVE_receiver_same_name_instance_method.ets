@@ -22,4 +22,12 @@
  *  ArkTS overload / overload resolution / effective signature 覆盖。
  * @source D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-fail\OVERLOAD_FAIL_027_receiver_same_name_instance_method.ets
  */
-class OverloadFail027C {  hit(): string {    return 'instance'  }}// @expect-error: ESE0081 The extension function 'hit' has the same name with public method in class OverloadFail027Cfunction hit(this: OverloadFail027C): string {  return 'receiver'}
+class OverloadFail027C {
+  hit(): string {
+    return 'instance'
+  }
+}
+// @expect-error: ESE0081 The extension function 'hit' has the same name with public method in class OverloadFail027C
+function hit(this: OverloadFail027C): string {
+  return 'receiver'
+}
