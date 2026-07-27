@@ -22,8 +22,9 @@
 class A {}
 class B {}
 class C {
-    foo(a: A): void { console.log('C.A')
-}
+    foo(a: A): void {
+        console.log('C.A')
+    }
     foo(b: B): void {
         console.log('C.B')
     }
