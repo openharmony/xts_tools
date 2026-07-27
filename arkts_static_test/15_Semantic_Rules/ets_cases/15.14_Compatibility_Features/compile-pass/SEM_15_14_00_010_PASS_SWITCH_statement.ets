@@ -53,11 +53,11 @@ function testSwitchStatementExtended(): void {
   
   let empty: string = ''
   switch (empty) {
-  case '':
-    console.log('Switch (empty): empty string')
-    break
-  default:
-    console.log('Default')
+    case '':
+      console.log('Switch (empty): empty string')
+      break
+    default:
+      console.log('Default')
   }
 console.log('Switch statement extended semantics test passed')
 }

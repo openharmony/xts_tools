@@ -23,8 +23,9 @@ class C {
     foo(p: number): void {
         console.log('number')
     }
-    foo(p: string): void { console.log('string')
-}
+    foo(p: string): void {
+        console.log('string')
+    }
 }
 function main(): void {
     let c: C = new C()

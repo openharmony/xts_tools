@@ -26,8 +26,9 @@ function main(): void {
   let b: Box031 = new Box031()
   fill031(b, getMaybe031(false))
   let s1: string = b.value ?? 'default'
-  if (s1 !== 'default') { throw new Error('nullish default failed')
-}
+  if (s1 !== 'default') {
+        throw new Error('nullish default failed')
+    }
   b.value ??= getMaybe031(true)
   let len: int | undefined = b.value?.length
   if (b.value !== 'ok') {

@@ -29,8 +29,9 @@ class C {
     }
 }
 class D extends C {
-    foo(o: Object): void { console.log('D.Object')
-}
+    foo(o: Object): void {
+        console.log('D.Object')
+    }
 }
 function main(): void {
     let c: C = new D()

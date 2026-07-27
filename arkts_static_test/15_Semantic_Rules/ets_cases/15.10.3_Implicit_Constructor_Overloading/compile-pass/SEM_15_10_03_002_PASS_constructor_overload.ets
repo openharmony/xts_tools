@@ -20,8 +20,9 @@
  * @note Spec lines 14-26
  */
 class BigFloat {
-    constructor(n: number) { console.log('number')
-}
+    constructor(n: number) {
+        console.log('number')
+    }
     constructor(s: string) {
         console.log('string')
     }

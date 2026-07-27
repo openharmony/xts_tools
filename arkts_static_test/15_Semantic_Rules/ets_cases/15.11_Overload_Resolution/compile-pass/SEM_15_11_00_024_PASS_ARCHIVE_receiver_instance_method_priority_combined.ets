@@ -20,7 +20,8 @@
  *  while receiver function
  *  remains callable as a function.
  * @source
- *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_022_receiver_instance_method_priority_combined.ets
+ *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\
+ *  compile-pass\OVERLOAD_PASS_022_receiver_instance_method_priority_combined.ets
  */
 
 export class OverloadPass022C {
