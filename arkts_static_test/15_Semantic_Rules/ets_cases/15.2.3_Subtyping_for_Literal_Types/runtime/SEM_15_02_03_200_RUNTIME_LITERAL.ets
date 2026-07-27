@@ -23,5 +23,5 @@ function main(): void {
     let lit: 'hello' = 'hello';
     let s: string = lit;
     if (s != 'hello') { throw new Error('assertion failed'); }
-    console.log('verified');
+console.log('verified');
 }

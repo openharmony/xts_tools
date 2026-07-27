@@ -28,5 +28,5 @@ class D {
 function main(): void {
     let d: D = new D()
     d.foo(1)
-    d.foo("s")
+    d.foo('s')
 }

@@ -23,5 +23,5 @@ class B { f(x: int): void {} }
 class D extends B { override f(x: int): void {} }
 function main(): void {
     let b: B = new D();
-    b.f("s");
+    b.f('s');
 }

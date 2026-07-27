@@ -26,5 +26,5 @@ function main(): void {
     let d: int = b - a;
     if (c != 30) { throw new Error('add failed'); }
     if (d != 10) { throw new Error('sub failed'); }
-    console.log('verified');
+console.log('verified');
 }

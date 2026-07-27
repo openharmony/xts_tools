@@ -24,5 +24,5 @@ function main(): void {
     let y = 3.14;
     let z = x + 1;
     if (z != 43) { throw new Error('assertion failed: ' + z.toString()); }
-    console.log('verified');
+console.log('verified');
 }

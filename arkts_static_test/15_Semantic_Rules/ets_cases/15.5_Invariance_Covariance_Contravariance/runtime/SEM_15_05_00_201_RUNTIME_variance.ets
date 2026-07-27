@@ -33,5 +33,5 @@ function main(): void {
     if (result != 'Animal: Rex') {
         throw new Error('assertion failed: expected 'Animal: Rex' got '' + result + ''');
     }
-    console.log('verified: ' + result);
+console.log('verified: ' + result);
 }

@@ -25,5 +25,5 @@ class Finder {
 }
 function main(): void {
     let f: Finder = new Finder();
-    console.log(f.find(1) + f.find("x"));
+    console.log(f.find(1) + f.find('x'));
 }

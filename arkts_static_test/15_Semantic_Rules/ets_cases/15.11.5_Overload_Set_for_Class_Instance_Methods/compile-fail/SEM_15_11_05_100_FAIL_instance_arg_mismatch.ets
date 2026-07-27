@@ -22,5 +22,5 @@
 class C { f(x: int): void {} }
 function main(): void {
     let c: C = new C();
-    c.f("s");
+    c.f('s');
 }

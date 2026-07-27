@@ -36,5 +36,5 @@ class E extends D {
 function main(): void {
     let e: E = new E()
     e.foo(1)
-    e.foo("s")
+    e.foo('s')
 }

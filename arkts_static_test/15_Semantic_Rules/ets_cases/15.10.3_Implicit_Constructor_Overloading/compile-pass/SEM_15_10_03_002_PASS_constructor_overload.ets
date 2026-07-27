@@ -25,5 +25,5 @@ class BigFloat {
 }
 function main(): void {
     new BigFloat(1)
-    new BigFloat("3.14")
+    new BigFloat('3.14')
 }

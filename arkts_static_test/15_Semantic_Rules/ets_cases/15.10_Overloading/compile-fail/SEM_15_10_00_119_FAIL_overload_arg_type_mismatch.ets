@@ -25,5 +25,5 @@ function foo(x: int): void {}
 
 function testOverloadArgMismatch(): void {
   // 编译失败：string 不匹配 int 参数
-  foo("s")  // Error: No overload matches
+  foo('s')  // Error: No overload matches
 }

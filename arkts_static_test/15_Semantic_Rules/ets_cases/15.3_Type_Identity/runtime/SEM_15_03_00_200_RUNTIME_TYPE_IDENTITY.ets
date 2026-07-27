@@ -24,5 +24,5 @@ function main(): void {
     let x: MyInt = 42;
     let y: int = x;
     if (y != 42) { throw new Error('assertion failed'); }
-    console.log('verified');
+console.log('verified');
 }

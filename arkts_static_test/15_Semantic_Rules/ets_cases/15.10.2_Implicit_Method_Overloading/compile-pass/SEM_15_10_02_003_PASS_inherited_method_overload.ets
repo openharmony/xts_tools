@@ -28,5 +28,5 @@ class Derived extends Base {
 function main(): void {
     let d: Derived = new Derived()
     d.foo(5)
-    d.foo("5")
+    d.foo('5')
 }

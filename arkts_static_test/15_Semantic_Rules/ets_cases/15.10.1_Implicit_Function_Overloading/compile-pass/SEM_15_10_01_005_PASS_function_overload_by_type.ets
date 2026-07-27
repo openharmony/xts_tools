@@ -23,5 +23,5 @@ function foo(p: number): void { console.log('number') }
 function foo(p: string): void { console.log('string') }
 function main(): void {
     foo(5)
-    foo("5")
+    foo('5')
 }

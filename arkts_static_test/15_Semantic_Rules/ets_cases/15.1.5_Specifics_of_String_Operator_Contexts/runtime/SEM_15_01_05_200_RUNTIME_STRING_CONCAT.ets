@@ -26,5 +26,5 @@ function main(): void {
     if (r != 'value: 42') {
         throw new Error('assertion failed: expected 'value: 42' got '' + r + ''');
     }
-    console.log('verified');
+console.log('verified');
 }

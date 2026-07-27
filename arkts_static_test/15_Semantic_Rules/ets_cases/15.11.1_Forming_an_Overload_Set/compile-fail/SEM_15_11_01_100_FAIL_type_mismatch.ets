@@ -21,5 +21,5 @@
  */
 function f(x: int): void {}
 function main(): void {
-    f("s");
+    f('s');
 }
