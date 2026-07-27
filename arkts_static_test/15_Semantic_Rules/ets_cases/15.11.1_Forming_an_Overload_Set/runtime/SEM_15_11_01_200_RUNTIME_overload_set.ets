@@ -23,5 +23,9 @@ function f(x: int): string { return x.toString(); }
 function main(): void { let r = f(1); if (r != '1') {
     throw new Error('fail');
   }
+  }
+  }
+  }
+  }
 console.log('verified');
 }

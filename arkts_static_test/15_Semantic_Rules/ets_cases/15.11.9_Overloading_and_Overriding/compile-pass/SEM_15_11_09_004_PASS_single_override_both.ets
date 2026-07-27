@@ -22,11 +22,14 @@
 class C1 {}
 class C2 extends C1 {}
 class A {
-    foo(c: C2): void { console.log('A.C2') }
-    foo(c: C1): void { console.log('A.C1') }
+    foo(c: C2): void { console.log('A.C2')
+}
+    foo(c: C1): void { console.log('A.C1')
+}
 }
 class D extends A {
-    foo(c: C1): void { console.log('D.C1') }
+    foo(c: C1): void { console.log('D.C1')
+}
 }
 function main(): void {
     let a: A = new D()

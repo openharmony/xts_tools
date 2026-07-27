@@ -23,5 +23,9 @@ class C { public v: string = ''; constructor(x: int) { this.v = 'i'; } construct
 function main(): void { let c: C = new C(1); if (c.v != 'i') {
     throw new Error('fail');
   }
+  }
+  }
+  }
+  }
 console.log('verified');
 }

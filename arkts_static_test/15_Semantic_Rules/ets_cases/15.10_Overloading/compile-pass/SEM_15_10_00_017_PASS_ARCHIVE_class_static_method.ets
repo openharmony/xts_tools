@@ -27,7 +27,7 @@ class OverloadPass007Static {
 
   static fromInt(p: int): string {
     return 'int:' + p.toString()
-  }
+}
 
   static fromString(p: string): string {
     return 'string:' + p

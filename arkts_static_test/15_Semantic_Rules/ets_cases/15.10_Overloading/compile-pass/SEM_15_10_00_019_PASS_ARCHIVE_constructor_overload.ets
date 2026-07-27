@@ -31,7 +31,7 @@ class OverloadPass010Box {
 
   constructor(p: int) {
     this.value = 'int:' + p.toString()
-  }
+}
 }
 
 function main(): void {

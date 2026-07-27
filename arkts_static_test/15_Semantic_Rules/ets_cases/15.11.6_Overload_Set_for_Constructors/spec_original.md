@@ -39,6 +39,6 @@ The example below illustrates how _overload set _is formed and used by overload 
 
 10 new C() // ctor#1 is used
 
-11 new C('aa') // ctor#2 is used
+11 new C('ab') // ctor#2 is used
 
 12 new C(1) // fromNumber is used

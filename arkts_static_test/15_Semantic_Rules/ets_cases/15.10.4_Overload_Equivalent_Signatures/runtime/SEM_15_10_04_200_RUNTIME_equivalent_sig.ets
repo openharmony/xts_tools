@@ -23,5 +23,9 @@ function foo(x: int): string { return 'i'; }
 function main(): void { let r = foo(1); if (r != 'i') {
     throw new Error('fail');
   }
+  }
+  }
+  }
+  }
 console.log('verified');
 }
