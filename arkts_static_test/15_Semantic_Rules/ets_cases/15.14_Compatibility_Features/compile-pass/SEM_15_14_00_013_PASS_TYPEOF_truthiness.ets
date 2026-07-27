@@ -27,23 +27,22 @@ function testTypeofTruthiness(): void {
   // typeof 返回字符串字面量类型的真值检查
   if (typeof x === 'string') {
     console.log('x is string')
-  }
+}
   
   if (typeof x === 'number') {
     console.log('x is number')
-  }
+}
   
   if (typeof x === 'boolean') {
     console.log('x is boolean')
-  }
+}
   
   if (typeof x === 'undefined') {
     console.log('x is undefined')
-  }
+}
   
   if (typeof x === 'object') {
     console.log('x is object')
-  
 }
 console.log('Typeof truthiness test passed')
 }

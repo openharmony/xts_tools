@@ -17,7 +17,8 @@
  * @expect compile-pass
  * @section 15.11
  * @design 归档吸纳：interface override dedup。来源
- *  `Overloading\compile-pass\OVERLOAD_PASS_020_interface_override_dedup.ets`；用于补充 ArkTS overload / overload resolution / effective signature 覆盖。
+ *  `Overloading\compile-pass\OVERLOAD_PASS_020_interface_override_dedup.ets`；用于补充
+ *  ArkTS overload / overload resolution / effective signature 覆盖。
  * @source
  *  D:\work\spec\arkts-spec\SEMANTICS\ets_cases\Overloading\compile-pass\OVERLOAD_PASS_020_interface_override_dedup.ets
  */

@@ -27,7 +27,7 @@ class Animal015 {
 class Dog015 extends Animal015 {
   bark(): void {
     console.log('Woof!')
-  }
+}
 }
 
 // 测试 instanceof 表达式的真值检查
@@ -38,13 +38,12 @@ function testInstanceofTruthiness(): void {
   if (animal instanceof Dog015) {
     console.log('animal is Dog')
     animal.bark()
-  }
+}
   
   if (!(animal instanceof Animal015)) {
     console.log('This won't execute')
-  } else {
+} else {
     console.log('animal is Animal')
-  
 }
 console.log('Instanceof truthiness test passed')
 }

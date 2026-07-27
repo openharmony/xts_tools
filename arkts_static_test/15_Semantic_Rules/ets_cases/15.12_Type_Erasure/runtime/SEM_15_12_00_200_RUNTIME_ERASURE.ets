@@ -23,7 +23,12 @@ class Holder<T> { public val: T | undefined; }
 function identity<T>(x: T): T { return x; }
 function main(): void {
     let r: int = identity<int>(42);
-    if (r != 42) { throw new Error('assertion failed'); 
+    if (r != 42) {
+    throw new Error('assertion failed');
+  }
+  }
+  }
+  } 
 }
 console.log('verified');
 }

@@ -55,8 +55,6 @@ function testUnionTypeErasure(): void {
   if (typeof x === 'number') {
     console.log('Number: ' + ((x as number) * 2).toString())
   } else {
-    console.log('String: ' + (x as string).toUpperCase())
-  
-}
+    console.log('String: ' + (x as string).toUpperCase())}
 console.log('Union type erasure test passed')
 }

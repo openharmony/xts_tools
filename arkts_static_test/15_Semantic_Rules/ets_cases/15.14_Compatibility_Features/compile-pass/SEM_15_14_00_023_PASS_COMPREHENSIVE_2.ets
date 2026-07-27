@@ -29,7 +29,6 @@ function testComprehensiveExtendedConditional2(): void {
   // 短路 AND：如果第一个操作数为 false，则不评估第二个操作数
   if (x && y++) {
     console.log('This won't execute')
-  
 }
 console.log('After AND short-circuit: ' + y)  // 输出: 10 (y 没有递增)
     

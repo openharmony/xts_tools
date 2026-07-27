@@ -24,7 +24,10 @@
 function testNarrowWithoutNull(): void {
   let x: number | string = 42
   let result: string
-  if (typeof x === 'string') { result = x as string } else { result = x.toString() 
+  if (typeof x === 'string') {
+    result = x as string
+  } else {
+    result = x.toString()
 }
 console.log('narrow without null (conditional): ' + result)
 
@@ -40,7 +43,10 @@ console.log('narrow without null (conditional): ' + result)
 function testNarrowWithNull(): void {
   let x: number | string | null = 42
   let result: string
-  if (typeof x === 'string') { result = x as string } else { result = x!.toString() 
+  if (typeof x === 'string') {
+    result = x as string
+  } else {
+    result = x!.toString()
 }
 console.log('narrow with null (conditional): ' + result)
 

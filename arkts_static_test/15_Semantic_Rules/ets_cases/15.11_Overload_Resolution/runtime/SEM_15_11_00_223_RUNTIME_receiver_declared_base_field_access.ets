@@ -32,7 +32,7 @@ class Holder {
   public b: Base = new Derived()
   run(): string {
     return this.b.pick(9)
-  }
+}
 }
 
 function main(): void {

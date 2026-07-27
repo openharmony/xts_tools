@@ -24,7 +24,10 @@
 function testNarrowWithMethodCall(): void {
   let x: number | string | null = 42
   let result: string
-  if (typeof x === 'string') { result = (x as string).toUpperCase() } else { result = x!.toString() 
+  if (typeof x === 'string') {
+    result = (x as string).toUpperCase()
+} else {
+    result = x!.toString()
 }
 console.log('narrow with method (conditional): ' + result)
 

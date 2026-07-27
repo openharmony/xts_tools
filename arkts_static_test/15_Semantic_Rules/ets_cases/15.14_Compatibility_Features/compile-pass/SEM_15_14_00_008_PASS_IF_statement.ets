@@ -31,9 +31,8 @@ function testIfStatementExtended(): void {
   let zero: number = 0
   if (zero) {
     console.log('This won't execute')
-  } else {
-    console.log('Zero is falsy')  // 输出: Zero is falsy
-  }
+} else {
+    console.log('Zero is falsy')  // 输出: Zero is falsy}
   
   // 字符串的真值检查
   let str: string = 'hello'
@@ -44,9 +43,8 @@ function testIfStatementExtended(): void {
   let empty: string = ''
   if (empty) {
     console.log('This won't execute')
-  } else {
-    console.log('Empty string is falsy')  // 输出: Empty string is falsy
-  }
+} else {
+    console.log('Empty string is falsy')  // 输出: Empty string is falsy}
   
   // 布尔值的真值检查
   let bool: boolean = true

@@ -32,7 +32,7 @@ class ConcurrentCounter {
     }
     ConcurrentCounter.count = 10
     console.log('Static initialization completed')
-  }
+}
   
   static increment(): void {
     ConcurrentCounter.count++

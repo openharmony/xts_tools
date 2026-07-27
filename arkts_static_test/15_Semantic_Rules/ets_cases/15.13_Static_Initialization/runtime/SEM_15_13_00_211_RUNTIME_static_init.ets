@@ -19,9 +19,13 @@
  * @design 静态初始化运行时
  * @note 运行时用例
  */
-class C { static val: int = 42; }
+class C { public static val: int = 42; }
 function main(): void { if (C.val != 42) {
     throw new Error('fail');
+  }
+  }
+  }
+  }
 }
 console.log('verified');
 }

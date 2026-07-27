@@ -30,9 +30,8 @@ function testComprehensiveExtendedConditional3(): void {
   let result: string
   if (typeof value === 'string') {
     result = (value as string).toUpperCase()
-  } else {
+} else {
     result = value.toString()
-  
 }
 console.log('Ternary result: ' + result)
   
@@ -40,11 +39,10 @@ console.log('Ternary result: ' + result)
   let y: string
   if (typeof x === 'number') {
     y = 'number: ' + (x as number * 2).toString()
-  } else if (typeof x === 'string') {
+} else if (typeof x === 'string') {
     y = 'string: ' + (x as string).toUpperCase()
-  } else {
+} else {
     y = 'boolean: ' + (x as boolean).toString()
-  
 }
 console.log('Nested ternary result: ' + y)
 }

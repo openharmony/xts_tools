@@ -25,7 +25,12 @@ class Config {
 }
 function main(): void {
     let v: int = Config.derived;
-    if (v != 20) { throw new Error('assertion failed: ' + v.toString()); 
+    if (v != 20) {
+    throw new Error('assertion failed: ' + v.toString());
+  }
+  }
+  }
+  } 
 }
 console.log('verified');
 }

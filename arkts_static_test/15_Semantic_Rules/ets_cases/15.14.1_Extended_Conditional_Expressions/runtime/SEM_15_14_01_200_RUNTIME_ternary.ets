@@ -21,6 +21,10 @@
  */
 function main(): void { let x = true ? 42 : 0; if (x != 42) {
     throw new Error('fail');
+  }
+  }
+  }
+  }
 }
 console.log('verified');
 }

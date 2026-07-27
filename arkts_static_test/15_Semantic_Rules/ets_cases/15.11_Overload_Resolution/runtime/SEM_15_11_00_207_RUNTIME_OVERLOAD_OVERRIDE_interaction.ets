@@ -26,21 +26,21 @@ class Animal {
   
   makeSound(p: Animal): void {
     console.log('Animal makes sound')
-  }
+}
 }
 
 class Dog extends Animal {
   // 重写方法（参数类型逆变）
   override makeSound(p: Animal): void {
     console.log('Dog barks')
-  }
+}
 }
 
 class Cat extends Animal {
   // 重写方法
   override makeSound(p: Animal): void {
     console.log('Cat meows')
-  }
+}
 }
 
 function testOverloadOverrideInteraction(): void {

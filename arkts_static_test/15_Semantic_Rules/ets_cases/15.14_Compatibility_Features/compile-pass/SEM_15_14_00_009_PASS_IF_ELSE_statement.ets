@@ -28,14 +28,13 @@ function testIfElseStatementExtended(): void {
     console.log('If-else (number): ' + num)  // 输出：10
   } else {
     console.log('This won't execute')
-  }
+}
   
   let zero: number = 0
   if (zero) {
     console.log('This won't execute')
-  } else {
-    console.log('Zero is falsy')  // 输出：Zero is falsy
-  }
+} else {
+    console.log('Zero is falsy')  // 输出：Zero is falsy}
   
   // 字符串的真值检查
   let str: string = 'hello'
@@ -43,14 +42,13 @@ function testIfElseStatementExtended(): void {
     console.log('If-else (string): ' + str)  // 输出：hello
   } else {
     console.log('This won't execute')
-  }
+}
   
   let empty: string = ''
   if (empty) {
     console.log('This won't execute')
-  } else {
-    console.log('Empty string is falsy')  // 输出：Empty string is falsy
-  }
+} else {
+    console.log('Empty string is falsy')  // 输出：Empty string is falsy}
   
   // 布尔值的真值检查
   let bool: boolean = true
@@ -58,7 +56,6 @@ function testIfElseStatementExtended(): void {
     console.log('If-else (boolean): ' + bool)  // 输出：true
   } else {
     console.log('This won't execute')
-  
 }
 console.log('If-else statement extended semantics test passed')
 }

@@ -34,15 +34,15 @@ interface Pet extends Animal {
 class Dog implements Pet {
   makeSound(): void {
     console.log('Woof!')
-  }
+}
   
   play(): void {
     console.log('Dog plays')
-  }
+}
   
   play(toy: string): void {
     console.log('Dog plays with ' + toy)
-  }
+}
 }
 
 function testInterfaceMethodOverload(): void {
