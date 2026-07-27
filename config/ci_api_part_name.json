@@ -1390,6 +1390,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.advanced.FullScreenLaunchComponent.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.advanced.FullScreenLaunchComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
