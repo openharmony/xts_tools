@@ -253,6 +253,9 @@ template("ohos_testsuite_base") {
       if (_hap_name == "validator" && subsystem_name == "acts") {
         _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/acts-validator"
         _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
+      } else if (_hap_name == "iotc_validator" && subsystem_name == "acts") {
+        _suite_out_dir = "${SUITES_OUTPUT_ROOT}/${XTS_SUITENAME}/iotc-validator"
+        _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
       } else {
         _archive_testfile = "${_suite_out_dir}/testcases/${_archive_filename}"
       }
