@@ -18620,6 +18620,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/multimedia/av_codec",
+            "bundle_name": [
+                "av_codec"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/multimedia/av_session",
             "bundle_name": [
                 "av_session"
