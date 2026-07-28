@@ -1,6 +1,20 @@
 {
     "sdk-js": [
         {
+            "path": "interface/sdk-js/build-tools/delete_unpublished_plugin.js",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/copy_runtimeapi.py",
+            "bundle_name": [
+                "sdk"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.components.ContainerReader.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -279,13 +293,13 @@
                 "sdk"
             ],
             "build_targets": {
-                "acts":[
+                "acts": [
                     "xts_acts"
                 ],
-                "dcts":[
+                "dcts": [
                     "xts_dcts"
                 ],
-                "hats":[
+                "hats": [
                     "xts_hats"
                 ]
             }
@@ -296,13 +310,13 @@
                 "sdk"
             ],
             "build_targets": {
-                "acts":[
+                "acts": [
                     "xts_acts"
                 ],
-                "dcts":[
+                "dcts": [
                     "xts_dcts"
                 ],
-                "hats":[
+                "hats": [
                     "xts_hats"
                 ]
             }
@@ -313,13 +327,13 @@
                 "sdk"
             ],
             "build_targets": {
-                "acts":[
+                "acts": [
                     "xts_acts"
                 ],
-                "dcts":[
+                "dcts": [
                     "xts_dcts"
                 ],
-                "hats":[
+                "hats": [
                     "xts_hats"
                 ]
             }
@@ -330,13 +344,13 @@
                 "sdk"
             ],
             "build_targets": {
-                "acts":[
+                "acts": [
                     "xts_acts"
                 ],
-                "dcts":[
+                "dcts": [
                     "xts_dcts"
                 ],
-                "hats":[
+                "hats": [
                     "xts_hats"
                 ]
             }
@@ -347,13 +361,13 @@
                 "sdk"
             ],
             "build_targets": {
-                "acts":[
+                "acts": [
                     "xts_acts"
                 ],
-                "dcts":[
+                "dcts": [
                     "xts_dcts"
                 ],
-                "hats":[
+                "hats": [
                     "xts_hats"
                 ]
             }
@@ -364,13 +378,13 @@
                 "sdk"
             ],
             "build_targets": {
-                "acts":[
+                "acts": [
                     "xts_acts"
                 ],
-                "dcts":[
+                "dcts": [
                     "xts_dcts"
                 ],
-                "hats":[
+                "hats": [
                     "xts_hats"
                 ]
             }
@@ -2579,7 +2593,7 @@
             ],
             "build_targets": {}
         },
-          {
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.inspector.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6352,7 +6366,7 @@
             ],
             "build_targets": {}
         },
-             {
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.pluginComponent.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9453,7 +9467,7 @@
             ],
             "build_targets": {}
         },
-            {
+        {
             "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/embedded_component.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -10174,7 +10188,7 @@
             ],
             "build_targets": {}
         },
-            {
+        {
             "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/inspector.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -10916,7 +10930,7 @@
             ],
             "build_targets": {}
         },
-                {
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/component/enums.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -11133,7 +11147,7 @@
             ],
             "build_targets": {}
         },
-                {
+        {
             "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/security_ui_extension_component.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -11280,7 +11294,7 @@
             ],
             "build_targets": {}
         },
-          {
+        {
             "path": "interface/sdk-js/zh-cn/api/@internal/component/ets/xcomponent.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -11434,7 +11448,7 @@
             ],
             "build_targets": {}
         },
-            {
+        {
             "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.inspector.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -14283,7 +14297,7 @@
             ],
             "build_targets": {}
         },
-                {
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/XComponentNode.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -16964,7 +16978,7 @@
             ],
             "build_targets": {}
         },
-            {
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/component/embeddedComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -17160,7 +17174,7 @@
             ],
             "build_targets": {}
         },
-              {
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/component/inspector.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -17461,7 +17475,7 @@
             ],
             "build_targets": {}
         },
-                {
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/component/pluginComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -18091,7 +18105,7 @@
             ],
             "build_targets": {}
         },
-                {
+        {
             "path": "interface/sdk-js/zh-cn/api/arkui/component/toolbar.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -20021,7 +20035,7 @@
             ],
             "build_targets": {}
         },
-                {
+        {
             "path": "interface/sdk_c/zh-cn/multimodalinput/kits/c",
             "bundle_name": [
                 "input"
