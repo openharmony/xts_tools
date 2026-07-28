@@ -1502,6 +1502,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.dataShare.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.image.d.ts",
             "bundle_name": [
                 "image_framework"
@@ -2147,6 +2154,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.application.DataShareExtensionAbility.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.application.DataShareExtensionAbility.d.ts",
             "bundle_name": [
                 "data_share"
             ],
@@ -5163,6 +5177,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.dataAbility.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.security.cert.d.ts",
             "bundle_name": [
                 "certificate_framework"
@@ -5640,6 +5661,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.ValuesBucket.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.ValuesBucket.d.ts",
             "bundle_name": [
                 "data_share"
             ],
@@ -6710,6 +6738,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.dataSharePredicates.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.arkui.modifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -6788,6 +6823,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.DataShareResultSet.d.ts",
+            "bundle_name": [
+                "data_share"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.DataShareResultSet.d.ts",
             "bundle_name": [
                 "data_share"
             ],
