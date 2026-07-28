@@ -22,5 +22,5 @@
 function main(): void {
     let a: Fixedint[] = new Fixedint[](3);
     a[0] = 1;
-    console.log('ok');
+    console.log('verified');
 }

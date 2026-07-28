@@ -29,5 +29,5 @@ function main(): void {
     let f: float | double = 3.14;
     f = 2f;
     let g: float | double = 3.4e39;
-    console.log('union target type inference OK');
+    console.log('verified');
 }

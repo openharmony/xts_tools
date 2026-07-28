@@ -22,5 +22,5 @@
 function main(): void {
     let x: Object | string = 1;
     x = 1.0;
-    console.log('union no numeric type OK');
+    console.log('verified');
 }

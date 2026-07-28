@@ -25,5 +25,5 @@ function main(): void {
     let d: Dog = new Dog(); d.name = 'Rex';
     let a: Animal = d;
     if (a.name != 'Rex') { throw new Error('assertion failed'); }
-    console.log('verified');
+console.log('verified');
 }

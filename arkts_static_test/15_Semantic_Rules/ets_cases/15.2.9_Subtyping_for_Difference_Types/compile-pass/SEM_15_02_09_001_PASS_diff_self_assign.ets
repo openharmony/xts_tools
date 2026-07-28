@@ -21,5 +21,5 @@
  */
 function main(): void {
     let x: int = 42;
-    console.log('ok');
+    console.log('verified');
 }

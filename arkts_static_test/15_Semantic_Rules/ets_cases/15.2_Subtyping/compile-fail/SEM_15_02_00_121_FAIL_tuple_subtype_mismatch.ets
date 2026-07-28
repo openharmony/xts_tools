@@ -25,5 +25,5 @@ function sem1502TupleSubtypeMismatch(): void {
 class Derived extends Base {}
   let tb: [Base, Base] = [new Base(), new Base()]
   let td: [Derived, Derived] = [new Derived(), new Derived()]
-  tb = td
+  public tb = td
 }

@@ -25,5 +25,5 @@ function main(): void {
     if (y != 43) {
         throw new Error('assertion failed: expected 43 got ' + y.toString());
     }
-    console.log('verified');
+console.log('verified');
 }

@@ -23,5 +23,5 @@ function identity<T>(x: T): T { return x; }
 function main(): void {
     let r: int = identity<int>(42);
     if (r != 42) { throw new Error('assertion failed: ' + r.toString()); }
-    console.log('verified');
+console.log('verified');
 }
