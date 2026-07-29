@@ -1684,6 +1684,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.vibrator.d.ts",
+            "bundle_name": [
+                "miscdevice"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.account.appAccount.d.ts",
             "bundle_name": [
                 "os_account"
@@ -3505,6 +3512,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.vibrator.d.ts",
+            "bundle_name": [
+                "miscdevice"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.vibrator.d.ts",
             "bundle_name": [
                 "miscdevice"
             ],
@@ -5962,6 +5976,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.sensor.d.ts",
+            "bundle_name": [
+                "sensor"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.sensor.d.ts",
             "bundle_name": [
                 "sensor"
             ],
@@ -8629,6 +8650,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.sensor.d.ts",
+            "bundle_name": [
+                "sensor"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.sensor.d.ts",
             "bundle_name": [
                 "sensor"
             ],
@@ -20197,7 +20225,21 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/sensors/miscdevice/vibrator",
+            "bundle_name": [
+                "miscdevice"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/sensors/sensor",
+            "bundle_name": [
+                "sensor"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/sensors/sensor",
             "bundle_name": [
                 "sensor"
             ],
