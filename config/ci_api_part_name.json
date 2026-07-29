@@ -2125,6 +2125,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.storage.d.ts",
+            "bundle_name": [
+                "preferences"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.hiSysEvent.d.ts",
             "bundle_name": [
                 "hisysevent"
@@ -3134,6 +3141,13 @@
         },
         {
             "path": "interface/sdk-js/api/@system.storage.d.ts",
+            "bundle_name": [
+                "preferences"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@system.storage.d.ts",
             "bundle_name": [
                 "preferences"
             ],
@@ -4450,6 +4464,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.preferences.d.ts",
+            "bundle_name": [
+                "preferences"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.preferences.d.ts",
             "bundle_name": [
                 "preferences"
             ],
@@ -5878,6 +5899,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.sendablePreferences.d.ets",
+            "bundle_name": [
+                "preferences"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.sendablePreferences.d.ets",
             "bundle_name": [
                 "preferences"
             ],
@@ -18551,6 +18579,13 @@
         },
         {
             "path": "interface/sdk_c/distributeddatamgr/preferences",
+            "bundle_name": [
+                "preferences"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/distributeddatamgr/preferences",
             "bundle_name": [
                 "preferences"
             ],
