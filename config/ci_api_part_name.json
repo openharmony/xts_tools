@@ -1229,6 +1229,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.relationalStore.d.ts",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.data.graphStore.d.ts",
             "bundle_name": [
                 "relational_store"
@@ -3679,6 +3686,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.sendableRelationalStore.d.ets",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.multimedia.audioHaptic.d.ts",
             "bundle_name": [
                 "player_framework"
@@ -4184,6 +4198,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.data.rdb.d.ts",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.data.rdb.d.ts",
             "bundle_name": [
                 "relational_store"
             ],
@@ -11912,6 +11933,13 @@
         },
         {
             "path": "interface/sdk-js/api/data/rdb/resultSet.d.ts",
+            "bundle_name": [
+                "relational_store"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/data/rdb/resultSet.d.ts",
             "bundle_name": [
                 "relational_store"
             ],
