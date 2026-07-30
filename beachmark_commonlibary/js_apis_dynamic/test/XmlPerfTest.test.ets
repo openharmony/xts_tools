@@ -42,7 +42,6 @@ declare class ArkTools {
 export default function XmlPerfTest(): void {
   describe('XmlPerfTest', () => {
     const BASE_COUNT = 1000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
