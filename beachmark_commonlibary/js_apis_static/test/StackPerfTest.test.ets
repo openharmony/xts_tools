@@ -32,7 +32,6 @@ import performance from './Performance.util';
 export default function StackPerfTest(): void {
   describe('StackPerfTest', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +48,13 @@ export default function StackPerfTest(): void {
 
     it('PerformanceTest_Stack_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Stack<string> = new Stack<string>();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Stack<string>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,13 +66,13 @@ export default function StackPerfTest(): void {
       let stack: Stack<string> = new Stack<string>();
       stack.push('test');
       let res: int = stack.length;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stack.length;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -87,13 +86,13 @@ export default function StackPerfTest(): void {
         stacks.push(new Stack<string>());
       }
       let res: string = '';
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stacks[i].push('test');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Push_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'push',
         'push(item: T): T', arkTsAveragedTime);
@@ -109,13 +108,13 @@ export default function StackPerfTest(): void {
         stacks.push(s);
       }
       let res: string = '';
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stacks[i].pop();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Pop_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'pop',
         'pop(): T', arkTsAveragedTime);
@@ -127,13 +126,13 @@ export default function StackPerfTest(): void {
       let stack: Stack<string> = new Stack<string>();
       stack.push('test');
       let res: string = stack.peek();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stack.peek();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Peek_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'peek',
         'peek(): T', arkTsAveragedTime);
@@ -145,13 +144,13 @@ export default function StackPerfTest(): void {
       let stack: Stack<string> = new Stack<string>();
       stack.push('test');
       let res: int = stack.locate('test');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stack.locate('test');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Locate_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'locate',
         'locate(element: T): int', arkTsAveragedTime);
@@ -162,13 +161,13 @@ export default function StackPerfTest(): void {
     it('PerformanceTest_Stack_IsEmpty_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let stack: Stack<string> = new Stack<string>();
       let res: boolean = stack.isEmpty();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stack.isEmpty();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -181,12 +180,12 @@ export default function StackPerfTest(): void {
       stack.push('test');
       let callback = (value: string, index: int, s: Stack<string>): void => {
       };
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         stack.forEach(callback);
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', 'forEach',
         'forEach(callbackfn: StackForEachCb<T>): void', arkTsAveragedTime);
@@ -198,13 +197,13 @@ export default function StackPerfTest(): void {
       let stack: Stack<string> = new Stack<string>();
       stack.push('test');
       let res = stack.$_iterator();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = stack.$_iterator();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Stack_Iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Stack', '$_iterator',
         '$_iterator(): IterableIterator<T>', arkTsAveragedTime);

@@ -32,7 +32,6 @@ import performance from './Performance.util';
 export default function HashMapPerfTest(): void {
   describe('HashMapPerfTest', (): void => {
     const BASE_COUNT = 5000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +48,13 @@ export default function HashMapPerfTest(): void {
 
     it('PerformanceTest_HashMap_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: HashMap<string, int> = new HashMap<string, int>();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new HashMap<string, int>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,13 +66,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('a', 1);
       let res: int = hashMap.length;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.length;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -84,13 +83,13 @@ export default function HashMapPerfTest(): void {
     it('PerformanceTest_HashMap_IsEmpty_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       let res: boolean = hashMap.isEmpty();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.isEmpty();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -102,13 +101,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('testKey', 100);
       let res: boolean = hashMap.hasKey('testKey');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.hasKey('testKey');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_HasKey_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'hasKey',
         'hasKey(key: K): boolean', arkTsAveragedTime);
@@ -120,13 +119,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('testKey', 200);
       let res: boolean = hashMap.hasValue(200);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.hasValue(200);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_HasValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'hasValue',
         'hasValue(value: V): boolean', arkTsAveragedTime);
@@ -138,13 +137,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('key', 300);
       let res: int = hashMap.get('key')!;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.get('key')!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Get_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'get',
         'get(key: K): V', arkTsAveragedTime);
@@ -158,13 +157,13 @@ export default function HashMapPerfTest(): void {
         maps.push(new HashMap<string, int>());
       }
       let res: Object = maps[0].set('0', 0);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].set(i.toString(), i);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Set_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'set',
         'set(key: K, value: V): Object', arkTsAveragedTime);
@@ -181,13 +180,13 @@ export default function HashMapPerfTest(): void {
         targets.push(new HashMap<string, int>());
       }
       let res: void = targets[0].setAll(srcMap);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = targets[i].setAll(srcMap);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_SetAll_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'setAll',
         'setAll(map: HashMap<K, V>): void', arkTsAveragedTime);
@@ -203,13 +202,13 @@ export default function HashMapPerfTest(): void {
         maps.push(m);
       }
       let res: int = 0;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].remove('k')!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Remove_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'remove',
         'remove(key: K): V', arkTsAveragedTime);
@@ -225,13 +224,13 @@ export default function HashMapPerfTest(): void {
         maps.push(m);
       }
       let res: void = maps[0].clear();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].clear();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'clear',
         'clear(): void', arkTsAveragedTime);
@@ -243,13 +242,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('a', 1);
       let res = hashMap.keys();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.keys();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Keys_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'keys',
         'keys(): IterableIterator<K>', arkTsAveragedTime);
@@ -261,13 +260,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('a', 1);
       let res = hashMap.values();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.values();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Values_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'values',
         'values(): IterableIterator<V>', arkTsAveragedTime);
@@ -283,13 +282,13 @@ export default function HashMapPerfTest(): void {
       let callback = (value: int, key: string, map: HashMap<string, int>): void => {
       };
       let res: void = hashMap.forEach(callback);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.forEach(callback);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'forEach',
         'forEach(callbackFn: (value: V, key?: K, map?: HashMap<K, V>) => void): void', arkTsAveragedTime);
@@ -301,13 +300,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('a', 1);
       let res = hashMap.entries();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.entries();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Entries_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'entries',
         'entries(): IterableIterator<[K, V]>', arkTsAveragedTime);
@@ -319,13 +318,13 @@ export default function HashMapPerfTest(): void {
       let hashMap: HashMap<string, int> = new HashMap<string, int>();
       hashMap.set('a', 1);
       let res = hashMap.$_iterator();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = hashMap.$_iterator();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', '$_iterator',
         '$_iterator(): IterableIterator<[K, V]>', arkTsAveragedTime);
@@ -341,13 +340,13 @@ export default function HashMapPerfTest(): void {
         maps.push(m);
       }
       let res: boolean = maps[0].replace('key', 200);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].replace('key', i);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_HashMap_Replace_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'HashMap', 'replace',
         'replace(key: K, newValue: V): boolean', arkTsAveragedTime);

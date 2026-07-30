@@ -32,7 +32,6 @@ import performance from './Performance.util';
 export default function LightWeightSetPerfTest(): void {
   describe('LightWeightSetPerfTest', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +48,13 @@ export default function LightWeightSetPerfTest(): void {
 
     it('PerformanceTest_LightWeightSet_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: LightWeightSet<string> = new LightWeightSet<string>();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new LightWeightSet<string>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,13 +66,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res: int = lightWeightSet.length;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.length;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -84,13 +83,13 @@ export default function LightWeightSetPerfTest(): void {
     it('PerformanceTest_LightWeightSet_IsEmpty_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       let res: boolean = lightWeightSet.isEmpty();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.isEmpty();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -101,13 +100,13 @@ export default function LightWeightSetPerfTest(): void {
     it('PerformanceTest_LightWeightSet_Add_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       let res: boolean = lightWeightSet.add('0');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.add(i.toString());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Add_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'add',
         'add(value: T): boolean', arkTsAveragedTime);
@@ -124,13 +123,13 @@ export default function LightWeightSetPerfTest(): void {
         targets.push(new LightWeightSet<string>());
       }
       let res: boolean = false;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = targets[i].addAll(srcSet);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_AddAll_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'addAll',
         'addAll(set: LightWeightSet<T>): boolean', arkTsAveragedTime);
@@ -142,13 +141,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('test');
       let res: boolean = lightWeightSet.has('test');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.has('test');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Has_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'has',
         'has(value: T): boolean', arkTsAveragedTime);
@@ -162,13 +161,13 @@ export default function LightWeightSetPerfTest(): void {
       let set2: LightWeightSet<string> = new LightWeightSet<string>();
       set2.add('a');
       let res: boolean = set1.hasAll(set2);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = set1.hasAll(set2);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_HasAll_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'hasAll',
         'hasAll(set: LightWeightSet<T>): boolean', arkTsAveragedTime);
@@ -180,13 +179,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('target');
       let res: int = lightWeightSet.getIndexOf('target');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.getIndexOf('target');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_GetIndexOf_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'getIndexOf',
         'getIndexOf(key: T): int', arkTsAveragedTime);
@@ -198,13 +197,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res: string = lightWeightSet.getValueAt(0)!;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.getValueAt(0)!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_GetValueAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'getValueAt',
         'getValueAt(index: int): T | undefined', arkTsAveragedTime);
@@ -220,13 +219,13 @@ export default function LightWeightSetPerfTest(): void {
         sets.push(s);
       }
       let res: string = '';
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = sets[i].remove('a')!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Remove_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'remove',
         'remove(key: T): T | undefined', arkTsAveragedTime);
@@ -242,13 +241,13 @@ export default function LightWeightSetPerfTest(): void {
         sets.push(s);
       }
       let res: boolean = false;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = sets[i].removeAt(0);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_RemoveAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'removeAt',
         'removeAt(index: int): boolean', arkTsAveragedTime);
@@ -264,13 +263,13 @@ export default function LightWeightSetPerfTest(): void {
         sets.push(s);
       }
       let res: void = sets[0].clear();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = sets[i].clear();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'clear',
         'clear(): void', arkTsAveragedTime);
@@ -284,13 +283,13 @@ export default function LightWeightSetPerfTest(): void {
         sets.push(new LightWeightSet<string>());
       }
       let res: void = undefined;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = sets[i].increaseCapacityTo(32);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_IncreaseCapacityTo_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'increaseCapacityTo',
         'increaseCapacityTo(minimumCapacity: int): void', arkTsAveragedTime);
@@ -302,13 +301,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res: string = lightWeightSet.toString();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.toString();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_ToString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -320,13 +319,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res: Array<string> = lightWeightSet.toArray();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.toArray();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_ToArray_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'toArray',
         'toArray(): Array<T>', arkTsAveragedTime);
@@ -338,13 +337,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res = lightWeightSet.values();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.values();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Values_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'values',
         'values(): IterableIterator<T>', arkTsAveragedTime);
@@ -356,13 +355,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res = lightWeightSet.entries();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.entries();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Entries_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'entries',
         'entries(): IterableIterator<[T, T]>', arkTsAveragedTime);
@@ -376,13 +375,13 @@ export default function LightWeightSetPerfTest(): void {
       let callback = (value: string, key: string, set: LightWeightSet<string>): void => {
       };
       let res: void = lightWeightSet.forEach(callback);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.forEach(callback);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', 'forEach',
         'forEach(callbackFn: LightWeightSetForEachCb<T>): void', arkTsAveragedTime);
@@ -394,13 +393,13 @@ export default function LightWeightSetPerfTest(): void {
       let lightWeightSet: LightWeightSet<string> = new LightWeightSet<string>();
       lightWeightSet.add('a');
       let res = lightWeightSet.$_iterator();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightSet.$_iterator();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightSet_Iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightSet', '$_iterator',
         '$_iterator(): IterableIterator<T>', arkTsAveragedTime);
