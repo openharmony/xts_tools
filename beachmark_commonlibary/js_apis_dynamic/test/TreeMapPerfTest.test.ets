@@ -29,7 +29,6 @@ declare class ArkTools {
 export default function TreeMapPerfTest(): void {
   describe('TreeMapPerfTest', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();

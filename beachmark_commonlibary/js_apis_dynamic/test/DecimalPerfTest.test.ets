@@ -36,6 +36,7 @@ declare class ArkTools {
 export default function DecimalPerfTest(): void {
   describe('DecimalPerfTest', () => {
     const BASE_COUNT = 100;
+    const BASE_COUNT_BIG = 50000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
@@ -794,7 +795,7 @@ export default function DecimalPerfTest(): void {
         let res: boolean = decimalObj.isFinite();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < BASE_COUNT_BIG; i++) {
           res = decimalObj.isFinite();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -814,7 +815,7 @@ export default function DecimalPerfTest(): void {
         let res: boolean = decimalObj.isInteger();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < BASE_COUNT_BIG; i++) {
           res = decimalObj.isInteger();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -834,7 +835,7 @@ export default function DecimalPerfTest(): void {
         let res: boolean = decimalObj.isNaN();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < BASE_COUNT_BIG; i++) {
           res = decimalObj.isNaN();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -854,7 +855,7 @@ export default function DecimalPerfTest(): void {
         let res: boolean = decimalObj.isNegative();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < BASE_COUNT_BIG; i++) {
           res = decimalObj.isNegative();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -874,7 +875,7 @@ export default function DecimalPerfTest(): void {
         let res: boolean = decimalObj.isPositive();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < BASE_COUNT_BIG; i++) {
           res = decimalObj.isPositive();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -894,7 +895,7 @@ export default function DecimalPerfTest(): void {
         let res: boolean = decimalObj.isZero();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < BASE_COUNT_BIG; i++) {
           res = decimalObj.isZero();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;

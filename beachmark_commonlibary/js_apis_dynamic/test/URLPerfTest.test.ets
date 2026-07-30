@@ -27,7 +27,6 @@ declare class ArkTools {
 export default function URLParamsTest(): void {
   describe('URLParamsTest', () => {
     const BASE_COUNT = 1000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();

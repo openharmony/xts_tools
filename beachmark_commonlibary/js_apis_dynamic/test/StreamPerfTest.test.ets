@@ -87,7 +87,7 @@ class PerfTransform extends stream.Transform {
 
 export default function StreamPerfTest(): void {
   describe('StreamPerfTest', () => {
-    const BASE_COUNT = 100;
+    const BASE_COUNT = 50000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
@@ -245,13 +245,13 @@ export default function StreamPerfTest(): void {
     it('PerformanceTest_Stream_Writable_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let writables: PerfWritable[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           writables.push(new PerfWritable());
         }
         let res: boolean = false;
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = writables[i].write('test', 'utf8');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -266,13 +266,13 @@ export default function StreamPerfTest(): void {
     it('PerformanceTest_Stream_Writable_End_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let writables: PerfWritable[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           writables.push(new PerfWritable());
         }
         let res: stream.Writable = writables[0];
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = writables[i].end('finish', 'utf8');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -557,7 +557,7 @@ export default function StreamPerfTest(): void {
     it('PerformanceTest_Stream_Readable_Read_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let readables: PerfReadable[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           let r = new PerfReadable();
           r.push('test');
           r.pause();
@@ -566,7 +566,7 @@ export default function StreamPerfTest(): void {
         let res: Object | null = null;
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = readables[i].read(4);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -653,14 +653,14 @@ export default function StreamPerfTest(): void {
     it('PerformanceTest_Stream_Readable_Pipe_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let readables: PerfReadable[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           readables.push(new PerfReadable());
         }
         let writable = new PerfWritable();
         let res: stream.Writable = writable;
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = readables[i].pipe(writable);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -676,7 +676,7 @@ export default function StreamPerfTest(): void {
       (done: Function) => {
         let readables: PerfReadable[] = [];
         let writable = new PerfWritable();
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           let r = new PerfReadable();
           r.pipe(writable);
           readables.push(r);
@@ -684,7 +684,7 @@ export default function StreamPerfTest(): void {
         let res: stream.Readable = readables[0];
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = readables[i].unpipe(writable);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -743,14 +743,14 @@ export default function StreamPerfTest(): void {
       (done: Function) => {
         let readables: PerfReadable[] = [];
         let cb = (data: Object): void => {};
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           let r = new PerfReadable();
           r.on('data', cb);
           readables.push(r);
         }
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           readables[i].off('data', cb);
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -910,13 +910,13 @@ export default function StreamPerfTest(): void {
     it('PerformanceTest_Stream_Duplex_Write_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let duplexes: PerfDuplex[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           duplexes.push(new PerfDuplex());
         }
         let res: boolean = false;
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = duplexes[i].write('test', 'utf8');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -931,13 +931,13 @@ export default function StreamPerfTest(): void {
     it('PerformanceTest_Stream_Duplex_End_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1,
       (done: Function) => {
         let duplexes: PerfDuplex[] = [];
-        for (let j = 0; j < BASE_COUNT; j++) {
+        for (let j = 0; j < 100; j++) {
           duplexes.push(new PerfDuplex());
         }
         let res: stream.Writable = new stream.Writable();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 100; i++) {
           res = duplexes[i].end('finish', 'utf8');
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
@@ -1018,7 +1018,7 @@ export default function StreamPerfTest(): void {
         let res: stream.Transform = new stream.Transform();
         let arkTsAveragedTime: number = 0;
         let Stime = systemDateTime.getTime(true);
-        for (let i = 0; i < BASE_COUNT; i++) {
+        for (let i = 0; i < 5000; i++) {
           res = new stream.Transform();
         }
         let Dtime = systemDateTime.getTime(true) - Stime;
