@@ -1145,6 +1145,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.cameraPicker.d.ts",
+            "bundle_name": [
+                "camera_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.buffer.d.ts",
             "bundle_name": [
                 "ets_utils"
@@ -3043,6 +3050,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.multimedia.camera.d.ts",
+            "bundle_name": [
+                "camera_framework"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.multimedia.camera.d.ts",
             "bundle_name": [
                 "camera_framework"
             ],
