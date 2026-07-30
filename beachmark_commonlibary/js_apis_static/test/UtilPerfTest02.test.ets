@@ -32,9 +32,6 @@ import { util } from '@kit.ArkTS';
 export default function UtilPerfTest02(): void {
   describe('UtilPerfTest02', () => {
     const BASE_COUNT = 1000;
-    const BASE_COUNT_BIG = 500000;
-    const UNIT_TIME = 1000000;
-
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -50,13 +47,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isArrayBufferView(new Int8Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isArrayBufferView(new Int8Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isArrayBufferView_0100: ' + arkTsAveragedTime + 'ns');
 
@@ -68,13 +65,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isArrayBuffer(new ArrayBuffer(0));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isArrayBuffer(new ArrayBuffer(0));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isArrayBuffer_0200: ' + arkTsAveragedTime + 'ns');
 
@@ -86,13 +83,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isAsyncFunction(async () => {});
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isAsyncFunction(async () => {});
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isAsyncFunction_0300: ' + arkTsAveragedTime + 'ns');
 
@@ -105,13 +102,13 @@ export default function UtilPerfTest02(): void {
       const ab = new ArrayBuffer(20);
       let res = type.isDataView(new DataView(ab));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isDataView(new DataView(new ArrayBuffer(20)));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isDataView_0400: ' + arkTsAveragedTime + 'ns');
 
@@ -123,13 +120,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isDate(new Date());
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isDate(new Date());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isDate_0500: ' + arkTsAveragedTime + 'ns');
 
@@ -141,13 +138,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isFloat32Array(new Float32Array());
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isFloat32Array(new Float32Array());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isFloat32Array_0600: ' + arkTsAveragedTime + 'ns');
 
@@ -159,13 +156,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isFloat64Array(new Float64Array());
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isFloat64Array(new Float64Array());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isFloat64Array_0700: ' + arkTsAveragedTime + 'ns');
 
@@ -177,13 +174,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isInt8Array(new Int8Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isInt8Array(new Int8Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isInt8Array_0800: ' + arkTsAveragedTime + 'ns');
 
@@ -195,13 +192,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isInt16Array(new Int16Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isInt16Array(new Int16Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isInt16Array_0900: ' + arkTsAveragedTime + 'ns');
 
@@ -213,13 +210,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isInt32Array(new Int32Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isInt32Array(new Int32Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isInt32Array_1000: ' + arkTsAveragedTime + 'ns');
 
@@ -231,13 +228,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let testMap = new Map<string, number>();
       let res = type.isMap(testMap);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isMap(testMap);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isMap_1100: ' + arkTsAveragedTime + 'ns');
 
@@ -250,13 +247,13 @@ export default function UtilPerfTest02(): void {
       const map: Map<int, int> = new Map<int, int>();
       let iterator = map.keys();
       let res = type.isMapIterator(iterator);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isMapIterator(map.keys());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isMapIterator_1200: ' + arkTsAveragedTime + 'ns');
 
@@ -268,13 +265,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isNativeError(new TypeError());
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isNativeError(new TypeError());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isNativeError_1300: ' + arkTsAveragedTime + 'ns');
 
@@ -286,13 +283,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isPromise(Promise.resolve(1));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isPromise(Promise.resolve(1));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isPromise_1400: ' + arkTsAveragedTime + 'ns');
 
@@ -304,13 +301,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isRegExp(new RegExp('abc'));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isRegExp(new RegExp('abc'));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isRegExp_1500: ' + arkTsAveragedTime + 'ns');
 
@@ -323,13 +320,13 @@ export default function UtilPerfTest02(): void {
       let set: Set<int> = new Set<int>();
       let res = type.isSet(set);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isSet(set);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isSet_1600: ' + arkTsAveragedTime + 'ns');
 
@@ -343,13 +340,13 @@ export default function UtilPerfTest02(): void {
       let iterator = set.keys();
       let res = type.isSetIterator(iterator);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isSetIterator(set.keys());
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isSetIterator_1700: ' + arkTsAveragedTime + 'ns');
 
@@ -361,13 +358,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isTypedArray(new Float64Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isTypedArray(new Float64Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isTypedArray_1800: ' + arkTsAveragedTime + 'ns');
 
@@ -379,13 +376,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isUint8Array(new Uint8Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isUint8Array(new Uint8Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint8Array_1900: ' + arkTsAveragedTime + 'ns');
 
@@ -397,13 +394,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isUint8ClampedArray(new Uint8ClampedArray([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isUint8ClampedArray(new Uint8ClampedArray([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint8ClampedArray_2000: ' + arkTsAveragedTime + 'ns');
 
@@ -415,13 +412,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isUint16Array(new Uint16Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isUint16Array(new Uint16Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint16Array_2100: ' + arkTsAveragedTime + 'ns');
 
@@ -433,13 +430,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isUint32Array(new Uint32Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isUint32Array(new Uint32Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isUint32Array_2200: ' + arkTsAveragedTime + 'ns');
 
@@ -452,13 +449,13 @@ export default function UtilPerfTest02(): void {
       let value: WeakMap<object, number> = new WeakMap<object, number>();
       let res = type.isWeakMap(value);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isWeakMap(value);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isWeakMap_2300: ' + arkTsAveragedTime + 'ns');
 
@@ -471,13 +468,13 @@ export default function UtilPerfTest02(): void {
       let weakSet: WeakSet<object> = new WeakSet<object>();
       let res = type.isWeakSet(weakSet);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isWeakSet(weakSet);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isWeakSet_2400: ' + arkTsAveragedTime + 'ns');
 
@@ -489,13 +486,13 @@ export default function UtilPerfTest02(): void {
       let type = new util.types();
       let res = type.isBigInt64Array(new BigInt64Array([]));
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = type.isBigInt64Array(new BigInt64Array([]));
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest02 arkTsAveragedTime UtilPerfTest02_boolean_isBigInt64Array_2500: ' + arkTsAveragedTime + 'ns');
 

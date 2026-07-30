@@ -32,7 +32,6 @@ import { transfer } from '@kit.ArkTS'
 export default function TransferPerfTest1_2(): void {
   describe('TransferPerfTest1_2', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -48,13 +47,13 @@ export default function TransferPerfTest1_2(): void {
     //it('PerformanceTest_Transfer_Static_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
     //  let input = new ArrayBuffer(8);
     //  let result: Object = new Object();
-    //  let Stime = new Date().getTime();
+    //  let Stime = Chrono.nanoNow();
     //  for (let i = 0; i < BASE_COUNT; i++) {
     //    result = transfer.transferStatic(input, 'InteropTransferHelper');
     //  }
-    //  let Dtime = new Date().getTime() - Stime;
+    //  let Dtime = Chrono.nanoNow() - Stime;
     //  let res1 = result;
-    //  let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //  let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
     //  console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Transfer_Static_0100: ' + arkTsAveragedTime + 'ns');
     //  performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'transfer', 'transferStatic',
     //    'transferStatic(input: Any, inputName: string): Object', arkTsAveragedTime);
@@ -63,13 +62,13 @@ export default function TransferPerfTest1_2(): void {
     it('PerformanceTest_Transfer_Dynamic_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let static_obj = new ArrayBuffer(8);
       let result: Any = undefined;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         result = transfer.transferDynamic(static_obj, 'InteropTransferHelper');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = result;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Transfer_Dynamic_0200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'transfer', 'transferDynamic',
         'transferDynamic(input: Object, inputName: string): Any', arkTsAveragedTime);

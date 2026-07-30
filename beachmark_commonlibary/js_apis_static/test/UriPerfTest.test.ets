@@ -32,8 +32,6 @@ import { uri } from '@kit.ArkTS';
 export default function UriPerfTest(): void {
   describe('UriTest', (): void => {
     const BASE_COUNT = 1000;
-    const BASE_COUNT_BIG = 500000;
-    const UNIT_TIME = 1000000;
 
     beforeEach((): void => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +47,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_checkIsAbsolute_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.checkIsAbsolute();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.checkIsAbsolute();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_checkIsAbsolute_0100: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'checkIsAbsolute',
@@ -65,13 +63,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_normalize_0200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/../file?foo=1&bar=2#fragment");
       let res = testUri.normalize();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.normalize();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_normalize_0200: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'normalize',
@@ -82,13 +80,13 @@ export default function UriPerfTest(): void {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let otherUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.equalsTo(otherUri);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.equalsTo(otherUri);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_boolean_equalsTo_0300: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'equalsTo',
@@ -98,13 +96,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_Object_getScheme_0400', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.scheme;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.scheme;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_Object_getScheme_0400: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'scheme',
@@ -114,13 +112,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_Object_getHost_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.host;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.host;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_Object_getHost_0500: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'host',
@@ -130,13 +128,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getPort_0600', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.port;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.port;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getPort_0600: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'port',
         'port: string', arkTsAveragedTime);
@@ -145,13 +143,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getPath_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.path;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.path;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getPath_0700: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'path',
@@ -161,13 +159,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getQuery_0800', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.query;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.query;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getQuery_0800: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'query',
@@ -177,13 +175,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getFragment_0900', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.fragment;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.fragment;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getFragment_0900: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'fragment',
@@ -193,13 +191,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getAuthority_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.authority;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.authority;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getAuthority_1000: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'authority',
@@ -209,13 +207,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getUserInfo_1100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.userInfo;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.userInfo;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getUserInfo_1100: ' + arkTsAveragedTime
         + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'userInfo',
@@ -225,13 +223,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getSSP_1200', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:password@host:8080/directory/file?foo=1&bar=2#fragment");
       let res = testUri.ssp;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.ssp;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getSSP_1200: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'ssp',
         'ssp: string', arkTsAveragedTime);
@@ -240,13 +238,13 @@ export default function UriPerfTest(): void {
     it('UriPerfTest_string_getEncodedUserInfo_1300', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let testUri = new uri.URI("https://username:my+name@host:8080/directory/my+file?foo=1&bar=2#fragment");
       let res = testUri.encodedUserInfo;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = testUri.encodedUserInfo;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsUriPerfTest arkTsAveragedTime UriPerfTest_string_getEncodedUserInfo_1300: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.uri', 'uri', 'encodedUserInfo',
