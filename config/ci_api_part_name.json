@@ -19980,6 +19980,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/multimedia/camera_framework",
+            "bundle_name": [
+                "camera_framework"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/multimedia/drm_framework",
             "bundle_name": [
                 "drm_framework"
