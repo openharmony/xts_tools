@@ -32,7 +32,6 @@ import performance from './Performance.util';
 export default function LightWeightMapPerfTest(): void {
   describe('LightWeightMapPerfTest', (): void => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +48,13 @@ export default function LightWeightMapPerfTest(): void {
 
     it('PerformanceTest_LightWeightMap_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: LightWeightMap<string, int> = new LightWeightMap<string, int>();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new LightWeightMap<string, int>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,13 +66,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res: int = lightWeightMap.length;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.length;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -84,13 +83,13 @@ export default function LightWeightMapPerfTest(): void {
     it('PerformanceTest_LightWeightMap_IsEmpty_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       let res: boolean = lightWeightMap.isEmpty();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.isEmpty();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -102,13 +101,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('testKey', 100);
       let res: boolean = lightWeightMap.hasKey('testKey');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.hasKey('testKey');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_HasKey_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'hasKey',
         'hasKey(key: K): boolean', arkTsAveragedTime);
@@ -120,13 +119,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('testKey', 200);
       let res: boolean = lightWeightMap.hasValue(200);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.hasValue(200);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_HasValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'hasValue',
         'hasValue(value: V): boolean', arkTsAveragedTime);
@@ -140,13 +139,13 @@ export default function LightWeightMapPerfTest(): void {
       let map2: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       map2.set('a', 1);
       let res: boolean = map1.hasAll(map2);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = map1.hasAll(map2);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_HasAll_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'hasAll',
         'hasAll(map: LightWeightMap<K, V>): boolean', arkTsAveragedTime);
@@ -158,13 +157,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('key', 300);
       let res: int = lightWeightMap.get('key')!;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.get('key')!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Get_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'get',
         'get(key: K): V', arkTsAveragedTime);
@@ -178,13 +177,13 @@ export default function LightWeightMapPerfTest(): void {
         maps.push(new LightWeightMap<string, int>());
       }
       let res: Object = maps[0].set('0', 0);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].set(i.toString(), i);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Set_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'set',
         'set(key: K, value: V): Object', arkTsAveragedTime);
@@ -200,13 +199,13 @@ export default function LightWeightMapPerfTest(): void {
         maps.push(m);
       }
       let res: int = 0;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].remove('k')!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Remove_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'remove',
         'remove(key: K): V', arkTsAveragedTime);
@@ -222,13 +221,13 @@ export default function LightWeightMapPerfTest(): void {
         maps.push(m);
       }
       let res: boolean = false;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].removeAt(0);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_RemoveAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'removeAt',
         'removeAt(index: int): boolean', arkTsAveragedTime);
@@ -244,13 +243,13 @@ export default function LightWeightMapPerfTest(): void {
         maps.push(m);
       }
       let res: void = maps[0].clear();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = maps[i].clear();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'clear',
         'clear(): void', arkTsAveragedTime);
@@ -267,13 +266,13 @@ export default function LightWeightMapPerfTest(): void {
         targets.push(new LightWeightMap<string, int>());
       }
       let res: void = targets[0].setAll(srcMap);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = targets[i].setAll(srcMap);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_SetAll_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'setAll',
         'setAll(map: LightWeightMap<K, V>): void', arkTsAveragedTime);
@@ -285,13 +284,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res: string = lightWeightMap.getKeyAt(0)!;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.getKeyAt(0)!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_GetKeyAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'getKeyAt',
         'getKeyAt(index: int): K', arkTsAveragedTime);
@@ -303,13 +302,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 10);
       let res: int = lightWeightMap.getValueAt(0)!;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.getValueAt(0)!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_GetValueAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'getValueAt',
         'getValueAt(index: int): V', arkTsAveragedTime);
@@ -325,13 +324,13 @@ export default function LightWeightMapPerfTest(): void {
         setMaps.push(m);
       }
       let res: boolean = setMaps[0].setValueAt(0, 20);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = setMaps[i].setValueAt(0, 20);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_SetValueAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'setValueAt',
         'setValueAt(index: int, value: V): boolean', arkTsAveragedTime);
@@ -343,13 +342,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('target', 55);
       let res: int = lightWeightMap.getIndexOfKey('target');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.getIndexOfKey('target');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_GetIndexOfKey_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'getIndexOfKey',
         'getIndexOfKey(key: K): int', arkTsAveragedTime);
@@ -361,13 +360,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 888);
       let res: int = lightWeightMap.getIndexOfValue(888);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.getIndexOfValue(888);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_GetIndexOfValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'getIndexOfValue',
         'getIndexOfValue(value: V): int', arkTsAveragedTime);
@@ -379,13 +378,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res: string = lightWeightMap.toString();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.toString();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_ToString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'toString',
         'toString(): string', arkTsAveragedTime);
@@ -401,13 +400,13 @@ export default function LightWeightMapPerfTest(): void {
       let callback = (value: int, key: string, map: LightWeightMap<string, int>): void => {
       };
       let res: void = lightWeightMap.forEach(callback);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.forEach(callback);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'forEach',
         'forEach(callbackFn: (value: V, key?: K, map?: LightWeightMap<K, V>) => void): void', arkTsAveragedTime);
@@ -419,13 +418,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res = lightWeightMap.$_iterator();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.$_iterator();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', '$_iterator',
         '$_iterator(): IterableIterator<[K, V]>', arkTsAveragedTime);
@@ -436,13 +435,13 @@ export default function LightWeightMapPerfTest(): void {
     it('PerformanceTest_LightWeightMap_IncreaseCapacityTo_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       let res: void = lightWeightMap.increaseCapacityTo(10);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.increaseCapacityTo(10);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_IncreaseCapacityTo_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'increaseCapacityTo',
         'increaseCapacityTo(minimumCapacity: int): void', arkTsAveragedTime);
@@ -454,13 +453,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res = lightWeightMap.keys();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.keys();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Keys_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'keys',
         'keys(): IterableIterator<K>', arkTsAveragedTime);
@@ -472,13 +471,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res = lightWeightMap.values();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.values();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Values_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'values',
         'values(): IterableIterator<V>', arkTsAveragedTime);
@@ -490,13 +489,13 @@ export default function LightWeightMapPerfTest(): void {
       let lightWeightMap: LightWeightMap<string, int> = new LightWeightMap<string, int>();
       lightWeightMap.set('a', 1);
       let res = lightWeightMap.entries();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = lightWeightMap.entries();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_LightWeightMap_Entries_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'LightWeightMap', 'entries',
         'entries(): IterableIterator<[K, V]>', arkTsAveragedTime);

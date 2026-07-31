@@ -32,7 +32,6 @@ import performance from './Performance.util';
 export default function DequePerfTest(): void {
   describe('DequePerfTest', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +48,13 @@ export default function DequePerfTest(): void {
 
     it('PerformanceTest_Deque_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: Deque<int> = new Deque<int>();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new Deque<int>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,13 +66,13 @@ export default function DequePerfTest(): void {
       let deque: Deque<int> = new Deque<int>();
       deque.insertEnd(1);
       let res: int = deque.length;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deque.length;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -86,12 +85,12 @@ export default function DequePerfTest(): void {
       for (let j = 0; j < BASE_COUNT; j++) {
         deques.push(new Deque<int>());
       }
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         deques[i].insertFront(i);
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_InsertFront_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'insertFront',
         'insertFront(element: T): void', arkTsAveragedTime);
@@ -104,12 +103,12 @@ export default function DequePerfTest(): void {
       for (let j = 0; j < BASE_COUNT; j++) {
         deques.push(new Deque<int>());
       }
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         deques[i].insertEnd(i);
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_InsertEnd_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'insertEnd',
         'insertEnd(element: T): void', arkTsAveragedTime);
@@ -121,13 +120,13 @@ export default function DequePerfTest(): void {
       let deque: Deque<int> = new Deque<int>();
       deque.insertFront(99);
       let res: boolean = deque.has(99);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deque.has(99);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Has_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'has',
         'has(element: T): boolean', arkTsAveragedTime);
@@ -143,13 +142,13 @@ export default function DequePerfTest(): void {
         deques.push(d);
       }
       let res: int = 0;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deques[i].popFirst();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_PopFirst_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'popFirst',
         'popFirst(): T', arkTsAveragedTime);
@@ -165,13 +164,13 @@ export default function DequePerfTest(): void {
         deques.push(d);
       }
       let res: int = 0;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deques[i].popLast();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_PopLast_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'popLast',
         'popLast(): T', arkTsAveragedTime);
@@ -183,13 +182,13 @@ export default function DequePerfTest(): void {
       let deque: Deque<int> = new Deque<int>();
       deque.insertEnd(10);
       let res: int = deque.getFirst();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deque.getFirst();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_GetFirst_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'getFirst',
         'getFirst(): T', arkTsAveragedTime);
@@ -201,13 +200,13 @@ export default function DequePerfTest(): void {
       let deque: Deque<int> = new Deque<int>();
       deque.insertEnd(20);
       let res: int = deque.getLast();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deque.getLast();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_GetLast_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'getLast',
         'getLast(): T', arkTsAveragedTime);
@@ -222,12 +221,12 @@ export default function DequePerfTest(): void {
       }
       let callback: DequeForEachCb<int> = (value: int, index: int, dequeObj: Deque<int>): void => {
       };
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         deque.forEach(callback);
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', 'forEach',
         'forEach(callbackFn: DequeForEachCb<T>): void', arkTsAveragedTime);
@@ -240,13 +239,13 @@ export default function DequePerfTest(): void {
       deque.insertEnd(5);
       deque.insertEnd(10);
       let res: int = deque[1];
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deque[1];
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_IndexAccess_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', '[index]',
         '[index: int]: T', arkTsAveragedTime);
@@ -258,13 +257,13 @@ export default function DequePerfTest(): void {
       let deque: Deque<int> = new Deque<int>();
       deque.insertEnd(1);
       let res = deque.$_iterator();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = deque.$_iterator();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_Deque_Iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'Deque', '$_iterator',
         '$_iterator(): IterableIterator<T>', arkTsAveragedTime);

@@ -33,8 +33,6 @@ import { TreeSetComparator } from '@kit.ArkTS'
 export default function TreeSetPerfTest(): void {
   describe('TreeSetTest', () => {
     const BASE_COUNT = 50000;
-    const BASE_COUNT_BIG = 500000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -50,13 +48,13 @@ export default function TreeSetPerfTest(): void {
     it('TreeSetPerfTest_Constructor_Default_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       // 修复：统一使用 string 类型
       let res: TreeSet<string> = new TreeSet<string>()
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new TreeSet<string>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_Constructor_Default_0100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'constructor',
@@ -71,13 +69,13 @@ export default function TreeSetPerfTest(): void {
         treeSets.push(new TreeSet<string>());
       }
       let res = treeSets[0].add("a");
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSets[i].add("b");
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_Object_Add_0500: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'add',
@@ -88,13 +86,13 @@ export default function TreeSetPerfTest(): void {
       let treeSet = new TreeSet<string>();
       treeSet.add("a");
       let res = treeSet.has("a");
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.has("a");
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_Object_Has_0600: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'has',
@@ -109,13 +107,13 @@ export default function TreeSetPerfTest(): void {
         treeSets.push(s);
       }
       let res = treeSets[0].remove("a");
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSets[i].remove("a");
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_Object_Remove_0700: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'remove',
@@ -128,13 +126,13 @@ export default function TreeSetPerfTest(): void {
       treeSet.add("b");
       treeSet.add("c");
       let res = treeSet.values();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.values();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_Object_Values_0900: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'values',
@@ -144,13 +142,13 @@ export default function TreeSetPerfTest(): void {
     it('TreeSetPerfTest_boolean_isEmpty_1000', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let treeSet: TreeSet<string> = new TreeSet<string>();
       let res: boolean = false;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.isEmpty();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_boolean_isEmpty_1000: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'isEmpty',
@@ -168,13 +166,13 @@ export default function TreeSetPerfTest(): void {
       treeSet.add("apple");
       treeSet.add("zebra");
       let res: string | undefined = treeSet.getFirstValue();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.getFirstValue();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_T_getFirstValue_1700: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'getFirstValue',
@@ -190,13 +188,13 @@ export default function TreeSetPerfTest(): void {
       treeSet.add("apple");
       treeSet.add("zebra");
       let res: string | undefined = treeSet.getLastValue();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.getLastValue();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_T_getLastValue_2100: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'getLastValue',
@@ -217,13 +215,13 @@ export default function TreeSetPerfTest(): void {
       treeSet.add("sparrow");
       treeSet.add("gander");
       let res: string | undefined = treeSet.getLowerValue("sparrow");
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.getLowerValue("sparrow");
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_T_getLowerValue_3500: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'getLowerValue',
@@ -242,13 +240,13 @@ export default function TreeSetPerfTest(): void {
       treeSet.add("sparrow");
       treeSet.add("gander");
       let res: string | undefined = treeSet.getHigherValue("sparrow");
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.getHigherValue("sparrow");
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_T_getHigherValue_4500: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'getHigherValue',
@@ -268,13 +266,13 @@ export default function TreeSetPerfTest(): void {
     //  }
     //  treeSet.add(BASE_COUNT + 2)
     //  let res: number | undefined = treeSet.popFirst();
-    //  let Stime = new Date().getTime();
+    //  let Stime = Chrono.nanoNow();
     //  for (let i = 0; i < BASE_COUNT; i++) {
     //    res = treeSet.popFirst();
     //  }
-    //  let Dtime = new Date().getTime() - Stime;
+    //  let Dtime = Chrono.nanoNow() - Stime;
     //  let res1 = res;
-    //  let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //  let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
     //  console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_T_popFirst_5500: '
     //    + arkTsAveragedTime + 'ns');
     //  performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'popFirst',
@@ -288,13 +286,13 @@ export default function TreeSetPerfTest(): void {
     //  }
     //  treeSet.add(BASE_COUNT)
     //  let res: number | undefined = treeSet.popLast();
-    //  let Stime = new Date().getTime();
+    //  let Stime = Chrono.nanoNow();
     //  for (let i = 0; i < BASE_COUNT; i++) {
     //    res = treeSet.popLast();
     //  }
-    //  let Dtime = new Date().getTime() - Stime;
+    //  let Dtime = Chrono.nanoNow() - Stime;
     //  let res1 = res;
-    //  let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+    //  let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
     //  console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_T_popLast_5600: '
     //    + arkTsAveragedTime + 'ns');
     //  performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'popLast',
@@ -310,13 +308,13 @@ export default function TreeSetPerfTest(): void {
         treeSets.push(s);
       }
       let res = treeSets[0].clear()
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSets[i].clear();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_void_clear_5700: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'clear',
@@ -330,13 +328,13 @@ export default function TreeSetPerfTest(): void {
       let treeSetCb: TreeSetForEachCb<string> = (value: string, key: string, set: TreeSet<string>): void => {
       };
       let res = treeSet.forEach(treeSetCb)
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = treeSet.forEach(treeSetCb);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsTreeSetPerfTest arkTsAveragedTime TreeSetPerfTest_void_forEach_5900: '
         + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('std.treeset', 'TreeSet', 'forEach',

@@ -26,7 +26,7 @@ declare class ArkTools {
 
 export default function ConvertXmlPerfTest(): void {
   describe('ConvertXmlPerfTest', () => {
-    const BASE_COUNT = 5000;
+    const BASE_COUNT = 50000;
     const xml =
       '<?xml version="1.0" encoding="utf-8"?>' +
       '<note importance="high" logged="true">' +

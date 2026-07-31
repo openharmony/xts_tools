@@ -28,7 +28,6 @@ declare class ArkTools {
 export default function VectorPerfTest(): void {
   describe('VectorPerfTest', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();

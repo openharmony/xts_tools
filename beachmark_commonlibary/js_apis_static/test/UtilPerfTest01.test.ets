@@ -63,9 +63,6 @@ class Temperature implements util.ScopeComparable<Temperature> {
 export default function UtilPerfTest01(): void {
   describe('UtilPerfTest01', (): void => {
     const BASE_COUNT = 1000;
-    const BASE_COUNT_BIG = 500000;
-    const UNIT_TIME = 1000000;
-
     beforeEach((): void => {
       let ret = GC.startGC(GC.Cause.FULL, true);
       GC.waitForFinishGC(ret);
@@ -82,13 +79,13 @@ export default function UtilPerfTest01(): void {
       let age = 20;
       let res = util.format('My name is %s and I am %s years old', name, age);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.format('My name is %s and I am %s years old', name, age);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_string_format_0100: ' + arkTsAveragedTime + 'ns');
 
@@ -100,13 +97,13 @@ export default function UtilPerfTest01(): void {
       let errnum = -1;
       let res = util.errnoToString(errnum);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.errnoToString(errnum);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_string_errnoToString_0200: ' + arkTsAveragedTime +
         'ns');
@@ -121,13 +118,13 @@ export default function UtilPerfTest01(): void {
       }
       let res = util.callbackWrapper(fn);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.callbackWrapper(fn);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Function_callbackWrapper_0300: ' +
         arkTsAveragedTime + 'ns');
@@ -142,13 +139,13 @@ export default function UtilPerfTest01(): void {
       };
       let res = util.promisify(func);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.promisify(func);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Function_promisify_0400: ' + arkTsAveragedTime +
         'ns');
@@ -160,13 +157,13 @@ export default function UtilPerfTest01(): void {
     it('UtilPerfTest01_string_generateRandomUUID_0500', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res = util.generateRandomUUID(true);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.generateRandomUUID(true);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_string_generateRandomUUID_0500: ' +
         arkTsAveragedTime + 'ns');
@@ -179,13 +176,13 @@ export default function UtilPerfTest01(): void {
       (): void => {
       let res = util.generateRandomBinaryUUID(true);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.generateRandomBinaryUUID(true);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Uint8Array_generateRandomBinaryUUID_0600: ' +
         arkTsAveragedTime + 'ns');
@@ -197,13 +194,13 @@ export default function UtilPerfTest01(): void {
     it('UtilPerfTest01_Uint8Array_parseUUID_0700', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, (): void => {
       let res = util.parseUUID("84bdf796-66cc-4655-9b89-d6218d100f9c");
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.parseUUID("84bdf796-66cc-4655-9b89-d6218d100f9c");
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_Uint8Array_parseUUID_0700: ' + arkTsAveragedTime
         + 'ns');
@@ -216,13 +213,13 @@ export default function UtilPerfTest01(): void {
       let obj: Person = { name: 'Jack', age: 20 };
       let res = util.getHash(obj);
 
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = util.getHash(obj);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
 
       console.info('arkTsUtilPerfTest01 arkTsAveragedTime UtilPerfTest01_number_getHash_0800: ' + arkTsAveragedTime + 'ns');
 

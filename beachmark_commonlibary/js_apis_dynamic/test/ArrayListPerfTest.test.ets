@@ -27,7 +27,6 @@ declare class ArkTools {
 export default function ArrayListPerfTest(): void {
   describe('ArrayListPerfTest', () => {
     const BASE_COUNT = 50000;
-    const BASE_COUNT_BIG = 500000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();

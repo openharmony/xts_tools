@@ -51,7 +51,6 @@ class Temperature implements util.ScopeComparable {
 export default function UtilPerfTest02(): void {
   describe('UtilPerfTest02', () => {
     const BASE_COUNT = 1000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();

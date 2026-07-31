@@ -31,7 +31,6 @@ declare class ArkTools {
 export default function UtilPerfTest01(): void {
   describe('UtilPerfTest01', () => {
     const BASE_COUNT = 1000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();

@@ -32,7 +32,6 @@ import performance from './Performance.util';
 export default function PlainArrayPerfTest(): void {
   describe('PlainArrayPerfTest', () => {
     const BASE_COUNT = 50000;
-    const UNIT_TIME = 1000000;
 
     beforeEach(() => {
       let ret = GC.startGC(GC.Cause.FULL, true);
@@ -49,13 +48,13 @@ export default function PlainArrayPerfTest(): void {
 
     it('PerformanceTest_PlainArray_Constructor_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let res: PlainArray<string> = new PlainArray<string>();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = new PlainArray<string>();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Constructor_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'constructor',
         'constructor()', arkTsAveragedTime);
@@ -67,13 +66,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: int = plainArray.length;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.length;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Length_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'length',
         'get length(): int', arkTsAveragedTime);
@@ -84,13 +83,13 @@ export default function PlainArrayPerfTest(): void {
     it('PerformanceTest_PlainArray_IsEmpty_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       let res: boolean = plainArray.isEmpty();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.isEmpty();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_IsEmpty_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'isEmpty',
         'isEmpty(): boolean', arkTsAveragedTime);
@@ -102,13 +101,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: boolean = plainArray.has(1);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.has(1);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Has_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'has',
         'has(key: int): boolean', arkTsAveragedTime);
@@ -120,13 +119,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: string = plainArray.get(1)!;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.get(1)!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Get_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'get',
         'get(key: int): T | undefined', arkTsAveragedTime);
@@ -138,13 +137,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: int = plainArray.getIndexOfKey(1);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.getIndexOfKey(1);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetIndexOfKey_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getIndexOfKey',
         'getIndexOfKey(key: int): int', arkTsAveragedTime);
@@ -156,13 +155,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: int = plainArray.getIndexOfValue('test');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.getIndexOfValue('test');
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetIndexOfValue_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getIndexOfValue',
         'getIndexOfValue(value: T): int', arkTsAveragedTime);
@@ -174,13 +173,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: int = plainArray.getKeyAt(0);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.getKeyAt(0);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetKeyAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getKeyAt',
         'getKeyAt(index: int): int', arkTsAveragedTime);
@@ -192,13 +191,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: string = plainArray.getValueAt(0);
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.getValueAt(0);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_GetValueAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'getValueAt',
         'getValueAt(index: int): T', arkTsAveragedTime);
@@ -210,13 +209,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res: PlainArray<string> = plainArray.clone();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.clone();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Clone_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'clone',
         'clone(): PlainArray<T>', arkTsAveragedTime);
@@ -230,12 +229,12 @@ export default function PlainArrayPerfTest(): void {
         arrays.push(new PlainArray<string>());
       }
       arrays[0].add(0, 'v');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         arrays[i].add(i, 'v');
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Add_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'add',
         'add(key: int, value: T): void', arkTsAveragedTime);
@@ -251,13 +250,13 @@ export default function PlainArrayPerfTest(): void {
         arrays.push(p);
       }
       let res: string = '';
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arrays[i].remove(0)!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Remove_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'remove',
         'remove(key: int): T | undefined', arkTsAveragedTime);
@@ -273,13 +272,13 @@ export default function PlainArrayPerfTest(): void {
         arrays.push(p);
       }
       let res: string = '';
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arrays[i].removeAt(0)!;
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_RemoveAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'removeAt',
         'removeAt(index: int): T | undefined', arkTsAveragedTime);
@@ -295,13 +294,13 @@ export default function PlainArrayPerfTest(): void {
         arrays.push(p);
       }
       let res: int = 0;
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = arrays[i].removeRangeFrom(0, 1);
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_RemoveRangeFrom_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'removeRangeFrom',
         'removeRangeFrom(index: int, size: int): int', arkTsAveragedTime);
@@ -312,12 +311,12 @@ export default function PlainArrayPerfTest(): void {
     it('PerformanceTest_PlainArray_SetValueAt_0100', TestType.FUNCTION | Size.MEDIUMTEST | Level.LEVEL1, () => {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         plainArray.setValueAt(0, i.toString());
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_SetValueAt_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'setValueAt',
         'setValueAt(index: int, value: T): void', arkTsAveragedTime);
@@ -329,13 +328,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res = plainArray.toString();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.toString();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_ToString_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'toString',
         'toString(): String', arkTsAveragedTime);
@@ -350,13 +349,13 @@ export default function PlainArrayPerfTest(): void {
         p.add(1, 'test');
         arrays.push(p);
       }
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         arrays[i].clear();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = arrays[0];
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Clear_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'clear',
         'clear(): void', arkTsAveragedTime);
@@ -369,12 +368,12 @@ export default function PlainArrayPerfTest(): void {
       plainArray.add(1, 'test');
       let callback = (value: string, key: int, pa: PlainArray<string>): void => {
       };
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         plainArray.forEach(callback);
       }
-      let Dtime = new Date().getTime() - Stime;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let Dtime = Chrono.nanoNow() - Stime;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_ForEach_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', 'forEach',
         'forEach(callbackfn: PlainArrayForEachCb<T>): void', arkTsAveragedTime);
@@ -386,13 +385,13 @@ export default function PlainArrayPerfTest(): void {
       let plainArray: PlainArray<string> = new PlainArray<string>();
       plainArray.add(1, 'test');
       let res = plainArray.$_iterator();
-      let Stime = new Date().getTime();
+      let Stime = Chrono.nanoNow();
       for (let i = 0; i < BASE_COUNT; i++) {
         res = plainArray.$_iterator();
       }
-      let Dtime = new Date().getTime() - Stime;
+      let Dtime = Chrono.nanoNow() - Stime;
       let res1 = res;
-      let arkTsAveragedTime = Dtime.toDouble() * UNIT_TIME / BASE_COUNT;
+      let arkTsAveragedTime = Dtime.toDouble() / BASE_COUNT;
       console.info('arkTsPerformanceTest arkTsAveragedTime PerformanceTest_PlainArray_Iterator_0100: ' + arkTsAveragedTime + 'ns');
       performance.apiWithClassAndKeywordTxt('kit.ArkTS', 'PlainArray', '$_iterator',
         '$_iterator(): IterableIterator<[int, T]>', arkTsAveragedTime);

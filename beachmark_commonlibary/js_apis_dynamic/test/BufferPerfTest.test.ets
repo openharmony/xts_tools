@@ -27,7 +27,7 @@ declare class ArkTools {
 export default function BufferPerfTest(): void {
   describe('BufferPerfTest', () => {
     // Buffer operations allocate memory per iteration; 500 avoids OOM on batch pre-create
-    const BASE_COUNT = 500;
+    const BASE_COUNT = 1000;
 
     beforeEach(() => {
       ArkTools.forceFullGC();
