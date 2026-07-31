@@ -134,6 +134,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.components.SelectionContainer.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/SelectionContainerModifier.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9727,6 +9734,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/styledString.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/gridItem.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9846,6 +9860,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/hyperlink.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/animator.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9895,6 +9916,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/textInput.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/scroll_bar.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -9938,6 +9966,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/textCommon.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/textCommon.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10113,6 +10148,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/marquee.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/marquee.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10504,6 +10546,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/symbolSpan.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@internal/component/ets/navigator.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -10617,6 +10666,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/textArea.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/textArea.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -10904,6 +10960,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/span.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/span.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -16895,6 +16958,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/containerSpan.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/contentSlot.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -17190,6 +17260,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/imageSpan.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/imageSpan.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -17889,6 +17966,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/search.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/securityComponent.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -18001,6 +18085,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/styledString.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/arkui/component/swiper.static.d.ets",
             "bundle_name": [
                 "ace_engine"
@@ -18016,6 +18107,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/symbolglyph.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/symbolglyph.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -18058,6 +18156,13 @@
         },
         {
             "path": "interface/sdk-js/api/arkui/component/text.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/arkui/component/text.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
