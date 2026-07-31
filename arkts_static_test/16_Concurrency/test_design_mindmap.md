@@ -1,0 +1,346 @@
+# 16 Concurrency — Test Design Mindmap
+
+- Concurrency
+  - compile-pass
+  - compile-fail
+  - runtime
+  - boundary
+  - negative diagnostics
+  - classic concurrency scenarios
+  - API integration
+
+## Subtopics
+
+- 16.1_Execution_Model
+  - job definition (main job, worker thread, suspension point)
+  - worker thread abstraction (1:1 with OS threads)
+  - parallel vs asynchronous execution (same vs different worker threads)
+  - job body: starting point and completion point
+  - suspension points (pause and resume, local state preserved)
+  - main job as implicit program entry point
+  - program termination on main job completion
+  - shared memory model between all jobs
+  - data races from unsynchronized shared access
+- 16.2_Overview_of_Concurrency_Features
+  - async / await / Promise primitives
+  - Parallel Execution API (launch, EAWorker, Taskpool)
+  - Synchronization API (locks, atomics)
+  - API details and restrictions section reference
+- 16.3_Asynchronous_Execution
+  - normal cases
+  - edge cases
+  - error cases
+- 16.3.1_Asynchronous_Functions
+  - async function declaration with async modifier
+  - async function returns Promise<T>
+  - async modifier not part of function type (type system perspective)
+  - async main entry point supported
+  - first suspension returns pending Promise immediately
+  - runtime creates suspendable job at first suspension
+  - second+ suspension schedules another job per scheduling rules
+  - normal completion resolves Promise with return value
+  - error completion rejects Promise with thrown error
+  - async function can explicitly return Promise<T> instance (returned as-is)
+  - async function can return T value (auto-boxed into Promise<T>)
+  - argumentless return allowed when T is void/undefined
+  - async function with zero suspension points defines no additional jobs
+  - compile-error: async function called in static initialization
+  - compile-error: async function with abstract modifier
+  - compile-error: async function with native modifier
+  - compile-error: async function return type other than Promise
+  - compile-error: non-async function with suspension points
+  - compile-pass: async function with Promise<void> return
+  - compile-pass: async function with inferred return type
+  - compile-pass: async function in normal calling context
+  - compile-pass: async function returning Promise<T> explicitly
+  - runtime: async function returns Promise, then resolves with value
+  - runtime: async function throws, Promise rejects with error
+  - runtime: multiple suspension points in one async function
+- 16.3.2_Asynchronous_Lambdas
+  - async modifier on lambda expressions
+  - async lambda follows same semantics as async functions
+  - async lambda in trailing lambda syntax
+  - compile-pass: async lambda declaration and invocation
+  - compile-pass: async lambda as function argument
+  - runtime: async lambda execution with suspension
+  - runtime: async lambda returns Promise value
+  - edge: async lambda with no suspension points
+- 16.3.3_Asynchronous_Methods
+  - async modifier on static class methods
+  - async modifier on instance class methods
+  - async methods follow same semantics as async functions
+  - compile-pass: async instance method declaration
+  - compile-pass: async static method declaration
+  - compile-pass: async method in class inheritance
+  - runtime: async method invocation chain
+  - runtime: async method with await inside
+  - boundary: async method overriding (return type covariance with Promise)
+- 16.3.4_await_Expression
+  - await expression syntax: 'await' expression
+  - expression argument type: Any
+  - result type: Awaited<type(expression)>
+  - await on Promise subtype: suspends until resolved/rejected
+  - await on resolved Promise: value becomes await result
+  - await on rejected Promise: throws rejection error
+  - await on non-Promise type: returns value directly, no suspension
+  - example: await g() where g returns Promise<Object>, v1 is Object
+  - example: await new Int(5) where Int is non-Promise, no suspension, v2 is Int
+  - example: await optional chain with Promise|undefined, conditional suspension
+  - suspended job can be moved to another worker thread on resumption
+  - compile-error: await outside async function/method/lambda body
+  - compile-pass: await on Promise<T> in async function
+  - compile-pass: await on non-Promise value in async function
+  - compile-pass: await on union type (Promise|T)
+  - runtime: await suspends execution until Promise resolves
+  - runtime: await non-Promise returns immediately
+  - runtime: await rejected Promise throws
+  - runtime: await on optional Promise chain (?.)
+  - boundary: deeply nested await expressions
+  - boundary: await in loop (multiple sequential suspensions)
+- 16.3.5_Promise_Class
+  - Promise states: pending, resolved, rejected
+  - pending: value not yet known
+  - resolved: fulfilled with defined value
+  - rejected: contains error instance
+  - only way to get value: await expression on Promise
+  - Promise safe for concurrent access (exceptions in §16.6)
+  - compile-pass: Promise creation with constructor
+  - compile-pass: Promise.resolve() / Promise.reject()
+  - runtime: Promise transitions from pending to resolved
+  - runtime: Promise transitions from pending to rejected
+  - runtime: Promise.resolve value matches awaited result
+  - runtime: Promise.reject error caught by await
+  - boundary: Promise never resolved (pending forever)
+  - boundary: Promise resolved multiple times (only first takes effect)
+  - boundary: then/catch/finally callback registration
+  - cross-section: Promise with launch API
+  - cross-section: Promise with Taskpool API
+- 16.4_Parallel_Execution
+  - normal cases
+  - edge cases
+  - error cases
+- 16.4.1_Parallel_Execution_API
+  - launch API: primary parallel execution API
+  - EAWorker API: dedicated worker threads
+  - Taskpool API: structured concurrency framework
+  - orthogonal to async execution (async funcs can run in parallel)
+  - suspendable job can change worker thread on resumption
+- 16.4.2_launch_API
+  - launch API: primary parallel execution API
+  - launches provided lambda as new job
+  - default: least busy worker thread chosen
+  - returns Promise resolved when lambda completes
+  - full explicit form: launch<T>(async () => { ... })
+  - inferred form: launch async { ... }
+  - launch allowed in non-async functions too
+  - launch with async lambda can be rescheduled on resumption
+  - compile-pass: launch with synchronous lambda
+  - compile-pass: launch with async lambda
+  - compile-pass: launch with type parameter specification
+  - compile-pass: launch in non-async function
+  - compile-pass: launch with trailing lambda syntax
+  - runtime: launch executes lambda on another worker thread
+  - runtime: launch returns Promise that resolves with return value
+  - runtime: await launch result on caller worker thread
+  - runtime: launch async lambda with suspension points
+  - edge: launch with void lambda (fire-and-forget)
+  - edge: launch with lambda that throws (Promise rejection)
+  - API: launch parameter customization (domain, group, etc.)
+- 16.4.3_EAWorker_API
+  - EAWorker: dedicated worker thread for exclusive use
+  - initial job and all spawned jobs stay on that worker thread
+  - no other job can be scheduled to this worker thread
+  - designed for UI frameworks and similar use cases
+  - standard library API (reference documentation)
+- 16.4.4_Taskpool_API
+  - structured concurrency framework
+  - create jobs with dependencies between them
+  - cancel spawned jobs
+  - combine jobs in groups
+  - complex execution order selection
+  - suspendable jobs NOT rescheduled to another worker thread
+  - standard library API (reference documentation)
+- 16.5_Synchronization
+  - normal cases
+  - edge cases
+  - error cases
+- 16.5.1_Asynchronous_Lock
+  - AsyncLock class: protects shared data from concurrent access
+  - designed for isolated callback pattern (lockAsync callback)
+  - lockAsync<T>(callback, mode): request execution under lock
+  - two access levels: exclusive and shared
+  - exclusive: no other request satisfied until callback finishes
+  - shared: concurrent requests allowed, exclusive requests wait
+  - lockAsync returns Promise that resolves after callback completes
+  - can be safely requested concurrently by same or different jobs
+  - abort existing request for callback execution
+  - query status of existing locks
+  - timeout for lock acquire request
+  - deadlock detection hints
+  - example: SharedState class with checkAndModify
+  - example: two modification sequences with suspension points
+  - example: lock prevents interleaving and data races
+  - compile-pass: AsyncLock declaration
+  - compile-pass: lockAsync with exclusive mode
+  - compile-pass: lockAsync with shared mode
+  - compile-pass: lockAsync with async callback
+  - runtime: exclusive lock prevents interleaved execution
+  - runtime: shared lock allows concurrent readers
+  - runtime: lock with suspension point maintains critical section
+  - runtime: two lockAsync operations on same lock are sequential
+  - boundary: timeout on lock acquisition
+  - boundary: abort lock request
+  - boundary: deadlock detection
+  - API: AsyncLockMode.EXCLUSIVE vs shared
+- 16.5.2_Asynchronous_Mutex
+  - AsyncMutex class: decoupled lock/unlock operations
+  - designed for use with condition variable
+  - designed when callback isolation is inconvenient
+  - await lock.lock() to acquire (await is mandatory)
+  - lock.unlock() to release
+  - code between lock() and unlock() is critical section
+  - no other job can acquire lock until unlock() called
+  - safe across same or different worker threads
+  - double locking (deadlock) is developer's responsibility
+  - deadlock avoidance is developer's responsibility
+  - example: SharedState protected by AsyncMutex
+  - example: two async functions with interleaved suspension
+  - compile-pass: AsyncMutex declaration
+  - compile-pass: lock() and unlock() calls
+  - runtime: mutex prevents interleaved critical section access
+  - runtime: await lock() suspends until lock acquired
+  - runtime: unlock() releases for next waiter
+  - boundary: double lock from same job (deadlock)
+  - boundary: unlock without lock (error)
+  - boundary: unlock called but lock never awaited
+- 16.5.3_Asynchronous_ReadWrite_Lock
+  - AsyncRWLock class: read/write lock
+  - decoupled lock/unlock operations
+  - readers: concurrent access allowed between readers
+  - writers: exclusive access (no readers or other writers)
+  - designed when callback isolation inconvenient
+  - designed when read vs write distinction matters
+  - standard library API (reference documentation)
+  - compile-pass: AsyncRWLock declaration
+  - runtime: multiple readers can acquire concurrently
+  - runtime: writer waits for all readers to release
+  - runtime: readers wait for writer to release
+  - boundary: read-to-write upgrade (if supported)
+- 16.5.4_Asynchronous_Condition_Variable
+  - AsyncCondVar class: condition variable for shared data
+  - requires AsyncMutex paired with it
+  - cv.wait(mutex): unlock mutex, wait for notification, relock
+  - await cv.wait(m) is mandatory (returns Promise)
+  - cv.notifyOne(mutex): notify one waiter
+  - cv.notifyAll(mutex): notify all waiters
+  - typical pattern: while(condition) { await cv.wait(m); }
+  - example: flag-based notification (job A sets flag, job B waits)
+  - example: critical section with condition check
+  - compile-pass: AsyncCondVar declaration with AsyncMutex
+  - compile-pass: wait() and notifyOne() calls
+  - runtime: condition variable wait blocks until notify
+  - runtime: notifyOne wakes exactly one waiter
+  - runtime: notifyAll wakes all waiters
+  - runtime: spurious wakeup handled by while loop
+  - boundary: wait with no corresponding notify (timeout)
+  - boundary: notifyOne with no waiters (no-op)
+- 16.5.5_Atomic_Operations
+  - standard library atomic classes
+  - lock-free data structures and algorithms
+  - compare-and-swap operations
+  - spinlock construction
+  - complex lock-free containers
+  - standard library API (reference documentation)
+  - compile-pass: atomic variable declaration
+  - runtime: atomic read-modify-write operations
+  - runtime: compare-and-swap atomicity
+  - runtime: atomics across worker threads
+- 16.5.6_Additional_Entities
+  - thread-safe concurrent containers
+  - worker thread-local data APIs
+  - other helper synchronization classes
+  - standard library API (reference documentation)
+- 16.6_API_Details_and_Restrictions
+  - normal cases
+  - edge cases
+  - error cases
+- 16.6.1_launch_API_Details
+  - worker thread ID: unique number per thread
+  - worker thread domain: named filtering criteria
+  - notable domains: main, exclusive
+  - worker thread group: immutable set of worker threads
+  - group definition via domain or explicit ID list
+  - group specified in launch parameters
+  - job assigned to worker thread from group
+  - rescheduling stays within same group
+  - worker thread IDs may become invalid (threads created/deleted)
+  - API handles invalid IDs (ignore, error, or return value)
+  - compile-pass: launch with domain parameter
+  - compile-pass: launch with group parameter
+  - compile-pass: launch with worker thread ID
+  - runtime: launch on main domain
+  - runtime: launch on exclusive worker thread
+  - boundary: invalid worker thread ID handling
+- 16.6.2_Using_the_Async_API
+  - calling async function from non-async context
+  - requires converting caller to async (chain of conversions)
+  - chain can continue up to program entry point
+  - async entry point function supported
+  - compile-pass: async main entry point
+  - compile-pass: async function called from async main
+  - compile-pass: chained async calls
+  - runtime: async main execution flow
+- 16.6.3_Promise_Class_API
+  - Promise safe to await across worker threads
+  - .then(callback): register resolution callback
+  - .catch(callback): register rejection callback
+  - .finally(callback): register finalization callback
+  - callback runs as separate job on registering worker thread
+  - same-thread callbacks: execution order matches registration order
+  - cross-thread callbacks: order defined per thread, no global order
+  - compile-pass: .then() callback registration
+  - compile-pass: .catch() callback registration
+  - compile-pass: .finally() callback registration
+  - compile-pass: chained .then().catch().finally()
+  - runtime: .then() callback called after Promise resolved
+  - runtime: .catch() callback called after Promise rejected
+  - runtime: .finally() callback called regardless of outcome
+  - runtime: callback order matches registration on same thread
+  - boundary: .then() returning new Promise (chaining)
+  - boundary: .then() with no arguments
+  - boundary: callback throws error
+- 16.6.4_Unhandled_Rejected_Promises
+  - rejected Promise is unhandled if no await and no .then()/.catch()
+  - timing evaluated per worker thread
+  - Promise may be unhandled on one thread but handled on another
+  - unhandled rejection behavior (TBD, design not final)
+  - runtime: Promise rejected with no handler (unhandled)
+  - runtime: Promise rejected but caught by .catch() (handled)
+  - runtime: Promise rejected but awaited (handled)
+  - boundary: cross-thread unhandled detection
+- 16.6.5_Error_Handling_Policy
+  - all errors should be handled or considered uncaught
+  - uncaught error initiates program termination
+  - job abnormal completion rejects corresponding Promise
+  - rejection prevents error from being uncaught
+  - unhandleable cases: runtime-created job with no Promise
+  - unhandleable case: main job throws error
+  - these cases result in uncaught error
+  - compile-pass: async function with try/catch around await
+  - runtime: rejected Promise caught by try/catch
+  - runtime: async function throw results in Promise rejection
+  - runtime: main job throw results in uncaught error
+  - boundary: nested error propagation
+- (经典并发场景用例已分发至 16.5.1 Asynchronous Lock)
+  - Producer_Consumer → 16.5.1
+  - ATM Withdrawal → 16.5.1
+  - Deadlock Detection → 16.5.1
+  - Dining Philosophers → 16.5.1
+  - Race Condition → 16.5.1
+  - Bank Transfer → 16.5.1
+- (用例已分发至各子章节)
+  - async + launch → 16.4.2 launch API
+  - async + synchronization → 16.5.1 Asynchronous Lock
+  - launch + synchronization → 16.5.1 Asynchronous Lock
+  - async main + multiple jobs → 16.6.2 Using Async API
+  - Promise then/catch chain → 16.6.3 Promise Class API
