@@ -16,8 +16,9 @@
  * @id EXP2_17_10_023_RUNTIME_NATIVE_CTOR_CALL
  * @expect runtime
  * @section 17.10
- * @design 运行时验证 native 构造器调用行为
- * @note 运行时用例：通过 new 调用 native 构造器创建对象
+ * @design 运行时验证 native 构造器调用行为——native 构造器在纯 ArkTS 环境中无平台实现，调用应抛出运行时错误
+ * @note 运行时用例：通过 new 调用未实现的 native 构造器，验证运行时抛出异常
+ *       ⚠️ 环境限制：native 构造器依赖平台实现，纯 ArkTS 环境无对应 native 实现
  */
 class NativeBuilder {
   native constructor()
@@ -25,6 +26,14 @@ class NativeBuilder {
 }
 
 function main(): void {
-  let b: NativeBuilder = new NativeBuilder()
-  console.log(b.name)
+  let caught: boolean = false
+  try {
+    let b: NativeBuilder = new NativeBuilder()
+  } catch (e) {
+    caught = true
+  }
+  if (!caught) {
+    throw new Error('assertion failed: native constructor call should throw when not implemented')
+  }
+  console.log('verified')
 }

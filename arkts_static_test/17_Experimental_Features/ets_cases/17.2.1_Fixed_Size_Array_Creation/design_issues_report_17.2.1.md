@@ -2,7 +2,7 @@
 
 **报告日期：** 2026-06-25
 **测试用例数：** 14（7 compile-pass + 4 compile-fail + 3 runtime）
-**通过率：** 92.9%（13/14，1 个 cf_bad 异常通过）
+**通过率：** 86.7%（13/15，2 个异常通过）
 **编译器：** es2panda + ark VM (Linux native)
 **Spec 依据：** arktsspecification.md §17.2.1
 
@@ -157,6 +157,7 @@ let a = new FixedArray<int>(3.14, 0)   // ❌ ESE0236: Type 'Double' cannot be u
 | 条目 | 描述 | 状态 |
 |------|------|------|
 | Q-17.2.1-01 | EXP2_17_02_01_012_FAIL_WRONG_ARG_COUNT cf_bad：构造函数参数个数校验缺失是否为编译器已知局限，还是 spec 允许可变参数 | 待确认 |
+| Q-17.2.1-02 | EXP2_17_02_01_022_RUNTIME_OUT_OF_BOUNDS：运行时用例受 D-17.2-01 影响，负索引编译期被 ESE0247 拒绝 | 归入 D-17.2-01 |
 
 ---
 

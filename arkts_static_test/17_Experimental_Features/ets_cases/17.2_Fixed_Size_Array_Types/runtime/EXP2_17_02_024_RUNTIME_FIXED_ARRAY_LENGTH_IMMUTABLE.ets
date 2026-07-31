@@ -18,6 +18,8 @@
  * @section 17.2
  * @design FixedArray length 属性不可重新赋值
  * @note 运行时用例：验证 FixedArray 的 length 属性赋值后不改变数组长度和元素
+ *       ⚠️ SPEC 不一致：编译器 ESE0024 在编译期拒绝 length 赋值，实现比 spec 更严格
+ *       分类：D 类（Spec 与实现不一致）
  */
 function main(): void {
     let arr: Fixedint[] = [7, 8, 9];

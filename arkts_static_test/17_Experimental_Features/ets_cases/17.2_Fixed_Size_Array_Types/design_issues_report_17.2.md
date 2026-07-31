@@ -2,7 +2,7 @@
 
 **报告日期：** 2026-06-23
 **测试用例数：** 17（7 compile-pass + 5 compile-fail + 5 runtime）
-**通过率：** 82.4%（14/17，3 个受 Spec 不一致影响）
+**通过率：** 70.6%（12/17，5 个受 Spec 不一致影响：D-17.2-01×2 + D-17.2-02 + D-17.2.1-01 + 跨章节）
 **编译器：** es2panda + ark VM (Linux native)
 **Spec 依据：** arktsspecification.md §17.2
 

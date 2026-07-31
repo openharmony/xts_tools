@@ -16,10 +16,10 @@
  * @id EXP2_17_13_011_COMPILE_FAIL_RECEIVER_PRIMITIVE
  * @expect compile-fail
  * @section 17.13
- * @design 验证原始类型作 receiver——应报编译错误
- * @note 反向用例（负向看护）：spec §17.13 receiver 类型只能为 class/interface/array，
- * 原始类型(int)应报 compile-time error；es2panda 当前编译通过（unexpected-pass），
- * 属编译器未实现检查。差异见 issue_report
+ * @design 原始类型 int 不能作为接收者类型——spec 要求 receiver 类型只能为 class/interface/array，原始类型应产生编译时错误
+ * @note 反向用例：spec 要求原始类型不能作为接收者类型，但 ArkTS 实际编译通过
+ *       ⚠️ SPEC 不一致：spec §17.13 要求 receiver 类型只能为 class/interface/array，原始类型 int 应报错，实现允许通过
+ *       分类：D 类（Spec 与实现不一致）
  */
 function broken(this: int): void {}
 

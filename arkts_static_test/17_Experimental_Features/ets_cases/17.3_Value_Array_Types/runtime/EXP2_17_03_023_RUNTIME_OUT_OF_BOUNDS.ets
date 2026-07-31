@@ -18,6 +18,8 @@
  * @section 17.3
  * @design 运行时验证 ValueArray 越界索引访问的行为（应抛出异常或返回 undefined）
  * @note 运行时用例：实际执行验证越界访问的运行时行为
+ *       ⚠️ SPEC 不一致：编译器 ESE0247 在编译期拒绝负索引常量（a[-1]），实现比 spec 更严格
+ *       分类：D 类（Spec 与实现不一致）
  */
 function main(): void {
   let a: Valueint[] = [1, 2, 3]

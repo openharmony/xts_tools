@@ -1,8 +1,8 @@
 # 17.4 Resizable Array Creation Expressions - ArkTS 与 Java/Swift/TS 行为差异及规范一致性报告
 
 **报告日期：** 2026-06-25
-**测试用例数：** 19（8 compile-pass + 7 compile-fail + 4 runtime）
-**通过率：** 94.7%（18/19，1 个 cf_bad 异常通过）
+**测试用例数：** 21（9 compile-pass + 7 compile-fail + 5 runtime）
+**通过率：** 85.7%（18/21，3 个异常：1 个 D 类 cf_bad + 2 个 C 类编译失败）
 **编译器：** es2panda + ark VM (Linux native)
 **Spec 依据：** arktsspecification.md §17.4
 
@@ -171,8 +171,8 @@ let g = new int[-3](0)         // ❌ 负常量维度，ESE0247 + ESE708183
 | 元素类型支持 | number/int/string/double/boolean/联合/函数 | 全部类型 | 全部类型 | 全部类型 |
 | 联合类型数组 | 支持 | 不支持 | 部分支持 | 支持 |
 | 维度类型检查 | 编译期严格 (int, 非负) | 编译期严格 | 编译期严格 | 运行时 |
-| 编译验证 | 18/19 通过 (1 cf_bad) | javac | swiftc | tsc |
-| Spec 一致性 | 1 处不一致（T 元素类型） | 一致 | 一致 | N/A |
+| 编译验证 | ⚠️ 18/21 通过（1 cf_bad + 2 函数类型数组 ESE0127） | javac | swiftc | tsc |
+| Spec 一致性 | ⚠️ 2 处不一致（T 元素类型 + 函数类型数组） | 一致 | 一致 | N/A |
 
 ---
 

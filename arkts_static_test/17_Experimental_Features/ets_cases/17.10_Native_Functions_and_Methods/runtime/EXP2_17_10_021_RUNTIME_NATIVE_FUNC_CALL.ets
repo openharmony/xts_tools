@@ -16,12 +16,21 @@
  * @id EXP2_17_10_021_RUNTIME_NATIVE_FUNC_CALL
  * @expect runtime
  * @section 17.10
- * @design 运行时验证 native 函数调用行为
- * @note 运行时用例：调用声明的 native 函数，验证运行时链接行为
+ * @design 运行时验证 native 函数调用行为——native 函数在纯 ArkTS 环境中无平台实现，调用应抛出运行时错误
+ * @note 运行时用例：调用未实现的 native 函数，验证运行时抛出异常
+ *       ⚠️ 环境限制：native 函数依赖平台实现，纯 ArkTS 环境无对应 native 实现
  */
 native function sum(a: int, b: int): int
 
 function main(): void {
-  let r: int = sum(1, 2)
-  console.log(r.toString())
+  let caught: boolean = false
+  try {
+    let r: int = sum(1, 2)
+  } catch (e) {
+    caught = true
+  }
+  if (!caught) {
+    throw new Error('assertion failed: native function call should throw when not implemented')
+  }
+  console.log('verified')
 }

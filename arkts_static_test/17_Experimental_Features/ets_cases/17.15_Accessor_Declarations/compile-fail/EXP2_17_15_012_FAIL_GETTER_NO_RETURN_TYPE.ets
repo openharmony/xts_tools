@@ -16,8 +16,10 @@
  * @id EXP2_17_15_012_FAIL_GETTER_NO_RETURN_TYPE
  * @expect compile-fail
  * @section 17.15
- * @design GETTER_NO_RETURN_TYPE
- * @note spec: missing CTE check
+ * @design getter 声明必须显式指定返回类型或可从 getter 体中推断，缺少返回类型的 getter 应产生编译时错误
+ * @note 反向用例：spec 要求 getter 必须指定返回类型，但 ArkTS 实际编译通过
+ *       ⚠️ SPEC 不一致：spec 要求 getter 缺少返回类型时报错，实现允许通过
+ *       分类：D 类（Spec 与实现不一致）
  */
 class C012 {
     get val() { return 1 }

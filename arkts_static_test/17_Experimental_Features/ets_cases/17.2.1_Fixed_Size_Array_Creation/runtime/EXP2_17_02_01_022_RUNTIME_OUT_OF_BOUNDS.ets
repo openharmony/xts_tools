@@ -18,6 +18,8 @@
  * @section 17.2.1
  * @design 运行时验证 FixedArray 越界下标访问抛出运行时错误
  * @note 运行时用例：数组长度为 3，访问 a[3] 应抛出运行时错误（out of bounds）
+ *       ⚠️ SPEC 不一致：编译器 ESE0247 在编译期拒绝负索引常量（a[-1]），比 spec 更严格
+ *       分类：D 类（Spec 与实现不一致）
  */
 function main(): void {
   let a: Fixedint[] = new Fixedint[](3, 1)
