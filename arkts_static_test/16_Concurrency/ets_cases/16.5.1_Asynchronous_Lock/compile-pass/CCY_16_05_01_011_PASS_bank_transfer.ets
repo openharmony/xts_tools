@@ -33,7 +33,8 @@ async function transfer(amount: number): Promise<void> {
                 balanceB += amount;
                 console.info('Transferred ' + amount);
   } else {
-    console.info('Insufficient balance');}
+        console.info('Insufficient balance');
+            }
         });
     });
 }

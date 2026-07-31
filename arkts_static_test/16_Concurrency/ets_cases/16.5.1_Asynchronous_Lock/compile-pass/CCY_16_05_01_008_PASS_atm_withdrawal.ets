@@ -31,7 +31,8 @@ async function withdraw(amount: number): Promise<boolean> {
             return true;
   } else {
     console.info('Insufficient funds for ' + amount);
-            return false;}
+            return false;
+        }
     });
 }
 

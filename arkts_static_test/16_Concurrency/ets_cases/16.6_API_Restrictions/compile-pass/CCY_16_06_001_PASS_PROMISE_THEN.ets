@@ -24,6 +24,6 @@ function main(): void {
         resolve(42);
     });
     p.then((v: number): void => {
-        console.log("" + v);
+        console.log('' + v);
     });
 }

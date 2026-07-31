@@ -36,7 +36,8 @@ async function transfer(
             to.balance += amount;
             console.info('Transferred ' + amount);
   } else {
-    console.info('Insufficient balance');}
+    console.info('Insufficient balance');
+        }
     } finally {
         to.lock.unlock();
         from.lock.unlock();

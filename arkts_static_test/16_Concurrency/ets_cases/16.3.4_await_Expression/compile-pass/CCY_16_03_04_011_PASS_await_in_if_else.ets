@@ -23,5 +23,6 @@ async function conditional(flag: boolean): Promise<number> {
     if (flag) {
     return await Promise.resolve(1);
   } else {
-    return await Promise.resolve(0);}
+    return await Promise.resolve(0);
+    }
 }

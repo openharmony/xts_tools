@@ -3,7 +3,7 @@
 ## Identified Issues
 
 ### 1. Stdlib Dependency (Atomic Operations)
-- **Issue**: Atomic Operations relies on the underlying standard library (libc/libstdc++/libc++).
+- **Issue**: Atomic Operations relies on the underlying standard library (libc/libstdc++/C++ standard library).
 - **Status**: The platform's stdlib implementation may not yet provide stable async-aware atomic operations primitives.
 - **Impact**: Tests validate only declaration/compile-time behavior. Runtime behavior cannot be verified without stdlib support.
 

@@ -24,5 +24,5 @@ async function fetchValue(): Promise<number> {
 }
 async function main(): Promise<void> {
     let v: number = await fetchValue();
-    console.log("" + v);
+    console.log('' + v);
 }

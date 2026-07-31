@@ -2,7 +2,7 @@
 
 ## 概览
 
-AsyncLock 为 ArkTS 中的异步代码提供互斥访问，允许同一时间只有一个协程访问临界区。Java 使用`java.util.concurrent.locks`中的`ReentrantLock`进行基于线程的互斥；Swift 提供`NSLock`和`os_unfair_lock`用于阻塞锁，并以 Actor 隔离作为首选的并发控制机制。
+AsyncLock 为 ArkTS 中的异步代码提供互斥访问，允许同一时间只有一个协程访问临界区。Java 使用`java.util.concurrent.locks`中的`ReentrantLock`进行基于线程的互斥；Swift 提供`NSLock`和`os_unfair_lock`用于阻塞锁，并以 Actor 隔离作为推荐的并发控制机制。
 
 ## 章节对应关系
 
