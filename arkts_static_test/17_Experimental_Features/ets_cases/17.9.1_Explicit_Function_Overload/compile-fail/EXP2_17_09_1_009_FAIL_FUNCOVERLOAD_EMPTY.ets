@@ -16,9 +16,10 @@
  * @id EXP2_17_09_1_009_FAIL_FUNCOVERLOAD_EMPTY
  * @expect compile-fail
  * @section 17.9.1
- * @design overload 声明的函数列表不能为空
- * @note 反向用例：空重载列表
- * @note ⚠️ SPEC 不一致：编译器实际允许空 overload 列表，此处标记为 FAIL
+ * @design overload 声明的函数列表不能为空——显式 overload 声明中必须至少包含一个函数，空 overload 列表应产生编译时错误
+ * @note 反向用例：spec 要求 overload 列表不能为空，但 ArkTS 实际编译通过
+ *       ⚠️ SPEC 不一致：spec 要求至少一个函数在 overload 列表中，实现允许空 overload 列表通过
+ *       分类：D 类（Spec 与实现不一致）
  */
 function fInt(a: int): int { return a }
 overload empty { }

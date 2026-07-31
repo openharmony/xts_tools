@@ -18,6 +18,8 @@
  * @section 17.4
  * @design 函数类型数组创建：type Functor = () => void; new Functor[3]((): void => {}) 创建函数类型数组
  * @note 正向用例：验证函数类型（通过顶层 type alias）作为数组元素类型编译通过
+ *       ⚠️ SPEC 不一致：编译器 ESE0127 拒绝函数类型数组创建，实现暂不支持
+ *       分类：C 类（编译器实现问题）
  */
 type Functor = () => void
 

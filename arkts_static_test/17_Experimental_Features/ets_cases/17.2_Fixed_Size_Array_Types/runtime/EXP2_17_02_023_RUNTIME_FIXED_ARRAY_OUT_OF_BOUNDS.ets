@@ -18,6 +18,8 @@
  * @section 17.2
  * @design FixedArray 越界访问抛出错误
  * @note 运行时用例：验证索引越界访问（>= length 或 < 0）抛出运行时错误
+ *       ⚠️ SPEC 不一致：编译器 ESE0247 在编译期拒绝负索引常量（a[-1]），实现比 spec 更严格
+ *       分类：D 类（Spec 与实现不一致）
  */
 function main(): void {
     let arr: Fixedint[] = [1, 2, 3];

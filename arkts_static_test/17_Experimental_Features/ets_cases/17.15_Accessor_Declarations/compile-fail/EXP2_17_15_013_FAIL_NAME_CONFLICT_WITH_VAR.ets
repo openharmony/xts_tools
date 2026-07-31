@@ -16,8 +16,10 @@
  * @id EXP2_17_15_013_FAIL_NAME_CONFLICT_WITH_VAR
  * @expect compile-fail
  * @section 17.15
- * @design NAME_CONFLICT_WITH_VAR
- * @note spec: missing CTE check
+ * @design getter 名称与同一作用域内变量名冲突应产生编译时错误——同一作用域内 getter/setter 名称不可与变量名重复
+ * @note 反向用例：spec 要求 getter 名与外部变量冲突时报错，但 ArkTS 实际编译通过
+ *       ⚠️ SPEC 不一致：spec 要求名称冲突产生编译错误，实现允许通过
+ *       分类：D 类（Spec 与实现不一致）
  */
 let name: int = 1
 class C013 {

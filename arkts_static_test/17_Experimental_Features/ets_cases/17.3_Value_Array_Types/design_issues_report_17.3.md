@@ -2,7 +2,7 @@
 
 **报告日期：** 2026-06-25
 **测试用例数：** 19（10 compile-pass + 5 compile-fail + 4 runtime）
-**通过率：** 100%（19/19）
+**通过率：** 94.7%（18/19，1例受 D-17.2-01 影响）
 **编译器：** es2panda + ark VM (Linux native)
 **Spec 依据：** arktsspecification.md §17.3
 
@@ -129,19 +129,30 @@ ValueArray 不是泛型容器类型，不能使用类型参数 T。必须使用�
 | 非值类型拒绝 | ESE1547180 编译期拒绝 | N/A | N/A | N/A |
 | 数组协变 | 禁止 | 支持（协变） | 支持（值语义安全） | 支持 |
 | 泛型数组 | ValueArray 不支持泛型 T | 部分支持 | 完全支持 | 完全支持 |
-| 编译验证 | 19/19 全部通过 | javac | swiftc | tsc |
-| Spec 一致性 | 与 spec 完全一致 | JLS 一致 | 一致 | N/A |
+| 编译验证 | ⚠️ 18/19 通过（1例受 D-17.2-01 影响） | javac | swiftc | tsc |
+| Spec 一致性 | ⚠️ 1 处受 D-17.2-01 影响（负索引编译期拒绝） | JLS 一致 | 一致 | N/A |
 
 ---
 
-## 四、分类汇总
+## 四、Spec 与实现不一致（跨章节引用）
+
+### 问题 D-17.2-01：编译期拒绝负索引常量
+
+**复现用例：** EXP2_17_03_023_RUNTIME_OUT_OF_BOUNDS
+
+详见 [17.2 Fixed-Size Array Types 设计问题报告](../17.2_Fixed_Size_Array_Types/design_issues_report_17.2.md#问题-d-17.2-01编译器在编译期拒绝负索引常量)。
+
+---
+
+## 五、分类汇总
 
 | 条目 | 分类 |
 |------|------|
 | 差异 A：ValueArray 仅接受值类型 — ArkTS 独有约束 | 符合 ArkTS spec 的语言设计差异 |
 | 差异 B：ValueArray 不协变 | 符合 ArkTS spec 的语言设计差异 |
 | 差异 C：ValueArray 非泛型 — 不支持类型参数 T | 符合 ArkTS spec 的语言设计差异 |
-| 已验证规范一致行为 | 19 项全部通过 |
+| D-17.2-01：编译期拒绝负索引常量（跨章节引用） | Spec 与实现不一致 |
+| 已验证规范一致行为 | 18 项通过 |
 
 ---
 

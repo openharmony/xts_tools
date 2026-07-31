@@ -17,7 +17,9 @@
  * @expect compile-fail
  * @section 17.2.1
  * @design FixedArray 构造函数参数数量错误：构造函数 constructor(len: int, elem: T) 要求恰好两个参数，传参不足或超出应产生编译时错误
- * @note 反向用例：验证该场景应产生编译时错误。构造函数需要 (int, T) 两个参数
+ * @note 反向用例：spec 要求参数数量不匹配时报错，但 ArkTS 实际编译通过
+ *       ⚠️ SPEC 不一致：spec 要求 FixedArray 构造函数恰好两个参数，实现允许参数数量不匹配通过
+ *       分类：D 类（Spec 与实现不一致）
  */
 function testWrongArgCount(): void {
   let a = new Fixedstring[](3)

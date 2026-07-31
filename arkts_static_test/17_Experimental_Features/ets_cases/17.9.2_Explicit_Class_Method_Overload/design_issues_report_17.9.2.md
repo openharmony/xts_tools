@@ -2,7 +2,7 @@
 
 **报告日期：** 2026-06-25
 **测试用例数：** 18（8 compile-pass + 7 compile-fail + 3 runtime）
-**通过率：** 100%（18/18，0例异常）
+**通过率：** 94.7%（18/19，1例异常通过）
 **编译器：** es2panda --extension=ets (Linux native)
 **运行时：** ark VM
 **Spec 依据：** arktsspecification.md §17.9.2
@@ -83,9 +83,38 @@ Java 中方法重写是隐式的（`@Override` 注解可选），不涉及重载
 
 ---
 
-## 二、已验证规范一致行为
+## 二、Spec 与实现不一致
 
-经 es2panda + ark VM 实测，以下行为与 ArkTS spec §17.9.2 一致：
+### 问题 D-17.9.2-01：Overload 引用父类 private 方法编译通过
+
+**类别：** D 类（Spec 与实现不一致）
+**复现用例：** EXP2_17_09_2_017_FAIL_INACCESSIBLE_METHOD
+
+**Spec 规则：** Overload 声明中引用的方法必须对当前作用域可访问，引用父类 private 方法应产生编译时错误。
+
+**实测行为：**
+```typescript
+class C017 {
+  private foo(x: int): void {}
+}
+class D017 extends C017 {
+  foo(x: int): void {}
+  overload foo {foo}  // 预期编译错误：foo 引用父类 private 方法，实际通过
+}
+```
+
+**跨语言对比：**
+| 语言 | 重载可访问性检查 |
+|------|----------------|
+| ArkTS | ⚠️ 未检查（cf_bad） |
+| Java | 编译期检查访问修饰符（private 方法不可见） |
+| Swift | override 检查可见性 |
+
+**建议：** 编译器应检查 overload 列表中方法的访问修饰符，拒绝引用不可访问的方法。
+
+---
+
+## 三、已验证规范一致行为
 
 | 行为 | 验证方式 | 结果 |
 |------|---------|------|
@@ -110,19 +139,20 @@ Java 中方法重写是隐式的（`@Override` 注解可选），不涉及重载
 
 ---
 
-## 三、跨语言对比摘要
+## 四、跨语言对比摘要
 
 | 维度 | ArkTS | Java | Swift | TypeScript |
 |------|-------|------|-------|-----------|
-| 编译验证 | ✅ es2panda — 18/18 通过 | ✅ javac | ✅ swiftc | ✅ tsc |
+| 编译验证 | ⚠️ es2panda — 18/19 通过（1 cf_bad） | ✅ javac | ✅ swiftc | ✅ tsc |
 | 运行时验证 | ✅ ark VM — 3/3 通过 | ✅ JVM | ✅ Swift Runtime | ✅ Node |
-| Spec 一致性 | ✅ 与 spec §17.9.2 完全一致 | ✅ JLS §8.4.9 | ✅ Swift (Methods) | ✅ TS spec |
+| Spec 一致性 | ⚠️ 1 处不一致（父类 private 方法引用） | ✅ JLS §8.4.9 | ✅ Swift (Methods) | ✅ TS spec |
 | 重载方法同名要求 | ❌ 可以不同名 | ✅ 必须同名 | ✅ 必须同名 | ✅ 必须同名 |
 | 修饰符一致性检查 | ✅ 编译期强制 | ❌ 无约束 | ❌ 无约束 | ❌ 无约束 |
+| Overload 可访问性检查 | ⚠️ 未实现 | ✅ 编译期检查 | ✅ 可见性检查 | ✅ 编译期检查 |
 
 ---
 
-## 四、分类汇总
+## 五、分类汇总
 
 | 条目 | 分类 |
 |------|------|
@@ -130,11 +160,12 @@ Java 中方法重写是隐式的（`@Override` 注解可选），不涉及重载
 | 差异 B：static/instance/async 编译期约束 | 符合 ArkTS spec 的语言设计差异 |
 | 差异 C：访问修饰符传播规则 | 符合 ArkTS spec 的语言设计差异 |
 | 差异 D：子类 override 机制 | 符合 ArkTS spec 的语言设计差异 |
+| D-17.9.2-01：Overload 引用父类 private 方法编译通过 | Spec 与实现不一致 |
 | 已验证规范一致行为 | 18 项全部通过 |
 
 ---
 
-## 五、关联记录
+## 六、关联记录
 
 - 章节级异常汇总：[issue_report.md](../../issue_report.md)
 - 测试执行报告：[test_report_17.9.2.md](test_report_17.9.2.md)

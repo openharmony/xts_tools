@@ -16,8 +16,10 @@
  * @id EXP2_17_09_2_017_FAIL_INACCESSIBLE_METHOD
  * @expect compile-fail
  * @section 17.9.2
- * @design INACCESSIBLE_METHOD
- * @note spec: missing CTE check
+ * @design overload 声明引用了父类的 private 方法应产生编译时错误——子类 overload 列表不可引用父类不可访问的方法
+ * @note 反向用例：spec 要求 overload 引用不可访问方法时报错，但 ArkTS 实际编译通过
+ *       ⚠️ SPEC 不一致：spec 要求不可访问的父类方法在 overload 中引用产生编译错误，实现允许通过
+ *       分类：D 类（Spec 与实现不一致）
  */
 class C017 {
     private foo(x: int): void {}
