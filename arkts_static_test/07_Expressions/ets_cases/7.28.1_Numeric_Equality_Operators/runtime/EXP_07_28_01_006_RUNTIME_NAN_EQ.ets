@@ -22,9 +22,11 @@
  */
 function main(): void {
   let nan: double = 0.0 / 0.0
-  if (nan == nan) { throw new Error('assertion failed: NaN == NaN should be false')
+  if (nan == nan) {
+    throw new Error('assertion failed: NaN == NaN should be false')
   }
-  if (!(nan != nan)) { throw new Error('assertion failed: NaN != NaN should be true')
+  if (!(nan != nan)) {
+    throw new Error('assertion failed: NaN != NaN should be true')
   }
 console.log('verified')
 }

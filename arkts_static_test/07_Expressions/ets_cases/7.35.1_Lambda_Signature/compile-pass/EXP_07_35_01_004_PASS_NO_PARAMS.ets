@@ -38,15 +38,20 @@ function main(): void {
   let r4: double = j()
   let r5: int = k()
 
-  if (r1 != 42) { throw new Error('FAIL: f()')
-}
-  if (r2 != 'hello') { throw new Error('FAIL: g()')
-}
-  if (r3 != true) { throw new Error('FAIL: h()')
-}
-  if (r4 != 3.14) { throw new Error('FAIL: j()')
-}
-  if (r5 != 99) { throw new Error('FAIL: k()')
-}
+  if (r1 != 42) {
+    throw new Error('FAIL: f()')
+  }
+  if (r2 != 'hello') {
+    throw new Error('FAIL: g()')
+  }
+  if (r3 != true) {
+    throw new Error('FAIL: h()')
+  }
+  if (r4 != 3.14) {
+    throw new Error('FAIL: j()')
+  }
+  if (r5 != 99) {
+    throw new Error('FAIL: k()')
+  }
 console.log('verified')
 }

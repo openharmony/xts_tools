@@ -21,10 +21,13 @@
  */
 
 function main(): void {
-  let posInf: double = 1.0 / 0.0; let negInf: double = -1.0 / 0.0
-  if (!(negInf < posInf)) { throw new Error('assertion failed')
-}
-  if (!(posInf > 0.0)) { throw new Error('assertion failed')
-}
+  let posInf: double = 1.0 / 0.0
+  let negInf: double = -1.0 / 0.0
+  if (!(negInf < posInf)) {
+    throw new Error('assertion failed')
+  }
+  if (!(posInf > 0.0)) {
+    throw new Error('assertion failed')
+  }
 console.log('verified')
 }

@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let a: double = 1.0/3.0; let b: double = a
-  if (a != b) { throw new Error('assertion: same ref')
-}
+  let a: double = 1.0/3.0
+  let b: double = a
+  if (a != b) {
+    throw new Error('assertion: same ref')
+  }
 console.log('verified')
 }

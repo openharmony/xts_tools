@@ -24,13 +24,16 @@ let bitwiseEval: boolean = false
 function checkEval(): boolean { bitwiseEval = true; return true }
 function main(): void {
   let r1: boolean = true | checkEval()
-  if (!bitwiseEval) { throw new Error('assertion: | should evaluate both sides')
-}
+  if (!bitwiseEval) {
+    throw new Error('assertion: | should evaluate both sides')
+  }
   bitwiseEval = false
   let r2: boolean = true || checkEval()
-  if (bitwiseEval) { throw new Error('assertion: || should short-circuit')
-}
-  if (r1 != r2) { throw new Error('assertion: | and || should produce same result on booleans')
-}
+  if (bitwiseEval) {
+    throw new Error('assertion: || should short-circuit')
+  }
+  if (r1 != r2) {
+    throw new Error('assertion: | and || should produce same result on booleans')
+  }
 console.log('verified')
 }

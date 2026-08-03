@@ -16,7 +16,8 @@
  * @id EXP_07_30_004_FAIL_COND_AND_NUMERIC_MIXED
  * @expect compile-fail
  * @section 7.30
- * @design 验证 && 操作数与 int/float/long 等数值类型混合时应产生编译时错误，覆盖 3 种混合场景：boolean && numeric、numeric && boolean、numeric && numeric
+ * @design 验证 && 操作数与 int/float/long 等数值类型混合时应产生编译时错误，覆盖 3 种混合场景：
+ *         boolean && numeric、numeric && boolean、numeric && numeric
  * @note 反向用例：boolean && int/float/long 混合类型应产生编译期错误
  */
 function main(): void {

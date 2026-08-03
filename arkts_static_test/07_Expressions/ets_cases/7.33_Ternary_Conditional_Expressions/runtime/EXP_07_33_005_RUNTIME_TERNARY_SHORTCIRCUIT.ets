@@ -26,9 +26,11 @@ function falseBranch(): int { sideEffectCalls++; return 2 }
 function main(): void {
   let condition: boolean = true
   let result: int = condition ? trueBranch() : falseBranch()
-  if (sideEffectCalls != 1) { throw new Error('assertion: only one branch evaluated')
-}
-  if (result != 1) { throw new Error('assertion: true branch should be 1')
-}
+  if (sideEffectCalls != 1) {
+    throw new Error('assertion: only one branch evaluated')
+  }
+  if (result != 1) {
+    throw new Error('assertion: true branch should be 1')
+  }
 console.log('verified')
 }

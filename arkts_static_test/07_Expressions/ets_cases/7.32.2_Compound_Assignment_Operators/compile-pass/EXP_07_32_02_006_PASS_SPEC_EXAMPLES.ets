@@ -32,29 +32,29 @@ type K = 'a' | 'b';
 function main(): void {
   // === 变量复合赋值 ===
   let a: int = 10;
-  a += 5;     // a = 15
-  a -= 3;     // a = 12
-  a *= 2;     // a = 24
-  a /= 4;     // a = 6
-  a %= 5;     // a = 1
+  a += 5;
+  a -= 3;
+  a *= 2;
+  a /= 4;
+  a %= 5;
 
   let b: int = 16;
-  b <<= 2;    // b = 64
-  b >>= 1;    // b = 32
-  b >>>= 1;   // b = 16
+  b <<= 2;
+  b >>= 1;
+  b >>>= 1;
 
   let c: int = 0xFF;
-  c &= 0x0F;  // c = 0x0F
-  c |= 0xF0;  // c = 0xFF
-  c ^= 0xAA;  // c = 0x55
+  c &= 0x0F;
+  c |= 0xF0;
+  c ^= 0xAA;
 
   let s: string = 'hello';
-  s += " world";  // s = 'hello world'
+  s += ' world';
 
   // === 字段访问复合赋值 ===
   let d: Data = new Data();
   d.val += 10;
-  d.label += " appended";
+  d.label += ' appended';
 
   // === 数组索引复合赋值 ===
   let arr: int[] = [1, 2, 3, 4, 5];

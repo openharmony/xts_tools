@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let a: string = 'abc'; let b: string = 'abc'
-  if (a != b) { throw new Error('assertion: same string content')
-}
+  let a: string = 'abc'
+  let b: string = 'abc'
+  if (a != b) {
+    throw new Error('assertion: same string content')
+  }
 console.log('verified')
 }

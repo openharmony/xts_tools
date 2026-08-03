@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let a: int = 2147483647; let b: int = -2147483648
-  if (!(a > b)) { throw new Error('assertion failed: max > min')
-}
+  let a: int = 2147483647
+  let b: int = -2147483648
+  if (!(a > b)) {
+    throw new Error('assertion failed: max > min')
+  }
 console.log('verified')
 }

@@ -21,8 +21,10 @@
  *  * @note 运行时用例：验证该场景的运行时行为
  */
 function main(): void {
-  let x: int | string = 5; let y: int | string = 5
-  if (x != y) { throw new Error('assertion failed: union equality')
-}
+  let x: int | string = 5
+  let y: int | string = 5
+  if (x != y) {
+    throw new Error('assertion failed: union equality')
+  }
 console.log('verified')
 }

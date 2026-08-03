@@ -23,7 +23,8 @@
 function main(): void {
   let f: (x: int) => int = (x: int) => x * 3
   let g: (x: int) => int = f
-  if (f(10) != g(10)) { throw new Error('assertion: f and g should produce same result')
-}
+  if (f(10) != g(10)) {
+    throw new Error('assertion: f and g should produce same result')
+  }
 console.log('verified')
 }

@@ -16,7 +16,8 @@
  * @id EXP_07_33_006_PASS_SPEC_EXAMPLES
  * @expect compile-pass
  * @section 7.33
- * @design 验证规范原文中的所有示例：condition?5:6→int、condition?"5":6→string|int、true?"5":6→string、false?"5":6→int、condition?new A():new B()→A
+ * @design 验证规范原文中的所有示例：condition?5:6→int、condition?"5":6→string|int、true?"5":6→string、
+ *         false?"5":6→int、condition?new A():new B()→A
  * @note 正向用例：规范 7.33 所有示例表达式编译通过
  */
 class A {}

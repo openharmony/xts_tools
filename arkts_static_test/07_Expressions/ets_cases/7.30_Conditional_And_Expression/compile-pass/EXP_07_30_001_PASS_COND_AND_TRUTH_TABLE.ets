@@ -23,15 +23,15 @@ function main(): void {
   let a: boolean = true;
   let b: boolean = false;
 
-  // true && true == true
+  // 真值表用例：true 与 true
   let r1: boolean = a && a;
 
-  // true && false == false
+  // 真值表用例：true 与 false
   let r2: boolean = a && b;
 
-  // false && true == false
+  // 真值表用例：false 与 true
   let r3: boolean = b && a;
 
-  // false && false == false
+  // 真值表用例：false 与 false
   let r4: boolean = b && b;
 }

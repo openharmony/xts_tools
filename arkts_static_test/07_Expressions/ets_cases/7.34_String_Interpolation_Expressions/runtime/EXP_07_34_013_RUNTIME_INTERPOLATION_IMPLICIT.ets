@@ -22,7 +22,8 @@
  */
 function main(): void {
   let num: int = 42; let msg: string = `Value is ${num}`
-  if (msg != "Value is 42") { throw new Error('assertion: interpolation with int')
-}
+  if (msg != 'Value is 42') {
+    throw new Error('assertion: interpolation with int')
+  }
 console.log('verified')
 }

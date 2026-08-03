@@ -22,7 +22,9 @@
 
 function main(): void {
   let nan: double = 0.0 / 0.0
-  if (nan == nan) { console.log('unexpected: NaN == NaN'); throw new Error('assertion')
-}
+  if (nan == nan) {
+    console.log('unexpected: NaN == NaN')
+    throw new Error('assertion')
+  }
 console.log('verified')
 }

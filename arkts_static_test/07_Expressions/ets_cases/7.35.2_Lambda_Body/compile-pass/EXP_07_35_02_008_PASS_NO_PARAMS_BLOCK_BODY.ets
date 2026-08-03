@@ -39,11 +39,14 @@ function main(): void {
   let r2: string = f2()
   let r3: int = f3()
 
-  if (r1 != 42) { throw new Error('FAIL: f1()')
-}
-  if (r2 != 'hello') { throw new Error('FAIL: f2()')
-}
-  if (r3 != 30) { throw new Error('FAIL: f3()')
-}
+  if (r1 != 42) {
+    throw new Error('FAIL: f1()')
+  }
+  if (r2 != 'hello') {
+    throw new Error('FAIL: f2()')
+  }
+  if (r3 != 30) {
+    throw new Error('FAIL: f3()')
+  }
 console.log('verified')
 }

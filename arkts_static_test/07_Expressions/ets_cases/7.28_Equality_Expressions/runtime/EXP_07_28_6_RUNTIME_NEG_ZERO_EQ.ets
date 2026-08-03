@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let pz: double = 0.0; let nz: double = -0.0
-  if (pz != nz) { throw new Error('assertion: +0 == -0')
-}
+  let pz: double = 0.0
+  let nz: double = -0.0
+  if (pz != nz) {
+    throw new Error('assertion: +0 == -0')
+  }
 console.log('verified')
 }

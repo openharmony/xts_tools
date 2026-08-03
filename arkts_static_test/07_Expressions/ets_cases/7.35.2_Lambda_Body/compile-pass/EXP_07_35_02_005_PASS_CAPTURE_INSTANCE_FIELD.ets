@@ -52,11 +52,14 @@ function main(): void {
   let r2: string = f2()
   let r3: string = f3()
 
-  if (r1 != 42) { throw new Error('FAIL: f1()')
-}
-  if (r2 != 'lambda') { throw new Error('FAIL: f2()')
-}
-  if (r3 != "lambda: 42") { throw new Error('FAIL: f3()')
-}
+  if (r1 != 42) {
+    throw new Error('FAIL: f1()')
+  }
+  if (r2 != 'lambda') {
+    throw new Error('FAIL: f2()')
+  }
+  if (r3 != 'lambda: 42') {
+    throw new Error('FAIL: f3()')
+  }
 console.log('verified')
 }

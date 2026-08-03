@@ -21,11 +21,6 @@
  */
 function main(): void {
   // Spec example 1: captured variable is not a copy
-  // function foo() {
-  //   let y: int = 1
-  //   let x = () => { return y+1 } // 'y' is *captured*.
-  //   console.log(x()) // Output: 2
-  // }
   let y: int = 1
   let x1 = (): int => { return y + 1 }
   let r1: int = x1()
@@ -34,13 +29,6 @@ function main(): void {
   }
 
   // Spec example 2: modify captured variable, original changes
-  // function foo() {
-  //   let y: int = 1
-  //   let x = () => { y++ } // 'y' is *captured*.
-  //   console.log(y) // Output: 1
-  //   x()
-  //   console.log(y) // Output: 2
-  // }
   let z: int = 1
   let x2 = (): void => { z++ }
   if (z != 1) {

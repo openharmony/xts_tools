@@ -21,8 +21,10 @@
  * @note 閺夆晜鍔橀、鎴﹀籍閸撲焦鏆忓〒姘儜缁辨壆鈧湱鍋ゅ顖炲箥瑜戦、鎴烆殽瀹€鍐闁轰焦澹嗙划宥嗗緞瀹ュ懏鍊ら悹褍顑呴埀?
  */
 function main(): void {
-  let arr: int[] = [1, 2, 3]; arr[0] += 10
-  if (arr[0] != 11) { throw new Error('assertion failed: arr[0] += 10')
-}
+  let arr: int[] = [1, 2, 3]
+  arr[0] += 10
+  if (arr[0] != 11) {
+    throw new Error('assertion failed: arr[0] += 10')
+  }
 console.log('verified')
 }

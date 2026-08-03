@@ -23,10 +23,14 @@
 interface I {}
 class A implements I {}
 function main(): void {
-  let a: A = new A(); let b: A = a; let c: A = new A()
-  if (a != b) { throw new Error('assertion failed: same reference should be ==')
+  let a: A = new A()
+  let b: A = a
+  let c: A = new A()
+  if (a != b) {
+    throw new Error('assertion failed: same reference should be ==')
   }
-  if (a == c) { throw new Error('assertion failed: different objects should not be ==')
+  if (a == c) {
+    throw new Error('assertion failed: different objects should not be ==')
   }
 console.log('verified')
 }

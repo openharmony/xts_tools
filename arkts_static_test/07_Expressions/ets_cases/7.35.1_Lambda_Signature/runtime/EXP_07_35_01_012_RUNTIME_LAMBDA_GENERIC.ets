@@ -25,7 +25,8 @@ function foo<T>(p: (x: T) => T, val: T): T {
 function main(): void {
   let f: (x: int) => int = e => e
   let result: int = foo<int>(f, 42)
-  if (result != 42) { throw new Error('assertion failed: lambda generic')
-}
+  if (result != 42) {
+    throw new Error('assertion failed: lambda generic')
+  }
 console.log('verified')
 }

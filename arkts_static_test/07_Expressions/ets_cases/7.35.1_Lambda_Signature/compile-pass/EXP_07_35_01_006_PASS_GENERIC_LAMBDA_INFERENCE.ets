@@ -41,15 +41,20 @@ function main(): void {
   const r5: string = combine <int, int> ((a, b) => '' + a + b, 1, 2)
 
   // 验证实际调用值正确
-  if (r1 != 10) { throw new Error('FAIL: apply<int>')
-}
-  if (r2 != 'hello!') { throw new Error('FAIL: apply<string>')
-}
-  if (r3 != true) { throw new Error('FAIL: apply<boolean>')
-}
-  if (r4 != 15.0) { throw new Error('FAIL: apply<double>')
-}
-  if (r5 != '12') { throw new Error('FAIL: combine')
-}
+  if (r1 != 10) {
+    throw new Error('FAIL: apply<int>')
+  }
+  if (r2 != 'hello!') {
+    throw new Error('FAIL: apply<string>')
+  }
+  if (r3 != true) {
+    throw new Error('FAIL: apply<boolean>')
+  }
+  if (r4 != 15.0) {
+    throw new Error('FAIL: apply<double>')
+  }
+  if (r5 != '12') {
+    throw new Error('FAIL: combine')
+  }
 console.log('verified')
 }

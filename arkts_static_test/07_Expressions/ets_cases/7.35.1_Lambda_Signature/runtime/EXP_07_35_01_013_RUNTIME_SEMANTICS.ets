@@ -52,7 +52,7 @@ function main(): void {
 
   // 7. 娣峰悎绫诲瀷澶氬弬鏁?
   const f7: (s: string, n: int) => string = (s: string, n: int) => s + n
-  let r7: string = f7("n=", 77)
-  if (r7 != "n=77") { throw new Error('FAIL: mixed types: ' + r7) }
+  let r7: string = f7('n=', 77)
+  if (r7 != 'n=77') { throw new Error('FAIL: mixed types: ' + r7) }
 console.log('verified')
 }

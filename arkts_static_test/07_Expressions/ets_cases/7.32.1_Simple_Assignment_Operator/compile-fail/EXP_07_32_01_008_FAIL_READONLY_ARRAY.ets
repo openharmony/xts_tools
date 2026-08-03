@@ -17,7 +17,8 @@
  * @expect compile-fail
  * @section 7.32.1
  * @design 验证只读数组变量不能赋值为非只读数组的编译时错误
- * @note 反向用例：验证 readonly T[] 类型变量不能被赋值为 T[]（非只读数组）。根据规范，Type of lhsExpression 是 readonly array 而 rhsExpression 的转换后类型是非 readonly array 时产生编译时错误
+ * @note 反向用例：验证 readonly T[] 类型变量不能被赋值为 T[]（非只读数组）。根据规范，Type of lhsExpression 是 readonly array
+ *       而 rhsExpression 的转换后类型是非 readonly array 时产生编译时错误
  *       分类：D 类（Spec 与实现不一致）
  *       ⚠️ SPEC 不一致：readonly int[] 可被赋值为 int[]，但 spec 要求报错
  */

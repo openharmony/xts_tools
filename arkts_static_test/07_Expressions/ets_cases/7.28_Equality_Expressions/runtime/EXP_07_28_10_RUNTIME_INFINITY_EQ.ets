@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let pi: double = 1.0 / 0.0; let ni: double = 1.0 / 0.0
-  if (pi != ni) { throw new Error('assertion: both are +Inf')
-}
+  let pi: double = 1.0 / 0.0
+  let ni: double = 1.0 / 0.0
+  if (pi != ni) {
+    throw new Error('assertion: both are +Inf')
+  }
 console.log('verified')
 }

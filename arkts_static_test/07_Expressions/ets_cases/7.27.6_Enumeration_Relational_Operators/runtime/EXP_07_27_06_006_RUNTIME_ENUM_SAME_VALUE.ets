@@ -22,10 +22,13 @@
  */
 enum Dup { X = 1, Y = 1 }
 function main(): void {
-  let a: Dup = Dup.X; let b: Dup = Dup.Y
-  if (a < b) { throw new Error('assertion failed: X(1) should not be < Y(1)')
+  let a: Dup = Dup.X
+  let b: Dup = Dup.Y
+  if (a < b) {
+    throw new Error('assertion failed: X(1) should not be < Y(1)')
   }
-  if (!(a <= b)) { throw new Error('assertion failed: X(1) <= Y(1)')
+  if (!(a <= b)) {
+    throw new Error('assertion failed: X(1) <= Y(1)')
   }
 console.log('verified')
 }

@@ -17,7 +17,8 @@
  * @expect compile-fail
  * @section 7.32.2
  * @design 验证 ??= (Nullish Coalescing Assignment) 的编译行为。Spec 定义 ??= 运算符语义，但编译器不支持（Syntax error ESY0227）
- * @note ⚠️ SPEC 不一致：Spec 中 7.32.2 显式声明 "??= only evaluates the right operand, and assigns to the left operand if the left operand is null or undefined"，但当前编译器不支持 `??=` 语法，报 ESY0227 Unexpected token '??='
+ * @note ⚠️ SPEC 不一致：Spec 中 7.32.2 显式声明 "??= only evaluates the right operand, and assigns to the left operand if the
+ *       left operand is null or undefined"，但当前编译器不支持 `??=` 语法，报 ESY0227 Unexpected token '??='
  */
 
 // 使用可空类型的 ??=

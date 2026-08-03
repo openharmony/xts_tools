@@ -21,10 +21,13 @@
  * @note 运行时用例：实际执行验证Infinity 相等
  */
 function main(): void {
-  let posInf: double = 1.0 / 0.0; let negInf: double = -1.0 / 0.0
-  if (!(posInf == posInf)) { throw new Error('assertion failed: +Inf == +Inf')
-}
-  if (posInf == negInf) { throw new Error('assertion failed: +Inf != -Inf')
-}
+  let posInf: double = 1.0 / 0.0
+  let negInf: double = -1.0 / 0.0
+  if (!(posInf == posInf)) {
+    throw new Error('assertion failed: +Inf == +Inf')
+  }
+  if (posInf == negInf) {
+    throw new Error('assertion failed: +Inf != -Inf')
+  }
 console.log('verified')
 }

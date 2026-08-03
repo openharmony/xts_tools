@@ -50,9 +50,9 @@ function main(): void {
 
   // 字符串数组 +=
   let strArr: string[] = ['a', 'b', 'c'];
-  strArr[0] += " plus";
+  strArr[0] += ' plus';
   let si: int = 1;
-  strArr[si] += " more";
+  strArr[si] += ' more';
 
   // === 记录索引复合赋值 (rec[key] op= rhs) ===
   let rec: Record<K, int> = { 'x': 10, 'y': 20, 'z': 30 };

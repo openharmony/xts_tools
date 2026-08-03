@@ -75,6 +75,6 @@ function main(): void {
     return tag + n
   }
   let r7: string = f7('val', 42)
-  if (r7 != "val:42") { throw new Error('FAIL: block string: ' + r7) }
+  if (r7 != 'val:42') { throw new Error('FAIL: block string: ' + r7) }
 console.log('verified')
 }

@@ -23,7 +23,8 @@
 const C: int = 3
 function main(): void {
   let r: boolean = C > 1 && C * 2 < 8
-  if (r != true) { throw new Error('assertion: 3>1 && 3*2<8 should be true')
-}
+  if (r != true) {
+    throw new Error('assertion: 3>1 && 3*2<8 should be true')
+  }
 console.log('verified')
 }

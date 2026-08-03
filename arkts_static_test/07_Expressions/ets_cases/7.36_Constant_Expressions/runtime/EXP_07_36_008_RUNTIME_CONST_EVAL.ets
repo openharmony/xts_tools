@@ -22,10 +22,12 @@
 const PI: double = 3.14159
 const TWO: int = 2
 function main(): void {
-  let two_pi: double = PI * TWO as double
-  if (two_pi <= 6.28) { throw new Error('assertion failed: TWO_PI should be > 6.28')
-}
-  if (two_pi >= 6.29) { throw new Error('assertion failed: TWO_PI should be < 6.29')
-}
-console.log('verified')
+  let twoPi: double = PI * TWO as double
+  if (twoPi <= 6.28) {
+    throw new Error('assertion failed: TWO_PI should be > 6.28')
+  }
+  if (twoPi >= 6.29) {
+    throw new Error('assertion failed: TWO_PI should be < 6.29')
+  }
+  console.log('verified')
 }

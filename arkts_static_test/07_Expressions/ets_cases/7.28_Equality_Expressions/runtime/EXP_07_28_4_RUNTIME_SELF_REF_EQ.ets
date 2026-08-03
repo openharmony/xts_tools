@@ -21,7 +21,9 @@
  */
 
 function main(): void {
-  let a: int = 42; if (a != a) { throw new Error('assertion: self eq')
-}
+  let a: int = 42
+  if (a != a) {
+    throw new Error('assertion: self eq')
+  }
 console.log('verified')
 }

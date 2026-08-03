@@ -24,10 +24,12 @@ function main(): void {
   let count: int = 0
   let increment: () => void = () => { count++ }
   increment()
-  if (count != 1) { throw new Error('assertion: captured var should be 1')
-}
+  if (count != 1) {
+    throw new Error('assertion: captured var should be 1')
+  }
   increment()
-  if (count != 2) { throw new Error('assertion: captured var should be 2')
-}
+  if (count != 2) {
+    throw new Error('assertion: captured var should be 2')
+  }
 console.log('verified')
 }

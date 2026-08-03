@@ -22,7 +22,7 @@
 function main(): void {
   // string += string (字符串拼接)
   let a: string = 'hello';
-  a += " world";
+  a += ' world';
 
   // string += int (int 隐式转字符串拼接到末尾)
   let b: string = 'value: ';

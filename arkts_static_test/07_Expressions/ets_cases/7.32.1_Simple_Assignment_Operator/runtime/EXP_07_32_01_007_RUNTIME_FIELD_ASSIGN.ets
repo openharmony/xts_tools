@@ -22,8 +22,10 @@
  */
 class C { public f: int = 0}
 function main(): void {
-  let c: C = new C(); c.f = 42
-  if (c.f != 42) { throw new Error('assertion failed: field assignment')
-}
+  let c: C = new C()
+  c.f = 42
+  if (c.f != 42) {
+    throw new Error('assertion failed: field assignment')
+  }
 console.log('verified')
 }

@@ -36,13 +36,17 @@ function main(): void {
   let r3: string = strCat('value: ', 99)
   let r4: int = sum3(1, 2, 3)
 
-  if (r1 != 30) { throw new Error('FAIL: add')
-}
-  if (r2 != 12.0) { throw new Error('FAIL: mult')
-}
-  if (r3 != "value: 99") { throw new Error('FAIL: strCat')
-}
-  if (r4 != 6) { throw new Error('FAIL: sum3')
-}
+  if (r1 != 30) {
+    throw new Error('FAIL: add')
+  }
+  if (r2 != 12.0) {
+    throw new Error('FAIL: mult')
+  }
+  if (r3 != 'value: 99') {
+    throw new Error('FAIL: strCat')
+  }
+  if (r4 != 6) {
+    throw new Error('FAIL: sum3')
+  }
 console.log('verified')
 }

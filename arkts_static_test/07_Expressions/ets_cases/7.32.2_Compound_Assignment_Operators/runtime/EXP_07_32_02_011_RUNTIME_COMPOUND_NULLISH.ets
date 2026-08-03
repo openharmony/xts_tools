@@ -22,10 +22,12 @@
 function main(): void {
   let x: int | undefined = undefined
   x = x ?? 42
-  if (x != 42) { throw new Error('assertion: should be 42')
-}
+  if (x != 42) {
+    throw new Error('assertion: should be 42')
+  }
   x = x ?? 99
-  if (x != 42) { throw new Error('assertion: should stay 42')
-}
+  if (x != 42) {
+    throw new Error('assertion: should stay 42')
+  }
 console.log('verified')
 }

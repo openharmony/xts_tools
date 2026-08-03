@@ -22,12 +22,17 @@
  */
 enum Level { LOW = 1, MEDIUM = 5, HIGH = 10 }
 function main(): void {
-  let a: Level = Level.LOW; let b: Level = Level.MEDIUM; let c: Level = Level.HIGH
-  if (!(a < b)) { throw new Error('assertion failed: LOW < MEDIUM')
+  let a: Level = Level.LOW
+  let b: Level = Level.MEDIUM
+  let c: Level = Level.HIGH
+  if (!(a < b)) {
+    throw new Error('assertion failed: LOW < MEDIUM')
   }
-  if (!(b < c)) { throw new Error('assertion failed: MEDIUM < HIGH')
+  if (!(b < c)) {
+    throw new Error('assertion failed: MEDIUM < HIGH')
   }
-  if (a > c) { throw new Error('assertion failed: LOW should not be > HIGH')
+  if (a > c) {
+    throw new Error('assertion failed: LOW should not be > HIGH')
   }
 console.log('verified')
 }

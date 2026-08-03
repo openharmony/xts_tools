@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let a: long = 9223372036854775807; let b: long = -9223372036854775808
-  if (!(a > b)) { throw new Error('assertion failed: long max > min')
-}
+  let a: long = 9223372036854775807
+  let b: long = -9223372036854775808
+  if (!(a > b)) {
+    throw new Error('assertion failed: long max > min')
+  }
 console.log('verified')
 }

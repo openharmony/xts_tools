@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let a: byte = 5; let b: int = 10
-  if (!(a < b)) { throw new Error('assertion failed: byte < int')
-}
+  let a: byte = 5
+  let b: int = 10
+  if (!(a < b)) {
+    throw new Error('assertion failed: byte < int')
+  }
 console.log('verified')
 }

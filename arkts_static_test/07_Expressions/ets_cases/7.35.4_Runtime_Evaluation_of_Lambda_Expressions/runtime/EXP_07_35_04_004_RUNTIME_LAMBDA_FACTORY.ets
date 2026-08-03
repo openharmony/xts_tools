@@ -27,12 +27,17 @@ function factory(): () => int {
 function main(): void {
   let a: () => int = factory()
   let b: () => int = factory()
-  let r1: int = a(); let r2: int = a(); let r3: int = b()
-  if (r1 != 1) { throw new Error('assertion: a() first call should be 1')
-}
-  if (r2 != 2) { throw new Error('assertion: a() second call should be 2')
-}
-  if (r3 != 1) { throw new Error('assertion: b() first call should be 1 (independent)')
-}
+  let r1: int = a()
+  let r2: int = a()
+  let r3: int = b()
+  if (r1 != 1) {
+    throw new Error('assertion: a() first call should be 1')
+  }
+  if (r2 != 2) {
+    throw new Error('assertion: a() second call should be 2')
+  }
+  if (r3 != 1) {
+    throw new Error('assertion: b() first call should be 1 (independent)')
+  }
 console.log('verified')
 }

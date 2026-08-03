@@ -21,8 +21,10 @@
  */
 
 function main(): void {
-  let a: int = 5; let b: long = 5
-  if (a != b) { throw new Error('assertion: int == long')
-}
+  let a: int = 5
+  let b: long = 5
+  if (a != b) {
+    throw new Error('assertion: int == long')
+  }
 console.log('verified')
 }

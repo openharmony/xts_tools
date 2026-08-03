@@ -26,10 +26,10 @@ function main(): void {
   let r2: boolean = 5 != 5;
   // spec example: 5 === 5 // true
   let r3: boolean = 5 === 5;
-  // spec example: 5 == new Number(5) // true
-  let r4: boolean = 5 == new Number(5);
-  // spec example: 5 === new Number(5) // true
-  let r5: boolean = 5 === new Number(5);
+  // spec example: 5 == Number(5) // true
+  let r4: boolean = 5 == Number(5);
+  // spec example: 5 === Number(5) // true
+  let r5: boolean = 5 === Number(5);
   // spec example: 5 == 5.0 // true
   let r6: boolean = 5 == 5.0;
 }
