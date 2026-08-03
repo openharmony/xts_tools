@@ -24,5 +24,5 @@ function main(): void {
   let b: boolean = false || true || false;
   let c: boolean = (1 > 0) && (2 < 3) && (4 == 4);
   let d: boolean = (1 > 2) || (3 > 1) || (5 < 0);
-  console.log("" + a + b + c + d);
+  console.log('' + a + b + c + d);
 }

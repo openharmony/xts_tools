@@ -20,8 +20,8 @@
  * @note 运行时用例：验证 readonly 静态字段的 value 语义，声明后值不变
  */
 class Limits {
-    static public public public public readonly MAX: int = 100
-    static public public public public readonly MIN: int = 1
+    public static readonly MAX: int = 100
+    public static readonly MIN: int = 1
 }
 function main(): void {
     let max: int = Limits.MAX

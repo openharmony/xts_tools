@@ -20,4 +20,4 @@
  * @note 反向用例：union 中多个成员匹配数组字面量应报编译时错误
  *       number[] 和 [number, number] 都接受 [1, 2]
  */
-let union_2: number[] | [number, number] = [1, 2]
+let unionValue: number[] | [number, number] = [1, 2]

@@ -24,5 +24,5 @@ function main(): void {
   let b: int = 1 + (2 * 3);
   let c: int = (10 - 2) / (2 + 2);
   let d: int = (1 + 2 + 3) * (4 - 1);
-  console.log("" + a + b + c + d);
+  console.log('' + a + b + c + d);
 }

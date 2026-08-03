@@ -24,5 +24,5 @@
 function main(): void {
   let arr: Fixedint[] = [1, 2, 3];
   let neg: int = arr[-1];
-  console.log("" + neg);
+  console.log('' + neg);
 }

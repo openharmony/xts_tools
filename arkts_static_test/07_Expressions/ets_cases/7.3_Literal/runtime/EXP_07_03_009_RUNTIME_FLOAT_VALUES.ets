@@ -25,6 +25,8 @@ function main(): void {
     throw new Error('fail');
   }
   }
+  }
+  }
   }let b: double = 3.14
   let bInt: int = 314
   let c: double = 1e10

@@ -20,7 +20,7 @@
  * @note 反向用例：验证 interface readonly 属性不可写入
  */
 interface I3 {
-    public public readonly attr: number
+    public readonly attr: number
 }
 function test(): void {
     const i3: I3 = {attr: 42}

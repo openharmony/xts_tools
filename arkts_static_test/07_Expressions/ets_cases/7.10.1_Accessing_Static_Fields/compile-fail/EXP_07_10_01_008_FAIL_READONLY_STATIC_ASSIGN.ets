@@ -20,7 +20,7 @@
  * @note 反向用例：验证 readonly 静态字段在声明初始化器之后不可修改（value 语义）
  */
 class Config {
-    static public public public public readonly MAX_RETRY: int = 5
+    public static readonly MAX_RETRY: int = 5
 }
 function bad(): void {
     Config.MAX_RETRY = 10

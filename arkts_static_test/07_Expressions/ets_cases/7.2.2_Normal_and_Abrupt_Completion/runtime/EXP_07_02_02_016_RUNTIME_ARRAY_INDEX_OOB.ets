@@ -23,5 +23,5 @@
 function main(): void {
   let arr: Fixedint[] = [1, 2, 3];
   let oob: int = arr[5];
-  console.log("" + oob);
+  console.log('' + oob);
 }

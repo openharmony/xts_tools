@@ -26,11 +26,15 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   let arr: Fixedint[] = [1, 2, 3];
   let v: int = arr[1];
   if (v != 2) {
     throw new Error("assertion failed: arr[1]=" + v);
+  }
+  }
   }
   }
   }
@@ -41,10 +45,14 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   let y: int = 17 % 5;
   if (y != 2) {
     throw new Error("assertion failed: 17%5=" + y);
+  }
+  }
   }
   }
   }
@@ -53,6 +61,8 @@ function main(): void {
   let c: string = s[0];
   if (c != 'h') {
     throw new Error("assertion failed: s[0]=" + c);
+  }
+  }
   }
   }
   }

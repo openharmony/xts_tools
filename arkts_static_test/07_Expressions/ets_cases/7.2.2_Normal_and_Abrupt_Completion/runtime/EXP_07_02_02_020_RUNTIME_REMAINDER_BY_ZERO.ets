@@ -23,5 +23,5 @@
 function main(): void {
   let divisor: int = 0;
   let a: int = 10 % divisor;
-  console.log("" + a);
+  console.log('' + a);
 }

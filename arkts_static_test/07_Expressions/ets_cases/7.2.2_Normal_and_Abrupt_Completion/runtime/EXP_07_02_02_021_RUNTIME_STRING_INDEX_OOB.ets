@@ -23,5 +23,5 @@
 function main(): void {
   let s: string = 'abc';
   let c: string = s[10];
-  console.log("" + c);
+  console.log('' + c);
 }

@@ -21,7 +21,7 @@
  */
 class C {
     public field1 = 123
-    public public readonly field2: number
+    public readonly field2: number
     constructor() {
     }
 }

@@ -24,5 +24,5 @@ function main(): void {
   let idx: int = 0;
   let val: int = arr[idx] + arr[idx + 1] * arr[idx + 2] - arr[idx + 3];
   let chained: int = ((arr[0] + arr[1]) * arr[2]) / arr[3];
-  console.log("" + val + chained);
+  console.log('' + val + chained);
 }

@@ -26,5 +26,5 @@ function track(s: string): int {
 function main(): void {
   let a: int = track('cond') > 0 ? track('true') : track('false');
   let b: int = (track('a') + 1) > 0 ? track('b') : track('c');
-  console.log("" + a + b);
+  console.log('' + a + b);
 }

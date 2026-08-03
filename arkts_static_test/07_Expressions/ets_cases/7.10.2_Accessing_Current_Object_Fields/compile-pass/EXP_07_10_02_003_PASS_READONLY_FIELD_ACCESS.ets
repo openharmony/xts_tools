@@ -20,8 +20,8 @@
  * @note 正向用例：验证 readonly 实例字段访问返回 value（只读语义）
  */
 class Data {
-    public public public public readonly id: int = 100
-    public public public public readonly name: string = 'fixed'
+    public readonly id: int = 100
+    public readonly name: string = 'fixed'
 }
 let d: Data = new Data()
 let id: int = d.id

@@ -34,6 +34,8 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let b: boolean = track('false') && track('skip');
@@ -42,11 +44,15 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let c: boolean = track('false') && track('x') && track('y');
   if (trace != 'false') {
     throw new Error('and chained short-circuit fail: ' + trace);
+  }
+  }
   }
   }
   }

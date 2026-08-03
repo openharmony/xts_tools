@@ -29,5 +29,5 @@ function add3(a: int, b: int, c: int): int {
 
 function main(): void {
   let r: int = add3(track('left'), track('middle'), track('right'));
-  console.log("" + r);
+  console.log('' + r);
 }

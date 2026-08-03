@@ -25,5 +25,5 @@ function main(): void {
   let a: int = 10;
   let b: int = a ?? 0;
   let result: int = (x ?? 5) + (a ?? 1);
-  console.log("" + y + b + result);
+  console.log('' + y + b + result);
 }

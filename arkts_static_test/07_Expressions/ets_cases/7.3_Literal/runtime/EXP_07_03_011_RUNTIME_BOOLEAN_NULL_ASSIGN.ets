@@ -26,16 +26,24 @@ function main(): void {
     throw new Error('fail');
   }
   }
+  }
+  }
   }if (f != false) {
     throw new Error('fail');
+  }
+  }
   }
   }
   }if (!t) {
     throw new Error('fail');
   }
   }
+  }
+  }
   }if (f) {
     throw new Error('fail');
+  }
+  }
   }
   }
   }console.log('verified')

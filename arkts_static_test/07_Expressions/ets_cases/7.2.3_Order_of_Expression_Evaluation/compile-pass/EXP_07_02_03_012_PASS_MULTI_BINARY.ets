@@ -25,5 +25,5 @@ function main(): void {
   let c: int = 2 * 3 * 4 * 5;
   let d: int = 100 / 2 / 5 / 2;
   let e: int = a + b * c - d;
-  console.log("" + a + b + c + d + e);
+  console.log('' + a + b + c + d + e);
 }

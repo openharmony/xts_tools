@@ -26,5 +26,5 @@ function main(): void {
   let d: int = 2 * (3 * 4);
   let matchAdd: boolean = a == b;
   let matchMul: boolean = c == d;
-  console.log("" + matchAdd + matchMul);
+  console.log('' + matchAdd + matchMul);
 }

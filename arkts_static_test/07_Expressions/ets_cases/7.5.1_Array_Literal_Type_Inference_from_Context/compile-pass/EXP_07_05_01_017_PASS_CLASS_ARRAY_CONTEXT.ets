@@ -19,6 +19,6 @@
  * @design 类类型数组上下文：aClass[] 使用类实例初始化
  * @note 正向用例：验证类类型作为数组元素时推断编译通过
  */
-class aClass {}
+class AClass {}
 
-let b1: aClass[] = [new aClass(), new aClass()]
+let b1: AClass[] = [new AClass(), new AClass()]

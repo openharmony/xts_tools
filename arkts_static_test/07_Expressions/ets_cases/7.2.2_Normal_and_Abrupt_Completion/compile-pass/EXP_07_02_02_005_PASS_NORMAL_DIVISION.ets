@@ -27,5 +27,5 @@ function main(): void {
   let x: int = 7;
   let y: int = 3;
   let e: int = x / y;
-  console.log("" + a + b + c + d + e);
+  console.log('' + a + b + c + d + e);
 }

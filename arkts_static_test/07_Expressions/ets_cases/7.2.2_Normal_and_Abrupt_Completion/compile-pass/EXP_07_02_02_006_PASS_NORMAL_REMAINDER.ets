@@ -26,5 +26,5 @@ function main(): void {
   let x: int = 20;
   let y: int = 7;
   let d: int = x % y;
-  console.log("" + a + b + c + d);
+  console.log('' + a + b + c + d);
 }

@@ -21,5 +21,5 @@
  */
 function main(): void {
   let x: long = 9223372036854775808
-  console.log("" + x)
+  console.log('' + x)
 }

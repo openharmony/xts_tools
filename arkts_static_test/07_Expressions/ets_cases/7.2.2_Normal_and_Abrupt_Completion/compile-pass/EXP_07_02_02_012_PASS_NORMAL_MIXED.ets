@@ -32,5 +32,5 @@ function main(): void {
   let result: int = (data[0] + data[1]) * data[idx] / data[4];
   let flag: boolean = result > 0;
   let finalVal: int = flag ? result : -1;
-  console.log("" + val + casted + result + finalVal);
+  console.log('' + val + casted + result + finalVal);
 }

@@ -27,14 +27,20 @@ function main(): void {
     throw new Error('fail');
   }
   }
+  }
+  }
   }let s2: string = 'World'
   if (s2 != 'World') {
     throw new Error('fail');
   }
   }
+  }
+  }
   }let empty: string = ''
   if (empty != '') {
     throw new Error('fail');
+  }
+  }
   }
   }
   }console.log('verified')

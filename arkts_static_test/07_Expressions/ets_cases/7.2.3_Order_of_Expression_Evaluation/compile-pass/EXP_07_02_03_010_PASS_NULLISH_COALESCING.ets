@@ -28,5 +28,5 @@ function main(): void {
   let b: int = a ?? track();
   let c: int = 42 ?? track();
   let d: int = (a ?? 0) + 1;
-  console.log("" + b + c + d);
+  console.log('' + b + c + d);
 }

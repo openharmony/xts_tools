@@ -43,5 +43,5 @@ function main(): void {
   let intRight: int = ix + (iy + iz);
   let intMatch: boolean = intLeft == intRight;
 
-  console.log("" + left + right + differ + intMatch);
+  console.log('' + left + right + differ + intMatch);
 }

@@ -31,6 +31,6 @@ function log(msg: string): void {
   console.log(msg)
 }
 
-let f1 = add   // (a: number, b: number) => number
-let f2 = greet // () => string
-let f3 = log   // (msg: string) => void
+let f1 = add   // 推断为函数引用类型
+let f2 = greet // 推断为无参函数引用类型
+let f3 = log   // 推断为带参函数引用类型

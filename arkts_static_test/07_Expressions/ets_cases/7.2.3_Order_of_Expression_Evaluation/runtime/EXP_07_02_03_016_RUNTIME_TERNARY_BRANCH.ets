@@ -44,11 +44,15 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let b: int = condFalse('c') ? branch('t') : branch('f');
   if (trace != 'cf') {
     throw new Error('ternary false branch fail: ' + trace);
+  }
+  }
   }
   }
   }

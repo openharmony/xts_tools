@@ -26,5 +26,5 @@ function track(s: string): boolean {
 function main(): void {
   let a: boolean = track('true') && track('right');
   let b: boolean = (1 > 0) && track('also right');
-  console.log("" + a + b);
+  console.log('' + a + b);
 }

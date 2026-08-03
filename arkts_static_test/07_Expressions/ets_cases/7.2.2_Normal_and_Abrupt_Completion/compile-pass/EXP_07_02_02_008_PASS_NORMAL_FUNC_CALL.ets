@@ -32,5 +32,5 @@ function main(): void {
   let r1: int = add(3, 4);
   let r2: int = compute(r1);
   let r3: int = add(r1, compute(r2));
-  console.log("" + r1 + r2 + r3);
+  console.log('' + r1 + r2 + r3);
 }

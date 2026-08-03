@@ -22,7 +22,9 @@
 function min(x: number[]): number {
   let m: number = x[0]
   for (let v of x) {
-    if (v < m) m = v
+    if (v < m) {
+      m = v
+    }
   }
   return m
 }

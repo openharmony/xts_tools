@@ -39,11 +39,15 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let b: boolean = trackTrue('T') && trackFalse('F') && trackTrue('skip');
   if (trace != 'TF') {
     throw new Error('chained and short fail: ' + trace);
+  }
+  }
   }
   }
   }
@@ -55,11 +59,15 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let d: boolean = trackTrue('X') || trackTrue("skip1") || trackFalse("skip2");
   if (trace != 'X') {
     throw new Error('chained or short fail: ' + trace);
+  }
+  }
   }
   }
   }

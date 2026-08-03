@@ -31,5 +31,5 @@ function main(): void {
   let b: TagBox = new TagBox('b');
   let c: TagBox = new TagBox('c');
   let result: string = a.val = b.val = c.val = 'final';
-  console.log("" + a.val + b.val + c.val + result);
+  console.log('' + a.val + b.val + c.val + result);
 }

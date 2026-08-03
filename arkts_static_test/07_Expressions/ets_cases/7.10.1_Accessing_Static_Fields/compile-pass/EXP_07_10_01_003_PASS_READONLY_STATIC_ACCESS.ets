@@ -20,9 +20,9 @@
  * @note 正向用例：验证 readonly 静态字段访问返回 value，不可作为左值
  */
 class Constants {
-    static public public public public readonly MAX_SIZE: int = 1024
-    static public public public public readonly MIN_SIZE: int = 64
-    static public public public public readonly DEFAULT_NAME: string = 'default'
+    public static readonly MAX_SIZE: int = 1024
+    public static readonly MIN_SIZE: int = 64
+    public static readonly DEFAULT_NAME: string = 'default'
 }
 let max: int = Constants.MAX_SIZE
 let min: int = Constants.MIN_SIZE

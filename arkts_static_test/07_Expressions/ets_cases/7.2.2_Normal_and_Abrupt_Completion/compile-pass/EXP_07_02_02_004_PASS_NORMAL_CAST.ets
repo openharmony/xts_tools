@@ -24,5 +24,5 @@ function main(): void {
   let y: double = x.toDouble();
   let s: String = 'hello';
   let obj: Object = s as Object;
-  console.log("" + y);
+  console.log('' + y);
 }

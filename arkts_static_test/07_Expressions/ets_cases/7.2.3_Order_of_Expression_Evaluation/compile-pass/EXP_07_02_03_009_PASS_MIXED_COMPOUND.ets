@@ -27,5 +27,5 @@ function main(): void {
   let a: int = track('a') + track('b') * track('c') - track('d');
   let b: boolean = (track('x') > 0) && (track('y') < 10);
   let c: int = track('cond') > 0 ? track('t') : track('f');
-  console.log("" + a + b + c);
+  console.log('' + a + b + c);
 }

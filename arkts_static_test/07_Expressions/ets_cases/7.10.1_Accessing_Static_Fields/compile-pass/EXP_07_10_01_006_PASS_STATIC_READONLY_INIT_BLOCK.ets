@@ -20,9 +20,9 @@
  * @note 正向用例：验证 readonly 静态字段通过声明初始化器（field initializer）赋值
  */
 class AppConfig {
-    static public public public public readonly APP_NAME: string = 'MyApp'
-    static public public public public readonly VERSION: string = '1.0.0'
-    static public public public public readonly MAX_CONNECTIONS: int = 100
+    public static readonly APP_NAME: string = 'MyApp'
+    public static readonly VERSION: string = '1.0.0'
+    public static readonly MAX_CONNECTIONS: int = 100
 }
 let nameCheck: string = AppConfig.APP_NAME
 let versionCheck: string = AppConfig.VERSION

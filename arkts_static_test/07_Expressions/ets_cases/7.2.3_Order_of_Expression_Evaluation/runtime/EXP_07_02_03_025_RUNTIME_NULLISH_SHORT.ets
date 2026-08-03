@@ -35,8 +35,12 @@ function main(): void {
   }
   }
   }
+  }
+  }
   if (b != 42) {
     throw new Error('nullish undefined value fail: ' + b);
+  }
+  }
   }
   }
   }
@@ -49,8 +53,12 @@ function main(): void {
   }
   }
   }
+  }
+  }
   if (y != 10) {
     throw new Error('nullish non-null value fail: ' + y);
+  }
+  }
   }
   }
   }

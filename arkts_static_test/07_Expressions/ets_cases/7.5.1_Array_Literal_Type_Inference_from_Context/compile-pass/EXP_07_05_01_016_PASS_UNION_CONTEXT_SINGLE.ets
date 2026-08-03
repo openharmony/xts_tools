@@ -19,4 +19,4 @@
  * @design Union 类型上下文唯一匹配：string[] | [int, int] = [1, 2] 匹配 tuple
  * @note 正向用例：验证 union 类型中恰好一个成员匹配时编译通过
  */
-let union_1: string[] | [int, int] = [1, 2]
+let unionValue: string[] | [int, int] = [1, 2]

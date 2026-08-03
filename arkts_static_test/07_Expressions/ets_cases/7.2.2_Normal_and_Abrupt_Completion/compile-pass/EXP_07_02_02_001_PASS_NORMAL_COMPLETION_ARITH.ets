@@ -26,5 +26,5 @@ function main(): void {
   let d: int = 20 / 4;
   let e: int = 17 % 5;
   let f: int = (a + b) * (c - d) / 2;
-  console.log("" + a + b + c + d + e + f);
+  console.log('' + a + b + c + d + e + f);
 }

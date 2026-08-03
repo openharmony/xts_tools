@@ -20,6 +20,6 @@
  * @note 正向用例：验证 Record 的值可以是布尔类型
  */
 let map: Record<string, boolean> = {
-    "flag1": true,
-    "flag2": false,
+    'flag1': true,
+    'flag2': false,
 }

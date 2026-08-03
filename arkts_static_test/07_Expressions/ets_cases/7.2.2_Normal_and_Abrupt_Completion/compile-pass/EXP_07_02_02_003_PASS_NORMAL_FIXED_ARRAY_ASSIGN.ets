@@ -25,5 +25,5 @@ function main(): void {
   arr[1] = 200;
   arr[2] = 300;
   let total: int = arr[0] + arr[1] + arr[2];
-  console.log("" + total);
+  console.log('' + total);
 }

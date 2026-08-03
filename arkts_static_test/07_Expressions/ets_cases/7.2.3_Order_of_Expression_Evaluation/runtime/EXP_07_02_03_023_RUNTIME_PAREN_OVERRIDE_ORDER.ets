@@ -35,6 +35,8 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let b: int = (track('X') + track('Y')) * track('Z');
@@ -44,10 +46,14 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   // Verify trace order is always left-to-right regardless of precedence
   if (trace != 'XYZ') {
     throw new Error('paren trace order fail: ' + trace);
+  }
+  }
   }
   }
   }

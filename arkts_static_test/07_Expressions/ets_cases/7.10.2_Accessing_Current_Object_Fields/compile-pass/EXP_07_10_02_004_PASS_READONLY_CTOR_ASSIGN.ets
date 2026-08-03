@@ -20,8 +20,8 @@
  * @note 正向用例：验证 readonly 字段可在构造器中初始化赋值
  */
 class Person {
-    public public public public readonly id: int
-    public public public public readonly name: string
+    public readonly id: int
+    public readonly name: string
     constructor(id: int, name: string) {
         this.id = id
         this.name = name

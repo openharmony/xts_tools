@@ -38,8 +38,12 @@ function main(): void {
   }
   }
   }
+  }
+  }
   if (r != 3) {
     throw new Error('func args sum fail: ' + r);
+  }
+  }
   }
   }
   }
@@ -48,6 +52,8 @@ function main(): void {
   let s: int = add3(track('A'), track('B'), track('C'));
   if (trace != 'ABC') {
     throw new Error('func args order2 fail: ' + trace);
+  }
+  }
   }
   }
   }

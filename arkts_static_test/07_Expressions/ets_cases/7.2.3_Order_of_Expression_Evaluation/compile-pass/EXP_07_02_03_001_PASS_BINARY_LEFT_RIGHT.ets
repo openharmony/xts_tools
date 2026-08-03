@@ -27,5 +27,5 @@ function main(): void {
   let x: int = track('left') + track('right');
   let y: int = track('a') * track('b');
   let z: int = track('c') - track('d');
-  console.log("" + x + y + z);
+  console.log('' + x + y + z);
 }

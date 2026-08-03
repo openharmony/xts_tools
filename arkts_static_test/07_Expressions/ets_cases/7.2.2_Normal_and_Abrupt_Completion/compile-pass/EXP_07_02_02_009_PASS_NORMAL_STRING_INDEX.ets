@@ -26,6 +26,6 @@ function main(): void {
   let len: int = s.length;
   if (len > 0) {
     let last: string = s[len - 1];
-    console.log("" + c1 + c2 + last);
+    console.log('' + c1 + c2 + last);
   }
 }

@@ -43,10 +43,14 @@ function main(): void {
   }
   }
   }
+  }
+  }
   // All tags should be "right" (value propagates right-to-left)
   let a: A = f('x');  // for trace
   if (result != 'right') {
     throw new Error('assign result value fail: ' + result);
+  }
+  }
   }
   }
   }

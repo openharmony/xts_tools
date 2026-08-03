@@ -26,4 +26,10 @@ class Data {
     public d: number = 0
     public e: number = 0
 }
-let d: Data = {a: 1, b: 2, c: 3, d: 4, e: 5}
+let d: Data = {
+  a: 1,
+  b: 2,
+  c: 3,
+  d: 4,
+  e: 5,
+}

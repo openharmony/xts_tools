@@ -21,7 +21,7 @@
  */
 class MyClass {
     public value: int = 10
-    getValue: () => int = (): int => {
+    public getValue: () => int = (): int => {
         return this.value
     }
 }

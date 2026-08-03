@@ -20,7 +20,7 @@
  * @note 反向用例：验证 readonly 实例字段在构造器外赋值应报编译错误
  */
 class Data {
-    public public public public readonly id: int = 100
+    public readonly id: int = 100
 }
 function bad(): void {
     let d: Data = new Data()

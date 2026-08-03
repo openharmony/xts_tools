@@ -24,5 +24,5 @@ function main(): void {
   let first: int = arr[0];
   let last: int = arr[2];
   let mid: int = arr[1];
-  console.log("" + first + last + mid);
+  console.log('' + first + last + mid);
 }

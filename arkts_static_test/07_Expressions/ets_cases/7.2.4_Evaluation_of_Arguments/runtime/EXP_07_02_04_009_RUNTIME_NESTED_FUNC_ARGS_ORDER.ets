@@ -43,15 +43,7 @@ function test(a: int, b: int, c: int): void {
 }
 
 function main(): void {
-  // 第一参数: wrap(track("I")) + track("W") — 但实际上 + 是二元运算，会先求值左再右
-  // 更准确：第一参数是 wrap(track("I"))，内部先求值 track("I") 再 wrap
-  // 但这样可以：
-  // test(wrap(track("I")), track("O"), track("C"))
-  // 求值顺序:
-  //   Arg1: wrap(track("I")) → 先 track("I") 追加 "I"，再 wrap 追加 "W"
-  //   Arg2: track("O") → 追加 "O"
-  //   Arg3: track("C") → 追加 "C"
-  // trace = "IWOC"
+  // 求值顺序: Arg1 wrap(track('I')) 先追加 I 再 W；Arg2 追加 O；Arg3 追加 C
   test(wrap(track('I')), track('O'), track('C'))
   console.log('verified')
 }

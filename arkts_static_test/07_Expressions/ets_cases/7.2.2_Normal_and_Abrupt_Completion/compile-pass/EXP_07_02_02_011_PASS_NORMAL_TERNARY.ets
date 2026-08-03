@@ -25,5 +25,5 @@ function main(): void {
   let max: int = a > b ? a : b;
   let min: int = a < b ? a : b;
   let label: string = max > 0 ? 'positive' : 'non-positive';
-  console.log("" + max + min + label);
+  console.log('' + max + min + label);
 }

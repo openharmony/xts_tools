@@ -21,5 +21,5 @@
  */
 function main(): void {
   let x: float = 3.4e39f
-  console.log("" + x)
+  console.log('' + x)
 }

@@ -34,6 +34,8 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let y: int = track('A') - track('B');
@@ -42,11 +44,15 @@ function main(): void {
   }
   }
   }
+  }
+  }
 
   trace = '';
   let z: int = track('X') * track('Y');
   if (trace != 'XY') {
     throw new Error('binary mul order fail: ' + trace);
+  }
+  }
   }
   }
   }

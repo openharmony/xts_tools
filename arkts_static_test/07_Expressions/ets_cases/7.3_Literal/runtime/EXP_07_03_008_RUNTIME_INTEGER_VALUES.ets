@@ -24,24 +24,36 @@ function main(): void {
     throw new Error('fail');
   }
   }
+  }
+  }
   }if (0xFF != 255) {
     throw new Error('fail');
+  }
+  }
   }
   }
   }if (0o77 != 63) {
     throw new Error('fail');
   }
   }
+  }
+  }
   }if (0b1010 != 10) {
     throw new Error('fail');
+  }
+  }
   }
   }
   }if (0 != 0) {
     throw new Error('fail');
   }
   }
+  }
+  }
   }if (-10 != -10) {
     throw new Error('fail');
+  }
+  }
   }
   }
   }console.log('verified')
