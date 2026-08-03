@@ -20,7 +20,7 @@
  * @note 运行时用例：! 与逻辑运算符组合
  */
 function main(): void {
-    // De Morgan's laws: !(a && b) == !a || !b
+    // 验证德摩根定律：非与或与非
     if (!(true && true) != (!true || !true)) {
         throw new Error('assertion failed: De Morgan 1')
     }
@@ -29,16 +29,16 @@ function main(): void {
         throw new Error('assertion failed: De Morgan 2')
     }
 
-    // !(a || b) == !a && !b
+    // 验证德摩根定律：非或与非与
     if (!(true || false) != (!true && !false)) {
         throw new Error('assertion failed: De Morgan 3')
     }
 
-    // Chained: NOT of equality
+    // 验证等值取反
     let a: boolean = true
     let b: boolean = false
     if (!(a == b) != (a != b)) {
-        throw new Error('assertion failed: !(a==b) != (a!=b)')
+        throw new Error('assertion failed: equality negated')
     }
 console.log('verified')
 }

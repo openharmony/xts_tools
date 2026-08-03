@@ -21,32 +21,42 @@
  */
 function testFalsy(): void {
     // Falsy values in ArkTS Extended Conditional
-    if (!null != true) { throw new Error('null')
-}
-    if (!undefined != true) { throw new Error('undefined')
-}
-    if (!0 != true) { throw new Error('0')
-}
-    if (!'' != true) { throw new Error('empty string')
-}
-    if (!false != true) { throw new Error('false')
-}
+    if (!null != true) {
+    throw new Error('null')
+  }
+    if (!undefined != true) {
+    throw new Error('undefined')
+  }
+    if (!0 != true) {
+    throw new Error('0')
+  }
+    if (!'' != true) {
+    throw new Error('empty string')
+  }
+    if (!false != true) {
+    throw new Error('false')
+  }
 }
 
 function testTruthy(): void {
-    if (!42 != false) { throw new Error('42')
-}
-    if (!'hello' != false) { throw new Error('hello')
-}
+    if (!42 != false) {
+    throw new Error('42')
+  }
+    if (!'hello' != false) {
+    throw new Error('hello')
+  }
     let o: Object = {}
-    if (!o != false) { throw new Error('Object')
-}
+    if (!o != false) {
+    throw new Error('Object')
+  }
     if (!(-1) != false) { throw new Error('-1')
 }
-    if (!3.14 != false) { throw new Error('3.14')
-}
-    if (!true != false) { throw new Error('true')
-}
+    if (!3.14 != false) {
+    throw new Error('3.14')
+  }
+    if (!true != false) {
+    throw new Error('true')
+  }
 }
 
 function main(): void {

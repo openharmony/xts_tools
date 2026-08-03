@@ -25,7 +25,7 @@ function main(): void {
     let ri1: int = ~xi
     let ri2: int = (-xi) - 1
     if (ri1 != ri2) {
-        throw new Error("assertion failed: ~42 != (-42)-1, ~42=" + ri1 + ' (-42)-1=' + ri2)
+        throw new Error('assertion failed: ~42 != (-42)-1, ~42=' + ri1 + ' (-42)-1=' + ri2)
     }
 
     // int negative
