@@ -26,25 +26,25 @@ function main(): void {
   // +0**(-3) = +Infinity（负奇整数，但 +0 对任何负指数都出 +Inf）
   let r1: double = 0.0 ** (-3.0)
   if (r1 != inf) {
-    throw new Error("assertion failed: 0.0**(-3.0)=" + r1)
+    throw new Error('assertion failed: 0.0**(-3.0)=' + r1)
   }
 
   // +0**(-2) = +Infinity（负偶整数）
   let r2: double = 0.0 ** (-2.0)
   if (r2 != inf) {
-    throw new Error("assertion failed: 0.0**(-2.0)=" + r2)
+    throw new Error('assertion failed: 0.0**(-2.0)=' + r2)
   }
 
   // (-0)**(-3) = -Infinity（-0 的负奇整数指数出 -Inf）
   let r3: double = negZero ** (-3.0)
   if (r3 != -inf) {
-    throw new Error("assertion failed: (-0)**(-3.0)=" + r3)
+    throw new Error('assertion failed: (-0)**(-3.0)=' + r3)
   }
 
   // (-0)**(-2) = +Infinity（-0 的负偶整数指数出 +Inf）
   let r4: double = negZero ** (-2.0)
   if (r4 != inf) {
-    throw new Error("assertion failed: (-0)**(-2.0)=" + r4)
+    throw new Error('assertion failed: (-0)**(-2.0)=' + r4)
   }
 console.log('verified')
 }

@@ -44,25 +44,25 @@ function main(): void {
   // Inf ** 2 = Inf
   let r4: double = inf ** 2.0
   if (r4 != inf) {
-    throw new Error("assertion failed: Inf**2=" + r4)
+    throw new Error('assertion failed: Inf**2=' + r4)
   }
 
   // Inf ** (-2) = +0
   let r5: double = inf ** (-2.0)
   if (r5 != 0.0) {
-    throw new Error("assertion failed: Inf**(-2)=" + r5)
+    throw new Error('assertion failed: Inf**(-2)=' + r5)
   }
 
   // Inf ** Inf = Inf
   let r6: double = inf ** inf
   if (r6 != inf) {
-    throw new Error("assertion failed: Inf**Inf=" + r6)
+    throw new Error('assertion failed: Inf**Inf=' + r6)
   }
 
   // Inf ** (-Inf) = +0
   let r7: double = inf ** (-inf)
   if (r7 != 0.0) {
-    throw new Error("assertion failed: Inf**(-Inf)=" + r7)
+    throw new Error('assertion failed: Inf**(-Inf)=' + r7)
   }
 console.log('verified')
 }

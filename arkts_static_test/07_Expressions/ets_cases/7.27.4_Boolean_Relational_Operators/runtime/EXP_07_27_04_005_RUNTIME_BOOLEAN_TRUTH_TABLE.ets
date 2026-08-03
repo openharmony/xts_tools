@@ -21,17 +21,23 @@
  * @note 运行时用例：实际执行验证布尔关系真值表
  */
 function main(): void {
-  if (false < true != true) { throw new Error('assertion failed: false < true')
+  if (false < true != true) {
+    throw new Error('assertion failed: false < true')
   }
-  if (true < false != false) { throw new Error('assertion failed: true < false')
+  if (true < false != false) {
+    throw new Error('assertion failed: true < false')
   }
-  if (false > true != false) { throw new Error('assertion failed: false > true')
+  if (false > true != false) {
+    throw new Error('assertion failed: false > true')
   }
-  if (true > false != true) { throw new Error('assertion failed: true > false')
+  if (true > false != true) {
+    throw new Error('assertion failed: true > false')
   }
-  if (false <= false != true) { throw new Error('assertion failed: false <= false')
+  if (false <= false != true) {
+    throw new Error('assertion failed: false <= false')
   }
-  if (true >= true != true) { throw new Error('assertion failed: true >= true')
+  if (true >= true != true) {
+    throw new Error('assertion failed: true >= true')
   }
-console.log('verified')
+  console.log('verified')
 }

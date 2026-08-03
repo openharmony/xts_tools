@@ -22,7 +22,7 @@ Function Type Equality Operators（函数类型等值运算符）定义了 `==`�
 | 003 | 不同参数签名 | `foo == goo` 编译通过（运行时 false） |
 | 004 | 相同实例同名方法 | `a.method == a.method` 编译通过 |
 | 005 | 静态方法 | `A.method == A.method` 编译通过 |
-| 006 | 不同实例同名方法 | `a.method == aa.method` 编译通过（运行时 false） |
+| 006 | 不同实例同名方法 | `a.method == obj2.method` 编译通过（运行时 false） |
 | 007 | 同一实例不同名方法 | `a.method == a.foo` 编译通过（运行时 false） |
 | 008 | ===/!== 运算符 | `foo === foo` / `foo !== bar` / `a.method === a.method` 编译通过 |
 
@@ -42,10 +42,10 @@ Function Type Equality Operators（函数类型等值运算符）定义了 `==`�
 | 032 | 不同函数对象 | `foo() == bar()` → false |
 | 033 | 同一实例同一方法 | `a.method == a.method` → true |
 | 034 | 同一静态方法 | `A.method == A.method` → true |
-| 035 | 不同实例同一方法 | `a.method == aa.method` → false |
+| 035 | 不同实例同一方法 | `a.method == obj2.method` → false |
 | 036 | 同一实例不同方法 | `a.method == a.foo` → false |
 | 037 | === 严格等值 | `foo === foo` → true |
-| 038 | !== 严格不等 | `foo !== bar` → true，`a.method !== aa.method` → true |
+| 038 | !== 严格不等 | `foo !== bar` → true，`a.method !== obj2.method` → true |
 
 ## 文件命名规范
 

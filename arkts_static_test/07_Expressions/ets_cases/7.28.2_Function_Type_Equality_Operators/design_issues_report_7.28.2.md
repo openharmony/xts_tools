@@ -56,13 +56,13 @@
 | **实测结果** | ArkTS 和 Java 均支持实例方法引用比较 |
 | **错误信息** | N/A |
 
-**描述**：ArkTS 中 `a.method == aa.method` 返回 false（绑定实例不同）。Java 中 `bound1 != bound2` 返回 true（不同方法引用对象）。Swift 不支持实例方法引用比较。
+**描述**：ArkTS 中 `a.method == obj2.method` 返回 false（绑定实例不同）。Java 中 `bound1 != bound2` 返回 true（不同方法引用对象）。Swift 不支持实例方法引用比较。
 
 **跨语言对比**：
 
 | 语言 | 代码 | 行为 |
 |------|------|------|
-| ArkTS | `a.method == aa.method` | false（绑定实例不同） |
+| ArkTS | `a.method == obj2.method` | false（绑定实例不同） |
 | Java | `bound1 != bound2` | true（不同方法引用对象） |
 | Swift | 不支持 | 不支持 |
 

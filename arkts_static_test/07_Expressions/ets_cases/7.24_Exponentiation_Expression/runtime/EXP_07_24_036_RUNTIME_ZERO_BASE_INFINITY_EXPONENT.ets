@@ -27,25 +27,25 @@ function main(): void {
   // 0**(-Inf) = +Inf
   let r1: double = 0.0 ** negInf
   if (r1 != inf) {
-    throw new Error("assertion failed: 0.0**(-Inf)=" + r1)
+    throw new Error('assertion failed: 0.0**(-Inf)=' + r1)
   }
 
   // 0**(+Inf) = +0
   let r2: double = 0.0 ** inf
   if (r2 != 0.0) {
-    throw new Error("assertion failed: 0.0**(+Inf)=" + r2)
+    throw new Error('assertion failed: 0.0**(+Inf)=' + r2)
   }
 
   // (-0)**(-Inf) = +Inf
   let r3: double = negZero ** negInf
   if (r3 != inf) {
-    throw new Error("assertion failed: (-0)**(-Inf)=" + r3)
+    throw new Error('assertion failed: (-0)**(-Inf)=' + r3)
   }
 
   // (-0)**(+Inf) = +0
   let r4: double = negZero ** inf
   if (r4 != 0.0) {
-    throw new Error("assertion failed: (-0)**(+Inf)=" + r4)
+    throw new Error('assertion failed: (-0)**(+Inf)=' + r4)
   }
 console.log('verified')
 }

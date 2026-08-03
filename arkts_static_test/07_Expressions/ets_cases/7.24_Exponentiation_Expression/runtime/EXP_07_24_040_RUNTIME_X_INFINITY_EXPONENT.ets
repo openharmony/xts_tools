@@ -26,43 +26,43 @@ function main(): void {
   // 0.5 ** +Inf = +0（-1<0.5<1）
   let r1: double = 0.5 ** inf
   if (r1 != 0.0) {
-    throw new Error("assertion failed: 0.5**Inf=" + r1)
+    throw new Error('assertion failed: 0.5**Inf=' + r1)
   }
 
   // (-0.5) ** +Inf = +0（-1<-0.5<1）
   let r2: double = (-0.5) ** inf
   if (r2 != 0.0) {
-    throw new Error("assertion failed: (-0.5)**Inf=" + r2)
+    throw new Error('assertion failed: (-0.5)**Inf=' + r2)
   }
 
   // 2 ** +Inf = +Inf（x>1）
   let r3: double = 2.0 ** inf
   if (r3 != inf) {
-    throw new Error("assertion failed: 2.0**Inf=" + r3)
+    throw new Error('assertion failed: 2.0**Inf=' + r3)
   }
 
   // (-2) ** +Inf = +Inf（x<-1）
   let r4: double = (-2.0) ** inf
   if (r4 != inf) {
-    throw new Error("assertion failed: (-2.0)**Inf=" + r4)
+    throw new Error('assertion failed: (-2.0)**Inf=' + r4)
   }
 
   // 0.5 ** -Inf = +Inf（-1<0.5<1）
   let r5: double = 0.5 ** negInf
   if (r5 != inf) {
-    throw new Error("assertion failed: 0.5**(-Inf)=" + r5)
+    throw new Error('assertion failed: 0.5**(-Inf)=' + r5)
   }
 
   // 2 ** -Inf = +0（x>1）
   let r6: double = 2.0 ** negInf
   if (r6 != 0.0) {
-    throw new Error("assertion failed: 2.0**(-Inf)=" + r6)
+    throw new Error('assertion failed: 2.0**(-Inf)=' + r6)
   }
 
   // (-2) ** -Inf = +0（x<-1）
   let r7: double = (-2.0) ** negInf
   if (r7 != 0.0) {
-    throw new Error("assertion failed: (-2.0)**(-Inf)=" + r7)
+    throw new Error('assertion failed: (-2.0)**(-Inf)=' + r7)
   }
 console.log('verified')
 }

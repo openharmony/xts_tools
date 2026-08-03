@@ -61,8 +61,8 @@ function main(): void {
     }
 
     // 相同长字符串
-    let t1: string = 'ARKTS is a static typed programming language for HarmonyOS';
-    let t2: string = 'ARKTS is a static typed programming language for HarmonyOS';
+    let t1: string = 'ARKTS is a static typed programming language for software development';
+    let t2: string = 'ARKTS is a static typed programming language for software development';
     if (t1 < t2 != false) {
     throw new Error('assertion failed: t1 < t2 (equal)');
   }

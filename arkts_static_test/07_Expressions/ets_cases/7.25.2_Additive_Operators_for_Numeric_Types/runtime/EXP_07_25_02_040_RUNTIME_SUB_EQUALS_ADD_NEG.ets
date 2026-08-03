@@ -27,14 +27,14 @@ function main(): void {
   let sub1: int = a - b
   let addNeg1: int = a + (-b)
   if (sub1 != addNeg1) {
-    throw new Error("int: 10-3(" + sub1 + ') != 10+(-3)(' + addNeg1 + ')')
+    throw new Error('int: 10-3(' + sub1 + ') != 10+(-3)(' + addNeg1 + ')')
   }
 
   // int: 负数
   let sub2: int = (-5) - (-3)
   let addNeg2: int = (-5) + 3
   if (sub2 != addNeg2) {
-    throw new Error("int: (-5)-(-3)(" + sub2 + ') != (-5)+3(' + addNeg2 + ')')
+    throw new Error('int: (-5)-(-3)(' + sub2 + ') != (-5)+3(' + addNeg2 + ')')
   }
 
   // double: a-b = a+(-b)
@@ -45,7 +45,7 @@ function main(): void {
   // 浮点比较使用容差
   let diff: double = sub3 - addNeg3
   if (diff < -0.0000001 || diff > 0.0000001) {
-    throw new Error("double: 7.5-2.3(" + sub3 + ') != 7.5+(-2.3)(' + addNeg3 + ')')
+    throw new Error('double: 7.5-2.3(' + sub3 + ') != 7.5+(-2.3)(' + addNeg3 + ')')
   }
 
   // float: a-b = a+(-b)
@@ -55,7 +55,7 @@ function main(): void {
   let addNeg4: float = p + (-q)
   let diff2: float = sub4 - addNeg4
   if (diff2 < -0.0001 || diff2 > 0.0001) {
-    throw new Error("float: 100.5-50.25(" + sub4 + ') != 100.5+(-50.25)(' + addNeg4 + ')')
+    throw new Error('float: 100.5-50.25(' + sub4 + ') != 100.5+(-50.25)(' + addNeg4 + ')')
   }
 console.log('verified')
 }

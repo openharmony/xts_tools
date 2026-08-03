@@ -33,28 +33,28 @@ function main(): void {
   sideEffectCounter = 0
   let r1 = false && increment()
   if (sideEffectCounter != 0) {
-    throw new Error("false && should short-circuit, counter=" + sideEffectCounter)
+    throw new Error('false && should short-circuit, counter=' + sideEffectCounter)
   }
 
   // true || increment() —— 短路，不调用 increment
   sideEffectCounter = 0
   let r2 = true || increment()
   if (sideEffectCounter != 0) {
-    throw new Error("true || should short-circuit, counter=" + sideEffectCounter)
+    throw new Error('true || should short-circuit, counter=' + sideEffectCounter)
   }
 
   // true && increment() —— 不短路，应调用
   sideEffectCounter = 0
   let r3 = true && increment()
   if (sideEffectCounter != 1) {
-    throw new Error("true && should NOT short-circuit, counter=" + sideEffectCounter)
+    throw new Error('true && should NOT short-circuit, counter=' + sideEffectCounter)
   }
 
   // false || increment() —— 不短路，应调用
   sideEffectCounter = 0
   let r4 = false || increment()
   if (sideEffectCounter != 1) {
-    throw new Error("false || should NOT short-circuit, counter=" + sideEffectCounter)
+    throw new Error('false || should NOT short-circuit, counter=' + sideEffectCounter)
   }
 
   // 结果值验证

@@ -28,14 +28,14 @@ function main(): void {
   let sub1: int = 0 - a
   let neg1: int = -a
   if (sub1 != neg1) {
-    throw new Error("int: 0-42(" + sub1 + ') != -42(' + neg1 + ')')
+    throw new Error('int: 0-42(' + sub1 + ') != -42(' + neg1 + ')')
   }
 
   let b: int = -17
   let sub2: int = 0 - b
   let neg2: int = -b
   if (sub2 != neg2) {
-    throw new Error("int: 0-(-17)(" + sub2 + ') != -(-17)(' + neg2 + ')')
+    throw new Error('int: 0-(-17)(' + sub2 + ') != -(-17)(' + neg2 + ')')
   }
 
   // float: 0.0 - (+0.0) = +0.0
@@ -58,7 +58,7 @@ function main(): void {
   let checkNeg: double = 1.0 / negZero
   let negInf: double = -1.0 / 0.0
   if (checkNeg != negInf) {
-    throw new Error("-0.0 should be -0.0 (1/result=-Inf), got 1/" + negZero + '=' + checkNeg)
+    throw new Error('-0.0 should be -0.0 (1/result=-Inf), got 1/' + negZero + '=' + checkNeg)
   }
 
   // long: 0 - x = -x
@@ -66,7 +66,7 @@ function main(): void {
   let sub3: long = 0 - c
   let neg3: long = -c
   if (sub3 != neg3) {
-    throw new Error("long: 0-99999999999(" + sub3 + ') != -99999999999(' + neg3 + ')')
+    throw new Error('long: 0-99999999999(' + sub3 + ') != -99999999999(' + neg3 + ')')
   }
 console.log('verified')
 }

@@ -25,7 +25,7 @@ function main(): void {
   // 基本运算 - 各种合法运算不应抛出异常
   let r1: double = 2.0 ** 10.0
   if (r1 != 1024.0) {
-    throw new Error("assertion failed: 2.0**10.0=" + r1)
+    throw new Error('assertion failed: 2.0**10.0=' + r1)
   }
 
   // 大数运算不抛异常（溢出到 Infinity）
@@ -58,7 +58,7 @@ function main(): void {
   // 小数运算 (Math.pow(1.5, 2) = 2.25)
   let r6: double = 1.5 ** 2.0
   if (r6 != 2.25) {
-    throw new Error("assertion failed: 1.5**2.0=" + r6)
+    throw new Error('assertion failed: 1.5**2.0=' + r6)
   }
 console.log('verified')
 }

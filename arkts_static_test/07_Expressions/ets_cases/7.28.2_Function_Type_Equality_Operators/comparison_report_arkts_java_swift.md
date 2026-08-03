@@ -63,7 +63,7 @@
 ### 用例 5: 不同实例同一方法
 | 语言 | 代码 | 结果 |
 |------|------|:----:|
-| ArkTS | `a.method == aa.method` | `false` |
+| ArkTS | `a.method == obj2.method` | `false` |
 | Java | `bound1 != bound2` | `true` |
 | Swift | ❌ 不支持 | N/A |
 

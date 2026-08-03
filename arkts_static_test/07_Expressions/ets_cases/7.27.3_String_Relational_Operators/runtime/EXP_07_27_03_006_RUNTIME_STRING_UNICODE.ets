@@ -23,7 +23,8 @@ function main(): void {
   let a: string = 'hello'
   let b: string = 'world'
   let result: boolean = a < b
-  if (result != true) { throw new Error('assertion failed: hello < world')
-}
-console.log('verified')
+  if (result != true) {
+    throw new Error('assertion failed: hello < world')
+  }
+  console.log('verified')
 }

@@ -53,7 +53,7 @@ function main(): void {
   let r4 = c << d
   let r4Type = typeof(r4)
   if (r3Type == r4Type) {
-    throw new Error("LHS type should determine result: int<<long=" + r3Type + ' long<<int=' + r4Type)
+    throw new Error('LHS type should determine result: int<<long=' + r3Type + ' long<<int=' + r4Type)
   }
 
   // byte << int → int (byte 提升为 int)

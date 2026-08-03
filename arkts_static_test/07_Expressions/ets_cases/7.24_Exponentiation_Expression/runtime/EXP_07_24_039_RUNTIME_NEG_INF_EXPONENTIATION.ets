@@ -32,7 +32,7 @@ function main(): void {
   // (-Inf) ** (-2) = +0（负偶整数）
   let r2: double = negInf ** (-2.0)
   if (r2 != 0.0) {
-    throw new Error("assertion failed: (-Inf)**(-2)=" + r2)
+    throw new Error('assertion failed: (-Inf)**(-2)=' + r2)
   }
   if (1.0/r2 != inf) {
     throw new Error('assertion failed: (-Inf)**(-2) should be +0')
@@ -41,19 +41,19 @@ function main(): void {
   // (-Inf) ** 3 = -Inf（正奇整数）
   let r3: double = negInf ** 3.0
   if (r3 != negInf) {
-    throw new Error("assertion failed: (-Inf)**3=" + r3)
+    throw new Error('assertion failed: (-Inf)**3=' + r3)
   }
 
   // (-Inf) ** 2 = +Inf（正偶整数）
   let r4: double = negInf ** 2.0
   if (r4 != inf) {
-    throw new Error("assertion failed: (-Inf)**2=" + r4)
+    throw new Error('assertion failed: (-Inf)**2=' + r4)
   }
 
   // (-Inf) ** 3.5 = +Inf（非整数正）
   let r5: double = negInf ** 3.5
   if (r5 != inf) {
-    throw new Error("assertion failed: (-Inf)**3.5=" + r5)
+    throw new Error('assertion failed: (-Inf)**3.5=' + r5)
   }
 console.log('verified')
 }

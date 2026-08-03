@@ -27,25 +27,25 @@ function main(): void {
   // NaN ** 0 = 1
   let r1: double = nan ** 0.0
   if (r1 != 1.0) {
-    throw new Error("assertion failed: NaN**0=" + r1)
+    throw new Error('assertion failed: NaN**0=' + r1)
   }
 
   // Inf ** 0 = 1
   let r2: double = inf ** 0.0
   if (r2 != 1.0) {
-    throw new Error("assertion failed: Inf**0=" + r2)
+    throw new Error('assertion failed: Inf**0=' + r2)
   }
 
   // 5 ** 0 = 1
   let r3: double = 5.0 ** 0.0
   if (r3 != 1.0) {
-    throw new Error("assertion failed: 5.0**0.0=" + r3)
+    throw new Error('assertion failed: 5.0**0.0=' + r3)
   }
 
   // 0 ** 0 = 1
   let r4: double = 0.0 ** 0.0
   if (r4 != 1.0) {
-    throw new Error("assertion failed: 0.0**0.0=" + r4)
+    throw new Error('assertion failed: 0.0**0.0=' + r4)
   }
 
   // (-5) ** 0 = 1（IEEE 754 规则）
@@ -57,7 +57,7 @@ function main(): void {
   let negZero: double = -1.0/inf
   let r6: double = 5.0 ** negZero
   if (r6 != 1.0) {
-    throw new Error("assertion failed: 5.0**(-0)=" + r6)
+    throw new Error('assertion failed: 5.0**(-0)=' + r6)
   }
 console.log('verified')
 }

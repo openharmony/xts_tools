@@ -22,10 +22,12 @@
  */
 function main(): void {
   let flag: boolean = false
-  if (flag < true) { console.log('false < true in if')
-}
+  if (flag < true) {
+    console.log('false < true in if')
+  }
   let val: boolean = true > false
-  if (val) { console.log('true > false is truthy')
-}
-console.log('verified')
+  if (val) {
+    console.log('true > false is truthy')
+  }
+  console.log('verified')
 }

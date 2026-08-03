@@ -22,7 +22,6 @@
  * @note 运行时用例：int 溢出行为
  */
 function main(): void {
-  // MAX_INT = 2147483647
   let max: int = 2147483647
 
   // MAX_INT + 1 = MIN_INT (-2147483648)

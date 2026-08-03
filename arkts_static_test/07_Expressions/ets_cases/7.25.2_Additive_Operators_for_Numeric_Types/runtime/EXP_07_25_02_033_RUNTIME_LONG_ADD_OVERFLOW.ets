@@ -36,7 +36,6 @@ function main(): void {
     throw new Error('(-100000000000)+40000000000 should be -60000000000, got ' + r2)
   }
 
-  // MAX_LONG = 9223372036854775807
   let maxLong: long = 9223372036854775807
   let r3: long = maxLong + 1
   let expected3: long = -9223372036854775808
