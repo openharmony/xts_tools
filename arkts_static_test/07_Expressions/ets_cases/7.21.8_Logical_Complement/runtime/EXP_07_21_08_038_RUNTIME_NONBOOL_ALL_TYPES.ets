@@ -49,8 +49,9 @@ function testTruthy(): void {
     if (!o != false) {
     throw new Error('Object')
   }
-    if (!(-1) != false) { throw new Error('-1')
-}
+    if (!(-1) != false) {
+    throw new Error('-1')
+  }
     if (!3.14 != false) {
     throw new Error('3.14')
   }

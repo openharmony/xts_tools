@@ -45,7 +45,7 @@ function main(): void {
     }
 
     let r2: string = formatUnion(x)
-    if (r2 != "<xml/>") {
+    if (r2 != '<xml/>') {
         throw new Error('assertion failed: expected xml, got ' + r2)
     }
 console.log('verified')
