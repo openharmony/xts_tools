@@ -40,7 +40,7 @@ function main(): void {
     let x: XmlFormatter = new XmlFormatter()
 
     let r1: string = formatUnion(j)
-    if (r1 != "{json: true}") {
+    if (r1 != '{json: true}') {
         throw new Error('assertion failed: expected json, got ' + r1)
     }
 

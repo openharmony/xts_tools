@@ -24,11 +24,11 @@ class Inner {
 }
 
 class Middle {
-  inner?: Inner = undefined;
+  public inner?: Inner = undefined;
 }
 
 class Outer {
-  middle?: Middle = undefined;
+  public middle?: Middle = undefined;
 }
 
 function main(): void {

@@ -35,7 +35,7 @@ function main(): void {
     let p: Processor = new Processor()
 
     let r1: string = p.process(10)
-    if (r1 != "int:10") {
+    if (r1 != 'int:10') {
         throw new Error('assertion failed: got ' + r1)
     }
 

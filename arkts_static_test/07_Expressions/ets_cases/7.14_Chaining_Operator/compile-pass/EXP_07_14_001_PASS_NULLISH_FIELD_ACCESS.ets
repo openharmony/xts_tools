@@ -21,7 +21,7 @@
  */
 class Person {
   public name: string;
-  spouse?: Person = undefined;
+  public spouse?: Person = undefined;
   constructor(name: string) {
     this.name = name;
   }

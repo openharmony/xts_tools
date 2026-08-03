@@ -36,6 +36,6 @@ class Wrapper {
 }
 
 function main(): void {
-    let f: Wrapper = new Wrapper("-")
+    let f: Wrapper = new Wrapper('-')
     let r: string = f.wrap('x', 3)
 }

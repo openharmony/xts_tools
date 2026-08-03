@@ -37,7 +37,7 @@ class Calculator {
 
 function main(): void {
     let r1: int = Calculator.add(3, 4)
-    let r2: string = Calculator.concat('Hello', " World")
+    let r2: string = Calculator.concat('Hello', ' World')
     let arr: int[] = [1, 2, 3]
     let r3: int = Calculator.sum(arr)
 }
