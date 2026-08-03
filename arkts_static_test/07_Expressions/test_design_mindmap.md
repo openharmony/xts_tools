@@ -1,0 +1,392 @@
+# 07 Expressions Test Design Mindmap
+
+- Expressions
+  - compile-pass
+  - compile-fail
+  - runtime
+  - boundary
+  - negative diagnostics
+  - interoperability with related chapters
+
+## Subtopics
+
+- 7.1_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.1.1_Operator_Precedence
+  - normal cases
+  - edge cases
+  - error cases
+- 7.2_Evaluation_of_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.2.1_Type_of_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.2.2_Normal_and_Abrupt_Completion_of_Expression_Evaluation
+  - normal cases
+  - edge cases
+  - error cases
+- 7.2.3_Order_of_Expression_Evaluation
+  - normal cases
+  - edge cases
+  - error cases
+- 7.2.4_Evaluation_of_Arguments
+  - normal cases
+  - edge cases
+  - error cases
+- 7.2.5_Evaluation_of_Other_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.3_Literal
+  - normal cases
+  - edge cases
+  - error cases
+- 7.4_Named_Reference
+  - normal cases
+  - edge cases
+  - error cases
+- 7.4.1_Function_Reference
+  - normal cases
+  - edge cases
+  - error cases
+- 7.4.2_Method_Reference
+  - normal cases
+  - edge cases
+  - error cases
+- 7.5_Array_Literal
+  - normal cases
+  - edge cases
+  - error cases
+- 7.5.1_Array_Literal_Type_Inference_from_Context
+  - normal cases
+  - edge cases
+  - error cases
+- 7.5.2_Array_Type_Inference_from_Types_of_Elements
+  - normal cases
+  - edge cases
+  - error cases
+- 7.6_Object_Literal
+  - normal cases
+  - edge cases
+  - error cases
+- 7.6.1_Object_Literal_of_Class_Type
+  - normal cases
+  - edge cases
+  - error cases
+- 7.6.2_Object_Literal_of_Interface_Type
+  - normal cases
+  - edge cases
+  - error cases
+- 7.6.3_Object_Literal_of_Record_Type
+  - normal cases
+  - edge cases
+  - error cases
+- 7.6.4_Object_Literal_Evaluation
+  - normal cases
+  - edge cases
+  - error cases
+- 7.7_Spread_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.8_Parenthesized_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.9_this_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.10_Field_Access_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.10.1_Accessing_Static_Fields
+  - normal cases
+  - edge cases
+  - error cases
+- 7.10.2_Accessing_Current_Object_Fields
+  - normal cases
+  - edge cases
+  - error cases
+- 7.10.3_Accessing_Super_Class_Accessors
+  - normal cases
+  - edge cases
+  - error cases
+- 7.11_Method_Call_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.11.1_Selection_of_Type_to_Use
+  - normal cases
+  - edge cases
+  - error cases
+- 7.11.2_Selection_of_Entity_to_Call
+  - normal cases
+  - edge cases
+  - error cases
+- 7.11.3_Checking_Modifiers
+  - normal cases
+  - edge cases
+  - error cases
+- 7.11.4_Type_of_Method_Call_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.12_Function_Call_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.12.1_Call_Arguments
+  - normal cases
+  - edge cases
+  - error cases
+- 7.13_Indexing_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.13.1_Array_Indexing_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.13.2_String_Indexing_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.13.3_Record_Indexing_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.14_Chaining_Operator
+  - normal cases
+  - edge cases
+  - error cases
+- 7.15_New_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.16_instanceof_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.17_Cast_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.17.1_Type_Inference_in_Cast_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.17.2_Runtime_Checking_in_Cast_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.18_typeof_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.19_Ensure_Not_Nullish_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.20_Nullish_Coalescing_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21_Unary_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.1_Postfix_Increment
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.2_Postfix_Decrement
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.3_Prefix_Increment
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.4_Prefix_Decrement
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.5_Unary_Plus
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.6_Unary_Minus
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.7_Bitwise_Complement
+  - normal cases
+  - edge cases
+  - error cases
+- 7.21.8_Logical_Complement
+  - normal cases
+  - edge cases
+  - error cases
+- 7.22_Binary_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.23_Multiplicative_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.23.1_Multiplication
+  - normal cases
+  - edge cases
+  - error cases
+- 7.23.2_Division
+  - normal cases
+  - edge cases
+  - error cases
+- 7.23.3_Remainder
+  - normal cases
+  - edge cases
+  - error cases
+- 7.24_Exponentiation_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.25_Additive_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.25.1_String_Concatenation
+  - normal cases
+  - edge cases
+  - error cases
+- 7.25.2_Additive_Operators_for_Numeric_Types
+  - normal cases
+  - edge cases
+  - error cases
+- 7.26_Shift_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27_Relational_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27.1_Numeric_Relational_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27.2_Bigint_Relational_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27.3_String_Relational_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27.4_Boolean_Relational_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27.5_char_Relational_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.27.6_Enumeration_Relational_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.28_Equality_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.28.1_Numeric_Equality_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.28.2_Function_Type_Equality_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.28.3_Extended_Equality_with_null_or_undefined
+  - normal cases
+  - edge cases
+  - error cases
+- 7.29_Bitwise_and_Logical_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.29.1_Integer_Bitwise_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.29.2_Boolean_Logical_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.30_Conditional_And_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.31_Conditional_Or_Expression
+  - normal cases
+  - edge cases
+  - error cases
+- 7.32_Assignment
+  - normal cases
+  - edge cases
+  - error cases
+- 7.32.1_Simple_Assignment_Operator
+  - normal cases
+  - edge cases
+  - error cases
+- 7.32.2_Compound_Assignment_Operators
+  - normal cases
+  - edge cases
+  - error cases
+- 7.32.3_Left_Hand_Side_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.33_Ternary_Conditional_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.34_String_Interpolation_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.35_Lambda_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.35.1_Lambda_Signature
+  - normal cases
+  - edge cases
+  - error cases
+- 7.35.2_Lambda_Body
+  - normal cases
+  - edge cases
+  - error cases
+- 7.35.3_Lambda_Expression_Type
+  - normal cases
+  - edge cases
+  - error cases
+- 7.35.4_Runtime_Evaluation_of_Lambda_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.36_Constant_Expressions
+  - normal cases
+  - edge cases
+  - error cases
+- 7.36.1_Specifics_of_Constant_Expressions_Evaluation
+  - normal cases
+  - edge cases
+  - error cases
