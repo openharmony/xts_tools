@@ -62,10 +62,11 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180
-     * @tc.desc    Capture screenshot of Image component (GIF) using get(id)
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180';
@@ -85,10 +86,11 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340
-     * @tc.desc    Capture screenshot of Image component (GIF) via createFromBuilder(builder,callback)
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340';
@@ -108,10 +110,11 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360
-     * @tc.desc    Capture screenshot of Image component (JPEG) via createFromBuilder(builder,callback)
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360';
@@ -131,10 +134,11 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460
-     * @tc.desc    Capture screenshot of Image component (GIF) via createFromBuilder(builder)
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460';

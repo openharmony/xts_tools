@@ -59,10 +59,11 @@ export default function UIComponentScrollScrollGetItemRect() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210
-     * @tc.desc    When Grid's child component is within the screen, pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210';
@@ -88,10 +89,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220
-     * @tc.desc    When Grid's child component is within the screen, pass an invalid value to getItemRect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220';
@@ -127,10 +129,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280
-     * @tc.desc    When Grid's child component is within the screen, set child Visibility.None, then pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280';
@@ -154,10 +157,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310
-     * @tc.desc    When WaterFlow's child component is within the screen, pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310';
@@ -183,10 +187,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320
-     * @tc.desc    When WaterFlow's child component is within the screen, pass an invalid value to getItemRect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320';
@@ -222,10 +227,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330
-     * @tc.desc    When WaterFlow's child component is partially within the screen, pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330';
@@ -251,10 +257,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340
-     * @tc.desc    When WaterFlow's child component is within the screen, after switching between portrait and landscape, pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340';
@@ -289,10 +296,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350
-     * @tc.desc    When WaterFlow's child component is within the screen, WaterFlow dynamically sets padding and the child dynamically sets margin, then pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350';
@@ -323,10 +331,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360
-     * @tc.desc    When WaterFlow's child component is within the screen, the child dynamically sets offset and position, then pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360';
@@ -357,10 +366,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370
-     * @tc.desc    When WaterFlow's child component is within the screen, set child Visibility.None, then pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370';
@@ -384,10 +394,11 @@ export default function UIComponentScrollScrollGetItemRect() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380
-     * @tc.desc    When WaterFlow's child component is within the screen, set child Visibility.Hidden, then pass getItemRect to obtain the child's size and position
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380';

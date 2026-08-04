@@ -62,10 +62,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010
-     * @tc.desc    Set controller and type as SURFACE for XComponent, use getXComponentContext method, and add onload event
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010';
@@ -84,10 +85,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020
-     * @tc.desc    Set controller and type as TEXTURE for XComponent, use getXComponentContext method, and add onload event
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020';
@@ -106,10 +108,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030
-     * @tc.desc    Configure XComponent with controller and SURFACE type, use setXComponentSurfaceSize and getXComponentSurfaceId methods, and add onload event
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030';
@@ -134,10 +137,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040
-     * @tc.desc    Configure XComponent with controller and TEXTURE type, use setXComponentSurfaceSize and getXComponentSurfaceId methods, and add onload event
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040';
@@ -162,10 +166,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060
-     * @tc.desc    Set XComponent with controller and TEXTURE type, use setXComponentSurfaceRotation and getXComponentSurfaceRotation methods, and add onload event
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060';
@@ -221,10 +226,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070
-     * @tc.desc    Configure XComponent with controller and SURFACE type, use setXComponentSurfaceRect and getXComponentSurfaceRect methods, and add onload event
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070';
@@ -248,10 +254,11 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080
-     * @tc.desc    Set width and height for EmbeddedComponent via Size
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080';

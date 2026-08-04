@@ -63,10 +63,11 @@ export default function UIComponentSymbolGlyphFontSizeScale() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010
-     * @tc.desc    Set minFontScale and maxFontScale for SymbolGlyph
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010';
@@ -92,10 +93,11 @@ export default function UIComponentSymbolGlyphFontSizeScale() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110
-     * @tc.desc    Set SymbolGlyph's minFontScale to undefined/null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110';
@@ -121,10 +123,11 @@ export default function UIComponentSymbolGlyphFontSizeScale() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130
-     * @tc.desc    Set SymbolGlyph's maxFontScale to undefined/null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130';

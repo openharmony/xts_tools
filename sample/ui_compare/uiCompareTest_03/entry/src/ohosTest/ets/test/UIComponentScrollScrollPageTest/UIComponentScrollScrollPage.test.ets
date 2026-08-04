@@ -63,10 +63,11 @@ export default function UIComponentScrollScrollPage() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130
-     * @tc.desc    Test Scroll ScrollPage animation with mouse long-press on scrollbar track area
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130';

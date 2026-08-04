@@ -59,10 +59,11 @@ export default function UIComponentScrollScrollInterface() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370
-     * @tc.desc    Do not set the scrollBar property of Scroll, click the scroll bar area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370';
@@ -83,10 +84,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550
-     * @tc.desc    After setting the scrollBar property of Scroll to Off, modify it to Auto in real time, swipe the screen to scroll the page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550';
@@ -114,10 +116,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560
-     * @tc.desc    After setting the scrollBar property of Scroll to Off, modify it to Auto in real time, the scroll bar is already at the top/bottom
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560';
@@ -145,10 +148,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570
-     * @tc.desc    After setting the scrollBar property of Scroll to Off, modify it to Auto in real time, click the scroll bar area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570';
@@ -176,10 +180,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600
-     * @tc.desc    After setting the scrollBar property of Scroll to On, modify it to Auto in real time, swipe the screen to scroll the page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600';
@@ -207,10 +212,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610
-     * @tc.desc    After setting the scrollBar property of Scroll to On, modify it to Auto in real time, the scroll bar is already at the top/bottom
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610';
@@ -238,10 +244,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620
-     * @tc.desc    After setting the scrollBar property of Scroll to On, modify it to Auto in real time, click the scroll bar area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620';
@@ -269,10 +276,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630
-     * @tc.desc    Set the scrollBar property of Scroll to scrollBar(Barstate.Auto), swipe the screen to scroll the page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630';
@@ -296,10 +304,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640
-     * @tc.desc    Set the scrollBar property of Scroll to scrollBar(Barstate.Auto), the scroll bar is already at the top/bottom
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640';
@@ -326,10 +335,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650
-     * @tc.desc    Set the scrollBar property of Scroll to scrollBar(Barstate.Auto), click the scroll bar area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650';
@@ -353,10 +363,11 @@ export default function UIComponentScrollScrollInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660
-     * @tc.desc    Set the scrollBar property of Scroll to scrollBar(Barstate.Auto), repeatedly slide
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660';

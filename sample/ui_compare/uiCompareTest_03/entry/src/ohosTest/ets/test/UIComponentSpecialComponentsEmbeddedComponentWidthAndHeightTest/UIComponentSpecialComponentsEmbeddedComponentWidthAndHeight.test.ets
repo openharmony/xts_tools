@@ -68,10 +68,11 @@ export default function UIComponentSpecialComponentsEmbeddedComponentWidthAndHei
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0010
-     * @tc.desc    Leave EmbeddedComponent's width and height unset to use default values
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0010';

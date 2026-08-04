@@ -59,10 +59,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010
-     * @tc.desc    List dynamically switches listDirection and portrait/landscape orientation, edgeEffect set to Spring
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010';
@@ -94,10 +95,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020
-     * @tc.desc    List dynamically switches listDirection and portrait/landscape orientation, edgeEffect set to Fade
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020';
@@ -129,10 +131,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030
-     * @tc.desc    List dynamically switches listDirection and portrait/landscape orientation, edgeEffect set to None
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030';
@@ -164,10 +167,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040
-     * @tc.desc    List dynamically switches listDirection and portrait/landscape orientation, without setting edgeEffect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040';
@@ -199,10 +203,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050';
@@ -234,10 +239,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060';
@@ -269,10 +275,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false, make child components exceed one screen by increasing space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070';
@@ -309,10 +316,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false, make child components exceed one screen by increasing the number of child components
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080';
@@ -349,10 +357,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false, make child components exceed one screen by increasing parent component padding and child component margin
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090';
@@ -389,10 +398,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, without setting alwaysEnable
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100';
@@ -424,10 +434,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110
-     * @tc.desc    List content does not fill one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to false, dynamically switch alwaysEnable
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110';
@@ -464,10 +475,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120
-     * @tc.desc    List content just exceeds one screen, dynamically switches listDirection and portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false, dynamically modify group sticky-to-top and sticky-to-bottom so that child components do not fill one screen when sticky to top or bottom
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120';
@@ -504,10 +516,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230
-     * @tc.desc    Scroll dynamically switches portrait/landscape orientation, edgeEffect set to Spring
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230';
@@ -535,10 +548,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240
-     * @tc.desc    Scroll dynamically switches portrait/landscape orientation, edgeEffect set to Fade
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240';
@@ -566,10 +580,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250
-     * @tc.desc    Scroll dynamically switches portrait/landscape orientation, edgeEffect set to None
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250';
@@ -597,10 +612,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260
-     * @tc.desc    Scroll dynamically switches portrait/landscape orientation, without setting edgeEffect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260';
@@ -628,10 +644,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270
-     * @tc.desc    Scroll content does not fill one screen, dynamically switches portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270';
@@ -659,10 +676,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280
-     * @tc.desc    Scroll content does not fill one screen, dynamically switches portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280';
@@ -690,10 +708,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290
-     * @tc.desc    Scroll content does not fill one screen, dynamically switches portrait/landscape orientation, enableScrollInteraction set to true, alwaysEnable set to false, make child components exceed one screen by increasing parent component padding and child component margin
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290';
@@ -724,10 +743,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300
-     * @tc.desc    Scroll content does not fill one screen, dynamically switches portrait/landscape orientation, enableScrollInteraction set to true, without setting alwaysEnable
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300';
@@ -755,10 +775,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310
-     * @tc.desc    Scroll content does not fill one screen, dynamically switches portrait/landscape orientation, enableScrollInteraction set to false, dynamically switch alwaysEnable
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310';
@@ -791,10 +812,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330
-     * @tc.desc    Grid sets alwaysEnable to false; content does not fill one screen; switch from vertical to horizontal; then it exceeds one screen; after sliding Grid to the bottom, switch from horizontal to vertical
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330';
@@ -826,10 +848,11 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340
-     * @tc.desc    List, Grid, Scroll page scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340';

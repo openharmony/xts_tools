@@ -63,10 +63,11 @@ export default function UIComponentSnapshotComponentContent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0040
-     * @tc.desc    Capture screenshot of Image component in JPG format
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0040';
@@ -85,10 +86,11 @@ export default function UIComponentSnapshotComponentContent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0430
-     * @tc.desc    Set delay parameter to 1000 in createFromComponente interface
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0430
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0430';
@@ -111,10 +113,11 @@ export default function UIComponentSnapshotComponentContent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0490
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0490
-     * @tc.desc    Set checkImageStatus parameter to false in createFromComponente interface
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0490
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0490', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0490';
@@ -136,10 +139,11 @@ export default function UIComponentSnapshotComponentContent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0540
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0540
-     * @tc.desc    Set scale parameter to 0.5 in createFromComponente interface
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0540
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0540', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0540';
@@ -161,10 +165,11 @@ export default function UIComponentSnapshotComponentContent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0640
-     * @tc.desc    Set waitUntilRenderFinished parameter to false in createFromComponente interface
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0640
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTENT_0640';

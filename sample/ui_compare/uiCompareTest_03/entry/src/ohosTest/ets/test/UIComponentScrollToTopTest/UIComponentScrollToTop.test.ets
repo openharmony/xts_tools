@@ -63,10 +63,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040
-     * @tc.desc    Verify scroll component with BackToTop true when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040';
@@ -89,10 +90,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050
-     * @tc.desc    Verify scroll component with BackToTop false when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050';
@@ -115,10 +117,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060
-     * @tc.desc    Verify scroll component with BackToTop undefined when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060';
@@ -141,10 +144,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070
-     * @tc.desc    Verify scroll component with BackToTop null when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070';
@@ -167,10 +171,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120
-     * @tc.desc    Verify list component with BackToTop true when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120';
@@ -193,10 +198,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130
-     * @tc.desc    Verify list component with BackToTop false when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130';
@@ -219,10 +225,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140
-     * @tc.desc    Verify list component with BackToTop undefined when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140';
@@ -245,10 +252,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150
-     * @tc.desc    Verify list component with BackToTop null when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150';
@@ -271,10 +279,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220
-     * @tc.desc    Verify WaterFlow component with BackToTop true when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220';
@@ -297,10 +306,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230
-     * @tc.desc    Verify WaterFlow component with BackToTop false when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230';
@@ -323,10 +333,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240
-     * @tc.desc    Verify WaterFlow component with BackToTop undefined when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240';
@@ -349,10 +360,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250
-     * @tc.desc    Verify WaterFlow component with BackToTop null when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250';
@@ -375,10 +387,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290
-     * @tc.desc    Verify Grid component with BackToTop true when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290';
@@ -401,10 +414,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300
-     * @tc.desc    Verify Grid component with BackToTop false when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300';
@@ -427,10 +441,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310
-     * @tc.desc    Verify Grid component with BackToTop undefined when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310';
@@ -453,10 +468,11 @@ export default function UIComponentScrollToTop() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320
-     * @tc.desc    Verify Grid component with BackToTop null when clicking status bar
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320';

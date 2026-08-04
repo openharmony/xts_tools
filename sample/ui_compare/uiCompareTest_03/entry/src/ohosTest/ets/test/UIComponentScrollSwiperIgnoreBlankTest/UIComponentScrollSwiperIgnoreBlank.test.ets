@@ -59,10 +59,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010
-     * @tc.desc    Set front margin ignore blank space on homepage
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0010';
@@ -79,10 +80,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020
-     * @tc.desc    Set front margin ignore blank space on medium page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0020';
@@ -99,10 +101,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030
-     * @tc.desc    Set front margin ignore blank space on last page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0030';
@@ -119,10 +122,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040
-     * @tc.desc    Set front margin without ignoring blank space on homepage
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0040';
@@ -139,10 +143,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050
-     * @tc.desc    Set front margin without ignoring blank space on medium page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0050';
@@ -159,10 +164,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060
-     * @tc.desc    Set front margin without ignoring blank space on last page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0060';
@@ -179,10 +185,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070
-     * @tc.desc    Set front margin ignore blank space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0070';
@@ -199,10 +206,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080
-     * @tc.desc    Set front margin without ignoring blank space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0080';
@@ -219,10 +227,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090
-     * @tc.desc    Set front margin with second parameter as null
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0090';
@@ -239,10 +248,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100
-     * @tc.desc    Set front margin without specifying second parameter
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0100';
@@ -259,10 +269,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110
-     * @tc.desc    Reset front margin
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0110';
@@ -279,10 +290,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120
-     * @tc.desc    Set front margin and get its value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0120';
@@ -301,10 +313,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130
-     * @tc.desc    Set next margin ignore blank space on homepage
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0130';
@@ -321,10 +334,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140
-     * @tc.desc    Set next margin ignore blank space on medium page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0140';
@@ -341,10 +355,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150
-     * @tc.desc    Set next margin ignore blank space on last page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0150';
@@ -361,10 +376,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160
-     * @tc.desc    Set next margin without ignoring blank space on home page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0160';
@@ -381,10 +397,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170
-     * @tc.desc    Set next margin without ignoring blank space on medium page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0170';
@@ -401,10 +418,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180
-     * @tc.desc    Set next margin without ignoring blank space on last page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0180';
@@ -421,10 +439,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190
-     * @tc.desc    Set next margin ignore blank space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0190';
@@ -441,10 +460,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200
-     * @tc.desc    Set next margin without ignoring blank space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0200';
@@ -461,10 +481,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210
-     * @tc.desc    Set rear margin with second parameter as null
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0210';
@@ -481,10 +502,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220
-     * @tc.desc    Reset rear margin
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0220';
@@ -501,10 +523,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230
-     * @tc.desc    Set next margin without specifying second parameter
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0230';
@@ -521,10 +544,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240
-     * @tc.desc    Set next margin and get its value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0240';
@@ -543,10 +567,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250
-     * @tc.desc    Set both front and next margins ignoring blank space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0250';
@@ -568,10 +593,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260
-     * @tc.desc    Set both front and next margins without ignoring blank space
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0260';
@@ -593,10 +619,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270
-     * @tc.desc    Set front margin across multiple pages in one group
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0270';
@@ -613,10 +640,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280
-     * @tc.desc    Set next margin across multiple pages in one group
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0280';
@@ -633,10 +661,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290
-     * @tc.desc    Set both front and next margins in loop scenario 01
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0290';
@@ -658,10 +687,11 @@ export default function UIComponentScrollSwiperIgnoreBlank() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300
-     * @tc.desc    Set both front and next margins in loop scenario 02
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_IGNOREBLANK_0300';

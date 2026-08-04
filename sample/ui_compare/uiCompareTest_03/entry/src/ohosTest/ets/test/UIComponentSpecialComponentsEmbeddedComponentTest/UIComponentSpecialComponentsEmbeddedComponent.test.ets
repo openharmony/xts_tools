@@ -68,10 +68,11 @@ export default function UIComponentSpecialComponentsEmbeddedComponent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040
-     * @tc.desc    Pass parameters 'want' and 'EmbeddedType' to EmbeddedComponent and bind the onError method
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040';
