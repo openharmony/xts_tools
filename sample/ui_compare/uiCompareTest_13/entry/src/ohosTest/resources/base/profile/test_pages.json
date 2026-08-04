@@ -1,0 +1,16 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0120",
+    "testability/pages/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0130",
+    "testability/pages/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0160",
+    "testability/pages/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0190",
+    "testability/pages/UiComponentMediaProgressAnimateto/UiComponentMediaProgressAnimateto0010",
+    "testability/pages/UiComponentMediaProgressAnimateto/UiComponentMediaProgressAnimateto0011",
+    "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0040",
+    "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0060",
+    "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0010",
+    "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0022",
+    "testability/pages/UiComponentMediaDarkColorMode/UiComponentMediaDarkColorMode0026"
+  ]
+}
