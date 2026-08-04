@@ -41,13 +41,12 @@ export default function TextRichtexteditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001
-       * @tc.desc    绑定菜单类型为RichEditorSpanType.DEFAULT类型
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001 start.`);
       Settings.createWindow("testability/pages/TextRichtexteditorMenuReinforcing/RicheditorMenuReinforcing0001")
@@ -59,13 +58,12 @@ export default function TextRichtexteditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002
-       * @tc.desc    SymbolGlyph, set the minFontScale and maxFontScale parameters of number type and Resources type
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002 start.`);
       Settings.createWindow("testability/pages/TextRichtexteditorMenuReinforcing/TextRichtexteditorMenuReinforcing")
@@ -80,13 +78,12 @@ export default function TextRichtexteditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B
-       * @tc.desc    绑定text/image/mixed/builder类型菜单
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   1
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B start.`);
       Settings.createWindow("testability/pages/TextRichtexteditorMenuReinforcing/RicheditorMenuReinforcing0002")

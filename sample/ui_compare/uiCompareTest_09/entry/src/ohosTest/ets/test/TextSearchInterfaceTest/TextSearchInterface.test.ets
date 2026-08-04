@@ -43,7 +43,6 @@ export default function TextSearchInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0340
-     * @tc.desc   : Search component, set the value to "This is the preset text" in the API.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

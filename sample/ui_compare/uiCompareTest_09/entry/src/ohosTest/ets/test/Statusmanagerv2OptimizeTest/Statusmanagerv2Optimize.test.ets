@@ -44,7 +44,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0080
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0080
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -65,7 +64,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0030
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0030
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -86,7 +84,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0040
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0040
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -107,7 +104,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0020
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0020
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -128,7 +124,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0120
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0120
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -149,7 +144,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0070
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0070
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -170,7 +164,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0060
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0060
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -191,7 +184,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0160
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0160
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -212,7 +204,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0100
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0100
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -233,7 +224,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0150
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0150
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -254,7 +244,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0110
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0110
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -275,7 +264,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0140
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0140
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -296,7 +284,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0180
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0180
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -317,7 +304,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0200
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0200
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -339,7 +325,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0190
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0190
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -361,7 +346,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0210
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0210
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -383,7 +367,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0220
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0220
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -416,7 +399,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0230
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0230
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -436,7 +418,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0260
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0260
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -457,7 +438,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -483,7 +463,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0280
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0280
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -505,7 +484,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
-     * @tc.desc   : 当Provider->Consumer装饰的状态变量为复杂类型object时可正确dump信息
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -531,7 +509,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
-     * @tc.desc   : 当@Consumer->Provider装饰的状态变量为复杂类型object时可正确dump信息
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -557,7 +534,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -578,7 +554,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
-     * @tc.desc   : 当@Provider->Consumer修饰class对象嵌套没有装饰器装饰的class
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -600,7 +575,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
-     * @tc.desc   : 当@Provider->Consumer修饰class对象嵌套被装饰器装饰的class
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -630,7 +604,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
-     * @tc.desc   : 当@Consumer->Provider修饰class对象嵌套没有装饰器装饰的class
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -652,7 +625,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
-     * @tc.desc   : 当@Consumer->Provider修饰class对象嵌套被装饰器装饰的class
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -682,7 +654,6 @@ export default function Statusmanagerv2Optimize() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0340
      * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0340
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

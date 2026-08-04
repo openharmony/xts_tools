@@ -30,10 +30,12 @@ export default function ToolchainHspandbundlename() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0010
-     * @tc.name 在entry中，引用HSP中的页面
-     * @tc.desc 验证entry页面Text组件文本大小15vp,字体颜色为粉色
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0010
+     * @tc.name   : 在entry中，引用HSP中的页面
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0010', 0, async () => {
       await Settings.createWindow('testability/pages/ToolchainHspandbundlename/Hspandbundlename0010');
@@ -48,10 +50,12 @@ export default function ToolchainHspandbundlename() {
       await windowSnap.snapShot('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0010');
     });
 
-    /**
-     * @tc.number SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0020
-     * @tc.name 在entry中，引用HSP中的页面，但integrateHsp为false
-     * @tc.desc 验证integrateHsp=false时，HSP资源仍可正常引用
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0020
+     * @tc.name   : 在entry中，引用HSP中的页面，但integrateHsp为false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0020', 0, async () => {
       await Settings.createWindow('testability/pages/ToolchainHspandbundlename/Hspandbundlename0020');
@@ -66,10 +70,12 @@ export default function ToolchainHspandbundlename() {
       await windowSnap.snapShot('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0020');
     });
 
-    /**
-     * @tc.number SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0030
-     * @tc.name 在entry中，引用HSP中的页面，但integrateHsp为空
-     * @tc.desc 验证编译报错（负面测试用例）
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0030
+     * @tc.name   : 在entry中，引用HSP中的页面，但integrateHsp为空
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0030', 0, async () => {
       await Settings.createWindow('testability/pages/ToolchainHspandbundlename/Hspandbundlename0030');
@@ -84,10 +90,12 @@ export default function ToolchainHspandbundlename() {
       await windowSnap.snapShot('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0030');
     });
 
-    /**
-     * @tc.number SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0040
-     * @tc.name 在entry中，路由跳转到HSP中的页面
-     * @tc.desc 验证从entry通过router跳转到HSP页面
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0040
+     * @tc.name   : 在entry中，路由跳转到HSP中的页面
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0040', 0, async () => {
       await Settings.createWindow('testability/pages/ToolchainHspandbundlename/Hspandbundlename0040');

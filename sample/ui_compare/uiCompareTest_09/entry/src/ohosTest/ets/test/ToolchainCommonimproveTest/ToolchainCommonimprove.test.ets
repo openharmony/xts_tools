@@ -37,6 +37,13 @@ export default function ToolchainCommonimproveTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0030
+     * @tc.name   : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0030', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0030 start.`);
       Settings.createWindow('testability/pages/ToolchainCommonimprove/ToolchainCommonimprove0030');
@@ -50,6 +57,13 @@ export default function ToolchainCommonimproveTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0040
+     * @tc.name   : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0040', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0040 start.`);
       Settings.createWindow('testability/pages/ToolchainCommonimprove/ToolchainCommonimprove0040');
@@ -63,6 +77,13 @@ export default function ToolchainCommonimproveTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0050
+     * @tc.name   : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0050', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0050 start.`);
       Settings.createWindow('testability/pages/ToolchainCommonimprove/ToolchainCommonimprove0050');

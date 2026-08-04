@@ -42,7 +42,6 @@ export default function SpecialcomponentsUicontext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0050
-     * @tc.desc   : Use get(id,callback) to get a screenshot of the List component, and the component is out of the screen
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,7 +63,6 @@ export default function SpecialcomponentsUicontext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00290
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00290
-     * @tc.desc   : Use get(id) to get a screenshot of the Text component, and set the visibility property of the component
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +85,6 @@ export default function SpecialcomponentsUicontext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00420
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00420
-     * @tc.desc   : Use get(id) to get a screenshot of the Text component, and set the visibility property of the component
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +105,6 @@ export default function SpecialcomponentsUicontext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00700
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00700
-     * @tc.desc   : click to generate UI snapshot
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

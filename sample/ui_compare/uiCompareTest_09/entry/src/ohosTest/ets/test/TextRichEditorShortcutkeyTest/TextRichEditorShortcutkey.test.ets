@@ -40,13 +40,12 @@ export default function TextRichEditorShortcutkey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005
-       * @tc.desc    Page down(Fn ↓).
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005 start.`);
       Settings.createWindow("testability/pages/TextRichEditorShortcutkey/TextRichEditorShortcutkey05")
@@ -65,13 +64,12 @@ export default function TextRichEditorShortcutkey() {
     })
 
     /*
-   * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004
-   * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004
-   * @tc.desc    Page down(Fn ↑).
-   * @tc.size    MediumTest
-   * @tc.type    Function
-   * @tc.level   0
-   */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004 start.`);
       Settings.createWindow("testability/pages/TextRichEditorShortcutkey/TextRichEditorShortcutkey05")
@@ -90,13 +88,12 @@ export default function TextRichEditorShortcutkey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003
-       * @tc.desc    Ctrl → shortcut to skip back the word
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003 start.`);
       Settings.createWindow("testability/pages/TextRichEditorShortcutkey/TextRichEditorShortcutkey03")
@@ -115,13 +112,12 @@ export default function TextRichEditorShortcutkey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001
-       * @tc.desc    Ctrl Backspace shortcut to delete words
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001 start.`);
       Settings.createWindow("testability/pages/TextRichEditorShortcutkey/TextRichEditorShortcutkey01")
@@ -140,13 +136,12 @@ export default function TextRichEditorShortcutkey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002
-       * @tc.desc    Ctrl right shortcut to delete words
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001 start.`);
       Settings.createWindow("testability/pages/TextRichEditorShortcutkey/TextRichEditorShortcutkey01")
@@ -165,13 +160,12 @@ export default function TextRichEditorShortcutkey() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006
-       * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006
-       * @tc.desc    The left mouse button of Shift can be selected consecutively
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006 start.`);
       Settings.createWindow("testability/pages/TextRichEditorShortcutkey/TextRichEditorShortcutkey06")

@@ -37,6 +37,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0001
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0001', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0001 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0001');
@@ -50,6 +57,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0002
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0002', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0002 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0002');
@@ -63,6 +77,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0003
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0003
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0003', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0003 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0003');
@@ -76,6 +97,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0004
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0004
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0004', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0004 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0004');
@@ -89,6 +117,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0005
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0005
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0005', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0005 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0005');
@@ -102,6 +137,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0006
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0006
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0006', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0006 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0006');
@@ -115,6 +157,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0007
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0007
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0007', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0007 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0007');
@@ -128,6 +177,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0008
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0008
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0008', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0008 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0008');
@@ -141,6 +197,13 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0009
+     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0009
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0009', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0009 start.`);
       Settings.createWindow('testability/pages/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext/ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontext0009');

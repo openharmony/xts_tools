@@ -44,7 +44,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0020
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0020
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -66,7 +65,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0030
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0030
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -88,7 +86,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0120
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0120
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -110,7 +107,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0060
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0060
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -132,7 +128,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0040
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0040
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -154,7 +149,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0110
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0110
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -176,7 +170,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0100
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0100
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -198,7 +191,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0010
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0010
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -220,7 +212,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0080
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0080
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -243,7 +234,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0050
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0050
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -266,7 +256,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0090
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0090
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -288,7 +277,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0070
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0070
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -310,7 +298,6 @@ export default function StatusmanagerComponentreuse() {
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0150
      * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0150
-     * @tc.desc   : Counter is placed on the mirror page in Chinese mode, and the direction is set to LTR
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

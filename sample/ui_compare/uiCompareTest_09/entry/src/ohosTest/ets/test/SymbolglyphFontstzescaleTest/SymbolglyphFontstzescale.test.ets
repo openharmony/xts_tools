@@ -41,13 +41,12 @@ export default function SymbolglyphFontstzescale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030
-       * @tc.name    SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030
-       * @tc.desc    SymbolGlyph, set the minFontScale and maxFontScale parameters of number type and Resources type
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030 start.`);
       Settings.createWindow("testability/pages/SymbolglyphFontstzescale/SymbolglyphFontstzescale")
