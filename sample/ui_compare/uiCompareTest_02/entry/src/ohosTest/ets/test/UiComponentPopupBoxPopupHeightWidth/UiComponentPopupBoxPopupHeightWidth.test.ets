@@ -55,13 +55,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0010
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '50px'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0010
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50px'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth01")
@@ -76,13 +75,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0100
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '50lpx'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0100
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50lpx'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth02")
@@ -97,13 +95,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0150
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50%'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0150
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50%'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth03")
@@ -118,13 +115,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0070
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '50fp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0070
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50fp'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth04")
@@ -139,13 +135,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0110
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '0lpx'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0110
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '0lpx'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth05")
@@ -160,13 +155,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0050
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '0vp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0050
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '0vp'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth06")
@@ -181,13 +175,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0040
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '50vp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0040
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50vp'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth07")
@@ -202,13 +195,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0090
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50fp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0090
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50fp'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth08")
@@ -223,13 +215,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0130
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '80%'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0130
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '80%'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth09")
@@ -244,13 +235,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0030
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50px'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0030
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50px'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth10")
@@ -266,13 +256,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
 
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0020
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '0px'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0020
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '0px'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth11")
@@ -287,13 +276,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0120
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50lpx'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0120
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50lpx'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth13")
@@ -308,13 +296,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0060
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50vp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0060
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50vp'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth14")
@@ -329,13 +316,12 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0080
-       * @tc.name    The popup adds a width attribute, and the width parameter of PopupOptions is set to '-0fp'.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0080
+     * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-0fp'.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupHeightWidth/UiComponentPopupBoxPopupHeightWidth15")

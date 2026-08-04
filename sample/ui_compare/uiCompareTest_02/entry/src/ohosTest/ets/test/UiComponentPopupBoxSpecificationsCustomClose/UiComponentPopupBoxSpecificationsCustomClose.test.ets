@@ -55,13 +55,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0160
-       * @tc.name    Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to the enum value 8, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0160
+     * @tc.name   : Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to the enum value 8, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose01")
@@ -88,13 +87,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0140
-       * @tc.name    Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to the enum value 6, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0140
+     * @tc.name   : Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to the enum value 6, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose02")
@@ -121,13 +119,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0130
-       * @tc.name    Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to maskColor: $r("sys.color.ohos_id_color_emphasize"),, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0130
+     * @tc.name   : Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to maskColor: $r("sys.color.ohos_id_color_emphasize"),, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose03")
@@ -154,13 +151,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0170
-       * @tc.name    Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to Style 9, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0170
+     * @tc.name   : Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to Style 9, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose04")
@@ -187,13 +183,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0190
-       * @tc.name    Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to Style 9, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0190
+     * @tc.name   : Verify that in the openCustomDialogWithController popup scenario with all parameters in ParamsNode, when set to Style 9, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose05")
@@ -220,13 +215,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0200
-       * @tc.name    Verify that in the presentCustomDialog CustomBuilderWithId parameter popup scenario, when set to the enum value 12, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0200
+     * @tc.name   : Verify that in the presentCustomDialog CustomBuilderWithId parameter popup scenario, when set to the enum value 12, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose06")
@@ -253,13 +247,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0180
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 10, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0180
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 10, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose07")
@@ -286,13 +279,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0220
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 2, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0220
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 2, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose08")
@@ -319,13 +311,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0230
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 3, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0230
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 3, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose09")
@@ -352,13 +343,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0210
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 13, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0210
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 13, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose11")
@@ -385,13 +375,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0240
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 4, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0240
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 4, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose10")
@@ -418,13 +407,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0250
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 5, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0250
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 5, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose13")
@@ -451,13 +439,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0260
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 6, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0260
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 6, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose12")
@@ -484,13 +471,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0270
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 7, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0270
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 7, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose15")
@@ -517,13 +503,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0280
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 8, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0280
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 8, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose14")
@@ -550,13 +535,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0290
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 9, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0290
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilderWithId parameter popup scenario with all parameters, when set to the enum value 9, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose16")
@@ -583,13 +567,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0320
-       * @tc.name    Verify that in the presentCustomDialog CustomBuilder popup scenario, when set to enum value 12, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0320
+     * @tc.name   : Verify that in the presentCustomDialog CustomBuilder popup scenario, when set to enum value 12, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose17")
@@ -616,13 +599,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
         /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0300
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 10, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0300
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 10, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose18")
@@ -649,13 +631,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0310
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 11, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0310
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 11, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose19")
@@ -682,13 +663,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0330
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 13, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0330
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 13, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose20")
@@ -715,13 +695,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0340
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 2, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0340
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 2, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose21")
@@ -748,13 +727,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0350
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 3, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0350
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 3, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose22")
@@ -781,13 +759,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0360
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 4, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0360
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 4, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose23")
@@ -814,13 +791,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0370
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 5, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0370
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 5, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose24")
@@ -847,13 +823,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0380
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 6, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0380
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 6, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose25")
@@ -880,13 +855,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0390
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 7, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0390
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 7, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose26")
@@ -913,13 +887,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0400
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 8, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0400
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 8, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose27")
@@ -946,13 +919,12 @@ export default function UiComponentPopupBoxSpecificationsCustomClose() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0410
-       * @tc.name    Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 9, it displays correctly and the dialog can be closed normally.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0410
+     * @tc.name   : Verify that in the presentCustomDialog+CustomBuilder parameter popup scenario with all parameters, when set to the enum value 9, it displays correctly and the dialog can be closed normally.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_CUSTOMCLOSE_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxSpecificationsCustomClose/UiComponentPopupBoxSpecificationsCustomClose28")
