@@ -55,13 +55,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190
-       * @tc.name    Interface onDragLeave obtains DisplayY
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190
+     * @tc.name   : Interface onDragLeave obtains DisplayY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface01")
@@ -82,13 +81,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160
-       * @tc.name    Interface onDragMove obtains WindowX
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160
+     * @tc.name   : Interface onDragMove obtains WindowX
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface02")
@@ -109,13 +107,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210
-       * @tc.name    Interface onDragLeave obtains WindowY
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210
+     * @tc.name   : Interface onDragLeave obtains WindowY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface03")
@@ -136,13 +133,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100
-       * @tc.name    Interface onDragEnter obtains DisplayX
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100
+     * @tc.name   : Interface onDragEnter obtains DisplayX
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface04")
@@ -163,13 +159,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170
-       * @tc.name    Interface onDragMove obtains WindowY
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170
+     * @tc.name   : Interface onDragMove obtains WindowY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface05")
@@ -190,13 +185,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150
-       * @tc.name    Interface onDragMove obtains DisplayY
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150
+     * @tc.name   : Interface onDragMove obtains DisplayY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface06")
@@ -217,13 +211,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180
-       * @tc.name    Interface onDragLeave obtains DisplayX
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180
+     * @tc.name   : Interface onDragLeave obtains DisplayX
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface07")
@@ -244,13 +237,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110
-       * @tc.name    Interface onDragEnter obtains DisplayY
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110
+     * @tc.name   : Interface onDragEnter obtains DisplayY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface08")
@@ -271,13 +263,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140
-       * @tc.name    Interface onDragMove obtains DisplayX
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140
+     * @tc.name   : Interface onDragMove obtains DisplayX
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface09")
@@ -298,13 +289,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130
-       * @tc.name    Interface onDragEnter obtains WindowY
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130
+     * @tc.name   : Interface onDragEnter obtains WindowY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface10")
@@ -325,13 +315,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120
-       * @tc.name    Interface onDragEnter obtains WindowX
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120
+     * @tc.name   : Interface onDragEnter obtains WindowX
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface11")
@@ -352,13 +341,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200
-       * @tc.name    Interface onDragLeave obtains WindowX
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200
+     * @tc.name   : Interface onDragLeave obtains WindowX
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface12")
@@ -379,13 +367,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080
-       * @tc.name    Interface onDragStart sets setResult to DRAG_FAILED
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080
+     * @tc.name   : Interface onDragStart sets setResult to DRAG_FAILED
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface13")
@@ -406,13 +393,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070
-       * @tc.name    Interface onDragStart sets setResult to DRAG_SUCCESSFUL
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070
+     * @tc.name   : Interface onDragStart sets setResult to DRAG_SUCCESSFUL
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface14")
@@ -433,13 +419,12 @@ export default function ActionEventCommonEventDragInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090
-       * @tc.name    Interface onDragStart sets setResult to DRAG_CANCELED
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090
+     * @tc.name   : Interface onDragStart sets setResult to DRAG_CANCELED
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventDragInterface/ActionEventCommonEventDragInterface15")

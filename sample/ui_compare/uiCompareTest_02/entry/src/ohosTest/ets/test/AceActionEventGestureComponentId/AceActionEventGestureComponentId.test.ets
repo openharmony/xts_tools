@@ -55,13 +55,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060
-       * @tc.name    Set the component ID to an excessively long string, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060
+     * @tc.name   : Set the component ID to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId01")
@@ -77,13 +76,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020
-       * @tc.name    Set the component ID to contain newline character, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020
+     * @tc.name   : Set the component ID to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId02")
@@ -99,13 +97,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030
-       * @tc.name    Set the component ID to a decimal number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030
+     * @tc.name   : Set the component ID to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId03")
@@ -121,13 +118,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080
-       * @tc.name    Set the component ID to null, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080
+     * @tc.name   : Set the component ID to null, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId04")
@@ -143,13 +139,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040
-       * @tc.name    Set the component ID to a negative number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040
+     * @tc.name   : Set the component ID to a negative number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId05")
@@ -165,13 +160,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050
-       * @tc.name    Set the component ID to special characters, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050
+     * @tc.name   : Set the component ID to special characters, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId06")
@@ -187,13 +181,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070
-       * @tc.name    Set the component ID to undefined, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070
+     * @tc.name   : Set the component ID to undefined, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId07")
@@ -209,13 +202,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100
-       * @tc.name    Do not set the component ID, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100
+     * @tc.name   : Do not set the component ID, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId08")
@@ -231,13 +223,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150
-       * @tc.name    Set the component key to special characters, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150
+     * @tc.name   : Set the component key to special characters, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId09")
@@ -253,13 +244,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120
-       * @tc.name    Set the component key to contain newline character, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120
+     * @tc.name   : Set the component key to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId10")
@@ -275,13 +265,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130
-       * @tc.name    Set the component key to a decimal number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130
+     * @tc.name   : Set the component key to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId11")
@@ -297,13 +286,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140
-       * @tc.name    Set the component key to a negative number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140
+     * @tc.name   : Set the component key to a negative number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId12")
@@ -319,13 +307,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160
-       * @tc.name    Set the component key to an excessively long string, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160
+     * @tc.name   : Set the component key to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId13")
@@ -341,13 +328,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170
-       * @tc.name    Set the component key to undefined, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170
+     * @tc.name   : Set the component key to undefined, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId14")
@@ -363,13 +349,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180
-       * @tc.name    Set the component key to null, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180
+     * @tc.name   : Set the component key to null, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId15")
@@ -385,13 +370,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200
-       * @tc.name    Do not set the component key, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200
+     * @tc.name   : Do not set the component key, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId16")
@@ -407,13 +391,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220
-       * @tc.name    Modifier-Set the component ID to contain newline character, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220
+     * @tc.name   : Modifier-Set the component ID to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId18")
@@ -429,13 +412,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230
-       * @tc.name    Modifier-Set the component ID to a decimal number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230
+     * @tc.name   : Modifier-Set the component ID to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId19")
@@ -451,13 +433,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240
-       * @tc.name    Modifier-Set the component ID to a negative number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240
+     * @tc.name   : Modifier-Set the component ID to a negative number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId20")
@@ -473,13 +454,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250
-       * @tc.name    Modifier-Set the component ID to special characters, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250
+     * @tc.name   : Modifier-Set the component ID to special characters, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId21")
@@ -495,13 +475,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260
-       * @tc.name    Modifier-Set the component ID to an excessively long string, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260
+     * @tc.name   : Modifier-Set the component ID to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId22")
@@ -517,13 +496,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270
-       * @tc.name    Modifier-Set the component ID to undefined, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270
+     * @tc.name   : Modifier-Set the component ID to undefined, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId23")
@@ -539,13 +517,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280
-       * @tc.name    Modifier-Set the component ID to null, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280
+     * @tc.name   : Modifier-Set the component ID to null, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId24")
@@ -561,13 +538,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300
-       * @tc.name    Modifier-Do not set the component ID, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300
+     * @tc.name   : Modifier-Do not set the component ID, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId26")
@@ -583,13 +559,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320
-       * @tc.name    Modifier-Set the component Key to contain newline character, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320
+     * @tc.name   : Modifier-Set the component Key to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId27")
@@ -605,13 +580,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330
-       * @tc.name    Modifier-Set the component Key to a decimal number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330
+     * @tc.name   : Modifier-Set the component Key to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId28")
@@ -627,13 +601,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340
-       * @tc.name    Modifier-Set the component Key to a negative number, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340
+     * @tc.name   : Modifier-Set the component Key to a negative number, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId29")
@@ -649,13 +622,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350
-       * @tc.name    Modifier-Set the component Key to special characters, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350
+     * @tc.name   : Modifier-Set the component Key to special characters, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId30")
@@ -671,13 +643,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360
-       * @tc.name    Modifier-Set the component Key to an excessively long string, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360
+     * @tc.name   : Modifier-Set the component Key to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId31")
@@ -693,13 +664,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370
-       * @tc.name    Modifier-Set the component Key to undefined, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370
+     * @tc.name   : Modifier-Set the component Key to undefined, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId32")
@@ -715,13 +685,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380
-       * @tc.name    Modifier-Set the component Key to null, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380
+     * @tc.name   : Modifier-Set the component Key to null, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId33")
@@ -737,13 +706,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400
-       * @tc.name    Modifier-Do not set the component Key, trigger the event, and retrieve the component information.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400
+     * @tc.name   : Modifier-Do not set the component Key, trigger the event, and retrieve the component information.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId34")
@@ -759,13 +727,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650
-       * @tc.name    The component's custom gesture is set to CONTINUE, and the component information is retrieved correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650
+     * @tc.name   : The component's custom gesture is set to CONTINUE, and the component information is retrieved correctly.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId35")
@@ -781,13 +748,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660
-       * @tc.name    The component's custom gesture is set to REJECT, and the component's related information is not printed.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660
+     * @tc.name   : The component's custom gesture is set to REJECT, and the component's related information is not printed.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId36")
@@ -803,13 +769,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710
-       * @tc.name    modifier - parent and child components, child component responds to gestures
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710
+     * @tc.name   : modifier - parent and child components, child component responds to gestures
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId37")
@@ -825,13 +790,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700
-       * @tc.name    modifier - parent-child components, parent component responds to gestures
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700
+     * @tc.name   : modifier - parent-child components, parent component responds to gestures
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId38")
@@ -848,13 +812,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670
-       * @tc.name    Parent and child components, the parent component responds to gestures
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670
+     * @tc.name   : Parent and child components, the parent component responds to gestures
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId39")
@@ -871,13 +834,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680
-       * @tc.name    Parent and child components, the child component responds to gestures
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680
+     * @tc.name   : Parent and child components, the child component responds to gestures
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId40")
@@ -893,13 +855,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530
-       * @tc.name    The component responds to the LongPressGesture gesture and the component information is obtained correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530
+     * @tc.name   : The component responds to the LongPressGesture gesture and the component information is obtained correctly.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId41")
@@ -915,13 +876,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590
-       * @tc.name    Modifier-The component responds to the LongPressGesture gesture and the component information is obtained correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590
+     * @tc.name   : Modifier-The component responds to the LongPressGesture gesture and the component information is obtained correctly.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId42")
@@ -937,13 +897,12 @@ export default function AceActionEventGestureComponentId() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620
-       * @tc.name    Modifier-The component responds to the RotationGesture gesture and the component information is obtained correctly.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620
+     * @tc.name   : Modifier-The component responds to the RotationGesture gesture and the component information is obtained correctly.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620 start.`);
       Settings.createWindow("testability/pages/AceActionEventGestureComponentId/AceActionEventGestureComponentId43")
