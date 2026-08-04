@@ -58,13 +58,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230
-       * @tc.name    In the input box, set minFontScale to be equal to maxFontScale
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230
+     * @tc.name   : In the input box, set minFontScale to be equal to maxFontScale
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale01")
@@ -84,13 +83,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220
-       * @tc.name    Set the minFontScale parameter in the input box to be greater than maxFontScale
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220
+     * @tc.name   : Set the minFontScale parameter in the input box to be greater than maxFontScale
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale02")
@@ -110,13 +108,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200
-       * @tc.name    Set maxFontScale to less than 1 in the input box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200
+     * @tc.name   : Set maxFontScale to less than 1 in the input box
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale03")
@@ -136,13 +133,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120
-       * @tc.name    TextInput password mode, set the small eye icon
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120
+     * @tc.name   : TextInput password mode, set the small eye icon
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale04")
@@ -162,13 +158,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010
-       * @tc.name    Set minFontScale and maxFontScale in the input box, and only set the prompt text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010
+     * @tc.name   : Set minFontScale and maxFontScale in the input box, and only set the prompt text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale05")
@@ -188,13 +183,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150
-       * @tc.name    The input box does not set maxFontScale, and the fontSizeMaxScale is set to the application
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150
+     * @tc.name   : The input box does not set maxFontScale, and the fontSizeMaxScale is set to the application
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale06")
@@ -214,13 +208,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140
-       * @tc.name    In the input field, only maxFontScale is set, not minFontScale
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140
+     * @tc.name   : In the input field, only maxFontScale is set, not minFontScale
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale07")
@@ -240,13 +233,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210
-       * @tc.name    Set maxFontScale in the input box to undifined/null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210
+     * @tc.name   : Set maxFontScale in the input box to undifined/null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale08")
@@ -266,13 +258,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190
-       * @tc.name    Set minFontScale in the input box to undifined/null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190
+     * @tc.name   : Set minFontScale in the input box to undifined/null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale09")
@@ -292,13 +283,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170
-       * @tc.name    Set the minFontScale parameter in the input box to be less than 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170
+     * @tc.name   : Set the minFontScale parameter in the input box to be less than 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale10")
@@ -318,13 +308,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160
-       * @tc.name    Set maxFontScale in the input box and set fontSizeMaxScale in the application box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160
+     * @tc.name   : Set maxFontScale in the input box and set fontSizeMaxScale in the application box
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale11")
@@ -344,13 +333,12 @@ export default function UiComponentInputFontsTzeScale() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180
-       * @tc.name    In the input box, set the minFontScale to be greater than 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180
+     * @tc.name   : In the input box, set the minFontScale to be greater than 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentInputFontsTzeScale/UiComponentInputFontsTzeScale12")

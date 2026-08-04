@@ -55,13 +55,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0036
-       * @tc.name    When range consists of n (n > 1) columns of data, of type string[][], set the length of columnWidths to n. If all columns are set to percent, the display effect when the percentages sum to 100.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0036
+     * @tc.name   : When range consists of n (n > 1) columns of data, of type string[][], set the length of columnWidths to n. If all columns are set to percent, the display effect when the percentages sum to 100.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0036', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0036 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths01")
@@ -74,13 +73,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0037
-       * @tc.name    TextPicker columnWidths percent sum greater than 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0037
+     * @tc.name   : TextPicker columnWidths percent sum greater than 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0037', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0037 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths02")
@@ -93,13 +91,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0038
-       * @tc.name    TextPicker columnWidths percent sum less than 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0038
+     * @tc.name   : TextPicker columnWidths percent sum less than 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0038', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0038 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths03")
@@ -112,13 +109,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0039
-       * @tc.name    TextPicker columnWidths all vp with different values
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0039
+     * @tc.name   : TextPicker columnWidths all vp with different values
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0039', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0039 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths04")
@@ -135,13 +131,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0040
-       * @tc.name    TextPicker columnWidths all px with different values
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0040
+     * @tc.name   : TextPicker columnWidths all px with different values
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths05")
@@ -158,13 +153,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0041
-       * @tc.name    TextPicker columnWidths mixed vp px percent
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0041
+     * @tc.name   : TextPicker columnWidths mixed vp px percent
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0041', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0041 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths06")
@@ -181,13 +175,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0052
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0052
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0052', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0052 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths07")
@@ -200,13 +193,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0053
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are percent, and the sum of percentages is greater than 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0053
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are percent, and the sum of percentages is greater than 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0053', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0053 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths08")
@@ -219,13 +211,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0054
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, and the sum of percentages is less than 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0054
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, and the sum of percentages is less than 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0054', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0054 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths09")
@@ -238,13 +229,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0055
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are vp with different values
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0055
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are vp with different values
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0055', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0055 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths10")
@@ -261,13 +251,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0056
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are px with different values
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0056
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are px with different values
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0056', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0056 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths11")
@@ -284,13 +273,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0057
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, mixed vp, px, percent
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0057
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, mixed vp, px, percent
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0057', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0057 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths12")
@@ -307,13 +295,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0058
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are empty array
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0058
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths to n, all columns are empty array
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0058', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0058 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths13")
@@ -326,13 +313,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0064
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths > n
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0064
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths > n
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0064', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0064 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths14")
@@ -345,13 +331,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0065
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths < n
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0065
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], set the length of columnWidths < n
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0065', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0065 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths15")
@@ -364,13 +349,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0066
-       * @tc.name    When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], dynamically modify columnWidths value
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0066
+     * @tc.name   : When range is n (n > 1) columns of data and of type TextCascadePickerRangeContent[], dynamically modify columnWidths value
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0066', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0066 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths16")
@@ -387,13 +371,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0012
-       * @tc.name    When range is single column data of type string[], set columnWidths length > 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0012
+     * @tc.name   : When range is single column data of type string[], set columnWidths length > 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0012 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths17")
@@ -406,13 +389,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0021
-       * @tc.name    When range is single column data of type string[], set columnWidths length < 1 (empty array)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0021
+     * @tc.name   : When range is single column data of type string[], set columnWidths length < 1 (empty array)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0021 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths18")
@@ -425,13 +407,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0022
-       * @tc.name    When range is single column data of type string[], set columnWidths width > TextPicker component width
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0022
+     * @tc.name   : When range is single column data of type string[], set columnWidths width > TextPicker component width
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0022 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths19")
@@ -444,13 +425,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0023
-       * @tc.name    When range is single column data of type string[], dynamically switch columnWidths
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0023
+     * @tc.name   : When range is single column data of type string[], dynamically switch columnWidths
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0023 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths20")
@@ -467,13 +447,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0024
-       * @tc.name    When range is single column data of type string[], dynamically switch columnWidths with divider margin
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0024
+     * @tc.name   : When range is single column data of type string[], dynamically switch columnWidths with divider margin
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0024 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths21")
@@ -490,13 +469,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0025
-       * @tc.name    When range is single column data of type string[], switch entire columnWidths array
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0025
+     * @tc.name   : When range is single column data of type string[], switch entire columnWidths array
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0025 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths22")
@@ -513,13 +491,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0032
-       * @tc.name    When range is single column data of type TextPickerRangeContent[], set columnWidths value > TextPicker component width
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0032
+     * @tc.name   : When range is single column data of type TextPickerRangeContent[], set columnWidths value > TextPicker component width
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0032', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0032 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths23")
@@ -532,13 +509,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0033
-       * @tc.name    When range is single column data of type TextPickerRangeContent[], set columnWidths length > 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0033
+     * @tc.name   : When range is single column data of type TextPickerRangeContent[], set columnWidths length > 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0033 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths24")
@@ -551,13 +527,12 @@ export default function UiComponentMediaTextPickerColumnWidths() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0034
-       * @tc.name    When range is single column data of type TextPickerRangeContent[], set columnWidths length < 1 (empty array)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0034
+     * @tc.name   : When range is single column data of type TextPickerRangeContent[], set columnWidths length < 1 (empty array)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0034', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0034 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTextPickerColumnWidths/UiComponentMediaTextPickerColumnWidths25")

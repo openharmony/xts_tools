@@ -55,13 +55,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0100
-       * @tc.name    If halfleading is set to true, LinePacing is set to TextArea
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0100
+     * @tc.name   : If halfleading is set to true, LinePacing is set to TextArea
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading01")
@@ -77,13 +76,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0010
-       * @tc.name    If halfleading is set to true, LinePacing is set to TextArea
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0010
+     * @tc.name   : If halfleading is set to true, LinePacing is set to TextArea
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading02");
@@ -107,13 +105,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0010
-       * @tc.name    If halfleading is set to false, LinePacing is set to TextArea
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0010
+     * @tc.name   : If halfleading is set to false, LinePacing is set to TextArea
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading03");
@@ -137,13 +134,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0040
-       * @tc.name    If halfleading is true, set the prompt text in the input box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0040
+     * @tc.name   : If halfleading is true, set the prompt text in the input box
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading04");
@@ -156,13 +152,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0030
-       * @tc.name    TextInput/TextArea/Search，halfleading is undefined、null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0030
+     * @tc.name   : TextInput/TextArea/Search，halfleading is undefined、null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading05");
@@ -175,13 +170,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0070
-       * @tc.name    Halfleading is true, and multiple lines of text are entered in the inline mode input box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0070
+     * @tc.name   : Halfleading is true, and multiple lines of text are entered in the inline mode input box
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading06");
@@ -208,13 +202,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0110
-       * @tc.name    Halfleading is set to true, and the input box is set to padding
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0110
+     * @tc.name   : Halfleading is set to true, and the input box is set to padding
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading07");
@@ -233,13 +226,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0080
-       * @tc.name    halfleading is true, and the input field is changed to lineHeight
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0080
+     * @tc.name   : halfleading is true, and the input field is changed to lineHeight
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading08");
@@ -255,13 +247,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0090
-       * @tc.name    Halfleading is true, and the font size is changed in the input box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0090
+     * @tc.name   : Halfleading is true, and the font size is changed in the input box
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading09");
@@ -277,13 +268,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0150
-       * @tc.name    Mixed text testing
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0150
+     * @tc.name   : Mixed text testing
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading10");
@@ -307,13 +297,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0060
-       * @tc.name    Halfleading is true, and multiple lines of text are entered in the inline mode input box
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0060
+     * @tc.name   : Halfleading is true, and multiple lines of text are entered in the inline mode input box
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading11");
@@ -340,13 +329,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0050
-       * @tc.name    Halfleading is true, and the input box type is changed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0050
+     * @tc.name   : Halfleading is true, and the input box type is changed
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading12");
@@ -375,13 +363,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0160
-       * @tc.name    Multiple lines of scrollable text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0160
+     * @tc.name   : Multiple lines of scrollable text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading13");
@@ -397,13 +384,12 @@ export default function UiComponentHalfLeading() {
     })
 
         /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0120
-       * @tc.name    If halfleading is true, set align in the input field
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0120
+     * @tc.name   : If halfleading is true, set align in the input field
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading14");
@@ -421,13 +407,12 @@ export default function UiComponentHalfLeading() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_HALFLEADING_0140
-       * @tc.name    Modifier test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0140
+     * @tc.name   : Modifier test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_HALFLEADING_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_HALFLEADING_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentHalfLeading/UiComponentHalfLeading15");

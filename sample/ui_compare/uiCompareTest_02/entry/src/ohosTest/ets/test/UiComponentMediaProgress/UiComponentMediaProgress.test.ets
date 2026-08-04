@@ -55,13 +55,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018
-       * @tc.name    Linear Linear, Ring without scale, Eclipse circular,ScaleRing with scale,Capsule Style Progress component set the right border to 0,and private CapsuleStyleOptions.borderWidth is not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018
+     * @tc.name   : Linear Linear, Ring without scale, Eclipse circular,ScaleRing with scale,Capsule Style Progress component set the right border to 0,and private CapsuleStyleOptions.borderWidth is not set
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress01")
@@ -74,13 +73,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circular,ScaleRing Scale Progress,Capsule Style Progress components set the right border width to -10,and set the private CapsuleStyleOptions.borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circular,ScaleRing Scale Progress,Capsule Style Progress components set the right border width to -10,and set the private CapsuleStyleOptions.borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress02")
@@ -93,13 +91,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,and Capsule Style Progress components are set to -10 on the right border,and Private CapsuleStyleOptions.borderWidth is not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,and Capsule Style Progress components are set to -10 on the right border,and Private CapsuleStyleOptions.borderWidth is not set
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress03")
@@ -112,13 +109,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038
-       * @tc.name    LinearLinear,Ring,Eclipse,ScaleRing,CapsuleStyleProgressComponent settingTop Border is less than component widthSetPrivate CapsuleStyleOptions.borderWidth is set to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038
+     * @tc.name   : LinearLinear,Ring,Eclipse,ScaleRing,CapsuleStyleProgressComponent settingTop Border is less than component widthSetPrivate CapsuleStyleOptions.borderWidth is set to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress04")
@@ -131,13 +127,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component is set to -10 The left border is not set to Private CapsuleStyleOptions.borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component is set to -10 The left border is not set to Private CapsuleStyleOptions.borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress05")
@@ -150,13 +145,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component is set to -10 and borderWidth set to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component is set to -10 and borderWidth set to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress06")
@@ -169,13 +163,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to -10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to -10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress07")
@@ -188,13 +181,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to -10 and set borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to -10 and set borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress08")
@@ -207,13 +199,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to 0 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to 0 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress09")
@@ -226,13 +217,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to percentage and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to percentage and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress10")
@@ -245,13 +235,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to -10 and set borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to -10 and set borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress11")
@@ -264,13 +253,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to -10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to -10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress12")
@@ -283,13 +271,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to 0 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to 0 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress13")
@@ -302,13 +289,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress14")
@@ -321,13 +307,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and set borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and set borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress15")
@@ -340,13 +325,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components are set to Dotted, Dashed, and Solid respectively
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components are set to Dotted, Dashed, and Solid respectively
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress16")
@@ -366,13 +350,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to 10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to 10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress17")
@@ -385,13 +368,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(leftwidth) is set to 0,not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(leftwidth) is set to 0,not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress18")
@@ -404,13 +386,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(top) are set to Dotted, Dashed, and Solid respectively
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(top) are set to Dotted, Dashed, and Solid respectively
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress19")
@@ -430,13 +411,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(left) are set to Dotted, Dashed, and Solid respectively
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(left) are set to Dotted, Dashed, and Solid respectively
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress20")
@@ -456,13 +436,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(bottom) are set to Dotted, Dashed, and Solid respectively
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(bottom) are set to Dotted, Dashed, and Solid respectively
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress21")
@@ -482,13 +461,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottomwidth) is set to percentage and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottomwidth) is set to percentage and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress22")
@@ -501,13 +479,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(leftwidth) is set to percentage and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(leftwidth) is set to percentage and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress23")
@@ -520,13 +497,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(rightwidth) is set to percentage and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(rightwidth) is set to percentage and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress24")
@@ -539,13 +515,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(startwidth) is set to -10 and set borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(startwidth) is set to -10 and set borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress25")
@@ -558,13 +533,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(endwidth) is set to 10 and set borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(endwidth) is set to 10 and set borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress26")
@@ -577,13 +551,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to 10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to 10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress27")
@@ -596,13 +569,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress28")
@@ -615,13 +587,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to 0 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to 0 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress29")
@@ -634,13 +605,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(end) is set to -10 and set borderWidth to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(end) is set to -10 and set borderWidth to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress30")
@@ -653,13 +623,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottom) is set to 0 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottom) is set to 0 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress31")
@@ -672,13 +641,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottom) is set to -10 and not set borderWidth
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottom) is set to -10 and not set borderWidth
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress32")
@@ -691,13 +659,12 @@ export default function UiComponentMediaProgress() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104
-       * @tc.name    Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component not set LocalizedEdgeColors and borderColor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104
+     * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component not set LocalizedEdgeColors and borderColor
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaProgress/UiComponentMediaProgress33")

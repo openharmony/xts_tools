@@ -41,13 +41,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012
-       * @tc.name    CalendarPicker/CalendarPickerDialog set start equal end
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012
+     * @tc.name   : CalendarPicker/CalendarPickerDialog set start equal end
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate01")
@@ -69,13 +68,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013
-       * @tc.name    CalendarPicker/CalendarPickerDialog sets an irregular date format
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013
+     * @tc.name   : CalendarPicker/CalendarPickerDialog sets an irregular date format
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate02")
@@ -97,13 +95,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014
-       * @tc.name    Set start and end to null/undefined in CalendarPicker/CalendarPickerDialog
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014
+     * @tc.name   : Set start and end to null/undefined in CalendarPicker/CalendarPickerDialog
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate03")
@@ -125,13 +122,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015
-       * @tc.name    CalendarPicker/CalendarPickerDialog选择超出范围日期
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015
+     * @tc.name   : CalendarPicker/CalendarPickerDialog选择超出范围日期
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate04")
@@ -153,13 +149,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016
-       * @tc.name    Dynamically modify the maximum and minimum dates of CalendarPicker/CalendarPickerDialog
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016
+     * @tc.name   : Dynamically modify the maximum and minimum dates of CalendarPicker/CalendarPickerDialog
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate05")
@@ -198,13 +193,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017
-       * @tc.name    CalendarPicker/CalendarPickerDialog selects a date earlier than the start time
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017
+     * @tc.name   : CalendarPicker/CalendarPickerDialog selects a date earlier than the start time
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate06")
@@ -226,13 +220,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018
-       * @tc.name    CalendarPicker/CalendarPickerDialog selects a date later than the start time
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018
+     * @tc.name   : CalendarPicker/CalendarPickerDialog selects a date later than the start time
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate07")
@@ -254,13 +247,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019
-       * @tc.name    CalendarPicker/CalendarPickerDialog set start later than current system date, selected date not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019
+     * @tc.name   : CalendarPicker/CalendarPickerDialog set start later than current system date, selected date not set
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate08")
@@ -282,13 +274,12 @@ export default function UiComponentMediaCalendarPickerDate() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020
-       * @tc.name    CalendarPicker/CalendarPickerDialog set end earlier than current system date, selected date not set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   2
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020
+     * @tc.name   : CalendarPicker/CalendarPickerDialog set end earlier than current system date, selected date not set
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaCalendarPickerDate/UiComponentMediaCalendarPickerDate09")

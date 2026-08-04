@@ -55,13 +55,12 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015
-       * @tc.name    ComponentCotent's dispose method test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015
+     * @tc.name   : ComponentCotent's dispose method test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime01")
@@ -92,13 +91,12 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021
-       * @tc.name    TimePicker 12h start/end exception test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021
+     * @tc.name   : TimePicker 12h start/end exception test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime02")
@@ -129,13 +127,12 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022
-       * @tc.name    TimePicker start after end test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022
+     * @tc.name   : TimePicker start after end test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime03")
@@ -152,13 +149,12 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024
-       * @tc.name    TimePicker selected before start test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024
+     * @tc.name   : TimePicker selected before start test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime04")
@@ -176,13 +172,12 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025
-       * @tc.name    TimePicker selected after end test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   Level3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025
+     * @tc.name   : TimePicker selected after end test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025 start.`);
       Settings.createWindow("testability/pages/UiComponentMediaTimepickerStartEndTime/UiComponentMediaTimepickerStartEndTime05")
