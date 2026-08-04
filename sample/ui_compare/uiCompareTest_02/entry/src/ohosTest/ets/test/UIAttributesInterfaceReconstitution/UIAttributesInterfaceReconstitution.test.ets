@@ -57,13 +57,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410
-       * @tc.name    Static assignment for renderGroup interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410
+     * @tc.name   : Static assignment for renderGroup interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution01")
@@ -90,13 +89,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420
-       * @tc.name    Dynamic assignment for renderGroup interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420
+     * @tc.name   : Dynamic assignment for renderGroup interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution02")
@@ -117,13 +115,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510
-       * @tc.name    Static assignment for pixelStretchEffect interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510
+     * @tc.name   : Static assignment for pixelStretchEffect interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution03")
@@ -145,13 +142,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520
-       * @tc.name    Dynamic assignment for pixelStretchEffect interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520
+     * @tc.name   : Dynamic assignment for pixelStretchEffect interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution04")
@@ -172,13 +168,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690
-       * @tc.name    Static assignment for clickEffect interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690
+     * @tc.name   : Static assignment for clickEffect interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution05")
@@ -209,13 +204,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700
-       * @tc.name    Dynamic assignment for clickEffect interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700
+     * @tc.name   : Dynamic assignment for clickEffect interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution06")
@@ -238,13 +232,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770
-       * @tc.name    Static assignment for outlineStyle interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770
+     * @tc.name   : Static assignment for outlineStyle interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution07")
@@ -266,13 +259,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780
-       * @tc.name    Dynamic assignment for outlineStyle interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780
+     * @tc.name   : Dynamic assignment for outlineStyle interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution08")
@@ -293,13 +285,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850
-       * @tc.name    Static assignment for motionBlur interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850
+     * @tc.name   : Static assignment for motionBlur interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution09")
@@ -321,13 +312,12 @@ export default function UIAttributesInterfaceReconstitution() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860
-       * @tc.name    Dynamic assignment for motionBlur interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860
+     * @tc.name   : Dynamic assignment for motionBlur interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860 start.`);
       Settings.createWindow("testability/pages/UIAttributesInterfaceReconstitution/UIAttributesInterfaceReconstitution10")

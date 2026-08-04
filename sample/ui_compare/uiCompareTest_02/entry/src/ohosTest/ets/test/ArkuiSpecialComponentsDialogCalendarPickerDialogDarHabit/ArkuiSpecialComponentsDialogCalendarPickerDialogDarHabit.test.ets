@@ -55,13 +55,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0030
-       * @tc.name    When the language is set to Chinese Simplified, the verification does not affect the callback of the onChange event in the CalendarPickerDialog
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0030
+     * @tc.name   : When the language is set to Chinese Simplified, the verification does not affect the callback of the onChange event in the CalendarPickerDialog
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0030 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit01")
@@ -83,13 +82,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0100
-       * @tc.name    If the language is set to Chinese Traditional (Chinese Traditional Hong Kong, Chinese Traditional Taiwan), the callback of the onChange event in the CalendarPickerDialog is not affected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0100
+     * @tc.name   : If the language is set to Chinese Traditional (Chinese Traditional Hong Kong, Chinese Traditional Taiwan), the callback of the onChange event in the CalendarPickerDialog is not affected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0100 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit02")
@@ -121,13 +119,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0050
-       * @tc.name    When the language is set to Chinese Simplified, verification does not affect the display of TextStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0050
+     * @tc.name   : When the language is set to Chinese Simplified, verification does not affect the display of TextStyle
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0050 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit03")
@@ -142,13 +139,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0120
-       * @tc.name    When the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),the verification does not affect the display of TextStyle (text style in the entry area)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0120
+     * @tc.name   : When the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),the verification does not affect the display of TextStyle (text style in the entry area)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0120 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit04")
@@ -167,13 +163,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0040
-       * @tc.name    When the language is set to Chinese Simplified, verify that the callback of the onChange event in CalendarPicker is not affected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0040
+     * @tc.name   : When the language is set to Chinese Simplified, verify that the callback of the onChange event in CalendarPicker is not affected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0040 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit05")
@@ -194,13 +189,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0110
-       * @tc.name    When the language is set to Chinese Simplified, verify that the callback of the onChange event in CalendarPicker is not affected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0110
+     * @tc.name   : When the language is set to Chinese Simplified, verify that the callback of the onChange event in CalendarPicker is not affected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0110 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit06")
@@ -231,13 +225,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0170
-       * @tc.name    When the language is set to Ug, validation does not affect the callback of the onChange event in the CalendarPickerDialog
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0170
+     * @tc.name   : When the language is set to Ug, validation does not affect the callback of the onChange event in the CalendarPickerDialog
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0170 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit07")
@@ -256,13 +249,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0180
-       * @tc.name    When the language is set to Ug, validation does not affect the callback of the onChange event in the CalendarPicker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0180
+     * @tc.name   : When the language is set to Ug, validation does not affect the callback of the onChange event in the CalendarPicker
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0180 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit08")
@@ -286,13 +278,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0190
-       * @tc.name    When the language is set to Ug, validation does not affect the callback of the textStyle in the CalendarPicker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0190
+     * @tc.name   : When the language is set to Ug, validation does not affect the callback of the textStyle in the CalendarPicker
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0190 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit09")
@@ -310,13 +301,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0090
-       * @tc.name    If the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),verify that the correctness of the value returned by the onAccept event in the CalendarPickerDialog is not affected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0090
+     * @tc.name   : If the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),verify that the correctness of the value returned by the onAccept event in the CalendarPickerDialog is not affected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0090 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit10")
@@ -343,13 +333,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0230
-       * @tc.name    If the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),verify that the correctness of the value returned by the onAccept event in the CalendarPickerDialog is not affected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0230
+     * @tc.name   : If the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),verify that the correctness of the value returned by the onAccept event in the CalendarPickerDialog is not affected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0230 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit11")
@@ -370,13 +359,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0240
-       * @tc.name    If the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),verify that the correctness of the value returned by the onChange event in the CalendarPickerDialog is not affected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0240
+     * @tc.name   : If the language is set to Chinese Traditional (Chinese Traditional Hong Kong,Chinese Traditional Taiwan),verify that the correctness of the value returned by the onChange event in the CalendarPickerDialog is not affected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0240 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit12")
@@ -399,13 +387,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0260
-       * @tc.name    When the language is set to en, verification does not affect the display of TextStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0260
+     * @tc.name   : When the language is set to en, verification does not affect the display of TextStyle
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0260 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit13")
@@ -422,13 +409,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0330
-       * @tc.name    When the language is set to bo-CN, verification does not affect the display of TextStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0330
+     * @tc.name   : When the language is set to bo-CN, verification does not affect the display of TextStyle
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0330 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit14")
@@ -445,13 +431,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0250
-       * @tc.name    When the language is set to English, the validation does not affect the callback of the onChange event in the CalendarPicker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0250
+     * @tc.name   : When the language is set to English, the validation does not affect the callback of the onChange event in the CalendarPicker
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0250 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit15")
@@ -474,13 +459,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0320
-       * @tc.name    When the language is set to bo-CN, verify that it does not affect the callback of the onChange event in CalendarPicker
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0320
+     * @tc.name   : When the language is set to bo-CN, verify that it does not affect the callback of the onChange event in CalendarPicker
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0320 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit16")
@@ -503,13 +487,12 @@ export default function ArkuiSpecialComponentsDialogCalendarPickerDialogDarHabit
     })
 
     /*
-       * @tc.number  ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0310
-       * @tc.name    When the language is set to bo-CN, validation does not affect the callback of the onChange event in the CalendarPickerDialog
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0310
+     * @tc.name   : When the language is set to bo-CN, validation does not affect the callback of the onChange event in the CalendarPickerDialog
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CALENDAR_HABIT_0310 start.`);
       Settings.createWindow("testability/pages/ArkuiSpecialComponentsDialogCalenDarHabit/ArkuiSpecialComponentsDialogCalenDarHabit17")

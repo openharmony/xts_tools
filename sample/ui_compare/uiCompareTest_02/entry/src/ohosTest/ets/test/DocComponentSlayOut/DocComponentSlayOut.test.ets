@@ -55,13 +55,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0060
-       * @tc.name    The parameter type of the title attribute of the Navigation component supports the Resource type
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0060
+     * @tc.name   : The parameter type of the title attribute of the Navigation component supports the Resource type
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0060 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut01")
@@ -74,13 +73,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0080
-       * @tc.name    The Swiper component supports next-margin/previous-margin
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0080
+     * @tc.name   : The Swiper component supports next-margin/previous-margin
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0080 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut02")
@@ -93,13 +91,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0090
-       * @tc.name    The Text Span component supports property inheritance between parent and child components
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0090
+     * @tc.name   : The Text Span component supports property inheritance between parent and child components
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0090 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut03")
@@ -112,13 +109,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0130
-       * @tc.name    The scrolling component Grid allows developers to set the height and position of the scrollBar
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0130
+     * @tc.name   : The scrolling component Grid allows developers to set the height and position of the scrollBar
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0130 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut04");
@@ -134,13 +130,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0100
-       * @tc.name    The TextArea component supports the onEditChange callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0100
+     * @tc.name   : The TextArea component supports the onEditChange callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0100 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut05");
@@ -156,13 +151,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0070
-       * @tc.name    The placeHolder property of the Search component supports the Resource type
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0070
+     * @tc.name   : The placeHolder property of the Search component supports the Resource type
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0070 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut06");
@@ -175,13 +169,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0140
-       * @tc.name    Component Routing (Navigation, NavRouter) capabilities are enhanced to support routing stacks and program triggering capabilities
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0140
+     * @tc.name   : Component Routing (Navigation, NavRouter) capabilities are enhanced to support routing stacks and program triggering capabilities
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0140 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut07");
@@ -195,13 +188,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0110
-       * @tc.name    WaterFlow and FlowItem waterfalls support the new framework
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0110
+     * @tc.name   : WaterFlow and FlowItem waterfalls support the new framework
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0110 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut08");
@@ -214,13 +206,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0120
-       * @tc.name    Scrollable Grid supports layout across major axes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0120
+     * @tc.name   : Scrollable Grid supports layout across major axes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0120 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut09");
@@ -233,13 +224,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0020
-       * @tc.name    bindPopup supports the ability to set an offset relative to the placement position and hide the arrows
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0020
+     * @tc.name   : bindPopup supports the ability to set an offset relative to the placement position and hide the arrows
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0020 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut10");
@@ -255,13 +245,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0010
-       * @tc.name    The bindContextMenu/bindMenu capability is enhanced
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0010
+     * @tc.name   : The bindContextMenu/bindMenu capability is enhanced
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0010 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut11");
@@ -281,13 +270,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0030
-       * @tc.name    bindPopup supports the ability to set an offset relative to the placement position and hide the arrows
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0030
+     * @tc.name   : bindPopup supports the ability to set an offset relative to the placement position and hide the arrows
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0030 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut12");
@@ -304,13 +292,12 @@ export default function DocComponentSlayOut() {
     })
 
     /*
-       * @tc.number  SUB_ACE_DOC_COMPONENTSLAYOUT_0040
-       * @tc.name    Flex supports the flex-grow attribute
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0040
+     * @tc.name   : Flex supports the flex-grow attribute
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_DOC_COMPONENTSLAYOUT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_DOC_COMPONENTSLAYOUT_0040 start.`);
       Settings.createWindow("testability/pages/DocComponentSlayOut/DocComponentSlayOut13");
