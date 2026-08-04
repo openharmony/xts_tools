@@ -27,10 +27,12 @@ export default function UiComponentTextRicheditorTranslate() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_TRANSLATE_0003
-     * @tc.name RicheditorTranslate0003
-     * @tc.desc 选中纯文本内容点击翻译按钮
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_TRANSLATE_0003
+     * @tc.name   : RicheditorTranslate0003
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_TRANSLATE_0003', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_TRANSLATE_0003 begin');

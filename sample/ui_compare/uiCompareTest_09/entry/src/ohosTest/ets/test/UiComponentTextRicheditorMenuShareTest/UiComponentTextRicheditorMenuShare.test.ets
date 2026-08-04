@@ -27,10 +27,12 @@ export default function UiComponentTextRicheditorMenuShare() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_Menu_Share_00001
-     * @tc.name RicheditorMenuShare00001
-     * @tc.desc 富文本支持分享能力基础测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_Menu_Share_00001
+     * @tc.name   : RicheditorMenuShare00001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_Menu_Share_00001', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_Menu_Share_00001 begin');

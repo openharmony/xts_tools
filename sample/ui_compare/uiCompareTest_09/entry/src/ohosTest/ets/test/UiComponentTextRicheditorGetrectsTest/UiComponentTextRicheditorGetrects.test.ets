@@ -37,6 +37,13 @@ export default function UiComponentTextRicheditorGetrectsTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0001', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0001 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGetrects/UiComponentTextRicheditorGetrects0001');
@@ -50,6 +57,13 @@ export default function UiComponentTextRicheditorGetrectsTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0005
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0005
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0005', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0005 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGetrects/UiComponentTextRicheditorGetrects0005');
@@ -63,6 +77,13 @@ export default function UiComponentTextRicheditorGetrectsTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0006
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0006
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0006', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0006 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGetrects/UiComponentTextRicheditorGetrects0006');
@@ -76,6 +97,13 @@ export default function UiComponentTextRicheditorGetrectsTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0009
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0009
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0009', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0009 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGetrects/UiComponentTextRicheditorGetrects0009');
@@ -89,6 +117,13 @@ export default function UiComponentTextRicheditorGetrectsTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0016', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0016 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGetrects/UiComponentTextRicheditorGetrects0016');
@@ -102,6 +137,13 @@ export default function UiComponentTextRicheditorGetrectsTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0021', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0021 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGetrects/UiComponentTextRicheditorGetrects0021');

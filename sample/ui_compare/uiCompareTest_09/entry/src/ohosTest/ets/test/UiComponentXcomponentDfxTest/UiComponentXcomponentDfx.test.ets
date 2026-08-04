@@ -27,10 +27,12 @@ export default function UiComponentXcomponentDfx() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_DFX_0050
-     * @tc.name XcomponentDfx0050
-     * @tc.desc 平台类组件DFX能力增强验证
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_DFX_0050
+     * @tc.name   : XcomponentDfx0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_DFX_0050', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_DFX_0050 begin');

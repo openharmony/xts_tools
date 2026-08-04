@@ -27,10 +27,12 @@ export default function UiComponentTextinputTvNew() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100
-     * @tc.name 输入框提示文本超长UX检视
-     * @tc.desc 导入overlay，提示文本超长，验证超长文本以...显示
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100
+     * @tc.name   : 输入框提示文本超长UX检视
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100 begin');
@@ -52,10 +54,12 @@ export default function UiComponentTextinputTvNew() {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240
-     * @tc.name 输入法避让测试
-     * @tc.desc 存在输入框在页面底部，验证输入框避让输入法弹出框
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240
+     * @tc.name   : 输入法避让测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240 begin');

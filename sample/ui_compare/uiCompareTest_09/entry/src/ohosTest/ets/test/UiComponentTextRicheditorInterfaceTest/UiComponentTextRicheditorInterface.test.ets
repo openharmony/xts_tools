@@ -29,6 +29,13 @@ export default function UiComponentTextRicheditorInterface() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0055
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0055
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0055', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0055');
       await driver.delayMs(1000);
@@ -45,6 +52,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0057
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0057
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0057', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0057');
       await driver.delayMs(1000);
@@ -61,6 +75,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0061
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0061
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0061', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0061');
       await driver.delayMs(1000);
@@ -77,6 +98,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0086
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0086
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0086', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0086');
       await driver.delayMs(1000);
@@ -93,6 +121,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0087
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0087
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0087', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0087');
       await driver.delayMs(1000);
@@ -109,6 +144,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0088
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0088
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0088', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0088');
       await driver.delayMs(1000);
@@ -125,6 +167,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0102
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0102
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0102', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0102');
       await driver.delayMs(1000);
@@ -141,6 +190,13 @@ export default function UiComponentTextRicheditorInterface() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0104
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0104
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0104', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorInterface/RicheditorInterface0104');
       await driver.delayMs(1000);

@@ -27,10 +27,12 @@ export default function UiComponentTextinputSearchFocus() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310
-     * @tc.name TextinputSearchFocus0310
-     * @tc.desc 【textinput/search】验证切换镜像语言后，走焦功能
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310
+     * @tc.name   : TextinputSearchFocus0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310 begin');

@@ -37,6 +37,13 @@ export default function UiOhosKeyframeanimatetoExpectedframeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0090
+     * @tc.name   : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0090', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0090 start.`);
       Settings.createWindow('testability/pages/UiOhosKeyframeanimatetoExpectedframe/UiOhosKeyframeanimatetoExpectedframe0090');
@@ -50,6 +57,13 @@ export default function UiOhosKeyframeanimatetoExpectedframeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0110
+     * @tc.name   : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0110', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0110 start.`);
       Settings.createWindow('testability/pages/UiOhosKeyframeanimatetoExpectedframe/UiOhosKeyframeanimatetoExpectedframe0110');
@@ -63,6 +77,13 @@ export default function UiOhosKeyframeanimatetoExpectedframeTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0120
+     * @tc.name   : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0120', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0120 start.`);
       Settings.createWindow('testability/pages/UiOhosKeyframeanimatetoExpectedframe/UiOhosKeyframeanimatetoExpectedframe0120');

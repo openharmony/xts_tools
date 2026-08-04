@@ -30,10 +30,12 @@ export default function UiComponentTextTv() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0030
-     * @tc.name marqueeOptions.delay不设置
-     * @tc.desc 验证跑马灯默认延迟效果
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0030
+     * @tc.name   : marqueeOptions.delay不设置
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0030', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0030');
@@ -48,10 +50,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0030');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0060
-     * @tc.name marqueeOptions.delay设置为1000ms
-     * @tc.desc 验证跑马灯延迟1s后继续滚动
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0060
+     * @tc.name   : marqueeOptions.delay设置为1000ms
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0060', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0060');
@@ -66,10 +70,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0060');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0110
-     * @tc.name marqueeOptions.fromStart不设置，启用渐隐效果
-     * @tc.desc 验证文字存在渐隐效果
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0110
+     * @tc.name   : marqueeOptions.fromStart不设置，启用渐隐效果
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0110', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0110');
@@ -84,10 +90,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0110');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0140
-     * @tc.name marqueeOptions.loop不设置，fromStart设置为true
-     * @tc.desc 验证跑马灯从头正向滚动
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0140
+     * @tc.name   : marqueeOptions.loop不设置，fromStart设置为true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0140', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0140');
@@ -102,10 +110,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0140');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0180
-     * @tc.name marqueeOptions.loop设置为2
-     * @tc.desc 验证跑马灯播放两次即停止
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0180
+     * @tc.name   : marqueeOptions.loop设置为2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0180', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0180');
@@ -120,10 +130,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0180');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0250
-     * @tc.name marqueeOptions.step设置为20
-     * @tc.desc 验证跑马灯滚动速度明显快
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0250
+     * @tc.name   : marqueeOptions.step设置为20
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0250', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0250');
@@ -138,10 +150,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0250');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0350
-     * @tc.name 跑马灯循环未结束，重新触发start
-     * @tc.desc 验证触发MarqueeState.START回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0350
+     * @tc.name   : 跑马灯循环未结束，重新触发start
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0350', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0350');
@@ -161,10 +175,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0350');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0800
-     * @tc.name 多个跑马灯同时执行，流畅无卡顿
-     * @tc.desc 验证多个跑马灯动效流畅
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0800
+     * @tc.name   : 多个跑马灯同时执行，流畅无卡顿
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0800', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0800');
@@ -179,10 +195,12 @@ export default function UiComponentTextTv() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXT_TV_0800');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0810
-     * @tc.name 跑马灯循环100次，回调次数无丢失
-     * @tc.desc 验证循环100次回调次数正确
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0810
+     * @tc.name   : 跑马灯循环100次，回调次数无丢失
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0810', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextTv/TextTv0810');

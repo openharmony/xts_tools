@@ -37,6 +37,13 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0007
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0007
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0007', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0007 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGundongtiao/UiComponentTextRicheditorGundongtiao0007');
@@ -63,6 +70,13 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0008
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0008
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0008', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0008 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGundongtiao/UiComponentTextRicheditorGundongtiao0008');
@@ -95,6 +109,13 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0012', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0012 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGundongtiao/UiComponentTextRicheditorGundongtiao0012');
@@ -109,6 +130,13 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0013
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0013', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0013 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGundongtiao/UiComponentTextRicheditorGundongtiao0013');
@@ -123,6 +151,13 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0014', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0014 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGundongtiao/UiComponentTextRicheditorGundongtiao0014');
@@ -137,6 +172,13 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0016', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0016 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorGundongtiao/UiComponentTextRicheditorGundongtiao0016');
