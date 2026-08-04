@@ -39,11 +39,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110 start.`);
@@ -60,11 +61,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130 start.`);
@@ -81,11 +83,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120 start.`);
@@ -103,11 +106,12 @@ export default function UIComponentScrollScrollbarVelocity() {
     })
 
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140 start.`);
@@ -124,11 +128,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200 start.`);
@@ -146,11 +151,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180 start.`);
@@ -167,11 +173,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190 start.`);
@@ -189,11 +196,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170 start.`);
@@ -209,11 +217,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210 start.`);
@@ -229,11 +238,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260 start.`);
@@ -249,11 +259,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220 start.`);
@@ -269,11 +280,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280 start.`);
@@ -290,11 +302,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300 start.`);
@@ -311,11 +324,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230 start.`);
@@ -332,11 +346,12 @@ export default function UIComponentScrollScrollbarVelocity() {
     })
 
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290 start.`);
@@ -356,11 +371,12 @@ export default function UIComponentScrollScrollbarVelocity() {
     })
 
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270 start.`);
@@ -377,11 +393,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070 start.`);
@@ -398,11 +415,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010 start.`);
@@ -419,11 +437,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020 start.`);
@@ -440,11 +459,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090 start.`);
@@ -462,11 +482,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060 start.`);
@@ -483,11 +504,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100 start.`);
@@ -504,11 +526,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080 start.`);
@@ -525,11 +548,12 @@ export default function UIComponentScrollScrollbarVelocity() {
       done()
     })
 
-    /**
-     * @tc.number     : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
-     * @tc.name       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
-     * @tc.desc       : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030 start.`);
