@@ -55,13 +55,12 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020
-       * @tc.name    With the return value onKeyEvent, the property is tested for keycode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020
+     * @tc.name   : With the return value onKeyEvent, the property is tested for keycode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch01")
@@ -77,13 +76,12 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030
-       * @tc.name    With the return value onKeyEvent, the property is tested for keytext
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030
+     * @tc.name   : With the return value onKeyEvent, the property is tested for keytext
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch02")
@@ -99,13 +97,12 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160
-       * @tc.name    With the return value onKeyEventDispatch, the property is tested for keycode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160
+     * @tc.name   : With the return value onKeyEventDispatch, the property is tested for keycode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch03")
@@ -121,13 +118,12 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170
-       * @tc.name    With the return value onKeyEventDispatch, the property is tested for keytext
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170
+     * @tc.name   : With the return value onKeyEventDispatch, the property is tested for keytext
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170 start.`);
       Settings.createWindow("testability/pages/ActionEventCommonEventKeyEventDispatch/ActionEventCommonEventKeyEventDispatch04")

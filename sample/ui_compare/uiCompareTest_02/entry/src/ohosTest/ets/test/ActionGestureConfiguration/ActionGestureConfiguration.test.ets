@@ -56,13 +56,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0030
-       * @tc.name    LongPressGesture does not set isFingerCountLimited
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0030
+     * @tc.name   : LongPressGesture does not set isFingerCountLimited
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0030`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration01")
@@ -77,13 +76,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0020
-       * @tc.name    LongPressGesture does not set fingers
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0020
+     * @tc.name   : LongPressGesture does not set fingers
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0020`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration02")
@@ -98,13 +96,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0010
-       * @tc.name    LongPressGesture does not set duration
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0010
+     * @tc.name   : LongPressGesture does not set duration
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0010`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration03")
@@ -119,13 +116,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0040
-       * @tc.name    LongPressGesture does not set repeat
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0040
+     * @tc.name   : LongPressGesture does not set repeat
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0040`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration04")
@@ -140,13 +136,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0870
-       * @tc.name    SwipeGesture does not set fingers
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0870
+     * @tc.name   : SwipeGesture does not set fingers
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0870`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration05")
@@ -162,13 +157,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0890
-       * @tc.name    SwipeGesture does not set speed
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0890
+     * @tc.name   : SwipeGesture does not set speed
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0890`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration06")
@@ -184,13 +178,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0880
-       * @tc.name    SwipeGesture does not set isFingerCountLimited
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0880
+     * @tc.name   : SwipeGesture does not set isFingerCountLimited
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0880`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration07")
@@ -206,13 +199,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0860
-       * @tc.name    SwipeGesture does not set direction
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0860
+     * @tc.name   : SwipeGesture does not set direction
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0860`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration08")
@@ -228,13 +220,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1170
-       * @tc.name    TapGesture sets count to 2
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1170
+     * @tc.name   : TapGesture sets count to 2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1170`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration09")
@@ -250,13 +241,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1200
-       * @tc.name    TapGesture sets count to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1200
+     * @tc.name   : TapGesture sets count to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1200`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration10")
@@ -272,13 +262,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1210
-       * @tc.name    TapGesture sets count to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1210
+     * @tc.name   : TapGesture sets count to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1210`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration11")
@@ -294,13 +283,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1250
-       * @tc.name    TapGesture sets fingers to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1250
+     * @tc.name   : TapGesture sets fingers to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1250`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration12")
@@ -323,13 +311,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1240
-       * @tc.name    TapGesture sets fingers to 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1240
+     * @tc.name   : TapGesture sets fingers to 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1240`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration13")
@@ -345,13 +332,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1220
-       * @tc.name    TapGesture sets fingers to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1220
+     * @tc.name   : TapGesture sets fingers to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1220`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration14")
@@ -367,13 +353,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1230
-       * @tc.name    TapGesture sets fingers to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1230
+     * @tc.name   : TapGesture sets fingers to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1230`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration15")
@@ -389,13 +374,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1280
-       * @tc.name    TapGesture sets fingers to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1280
+     * @tc.name   : TapGesture sets fingers to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1280`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration16")
@@ -411,13 +395,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1270
-       * @tc.name    TapGesture sets fingers to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1270
+     * @tc.name   : TapGesture sets fingers to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1270`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration17")
@@ -433,13 +416,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1150
-       * @tc.name    TapGesture sets count to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1150
+     * @tc.name   : TapGesture sets count to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1150`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration18")
@@ -455,13 +437,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1160
-       * @tc.name    TapGesture sets count to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1160
+     * @tc.name   : TapGesture sets count to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1160`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration19")
@@ -477,13 +458,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1300
-       * @tc.name    TapGesture sets isFingerCountLimited to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1300
+     * @tc.name   : TapGesture sets isFingerCountLimited to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1300`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration20")
@@ -499,13 +479,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1310
-       * @tc.name    TapGesture sets isFingerCountLimited to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1310
+     * @tc.name   : TapGesture sets isFingerCountLimited to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1310`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration21")
@@ -521,13 +500,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1290
-       * @tc.name    TapGesture sets isFingerCountLimited to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1290
+     * @tc.name   : TapGesture sets isFingerCountLimited to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1290`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration22")
@@ -543,13 +521,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0100
-       * @tc.name    LongPressGesture is set to duration of 800
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0100
+     * @tc.name   : LongPressGesture is set to duration of 800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0100`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration23")
@@ -565,13 +542,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0050
-       * @tc.name    LongPressGesture is set to duration of -100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0050
+     * @tc.name   : LongPressGesture is set to duration of -100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0050`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration24")
@@ -587,13 +563,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0060
-       * @tc.name    LongPressGesture is set to duration of 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0060
+     * @tc.name   : LongPressGesture is set to duration of 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0060`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration25")
@@ -609,13 +584,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0080
-       * @tc.name    LongPressGesture is set to duration of 222.555
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0080
+     * @tc.name   : LongPressGesture is set to duration of 222.555
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0080`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration26")
@@ -631,13 +605,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0070
-       * @tc.name    LongPressGesture is set to duration of 200
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0070
+     * @tc.name   : LongPressGesture is set to duration of 200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0070`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration27")
@@ -653,13 +626,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0090
-       * @tc.name    LongPressGesture is set to duration of 500
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0090
+     * @tc.name   : LongPressGesture is set to duration of 500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0090`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration28")
@@ -675,13 +647,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0120
-       * @tc.name    LongPressGesture is set to fingers of -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0120
+     * @tc.name   : LongPressGesture is set to fingers of -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0120`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration29")
@@ -697,13 +668,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0140
-       * @tc.name    LongPressGesture is set to fingers of 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0140
+     * @tc.name   : LongPressGesture is set to fingers of 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0140`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration30")
@@ -719,13 +689,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0130
-       * @tc.name    LongPressGesture is set to fingers of 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0130
+     * @tc.name   : LongPressGesture is set to fingers of 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0130`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration31")
@@ -741,13 +710,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0170
-       * @tc.name    LongPressGesture is set to fingers of null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0170
+     * @tc.name   : LongPressGesture is set to fingers of null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0170`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration32")
@@ -763,13 +731,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0180
-       * @tc.name    LongPressGesture is set to fingers of undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0180
+     * @tc.name   : LongPressGesture is set to fingers of undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0180`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration33")
@@ -785,13 +752,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0200
-       * @tc.name    LongPressGesture is set isFingerCountLimited to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0200
+     * @tc.name   : LongPressGesture is set isFingerCountLimited to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0200`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration34")
@@ -807,13 +773,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0190
-       * @tc.name    LongPressGesture is set isFingerCountLimited to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0190
+     * @tc.name   : LongPressGesture is set isFingerCountLimited to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0190`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration35")
@@ -829,13 +794,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0210
-       * @tc.name    LongPressGesture is set isFingerCountLimited to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0210
+     * @tc.name   : LongPressGesture is set isFingerCountLimited to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0210`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration36")
@@ -851,13 +815,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0230
-       * @tc.name    LongPressGesture is set repeated to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0230
+     * @tc.name   : LongPressGesture is set repeated to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0230`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration37")
@@ -873,13 +836,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0220
-       * @tc.name    LongPressGesture is set repeated to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0220
+     * @tc.name   : LongPressGesture is set repeated to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0220`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration38")
@@ -895,13 +857,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0240
-       * @tc.name    LongPressGesture is set repeated to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0240
+     * @tc.name   : LongPressGesture is set repeated to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0240`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration39")
@@ -917,13 +878,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110
-       * @tc.name    LongPressGesture is set duration to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110
+     * @tc.name   : LongPressGesture is set duration to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration40")
@@ -939,13 +899,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110
-       * @tc.name    SwipeGesture is set speed to 300
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110
+     * @tc.name   : SwipeGesture is set speed to 300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1100`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration41")
@@ -962,13 +921,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1060
-       * @tc.name    SwipeGesture is set speed to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1060
+     * @tc.name   : SwipeGesture is set speed to 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1060`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration42")
@@ -985,13 +943,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1050
-       * @tc.name    SwipeGesture is set speed to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1050
+     * @tc.name   : SwipeGesture is set speed to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1050`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration43")
@@ -1008,13 +965,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1070
-       * @tc.name    SwipeGesture is set speed to 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1070
+     * @tc.name   : SwipeGesture is set speed to 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1070`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration44")
@@ -1031,13 +987,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1090
-       * @tc.name    SwipeGesture is set speed to 20.55
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1090
+     * @tc.name   : SwipeGesture is set speed to 20.55
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1090`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration45")
@@ -1054,13 +1009,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1080
-       * @tc.name    SwipeGesture is set speed to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1080
+     * @tc.name   : SwipeGesture is set speed to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1080`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration46")
@@ -1077,13 +1031,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1010
-       * @tc.name    SwipeGesture is set fingers to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1010
+     * @tc.name   : SwipeGesture is set fingers to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1010`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration47")
@@ -1100,13 +1053,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1110
-       * @tc.name    SwipeGesture is set speed to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1110
+     * @tc.name   : SwipeGesture is set speed to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1110`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration48")
@@ -1123,13 +1075,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1000
-       * @tc.name    SwipeGesture is set fingers to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1000
+     * @tc.name   : SwipeGesture is set fingers to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1000`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration49")
@@ -1146,13 +1097,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0970
-       * @tc.name    SwipeGesture is set fingers to 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0970
+     * @tc.name   : SwipeGesture is set fingers to 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0970`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration50")
@@ -1169,13 +1119,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0960
-       * @tc.name    SwipeGesture is set fingers to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0960
+     * @tc.name   : SwipeGesture is set fingers to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0960`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration51")
@@ -1192,13 +1141,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0950
-       * @tc.name    SwipeGesture is set fingers to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0950
+     * @tc.name   : SwipeGesture is set fingers to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0950`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration52")
@@ -1215,13 +1163,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0980
-       * @tc.name    SwipeGesture is set fingers to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0980
+     * @tc.name   : SwipeGesture is set fingers to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0980`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration53")
@@ -1244,13 +1191,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0990
-       * @tc.name    SwipeGesture is set fingers to 4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0990
+     * @tc.name   : SwipeGesture is set fingers to 4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0990`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration54")
@@ -1277,13 +1223,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1040
-       * @tc.name    SwipeGesture is set isFingerCountLimited to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1040
+     * @tc.name   : SwipeGesture is set isFingerCountLimited to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1040`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration55")
@@ -1300,13 +1245,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1030
-       * @tc.name    SwipeGesture is set isFingerCountLimited to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1030
+     * @tc.name   : SwipeGesture is set isFingerCountLimited to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1030`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration56")
@@ -1323,13 +1267,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1020
-       * @tc.name    SwipeGesture is set isFingerCountLimited to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1020
+     * @tc.name   : SwipeGesture is set isFingerCountLimited to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1020`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration57")
@@ -1346,13 +1289,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0920
-       * @tc.name    SwipeGesture is set direction to None
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0920
+     * @tc.name   : SwipeGesture is set direction to None
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0920`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration58")
@@ -1369,13 +1311,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0900
-       * @tc.name    SwipeGesture is set direction to All
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0900
+     * @tc.name   : SwipeGesture is set direction to All
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0900`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration59")
@@ -1392,13 +1333,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0910
-       * @tc.name    SwipeGesture is set direction to Horizontal
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0910
+     * @tc.name   : SwipeGesture is set direction to Horizontal
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0910`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration60")
@@ -1415,13 +1355,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0940
-       * @tc.name    SwipeGesture is set direction to Vertical
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0940
+     * @tc.name   : SwipeGesture is set direction to Vertical
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0940`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration61")
@@ -1438,13 +1377,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0930
-       * @tc.name    SwipeGesture is set direction to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0930
+     * @tc.name   : SwipeGesture is set direction to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0930`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration62")
@@ -1461,13 +1399,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0280
-       * @tc.name    PanGesture is set distance to -10
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0280
+     * @tc.name   : PanGesture is set distance to -10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0280`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration63")
@@ -1484,13 +1421,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0290
-       * @tc.name    PanGesture is set distance to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0290
+     * @tc.name   : PanGesture is set distance to 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0290`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration64")
@@ -1507,13 +1443,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0300
-       * @tc.name    PanGesture is set distance to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0300
+     * @tc.name   : PanGesture is set distance to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0300', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0300`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration65")
@@ -1530,13 +1465,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0310
-       * @tc.name    PanGesture is set distance to 120
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0310
+     * @tc.name   : PanGesture is set distance to 120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0310`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration66")
@@ -1553,13 +1487,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0320
-       * @tc.name    PanGesture is set distance to 20.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0320
+     * @tc.name   : PanGesture is set distance to 20.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0320`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration67")
@@ -1576,13 +1509,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0330
-       * @tc.name    PanGesture is set distance to 5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0330
+     * @tc.name   : PanGesture is set distance to 5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0330`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration68")
@@ -1599,13 +1531,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340
-       * @tc.name    PanGesture is set distance to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340
+     * @tc.name   : PanGesture is set distance to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration69")
@@ -1622,13 +1553,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440
-       * @tc.name    PanGesture is set isFingerCountLimited to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440
+     * @tc.name   : PanGesture is set isFingerCountLimited to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration70")
@@ -1645,13 +1575,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430
-       * @tc.name    PanGesture is set isFingerCountLimited to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430
+     * @tc.name   : PanGesture is set isFingerCountLimited to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration71")
@@ -1668,13 +1597,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420
-       * @tc.name    PanGesture is set isFingerCountLimited to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420
+     * @tc.name   : PanGesture is set isFingerCountLimited to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration72")
@@ -1691,13 +1619,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350
-       * @tc.name    PanGesture is set fingers to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350
+     * @tc.name   : PanGesture is set fingers to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration73")
@@ -1714,13 +1641,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360
-       * @tc.name    PanGesture is set fingers to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360
+     * @tc.name   : PanGesture is set fingers to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration74")
@@ -1737,13 +1663,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370
-       * @tc.name    PanGesture is set fingers to 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370
+     * @tc.name   : PanGesture is set fingers to 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration75")
@@ -1760,13 +1685,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400
-       * @tc.name    PanGesture is set fingers to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400
+     * @tc.name   : PanGesture is set fingers to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration76")
@@ -1783,13 +1707,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410
-       * @tc.name    PanGesture is set fingers to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410
+     * @tc.name   : PanGesture is set fingers to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration77")
@@ -1806,13 +1729,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260
-       * @tc.name    TapGesture is set fingers to 4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260
+     * @tc.name   : TapGesture is set fingers to 4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration78")
@@ -1839,13 +1761,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380
-       * @tc.name    PanGesture is set fingers to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380
+     * @tc.name   : PanGesture is set fingers to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration79")
@@ -1868,13 +1789,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390
-       * @tc.name    PanGesture is set fingers to 4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390
+     * @tc.name   : PanGesture is set fingers to 4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration80")
@@ -1901,13 +1821,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570
-       * @tc.name    PinchGesture is set fingers to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570
+     * @tc.name   : PinchGesture is set fingers to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration81")
@@ -1930,13 +1849,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560
-       * @tc.name    PinchGesture is set fingers to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560
+     * @tc.name   : PinchGesture is set fingers to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration82")
@@ -1959,13 +1877,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590
-       * @tc.name    PinchGesture is set fingers to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590
+     * @tc.name   : PinchGesture is set fingers to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration83")
@@ -1988,13 +1905,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580
-       * @tc.name    PinchGesture is set fingers to 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580
+     * @tc.name   : PinchGesture is set fingers to 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration84")
@@ -2017,13 +1933,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620
-       * @tc.name    PinchGesture is set fingers to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620
+     * @tc.name   : PinchGesture is set fingers to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration85")
@@ -2046,13 +1961,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600
-       * @tc.name    PinchGesture is set fingers to 4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600
+     * @tc.name   : PinchGesture is set fingers to 4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration86")
@@ -2079,13 +1993,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550
-       * @tc.name    PinchGesture is set distance to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550
+     * @tc.name   : PinchGesture is set distance to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration87")
@@ -2108,13 +2021,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510
-       * @tc.name    PinchGesture is set distance to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510
+     * @tc.name   : PinchGesture is set distance to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration88")
@@ -2137,13 +2049,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520
-       * @tc.name    PinchGesture is set distance to 20.55
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520
+     * @tc.name   : PinchGesture is set distance to 20.55
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration89")
@@ -2166,13 +2077,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540
-       * @tc.name    PinchGesture is set distance to 5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540
+     * @tc.name   : PinchGesture is set distance to 5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration90")
@@ -2195,13 +2105,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650
-       * @tc.name    PinchGesture is set isFingerCountLimited to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650
+     * @tc.name   : PinchGesture is set isFingerCountLimited to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration91")
@@ -2224,13 +2133,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640
-       * @tc.name    PinchGesture is set isFingerCountLimited to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640
+     * @tc.name   : PinchGesture is set isFingerCountLimited to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration92")
@@ -2253,13 +2161,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630
-       * @tc.name    PinchGesture is set isFingerCountLimited to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630
+     * @tc.name   : PinchGesture is set isFingerCountLimited to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration93")
@@ -2282,13 +2189,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530
-       * @tc.name    PinchGesture is set distance to 30
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530
+     * @tc.name   : PinchGesture is set distance to 30
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration94")
@@ -2311,13 +2217,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700
-       * @tc.name    RotationGesture is set angle to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700
+     * @tc.name   : RotationGesture is set angle to 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration95")
@@ -2340,13 +2245,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690
-       * @tc.name    RotationGesture is set angle to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690
+     * @tc.name   : RotationGesture is set angle to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration96")
@@ -2369,13 +2273,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710
-       * @tc.name    RotationGesture is set angle to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710
+     * @tc.name   : RotationGesture is set angle to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration97")
@@ -2398,13 +2301,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750
-       * @tc.name    RotationGesture is set angle to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750
+     * @tc.name   : RotationGesture is set angle to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration98")
@@ -2427,13 +2329,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730
-       * @tc.name    RotationGesture is set angle to 370
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730
+     * @tc.name   : RotationGesture is set angle to 370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration99")
@@ -2456,13 +2357,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770
-       * @tc.name    RotationGesture is set fingers to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770
+     * @tc.name   : RotationGesture is set fingers to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration100")
@@ -2485,13 +2385,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760
-       * @tc.name    RotationGesture is set fingers to -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760
+     * @tc.name   : RotationGesture is set fingers to -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration101")
@@ -2514,13 +2413,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810
-       * @tc.name    RotationGesture is set fingers to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810
+     * @tc.name   : RotationGesture is set fingers to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration102")
@@ -2543,13 +2441,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790
-       * @tc.name    RotationGesture is set fingers to 2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790
+     * @tc.name   : RotationGesture is set fingers to 2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration103")
@@ -2572,13 +2469,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780
-       * @tc.name    RotationGesture is set fingers to 11
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780
+     * @tc.name   : RotationGesture is set fingers to 11
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration104")
@@ -2601,13 +2497,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800
-       * @tc.name    RotationGesture is set fingers to 4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800
+     * @tc.name   : RotationGesture is set fingers to 4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration105")
@@ -2634,13 +2529,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850
-       * @tc.name    RotationGesture is set isFingerCountLimited to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850
+     * @tc.name   : RotationGesture is set isFingerCountLimited to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration106")
@@ -2663,13 +2557,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830
-       * @tc.name    RotationGesture is set isFingerCountLimited to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830
+     * @tc.name   : RotationGesture is set isFingerCountLimited to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration107")
@@ -2692,13 +2585,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840
-       * @tc.name    RotationGesture is set isFingerCountLimited to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840
+     * @tc.name   : RotationGesture is set isFingerCountLimited to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration108")
@@ -2721,13 +2613,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500
-       * @tc.name    PinchGesture is set distance to 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500
+     * @tc.name   : PinchGesture is set distance to 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration109")
@@ -2750,13 +2641,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490
-       * @tc.name    PinchGesture is set distance to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490
+     * @tc.name   : PinchGesture is set distance to 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration110")
@@ -2779,13 +2669,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480
-       * @tc.name    PinchGesture is set distance to -10
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480
+     * @tc.name   : PinchGesture is set distance to -10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration111")
@@ -2808,13 +2697,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160
-       * @tc.name    LongPressGesture设置fingers为4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160
+     * @tc.name   : LongPressGesture设置fingers为4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration112")
@@ -2840,13 +2728,12 @@ export default function ActionGestureConfiguration() {
 
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150
-       * @tc.name    LongPressGesture设置fingers为2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150
+     * @tc.name   : LongPressGesture设置fingers为2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration113")
@@ -2867,13 +2754,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740
-       * @tc.name    RotationGesture设置angle为50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740
+     * @tc.name   : RotationGesture设置angle为50
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration114")
@@ -2903,13 +2789,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720
-       * @tc.name    RotationGesture设置angle为2.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720
+     * @tc.name   : RotationGesture设置angle为2.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration115")
@@ -2940,13 +2825,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180
-       * @tc.name    TapGesture设置count为3.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180
+     * @tc.name   : TapGesture设置count为3.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration116")
@@ -2964,13 +2848,12 @@ export default function ActionGestureConfiguration() {
 
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820
-       * @tc.name    RotationGesture设置fingers为undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820
+     * @tc.name   : RotationGesture设置fingers为undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration117")
@@ -3002,13 +2885,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610
-       * @tc.name    PinchGesture设置fingers为null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610
+     * @tc.name   : PinchGesture设置fingers为null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration118")
@@ -3029,13 +2911,12 @@ export default function ActionGestureConfiguration() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190
-       * @tc.name    TapGesture设置count为4
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190
+     * @tc.name   : TapGesture设置count为4
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration119")
