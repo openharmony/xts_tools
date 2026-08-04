@@ -55,13 +55,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040
-       * @tc.name    TextInput/TextArea/Search,set addText,and set textOperationOptions to be greater than the text length
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040
+     * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions to be greater than the text length
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete01");
@@ -77,13 +76,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030
-       * @tc.name    TextInput/TextArea/Search,set addText,and set textOperationOptions offset is 5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030
+     * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions offset is 5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete02");
@@ -99,13 +97,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050
-       * @tc.name    TextInput/TextArea/Search,set addText,and set textOperationOptions offset is null/undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050
+     * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions offset is null/undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete03");
@@ -121,13 +118,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020
-       * @tc.name    TextInput/TextArea/Search,set addText,and set textOperationOptions offset is -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020
+     * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions offset is -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete04");
@@ -143,13 +139,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240
-       * @tc.name    TextInput/TextArea/Search component, set maxLength, and add addText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240
+     * @tc.name   : TextInput/TextArea/Search component, set maxLength, and add addText
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete05");
@@ -165,13 +160,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100
-       * @tc.name    TextInput/TextArea/Search component, set deleteText,set start only,and set undefined/null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText,set start only,and set undefined/null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete06");
@@ -187,13 +181,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010
-       * @tc.name    TextInput/TextArea/Search component, set addText,and leave textOperationOptions unspecified
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010
+     * @tc.name   : TextInput/TextArea/Search component, set addText,and leave textOperationOptions unspecified
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete07");
@@ -209,13 +202,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060
-       * @tc.name    TextInput/TextArea/Search component,set addText,set textOperationOptions,add it in the middle of the emoji
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060
+     * @tc.name   : TextInput/TextArea/Search component,set addText,set textOperationOptions,add it in the middle of the emoji
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete08");
@@ -231,13 +223,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160
-       * @tc.name    set deleteText,set start and end, greater than 0 and less than the text length,and end greater than start
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160
+     * @tc.name   : set deleteText,set start and end, greater than 0 and less than the text length,and end greater than start
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete09");
@@ -253,13 +244,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070
-       * @tc.name    TextInput/TextArea/Search component, set deleteText, but not TextRange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText, but not TextRange
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete10");
@@ -275,13 +265,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150
-       * @tc.name    TextInput/TextArea/Search component, set deleteText,set only end,set greater than the text length
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText,set only end,set greater than the text length
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete11");
@@ -297,13 +286,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080
-       * @tc.name    TextInput/TextArea/Search component, set deleteText, and set start only
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText, and set start only
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete12");
@@ -319,13 +307,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140
-       * @tc.name    TextInput/TextArea/Search component, set deleteText,set only end,and set undefined/null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText,set only end,and set undefined/null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete13");
@@ -341,13 +328,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090
-       * @tc.name    TextInput/TextArea/Search component, set deleteText, set only start, less than 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText, set only start, less than 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete14");
@@ -363,13 +349,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110
-       * @tc.name    TextInput/TextArea/Search component,set deleteText, set start only,and set greater than the text length
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110
+     * @tc.name   : TextInput/TextArea/Search component,set deleteText, set start only,and set greater than the text length
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete15");
@@ -385,13 +370,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130
-       * @tc.name    TextInput/TextArea/Search component, set deleteText, set only end, less than 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText, set only end, less than 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete16");
@@ -407,13 +391,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120
-       * @tc.name    TextInput/TextArea/Search component,set deleteText,set only end,greater than 0 and less than the text length
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120
+     * @tc.name   : TextInput/TextArea/Search component,set deleteText,set only end,greater than 0 and less than the text length
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete17");
@@ -429,13 +412,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170
-       * @tc.name    set deleteText, set start and end, greater than 0 and less than the text length, and end less than start
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170
+     * @tc.name   : set deleteText, set start and end, greater than 0 and less than the text length, and end less than start
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete18");
@@ -451,13 +433,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190
-       * @tc.name    set deleteText, set start and end, and set the text length to be greater than the text length
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190
+     * @tc.name   : set deleteText, set start and end, and set the text length to be greater than the text length
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete19");
@@ -473,13 +454,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180
-       * @tc.name    TextInput/TextArea/Search component, set deleteText, set start and end, less than 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180
+     * @tc.name   : TextInput/TextArea/Search component, set deleteText, set start and end, less than 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete20");
@@ -495,13 +475,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260
-       * @tc.name    TextInput/TextArea/Search component, set inputFilter, and set addText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260
+     * @tc.name   : TextInput/TextArea/Search component, set inputFilter, and set addText
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete21");
@@ -517,13 +496,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270
-       * @tc.name    TextInput/TextArea/Search component, set type, and set addText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270
+     * @tc.name   : TextInput/TextArea/Search component, set type, and set addText
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete22");
@@ -544,13 +522,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280
-       * @tc.name    TextInput/TextArea/Search component, set type, and set deleteText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280
+     * @tc.name   : TextInput/TextArea/Search component, set type, and set deleteText
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete23");
@@ -571,13 +548,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310
-       * @tc.name    TextInput/TextArea component, set style, set deleteText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310
+     * @tc.name   : TextInput/TextArea component, set style, set deleteText
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete24");
@@ -598,13 +574,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340
-       * @tc.name    TextArea and TextInput components are in inline mode,set maxLines, and set addText
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340
+     * @tc.name   : TextArea and TextInput components are in inline mode,set maxLines, and set addText
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete25");
@@ -630,13 +605,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330
-       * @tc.name    TextInput/TextArea/Search component, set the style,and set textAlign
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330
+     * @tc.name   : TextInput/TextArea/Search component, set the style,and set textAlign
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete26");
@@ -657,13 +631,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350
-       * @tc.name    The TextArea and TextInput components are in inline mode, and textOverflow is set to Ellipsis
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350
+     * @tc.name   : The TextArea and TextInput components are in inline mode, and textOverflow is set to Ellipsis
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete27");
@@ -686,13 +659,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370
-       * @tc.name    TextInput/TextArea/Search component and set setTextSelection
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370
+     * @tc.name   : TextInput/TextArea/Search component and set setTextSelection
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete28");
@@ -725,13 +697,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380
-       * @tc.name    TextInput/TextArea/Search component and set onChange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380
+     * @tc.name   : TextInput/TextArea/Search component and set onChange
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete29");
@@ -751,13 +722,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390
-       * @tc.name    TextInput/TextArea/Search component and set onwillChange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390
+     * @tc.name   : TextInput/TextArea/Search component and set onwillChange
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete30");
@@ -777,13 +747,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400
-       * @tc.name    TextInput/TextArea/Search component, set onWillInsert, onDidInsert, onWillDelete, and onDidDelete
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400
+     * @tc.name   : TextInput/TextArea/Search component, set onWillInsert, onDidInsert, onWillDelete, and onDidDelete
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete31");
@@ -803,13 +772,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450
-       * @tc.name    TextInput/TextArea/Search component, which returns the addText location
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450
+     * @tc.name   : TextInput/TextArea/Search component, which returns the addText location
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete32");
@@ -826,13 +794,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410
-       * @tc.name    TextInput/TextArea/Search component, Image testing
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410
+     * @tc.name   : TextInput/TextArea/Search component, Image testing
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete33");
@@ -852,13 +819,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200
-       * @tc.name    TextInput/TextArea/Search component, set getSelection, and select part of the text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200
+     * @tc.name   : TextInput/TextArea/Search component, set getSelection, and select part of the text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete34");
@@ -888,13 +854,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220
-       * @tc.name    TextInput/TextArea/Search component, set getSelection, and select part of the text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220
+     * @tc.name   : TextInput/TextArea/Search component, set getSelection, and select part of the text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete35");
@@ -925,13 +890,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440
-       * @tc.name    TextInput/TextArea/Search component, add text if the text is very long
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440
+     * @tc.name   : TextInput/TextArea/Search component, add text if the text is very long
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete36");
@@ -952,13 +916,12 @@ export default function UiComponentControllerAddDelete() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250
-       * @tc.name    TextInput/TextArea/Search component, set getSelection, and select part of the text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250
+     * @tc.name   : TextInput/TextArea/Search component, set getSelection, and select part of the text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentControllerAddDelete/UiComponentControllerAddDelete37");
