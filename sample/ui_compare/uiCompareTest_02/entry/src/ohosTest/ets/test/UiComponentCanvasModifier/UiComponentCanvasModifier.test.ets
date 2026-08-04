@@ -55,13 +55,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330
-       * @tc.name    Sets the radial gradient
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330
+     * @tc.name   : Sets the radial gradient
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier01")
@@ -74,13 +73,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870
-       * @tc.name    setTransform translate is 50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870
+     * @tc.name   : setTransform translate is 50
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier02")
@@ -95,13 +93,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760
-       * @tc.name    setTransform scaleX is 40
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760
+     * @tc.name   : setTransform scaleX is 40
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier03")
@@ -116,13 +113,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770
-       * @tc.name    setTransform scaleY is 1.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770
+     * @tc.name   : setTransform scaleY is 1.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier04")
@@ -137,13 +133,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840
-       * @tc.name    setTransform rotateX is 0.5 rotateY is 0.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840
+     * @tc.name   : setTransform rotateX is 0.5 rotateY is 0.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier05")
@@ -158,13 +153,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730
-       * @tc.name    setTransform scaleX is 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730
+     * @tc.name   : setTransform scaleX is 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier06")
@@ -179,13 +173,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860
-       * @tc.name    setTransform scaleX is 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860
+     * @tc.name   : setTransform scaleX is 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier07")
@@ -200,13 +193,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780
-       * @tc.name    setTransform scaleY is -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780
+     * @tc.name   : setTransform scaleY is -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier08")
@@ -221,13 +213,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740
-       * @tc.name    setTransform scaleY is -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740
+     * @tc.name   : setTransform scaleY is -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier09")
@@ -242,13 +233,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790
-       * @tc.name    setTransform rotateX is 0.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790
+     * @tc.name   : setTransform rotateX is 0.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier10")
@@ -263,13 +253,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810
-       * @tc.name    setTransform rotateY is 0.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810
+     * @tc.name   : setTransform rotateY is 0.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier11")
@@ -284,13 +273,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800
-       * @tc.name    setTransform rotateX is -0.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800
+     * @tc.name   : setTransform rotateX is -0.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier12")
@@ -305,13 +293,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750
-       * @tc.name    setTransform scaleX is -1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750
+     * @tc.name   : setTransform scaleX is -1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier13")
@@ -326,13 +313,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850
-       * @tc.name    setTransform scaleX=1.5 scaleY=1.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850
+     * @tc.name   : setTransform scaleX=1.5 scaleY=1.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier14")
@@ -347,13 +333,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920
-       * @tc.name    setTransform translateY=-50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920
+     * @tc.name   : setTransform translateY=-50
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier15")
@@ -368,13 +353,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900
-       * @tc.name    setTransform translateY=50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900
+     * @tc.name   : setTransform translateY=50
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier16")
@@ -389,13 +373,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890
-       * @tc.name    setTransform translateX=1000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890
+     * @tc.name   : setTransform translateX=1000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier17")
@@ -410,13 +393,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820
-       * @tc.name    setTransform rotateY=-0.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820
+     * @tc.name   : setTransform rotateY=-0.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier18")
@@ -431,13 +413,12 @@ export default function UiComponentCanvasModifier() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830
-       * @tc.name    setTransform translateY=50 translateX=50
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830
+     * @tc.name   : setTransform translateY=50 translateX=50
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830 start.`);
       Settings.createWindow("testability/pages/UiComponentCanvasModifier/UiComponentCanvasModifier19")
