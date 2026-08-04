@@ -42,12 +42,10 @@ export default function ToolchainRequireUser() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0010
      * @tc.name   : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0010
-     * @tc.desc   : @Require decorates a regular variable.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0010 start.`);
       Settings.createWindow("testability/pages/ToolchainRequireUser/ToolchainRequireUser0010")
@@ -62,12 +60,10 @@ export default function ToolchainRequireUser() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0020
      * @tc.name   : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0020
-     * @tc.desc   : @Require is used together with @BuilderParam.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0020 start.`);
       Settings.createWindow("testability/pages/ToolchainRequireUser/ToolchainRequireUser0020")
@@ -82,12 +78,10 @@ export default function ToolchainRequireUser() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0030
      * @tc.name   : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0030
-     * @tc.desc   : @Require is used together with @Prop.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0030 start.`);
       Settings.createWindow("testability/pages/ToolchainRequireUser/ToolchainRequireUser0030")
@@ -102,12 +96,10 @@ export default function ToolchainRequireUser() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0040
      * @tc.name   : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0040
-     * @tc.desc   : @Require is used together with @Prop.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0040 start.`);
       Settings.createWindow("testability/pages/ToolchainRequireUser/ToolchainRequireUser0040")
@@ -122,12 +114,10 @@ export default function ToolchainRequireUser() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0050
      * @tc.name   : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0050
-     * @tc.desc   : @Require is used together with @Provide.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0050 start.`);
       Settings.createWindow("testability/pages/ToolchainRequireUser/ToolchainRequireUser0050")
@@ -142,12 +132,10 @@ export default function ToolchainRequireUser() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0060
      * @tc.name   : SUB_ACE_TOOLCHAIN_REQUIRE_USER_0060
-     * @tc.desc   : @Require is used together with @State.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TOOLCHAIN_REQUIRE_USER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TOOLCHAIN_REQUIRE_USER_0060 start.`);
       Settings.createWindow("testability/pages/ToolchainRequireUser/ToolchainRequireUser0060")

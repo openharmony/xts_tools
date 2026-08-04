@@ -42,12 +42,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0010
      * @tc.name   : SUB_ACE_TS_TOOLS_0010
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0010 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0010")
@@ -62,12 +60,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0020
      * @tc.name   : SUB_ACE_TS_TOOLS_0020
-     * @tc.desc   : Decorate built-in component bidirectional binding constructor parameters with State decorator, with properties starting with $
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0020 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0020")
@@ -82,12 +78,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0040
      * @tc.name   : SUB_ACE_TS_TOOLS_0040
-     * @tc.desc   : Decorate built-in component bidirectional binding constructor parameters with Local decorator, with properties starting with $
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0040 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0040")
@@ -102,12 +96,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0050
      * @tc.name   : SUB_ACE_TS_TOOLS_0050
-     * @tc.desc   : Decorate property bidirectional binding constructor parameters with State decorator, and include other parameters
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0050 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0050")
@@ -122,12 +114,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0060
      * @tc.name   : SUB_ACE_TS_TOOLS_0060
-     * @tc.desc   : Decorate property bidirectional binding constructor parameters with State decorator, include other parameters, and with properties starting with $
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0060 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0060")
@@ -142,12 +132,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0080
      * @tc.name   : SUB_ACE_TS_TOOLS_0080
-     * @tc.desc   : Decorate property bidirectional binding constructor parameters with Local decorator, include other parameters, and with properties starting with $
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0080 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0080")
@@ -162,12 +150,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0090
      * @tc.name   : SUB_ACE_TS_TOOLS_0090
-     * @tc.desc   : Decorate property bidirectional binding constructor parameters with State decorator, only include one parameter
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0090 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0090")
@@ -182,12 +168,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0100
      * @tc.name   : SUB_ACE_TS_TOOLS_0100
-     * @tc.desc   : Decorate property bidirectional binding constructor parameters with State decorator, only include one parameter, with properties starting with $
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0100 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0100")
@@ -202,12 +186,10 @@ export default function TsTools() {
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0120
      * @tc.name   : SUB_ACE_TS_TOOLS_0120
-     * @tc.desc   : Decorate property bidirectional binding constructor parameters with Local decorator, only include one parameter, with properties starting with $
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_TS_TOOLS_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_TS_TOOLS_0120 start.`);
       Settings.createWindow("testability/pages/TsTools/TsTools0120")

@@ -42,12 +42,10 @@ export default function WearingFrame() {
     /*
      * @tc.number : SUB_ACE_WEARING_FRAME_0030
      * @tc.name   : SUB_ACE_WEARING_FRAME_0030
-     * @tc.desc   : Perform continuous right swipes in the Navigation scene.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_WEARING_FRAME_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_WEARING_FRAME_0030 start.`);
       
@@ -93,12 +91,10 @@ export default function WearingFrame() {
     /*
      * @tc.number : SUB_ACE_WEARING_FRAME_0050
      * @tc.name   : SUB_ACE_WEARING_FRAME_0050
-     * @tc.desc   : Perform continuous right swipes in the Router scene.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_WEARING_FRAME_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_WEARING_FRAME_0050 start.`);
 
