@@ -55,13 +55,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_9999
-       * @tc.name    Set the custom keyboard to an illegal value, and open the system input method after the input box is activated
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_9999
+     * @tc.name   : Set the custom keyboard to an illegal value, and open the system input method after the input box is activated
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_9999', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_9999 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction01")
@@ -76,13 +75,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0460
-       * @tc.name    There are multiple input boxes on the page, double-click and click on other input boxes, and the cursor will display normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0460
+     * @tc.name   : There are multiple input boxes on the page, double-click and click on other input boxes, and the cursor will display normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0460 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction02")
@@ -100,13 +98,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0090
-       * @tc.name    Triggers keyboard arrow keys when the mouse is selected
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0090
+     * @tc.name   : Triggers keyboard arrow keys when the mouse is selected
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction03")
@@ -123,13 +120,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203
-       * @tc.name    Open/close the pop-up window, and the cursor behaves normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203
+     * @tc.name   : Open/close the pop-up window, and the cursor behaves normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction04")
@@ -150,13 +146,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203_816
-       * @tc.name    Open/close the pop-up window, and the handle behaves normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203_816
+     * @tc.name   : Open/close the pop-up window, and the handle behaves normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203_816', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_203_816 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction05")
@@ -179,13 +174,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331
-       * @tc.name    The cursor is not visible after turning pages with multiple lines of text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331
+     * @tc.name   : The cursor is not visible after turning pages with multiple lines of text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction06")
@@ -203,13 +197,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_084
-       * @tc.name    Set the row height to exceed the time to observe the cursor position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_084
+     * @tc.name   : Set the row height to exceed the time to observe the cursor position
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_084', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_084 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction07")
@@ -227,13 +220,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0270_603
-       * @tc.name    set return false to aboutToIMEInput, and enter an expression when using a single handle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0270_603
+     * @tc.name   : set return false to aboutToIMEInput, and enter an expression when using a single handle
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0270_603', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0270_603 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction08")
@@ -252,13 +244,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_085
-       * @tc.name    Test cursor height with preset line height and font size when placeholder exists
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_085
+     * @tc.name   : Test cursor height with preset line height and font size when placeholder exists
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_085', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963_085 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction10")
@@ -277,13 +268,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0440
-       * @tc.name    Test mouse selection area uniqueness
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0440
+     * @tc.name   : Test mouse selection area uniqueness
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0440 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction11")
@@ -306,13 +296,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_197_856
-       * @tc.name    Test text selection and menu after keyboard dismissal
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_197_856
+     * @tc.name   : Test text selection and menu after keyboard dismissal
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_197_856', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_197_856 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction12")
@@ -331,13 +320,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_066
-       * @tc.name    Adding or subtracting padding, the cursor display is normal
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_066
+     * @tc.name   : Adding or subtracting padding, the cursor display is normal
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_066', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_066 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction13")
@@ -356,13 +344,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_586
-       * @tc.name    Multiple addition of text, image, symbol, builder can trigger internal scrolling of components
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_586
+     * @tc.name   : Multiple addition of text, image, symbol, builder can trigger internal scrolling of components
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_586', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_586 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction14")
@@ -391,13 +378,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120
-       * @tc.name    Insert images and text, cursor verification
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120
+     * @tc.name   : Insert images and text, cursor verification
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction15")
@@ -420,13 +406,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0010
-       * @tc.name    Enter multiple lines of text, beyond the text box, select all text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0010
+     * @tc.name   : Enter multiple lines of text, beyond the text box, select all text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction16")
@@ -445,13 +430,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963
-       * @tc.name    Set the prompt text, do not enter content, check the cursor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963
+     * @tc.name   : Set the prompt text, do not enter content, check the cursor
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0120_963 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction17")
@@ -468,13 +452,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331_093_348
-       * @tc.name    The input content in the component is displayed normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331_093_348
+     * @tc.name   : The input content in the component is displayed normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331_093_348', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_331_093_348 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction18")
@@ -491,13 +474,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410
-       * @tc.name    Long press on the different positions of the builderspan to select the content normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410
+     * @tc.name   : Long press on the different positions of the builderspan to select the content normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction19")
@@ -519,13 +501,12 @@ export default function UiComponentTextRichEditorAction() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410
-       * @tc.name    Long press on the different positions of the builderspan to select the content normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410
+     * @tc.name   : Long press on the different positions of the builderspan to select the content normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACT0', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAction/UiComponentTextRichEditorAction20")

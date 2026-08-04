@@ -55,13 +55,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003
-       * @tc.name    Set the text range of the area obtained by getRectsForRange to [1,2]
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003
+     * @tc.name   : Set the text range of the area obtained by getRectsForRange to [1,2]
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects01")
@@ -76,13 +75,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013
-       * @tc.name    Set the height of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_TOP(3)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013
+     * @tc.name   : Set the height of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_TOP(3)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects02")
@@ -97,13 +95,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012
-       * @tc.name    Set the height of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_MIDDLE(2)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012
+     * @tc.name   : Set the height of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_MIDDLE(2)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects03")
@@ -118,13 +115,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020
-       * @tc.name    getRectsForRange gets empty text/shows the draw area information of the placeholder
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020
+     * @tc.name   : getRectsForRange gets empty text/shows the draw area information of the placeholder
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects04")
@@ -145,13 +141,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015
-       * @tc.name    Set the height of the rectangular area returned by getRectsForRange to STRUT(5)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015
+     * @tc.name   : Set the height of the rectangular area returned by getRectsForRange to STRUT(5)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects05")
@@ -166,13 +161,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008
-       * @tc.name    Set the width of the rectangular area returned by getRectsForRange to MAX(1)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008
+     * @tc.name   : Set the width of the rectangular area returned by getRectsForRange to MAX(1)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects06")
@@ -187,13 +181,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014
-       * @tc.name    Set the width of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_BOTTOM(4)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014
+     * @tc.name   : Set the width of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_BOTTOM(4)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects07")
@@ -208,13 +201,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007
-       * @tc.name    Set the width of the rectangular area returned by getRectsForRange to TIGHT(0)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007
+     * @tc.name   : Set the width of the rectangular area returned by getRectsForRange to TIGHT(0)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects08")
@@ -229,13 +221,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017
-       * @tc.name    getRectsForRange obtains the drawing area information of plain text (CHINESE, ENGLI, N.Y., and Korea, spaces, special symbols, expressions) content
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017
+     * @tc.name   : getRectsForRange obtains the drawing area information of plain text (CHINESE, ENGLI, N.Y., and Korea, spaces, special symbols, expressions) content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects09")
@@ -256,13 +247,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019
-       * @tc.name    getRectsForRangeto get the draw area information for the property string content
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019
+     * @tc.name   : getRectsForRangeto get the draw area information for the property string content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects10")
@@ -277,13 +267,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004
-       * @tc.name    Set the text range of the area obtained by getRectsForRange to [50,51]
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004
+     * @tc.name   : Set the text range of the area obtained by getRectsForRange to [50,51]
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects11")
@@ -298,13 +287,12 @@ export default function UiComponentTextRichEditorGetRects() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018
-       * @tc.name    getRectsForRange obtains the drawing area information of the mixed text (TextSpan, ImageSpan, BuilderSpan, SymbolSpan) content
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018
+     * @tc.name   : getRectsForRange obtains the drawing area information of the mixed text (TextSpan, ImageSpan, BuilderSpan, SymbolSpan) content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorGetRects/UiComponentTextRichEditorGetRects12")

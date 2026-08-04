@@ -55,13 +55,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062
-       * @tc.name    setSelection is set to text selection, and the range boundary falls in the middle of elements with a length greater than 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062
+     * @tc.name   : setSelection is set to text selection, and the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface01")
@@ -82,13 +81,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063
-       * @tc.name    For gesture/mouse selections containing elements with a length greater than 1, call getSelection to obtain the current selected area range of the current rich text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063
+     * @tc.name   : For gesture/mouse selections containing elements with a length greater than 1, call getSelection to obtain the current selected area range of the current rich text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface02")
@@ -109,13 +107,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793
-       * @tc.name    Using getSelection in the onSelect callback can accurately return the span information of the selected content or cursor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793
+     * @tc.name   : Using getSelection in the onSelect callback can accurately return the span information of the selected content or cursor
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface03")
@@ -133,13 +130,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111
-       * @tc.name    Use setSelection in the onWillChange callback to accurately set the text selection (before the text change).
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111
+     * @tc.name   : Use setSelection in the onWillChange callback to accurately set the text selection (before the text change).
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface04")
@@ -154,13 +150,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112
-       * @tc.name    Use setSelection in the onDidchange callback to accurately set the text selection (after the text change).
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112
+     * @tc.name   : Use setSelection in the onDidchange callback to accurately set the text selection (after the text change).
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface05")
@@ -175,13 +170,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027
-       * @tc.name    Using getParagraphs in the onDidChange callback can accurately return paragraph style and range information after text changes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027
+     * @tc.name   : Using getParagraphs in the onDidChange callback can accurately return paragraph style and range information after text changes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface06")
@@ -198,13 +192,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025
-       * @tc.name    Use getParagraphs in the onWillChange callback to accurately return the paragraph style and range information before the text change
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025
+     * @tc.name   : Use getParagraphs in the onWillChange callback to accurately return the paragraph style and range information before the text change
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface07")
@@ -221,13 +214,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026
-       * @tc.name    Using getspans in the onDidChange callback can accurately return all span information after the text change
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026
+     * @tc.name   : Using getspans in the onDidChange callback can accurately return all span information after the text change
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface08")
@@ -244,13 +236,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024
-       * @tc.name    Using getspans in the onWillChange callback can accurately return all span information before the text change
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024
+     * @tc.name   : Using getspans in the onWillChange callback can accurately return all span information before the text change
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface09")
@@ -267,13 +258,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106
-       * @tc.name    Use getSelection in the onSelectionChange callback to accurately return the span information of the selected content or cursor
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106
+     * @tc.name   : Use getSelection in the onSelectionChange callback to accurately return the span information of the selected content or cursor
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface10")
@@ -297,13 +287,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023
-       * @tc.name    Use getCaretOffset in the onSelectionChange callback to get the exact cursor position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023
+     * @tc.name   : Use getCaretOffset in the onSelectionChange callback to get the exact cursor position
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface11")
@@ -327,13 +316,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116
-       * @tc.name    Use setSelection in the onDeleteComplete callback to accurately set the text selection (after deletion)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116
+     * @tc.name   : Use setSelection in the onDeleteComplete callback to accurately set the text selection (after deletion)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface12")
@@ -352,13 +340,12 @@ export default function UiComponentTextRichEditorInterface() {
 
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115
-       * @tc.name    Use setSelection in the aboutToDelete callback to accurately set the text selection (before deletion)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115
+     * @tc.name   : Use setSelection in the aboutToDelete callback to accurately set the text selection (before deletion)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface13")
@@ -376,13 +363,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114
-       * @tc.name    Use setSelection in the onIMEInputComplete callback to accurately set the text selection (after input)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114
+     * @tc.name   : Use setSelection in the onIMEInputComplete callback to accurately set the text selection (after input)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface14")
@@ -400,13 +386,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113
-       * @tc.name    Use setSelection in the aboutToIMEInput callback to accurately set the text selection (before input)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113
+     * @tc.name   : Use setSelection in the aboutToIMEInput callback to accurately set the text selection (before input)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface15")
@@ -424,13 +409,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103
-       * @tc.name    Use getSelection in the aboutToDelete callback to accurately return the span information where the selected content or cursor is located (before deletion)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103
+     * @tc.name   : Use getSelection in the aboutToDelete callback to accurately return the span information where the selected content or cursor is located (before deletion)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface16")
@@ -448,13 +432,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101
-       * @tc.name    Use getSelection in the aboutToIMEInput callback to accurately return the span information where the selected content or cursor is located (before entering)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101
+     * @tc.name   : Use getSelection in the aboutToIMEInput callback to accurately return the span information where the selected content or cursor is located (before entering)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface17")
@@ -472,13 +455,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108
-       * @tc.name    Use getSelection in the onDidChange callback to accurately return the span information of the selected content or cursor (after the text changes).
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108
+     * @tc.name   : Use getSelection in the onDidChange callback to accurately return the span information of the selected content or cursor (after the text changes).
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface18")
@@ -499,13 +481,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107
-       * @tc.name    Use getSelection in the onWillChange callback to accurately return the span information of the selected content or cursor (before the text changes).
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107
+     * @tc.name   : Use getSelection in the onWillChange callback to accurately return the span information of the selected content or cursor (before the text changes).
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface19")
@@ -526,13 +507,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065
-       * @tc.name    updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065
+     * @tc.name   : updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface20")
@@ -548,13 +528,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056
-       * @tc.name    updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056
+     * @tc.name   : updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface21")
@@ -584,13 +563,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792
-       * @tc.name    Use setSelection in the onSelect callback to accurately set the text selection
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792
+     * @tc.name   : Use setSelection in the onSelect callback to accurately set the text selection
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface22")
@@ -610,13 +588,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052
-       * @tc.name    updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052
+     * @tc.name   : updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface23")
@@ -639,13 +616,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
- 	        * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480
- 	        * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and then click/left mouse button to click on the text
- 	        * @tc.desc    Function test
- 	        * @tc.size    MediumTest
- 	        * @tc.type    Function
- 	        * @tc.level   0
- 	        */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480
+     * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and then click/left mouse button to click on the text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface24")
@@ -669,13 +645,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470
-       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:LongPress,options:onAppear,OnDisappear, and then click/left click on the text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470
+     * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:LongPress,options:onAppear,OnDisappear, and then click/left click on the text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface25")
@@ -694,13 +669,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420
-       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType：RightClick，options：onAppear，OnDisappear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420
+     * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType：RightClick，options：onAppear，OnDisappear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface26")
@@ -719,13 +693,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390
-       * @tc.name    do not set bindSelectMenu, right-click the image content
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390
+     * @tc.name   : do not set bindSelectMenu, right-click the image content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface27")
@@ -740,13 +713,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410
-       * @tc.name    If you do not set bindSelectMenu, select the image and text with the mouse, and right-click the image content
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410
+     * @tc.name   : If you do not set bindSelectMenu, select the image and text with the mouse, and right-click the image content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface28")
@@ -763,13 +735,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500
-       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500
+     * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface29")
@@ -788,13 +759,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430
-       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430
+     * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface30")
@@ -822,13 +792,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440
-       * @tc.name    bindSelectionMenu parameter spantype:MIXED; content：Builder； responType：RightClick，options：onAppear，OnDisappear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440
+     * @tc.name   : bindSelectionMenu parameter spantype:MIXED; content：Builder； responType：RightClick，options：onAppear，OnDisappear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface31")
@@ -856,13 +825,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370
-       * @tc.name    not set bindSelectMenu, select the content in Chinese and right-click the text area
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370
+     * @tc.name   : not set bindSelectMenu, select the content in Chinese and right-click the text area
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface32")
@@ -880,13 +848,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460
-       * @tc.name    bindSelectionMenu parameter spantype:Text; content：Builder； responType：LongPress，options：onAppear，OnDisappearSet the custom builder width and height to the percentage format
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460
+     * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType：LongPress，options：onAppear，OnDisappearSet the custom builder width and height to the percentage format
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface33")
@@ -900,13 +867,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400
-       * @tc.name    Set up a long-press event for TextSpan
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400
+     * @tc.name   : Set up a long-press event for TextSpan
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface34")
@@ -922,13 +888,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370
-       * @tc.name    Set click events for ImageSpan
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370
+     * @tc.name   : Set click events for ImageSpan
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface35")
@@ -944,13 +909,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380
-       * @tc.name    Set up a click event for TextSpan
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380
+     * @tc.name   : Set up a click event for TextSpan
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface36")
@@ -966,13 +930,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390
-       * @tc.name    Set up a long press event for ImageSpan
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390
+     * @tc.name   : Set up a long press event for ImageSpan
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface37")
@@ -988,13 +951,12 @@ export default function UiComponentTextRichEditorInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490
-       * @tc.name    bindSelectionMenu with long press to select text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490
+     * @tc.name   : bindSelectionMenu with long press to select text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490 start.`);
       Settings.createWindow("testability/pages/UiComponentTextRichEditorInterface/UiComponentTextRichEditorInterface38")
