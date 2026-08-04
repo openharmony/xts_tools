@@ -55,13 +55,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060
-       * @tc.name    Set the slider vertical display and slide the scroller to adjust the slider position
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060
+     * @tc.name   : Set the slider vertical display and slide the scroller to adjust the slider position
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace01")
@@ -80,13 +79,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040
-       * @tc.name    Mouse placement slider on click to move
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040
+     * @tc.name   : Mouse placement slider on click to move
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace02")
@@ -105,13 +103,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270
-       * @tc.name    selectedColor is set multiple times, the last time it takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270
+     * @tc.name   : selectedColor is set multiple times, the last time it takes effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace03")
@@ -125,13 +122,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510
-       * @tc.name    trackColor is set multiple times, the last time it takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510
+     * @tc.name   : trackColor is set multiple times, the last time it takes effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace04")
@@ -145,13 +141,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350
-       * @tc.name    showSteps is set multiple times, and the last time it takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350
+     * @tc.name   : showSteps is set multiple times, and the last time it takes effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace05")
@@ -165,13 +160,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120
-       * @tc.name    direction is not set, the default is Axis.Horizontal, and the slide is displayed horizontally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120
+     * @tc.name   : direction is not set, the default is Axis.Horizontal, and the slide is displayed horizontally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace06")
@@ -185,13 +179,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160
-       * @tc.name    direction is set to Axis.Horizontal, and the slide rail is displayed horizontally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160
+     * @tc.name   : direction is set to Axis.Horizontal, and the slide rail is displayed horizontally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace07")
@@ -205,13 +198,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590
-       * @tc.name    trackThickness is set multiple times, the last time it takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590
+     * @tc.name   : trackThickness is set multiple times, the last time it takes effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace08")
@@ -225,13 +217,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540
-       * @tc.name    trackColor settings 0xADD8E6
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540
+     * @tc.name   : trackColor settings 0xADD8E6
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace09")
@@ -245,13 +236,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600
-       * @tc.name    trackThickness is set to a valid value of >0, and the rail thickness takes effect normally
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600
+     * @tc.name   : trackThickness is set to a valid value of >0, and the rail thickness takes effect normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace10")
@@ -265,13 +255,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610
-       * @tc.name    trackThickness setting is less than or equal to 0, when SliderStyle.InSet is 20.0vp, the default slider size is blockSize = 12.0vp * 12.0vp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610
+     * @tc.name   : trackThickness setting is less than or equal to 0, when SliderStyle.InSet is 20.0vp, the default slider size is blockSize = 12.0vp * 12.0vp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace11")
@@ -284,13 +273,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580
-       * @tc.name    trackThickness is not set, when SliderStyle.OutSet is set, the default slider thickness is 4.0vp, and the default slider size: blockSize = 16.0vp * 16.0vp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580
+     * @tc.name   : trackThickness is not set, when SliderStyle.OutSet is set, the default slider thickness is 4.0vp, and the default slider size: blockSize = 16.0vp * 16.0vp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace12")
@@ -303,13 +291,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020
-       * @tc.name    blockColor is set multiple times, and the last time it takes effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020
+     * @tc.name   : blockColor is set multiple times, and the last time it takes effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace13")
@@ -322,13 +309,12 @@ export default function UiComponentButtonSliderInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110
-       * @tc.name    blockSize dynamically changes trackThickness according to trackThickness and scale-up
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110
+     * @tc.name   : blockSize dynamically changes trackThickness according to trackThickness and scale-up
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonSliderInterFace/UiComponentButtonSliderInterFace14")

@@ -55,13 +55,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0130
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed with a normal value), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0130
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed with a normal value), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater01")
@@ -78,13 +77,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0040
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes Option parameter)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0040
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes Option parameter)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater02")
@@ -101,13 +99,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0090
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0090
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater03")
@@ -124,13 +121,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0010
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0010
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater04")
@@ -147,13 +143,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0140
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed as undefined), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0140
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed as undefined), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater05")
@@ -170,13 +165,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0120
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes Option parameter), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0120
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes Option parameter), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater06")
@@ -193,13 +187,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0170
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters, non-Option set parameters)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0170
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters, non-Option set parameters)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater07")
@@ -216,13 +209,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0150
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed with a normal value), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0150
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed with a normal value), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater08")
@@ -239,13 +231,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0180
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the Option parameter of updateConstructorParams is passed with an abnormal value)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0180
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the Option parameter of updateConstructorParams is passed with an abnormal value)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater09")
@@ -262,13 +253,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0190
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (any parameter of the Option of updateConstructorParams is passed with an abnormal value)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0190
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (any parameter of the Option of updateConstructorParams is passed with an abnormal value)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater10")
@@ -285,13 +275,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0080
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed as undefined)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0080
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed as undefined)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater11")
@@ -308,13 +297,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0050
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed with a normal value)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0050
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed with a normal value)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater12")
@@ -331,13 +319,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0160
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed as undefined), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0160
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed as undefined), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater13")
@@ -354,13 +341,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0030
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes label parameter)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0030
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes label parameter)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater14")
@@ -377,13 +363,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0020
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes undefined parameter)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0020
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes undefined parameter)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater15")
@@ -400,13 +385,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0070
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed with a normal value)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0070
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed with a normal value)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater16")
@@ -423,13 +407,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0100
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes undefined parameter), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0100
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes undefined parameter), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater17")
@@ -446,13 +429,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0060
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed as undefined)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0060
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed as undefined)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater18")
@@ -469,13 +451,12 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0110
-       * @tc.name    AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes label parameter), with child nodes
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0110
+     * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes label parameter), with child nodes
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonButtonAttributeUpdater/UiComponentButtonButtonAttributeUpdater19")

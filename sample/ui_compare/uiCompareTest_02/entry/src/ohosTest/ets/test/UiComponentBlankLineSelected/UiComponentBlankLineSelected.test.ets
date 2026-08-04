@@ -55,13 +55,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220
-       * @tc.name    Text component, set the selection to select a blank row
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220
+     * @tc.name   : Text component, set the selection to select a blank row
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected01");
@@ -74,13 +73,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200
-       * @tc.name    Text component, set the text, and set the indent value for the blank line
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200
+     * @tc.name   : Text component, set the text, and set the indent value for the blank line
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected02");
@@ -93,13 +91,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210
-       * @tc.name    Text component, set the text, change the text baseline offset
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210
+     * @tc.name   : Text component, set the text, change the text baseline offset
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected03");
@@ -112,13 +109,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270
-       * @tc.name    Text component to change the font size
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270
+     * @tc.name   : Text component to change the font size
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected04");
@@ -134,13 +130,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300
-       * @tc.name    Text/TextArea/TextInput inline mode, only blank lines are set
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300
+     * @tc.name   : Text/TextArea/TextInput inline mode, only blank lines are set
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected05");
@@ -162,13 +157,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240
-       * @tc.name    Text component, span to baselineOffset
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240
+     * @tc.name   : Text component, span to baselineOffset
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected06");
@@ -181,13 +175,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260
-       * @tc.name    Text component, set the line spacing
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260
+     * @tc.name   : Text component, set the line spacing
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected07");
@@ -203,47 +196,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290
-       * @tc.name    Text/TextArea/TextInput is in inline mode and set Align
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
-      it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290', Level.LEVEL0, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290 start.`);
-      Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected08");
-      let driver:Driver = Driver.create();
-      await driver.waitForIdle(500,2000);
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290_01");
-      let button: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected08'),1000);
-      let button01: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected08_area'),1000);
-      let button02: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected08_input'),1000);
-      let button03: Component = await driver.waitForComponent(ON.id('UiComponentBlankLineSelected08_2'),1000);
-      await button01.click();
-      await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290_02");
-      await driver.waitForIdle(500,2000);
-      await button02.click();
-      await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290_03");
-      await driver.waitForIdle(500,2000);
-      await button03.click();
-      await button.click();
-      windowSnap.snapShot("SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290_04");
-      await Utils.sleep(1000);
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0290 finish.`);
-      done();
-    })
-
-    /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370
-       * @tc.name    Text/TextArea/TextInput inline mode, set the space carriage return
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370
+     * @tc.name   : Text/TextArea/TextInput inline mode, set the space carriage return
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected09");
@@ -267,13 +225,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400
-       * @tc.name    Text/TextArea/TextInput inline mode, set the space carriage return
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400
+     * @tc.name   : Text/TextArea/TextInput inline mode, set the space carriage return
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected10");
@@ -295,13 +252,12 @@ export default function UiComponentBlankLineSelected() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180
-       * @tc.name    Text component, set the baselineoffset to the property string
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180
+     * @tc.name   : Text component, set the baselineoffset to the property string
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentBlankLineSelected/UiComponentBlankLineSelected11");
