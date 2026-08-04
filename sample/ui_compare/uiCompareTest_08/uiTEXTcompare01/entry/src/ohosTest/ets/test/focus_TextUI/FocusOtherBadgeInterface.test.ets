@@ -41,13 +41,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0010")
@@ -61,13 +60,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0020")
@@ -81,13 +79,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0030")
@@ -101,13 +98,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0040")
@@ -121,13 +117,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0050")
@@ -141,13 +136,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0060")
@@ -161,13 +155,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0070")
@@ -182,13 +175,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0080")
@@ -202,13 +194,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0090")
@@ -222,13 +213,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0100")
@@ -242,13 +232,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0110")
@@ -262,13 +251,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0120")
@@ -282,13 +270,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0130")
@@ -302,13 +289,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0140")
@@ -322,13 +308,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0150")
@@ -342,13 +327,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0160")
@@ -362,13 +346,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0170")
@@ -382,13 +365,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0180")
@@ -402,13 +384,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0240")
@@ -422,13 +403,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0250")
@@ -442,13 +422,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0350")
@@ -463,13 +442,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0370")
@@ -483,13 +461,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0380")
@@ -504,13 +481,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0390")
@@ -524,13 +500,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0400")
@@ -544,13 +519,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0410")
@@ -564,13 +538,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0470")
@@ -584,13 +557,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0700")
@@ -604,13 +576,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0710")
@@ -624,13 +595,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0780")
@@ -644,13 +614,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0790")
@@ -664,13 +633,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0800")
@@ -684,13 +652,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0810")
@@ -704,13 +671,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0820")
@@ -724,13 +690,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0830")
@@ -744,13 +709,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0840")
@@ -764,13 +728,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0850")
@@ -785,13 +748,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0860")
@@ -805,13 +767,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0870")
@@ -825,13 +786,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0880")
@@ -846,13 +806,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0890")
@@ -866,13 +825,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0900")
@@ -886,13 +844,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0920")
@@ -906,13 +863,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0930")
@@ -926,13 +882,12 @@ export default function FocusOtherBadgeInterface() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940
-    * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 512.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940  start.`);
       Settings.createWindow("testability/pages/focus_Other_BadgeInterface/ObInterface0940")
