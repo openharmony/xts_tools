@@ -40,10 +40,11 @@ export default function UIComponentMediaCounterLargeFontTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010
-     * @tc.desc    Ecological Group 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010';
@@ -90,10 +91,11 @@ export default function UIComponentMediaCounterLargeFontTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018
-     * @tc.desc    Ecological Group 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018', Level.LEVEL0, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018';

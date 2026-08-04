@@ -38,10 +38,11 @@ export default function UIComponentMediaSvgLinkImageColorFilter() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_SVG_LINKIMAGE_COLORFILTER_0230
-     * @tc.name    Dynamically switch attribute values, corresponding effects take effect
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_SVG_LINKIMAGE_COLORFILTER_0230
+     * @tc.name   : Dynamically switch attribute values, corresponding effects take effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_SVG_LINKIMAGE_COLORFILTER_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_SVG_LINKIMAGE_COLORFILTER_0230 start.`);

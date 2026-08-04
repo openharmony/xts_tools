@@ -38,10 +38,11 @@ export default function UIComponentListCapabilityTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120 start.`);
@@ -55,10 +56,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030 start.`);
@@ -72,10 +74,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040 start.`);
@@ -89,10 +92,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070 start.`);
@@ -106,10 +110,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160 start.`);
@@ -123,10 +128,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150 start.`);
@@ -140,10 +146,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110 start.`);
@@ -157,10 +164,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080 start.`);
@@ -174,10 +182,11 @@ export default function UIComponentListCapabilityTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150 start.`);

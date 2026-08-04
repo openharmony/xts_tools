@@ -38,10 +38,11 @@ export default function UIComponentScrollScrollBarScrollEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260
-     * @tc.name    In the scroll container, set the velocity property parameter of scrollEdge to the normal value of 100
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260
+     * @tc.name   : In the scroll container, set the velocity property parameter of scrollEdge to the normal value of 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260 start.`);

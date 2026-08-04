@@ -38,10 +38,11 @@ export default function UIComponentOtherRefreshAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120
-     * @tc.name    SRefresh component setting custom bulider component followed by hand drop-down, observe log printing
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120
+     * @tc.name   : SRefresh component setting custom bulider component followed by hand drop-down, observe log printing
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120 start.`);
