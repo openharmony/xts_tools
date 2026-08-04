@@ -2648,13 +2648,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter text set to very long text
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330 start.`);
       try {
@@ -2676,13 +2675,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to number type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340 start.`);
       try {
@@ -2704,13 +2702,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to number type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350 start.`);
       try {
@@ -2732,13 +2729,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to number type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360 start.`);
       try {
@@ -2760,13 +2756,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to string type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370 start.`);
       try {
@@ -2788,13 +2783,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to string type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380 start.`);
       try {
@@ -2816,13 +2810,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to string type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390 start.`);
       try {
@@ -2844,13 +2837,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to Resource type number 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400 start.`);
       try {
@@ -2872,13 +2864,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to Resource type number 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410 start.`);
       try {
@@ -2900,13 +2891,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to Resource type number -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420 start.`);
       try {
@@ -2928,13 +2918,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to Resource type string 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430 start.`);
       try {
@@ -2956,13 +2945,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to Resource type string 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440 start.`);
       try {
@@ -2984,13 +2972,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontSize set to Resource type string -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450 start.`);
       try {
@@ -3012,13 +2999,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontColor set to string type rgba
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460 start.`);
       try {
@@ -3040,13 +3026,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontColor set to Color.Red
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470 start.`);
       try {
@@ -3068,13 +3053,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontColor set to number type 0xFFFFFF
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480 start.`);
       try {
@@ -3096,13 +3080,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontColor set to Resource type Color.Red
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490 start.`);
       try {
@@ -3124,13 +3107,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontColor set to Resource type number 0xFFFFFF
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500 start.`);
       try {
@@ -3152,13 +3134,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontColor set to Resource type rgba string
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510 start.`);
       try {
@@ -3180,13 +3161,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to number type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520 start.`);
       try {
@@ -3208,13 +3188,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to number type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530 start.`);
       try {
@@ -3236,13 +3215,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to number type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540 start.`);
       try {
@@ -3264,13 +3242,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to FontWeight.Lighter
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550 start.`);
       try {
@@ -3292,13 +3269,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to FontWeight.Normal
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560 start.`);
       try {
@@ -3320,13 +3296,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to FontWeight.Regular
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570 start.`);
       try {
@@ -3348,13 +3323,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to FontWeight.Medium
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580 start.`);
       try {
@@ -3376,13 +3350,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to FontWeight.Bold
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590 start.`);
       try {
@@ -3404,13 +3377,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to FontWeight.Bolder
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600 start.`);
       try {
@@ -3432,13 +3404,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to string type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610 start.`);
       try {
@@ -3460,13 +3431,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to string type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620 start.`);
       try {
@@ -3488,13 +3458,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with title parameter fontWeight set to string type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630 start.`);
       try {
@@ -3516,13 +3485,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter text set to Chinese text
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640 start.`);
       try {
@@ -3544,13 +3512,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter text set to English text
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650 start.`);
       try {
@@ -3572,13 +3539,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter text set to special characters
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660 start.`);
       try {
@@ -3600,13 +3566,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter text set to very long text
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670 start.`);
       try {
@@ -3628,13 +3593,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to number type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680 start.`);
       try {
@@ -3656,13 +3620,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to number type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690 start.`);
       try {
@@ -3684,13 +3647,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to number type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700 start.`);
       try {
@@ -3712,13 +3674,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to string type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710 start.`);
       try {
@@ -3740,13 +3701,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to string type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720 start.`);
       try {
@@ -3768,13 +3728,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to string type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730 start.`);
       try {
@@ -3796,13 +3755,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type number 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740 start.`);
       try {
@@ -3824,13 +3782,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type number 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750 start.`);
       try {
@@ -3852,13 +3809,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type number -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760 start.`);
       try {
@@ -3880,13 +3836,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type string 50vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770 start.`);
       try {
@@ -3908,13 +3863,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type string 0vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780 start.`);
       try {
@@ -3936,13 +3890,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontSize set to Resource type string -50vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790 start.`);
       try {
@@ -3964,13 +3917,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to string type rgba
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800 start.`);
       try {
@@ -3992,13 +3944,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Color.Red
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810 start.`);
       try {
@@ -4020,13 +3971,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to number type 0xFFFFFF
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820 start.`);
       try {
@@ -4048,13 +3998,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Resource type Color.Red
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830 start.`);
       try {
@@ -4076,13 +4025,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Resource type number 0xFFFFFF
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840 start.`);
       try {
@@ -4104,13 +4052,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontColor set to Resource type rgba string
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850 start.`);
       try {
@@ -4132,13 +4079,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to number type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860 start.`);
       try {
@@ -4160,13 +4106,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to number type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870 start.`);
       try {
@@ -4188,13 +4133,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to number type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880 start.`);
       try {
@@ -4216,13 +4160,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Lighter
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890 start.`);
       try {
@@ -4244,13 +4187,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Normal
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900 start.`);
       try {
@@ -4272,13 +4214,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Regular
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910 start.`);
       try {
@@ -4300,13 +4241,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Medium
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920 start.`);
       try {
@@ -4328,13 +4268,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Bold
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930 start.`);
       try {
@@ -4356,13 +4295,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to FontWeight.Bolder
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940 start.`);
       try {
@@ -4384,13 +4322,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to string type 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950 start.`);
       try {
@@ -4412,13 +4349,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to string type 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960 start.`);
       try {
@@ -4440,13 +4376,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with message parameter fontWeight set to string type -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970 start.`);
       try {
@@ -4468,13 +4403,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with showClose set to true
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980 start.`);
       try {
@@ -4496,13 +4430,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to directly construct popup template with showClose set to false
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990 start.`);
       try {
@@ -4524,13 +4457,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup, onClose callback triggered when clicking X button
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000 start.`);
       try {
@@ -4562,13 +4494,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup, onClose callback not triggered when clicking buttons or overlay
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010 start.`);
       try {
@@ -4600,13 +4531,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to Chinese string
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020 start.`);
       try {
@@ -4628,13 +4558,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to English string
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030 start.`);
       try {
@@ -4656,13 +4585,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to special characters
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040 start.`);
       try {
@@ -4684,13 +4612,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to Chinese Resource
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050 start.`);
       try {
@@ -4712,13 +4639,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to English Resource
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060 start.`);
       try {
@@ -4740,13 +4666,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with buttons text set to special characters Resource
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070 start.`);
       try {
@@ -4768,13 +4693,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button action callback
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080 start.`);
       try {
@@ -4796,13 +4720,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to number 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090 start.`);
       try {
@@ -4824,13 +4747,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to number 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100 start.`);
       try {
@@ -4852,13 +4774,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to number -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110 start.`);
       try {
@@ -4880,13 +4801,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to string 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120 start.`);
       try {
@@ -4908,13 +4828,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to string 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130 start.`);
       try {
@@ -4936,13 +4855,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to string -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140 start.`);
       try {
@@ -4964,13 +4882,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource number 50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150 start.`);
       try {
@@ -4992,13 +4909,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource number 0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160 start.`);
       try {
@@ -5020,13 +4936,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource number -50
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170 start.`);
       try {
@@ -5048,13 +4963,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource string 50vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180 start.`);
       try {
@@ -5076,13 +4990,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource string 0vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190 start.`);
       try {
@@ -5104,13 +5017,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontSize set to Resource string -50vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200 start.`);
       try {
@@ -5132,13 +5044,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to string rgba
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210 start.`);
       try {
@@ -5160,13 +5071,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Color.Red
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220 start.`);
       try {
@@ -5188,13 +5098,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to number 0xFFFFFF
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230 start.`);
       try {
@@ -5216,13 +5125,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Resource Color.Red
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240 start.`);
       try {
@@ -5244,13 +5152,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Resource number 0xFFFFFF
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250 start.`);
       try {
@@ -5272,13 +5179,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Call d.ts file to construct popup with button fontColor set to Resource string rgba
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260 start.`);
       try {
@@ -5300,13 +5206,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Light mode visual display conforms to UX specification
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500 start.`);
       try {
@@ -5337,13 +5242,12 @@ export default function FocusPBHeightWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Advanced component Popup - Dark mode visual display conforms to UX specification
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600 start.`);
       try {
