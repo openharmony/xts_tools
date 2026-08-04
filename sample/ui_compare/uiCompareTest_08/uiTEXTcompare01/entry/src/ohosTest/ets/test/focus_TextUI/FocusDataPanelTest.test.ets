@@ -43,13 +43,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpAnimateTo0016")
@@ -65,13 +64,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpAnimateTo0017")
@@ -87,13 +85,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0010
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0010
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0010  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0010")
@@ -109,13 +106,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0020
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "10"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0020
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0020  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0020")
@@ -131,13 +127,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0030
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "25"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0030
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0030  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0030")
@@ -154,13 +149,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0040
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "100"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0040
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0040  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0040")
@@ -176,13 +170,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0050
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "999999"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0050
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0050  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0050")
@@ -198,13 +191,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0070
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5px"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0070
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0070  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0070")
@@ -220,13 +212,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0080
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "20vp"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0080
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0080  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0080")
@@ -242,13 +233,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0090
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "10.5"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0090
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0090  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0090")
@@ -263,13 +253,12 @@ export default function FocusDataPanelTest() {
     })
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0100
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0100
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0100  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0100")
@@ -285,13 +274,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0110
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius:$r("app.integer.select_select5").
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0110
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0110  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0110")
@@ -307,13 +295,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0130
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius:"0"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0130
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0130', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0130  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0130")
@@ -329,13 +316,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0140
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: 10, topRight: 10, bottomLeft: 10, bottomRight: 10}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0140
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0140  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0140")
@@ -351,13 +337,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0150
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: 0, topRight: 0, bottomLeft: 0, bottomRight: 0}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0150
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0150', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0150  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0150")
@@ -373,13 +358,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0160
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: 25, topRight: 25, bottomLeft: 25, bottomRight: 25}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0160
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0160  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0160")
@@ -395,13 +379,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0170
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: 9999999, topRight: 9999999, bottomLeft: 9999999, bottomRight: 9999999}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0170
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0170', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0170  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0170")
@@ -417,13 +400,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0180
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: 5, topRight: 10.5, bottomLeft: 0, bottomRight: 100}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0180
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0180  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0180")
@@ -439,13 +421,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0190
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: "10", topRight: "5px", bottomLeft: "20vp", bottomRight: "5.5"}.
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0190
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0190  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0190")
@@ -461,13 +442,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0200
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: $r("app.integer.select_select5"), topRight: 10, bottomLeft: $r("app.integer.select_select20"), bottomRight: 10}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0200
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0200  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0200")
@@ -483,13 +463,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0250
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {-5}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0250
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0250  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0250")
@@ -505,13 +484,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0260
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0260
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {-5.5}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0260
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0260  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0260")
@@ -527,13 +505,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0270
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0270
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {"0%"}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0270
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0270', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0270  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0270")
@@ -549,13 +526,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0280
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0280
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {"50%"}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0280
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0280', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0280  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0280")
@@ -571,13 +547,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0290
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0290
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {"100%"}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0290
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0290', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0290  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0290")
@@ -593,13 +568,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0300
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0300
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {'abcde'}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0300
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0300  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0300")
@@ -614,13 +588,12 @@ export default function FocusDataPanelTest() {
     })
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0310
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0310
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {"#####"}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0310
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0310', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0310  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0310")
@@ -636,13 +609,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0320
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0320
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {" "}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0320
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0320  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0320")
@@ -658,13 +630,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0330
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0330
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {undefined}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0330
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0330  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0330")
@@ -680,13 +651,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0340
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0340
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {null}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0340
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0340  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0340")
@@ -702,13 +672,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0350
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0350
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: -5, topRight: -5.5, bottomLeft: 10, bottomRight: 10}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0350
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0350  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0350")
@@ -724,13 +693,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0360
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0360
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: -5, topRight: -5.5, bottomLeft: -5.5, bottomRight: -5}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0360
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0360  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0360")
@@ -746,13 +714,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0370
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0370
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: -5, topRight: -5.5, bottomLeft: -5.5, bottomRight: -5}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0370
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0370  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0370")
@@ -768,13 +735,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0380
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0380
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: "#####", topRight: "#####", bottomLeft: "#####", bottomRight: "#####"}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0380
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0380', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0380  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0380")
@@ -790,13 +756,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0390
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0390
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value { topLeft:undefined, topRight:undefined, bottomLeft:undefined, bottomRight:undefined }
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0390
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0390
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0390  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0390")
@@ -812,13 +777,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0400
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0400
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {$r("app.string.select_select_null")}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0400
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0400', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0400  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0400")
@@ -834,13 +798,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0410
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0410
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {topLeft: "abcde", topRight: " ", bottomLeft: "#####", bottomRight: undefined}
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0410
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0410', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0410  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0410")
@@ -856,13 +819,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0430
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0430
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value .
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0430
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0430', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0430  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0430")
@@ -878,13 +840,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0440
-    * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0440
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0440
+     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('ARKUI_DATAPANEL_BODERRAIDUS_0440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `ARKUI_DATAPANEL_BODERRAIDUS_0440  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpBorderRadius0440")
@@ -900,13 +861,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpInterface0180")
@@ -920,13 +880,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490
-    * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpInterface0490")
@@ -940,13 +899,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0010")
@@ -960,13 +918,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0011")
@@ -980,13 +937,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0012")
@@ -1000,13 +956,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0013")
@@ -1020,13 +975,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0014")
@@ -1040,13 +994,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0015")
@@ -1060,13 +1013,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0016")
@@ -1080,13 +1032,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0017")
@@ -1100,13 +1051,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0018")
@@ -1120,13 +1070,12 @@ export default function FocusDataPanelTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a abnormal value .
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019  start.`);
       Settings.createWindow("testability/pages/focus_DataPanel/DpWatches0019")

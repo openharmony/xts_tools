@@ -42,13 +42,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0011")
@@ -63,13 +62,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0012")
@@ -84,13 +82,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0014")
@@ -106,13 +103,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0015")
@@ -127,13 +123,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0016")
@@ -148,13 +143,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0018")
@@ -169,13 +163,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0019")
@@ -190,13 +183,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0021")
@@ -211,13 +203,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0022")
@@ -232,13 +223,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0024")
@@ -253,13 +243,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0029")
@@ -274,13 +263,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0030")
@@ -294,13 +282,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0031")
@@ -315,13 +302,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0032")
@@ -336,13 +322,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0033")
@@ -356,13 +341,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0034")
@@ -378,13 +362,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0036")
@@ -399,13 +382,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0037")
@@ -420,13 +402,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0038")
@@ -441,13 +422,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0039")
@@ -461,13 +441,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0041")
@@ -482,13 +461,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0042")
@@ -503,13 +481,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0043")
@@ -523,13 +500,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0044")
@@ -544,13 +520,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0046")
@@ -565,13 +540,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0047")
@@ -586,13 +560,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0048")
@@ -607,13 +580,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0049")
@@ -628,13 +600,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0050")
@@ -648,13 +619,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0051")
@@ -669,13 +639,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0053")
@@ -690,13 +659,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0055")
@@ -710,13 +678,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0057")
@@ -731,13 +698,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0058")
@@ -752,13 +718,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0060")
@@ -772,13 +737,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0063")
@@ -793,13 +757,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0064")
@@ -814,13 +777,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0065")
@@ -834,13 +796,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0066")
@@ -855,13 +816,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0068")
@@ -873,13 +833,12 @@ export default function FocusMediaBadgeBorder() {
       done()
     })
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072
-        * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072
-        * @tc.type   : Function
-        * @tc.size   : MediumTest
-        * @tc.level  : 2
-        * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-        */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0072")
@@ -893,13 +852,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0073")
@@ -914,13 +872,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0074")
@@ -935,13 +892,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0075")
@@ -955,13 +911,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0076")
@@ -976,13 +931,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0079")
@@ -997,13 +951,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0080")
@@ -1018,13 +971,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0081")
@@ -1038,13 +990,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0086")
@@ -1059,13 +1010,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0089")
@@ -1080,13 +1030,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0090")
@@ -1101,13 +1050,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0091")
@@ -1121,13 +1069,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0092")
@@ -1142,13 +1089,12 @@ export default function FocusMediaBadgeBorder() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : The content characters of the QRCode created by FrameNode are normally more than 520.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093  start.`);
       Settings.createWindow("testability/pages/focus_Media_BadgeBorder/MbBorder0093")
