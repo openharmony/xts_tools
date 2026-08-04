@@ -43,13 +43,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012
-    * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PatternLockWatches0012")
@@ -64,13 +63,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0010")
@@ -89,13 +87,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0020")
@@ -114,13 +111,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0030")
@@ -139,13 +135,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0040")
@@ -166,13 +161,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0050")
@@ -192,13 +186,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0060")
@@ -218,13 +211,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0070")
@@ -243,13 +235,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0080")
@@ -267,13 +258,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0090")
@@ -293,13 +283,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0100")
@@ -319,13 +308,12 @@ export default function FocusPatternLockTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110
-    * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110
+     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110  start.`);
       Settings.createWindow("testability/pages/focus_PatternLock/PLCircleColor0110")

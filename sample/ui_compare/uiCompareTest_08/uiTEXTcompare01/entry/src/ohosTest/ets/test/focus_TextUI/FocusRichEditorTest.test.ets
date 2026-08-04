@@ -43,13 +43,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : If the enableKeyboardOnFocus attribute is not set or is set to true, call the requestFocus method to make the rich text component gain focus and bind the input method.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/REtextBackgroundStyle001")
@@ -63,13 +62,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : If the enableKeyboardOnFocus attribute is not set or is set to true, call the requestFocus method to make the rich text component gain focus and bind the input method.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/REtextBackgroundStyle004")
@@ -86,13 +84,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : If the enableKeyboardOnFocus attribute is not set or is set to true, call the requestFocus method to make the rich text component gain focus and bind the input method.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/REHyphenation00001")
@@ -107,13 +104,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : If the enableKeyboardOnFocus attribute is not set or is set to true, call the requestFocus method to make the rich text component gain focus and bind the input method.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorEnableKeyboard0001")
@@ -129,13 +125,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-   * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005
-   * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005
-   * @tc.type   : Function
-   * @tc.size   : MediumTest
-   * @tc.level  : 1
-   * @tc.desc   : If the enableKeyboardOnFocus attribute is set to false, call the requestFocus method to make the rich text component gain focus and not bind the input method.
-   */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorEnableKeyboard0005")
@@ -151,13 +146,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : When passing parameter 1 to getLineMetrics.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorLineMetrics0003")
@@ -173,13 +167,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Set an onClick event for images or text, call preventDefault, and click on the images or text.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorPreventDefault0001")
@@ -194,13 +187,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Release after long-pressing to cancel.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorFloatOff0005")
@@ -215,13 +207,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : getSpans retrieves span information, where the range boundaries fall in the middle of elements with a length greater than 1.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0059")
@@ -236,13 +227,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : getSelection can obtain text content.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0019")
@@ -258,13 +248,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : updateSpanStyle can correctly update the style of text, images, or SymbolSpan.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0014")
@@ -292,13 +281,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : updateParagraphStyle can correctly update the style of the paragraph.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0015")
@@ -320,13 +308,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : The RichEditor component supports an onReady callback.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace9999")
@@ -341,13 +328,12 @@ export default function FocusRichEditor() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : The RichEditor component supports an onReady callback.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0001")
@@ -362,13 +348,12 @@ export default function FocusRichEditor() {
 
 
     /*
-   * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017
-   * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017
-   * @tc.type   : Function
-   * @tc.size   : MediumTest
-   * @tc.level  : 1
-   * @tc.desc   : getSpans can correctly obtain the span information within the component.
-   */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorInterFace0017")
@@ -399,13 +384,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Through getStyles, the extended span information stored in the attribute string of text/images can be obtained.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0001")
@@ -421,13 +405,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Specify new extended span content via setStyle.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0004")
@@ -446,13 +429,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Insert an image attribute string at the specified position via insertString.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0016")
@@ -472,13 +454,12 @@ export default function FocusRichEditor() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Insert an image attribute string at the specified position via insertStyledString.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017  start.`);
       Settings.createWindow("testability/pages/focus_RichEditor/RichEditorStringSpan0017")

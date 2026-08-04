@@ -40,13 +40,12 @@ export default function FocusPBMaxWidthTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that normal text displays correctly when maxWidth is not set
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010 start.`);
       try {
@@ -63,13 +62,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that extra-long text displays correctly when maxWidth is not set
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020 start.`);
       try {
@@ -86,13 +84,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that manually switching maxWidth from -9.9 to 300vp works correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030 start.`);
       try {
@@ -120,13 +117,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that manually switching maxWidth from -9.9 to undefined maintains 400vp width
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040 start.`);
       try {
@@ -153,13 +149,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that manually switching maxWidth from 300vp to 300px works correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050 start.`);
       try {
@@ -186,13 +181,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that manually switching maxWidth from 300vp to undefined changes width from 300vp to 400vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060 start.`);
       try {
@@ -219,13 +213,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth with resource reference $r("app.string.string1") displays correctly at 200vp
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070 start.`);
       try {
@@ -242,13 +235,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to -9.9 (invalid value) displays correctly - 400vp in landscape, container width in portrait
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080 start.`);
       try {
@@ -265,13 +257,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 0.9 displays correctly at 0.9vp width
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090 start.`);
       try {
@@ -288,13 +279,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 0 displays correctly with 0 width
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100 start.`);
       try {
@@ -311,13 +301,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 10000 displays correctly as container max width
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110 start.`);
       try {
@@ -334,13 +323,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 300fp displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120 start.`);
       try {
@@ -357,13 +345,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 300lpx displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130 start.`);
       try {
@@ -380,13 +367,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 300px displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140 start.`);
       try {
@@ -403,13 +389,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 300vp displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150 start.`);
       try {
@@ -426,13 +411,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 300vp with container width 10000 displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160 start.`);
       try {
@@ -449,13 +433,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that setting maxWidth to 300vp with container width 300vp displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170 start.`);
       try {
@@ -472,13 +455,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 300vp displays correctly when animation is interrupted
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180 start.`);
       try {
@@ -512,13 +494,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 300vp displays correctly with frequent toggle operations
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190 start.`);
       try {
@@ -572,13 +553,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 300vp displays correctly after back and re-enter using page navigation
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210 start.`);
       try {
@@ -624,13 +604,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 300vp displays correctly after moving to background and returning
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220 start.`);
       try {
@@ -661,13 +640,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 400vp displays correctly in multitask mode
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240 start.`);
       try {
@@ -698,13 +676,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 400vp in container width 300vp displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260 start.`);
       try {
@@ -725,13 +702,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 400vp in container width 50% displays correctly in different orientations
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270 start.`);
       try {
@@ -757,13 +733,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 400vp displays correctly when switching between portrait and landscape
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280 start.`);
       try {
@@ -789,13 +764,12 @@ export default function FocusPBMaxWidthTest() {
     });
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth 90% displays correctly
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290 start.`);
       try {
@@ -817,13 +791,12 @@ export default function FocusPBMaxWidthTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310
-    * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 3
-    * @tc.desc   : Verify that popup with maxWidth undefined displays with default behavior
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310 start.`);
       try {
