@@ -40,13 +40,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010
-       * @tc.name    TapGesture, fingers = 1, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010
+     * @tc.name   : TapGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit01")
@@ -69,13 +68,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020
-       * @tc.name    TapGesture, fingers = 1, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020
+     * @tc.name   : TapGesture, fingers = 1, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit02")
@@ -98,13 +96,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030
-       * @tc.name    TapGesture, fingers = 1, isFingerCountLimited is undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030
+     * @tc.name   : TapGesture, fingers = 1, isFingerCountLimited is undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit03")
@@ -127,13 +124,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040
-       * @tc.name    TapGesture, fingers = 2, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040
+     * @tc.name   : TapGesture, fingers = 2, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit04")
@@ -166,13 +162,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050
-       * @tc.name    TapGesture, fingers = 2, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050
+     * @tc.name   : TapGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit05")
@@ -205,13 +200,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060
-       * @tc.name    TapGesture, fingers = 2, isFingerCountLimited is undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060
+     * @tc.name   : TapGesture, fingers = 2, isFingerCountLimited is undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit06")
@@ -244,13 +238,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070
-       * @tc.name    TapGesture, fingers = 3, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070
+     * @tc.name   : TapGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit07")
@@ -295,13 +288,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090
-       * @tc.name    TapGesture, fingers = 3, isFingerCountLimited is undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090
+     * @tc.name   : TapGesture, fingers = 3, isFingerCountLimited is undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit08")
@@ -346,13 +338,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100
-       * @tc.name    TapGesture, fingers = 4, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100
+     * @tc.name   : TapGesture, fingers = 4, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit09")
@@ -411,13 +402,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110
-       * @tc.name    TapGesture, fingers = 4, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110
+     * @tc.name   : TapGesture, fingers = 4, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit10")
@@ -476,13 +466,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120
-       * @tc.name    TapGesture, fingers is default, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120
+     * @tc.name   : TapGesture, fingers is default, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit11")
@@ -505,13 +494,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130
-       * @tc.name    TapGesture, not set fingers, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130
+     * @tc.name   : TapGesture, not set fingers, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit12")
@@ -534,13 +522,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080
-       * @tc.name    TapGesture, fingers = 3, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080
+     * @tc.name   : TapGesture, fingers = 3, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit13")
@@ -585,13 +572,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530
-       * @tc.name    PinchGesture, fingers = 1, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530
+     * @tc.name   : PinchGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit14")
@@ -627,13 +613,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580
-       * @tc.name    PinchGesture, fingers = 2, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580
+     * @tc.name   : PinchGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit15")
@@ -663,13 +648,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590
-       * @tc.name    PinchGesture, fingers = 2, isFingerCountLimited is undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590
+     * @tc.name   : PinchGesture, fingers = 2, isFingerCountLimited is undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit16")
@@ -699,13 +683,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600
-       * @tc.name    PinchGesture, fingers is default, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600
+     * @tc.name   : PinchGesture, fingers is default, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit17")
@@ -735,13 +718,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610
-       * @tc.name    PinchGesture, fingers is not set, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610
+     * @tc.name   : PinchGesture, fingers is not set, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit18")
@@ -771,13 +753,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620
-       * @tc.name    PinchGesture, fingers = 3, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620
+     * @tc.name   : PinchGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit19")
@@ -810,13 +791,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680
-       * @tc.name    RotationGesture, fingers = 2, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680
+     * @tc.name   : RotationGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit20")
@@ -846,13 +826,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630
-       * @tc.name    RotationGesture, fingers = 1, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630
+     * @tc.name   : RotationGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit21")
@@ -888,13 +867,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690
-       * @tc.name    RotationGesture, fingers = 2, isFingerCountLimited is undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690
+     * @tc.name   : RotationGesture, fingers = 2, isFingerCountLimited is undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit22")
@@ -924,13 +902,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710
-       * @tc.name    RotationGesture, fingers is not set, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710
+     * @tc.name   : RotationGesture, fingers is not set, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit23")
@@ -960,13 +937,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720
-       * @tc.name    RotationGesture, fingers = 3, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720
+     * @tc.name   : RotationGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit24")
@@ -996,13 +972,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700
-       * @tc.name    RotationGesture, fingers is default, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700
+     * @tc.name   : RotationGesture, fingers is default, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit25")
@@ -1032,13 +1007,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520
-       * @tc.name    SwipeGesture, without setting fingers, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520
+     * @tc.name   : SwipeGesture, without setting fingers, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit26")
@@ -1066,13 +1040,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440
-       * @tc.name    SwipeGesture, fingers = 1, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440
+     * @tc.name   : SwipeGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit27")
@@ -1100,13 +1073,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460
-       * @tc.name    SwipeGesture, fingers = 2, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460
+     * @tc.name   : SwipeGesture, fingers = 2, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit28")
@@ -1147,13 +1119,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470
-       * @tc.name    SwipeGesture, fingers = 3, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470
+     * @tc.name   : SwipeGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit29")
@@ -1184,13 +1155,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480
-       * @tc.name    SwipeGesture, fingers = 1, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480
+     * @tc.name   : SwipeGesture, fingers = 1, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit30")
@@ -1218,13 +1188,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490
-       * @tc.name    SwipeGesture, fingers = 2, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490
+     * @tc.name   : SwipeGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit31")
@@ -1271,13 +1240,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500
-       * @tc.name    SwipeGesture, fingers = 1, isFingerCountLimited is undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500
+     * @tc.name   : SwipeGesture, fingers = 1, isFingerCountLimited is undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit32")
@@ -1305,13 +1273,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510
-       * @tc.name    SwipeGesture, fingers is default, isFingerCountLimited is true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510
+     * @tc.name   : SwipeGesture, fingers is default, isFingerCountLimited is true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit33")
@@ -1339,13 +1306,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450
-       * @tc.name    SwipeGesture, fingers = 2, isFingerCountLimited is false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450
+     * @tc.name   : SwipeGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit34")
@@ -1385,13 +1351,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320
-       * @tc.name    PanGesture, fingers = 2, isFingerCountLimited is true (1)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320
+     * @tc.name   : PanGesture, fingers = 2, isFingerCountLimited is true (1)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit37")
@@ -1426,13 +1391,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330
-       * @tc.name    PanGesture, fingers = 2, isFingerCountLimited is true (2)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330
+     * @tc.name   : PanGesture, fingers = 2, isFingerCountLimited is true (2)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit38")
@@ -1462,13 +1426,12 @@ export default function ACEActionGestureFingersLimit() {
     })
 
     /*
-       * @tc.number  SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340
-       * @tc.name    PanGesture, fingers = 2, isFingerCountLimited is true (3)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340
+     * @tc.name   : PanGesture, fingers = 2, isFingerCountLimited is true (3)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340 start.`);
       Settings.createWindow("testability/pages/ACEActionGestureFingersLimit/ACEActionGestureFingersLimit39")
