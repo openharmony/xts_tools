@@ -38,10 +38,11 @@ export default function StateRepeatArrayLikeTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010
-     * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010
-     * @tc.desc    Ecological Group 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010
+     * @tc.name   : SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0010 start.`);
@@ -55,10 +56,11 @@ export default function StateRepeatArrayLikeTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
-     * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
+     * @tc.name   : SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0020 start.`);
@@ -72,10 +74,11 @@ export default function StateRepeatArrayLikeTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
-     * @tc.name    SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
-     * @tc.desc    Ecological Group 1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
+     * @tc.name   : SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATE_REPEAT_ARRAYLIKE_0030 start.`);

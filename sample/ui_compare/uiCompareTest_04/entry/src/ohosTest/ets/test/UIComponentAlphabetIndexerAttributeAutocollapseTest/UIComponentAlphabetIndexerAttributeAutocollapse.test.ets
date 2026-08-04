@@ -38,10 +38,11 @@ export default function UIComponentAlphabetIndexerAttributeAutocollapse() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010
-     * @tc.name    Attribute - autoCollapse (value: boolean) - default value
-     * @tc.desc    Component 3 groups
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010
+     * @tc.name   : Attribute - autoCollapse (value: boolean) - default value
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010 start.`);

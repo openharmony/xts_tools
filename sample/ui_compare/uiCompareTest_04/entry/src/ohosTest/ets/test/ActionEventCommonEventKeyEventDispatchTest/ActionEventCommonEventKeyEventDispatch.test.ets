@@ -38,10 +38,11 @@ export default function ActionEventCommonEventKeyEventDispatchTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010
-     * @tc.desc    Basic Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0010 start.`);
@@ -59,10 +60,11 @@ export default function ActionEventCommonEventKeyEventDispatchTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150
-     * @tc.desc    Basic Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0150 start.`);
@@ -80,10 +82,11 @@ export default function ActionEventCommonEventKeyEventDispatchTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290
-     * @tc.desc    Basic Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0290 start.`);

@@ -39,10 +39,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100';
@@ -57,10 +58,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090';
@@ -75,10 +77,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080';
@@ -99,10 +102,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060';
@@ -117,10 +121,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050';
@@ -135,10 +140,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070';
@@ -159,10 +165,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010';
@@ -177,10 +184,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130';
@@ -195,10 +203,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140';
@@ -213,10 +222,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110';
@@ -231,10 +241,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120';
@@ -249,10 +260,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150';
@@ -267,10 +279,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030';
@@ -291,10 +304,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160';
@@ -309,10 +323,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020';
@@ -327,10 +342,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040';
@@ -351,10 +367,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580';
@@ -369,10 +386,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560';
@@ -387,10 +405,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550';
@@ -411,10 +430,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570';
@@ -429,10 +449,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600';
@@ -447,10 +468,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590';
@@ -465,10 +487,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510';
@@ -483,10 +506,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630';
@@ -501,10 +525,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640';
@@ -519,10 +544,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610';
@@ -537,10 +563,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650';
@@ -555,10 +582,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660';
@@ -573,10 +601,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530';
@@ -591,10 +620,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620';
@@ -609,10 +639,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520';
@@ -627,10 +658,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540';
@@ -645,10 +677,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080';
@@ -665,10 +698,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050';
@@ -685,10 +719,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060';
@@ -705,10 +740,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100';
@@ -725,10 +761,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070';
@@ -745,10 +782,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090';
@@ -765,10 +803,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130';
@@ -785,10 +824,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110';
@@ -805,10 +845,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150';
@@ -825,10 +866,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120';
@@ -845,10 +887,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140';
@@ -865,10 +908,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010';
@@ -885,10 +929,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030';
@@ -905,10 +950,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160';
@@ -925,10 +971,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020';
@@ -949,10 +996,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040';
@@ -969,10 +1017,11 @@ export default function UIComponentButtonTextPickerArkUITest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170
-     * @tc.desc    Component 4 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170';

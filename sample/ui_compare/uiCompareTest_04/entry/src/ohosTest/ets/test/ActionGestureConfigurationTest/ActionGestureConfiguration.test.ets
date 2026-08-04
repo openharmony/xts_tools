@@ -38,10 +38,11 @@ export default function ActionGestureConfigurationTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120
-     * @tc.name    SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120
+     * @tc.name   : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120 start.`);
@@ -57,11 +58,12 @@ export default function ActionGestureConfigurationTest() {
     });
 
     /*
-      * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130
-      * @tc.name    SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130
-      * @tc.desc    Interactive Framework Group
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130
+     * @tc.name   : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130 start.`);
       Settings.createWindow("testability/pages/ActionGestureConfiguration/ActionGestureConfiguration002");
@@ -76,10 +78,11 @@ export default function ActionGestureConfigurationTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140
-     * @tc.name    SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140
+     * @tc.name   : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140 start.`);

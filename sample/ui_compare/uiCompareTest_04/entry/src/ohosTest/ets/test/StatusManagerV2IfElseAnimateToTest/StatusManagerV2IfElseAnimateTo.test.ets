@@ -39,10 +39,11 @@ export default function StatusManagerV2IfElseAnimateToTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0010 start.`);
@@ -58,10 +59,11 @@ export default function StatusManagerV2IfElseAnimateToTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0020 start.`);
@@ -77,10 +79,11 @@ export default function StatusManagerV2IfElseAnimateToTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0040 start.`);
@@ -102,10 +105,11 @@ export default function StatusManagerV2IfElseAnimateToTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_IFELSE_ANIMATETO_0050 start.`);

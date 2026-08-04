@@ -39,10 +39,11 @@ export default function UIComponentGridFadingEdgeTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0010';
@@ -59,10 +60,11 @@ export default function UIComponentGridFadingEdgeTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0050';
@@ -79,10 +81,11 @@ export default function UIComponentGridFadingEdgeTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0140';
@@ -99,10 +102,11 @@ export default function UIComponentGridFadingEdgeTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0020';

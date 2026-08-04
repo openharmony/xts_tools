@@ -38,10 +38,11 @@ export default function UIComponentGridAutoStretchTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070 start.`);
@@ -57,10 +58,11 @@ export default function UIComponentGridAutoStretchTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060 start.`);
@@ -76,10 +78,11 @@ export default function UIComponentGridAutoStretchTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050 start.`);
@@ -95,10 +98,11 @@ export default function UIComponentGridAutoStretchTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410 start.`);

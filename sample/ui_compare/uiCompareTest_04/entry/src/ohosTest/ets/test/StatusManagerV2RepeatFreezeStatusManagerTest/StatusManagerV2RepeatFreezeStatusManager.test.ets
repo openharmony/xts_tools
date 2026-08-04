@@ -38,10 +38,11 @@ export default function StatusManagerV2RepeatFreezeStatusManagerTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010
-     * @tc.desc    Ecological Group 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_STATUSMANAGERV2_REPEATFREEZE_STATUSMANAGER_0010 start.`);

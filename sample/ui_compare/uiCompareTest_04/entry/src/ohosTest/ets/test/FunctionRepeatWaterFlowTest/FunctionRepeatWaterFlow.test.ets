@@ -39,10 +39,11 @@ export default function FunctionRepeatWaterFlowTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070 start.`);
@@ -58,10 +59,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050 start.`);
@@ -77,10 +79,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110';
@@ -99,10 +102,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100';
@@ -117,10 +121,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060';
@@ -137,10 +142,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200';
@@ -159,10 +165,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120';
@@ -179,10 +186,11 @@ export default function FunctionRepeatWaterFlowTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130
-     * @tc.name    SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130
+     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130', Level.LEVEL3, async (done: Function) => {
       const caseName: string = 'SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130';

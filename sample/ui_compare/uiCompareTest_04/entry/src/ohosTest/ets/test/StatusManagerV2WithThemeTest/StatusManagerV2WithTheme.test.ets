@@ -38,10 +38,11 @@ export default function StatusManagerV2WithThemeTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020
-     * @tc.name    SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020
-     * @tc.desc    Ecological Group 1
-     * @tc.level   0
+     * @tc.number : SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020
+     * @tc.name   : SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020', Level.LEVEL0, async (done: Function) => {
       const caseName: string ='SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020';
