@@ -59,10 +59,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030
-     * @tc.desc    Test Grid component with fadingEdge set to undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030';
@@ -79,10 +80,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040
-     * @tc.desc    Test Grid component with fadingEdge set to null
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040';
@@ -99,10 +101,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060
-     * @tc.desc    Set Grid fadingEdge distance to 0vp
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060';
@@ -119,10 +122,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070
-     * @tc.desc    Set Grid fadingEdge distance to -1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070';
@@ -139,10 +143,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080
-     * @tc.desc    Set Grid fadingEdge distance exceeding component height
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080';
@@ -159,10 +164,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090
-     * @tc.desc    Dynamically adjust Grid fadingEdge distance
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090';
@@ -182,10 +188,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100
-     * @tc.desc    Test edge effects combined with fading effects
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100';
@@ -205,10 +212,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110
-     * @tc.desc    Dynamically change Grid column count
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110';
@@ -228,10 +236,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120
-     * @tc.desc    Test fading effects during dynamic Grid item count changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120';
@@ -254,10 +263,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130
-     * @tc.desc    Test fading effects in Grid mirroring mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130';
@@ -274,10 +284,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150
-     * @tc.desc    Test fading effects in height-unset Grid
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150';
@@ -294,10 +305,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160
-     * @tc.desc    Test fading effects during dynamic Grid padding changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160';
@@ -317,10 +329,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170
-     * @tc.desc    Test fading effects during dynamic Grid margin changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170';
@@ -340,10 +353,11 @@ export default function UIComponentListAndGridGridFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180
-     * @tc.desc    Test fading effects with underfilled Grid edge spring behavior
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180';

@@ -59,10 +59,11 @@ export default function UIComponentListAndGridListAnimation() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130
-     * @tc.desc    List with Axis Vertical single column ForEach and subpage ListItem count
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130';

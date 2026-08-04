@@ -59,10 +59,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010
-     * @tc.desc    Grid get item index by coordinates test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010';
@@ -87,10 +88,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020
-     * @tc.desc    Grid get item index by gesture scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020';
@@ -115,10 +117,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030
-     * @tc.desc    Grid change column count, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030';
@@ -149,10 +152,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040
-     * @tc.desc    Grid change column spacing, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040';
@@ -183,10 +187,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050
-     * @tc.desc    Grid change row count, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050';
@@ -217,10 +222,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060
-     * @tc.desc    Grid change row spacing, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060';
@@ -251,10 +257,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070
-     * @tc.desc    Grid change layout direction, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070';
@@ -285,10 +292,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080
-     * @tc.desc    Grid component rotation, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080';
@@ -317,10 +325,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090
-     * @tc.desc    Grid change support for scroll gesture, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090';
@@ -351,10 +360,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100
-     * @tc.desc    Grid change mirroring effect, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100';
@@ -383,10 +393,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110
-     * @tc.desc    Grid controller jump, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110';
@@ -417,10 +428,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120
-     * @tc.desc    Grid data update, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120';
@@ -456,10 +468,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130
-     * @tc.desc    Grid switch between landscape and portrait, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130';
@@ -517,10 +530,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160
-     * @tc.desc    Grid nested, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160';
@@ -549,10 +563,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170
-     * @tc.desc    Grid change number of child nodes, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170';
@@ -583,10 +598,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180
-     * @tc.desc    Grid set child component visibility, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180';
@@ -617,10 +633,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190
-     * @tc.desc    Grid set padding, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190';
@@ -651,10 +668,11 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200
-     * @tc.desc    Grid set margin, getItemIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200';

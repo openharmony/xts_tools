@@ -60,10 +60,11 @@ export default function UIComponentGridJiaoDian() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010
-     * @tc.desc    Observe focus retention when Grid items scroll off then back on screen
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010';
@@ -93,10 +94,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020
-     * @tc.desc    Test focused Grid item resizing after scrolling off then back on screen
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020';
@@ -129,10 +131,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050
-     * @tc.desc    Test resizing Grid while child node maintains focus
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050';
@@ -173,10 +176,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060
-     * @tc.desc    Test focused Grid items scrolling with cachedCount set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060';
@@ -206,10 +210,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070
-     * @tc.desc    Test focused Grid items scrolling with repeat loading mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070';
@@ -239,10 +244,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080
-     * @tc.desc    Test focused item retention during orientation changes with scrolling
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080';
@@ -300,10 +306,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090
-     * @tc.desc    Test deleting focused Grid item after scrolling it off screen
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090';
@@ -336,10 +343,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100
-     * @tc.desc    Test modifying focused node properties within event callbacks
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100';
@@ -368,10 +376,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110
-     * @tc.desc    Test adding data while scrolling with focused child node
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110';
@@ -409,10 +418,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120
-     * @tc.desc    Test Refresh component nested with Grid
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120';
@@ -442,10 +452,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130
-     * @tc.desc    Test List component nested with Grid
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130';
@@ -477,10 +488,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140
-     * @tc.desc    Test alternating focus between tabs via click events
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140';
@@ -511,10 +523,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150
-     * @tc.desc    Test tab focus navigation after scrolling focused node off-screen
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150';
@@ -546,10 +559,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160
-     * @tc.desc    Test focus movement with directional keys after a child node gains focus and scrolls out of the screen
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160';
@@ -581,10 +595,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170
-     * @tc.desc    Test focus retention in irregular layouts
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170';
@@ -618,10 +633,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180
-     * @tc.desc    Test GridItem focus persistence when clicking then scrolling in/out
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180';
@@ -652,10 +668,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190
-     * @tc.desc    Test GridItem focus via click combined with tab navigation
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190';
@@ -686,10 +703,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200
-     * @tc.desc    Test focus switching between nodes A and B during scroll in/out
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200';
@@ -722,10 +740,11 @@ export default function UIComponentGridJiaoDian() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210
-     * @tc.desc    Test focus shift from node A to B via tab during scroll in/out
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210';

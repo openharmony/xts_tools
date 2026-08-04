@@ -58,10 +58,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190
-     * @tc.desc    List parent sets aspectRatio 2 while ListItem children set fixed width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190';
@@ -78,10 +79,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200
-     * @tc.desc    List parent sets aspectRatio 2 while ListItem children set fixed width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200';
@@ -98,10 +100,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230
-     * @tc.desc    List parent sets aspectRatio 2 while ListItem children set fixed height and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230';
@@ -118,10 +121,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240
-     * @tc.desc    List parent sets aspectRatio 2 while ListItem children set fixed height and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240';
@@ -138,10 +142,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270
-     * @tc.desc    List parent sets aspectRatio 2 while ListItem children set fixed width and height and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270';
@@ -158,10 +163,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280
-     * @tc.desc    List parent sets aspectRatio 2 while ListItem children set fixed width and height and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280';
@@ -178,10 +184,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310
-     * @tc.desc    List parent sets aspectRatio 2 with ListItem children having unset dimensions and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310';
@@ -198,10 +205,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320
-     * @tc.desc    List parent sets aspectRatio 2 with ListItem children having unset dimensions and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320';
@@ -218,10 +226,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350
-     * @tc.desc    List parent sets aspectRatio 2 while ListItemGroup children set fixed width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350';
@@ -238,10 +247,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360
-     * @tc.desc    List parent sets aspectRatio 2 while ListItemGroup children set fixed width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360';
@@ -258,10 +268,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400
-     * @tc.desc    List parent sets aspectRatio 2 while ListItemGroup children set fixed height and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400';
@@ -278,10 +289,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430
-     * @tc.desc    List parent sets aspectRatio 2 while ListItemGroup children set fixed height and width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430';
@@ -298,10 +310,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440
-     * @tc.desc    List parent sets aspectRatio 2 while ListItemGroup children set fixed height and width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440';
@@ -318,10 +331,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470
-     * @tc.desc    List parent sets aspectRatio 2 with ListItemGroup children having unset dimensions and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470';
@@ -338,10 +352,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480
-     * @tc.desc    List parent sets aspectRatio 2 with ListItemGroup children having unset dimensions and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480';
@@ -358,10 +373,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510
-     * @tc.desc    List parent without aspectRatio contains ListItem children with fixed width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510';
@@ -378,10 +394,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520
-     * @tc.desc    List parent without aspectRatio contains ListItem children with fixed width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520';
@@ -398,10 +415,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550
-     * @tc.desc    List parent without aspectRatio contains ListItem children with fixed height and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550';
@@ -418,10 +436,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560
-     * @tc.desc    List parent without aspectRatio contains ListItem children with fixed height and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560';
@@ -438,10 +457,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590
-     * @tc.desc    List parent without aspectRatio contains ListItem children with fixed height and width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590';
@@ -458,10 +478,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600
-     * @tc.desc    List parent without aspectRatio contains ListItem children with fixed height and width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600';
@@ -478,10 +499,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630
-     * @tc.desc    List parent without aspectRatio contains ListItem children with unset dimensions and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630';
@@ -498,10 +520,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640
-     * @tc.desc    List parent without aspectRatio contains ListItem children with unset dimensions and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640';
@@ -518,10 +541,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with fixed width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670';
@@ -538,10 +562,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with fixed width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680';
@@ -558,10 +583,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with fixed height and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710';
@@ -578,10 +604,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with fixed height and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720';
@@ -598,10 +625,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with fixed height and width and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750';
@@ -618,10 +646,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with fixed height and width and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760';
@@ -638,10 +667,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with unset dimensions and aspectRatio 0.5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790';
@@ -658,10 +688,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800
-     * @tc.desc    List parent without aspectRatio contains ListItemGroup children with unset dimensions and aspectRatio 2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800';
@@ -678,10 +709,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820
-     * @tc.desc    Set divider width to 0 between ListItemGroup children in List component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820';
@@ -698,10 +730,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840
-     * @tc.desc    Set divider width to string format 10px between ListItemGroup children in List
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840';
@@ -718,10 +751,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870
-     * @tc.desc    Set divider width to string format 'abc' between ListItemGroup children in List
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870';
@@ -738,10 +772,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910
-     * @tc.desc    List#divider#color8
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910';
@@ -758,10 +793,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100
-     * @tc.desc    List#divider#strokeWidth0
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100';
@@ -778,10 +814,11 @@ export default function UIComponentListAndGridListCapability() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130
-     * @tc.desc    Configure dividers for multi-column ListItemGroup in List component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130';

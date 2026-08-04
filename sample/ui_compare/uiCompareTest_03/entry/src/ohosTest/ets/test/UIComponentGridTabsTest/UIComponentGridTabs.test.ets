@@ -59,10 +59,11 @@ export default function UIComponentGridTabs() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_TABS_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_TABS_0010
-     * @tc.desc    Test Tabs component nested with Grid
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_TABS_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_TABS_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_TABS_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_TABS_0010';

@@ -58,10 +58,11 @@ export default function UIComponentListAndGridGridLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965
-     * @tc.desc    Set GridDirection to Column without rowTemplate or columnTemplate
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965';
@@ -78,10 +79,11 @@ export default function UIComponentListAndGridGridLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208
-     * @tc.desc    Set GridDirection to ColumnReverse without rowTemplate or columnTemplate
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208';
@@ -98,10 +100,11 @@ export default function UIComponentListAndGridGridLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500
-     * @tc.desc    Configure GridItem as non-draggable with both columnsTemplate and rowsTemplate set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500';
@@ -123,10 +126,11 @@ export default function UIComponentListAndGridGridLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148
-     * @tc.desc    Set GridItem as non-selectable with both columnsTemplate and rowsTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148';
@@ -152,10 +156,11 @@ export default function UIComponentListAndGridGridLayout() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305
-     * @tc.desc    Set GridItem as draggable with both columnsTemplate and rowsTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305';
@@ -177,10 +182,11 @@ export default function UIComponentListAndGridGridLayout() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632
-     * @tc.desc    Set GridItem as selectable with both columnsTemplate and rowsTemplate configured
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632';
@@ -206,10 +212,11 @@ export default function UIComponentListAndGridGridLayout() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142
-     * @tc.desc    Configure GridItem drag without animation while having both columnsTemplate and rowsTemplate set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142';
@@ -231,10 +238,11 @@ export default function UIComponentListAndGridGridLayout() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193
-     * @tc.desc    Configure GridItem drag without animation while having both columnsTemplate and rowsTemplate set
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193';
@@ -256,10 +264,11 @@ export default function UIComponentListAndGridGridLayout() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597
-     * @tc.desc    Verify GridItem display effect with embedded English text
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597';

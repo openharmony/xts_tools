@@ -58,10 +58,11 @@ export default function UIComponentListAndGridGridScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010
-     * @tc.desc    Test floating scrollbar display in Grid component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010';
@@ -82,10 +83,11 @@ export default function UIComponentListAndGridGridScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020
-     * @tc.desc    Test toggling Grid scrollbar to floating display state
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020';
@@ -108,10 +110,11 @@ export default function UIComponentListAndGridGridScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030
-     * @tc.desc    Test floating scrollbar during Grid mirroring effect changes
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030';
@@ -137,10 +140,11 @@ export default function UIComponentListAndGridGridScrollbar() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040
-     * @tc.desc    Test externally-bound scrollbar hover display in Grid component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040';

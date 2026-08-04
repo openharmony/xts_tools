@@ -59,10 +59,11 @@ export default function UIComponentListAndGridGridMirror() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510
-     * @tc.desc    Test keyboard focus navigation in nested Button components
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0510';

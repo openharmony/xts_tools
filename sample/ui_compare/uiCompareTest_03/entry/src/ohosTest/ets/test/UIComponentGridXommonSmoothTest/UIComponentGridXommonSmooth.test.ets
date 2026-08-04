@@ -59,10 +59,11 @@ export default function UIComponentGridXommonSmooth() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280
-     * @tc.desc    Test Grid animated scrollToIndex with onScrollIndex callback
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280';
@@ -85,10 +86,11 @@ export default function UIComponentGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310
-     * @tc.desc    Test Grid animated scrollToIndex with onReachStart and onReachEnd callback
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310';
@@ -117,10 +119,11 @@ export default function UIComponentGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320
-     * @tc.desc    Test Grid animated scrollTo with onScrollIndex callback
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320';
@@ -143,10 +146,11 @@ export default function UIComponentGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340
-     * @tc.desc    Test Grid animated scrollTo with onReachStart and onReachEnd callback
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340';

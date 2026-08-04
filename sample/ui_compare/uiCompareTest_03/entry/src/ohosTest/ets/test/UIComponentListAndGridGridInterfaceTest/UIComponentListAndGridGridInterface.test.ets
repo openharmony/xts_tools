@@ -59,10 +59,11 @@ export default function UIComponentListAndGridGridInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950
-     * @tc.desc    Disable Grid animation support
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0040_950';
@@ -84,10 +85,11 @@ export default function UIComponentListAndGridGridInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0050_157
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0050_157
-     * @tc.desc    Enable Grid animation support
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0050_157
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0050_157
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0050_157', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0050_157';
@@ -110,10 +112,11 @@ export default function UIComponentListAndGridGridInterface() {
     })  
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0060_056
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0060_056
-     * @tc.desc    Test Grid gesture swiping
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0060_056
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0060_056
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0060_056', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0060_056';
@@ -135,10 +138,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0070_428
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0070_428
-     * @tc.desc    Set Grid scrollbar to hidden state
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0070_428
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0070_428
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0070_428', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0070_428';
@@ -160,10 +164,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0080_641
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0080_641
-     * @tc.desc    Set Grid scrollbar to always-visible state
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0080_641
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0080_641
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0080_641', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0080_641';
@@ -185,10 +190,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0090_099
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0090_099
-     * @tc.desc    Set Grid scrollbar to on-demand display state
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0090_099
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0090_099
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0090_099', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0090_099';
@@ -212,10 +218,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0290_148
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0290_148
-     * @tc.desc    Test Grid friction coefficient setting
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0290_148
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0290_148
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0290_148', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0290_148';
@@ -237,10 +244,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0300_519
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0300_519
-     * @tc.desc    Set Grid edge spring effect to Spring mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0300_519
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0300_519
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0300_519', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0300_519';
@@ -262,10 +270,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0310_394
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0310_394
-     * @tc.desc    Set Grid edge shadow effect to Fade mode
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0310_394
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0310_394
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0310_394', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0310_394';
@@ -287,10 +296,11 @@ export default function UIComponentListAndGridGridInterface() {
     })   
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0320_627
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0320_627
-     * @tc.desc    Set Grid edge effect to None
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0320_627
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0320_627
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0320_627', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_INTERFACE_0320_627';

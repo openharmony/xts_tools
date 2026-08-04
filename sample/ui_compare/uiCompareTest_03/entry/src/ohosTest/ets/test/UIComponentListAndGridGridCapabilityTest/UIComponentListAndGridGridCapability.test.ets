@@ -59,10 +59,11 @@ export default function UIComponentListAndGridGridCapability() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582
-     * @tc.desc    Set Grid rowsGap property to 0
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582';

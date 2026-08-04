@@ -59,10 +59,11 @@ export default function UIComponentGridEvent() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0010
-     * @tc.desc    Test Grid onItemDragMove events combined with supportAnimation true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0010';
@@ -84,10 +85,11 @@ export default function UIComponentGridEvent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0020
-     * @tc.desc    Test Grid onItemDragMove events combined with supportAnimation false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0020';
@@ -109,10 +111,11 @@ export default function UIComponentGridEvent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0030
-     * @tc.desc    Test Grid onItemDrop events combined with supportAnimation true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0030';
@@ -137,10 +140,11 @@ export default function UIComponentGridEvent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0040
-     * @tc.desc    Test Grid onItemDrop events combined with supportAnimation false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0040';
@@ -165,10 +169,11 @@ export default function UIComponentGridEvent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0090
-     * @tc.desc    Test Grid column count changes during drag events
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0090';
@@ -193,10 +198,11 @@ export default function UIComponentGridEvent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0100
-     * @tc.desc    Test drag events in List-nested Grid component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0100';
@@ -219,10 +225,11 @@ export default function UIComponentGridEvent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_GRID_EVENT_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_GRID_EVENT_0110
-     * @tc.desc    Observe Grid edge spring effects during fling with onReachStart onReachEnd onScrollStart onScrollStop callbacks
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_GRID_EVENT_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_GRID_EVENT_0110';

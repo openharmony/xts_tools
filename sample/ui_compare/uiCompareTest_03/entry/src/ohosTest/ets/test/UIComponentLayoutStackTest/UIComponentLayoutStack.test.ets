@@ -59,10 +59,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014';
@@ -80,10 +81,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200.5
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015';
@@ -101,10 +103,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 199.5
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016';
@@ -122,10 +125,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to -10
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017';
@@ -143,10 +147,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to "pp"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018';
@@ -164,10 +169,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019
-     * @tc.desc    Add stack, alignContent is the default value, width and height use resource references, assigned to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019';
@@ -185,10 +191,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to "80%"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020';
@@ -206,10 +213,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021';
@@ -227,10 +235,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022';
@@ -248,10 +257,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023';
@@ -269,10 +279,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024';
@@ -290,10 +301,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040
-     * @tc.desc    Add a Stack component with default alignContent value, setting both width and height parameters to 200
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040';
@@ -308,10 +320,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060
-     * @tc.desc    Create a Stack component and add a scale property with parameters "0.5,0.5,0.5,0.5"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060';
@@ -329,10 +342,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061
-     * @tc.desc    Create a Stack component with the rotate property set to "0.5,0.5,0.0,0,0,1,300,0"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061';
@@ -350,10 +364,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062
-     * @tc.desc    Create a Stack component and add a brightness property with parameters "10"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062';
@@ -371,10 +386,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063
-     * @tc.desc    Create a Stack component and add a saturate property with parameters "10"
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063';
@@ -392,10 +408,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073
-     * @tc.desc    Create a Stack component and add an onClick event handler: () => console.log("touch event")
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073';
@@ -413,10 +430,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074
-     * @tc.desc    Create a Stack component and set the margin property with parameters {10, 20, 30, 40}
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074';
@@ -434,10 +452,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075
-     * @tc.desc    Create a Stack component and set the margin property with parameters { 9.5, 20.4, 29.9, 40.1}
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075';
@@ -455,10 +474,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076
-     * @tc.desc    Create a Stack component and set the margin property with parameters {10}
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076';
@@ -476,10 +496,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077
-     * @tc.desc    Create a Stack component and set the margin property with parameters { 10, 20, 30}
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077';
@@ -497,10 +518,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078
-     * @tc.desc    Create a Stack component and set the margin property with parameters { 10, 20, 30, 40, 50}
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078';
@@ -518,10 +540,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079
-     * @tc.desc    Create a Stack component and set the margin property with parameters { 10, 20, 30, 40, 50}
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079';
@@ -539,10 +562,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080
-     * @tc.desc    Create a Stack component and set its align property to 'top-start'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080';
@@ -557,10 +581,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081
-     * @tc.desc    Create a Stack component and set its align property to 'top'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081';
@@ -575,10 +600,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082
-     * @tc.desc    Create a Stack component and set its align property to 'top-end'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082';
@@ -593,10 +619,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083
-     * @tc.desc    Create a Stack component and set its align property to 'start'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083';
@@ -611,10 +638,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084
-     * @tc.desc    Create a Stack component and set its align property to 'center'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084';
@@ -629,10 +657,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085
-     * @tc.desc    Create a Stack component and set its align property to 'end'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085';
@@ -647,10 +676,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086
-     * @tc.desc    Create a Stack component and set its align property to 'bottom-start'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086';
@@ -665,10 +695,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087
-     * @tc.desc    Create a Stack component and set its align property to 'bottom'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087';
@@ -683,10 +714,11 @@ export default function UIComponentLayoutStack() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088
-     * @tc.name    SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088
-     * @tc.desc    Create a Stack component and set its align property to 'bottom-end'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088';
