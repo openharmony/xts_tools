@@ -43,13 +43,12 @@ export default function FocusTextPickerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0040")
@@ -68,13 +67,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0060")
@@ -92,13 +90,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0070")
@@ -115,13 +112,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0080")
@@ -138,13 +134,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0110")
@@ -161,13 +156,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0180")
@@ -184,13 +178,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0200")
@@ -208,13 +201,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0210")
@@ -232,13 +224,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0220")
@@ -256,13 +247,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0250")
@@ -280,13 +270,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0320")
@@ -335,13 +324,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0340")
@@ -357,13 +345,12 @@ export default function FocusTextPickerTest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0350")
@@ -380,13 +367,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0360")
@@ -403,13 +389,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0390")
@@ -426,13 +411,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0460")
@@ -449,13 +433,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0480")
@@ -472,13 +455,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0490")
@@ -495,13 +477,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0530")
@@ -518,13 +499,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0550")
@@ -541,13 +521,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0560")
@@ -564,13 +543,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0570")
@@ -588,13 +566,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0600")
@@ -611,13 +588,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0670")
@@ -634,13 +610,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0690")
@@ -657,13 +632,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0700")
@@ -680,13 +654,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0710")
@@ -703,13 +676,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0740")
@@ -727,13 +699,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0810")
@@ -751,13 +722,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0830")
@@ -774,13 +744,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0840")
@@ -798,13 +767,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0850")
@@ -821,13 +789,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0880")
@@ -844,13 +811,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0950")
@@ -867,13 +833,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0970")
@@ -891,13 +856,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop0980")
@@ -947,13 +911,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1020")
@@ -971,13 +934,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1040")
@@ -995,13 +957,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1050")
@@ -1019,13 +980,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1060")
@@ -1045,13 +1005,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1090")
@@ -1071,13 +1030,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1160")
@@ -1097,13 +1055,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1180")
@@ -1121,13 +1078,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1190")
@@ -1145,13 +1101,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1200")
@@ -1169,13 +1124,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1230")
@@ -1193,13 +1147,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1300")
@@ -1218,13 +1171,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1320")
@@ -1243,13 +1195,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1330")
@@ -1268,13 +1219,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1340")
@@ -1292,13 +1242,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1370")
@@ -1316,13 +1265,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1440")
@@ -1371,13 +1319,12 @@ export default function FocusTextPickerTest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460
-    * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    * @tc.desc   : Set the BorderRadius attribute parameter to a normal value {BorderRadius: "5"}.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460  start.`);
       Settings.createWindow("testability/pages/focus_TextPicker/TextPickerOnscrollstop1460")

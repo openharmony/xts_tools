@@ -80,12 +80,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220
-      * @tc.name   : Text#TextTest#TextTest_122
-      * @tc.type   : Function
-      * @tc.size   : MediumTest
-      * @tc.level  : 1
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220
+     * @tc.name   : Text#TextTest#TextTest_122
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1220  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1220")
@@ -152,12 +152,12 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160
-    * @tc.name   : Text#TextTest#TextTest_016
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160
+     * @tc.name   : Text#TextTest#TextTest_016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0160  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0160")
@@ -233,12 +233,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340
-         * @tc.name   : Text#TextTest#TextTest_034
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340
+     * @tc.name   : Text#TextTest#TextTest_034
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0340  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0340")
@@ -364,12 +364,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780
-         * @tc.name   : Text#TextTest#TextTest_078
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780
+     * @tc.name   : Text#TextTest#TextTest_078
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0780  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0780")
@@ -385,12 +385,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860
-         * @tc.name   : Text#TextTest#TextTest_086
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860
+     * @tc.name   : Text#TextTest#TextTest_086
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0860  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0860")
@@ -406,12 +406,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950
-         * @tc.name   : Text#TextTest#TextTest_095
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950
+     * @tc.name   : Text#TextTest#TextTest_095
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0950  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0950")
@@ -427,12 +427,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980
-         * @tc.name   : Text#TextTest#TextTest_098
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980
+     * @tc.name   : Text#TextTest#TextTest_098
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0980  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0980")
@@ -512,13 +512,12 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
-    * @tc.name   : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Both the Text component and its child component Span have not set any attributes.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0190  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/TextFrameNode0190")
@@ -532,13 +531,12 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Both the Text component and its child component Span have not set any attributes.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0010  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextInherit0010")
@@ -551,13 +549,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
-    * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    * @tc.desc   : Text#TextTest#TextTest_015.
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0150  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI0150")
@@ -570,6 +567,13 @@ export default function FocusTextUITest() {
     })
 
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1230  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1230")
@@ -587,12 +591,12 @@ export default function FocusTextUITest() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380
-    * @tc.name   : Text#TextTest#TextTest_138
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380
+     * @tc.name   : Text#TextTest#TextTest_138
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1380  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1380")
@@ -735,12 +739,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-         * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780
-         * @tc.name   : Text#TextTest#TextTest_178
-         * @tc.type   : Function
-         * @tc.size   : MediumTest
-         * @tc.level  : 1
-         */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780
+     * @tc.name   : Text#TextTest#TextTest_178
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1780  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1780")
@@ -756,12 +760,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940
-        * @tc.name   : Text#TextTest#TextTest_194
-        * @tc.type   : Function
-        * @tc.size   : MediumTest
-        * @tc.level  : 1
-        */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940
+     * @tc.name   : Text#TextTest#TextTest_194
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1940  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI1940")
@@ -779,12 +783,12 @@ export default function FocusTextUITest() {
     })
 
     /*
-    * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020
-    * @tc.name   : Text#TextTest#TextTest_202
-    * @tc.type   : Function
-    * @tc.size   : MediumTest
-    * @tc.level  : 1
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020
+     * @tc.name   : Text#TextTest#TextTest_202
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_2020  start.`);
       Settings.createWindow("testability/pages/focus_TextUI/FocusTextUI2020")
