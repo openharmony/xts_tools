@@ -59,10 +59,11 @@ export default function UICustomDrawingSafeAreaScene() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330
-     * @tc.desc    expandSafeArea sets default parameters and configures metadata
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330';
@@ -79,10 +80,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520
-     * @tc.desc    expandSafeArea sets default parameters adds Refresh component multiple TextInput RichText TextArea and KeyboardAvoidMode OFFSET
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520';
@@ -107,10 +109,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530
-     * @tc.desc    expandSafeArea sets default parameters adds Tabs component with child TextInput TextArea and RichText
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530';
@@ -137,10 +140,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540
-     * @tc.desc    expandSafeArea sets default parameters adds Tabs component with multiple TextInput TextArea RichText and KeyboardAvoidMode RESIZE
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540';
@@ -172,10 +176,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550
-     * @tc.desc    expandSafeArea sets default parameters adds Stepper component with child TextInput TextArea and RichText
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550';
@@ -201,10 +206,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560
-     * @tc.desc    expandSafeArea sets default parameters adds Stepper component with multiple TextInput TextArea RichText and KeyboardAvoidMode OFFSET
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560';
@@ -240,10 +246,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570
-     * @tc.desc    expandSafeArea sets default parameters adds Navigation component with child TextInput TextArea and RichText
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570';
@@ -260,10 +267,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580
-     * @tc.desc    expandSafeArea sets default parameters adds Navigation component with multiple TextInput TextArea RichText and KeyboardAvoidMode OFFSET
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580';
@@ -288,10 +296,11 @@ export default function UICustomDrawingSafeAreaScene() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970
-     * @tc.name    SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970
-     * @tc.desc    Page A sets safe area to system Page B to cutout verify transition from A to B
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970
+     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970';
