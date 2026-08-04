@@ -59,10 +59,11 @@ export default function TestCase() {
     })
 
     /*
-     * @tc.number  TestCase_7b95b49b1c6b41b0a17704449c409e0d
-     * @tc.name    TestCase_7b95b49b1c6b41b0a17704449c409e0d
-     * @tc.desc    Verify whether the soft keyboard closes after XComponent gains focus (via Tab key) when the keyboard is active by default
-     * @tc.level   0
+     * @tc.number : TestCase_7b95b49b1c6b41b0a17704449c409e0d
+     * @tc.name   : TestCase_7b95b49b1c6b41b0a17704449c409e0d
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('TestCase_7b95b49b1c6b41b0a17704449c409e0d', Level.LEVEL0, async (done: Function) => {
       TAG = 'TestCase_7b95b49b1c6b41b0a17704449c409e0d';
@@ -87,10 +88,11 @@ export default function TestCase() {
     })
 
     /*
-     * @tc.number  TestCase_c4b7742b9a304b6faa16642b1d99b837
-     * @tc.name    TestCase_c4b7742b9a304b6faa16642b1d99b837
-     * @tc.desc    Verify whether the soft keyboard closes after XComponent gains focus (via clicking) when the keyboard is active by default
-     * @tc.level   0
+     * @tc.number : TestCase_c4b7742b9a304b6faa16642b1d99b837
+     * @tc.name   : TestCase_c4b7742b9a304b6faa16642b1d99b837
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('TestCase_c4b7742b9a304b6faa16642b1d99b837', Level.LEVEL0, async (done: Function) => {
       TAG = 'TestCase_c4b7742b9a304b6faa16642b1d99b837';

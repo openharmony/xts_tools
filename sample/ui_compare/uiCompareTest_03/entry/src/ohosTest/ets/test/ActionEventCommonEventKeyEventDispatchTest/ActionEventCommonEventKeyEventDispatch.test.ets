@@ -63,10 +63,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040
-     * @tc.desc    Test keySource property with return-value onKeyEvent
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040';
@@ -84,10 +85,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050
-     * @tc.desc    Test deviceId property with return-value onKeyEvent
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050';
@@ -105,10 +107,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060
-     * @tc.desc    Test metaKey property with return-value onKeyEvent
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060';
@@ -126,10 +129,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180
-     * @tc.desc    Test keySource property with return-value onKeyEventDispatch
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180';
@@ -147,10 +151,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190
-     * @tc.desc    Test deviceId property with return-value onKeyEventDispatch
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190';
@@ -168,10 +173,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200
-     * @tc.desc    Test metaKey property with return-value onKeyEventDispatch
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200';
@@ -189,10 +195,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250
-     * @tc.desc    Test onKeyEventDispatch with return value true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250';
@@ -216,10 +223,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260
-     * @tc.desc    Test onKeyEventDispatch with return value false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260';
@@ -243,10 +251,11 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     })
 
     /*
-     * @tc.number  SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270
-     * @tc.name    SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270
-     * @tc.desc    Test onKeyEventDispatch with return value undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270
+     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270';

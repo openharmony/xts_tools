@@ -63,10 +63,11 @@ export default function UIAttributesHoverEffectDoubleStrokeInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270
-     * @tc.name    SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270
-     * @tc.desc    Set border colors per edge using LocalizedEdgeColors
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270
+     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270';
