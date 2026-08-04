@@ -55,13 +55,12 @@ export default function UIFrameworkTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -82,13 +81,12 @@ export default function UIFrameworkTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -110,13 +108,12 @@ export default function UIFrameworkTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -140,13 +137,12 @@ export default function UIFrameworkTest() {
       done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -163,13 +159,12 @@ export default function UIFrameworkTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -186,13 +181,12 @@ export default function UIFrameworkTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -209,13 +203,12 @@ export default function UIFrameworkTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -232,13 +225,12 @@ export default function UIFrameworkTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -255,13 +247,12 @@ export default function UIFrameworkTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -278,13 +269,12 @@ export default function UIFrameworkTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -301,13 +291,12 @@ export default function UIFrameworkTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -324,13 +313,12 @@ export default function UIFrameworkTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050
-     * @tc.name: SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {

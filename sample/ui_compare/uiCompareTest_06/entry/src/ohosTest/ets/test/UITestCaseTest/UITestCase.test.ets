@@ -55,13 +55,12 @@ export default function UITestCaseTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -78,13 +77,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -101,13 +99,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -124,13 +121,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -147,13 +143,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -170,13 +165,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -193,13 +187,12 @@ export default function UITestCaseTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -216,13 +209,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800', TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0,
       async (done: Function) => {
@@ -239,13 +231,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900 start.`);
@@ -261,13 +252,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000 start.`);
@@ -283,13 +273,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100 start.`);
@@ -305,13 +294,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200 start.`);
@@ -327,13 +315,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300 start.`);
@@ -349,13 +336,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400 start.`);
@@ -371,13 +357,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500 start.`);
@@ -393,13 +378,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600 start.`);
@@ -415,13 +399,12 @@ export default function UITestCaseTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
-     * @tc.name: SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700 start.`);

@@ -55,13 +55,12 @@ export default function UIPositionOffsetTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080
-     * @tc.name: SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -98,13 +97,12 @@ export default function UIPositionOffsetTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
-     * @tc.name: SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {

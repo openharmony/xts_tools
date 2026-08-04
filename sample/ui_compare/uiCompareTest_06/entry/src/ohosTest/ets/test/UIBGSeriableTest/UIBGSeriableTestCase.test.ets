@@ -55,13 +55,12 @@ export default function UIBGSeriableTest() {
       done()
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070
+     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -83,13 +82,12 @@ export default function UIBGSeriableTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
+     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -102,13 +100,12 @@ export default function UIBGSeriableTest() {
       done();
     })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
+     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
@@ -121,13 +118,12 @@ export default function UIBGSeriableTest() {
         done();
       })
 
-    /**
-     * @tc.number: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
-     * @tc.name: SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
-     * @tc.desc: setPolyToPoly Interface testing.
-     * @tc.level 0
-     * @tc.type: Function
-     * @tc.size: SmallTest
+    /*
+     * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
+     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
+     * @tc.type   : Function
+     * @tc.size   : SmallTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080',
       TestType.FUNCTION | Size.SMALLTEST | Level.LEVEL0, async (done: Function) => {
