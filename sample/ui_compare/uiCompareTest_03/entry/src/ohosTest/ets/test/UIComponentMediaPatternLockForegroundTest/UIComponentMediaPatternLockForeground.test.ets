@@ -63,10 +63,11 @@ export default function UIComponentMediaPatternLockForeground() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011
-     * @tc.desc    PatternLock compares native and modifier calls with activateCircleStyle's enableForeground=true and background circle radius > grid dots.
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011';
@@ -91,10 +92,11 @@ export default function UIComponentMediaPatternLockForeground() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014
-     * @tc.desc    PatternLock compares native and modifier calls with activateCircleStyle's enableForeground=true and background circle radius ≤ grid dots.
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014';
@@ -119,10 +121,11 @@ export default function UIComponentMediaPatternLockForeground() {
   })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019
-     * @tc.desc    PatternLock compares native and modifier calls without skipUnselectedPoint setting
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019';
@@ -156,10 +159,11 @@ export default function UIComponentMediaPatternLockForeground() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021
-     * @tc.desc    PatternLock compares native and modifier calls without skipUnselectedPoint setting
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021';

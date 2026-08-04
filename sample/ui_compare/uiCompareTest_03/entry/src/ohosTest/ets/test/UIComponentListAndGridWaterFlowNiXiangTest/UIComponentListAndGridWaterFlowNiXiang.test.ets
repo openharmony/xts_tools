@@ -59,10 +59,11 @@ export default function UIComponentListAndGridWaterFlowNiXiang() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010
-     * @tc.desc    Waterflow add/remove children while controller jumps to bottom
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010';
@@ -90,10 +91,11 @@ export default function UIComponentListAndGridWaterFlowNiXiang() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020
-     * @tc.desc    Waterflow add/remove children while controller jumps to specified index
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020';

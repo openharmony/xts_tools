@@ -63,10 +63,11 @@ export default function UIComponentMediaImagePredownload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010
-     * @tc.desc    Image component loads web image, firing OnComplete on success and OnError on failure
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010';
@@ -82,10 +83,11 @@ export default function UIComponentMediaImagePredownload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011
-     * @tc.desc    Image component loads parameterized web image, triggering OnComplete on success and OnError on failure
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011';
@@ -101,10 +103,11 @@ export default function UIComponentMediaImagePredownload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012
-     * @tc.desc    Image component preloads web image via API, firing OnComplete on success and OnError on failure
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012';
@@ -120,10 +123,11 @@ export default function UIComponentMediaImagePredownload() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013
-     * @tc.desc    Image component preloads web image via API, firing OnComplete on success and OnError on failure
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013';

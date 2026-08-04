@@ -63,10 +63,11 @@ export default function UIComponentMediaTimePickerStartEndTime() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
-     * @tc.desc    Set valid start and end times for TimePicker/TimePickerDialog
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010';

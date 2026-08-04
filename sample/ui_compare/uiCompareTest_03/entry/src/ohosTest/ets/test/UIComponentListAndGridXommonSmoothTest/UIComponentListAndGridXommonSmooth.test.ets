@@ -59,10 +59,11 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010
-     * @tc.desc    Grid component ScrollToIndex set to ScrollAlign.AUTO test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010';
@@ -84,10 +85,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020
-     * @tc.desc    Grid component ScrollToIndex set to ScrollAlign.CENTER test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020';
@@ -109,10 +111,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030
-     * @tc.desc    Grid component ScrollToIndex set to ScrollAlign.END test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030';
@@ -134,10 +137,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040
-     * @tc.desc    Grid component ScrollToIndex set to ScrollAlign.START test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040';
@@ -159,10 +163,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090
-     * @tc.desc    Grid component ScrollToIndex using rowsTemplate layout test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090';
@@ -184,10 +189,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100
-     * @tc.desc    Grid component set irregular GridItem to scroll to specified index test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100';
@@ -209,10 +215,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120
-     * @tc.desc    Grid component with animation scrollToIndex(-1) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120';
@@ -234,10 +241,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934
-     * @tc.desc    Grid component with animation scrollToIndex(-1) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934';
@@ -259,10 +267,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130
-     * @tc.desc    Grid component with animation scrollToIndex(0) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130';
@@ -284,10 +293,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372
-     * @tc.desc    Grid component with animation scrollToIndex(0) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372';
@@ -309,10 +319,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140
-     * @tc.desc    Grid component with animation scrollToIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140';
@@ -334,10 +345,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800
-     * @tc.desc    Grid component with animation scrollToIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800';
@@ -359,10 +371,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150
-     * @tc.desc    Grid component with animation scrollToIndex value set greater than current item count test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150';
@@ -384,10 +397,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197
-     * @tc.desc    Grid component with animation scrollToIndex value set greater than current item count test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197';
@@ -409,10 +423,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160
-     * @tc.desc    WaterFlow component ScrollToIndex set to ScrollAlign.END test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160';
@@ -436,10 +451,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337
-     * @tc.desc    WaterFlow component ScrollToIndex set to ScrollAlign.END test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337';
@@ -463,10 +479,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760
-     * @tc.desc    WaterFlow component without animation scrollToIndex(-1) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760';
@@ -490,10 +507,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236
-     * @tc.desc    WaterFlow component without animation scrollToIndex(0) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236';
@@ -517,10 +535,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168
-     * @tc.desc    WaterFlow component without animation scrollToIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168';
@@ -544,10 +563,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733
-     * @tc.desc    WaterFlow component without animation scrollToIndex value set greater than current item count test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733';
@@ -569,10 +589,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310
-     * @tc.desc    WaterFlow component not set transition effect smooth test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310';
@@ -596,10 +617,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739
-     * @tc.desc    WaterFlow component ScrollToIndex using rowsTemplate layout test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739';
@@ -623,10 +645,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230
-     * @tc.desc    WaterFlow component with animation scrollToIndex(-1) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230';
@@ -648,10 +671,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240
-     * @tc.desc    WaterFlow component with animation scrollToIndex(0) test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240';
@@ -675,10 +699,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250
-     * @tc.desc    WaterFlow component with animation scrollToIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250';
@@ -702,10 +727,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718
-     * @tc.desc    WaterFlow component with animation scrollToIndex test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718';
@@ -727,10 +753,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260
-     * @tc.desc    WaterFlow component with animation scrollToIndex value set greater than current item count test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260';
@@ -752,10 +779,11 @@ export default function UIComponentListAndGridXommonSmooth() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270
-     * @tc.desc    Multiple operations scroll to specified item test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270';

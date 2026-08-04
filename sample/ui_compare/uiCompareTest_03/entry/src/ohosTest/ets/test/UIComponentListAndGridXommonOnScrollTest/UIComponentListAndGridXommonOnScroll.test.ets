@@ -59,10 +59,11 @@ export default function UIComponentListAndGridXommonOnScroll() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0050
-     * @tc.desc    Finger and mouse drag List scrollbar validation for onWillScroll, onDidScroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0050';
@@ -87,10 +88,11 @@ export default function UIComponentListAndGridXommonOnScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0340_685
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0340_685
-     * @tc.desc    Grid component edge spring effect validation for onWillScroll, onDidScroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0340_685
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0340_685
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0340_685', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0340_685';
@@ -115,10 +117,11 @@ export default function UIComponentListAndGridXommonOnScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0370
-     * @tc.desc    Finger and mouse drag Scroll scrollbar validation for onWillScroll, onDidScroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0370';
@@ -143,10 +146,11 @@ export default function UIComponentListAndGridXommonOnScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491
-     * @tc.desc    Waterflow component dynamic horizontal/vertical layout change validation for onWillScroll, onDidScroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0580_491';
@@ -188,10 +192,11 @@ export default function UIComponentListAndGridXommonOnScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0590_318
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0590_318
-     * @tc.desc    Waterflow component dynamic child component count change validation for onWillScroll, onDidScroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0590_318
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0590_318
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0590_318', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0590_318';
@@ -221,10 +226,11 @@ export default function UIComponentListAndGridXommonOnScroll() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0600_007
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0600_007
-     * @tc.desc    Waterflow component edge spring effect validation for onWillScroll, onDidScroll
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0600_007
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0600_007
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0600_007', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONSCROLL_0600_007';

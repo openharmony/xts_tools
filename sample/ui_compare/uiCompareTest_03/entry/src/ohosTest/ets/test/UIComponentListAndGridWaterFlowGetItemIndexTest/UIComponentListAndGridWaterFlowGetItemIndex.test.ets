@@ -60,10 +60,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0010
-     * @tc.desc    Get item index by coordinates in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0010';
@@ -88,10 +89,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0020
-     * @tc.desc    Get item index during gesture scrolling in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0020';
@@ -116,10 +118,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0030
-     * @tc.desc    GetItemIndex when number of columns changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0030';
@@ -151,10 +154,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0040
-     * @tc.desc    GetItemIndex when column spacing changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0040';
@@ -186,10 +190,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0050
-     * @tc.desc    GetItemIndex when number of rows changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0050';
@@ -221,10 +226,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0060
-     * @tc.desc    GetItemIndex when row spacing changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0060';
@@ -256,10 +262,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0070
-     * @tc.desc    GetItemIndex when layout direction changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0070';
@@ -291,10 +298,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0080
-     * @tc.desc    GetItemIndex when the waterflow component is rotated
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0080';
@@ -323,10 +331,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0090
-     * @tc.desc    GetItemIndex when support for scroll gestures changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0090';
@@ -355,10 +364,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0100
-     * @tc.desc    GetItemIndex when mirror effect changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0100';
@@ -387,10 +397,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0110
-     * @tc.desc    GetItemIndex after controller jump in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0110';
@@ -422,10 +433,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0120
-     * @tc.desc    GetItemIndex after data update in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0120';
@@ -461,10 +473,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0130
-     * @tc.desc    GetItemIndex on orientation switch (portrait/landscape) in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0130';
@@ -523,10 +536,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0140
-     * @tc.desc    GetItemIndex in free window mode in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0140';
@@ -555,10 +569,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0150
-     * @tc.desc    GetItemIndex with pinch gesture in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0150';
@@ -604,10 +619,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0170
-     * @tc.desc    GetItemIndex when waterflow is nested
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0170';
@@ -636,10 +652,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0180
-     * @tc.desc    GetItemIndex under moving window in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0180';
@@ -668,10 +685,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0190
-     * @tc.desc    GetItemIndex in grouped mode in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0190';
@@ -700,10 +718,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0200
-     * @tc.desc    GetItemIndex after grouped splice in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0200';
@@ -735,10 +754,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0210
-     * @tc.desc    GetItemIndex after grouped update in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0210';
@@ -770,10 +790,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0220
-     * @tc.desc    GetItemIndex when number of child nodes changes in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0220';
@@ -805,10 +826,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0230
-     * @tc.desc    GetItemIndex when child component visibility is set in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0230';
@@ -840,10 +862,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0240
-     * @tc.desc    GetItemIndex when padding is set in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0240';
@@ -875,10 +898,11 @@ export default function UIComponentListAndGridWaterFlowGetItemIndex() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0250
-     * @tc.desc    GetItemIndex when margin is set in waterflow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMINDEX_0250';

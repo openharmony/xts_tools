@@ -59,10 +59,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975
-     * @tc.desc    itemsCount set to -5
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975';
@@ -82,10 +83,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779
-     * @tc.desc    itemsCount set to 0
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779';
@@ -105,10 +107,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306
-     * @tc.desc    Whether layout is normal after multiple scrolls with multiple sections set in WaterFlow
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306';
@@ -130,10 +133,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222
-     * @tc.desc    Update groups at an abnormal index using update
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222';
@@ -157,10 +161,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902
-     * @tc.desc    Update group at specified index using update, new group occupancy differs from original
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902';
@@ -182,10 +187,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699
-     * @tc.desc    Update group at index exceeding number of items using update
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699';
@@ -209,10 +215,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718
-     * @tc.desc    Use splice to delete 0 nodes from index -1 and insert new Sections
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718';
@@ -236,10 +243,11 @@ export default function UIComponentListAndGridWaterFlowSections() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570
-     * @tc.desc    Under moving window layout, dynamically reduce child components, edge effect test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570';

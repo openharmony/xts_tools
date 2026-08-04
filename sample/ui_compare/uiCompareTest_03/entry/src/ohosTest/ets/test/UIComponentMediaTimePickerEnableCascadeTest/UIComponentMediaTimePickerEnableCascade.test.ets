@@ -63,10 +63,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
-     * @tc.desc    TimePicker_enableCascade : false
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010';
@@ -92,10 +93,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011
-     * @tc.desc    TimePicker_enableCascade : false
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011';
@@ -121,10 +123,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012
-     * @tc.desc    TimePicker_enableCascade : null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012';
@@ -150,10 +153,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013
-     * @tc.desc    TimePicker_enableCascade : null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013';
@@ -179,10 +183,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034
-     * @tc.desc    TimePickerDialog_enableCascade : true
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034';
@@ -209,10 +214,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035
-     * @tc.desc    TimePickerDialog_enableCascade : false
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035';
@@ -239,10 +245,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036
-     * @tc.desc    TimePickerDialog_enableCascade : null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036';
@@ -269,10 +276,11 @@ export default function UIComponentMediaTimePickerEnableCascade() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037
-     * @tc.desc    TimePickerDialog_enableCascade : undefined
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037';
