@@ -42,12 +42,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
         /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0010
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window (layer 01).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0010 start.`);
       // 步骤1：启动应用
@@ -81,12 +79,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0020
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window (layer 02).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0020 start.`);
       // 步骤1：启动应用
@@ -125,12 +121,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0050
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to a normal value, but showInSubWindow is set to true and isModal is set to false, the displayed dialog node appears as the top-level global window.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0050', Level.LEVEL3,
       async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0050 start.`);
@@ -170,12 +164,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0060
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window (layer 01).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0060 start.`);
       // 步骤1：启动应用
@@ -211,12 +203,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0070
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window (layer 02).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0070 start.`);
       // 步骤1：启动应用
@@ -257,12 +247,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0080
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to a normal value, the displayed dialog node appears as the current page top layer 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0080 start.`);
       // 步骤1：启动应用
@@ -298,12 +286,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0100
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to an invalid value, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window (layer 01).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0100 start.`);
       // 步骤1：启动应用
@@ -339,12 +325,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0110
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to an invalid value, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window (layer 02).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0110 start.`);
       // 步骤1：启动应用
@@ -385,12 +369,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0120
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to EMBEDDED and ImmersiveMode set to an invalid value, and levelUniqueId is set to a normal value, the displayed dialog node appears as the current page top layer 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0120 start.`);
       // 步骤1：启动应用
@@ -426,12 +408,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0140
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to OVERLAY and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0140 start.`);
       // 步骤1：启动应用
@@ -467,12 +447,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0150
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to OVERLAY and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0150 start.`);
       // 步骤1：启动应用
@@ -513,12 +491,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0160
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to OVERLAY and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0160 start.`);
       // 步骤1：启动应用
@@ -554,12 +530,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0170
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to OVERLAY and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0170 start.`);
       // 步骤1：启动应用
@@ -600,12 +574,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0180
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to OVERLAY and ImmersiveMode set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0180 start.`);
       // 步骤1：启动应用
@@ -641,12 +613,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0190
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to OVERLAY and ImmersiveMode set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0190 start.`);
       // 步骤1：启动应用
@@ -687,12 +657,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0200
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to an invalid value and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0200 start.`);
       // 步骤1：启动应用
@@ -728,12 +696,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0210
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to an invalid value and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0210 start.`);
       // 步骤1：启动应用
@@ -774,12 +740,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0220
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to an invalid value and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0220 start.`);
       // 步骤1：启动应用
@@ -815,12 +779,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0230
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to an invalid value and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0230 start.`);
       // 步骤1：启动应用
@@ -861,12 +823,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0240
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to an invalid value and ImmersiveMode set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0240 start.`);
       // 步骤1：启动应用
@@ -902,12 +862,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0250
-     * @tc.desc   : Verify that when ActionSheet is configured with LevelMode set to an invalid value and ImmersiveMode set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0250', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0250 start.`);
       // 步骤1：启动应用
@@ -948,12 +906,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0260
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0260 start.`);
       // 步骤1：启动应用
@@ -989,12 +945,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0270
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0270 start.`);
       // 步骤1：启动应用
@@ -1035,12 +989,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0320
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0320', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0320 start.`);
       // 步骤1：启动应用
@@ -1081,12 +1033,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0330
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to a normal value, the displayed dialog node appears as the current page top layer 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0330', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0330 start.`);
       // 步骤1：启动应用
@@ -1122,12 +1072,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0350
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0350
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to EMBEDDED and ImmersiveMode set to an invalid value, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0350', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0350 start.`);
       // 步骤1：启动应用
@@ -1163,12 +1111,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0360
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0360
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to EMBEDDED and ImmersiveMode set to an invalid value, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0360', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0360 start.`);
       // 步骤1：启动应用
@@ -1209,12 +1155,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0390
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0390
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to OVERLAY and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0390', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0390 start.`);
       // 步骤1：启动应用
@@ -1250,12 +1194,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0400
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0400
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to OVERLAY and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0400', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0400 start.`);
       // 步骤1：启动应用
@@ -1296,12 +1238,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0410
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0410
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to OVERLAY and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0410', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0410 start.`);
       // 步骤1：启动应用
@@ -1337,12 +1277,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0420
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0420
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to OVERLAY and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0420', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0420 start.`);
       // 步骤1：启动应用
@@ -1383,12 +1321,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0430
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0430
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to OVERLAY and ImmersiveMode set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0430', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0430 start.`);
       // 步骤1：启动应用
@@ -1424,12 +1360,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0440
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0440
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to OVERLAY and ImmersiveMode set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0440 start.`);
       // 步骤1：启动应用
@@ -1470,12 +1404,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0450
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0450
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to an invalid value and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0450 start.`);
       // 步骤1：启动应用
@@ -1511,12 +1443,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0460
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0460
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to an invalid value and ImmersiveMode set to DEFAULT, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0460 start.`);
       // 步骤1：启动应用
@@ -1557,12 +1487,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0470
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0470
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to an invalid value and ImmersiveMode set to EXTEND, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0470', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0470 start.`);
       // 步骤1：启动应用
@@ -1598,12 +1526,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0480
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0480
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to an invalid value and ImmersiveMode.EXTEND, the displayed dialog node appears as a full-screen window object and can be controlled by layer coverage, follows to new page when switching interface, and can be closed by clicking blank area or buttons.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0480', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0480 start.`);
       // 步骤1：启动应用
@@ -1645,12 +1571,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0490
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0490
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to an invalid value and ImmersiveMode set to an invalid value, the displayed dialog node appears as a full-screen window object and displays normally.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0490 start.`);
       // 步骤1：启动应用
@@ -1689,12 +1613,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0500
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0500
-     * @tc.desc   : Verify that when AlertDialog is configured with LevelMode set to an invalid value and ImmersiveMode set to an invalid value, the displayed dialog node appears as a full-screen window object and can be controlled by layer coverage, follows to new page when switching interface, and can be closed by clicking blank area or buttons.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0500 start.`);
       // 步骤1：启动应用
@@ -1736,12 +1658,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0570
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0570
-     * @tc.desc   : Verify that when CustomDialogController is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0570', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0570 start.`);
       // 步骤1：启动应用
@@ -1777,12 +1697,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0580
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0580
-     * @tc.desc   : Verify that when CustomDialogController is configured with LevelMode set to EMBEDDED and ImmersiveMode set to DEFAULT, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0580', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0580 start.`);
       // 步骤1：启动应用
@@ -1823,12 +1741,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0640
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0640
-     * @tc.desc   : Verify that when CustomDialogController is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0640', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0640 start.`);
       // 步骤1：启动应用
@@ -1864,12 +1780,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0650
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0650
-     * @tc.desc   : Verify that when CustomDialogController is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 02.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0650 start.`);
       // 步骤1：启动应用
@@ -1910,12 +1824,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0670
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0670
-     * @tc.desc   : Verify that when CustomDialogController is configured with LevelMode set to EMBEDDED and ImmersiveMode set to EXTEND, and levelUniqueId is set to a normal value, the displayed dialog node appears as the current page top layer 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0670', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0670 start.`);
       // 步骤1：启动应用
@@ -1951,12 +1863,10 @@ export default function PopupBoxSpecificationsPageDisplay01() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0720
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0720
-     * @tc.desc   : Verify that when CustomDialogController is configured with LevelMode set to EMBEDDED and ImmersiveMode set to an invalid value, and levelUniqueId is set to an invalid value, the displayed dialog node appears as the top-level global window 01.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0720', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0720 start.`);
       // 步骤1：启动应用

@@ -43,9 +43,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010
-     * @tc.desc   : Initialize without specifying LengthMetricsUnit, and set letterSpacing="10".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010', Level.LEVEL4, async (done: Function) => {
@@ -62,9 +61,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020
-     * @tc.desc   : Initialize without specifying LengthMetricsUnit, and set letterSpacing="10px".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020', Level.LEVEL4, async (done: Function) => {
@@ -81,9 +79,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030
-     * @tc.desc   : Initialize without specifying LengthMetricsUnit, and set letterSpacing="10vp".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030', Level.LEVEL4, async (done: Function) => {
@@ -100,9 +97,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040
-     * @tc.desc   : Initialize without specifying LengthMetricsUnit, and set letterSpacing="10fp".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040', Level.LEVEL4, async (done: Function) => {
@@ -119,9 +115,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050
-     * @tc.desc   : Initialize without specifying LengthMetricsUnit, and set letterSpacing="80%".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050', Level.LEVEL4, async (done: Function) => {
@@ -138,9 +133,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060
-     * @tc.desc   : Initialize without specifying LengthMetricsUnit, and set letterSpacing="10lpx".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060', Level.LEVEL4, async (done: Function) => {
@@ -157,9 +151,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070
-     * @tc.desc   : Use LengthMetricsUnit, set unit to new LengthMetrics(5, LengthUnit.PX).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070', Level.LEVEL4, async (done: Function) => {
@@ -176,9 +169,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080
-     * @tc.desc   : Use LengthMetricsUnit, set unit to new LengthMetrics(5, LengthUnit.VP).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080', Level.LEVEL4, async (done: Function) => {
@@ -195,9 +187,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090
-     * @tc.desc   : Use LengthMetricsUnit, set unit to new LengthMetrics(5, LengthUnit.FP).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090', Level.LEVEL4, async (done: Function) => {
@@ -214,9 +205,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100
-     * @tc.desc   : Use LengthMetricsUnit, set unit to new LengthMetrics(0.5, LengthUnit.PERCENT).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100', Level.LEVEL4, async (done: Function) => {
@@ -233,9 +223,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110
-     * @tc.desc   : Use LengthMetricsUnit, set unit to new LengthMetrics(5, LengthUnit.LPX).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110', Level.LEVEL4, async (done: Function) => {
@@ -252,9 +241,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120
-     * @tc.desc   : Set letterSpacing after text length is greater than fillText maximum width.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120', Level.LEVEL4, async (done: Function) => {
@@ -271,9 +259,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130
-     * @tc.desc   : Set letterSpacing after text length fillText maximum width are both greater than Canvas width.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130', Level.LEVEL4, async (done: Function) => {
@@ -290,9 +277,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140
-     * @tc.desc   : Set spacing to negative number.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140', Level.LEVEL4, async (done: Function) => {
@@ -309,9 +295,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150
-     * @tc.desc   : Use abnormal string "aaa".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150', Level.LEVEL4, async (done: Function) => {
@@ -328,9 +313,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160
-     * @tc.desc   : Initialize specifying LengthMetricsUnit as PX, without specifying unit letterSpacing="10".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160', Level.LEVEL4, async (done: Function) => {
@@ -347,9 +331,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170
-     * @tc.desc   : Initialize specifying LengthMetricsUnit as PX, specifying unit letterSpacing="10vp".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170', Level.LEVEL4, async (done: Function) => {
@@ -366,9 +349,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180
-     * @tc.desc   : Initialize specifying LengthMetricsUnit as VP, without specifying unit letterSpacing="10".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180', Level.LEVEL4, async (done: Function) => {
@@ -385,9 +367,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190
-     * @tc.desc   : Initialize specifying LengthMetricsUnit as VP, specifying unit letterSpacing="10vp".
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190', Level.LEVEL4, async (done: Function) => {
@@ -404,9 +385,8 @@ export default function CanvasLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200
-     * @tc.desc   : Continuously set two letterSpacing properties, one valid value and one invalid value.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 4
      */
     it('SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200', Level.LEVEL4, async (done: Function) => {

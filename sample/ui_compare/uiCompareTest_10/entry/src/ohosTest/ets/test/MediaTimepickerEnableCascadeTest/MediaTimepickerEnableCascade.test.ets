@@ -42,12 +42,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0018
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0018
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0018', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0018 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0018")
@@ -63,12 +61,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0019
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0019
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0019', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0019 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0019")
@@ -83,12 +79,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0020
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0020 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0020")
@@ -103,12 +97,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0021
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0021
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0021', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0021 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0021")
@@ -123,12 +115,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0029
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0029
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0029', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0029 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0029")
@@ -143,12 +133,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0030
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0030', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0030 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0030")
@@ -163,12 +151,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0031
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0031
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0031', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0031 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0031")
@@ -183,12 +169,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0032
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0032
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0032', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0032 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0032")
@@ -203,12 +187,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0033
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0033
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0033', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0033 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0033")
@@ -223,12 +205,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0042
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0042
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0042', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0042 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0042")
@@ -243,12 +223,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0043
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0043
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0043', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0043 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0043")
@@ -263,12 +241,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0044
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0044
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0044', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0044 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0044")
@@ -283,12 +259,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0045
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0045
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0045', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0045 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0045")
@@ -303,12 +277,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0047
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0047
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0047', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0047 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0047")
@@ -323,12 +295,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0048
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0048
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0048', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0048 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0048")
@@ -343,12 +313,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0049
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0049
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0049', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0049 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0049")
@@ -363,12 +331,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0050
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0050', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0050 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0050")
@@ -383,12 +349,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0051
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0051
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0051', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0051 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0051")
@@ -403,12 +367,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0052
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0052
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0052', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0052 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0052")
@@ -423,12 +385,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0053
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0053
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0053', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0053 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0053")
@@ -443,12 +403,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0054
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0054
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0054', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0054 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0054")
@@ -463,12 +421,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0058
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0058
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0058', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0058 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0058")
@@ -483,12 +439,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0059
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0059
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0059', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0059 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0059")
@@ -503,12 +457,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0060
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0060 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0060")
@@ -523,12 +475,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0061
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0061
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0061', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0061 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0061")
@@ -543,12 +493,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0066
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0066
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0066', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0066 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0066")
@@ -563,12 +511,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0067
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0067
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0067', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0067 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0067")
@@ -583,12 +529,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0068
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0068
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0068', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0068 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0068")
@@ -603,12 +547,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0069
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0069
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0069', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0069 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0069")
@@ -623,12 +565,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0070
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0070', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0070 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0070")
@@ -643,12 +583,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0071
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0071
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0071', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0071 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0071")
@@ -663,12 +601,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0072
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0072
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0072', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0072 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0072")
@@ -683,12 +619,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0073
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0073
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0073', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0073 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0073")
@@ -703,12 +637,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0074
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0074
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0074', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0074 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0074")
@@ -723,12 +655,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0075
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0075
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0075', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0075 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0075")
@@ -743,12 +673,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0076
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0076
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0076', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0076 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0076")
@@ -763,12 +691,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0077
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0077
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0077', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0077 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0077")
@@ -783,12 +709,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0078
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0078
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0078', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0078 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0078")
@@ -803,12 +727,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0079
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0079
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0079', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0079 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0079")
@@ -823,12 +745,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0080
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0080 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0080")
@@ -843,12 +763,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0081
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0081
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0081', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0081 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0081")
@@ -863,12 +781,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0082
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0082
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0082', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0082 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0082")
@@ -883,12 +799,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0083
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0083
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0083', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0083 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0083")
@@ -903,12 +817,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0084
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0084
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0084', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0084 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0084")
@@ -923,12 +835,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0085
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0085
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0085', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0085 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0085")
@@ -943,12 +853,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0086
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0086
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0086', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0086 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0086")
@@ -963,12 +871,10 @@ export default function MediaTimepickerEnableCascade() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0087
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0087
-     * @tc.desc   : Function test
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 2
      */
-
     it('SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0087', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0087 start.`);
       Settings.createWindow("testability/pages/MediaTimepickerEnableCascade/MediaTimepickerEnableCascade0087")

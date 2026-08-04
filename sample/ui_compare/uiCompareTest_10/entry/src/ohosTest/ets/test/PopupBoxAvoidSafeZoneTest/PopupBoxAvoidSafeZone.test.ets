@@ -42,12 +42,10 @@ export default function PopupBoxAvoidSafeZone() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010
-     * @tc.desc   : Configure AlertDialog: immersive full screen (),showInSubWindow(), alignment ($$).
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010 start.`);
       
@@ -88,12 +86,10 @@ export default function PopupBoxAvoidSafeZone() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020
-     * @tc.desc   : Configure ActionSheet: immersive full screen, showInSubWindow, alignment.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020 start.`);
       
@@ -134,12 +130,10 @@ export default function PopupBoxAvoidSafeZone() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060
-     * @tc.desc   : Configure CustomDialog: immersive full screen, showInSubWindow, alignment.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060 start.`);
       
@@ -180,12 +174,10 @@ export default function PopupBoxAvoidSafeZone() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070
-     * @tc.desc   : Configure openCustomDialog: immersive full screen, showInSubWindow, alignment.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070 start.`);
       

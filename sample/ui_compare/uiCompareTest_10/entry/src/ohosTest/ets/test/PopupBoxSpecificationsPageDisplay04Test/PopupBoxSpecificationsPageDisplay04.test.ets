@@ -42,12 +42,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2440
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2440
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to OVERLAY, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2440', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2440 start.`);
       // 步骤1：启动应用
@@ -80,12 +78,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2450
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2450
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to OVERLAY, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2450', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2450 start.`);
       // 步骤1：启动应用
@@ -126,12 +122,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2460
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2460
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to abnormal value, ImmersiveMode.DEFAULT - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2460', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2460 start.`);
       // 步骤1：启动应用
@@ -164,12 +158,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2490
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2490
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to abnormal value, ImmersiveMode.EXTEND - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2490', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2490 start.`);
       // 步骤1：启动应用
@@ -202,12 +194,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2500
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2500
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to abnormal value, ImmersiveMode.EXTEND - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2500', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2500 start.`);
       // 步骤1：启动应用
@@ -248,12 +238,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2530
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2530
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to abnormal value, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2530', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2530 start.`);
       // 步骤1：启动应用
@@ -286,12 +274,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2540
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2540
-     * @tc.desc   : Verify uiContext_openCustomDialog with LevelMode set to abnormal value, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2540', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2540 start.`);
       // 步骤1：启动应用
@@ -332,12 +318,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2550
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2550
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode.DEFAULT, and levelUniqueId set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2550', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2550 start.`);
       // 步骤1：启动应用
@@ -370,12 +354,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2560
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2560
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode.DEFAULT, and levelUniqueId set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2560', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2560 start.`);
       // 步骤1：启动应用
@@ -416,12 +398,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2620
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2620
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode.EXTEND, and levelUniqueId set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2620', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2620 start.`);
       // 步骤1：启动应用
@@ -454,12 +434,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2630
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2630
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode.EXTEND, and levelUniqueId set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2630', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2630 start.`);
       // 步骤1：启动应用
@@ -500,12 +478,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2650
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2650
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode.EXTEND, and levelUniqueId set to normal value - dialog node appears as current page top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2650', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2650 start.`);
       // 步骤1：启动应用
@@ -538,12 +514,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2700
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2700
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode set to abnormal value, and levelUniqueId set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2700', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2700 start.`);
       // 步骤1：启动应用
@@ -576,12 +550,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2710
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2710
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to EMBEDDED, ImmersiveMode set to abnormal value, and levelUniqueId set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2710', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2710 start.`);
       // 步骤1：启动应用
@@ -622,12 +594,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2740
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2740
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to OVERLAY, ImmersiveMode.DEFAULT - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2740', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2740 start.`);
       // 步骤1：启动应用
@@ -660,12 +630,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2750
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2750
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to OVERLAY, ImmersiveMode.DEFAULT - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2750', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2750 start.`);
       // 步骤1：启动应用
@@ -706,12 +674,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2770
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2770
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to OVERLAY, ImmersiveMode.EXTEND - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2770', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2770 start.`);
       // 步骤1：启动应用
@@ -744,12 +710,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2780
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2780
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to OVERLAY, ImmersiveMode.EXTEND - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2780', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2780 start.`);
       // 步骤1：启动应用
@@ -790,12 +754,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2810
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2810
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to OVERLAY, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2810', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2810 start.`);
       // 步骤1：启动应用
@@ -828,12 +790,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2820
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2820
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to OVERLAY, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2820', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2820 start.`);
       // 步骤1：启动应用
@@ -874,12 +834,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2830
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2830
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to abnormal value, ImmersiveMode.DEFAULT - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2830', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2830 start.`);
       // 步骤1：启动应用
@@ -912,12 +870,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2840
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2840
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to abnormal value, ImmersiveMode.DEFAULT - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2840', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2840 start.`);
       // 步骤1：启动应用
@@ -958,12 +914,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2860
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2860
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to abnormal value, ImmersiveMode.EXTEND - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2860', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2860 start.`);
       // 步骤1：启动应用
@@ -996,12 +950,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2870
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2870
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to abnormal value, ImmersiveMode.EXTEND - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2870', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2870 start.`);
       // 步骤1：启动应用
@@ -1042,12 +994,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2900
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2900
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to abnormal value, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 01
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2900', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2900 start.`);
       // 步骤1：启动应用
@@ -1080,12 +1030,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2910
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2910
-     * @tc.desc   : Verify uiContext_presentCustomDialog with LevelMode set to abnormal value, ImmersiveMode set to abnormal value - dialog node appears as global window top layer 02
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2910', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2910 start.`);
       // 步骤1：启动应用
@@ -1126,12 +1074,10 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2920
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2920
-     * @tc.desc   : Verify dual dialog behavior with embedded mode extend and default coexisting - two different dialogs meet expectations without interference
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2920', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2920 start.`);
       // 步骤1：打开测试hap
@@ -1196,9 +1142,8 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2930
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2930
-     * @tc.desc   : Verify that when normal and abnormal values coexist in embedded mode, the two dialogs meet expectations without interference
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2930', Level.LEVEL3, async (done: Function) => {
@@ -1265,9 +1210,8 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2940
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2940
-     * @tc.desc   : Verify that when overlay and embedded modes coexist, the two dialogs meet expectations without interference
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2940', Level.LEVEL3, async (done: Function) => {
@@ -1309,9 +1253,8 @@ export default function PopupBoxSpecificationsPageDisplay04() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2950
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2950
-     * @tc.desc   : Verify that page-level and non-page-level dialogs are launched separately on different pages, and then multi-level jumps are displayed normally
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2950', Level.LEVEL3, async (done: Function) => {

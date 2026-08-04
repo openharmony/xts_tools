@@ -43,9 +43,8 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100
-     * @tc.desc   : Test click event for launching atomic service in full-screen modal.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 1
      */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100', Level.LEVEL1, async (done: Function) => {
@@ -129,12 +128,10 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384
-     * @tc.desc   : Test focus event for launching atomic service in full-screen modal.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 1
      */
-
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384 start.`);
       Settings.createWindow("testability/pages/SpecialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0010084895384")
@@ -239,12 +236,10 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767
      * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767
-     * @tc.desc   : Test drag event for launching atomic service in full-screen modal.
-     * @tc.size   : MediumTest
      * @tc.type   : Function
+     * @tc.size   : MediumTest
      * @tc.level  : 1
      */
-
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767 start.`);
       Settings.createWindow("testability/pages/SpecialComponentsFullscreenLaunchComponentEvent/SpecialComponentsFullscreenLaunchComponentEvent0100767")
