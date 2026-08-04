@@ -58,13 +58,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014
-       * @tc.name    Select the Chinese version, click outside the component, and check the custom menu callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014
+     * @tc.name   : Select the Chinese version, click outside the component, and check the custom menu callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing01")
@@ -83,13 +82,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011
-       * @tc.name    Change the component position and check the custom menu callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011
+     * @tc.name   : Change the component position and check the custom menu callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing02")
@@ -108,13 +106,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003
-       * @tc.name    Bind any one or more menu types and response types of custom menus, gesture and long press/mouse right click/mouse to select any content to verify the menu effect
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003
+     * @tc.name   : Bind any one or more menu types and response types of custom menus, gesture and long press/mouse right click/mouse to select any content to verify the menu effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing03")
@@ -131,13 +128,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010
-       * @tc.name    Change the component width/height, check the custom menu callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010
+     * @tc.name   : Change the component width/height, check the custom menu callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing04")
@@ -156,13 +152,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015
-       * @tc.name    Select the Chinese version and call closeSelectionMenu/stopEditing/setCaretOffset/setSelection to check the custom menu callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015
+     * @tc.name   : Select the Chinese version and call closeSelectionMenu/stopEditing/setCaretOffset/setSelection to check the custom menu callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing05")
@@ -181,13 +176,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013
-       * @tc.name    Select the Chinese version and click on other areas in the component to check the custom menu callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013
+     * @tc.name   : Select the Chinese version and click on other areas in the component to check the custom menu callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing06")
@@ -205,13 +199,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012
-       * @tc.name    Select the Chinese book, back button to close the handle and menu, check the custom menu callback
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012
+     * @tc.name   : Select the Chinese book, back button to close the handle and menu, check the custom menu callback
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012 start.`);
       Settings.createWindow("testability/pages/UiComponentRichEditorMenuReinforcing/UiComponentRichEditorMenuReinforcing07")
@@ -228,13 +221,12 @@ export default function UiComponentRichEditorMenuReinforcing() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0018
-       * @tc.name    Mirror mode, check the customization menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0018
+     * @tc.name   : Mirror mode, check the customization menu
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0018', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012 start.`);
       try {

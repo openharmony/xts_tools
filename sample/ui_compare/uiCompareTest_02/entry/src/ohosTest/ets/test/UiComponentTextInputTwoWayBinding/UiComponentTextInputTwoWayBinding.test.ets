@@ -55,13 +55,12 @@ export default function UiComponentTextInputTwoWayBinding() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060
-       * @tc.name    TextInput/TextArea/Search, do not set onchange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060
+     * @tc.name   : TextInput/TextArea/Search, do not set onchange
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding01")
@@ -79,13 +78,12 @@ export default function UiComponentTextInputTwoWayBinding() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050
-       * @tc.name    TextInput/TextArea/Search, do not set onchange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050
+     * @tc.name   : TextInput/TextArea/Search, do not set onchange
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputTwoWayBinding/UiComponentTextInputTwoWayBinding02")

@@ -55,13 +55,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090
-       * @tc.name    Set the empty text of the search component to true and add the onsubmit event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090
+     * @tc.name   : Set the empty text of the search component to true and add the onsubmit event
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble01")
@@ -80,13 +79,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010
-       * @tc.name    Set the empty text of the search component to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010
+     * @tc.name   : Set the empty text of the search component to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble02")
@@ -105,13 +103,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050
-       * @tc.name    Set the empty text of the search component to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050
+     * @tc.name   : Set the empty text of the search component to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble03")
@@ -132,13 +129,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020
-       * @tc.name    Set the empty text of the search component to true and enter text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020
+     * @tc.name   : Set the empty text of the search component to true and enter text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble04")
@@ -159,13 +155,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040
-       * @tc.name    Set the empty text of the search component to false and enter text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040
+     * @tc.name   : Set the empty text of the search component to false and enter text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble05")
@@ -186,13 +181,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060
-       * @tc.name    Set the empty text of the search component to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060
+     * @tc.name   : Set the empty text of the search component to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble06")
@@ -211,13 +205,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180
-       * @tc.name    Set the empty text of the search component to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180
+     * @tc.name   : Set the empty text of the search component to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble07")
@@ -236,13 +229,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030
-       * @tc.name    Set the empty text of the search component to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030
+     * @tc.name   : Set the empty text of the search component to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble08")
@@ -261,13 +253,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120
-       * @tc.name    Set the empty text of the search component to true and set placeholder
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120
+     * @tc.name   : Set the empty text of the search component to true and set placeholder
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble09")
@@ -286,13 +277,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080
-       * @tc.name    Set the empty text of the search component to autoDisable to true, and change the font color of the SearchButton
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080
+     * @tc.name   : Set the empty text of the search component to autoDisable to true, and change the font color of the SearchButton
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble10")
@@ -309,13 +299,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070
-       * @tc.name    Set the empty text of the search component to autoDisable to true, and change the font size of the SearchButton
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070
+     * @tc.name   : Set the empty text of the search component to autoDisable to true, and change the font size of the SearchButton
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble11")
@@ -332,13 +321,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130
-       * @tc.name    Set the empty text of the search component to autoDisable to true, and change the search type of the SearchButton
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130
+     * @tc.name   : Set the empty text of the search component to autoDisable to true, and change the search type of the SearchButton
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble12")
@@ -355,13 +343,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110
-       * @tc.name    Set the empty text of the search component to autoDisable to true, and click the search icon
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110
+     * @tc.name   : Set the empty text of the search component to autoDisable to true, and click the search icon
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble13")
@@ -380,13 +367,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150
-       * @tc.name    When there is text in the search component, delete or cut all text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150
+     * @tc.name   : When there is text in the search component, delete or cut all text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble14")
@@ -407,13 +393,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170
-       * @tc.name    enter tab key to focus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170
+     * @tc.name   : enter tab key to focus
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble15")
@@ -433,13 +418,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190
-       * @tc.name    Modifier test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190
+     * @tc.name   : Modifier test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble16")
@@ -458,13 +442,12 @@ export default function UiComponentSearchAutoDisAble() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140
-       * @tc.name    Set the empty text of the search component to autoDisable to true, and enter the content on the pre-screen
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140
+     * @tc.name   : Set the empty text of the search component to autoDisable to true, and enter the content on the pre-screen
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentSearchAutoDisAble/UiComponentSearchAutoDisAble17")

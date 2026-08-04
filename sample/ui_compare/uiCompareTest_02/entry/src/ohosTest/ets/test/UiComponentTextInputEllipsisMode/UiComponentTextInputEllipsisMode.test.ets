@@ -55,13 +55,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230
-       * @tc.name    text component, set halfLeading to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230
+     * @tc.name   : text component, set halfLeading to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode01")
@@ -88,13 +87,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080
-       * @tc.name    The inline mode of the TextArea component is set to TextOverflow.Ellipsis, and the maxlines setting is greater than 1, and the edit mode is dynamically switched to ellipsisMode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080
+     * @tc.name   : The inline mode of the TextArea component is set to TextOverflow.Ellipsis, and the maxlines setting is greater than 1, and the edit mode is dynamically switched to ellipsisMode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode02")
@@ -116,13 +114,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100
-       * @tc.name    The inline mode of the TextInput component is set to TextOverflow.MARQUEE, and the maxlines setting is greater than 1, and the edit mode is dynamically switched to ellipsisMode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100
+     * @tc.name   : The inline mode of the TextInput component is set to TextOverflow.MARQUEE, and the maxlines setting is greater than 1, and the edit mode is dynamically switched to ellipsisMode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode03")
@@ -144,13 +141,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040
-       * @tc.name    The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the maxlines setting is greater than 1, and the editing mode is dynamically switched to ellipsisMode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040
+     * @tc.name   : The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the maxlines setting is greater than 1, and the editing mode is dynamically switched to ellipsisMode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode04")
@@ -172,13 +168,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030
-       * @tc.name    The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the maxlines setting is 1, and the editing mode is dynamically switched to ellipsisMode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030
+     * @tc.name   : The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the maxlines setting is 1, and the editing mode is dynamically switched to ellipsisMode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode05")
@@ -200,13 +195,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010
-       * @tc.name    The TextInput component is set in Default mode to TextOverflow.Ellipsis
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010
+     * @tc.name   : The TextInput component is set in Default mode to TextOverflow.Ellipsis
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode06")
@@ -228,13 +222,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090
-       * @tc.name    The TextInput component is set to TextOverflow.MARQUEE in INLINE mode, maxlines is set to 1, and ellipsisMode is dynamically toggled in the non-editing state
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090
+     * @tc.name   : The TextInput component is set to TextOverflow.MARQUEE in INLINE mode, maxlines is set to 1, and ellipsisMode is dynamically toggled in the non-editing state
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode07")
@@ -254,13 +247,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110
-       * @tc.name    The TextInput component is set to TextOverflow.MARQUEE in default mode, maxlines is set to 1, and ellipsisMode is dynamically switched in the edit state
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110
+     * @tc.name   : The TextInput component is set to TextOverflow.MARQUEE in default mode, maxlines is set to 1, and ellipsisMode is dynamically switched in the edit state
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode08")
@@ -283,13 +275,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130
-       * @tc.name    The TextArea component is set to TextOverflow.Clip, maxlines is set to 1, and ellipsisMode is dynamically toggled
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130
+     * @tc.name   : The TextArea component is set to TextOverflow.Clip, maxlines is set to 1, and ellipsisMode is dynamically toggled
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode09")
@@ -310,13 +301,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070
-       * @tc.name    The inline mode of the TextArea component is set to TextOverflow.Ellipsis, maxlines is set to 1, and the edit mode is dynamically toggled ellipsisMode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070
+     * @tc.name   : The inline mode of the TextArea component is set to TextOverflow.Ellipsis, maxlines is set to 1, and the edit mode is dynamically toggled ellipsisMode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode10")
@@ -339,13 +329,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120
-       * @tc.name    The TextArea component is set to TextOverflow.MARQUEE, maxlines is set to 1, and ellipsisMode is dynamically toggledx
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120
+     * @tc.name   : The TextArea component is set to TextOverflow.MARQUEE, maxlines is set to 1, and ellipsisMode is dynamically toggledx
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode11")
@@ -367,13 +356,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140
-       * @tc.name    The TextInput component is set to TextOverflow.Clip, maxlines is set to 1, and ellipsisMode is dynamically toggled
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140
+     * @tc.name   : The TextInput component is set to TextOverflow.Clip, maxlines is set to 1, and ellipsisMode is dynamically toggled
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode12")
@@ -395,13 +383,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170
-       * @tc.name    The width of the input box is changed when a single line of the TextInput/TextArea component is omitted
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170
+     * @tc.name   : The width of the input box is changed when a single line of the TextInput/TextArea component is omitted
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode13")
@@ -416,13 +403,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190
-       * @tc.name    If the TextInput/TextArea component mixes languages in a single line or special symbols are omitted, the omitted position is switched
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190
+     * @tc.name   : If the TextInput/TextArea component mixes languages in a single line or special symbols are omitted, the omitted position is switched
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode14")
@@ -441,13 +427,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180
-       * @tc.name    If the TextInput/TextArea component omits a single-line emoji, the omit position is switched
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180
+     * @tc.name   : If the TextInput/TextArea component omits a single-line emoji, the omit position is switched
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode15")
@@ -466,13 +451,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160
-       * @tc.name    The TextInput/TextArea component sets TextOverflow.Ellipsis to dynamically change maxLines
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160
+     * @tc.name   : The TextInput/TextArea component sets TextOverflow.Ellipsis to dynamically change maxLines
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode16")
@@ -494,13 +478,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020
-       * @tc.name    The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the ellipsisMode is dynamically switched to the non-editing state
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020
+     * @tc.name   : The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the ellipsisMode is dynamically switched to the non-editing state
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode17")
@@ -520,13 +503,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150
-       * @tc.name    The TextInput/TextArea component sets a single line of text for the over-long prompt
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150
+     * @tc.name   : The TextInput/TextArea component sets a single line of text for the over-long prompt
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode18")
@@ -546,13 +528,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060
-       * @tc.name    Set TextOverflow.Ellipsis to maxlines greater than 1 for different type types, and dynamically switch ellipsisMode in the edit mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060
+     * @tc.name   : Set TextOverflow.Ellipsis to maxlines greater than 1 for different type types, and dynamically switch ellipsisMode in the edit mode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode19")
@@ -583,13 +564,12 @@ export default function UiComponentTextInputEllipsisMode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050
-       * @tc.name    The TextArea component is set to TextOverflow.Ellipsis for different type types, 1 for maxlines, and ellipsisMode for dynamic editing mode
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050
+     * @tc.name   : The TextArea component is set to TextOverflow.Ellipsis for different type types, 1 for maxlines, and ellipsisMode for dynamic editing mode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextInputEllipsisMode/UiComponentTextInputEllipsisMode20")

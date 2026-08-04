@@ -55,13 +55,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080
-       * @tc.name    Create symbolglyph on the FrameNode and set fontSize to 30vp.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontSize to 30vp.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode01")
@@ -74,13 +73,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010
-       * @tc.name    Create symbolglyph on the FrameNode and set fontcolor to Color.Red
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to Color.Red
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode02")
@@ -93,13 +91,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070
-       * @tc.name    Create symbolglyph on the FrameNode and set fontcolor to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode03")
@@ -112,13 +109,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020
-       * @tc.name    Create symbolglyph on the FrameNode and set fontcolor to 0x808080
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to 0x808080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode04")
@@ -131,13 +127,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030
-       * @tc.name    Create symbolglyph on the FrameNode and set fontcolor to #ff000000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to #ff000000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode05")
@@ -150,13 +145,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130
-       * @tc.name    Create symbolglyph on the FrameNode and set fontsize to -26
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to -26
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode06")
@@ -169,13 +163,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140
-       * @tc.name    Create symbolglyph on the FrameNode and set fontsize to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode07")
@@ -188,13 +181,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150
-       * @tc.name    Create symbolglyph on the FrameNode and set fontsize to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode08")
@@ -207,13 +199,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090
-       * @tc.name    Create symbolglyph on the FrameNode and set fontsize to 70px
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to 70px
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode09")
@@ -226,13 +217,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100
-       * @tc.name    Create symbolglyph on the FrameNode and set fontsize to 36
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to 36
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode10")
@@ -245,13 +235,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to FontWeight.Lighter
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to FontWeight.Lighter
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode11")
@@ -264,13 +253,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to 800
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode12")
@@ -283,13 +271,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode13")
@@ -302,13 +289,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to -200
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to -200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode14")
@@ -321,13 +307,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to 600
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode15")
@@ -340,13 +325,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to 1000
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 1000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode16")
@@ -359,13 +343,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to null
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode17")
@@ -378,13 +361,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120
-       * @tc.name    Create symbolglyph on the FrameNode and set fontsize to 0
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode18")
@@ -397,13 +379,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050
-       * @tc.name    Create symbolglyph on the FrameNode and set fontColor to [Color.Orange,Color.Black]
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontColor to [Color.Orange,Color.Black]
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode19")
@@ -416,13 +397,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060
-       * @tc.name    Create symbolglyph on the FrameNode and set fontColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode20")
@@ -435,13 +415,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220
-       * @tc.name    Create symbolglyph on the FrameNode and set fontWeight to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode21")
@@ -454,13 +433,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to SINGLE, and fontcolor to [Color.Red]
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to SINGLE, and fontcolor to [Color.Red]
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode22")
@@ -473,13 +451,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to SINGLE, and fontcolor to [Color.Orange,Color.Black]
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to SINGLE, and fontcolor to [Color.Orange,Color.Black]
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode23")
@@ -492,13 +469,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Red
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Red
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode24")
@@ -511,13 +487,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Red
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Red
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode25")
@@ -530,13 +505,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Orange,Color.Black
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Orange,Color.Black
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode26")
@@ -549,13 +523,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Yellow, Color.Green, Color.White
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Yellow, Color.Green, Color.White
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode27")
@@ -568,13 +541,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Orange,Color.Black
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Orange,Color.Black
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode28")
@@ -587,13 +559,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Yellow, Color.Green, Color.White
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Yellow, Color.Green, Color.White
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode29")
@@ -606,13 +577,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260
-       * @tc.name    FrameNode creates symbolglyph, sets renderingStrategy to Single, and fontcolor to Color.Yellow, Color.Green, Color.White
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260
+     * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to Single, and fontcolor to Color.Yellow, Color.Green, Color.White
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode30")
@@ -625,13 +595,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370
-       * @tc.name    Create a symbolglyph on the FrameNode and set the onTouch event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370
+     * @tc.name   : Create a symbolglyph on the FrameNode and set the onTouch event
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode31")
@@ -647,13 +616,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390
-       * @tc.name    Create a symbolglyph on the FrameNode and set the onMouse event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390
+     * @tc.name   : Create a symbolglyph on the FrameNode and set the onMouse event
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode32")
@@ -668,13 +636,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360
-       * @tc.name    Create a symbolglyph on the FrameNode and set the onClick event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360
+     * @tc.name   : Create a symbolglyph on the FrameNode and set the onClick event
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode33")
@@ -689,13 +656,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380
-       * @tc.name    Create symbolglyph on the FrameNode and set onAttach, onDetach, onAppear, and onDisAppear events
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380
+     * @tc.name   : Create symbolglyph on the FrameNode and set onAttach, onDetach, onAppear, and onDisAppear events
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode34")
@@ -715,13 +681,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040
-       * @tc.name    Create symbolglyph on the FrameNode and set fontcolor to rgb(255, 100, 255)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040
+     * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to rgb(255, 100, 255)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode35")
@@ -734,13 +699,12 @@ export default function UiComponentSymbolGlyphFrameNode() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330
-       * @tc.name    Create symbolglyph on the FrameNode and set the effectStrategy to NONE
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330
+     * @tc.name   : Create symbolglyph on the FrameNode and set the effectStrategy to NONE
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentSymbolGlyphFrameNode/UiComponentSymbolGlyphFrameNode36")

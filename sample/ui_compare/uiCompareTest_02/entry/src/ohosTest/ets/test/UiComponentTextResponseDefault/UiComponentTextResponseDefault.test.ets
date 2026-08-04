@@ -55,13 +55,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060
-       * @tc.name    Text component, set a custom menu, TextSpanType.DEFAULT, bind the TextResponseType.DEFAULT menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060
+     * @tc.name   : Text component, set a custom menu, TextSpanType.DEFAULT, bind the TextResponseType.DEFAULT menu
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault01")
@@ -85,13 +84,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010
-       * @tc.name    Text component, set a custom menu, TextSpanType.TEXT, bind the TextResponseType.DEFAULT menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010
+     * @tc.name   : Text component, set a custom menu, TextSpanType.TEXT, bind the TextResponseType.DEFAULT menu
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault02")
@@ -115,13 +113,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020
-       * @tc.name    Text component, set custom menus, TextSpanType.TEXT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020
+     * @tc.name   : Text component, set custom menus, TextSpanType.TEXT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault03")
@@ -145,13 +142,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050
-       * @tc.name    Text component, set the custom menu, TextSpanType.MIXED, bind the TextResponseType.DEFAULT menu
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050
+     * @tc.name   : Text component, set the custom menu, TextSpanType.MIXED, bind the TextResponseType.DEFAULT menu
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault04")
@@ -165,13 +161,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030
-       * @tc.name    Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030
+     * @tc.name   : Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault05")
@@ -196,13 +191,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040
-       * @tc.name    Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040
+     * @tc.name   : Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault06")
@@ -227,13 +221,12 @@ export default function UiComponentTextResponseDefault() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070
-       * @tc.name    Text component, set a custom menu, TextSpanType.DEFAULT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070
+     * @tc.name   : Text component, set a custom menu, TextSpanType.DEFAULT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextResponseDefault/UiComponentTextResponseDefault07")
