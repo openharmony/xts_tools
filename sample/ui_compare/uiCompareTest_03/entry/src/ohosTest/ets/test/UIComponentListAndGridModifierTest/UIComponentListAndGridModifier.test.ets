@@ -59,10 +59,11 @@ export default function UIComponentListAndGridModifier() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010
-     * @tc.desc    Set swipeAction via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010';
@@ -87,10 +88,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150
-     * @tc.desc    List component dynamically change sticky declared with @state test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150';
@@ -115,10 +117,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370
-     * @tc.desc    List component dynamically change enableScrollInteraction declared with @state test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370';
@@ -143,10 +146,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450
-     * @tc.desc    Dynamically change chainAnimation declared with @state test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450';
@@ -171,10 +175,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540
-     * @tc.desc    Set multiSelectable to true via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540';
@@ -199,10 +204,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550
-     * @tc.desc    Set multiSelectable to false via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550';
@@ -227,10 +233,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560
-     * @tc.desc    Set multiSelectable multiple times test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560';
@@ -255,10 +262,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570
-     * @tc.desc    Use one modifier to set multiSelectable for two components test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570';
@@ -283,10 +291,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590
-     * @tc.desc    Dynamically change enableScrollInteraction declared with @state test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590';
@@ -311,10 +320,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600
-     * @tc.desc    Add multiSelectable via attributeModifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600';
@@ -339,10 +349,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710
-     * @tc.desc    Dynamically change edgeEffect declared with @state test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710';
@@ -367,10 +378,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000
-     * @tc.desc    WaterFlow set friction to 0.6 via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000';
@@ -395,10 +407,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010
-     * @tc.desc    WaterFlow set friction to 0 via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010';
@@ -423,10 +436,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020
-     * @tc.desc    WaterFlow set friction to -1 via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020';
@@ -451,10 +465,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030
-     * @tc.desc    WaterFlow set friction to $r(0.6) via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030';
@@ -479,10 +494,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060
-     * @tc.desc    WaterFlow add friction via attributeModifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060';
@@ -507,10 +523,11 @@ export default function UIComponentListAndGridModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120
-     * @tc.desc    WaterFlow component dynamically change enableScrollInteraction declared with @state test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120';

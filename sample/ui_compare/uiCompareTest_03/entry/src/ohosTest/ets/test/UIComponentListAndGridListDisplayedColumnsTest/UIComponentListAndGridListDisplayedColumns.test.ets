@@ -59,10 +59,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010
-     * @tc.desc    Set List lanes gutter to non-default 0 with listDirection Axis Vertical and zero column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010';
@@ -79,10 +80,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020
-     * @tc.desc    Set List lanes gutter to 10px with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020';
@@ -99,10 +101,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030
-     * @tc.desc    Set List lanes gutter to 10 with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030';
@@ -119,10 +122,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050
-     * @tc.desc    Set List lanes gutter to 10fp with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050';
@@ -139,10 +143,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060
-     * @tc.desc    Set List lanes gutter to 10lpx with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060';
@@ -159,10 +164,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070
-     * @tc.desc    Set List lanes gutter to '10%' with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070';
@@ -179,10 +185,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080
-     * @tc.desc    Set List lanes gutter to $r("app.string.gutter_15") with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080';
@@ -199,10 +206,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090
-     * @tc.desc    Set List lanes gutter to -1 with listDirection Axis Vertical and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090';
@@ -219,10 +227,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110
-     * @tc.desc    Set List lanes gutter to non-default 0 with listDirection Axis Horizontal and zero column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110';
@@ -239,10 +248,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120
-     * @tc.desc    Set List lanes gutter to 10px with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120';
@@ -259,10 +269,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140
-     * @tc.desc    Set List lanes gutter to 10vp with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140';
@@ -279,10 +290,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150
-     * @tc.desc    Set List lanes gutter to 10fp with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150';
@@ -299,10 +311,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160
-     * @tc.desc    Set List lanes gutter to 10lpx with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160';
@@ -319,10 +332,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170
-     * @tc.desc    Set List lanes gutter to '10%' with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170';
@@ -339,10 +353,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180
-     * @tc.desc    Set List lanes gutter to $r("app.string.gutter_15") with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180';
@@ -359,10 +374,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190
-     * @tc.desc    Set List lanes gutter to -1 with listDirection Axis Horizontal and 10px column spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190';
@@ -379,10 +395,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200
-     * @tc.desc    Configure List lanes gutter as 10vp with ListItemAlign Start ensuring all settings apply
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200';
@@ -399,10 +416,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230
-     * @tc.desc    Set List lanes gutter to 10vp and space to 20 verifying both take effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230';
@@ -419,10 +437,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240
-     * @tc.desc    Set List lanes gutter to 10px and space to 10px verifying both take effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240';
@@ -439,10 +458,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250
-     * @tc.desc    Set List lanes gutter to '10%' and space to 20 verifying both take effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250';
@@ -459,10 +479,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260
-     * @tc.desc    Set List lanes gutter to 10vp and initialIndex to 8 verifying both take effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260';
@@ -479,10 +500,11 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300
-     * @tc.desc    Set List lanes gutter to 10vp with child size changes confirming all settings apply
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300';

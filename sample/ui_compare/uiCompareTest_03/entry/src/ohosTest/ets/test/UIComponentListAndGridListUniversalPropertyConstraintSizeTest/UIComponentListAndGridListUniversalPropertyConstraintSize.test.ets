@@ -59,10 +59,11 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130
-     * @tc.desc    Set List minHeight larger than parent component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130';
@@ -86,10 +87,11 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140
-     * @tc.desc    Set List minWidth larger than parent component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140';
@@ -113,10 +115,11 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150
-     * @tc.desc    Set Scroll minHeight larger than parent component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150';
@@ -140,10 +143,11 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160
-     * @tc.desc    Set Scroll minWidth larger than parent component
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160';

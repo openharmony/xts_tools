@@ -58,10 +58,11 @@ export default function UIComponentListAndGridListUI() {
     })
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020
-     * @tc.desc    List#listDirection#listDirection1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0020';
@@ -81,10 +82,11 @@ export default function UIComponentListAndGridListUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030
-     * @tc.desc    List#listDirection#listDirection2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0030';
@@ -104,10 +106,11 @@ export default function UIComponentListAndGridListUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040
-     * @tc.desc    List#listDirection#listDirection3
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0040';
@@ -127,10 +130,11 @@ export default function UIComponentListAndGridListUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420
-     * @tc.desc    List#divider#divider2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0420';
@@ -151,10 +155,11 @@ export default function UIComponentListAndGridListUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640
-     * @tc.desc    List#list_ux#List_alignListItem1
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0640';
@@ -175,10 +180,11 @@ export default function UIComponentListAndGridListUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650
-     * @tc.desc    List#list_ux#List_alignListItem2
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0650';
@@ -199,10 +205,11 @@ export default function UIComponentListAndGridListUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660
-     * @tc.desc    List#list_ux#listitem_multiple
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0660';

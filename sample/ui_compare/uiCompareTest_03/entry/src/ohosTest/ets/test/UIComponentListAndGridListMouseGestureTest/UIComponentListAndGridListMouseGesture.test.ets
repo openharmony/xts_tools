@@ -58,10 +58,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010
-     * @tc.desc    Perform orientation changes on disabled List main page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010';
@@ -85,10 +86,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020
-     * @tc.desc    Gesture scroll disabled List vertically
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020';
@@ -110,10 +112,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040
-     * @tc.desc    Gesture scroll disabled List vertically and rapidly
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040';
@@ -135,10 +138,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070
-     * @tc.desc    Mouse scroll disabled List vertically
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070';
@@ -160,10 +164,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080
-     * @tc.desc    Mouse scroll disabled List vertically and rapidly
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080';
@@ -185,10 +190,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120
-     * @tc.desc    Test focus navigation in horizontal ListGroup layout
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120';
@@ -218,10 +224,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130
-     * @tc.desc    Switch orientations on List main page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130';
@@ -245,10 +252,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150
-     * @tc.desc    Gesture scroll List vertically
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150';
@@ -270,10 +278,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160
-     * @tc.desc    Gesture swipe List leftward
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160';
@@ -298,10 +307,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170
-     * @tc.desc    Rapid gesture scroll List vertically
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170';
@@ -323,10 +333,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210
-     * @tc.desc    Switch orientations in List collapse/expand page
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210';
@@ -350,10 +361,11 @@ export default function UIComponentListAndGridListMouseGesture() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230
-     * @tc.desc    Mouse swipe List leftward
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230';

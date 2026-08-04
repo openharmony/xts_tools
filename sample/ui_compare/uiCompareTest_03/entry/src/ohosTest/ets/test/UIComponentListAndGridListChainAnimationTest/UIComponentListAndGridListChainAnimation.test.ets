@@ -59,10 +59,11 @@ export default function UIComponentListAndGridListChainAnimation() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010
-     * @tc.desc    List combines chainAnimation with scroll alignment effects
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0010';
@@ -85,10 +86,11 @@ export default function UIComponentListAndGridListChainAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020
-     * @tc.desc    List with chainAnimation underfilled screen checks isAtEnd after overscroll pull
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHAINANIMATION_0020';
