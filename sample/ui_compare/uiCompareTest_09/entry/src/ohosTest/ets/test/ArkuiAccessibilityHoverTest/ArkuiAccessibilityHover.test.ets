@@ -30,10 +30,12 @@ export default function ArkuiAccessibilityHover() {
       }
     });
 
-    /**
-     * @tc.number Arkui_Accessibility_Hover_1
-     * @tc.name 启动无障碍并按压目标对象
-     * @tc.desc 验证无障碍焦点框在Canvas虚拟子节点上的显示
+    /*
+     * @tc.number : Arkui_Accessibility_Hover_1
+     * @tc.name   : 启动无障碍并按压目标对象
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('Arkui_Accessibility_Hover_1', 0, async () => {
       await Settings.createWindow('testability/pages/ArkuiAccessibilityHover/AccessibilityHover1');
@@ -48,10 +50,12 @@ export default function ArkuiAccessibilityHover() {
       await windowSnap.snapShot('Arkui_Accessibility_Hover_1');
     });
 
-    /**
-     * @tc.number Arkui_Accessibility_Hover_7
-     * @tc.name 聚焦到深层节点的某一目标后无操作
-     * @tc.desc 验证深层节点聚焦后焦点框不消失
+    /*
+     * @tc.number : Arkui_Accessibility_Hover_7
+     * @tc.name   : 聚焦到深层节点的某一目标后无操作
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('Arkui_Accessibility_Hover_7', 0, async () => {
       await Settings.createWindow('testability/pages/ArkuiAccessibilityHover/AccessibilityHover7');
@@ -71,10 +75,12 @@ export default function ArkuiAccessibilityHover() {
       await windowSnap.snapShot('Arkui_Accessibility_Hover_7');
     });
 
-    /**
-     * @tc.number Arkui_Accessibility_Hover_8
-     * @tc.name 动态改变虚拟子节点中的x值
-     * @tc.desc 验证改变节点x坐标后焦点框位置跟随变化
+    /*
+     * @tc.number : Arkui_Accessibility_Hover_8
+     * @tc.name   : 动态改变虚拟子节点中的x值
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('Arkui_Accessibility_Hover_8', 0, async () => {
       await Settings.createWindow('testability/pages/ArkuiAccessibilityHover/AccessibilityHover8');
@@ -96,10 +102,12 @@ export default function ArkuiAccessibilityHover() {
       await windowSnap.snapShot('Arkui_Accessibility_Hover_8');
     });
 
-    /**
-     * @tc.number Arkui_Accessibility_Hover_13
-     * @tc.name 聚焦到某一按键后无操作
-     * @tc.desc 验证按键聚焦后焦点框持续显示不消失
+    /*
+     * @tc.number : Arkui_Accessibility_Hover_13
+     * @tc.name   : 聚焦到某一按键后无操作
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('Arkui_Accessibility_Hover_13', 0, async () => {
       await Settings.createWindow('testability/pages/ArkuiAccessibilityHover/AccessibilityHover13');

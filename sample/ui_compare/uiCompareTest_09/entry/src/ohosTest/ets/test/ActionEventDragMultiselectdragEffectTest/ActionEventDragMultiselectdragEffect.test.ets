@@ -27,11 +27,12 @@ export default function ActionEventDragMultiselectdragEffectTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0540
-     * @tc.name 分屏模式下多选拖拽
-     * @tc.desc 验证分屏模式下可发起拖拽，动效正常
-     * @tc.automation 30% - 页面加载自动化；分屏模式需手动设置
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0540
+     * @tc.name   : 分屏模式下多选拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0540', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0540';
@@ -56,11 +57,12 @@ export default function ActionEventDragMultiselectdragEffectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0550
-     * @tc.name 长按不松手连续2次返回
-     * @tc.desc 验证长按拖拽时连续2次返回可取消拖拽
-     * @tc.automation 50% - 页面加载、按钮点击自动化
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0550
+     * @tc.name   : 长按不松手连续2次返回
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0550', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0550';
@@ -87,11 +89,12 @@ export default function ActionEventDragMultiselectdragEffectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0560
-     * @tc.name 长按不松手连续3次返回后再次拖拽
-     * @tc.desc 验证返回后取消拖拽，再次进入页面拖拽效果正常
-     * @tc.automation 50% - 页面加载、按钮点击自动化
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0560
+     * @tc.name   : 长按不松手连续3次返回后再次拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0560', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0560';
@@ -118,11 +121,12 @@ export default function ActionEventDragMultiselectdragEffectTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0580
-     * @tc.name 横屏模式多选拖拽
-     * @tc.desc 验证横屏模式下可发起拖拽，动效正常
-     * @tc.automation 40% - 页面加载、按钮点击自动化；横屏需手动设置
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0580
+     * @tc.name   : 横屏模式多选拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0580', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0580';

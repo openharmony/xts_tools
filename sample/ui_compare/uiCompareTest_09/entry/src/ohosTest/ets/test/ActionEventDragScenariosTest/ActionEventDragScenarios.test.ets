@@ -27,11 +27,12 @@ export default function ActionEventDragScenariosTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0280
-     * @tc.name 快速抛滑组件
-     * @tc.desc 验证快速抛滑时组件正常拖动，事件闭环正确
-     * @tc.automation 40% - 页面加载自动化；快速抛滑效果需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0280
+     * @tc.name   : 快速抛滑组件
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0280', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0280';
@@ -56,11 +57,12 @@ export default function ActionEventDragScenariosTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0290
-     * @tc.name 多次拖拽组件
-     * @tc.desc 验证多次拖拽时每次都有正确闭环
-     * @tc.automation 40% - 页面加载自动化；多次拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0290
+     * @tc.name   : 多次拖拽组件
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0290', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0290';

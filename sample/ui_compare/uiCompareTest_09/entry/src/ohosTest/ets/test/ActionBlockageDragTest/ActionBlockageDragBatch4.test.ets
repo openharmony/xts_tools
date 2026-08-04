@@ -27,11 +27,12 @@ export default function ActionBlockageDragBatch4Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0400
-     * @tc.name Grid多选双指 - 按压时WAITING
-     * @tc.desc Grid组件多选_双指_按压时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0400
+     * @tc.name   : Grid多选双指 - 按压时WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0400', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0400';
@@ -63,11 +64,12 @@ export default function ActionBlockageDragBatch4Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0410
-     * @tc.name Grid多选双指 - 按压时READY
-     * @tc.desc Grid组件多选_双指_按压时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0410
+     * @tc.name   : Grid多选双指 - 按压时READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0410', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0410';
@@ -99,11 +101,12 @@ export default function ActionBlockageDragBatch4Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0420
-     * @tc.name Grid多选双指 - 拖拽中未超5S WAITING
-     * @tc.desc Grid组件多选_双指_手指移动拖拽中，未超过5S，则状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0420
+     * @tc.name   : Grid多选双指 - 拖拽中未超5S WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0420', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0420';
@@ -135,11 +138,12 @@ export default function ActionBlockageDragBatch4Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0430
-     * @tc.name Grid多选双指 - 拖拽中未超5S READY
-     * @tc.desc Grid组件多选_双指_手指移动拖拽中，未超过5S，则状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0430
+     * @tc.name   : Grid多选双指 - 拖拽中未超5S READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0430', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0430';
@@ -171,11 +175,12 @@ export default function ActionBlockageDragBatch4Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0440
-     * @tc.name Grid多选双指 - 拖拽中超过5S
-     * @tc.desc Grid组件多选_双指_手指移动拖拽中，超过5S了
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0440
+     * @tc.name   : Grid多选双指 - 拖拽中超过5S
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0440', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0440';

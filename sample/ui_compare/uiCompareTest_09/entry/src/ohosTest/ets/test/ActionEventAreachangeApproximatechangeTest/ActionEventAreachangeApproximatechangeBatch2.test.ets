@@ -27,11 +27,12 @@ export default function ActionEventAreachangeApproximatechangeBatch2Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0320
-     * @tc.name 频繁调用接口测试
-     * @tc.desc 验证频繁调用接口时不会crash
-     * @tc.automation 30% - 页面加载、按钮点击自动化；crash检测需脚本配合
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0320
+     * @tc.name   : 频繁调用接口测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0320', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0320';
@@ -57,11 +58,12 @@ export default function ActionEventAreachangeApproximatechangeBatch2Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0330
-     * @tc.name 内存泄漏测试
-     * @tc.desc 验证接口使用过程中无明显内存泄漏
-     * @tc.automation 30% - 页面加载、按钮点击自动化；内存检测需Profiler工具
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0330
+     * @tc.name   : 内存泄漏测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0330', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0330';

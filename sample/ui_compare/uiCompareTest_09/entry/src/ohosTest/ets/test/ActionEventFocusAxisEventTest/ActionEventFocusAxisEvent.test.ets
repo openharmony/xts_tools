@@ -31,9 +31,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0010
-     * @tc.name: FocusAxisEvent0010
-     * @tc.desc: 使用手柄触发FocusAxisEvent-target
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0010
+     * @tc.name   : FocusAxisEvent0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0010 start');
@@ -47,9 +49,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0020
-     * @tc.name: FocusAxisEvent0020
-     * @tc.desc: 使用手柄触发FocusAxisEvent-timestamp
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0020
+     * @tc.name   : FocusAxisEvent0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0020', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0020 start');
@@ -63,9 +67,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0030
-     * @tc.name: FocusAxisEvent0030
-     * @tc.desc: 使用手柄触发FocusAxisEvent-sourceTool
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0030
+     * @tc.name   : FocusAxisEvent0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0030', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0030 start');
@@ -79,9 +85,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0040
-     * @tc.name: FocusAxisEvent0040
-     * @tc.desc: 使用手柄触发FocusAxisEvent-deviceId
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0040
+     * @tc.name   : FocusAxisEvent0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0040', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0040 start');
@@ -95,9 +103,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0050
-     * @tc.name: FocusAxisEvent0050
-     * @tc.desc: 使用手柄触发FocusAxisEvent-getModifierKeyState
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0050
+     * @tc.name   : FocusAxisEvent0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0050', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0050 start');
@@ -111,9 +121,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0060
-     * @tc.name: FocusAxisEvent0060
-     * @tc.desc: 使用手柄触发FocusAxisEvent-axisMap
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0060
+     * @tc.name   : FocusAxisEvent0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0060', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0060 start');
@@ -127,9 +139,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0070
-     * @tc.name: FocusAxisEvent0070
-     * @tc.desc: 使用手柄触发FocusAxisEvent-source
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0070
+     * @tc.name   : FocusAxisEvent0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0070', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0070 start');
@@ -143,9 +157,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0080
-     * @tc.name: FocusAxisEvent0080
-     * @tc.desc: 子组件设置stopPropagation
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0080
+     * @tc.name   : FocusAxisEvent0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0080', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0080 start');
@@ -159,9 +175,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0090
-     * @tc.name: FocusAxisEvent0090
-     * @tc.desc: 子组件不设置stopPropagation
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0090
+     * @tc.name   : FocusAxisEvent0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0090', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0090 start');
@@ -175,9 +193,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0190
-     * @tc.name: FocusAxisEvent0190
-     * @tc.desc: 使用手柄触发KeyEvent-intentionCode
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0190
+     * @tc.name   : FocusAxisEvent0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0190', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0190 start');
@@ -191,9 +211,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0200
-     * @tc.name: FocusAxisEvent0200
-     * @tc.desc: KeyEvent和onKeyPreIme同时使用
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0200
+     * @tc.name   : FocusAxisEvent0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0200', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0200 start');
@@ -207,9 +229,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0210
-     * @tc.name: FocusAxisEvent0210
-     * @tc.desc: 组件动态设置enable为false
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0210
+     * @tc.name   : FocusAxisEvent0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0210', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0210 start');
@@ -223,9 +247,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0220
-     * @tc.name: FocusAxisEvent0220
-     * @tc.desc: 横竖屏切换
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0220
+     * @tc.name   : FocusAxisEvent0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0220', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0220 start');
@@ -239,9 +265,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0230
-     * @tc.name: FocusAxisEvent0230
-     * @tc.desc: FocusAxisEvent-target（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0230
+     * @tc.name   : FocusAxisEvent0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0230', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0230 start');
@@ -255,9 +283,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0240
-     * @tc.name: FocusAxisEvent0240
-     * @tc.desc: FocusAxisEvent-timestamp（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0240
+     * @tc.name   : FocusAxisEvent0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0240', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0240 start');
@@ -271,9 +301,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0250
-     * @tc.name: FocusAxisEvent0250
-     * @tc.desc: FocusAxisEvent-sourceTool（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0250
+     * @tc.name   : FocusAxisEvent0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0250', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0250 start');
@@ -287,9 +319,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0260
-     * @tc.name: FocusAxisEvent0260
-     * @tc.desc: FocusAxisEvent-deviceId（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0260
+     * @tc.name   : FocusAxisEvent0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0260', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0260 start');
@@ -303,9 +337,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0270
-     * @tc.name: FocusAxisEvent0270
-     * @tc.desc: FocusAxisEvent-getModifierKeyState（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0270
+     * @tc.name   : FocusAxisEvent0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0270', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0270 start');
@@ -319,9 +355,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0280
-     * @tc.name: FocusAxisEvent0280
-     * @tc.desc: FocusAxisEvent-axisMap（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0280
+     * @tc.name   : FocusAxisEvent0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0280', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0280 start');
@@ -335,9 +373,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0290
-     * @tc.name: FocusAxisEvent0290
-     * @tc.desc: FocusAxisEvent-source（Modifier方式）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0290
+     * @tc.name   : FocusAxisEvent0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0290', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0290 start');
@@ -351,9 +391,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300
-     * @tc.name: FocusAxisEvent0300
-     * @tc.desc: 子组件设置stopPropagation（Modifier）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300
+     * @tc.name   : FocusAxisEvent0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0300 start');
@@ -367,9 +409,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310
-     * @tc.name: FocusAxisEvent0310
-     * @tc.desc: 子组件不设置stopPropagation（Modifier）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310
+     * @tc.name   : FocusAxisEvent0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0310 start');
@@ -383,9 +427,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410
-     * @tc.name: FocusAxisEvent0410
-     * @tc.desc: KeyEvent-intentionCode（Modifier）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410
+     * @tc.name   : FocusAxisEvent0410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0410 start');
@@ -399,9 +445,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420
-     * @tc.name: FocusAxisEvent0420
-     * @tc.desc: KeyEvent和onKeyPreIme（Modifier）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420
+     * @tc.name   : FocusAxisEvent0420
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0420 start');
@@ -415,9 +463,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430
-     * @tc.name: FocusAxisEvent0430
-     * @tc.desc: 组件设置enable为false（Modifier）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430
+     * @tc.name   : FocusAxisEvent0430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0430 start');
@@ -431,9 +481,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440
-     * @tc.name: FocusAxisEvent0440
-     * @tc.desc: 横竖屏切换（Modifier）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440
+     * @tc.name   : FocusAxisEvent0440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0440 start');
@@ -447,9 +499,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630
-     * @tc.name: FocusAxisEvent0630
-     * @tc.desc: 频繁移动手柄遥杆（5分钟压力测试）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630
+     * @tc.name   : FocusAxisEvent0630
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0630 start');
@@ -463,9 +517,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640
-     * @tc.name: FocusAxisEvent0640
-     * @tc.desc: 频繁调用FocusAxisEvent事件（100次）
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640
+     * @tc.name   : FocusAxisEvent0640
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0640 start');
@@ -479,9 +535,11 @@ export default function ActionEventFocusAxisEventTest() {
     });
 
     /*
-     * @tc.number: SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650
-     * @tc.name: FocusAxisEvent0650
-     * @tc.desc: FocusAxisEvent事件内存泄漏测试
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650
+     * @tc.name   : FocusAxisEvent0650
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0650 start');

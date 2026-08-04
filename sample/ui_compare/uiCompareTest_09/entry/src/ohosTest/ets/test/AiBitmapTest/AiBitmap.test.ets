@@ -27,10 +27,12 @@ export default function AiBitmap() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0010
-     * @tc.name  页面中无Image加载的位图
-     * @tc.desc  测试无图片页面时小艺AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0010
+     * @tc.name   : 页面中无Image加载的位图
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0010', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0010 begin');
@@ -44,10 +46,12 @@ export default function AiBitmap() {
       Logger.info('SUB_ACE_AI_BITMAP_0010 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0020
-     * @tc.name  页面中有Image加载的位图及矢量图
-     * @tc.desc  测试位图和矢量图的AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0020
+     * @tc.name   : 页面中有Image加载的位图及矢量图
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0020', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0020 begin');
@@ -61,10 +65,12 @@ export default function AiBitmap() {
       Logger.info('SUB_ACE_AI_BITMAP_0020 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0030
-     * @tc.name  页面中有Image加载的位图(隐藏)
-     * @tc.desc  测试隐藏图片时的AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0030
+     * @tc.name   : 页面中有Image加载的位图(隐藏)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0030', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0030 begin');
@@ -88,10 +94,12 @@ export default function AiBitmap() {
       Logger.info('SUB_ACE_AI_BITMAP_0030 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0040
-     * @tc.name  页面中有Image加载的位图(不上树)
-     * @tc.desc  测试图片下树时的AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0040
+     * @tc.name   : 页面中有Image加载的位图(不上树)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0040', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0040 begin');
@@ -110,10 +118,12 @@ export default function AiBitmap() {
       Logger.info('SUB_ACE_AI_BITMAP_0040 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0050
-     * @tc.name  页面中有Image加载的位图(图片很多)
-     * @tc.desc  测试多图片页面的AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0050
+     * @tc.name   : 页面中有Image加载的位图(图片很多)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0050', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0050 begin');
@@ -127,10 +137,12 @@ export default function AiBitmap() {
       Logger.info('SUB_ACE_AI_BITMAP_0050 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0060
-     * @tc.name  页面中有Image加载的位图，频繁进行抠图
-     * @tc.desc  测试频繁AI提取图片的稳定性
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0060
+     * @tc.name   : 页面中有Image加载的位图，频繁进行抠图
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0060', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0060 begin');
@@ -145,10 +157,12 @@ export default function AiBitmap() {
       Logger.info('Note: Manual frequent extraction test should be performed');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0070
-     * @tc.name  XComponent页面自绘制内容，可进行抠图
-     * @tc.desc  测试XComponent自绘制内容的AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0070
+     * @tc.name   : XComponent页面自绘制内容，可进行抠图
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0070', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0070 begin');
@@ -162,10 +176,12 @@ export default function AiBitmap() {
       Logger.info('SUB_ACE_AI_BITMAP_0070 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_AI_BITMAP_0080
-     * @tc.name  WebView页面自绘制内容，可进行抠图
-     * @tc.desc  测试WebView自绘制内容的AI提取功能
+    /*
+     * @tc.number : SUB_ACE_AI_BITMAP_0080
+     * @tc.name   : WebView页面自绘制内容，可进行抠图
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_AI_BITMAP_0080', 0, async () => {
       Logger.info('SUB_ACE_AI_BITMAP_0080 begin');

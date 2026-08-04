@@ -37,6 +37,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_BEGIN_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorBegin/ArkuiComponentfunctionNouiAnimatorBegin010');
@@ -50,6 +57,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DELAY_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorDelay/ArkuiComponentfunctionNouiAnimatorDelay010');
@@ -63,6 +77,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DIRECTION_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorDirection/ArkuiComponentfunctionNouiAnimatorDirection010');
@@ -76,6 +97,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_DURATION_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorDuration/ArkuiComponentfunctionNouiAnimatorDuration010');
@@ -89,6 +117,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorEase/ArkuiComponentfunctionNouiAnimatorEase010');
@@ -102,6 +137,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_EASE_020 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorEase/ArkuiComponentfunctionNouiAnimatorEase020');
@@ -115,6 +157,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_END_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorEnd/ArkuiComponentfunctionNouiAnimatorEnd010');
@@ -128,6 +177,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_FILL_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorFill/ArkuiComponentfunctionNouiAnimatorFill010');
@@ -141,6 +197,13 @@ export default function ArkuiComponentfunctionNouiAnimatorTest() {
       done();
     });
 
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_NOUI_ANIMATOR_ITERATIONS_010 start.`);
       Settings.createWindow('testability/pages/ArkuiComponentfunctionNouiAnimatorIterations/ArkuiComponentfunctionNouiAnimatorIterations010');

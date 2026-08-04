@@ -27,11 +27,12 @@ export default function ActionBlockageDragBatch6Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0500
-     * @tc.name TextInput单指 - 按压时WAITING
-     * @tc.desc TextInput组件单指_按压时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；TextInput拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0500
+     * @tc.name   : TextInput单指 - 按压时WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0500', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0500';
@@ -57,11 +58,12 @@ export default function ActionBlockageDragBatch6Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0510
-     * @tc.name TextInput单指 - 按压时READY
-     * @tc.desc TextInput组件单指_按压时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；TextInput拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0510
+     * @tc.name   : TextInput单指 - 按压时READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0510', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0510';
@@ -87,11 +89,12 @@ export default function ActionBlockageDragBatch6Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0520
-     * @tc.name TextInput单指 - 拖拽中未超5S WAITING
-     * @tc.desc TextInput组件单指_手指移动拖拽中，未超过5S，则状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；TextInput拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0520
+     * @tc.name   : TextInput单指 - 拖拽中未超5S WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0520', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0520';
@@ -117,11 +120,12 @@ export default function ActionBlockageDragBatch6Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0530
-     * @tc.name TextInput单指 - 拖拽中未超5S READY
-     * @tc.desc TextInput组件单指_手指移动拖拽中，未超过5S，则状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；TextInput拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0530
+     * @tc.name   : TextInput单指 - 拖拽中未超5S READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0530', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0530';
@@ -147,11 +151,12 @@ export default function ActionBlockageDragBatch6Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0540
-     * @tc.name TextInput单指 - 拖拽中超过5S
-     * @tc.desc TextInput组件单指_手指移动拖拽中，超过5S了
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；TextInput拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0540
+     * @tc.name   : TextInput单指 - 拖拽中超过5S
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0540', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0540';

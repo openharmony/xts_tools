@@ -29,11 +29,12 @@ export default function ActionBlockageDragBatch11Test() {
 
     // ==================== TextArea 用例 (0900-0940) ====================
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0900
-     * @tc.name TextArea鼠标 - 起拖时WAITING
-     * @tc.desc TextArea组件_鼠标_起拖时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0900
+     * @tc.name   : TextArea鼠标 - 起拖时WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0900', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0900';
@@ -59,11 +60,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0910
-     * @tc.name TextArea鼠标 - 起拖时READY
-     * @tc.desc TextArea组件_鼠标_起拖时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0910
+     * @tc.name   : TextArea鼠标 - 起拖时READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0910', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0910';
@@ -89,11 +91,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0920
-     * @tc.name TextArea鼠标 - 移动中未超5S WAITING
-     * @tc.desc TextArea组件_鼠标_鼠标移动过程中（未超过5S），状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0920
+     * @tc.name   : TextArea鼠标 - 移动中未超5S WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0920', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0920';
@@ -119,11 +122,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0930
-     * @tc.name TextArea鼠标 - 移动中未超5S READY
-     * @tc.desc TextArea组件_鼠标_鼠标移动过程中（未超过5S），状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0930
+     * @tc.name   : TextArea鼠标 - 移动中未超5S READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0930', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0930';
@@ -149,11 +153,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0940
-     * @tc.name TextArea鼠标 - 移动中超过5S
-     * @tc.desc TextArea组件_鼠标_鼠标移动过程中（超过5S）
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0940
+     * @tc.name   : TextArea鼠标 - 移动中超过5S
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0940', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0940';
@@ -181,11 +186,12 @@ export default function ActionBlockageDragBatch11Test() {
 
     // ==================== TextInput 用例 (0950-0990) ====================
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0950
-     * @tc.name TextInput鼠标 - 起拖时WAITING
-     * @tc.desc TextInput组件_鼠标_起拖时状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0950
+     * @tc.name   : TextInput鼠标 - 起拖时WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0950', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0950';
@@ -211,11 +217,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0960
-     * @tc.name TextInput鼠标 - 起拖时READY
-     * @tc.desc TextInput组件_鼠标_起拖时状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0960
+     * @tc.name   : TextInput鼠标 - 起拖时READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0960', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0960';
@@ -241,11 +248,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0970
-     * @tc.name TextInput鼠标 - 移动中未超5S WAITING
-     * @tc.desc TextInput组件_鼠标_鼠标移动过程中（未超过5S），状态为WAITING
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0970
+     * @tc.name   : TextInput鼠标 - 移动中未超5S WAITING
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0970', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0970';
@@ -271,11 +279,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0980
-     * @tc.name TextInput鼠标 - 移动中未超5S READY
-     * @tc.desc TextInput组件_鼠标_鼠标移动过程中（未超过5S），状态为READY
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0980
+     * @tc.name   : TextInput鼠标 - 移动中未超5S READY
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0980', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0980';
@@ -301,11 +310,12 @@ export default function ActionBlockageDragBatch11Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_0990
-     * @tc.name TextInput鼠标 - 移动中超过5S
-     * @tc.desc TextInput组件_鼠标_鼠标移动过程中（超过5S）
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标拖拽需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0990
+     * @tc.name   : TextInput鼠标 - 移动中超过5S
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_0990', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_0990';

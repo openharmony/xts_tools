@@ -27,11 +27,12 @@ export default function ActionEventDragVibrationTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0450
-     * @tc.name 压力测试文本连续长按50次
-     * @tc.desc 验证文本长按拖拽触发震动50次
-     * @tc.automation 20% - 页面加载自动化；震动检测需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0450
+     * @tc.name   : 压力测试文本连续长按50次
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0450', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0450';
@@ -56,11 +57,12 @@ export default function ActionEventDragVibrationTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0460
-     * @tc.name 压力测试菜单连续拖拽50次
-     * @tc.desc 验证绑定菜单组件拖拽触发震动50次
-     * @tc.automation 20% - 页面加载自动化；震动检测需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0460
+     * @tc.name   : 压力测试菜单连续拖拽50次
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0460', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0460';

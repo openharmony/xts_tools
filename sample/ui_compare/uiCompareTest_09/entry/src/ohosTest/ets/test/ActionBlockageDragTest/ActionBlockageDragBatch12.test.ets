@@ -27,11 +27,12 @@ export default function ActionBlockageDragBatch12Test() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1000
-     * @tc.name 长按过程中息屏 - 取消拖拽
-     * @tc.desc 长按过程中息屏，取消拖拽
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；息屏操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1000
+     * @tc.name   : 长按过程中息屏 - 取消拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1000', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1000';
@@ -57,11 +58,12 @@ export default function ActionBlockageDragBatch12Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1010
-     * @tc.name 长按过程中松手 - 取消拖拽
-     * @tc.desc 长按过程中松手，取消拖拽
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；长按松手需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1010
+     * @tc.name   : 长按过程中松手 - 取消拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1010', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1010';
@@ -87,11 +89,12 @@ export default function ActionBlockageDragBatch12Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1020
-     * @tc.name 长按中另一手指点击外部 - 取消拖拽
-     * @tc.desc 长按过程中，另一只手指点击组件外的区域，取消拖拽
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1020
+     * @tc.name   : 长按中另一手指点击外部 - 取消拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1020', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1020';
@@ -121,11 +124,12 @@ export default function ActionBlockageDragBatch12Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1030
-     * @tc.name 等待5S内息屏 - 取消拖拽
-     * @tc.desc 等待的5S内息屏，取消拖拽
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；息屏操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1030
+     * @tc.name   : 等待5S内息屏 - 取消拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1030', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1030';
@@ -151,11 +155,12 @@ export default function ActionBlockageDragBatch12Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1040
-     * @tc.name 等待5S内松手 - 取消拖拽
-     * @tc.desc 等待的5S内松手，取消拖拽
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；手指操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1040
+     * @tc.name   : 等待5S内松手 - 取消拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1040', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1040';
@@ -181,11 +186,12 @@ export default function ActionBlockageDragBatch12Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1050
-     * @tc.name 等待5S内点击外部 - 拖拽不取消
-     * @tc.desc 等待的5S内另一只手指点击组件外的区域
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；双指操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1050
+     * @tc.name   : 等待5S内点击外部 - 拖拽不取消
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1050', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1050';
@@ -215,11 +221,12 @@ export default function ActionBlockageDragBatch12Test() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_BLOCKAGE_DRAG_1060
-     * @tc.name 等待5S内松开鼠标 - 取消拖拽
-     * @tc.desc 等待的5S内，松开鼠标，取消拖拽
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；鼠标操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1060
+     * @tc.name   : 等待5S内松开鼠标 - 取消拖拽
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_BLOCKAGE_DRAG_1060', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_BLOCKAGE_DRAG_1060';

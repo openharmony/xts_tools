@@ -30,10 +30,12 @@ export default function ActionArkuiSr() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_ARKUI_SR20250106997626_0010
-     * @tc.name 正常模式下改变Z序
-     * @tc.desc 验证改变zIndex后点击事件的响应对象改变
+    /*
+     * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0010
+     * @tc.name   : 正常模式下改变Z序
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_ARKUI_SR20250106997626_0010', 0, async () => {
       await Settings.createWindow('testability/pages/ActionArkuiSr/ActionSr0010');
@@ -60,10 +62,12 @@ export default function ActionArkuiSr() {
       await windowSnap.snapShot('SUB_ACE_ACTION_ARKUI_SR20250106997626_0010');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_ARKUI_SR20250106997626_0060
-     * @tc.name 单手模式拖拽缩小动画
-     * @tc.desc 验证拖拽图标时的缩小和恢复动画效果
+    /*
+     * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0060
+     * @tc.name   : 单手模式拖拽缩小动画
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_ARKUI_SR20250106997626_0060', 0, async () => {
       await Settings.createWindow('testability/pages/ActionArkuiSr/ActionSr0060');
@@ -78,10 +82,12 @@ export default function ActionArkuiSr() {
       await windowSnap.snapShot('SUB_ACE_ACTION_ARKUI_SR20250106997626_0060');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_ARKUI_SR20250106997626_0080
-     * @tc.name 单手模式右下角position位置验证
-     * @tc.desc 验证position组件在右下角的位置计算正确性
+    /*
+     * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0080
+     * @tc.name   : 单手模式右下角position位置验证
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_ARKUI_SR20250106997626_0080', 0, async () => {
       await Settings.createWindow('testability/pages/ActionArkuiSr/ActionSr0080');
@@ -96,10 +102,12 @@ export default function ActionArkuiSr() {
       await windowSnap.snapShot('SUB_ACE_ACTION_ARKUI_SR20250106997626_0080');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_ARKUI_SR20250106997626_0100
-     * @tc.name 单手模式左下角position位置验证
-     * @tc.desc 验证position组件在左下角的位置计算正确性
+    /*
+     * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0100
+     * @tc.name   : 单手模式左下角position位置验证
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_ARKUI_SR20250106997626_0100', 0, async () => {
       await Settings.createWindow('testability/pages/ActionArkuiSr/ActionSr0100');
@@ -114,10 +122,12 @@ export default function ActionArkuiSr() {
       await windowSnap.snapShot('SUB_ACE_ACTION_ARKUI_SR20250106997626_0100');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_ARKUI_SR20241018107358_0060
-     * @tc.name 高级组件metaBall动画效果六
-     * @tc.desc 验证metaBall动画效果
+    /*
+     * @tc.number : SUB_ACE_ACTION_ARKUI_SR20241018107358_0060
+     * @tc.name   : 高级组件metaBall动画效果六
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_ARKUI_SR20241018107358_0060', 0, async () => {
       await Settings.createWindow('testability/pages/ActionArkuiSr/MetaBall0060');
@@ -131,10 +141,12 @@ export default function ActionArkuiSr() {
       await windowSnap.snapShot('SUB_ACE_ACTION_ARKUI_SR20241018107358_0060');
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_ARKUI_SR20250106997626_0120
-     * @tc.name 单手模式点击事件Dump
-     * @tc.desc 验证点击事件Dump功能
+    /*
+     * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0120
+     * @tc.name   : 单手模式点击事件Dump
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_ARKUI_SR20250106997626_0120', 0, async () => {
       await Settings.createWindow('testability/pages/ActionArkuiSr/ActionSr0120');

@@ -27,11 +27,12 @@ export default function ActionEventAreachangeInterfaceTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_INTERFACE_0270
-     * @tc.name 触发消失的onVisibleAreaChange回调
-     * @tc.desc 点击remove node按钮视频消失，再点击add node按钮视频显现并继续播放
-     * @tc.automation 60% - 页面加载、按钮点击自动化；视频播放状态需手动验证
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_INTERFACE_0270
+     * @tc.name   : 触发消失的onVisibleAreaChange回调
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_INTERFACE_0270', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_INTERFACE_0270';

@@ -27,11 +27,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0020
-     * @tc.name expectedUpdateInterval = -100
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为-100
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0020
+     * @tc.name   : expectedUpdateInterval = -100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0020', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0020';
@@ -57,11 +58,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0040
-     * @tc.name expectedUpdateInterval = undefined
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为undefined
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0040
+     * @tc.name   : expectedUpdateInterval = undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0040', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0040';
@@ -84,11 +86,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0050
-     * @tc.name expectedUpdateInterval = null
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为null
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0050
+     * @tc.name   : expectedUpdateInterval = null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0050', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0050';
@@ -111,11 +114,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0060
-     * @tc.name expectedUpdateInterval 不设置
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval不设置
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0060
+     * @tc.name   : expectedUpdateInterval 不设置
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0060', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0060';
@@ -138,11 +142,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0070
-     * @tc.name expectedUpdateInterval = 500
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为500
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0070
+     * @tc.name   : expectedUpdateInterval = 500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0070', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0070';
@@ -165,11 +170,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0080
-     * @tc.name expectedUpdateInterval = 1000
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为1000
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0080
+     * @tc.name   : expectedUpdateInterval = 1000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0080', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0080';
@@ -192,11 +198,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0090
-     * @tc.name expectedUpdateInterval = 100
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为100
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0090
+     * @tc.name   : expectedUpdateInterval = 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0090', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0090';
@@ -219,11 +226,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0100
-     * @tc.name expectedUpdateInterval = 0
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为0
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0100
+     * @tc.name   : expectedUpdateInterval = 0
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0100', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0100';
@@ -246,11 +254,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0110
-     * @tc.name expectedUpdateInterval = 1
-     * @tc.desc ratios设置为[0,0.1,...,1]，expectedUpdateInterval设置为1
-     * @tc.automation 40% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0110
+     * @tc.name   : expectedUpdateInterval = 1
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0110', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0110';
@@ -273,11 +282,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0120
-     * @tc.name event传入undefined
-     * @tc.desc event传入undefined，验证不会报错
-     * @tc.automation 50% - 页面加载、组件定位、截图自动化；滑动操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0120
+     * @tc.name   : event传入undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0120', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0120';
@@ -300,11 +310,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0130
-     * @tc.name 横竖屏切换
-     * @tc.desc 横竖屏切换至组件可见区域发生变化
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；横竖屏切换需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0130
+     * @tc.name   : 横竖屏切换
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0130', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0130';
@@ -331,11 +342,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0140
-     * @tc.name 息屏测试
-     * @tc.desc 息屏时验证可见区域变化
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；息屏操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0140
+     * @tc.name   : 息屏测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0140', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0140';
@@ -359,11 +371,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0150
-     * @tc.name 退后台测试
-     * @tc.desc 退后台时验证可见区域变化
-     * @tc.automation 30% - 页面加载、组件定位、截图自动化；退后台操作需手动测试
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0150
+     * @tc.name   : 退后台测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0150', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0150';
@@ -387,11 +400,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0160
-     * @tc.name 组件下树/上树
-     * @tc.desc 组件下树/上树时验证可见区域变化
-     * @tc.automation 60% - 页面加载、组件定位、按钮点击、截图自动化
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0160
+     * @tc.name   : 组件下树/上树
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0160', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0160';
@@ -428,11 +442,12 @@ export default function ActionEventAreachangeApproximatechangeTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0170
-     * @tc.name 设置通用属性为不可见
-     * @tc.desc 设置组件visibility属性验证可见区域变化
-     * @tc.automation 60% - 页面加载、组件定位、按钮点击、截图自动化
+    /*
+     * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0170
+     * @tc.name   : 设置通用属性为不可见
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0170', 0, async (done: Function) => {
       const testName = 'SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0170';
