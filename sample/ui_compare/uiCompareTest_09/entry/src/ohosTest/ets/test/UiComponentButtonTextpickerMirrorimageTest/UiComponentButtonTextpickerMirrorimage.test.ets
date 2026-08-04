@@ -37,6 +37,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0010 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0010');
@@ -50,6 +57,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0040', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0040 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0040');
@@ -63,6 +77,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0160', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0160 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0160');
@@ -76,6 +97,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0210', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0210 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0210');
@@ -89,6 +117,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0240', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0240 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0240');
@@ -102,6 +137,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0310', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0310 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0310');
@@ -115,6 +157,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0460', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0460 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0460');
@@ -128,6 +177,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0600', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0600 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0600');
@@ -141,6 +197,13 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0610', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0610 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerMirrorimage/UiComponentButtonTextpickerMirrorimage0610');

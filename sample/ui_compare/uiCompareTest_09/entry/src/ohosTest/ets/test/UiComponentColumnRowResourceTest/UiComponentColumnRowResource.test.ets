@@ -37,6 +37,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0010 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0010');
@@ -50,6 +57,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0020', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0020 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0020');
@@ -63,6 +77,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0030', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0030 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0030');
@@ -76,6 +97,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0040', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0040 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0040');
@@ -89,6 +117,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0050', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0050 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0050');
@@ -102,6 +137,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0060', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0060 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0060');
@@ -115,6 +157,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0070', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0070 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0070');
@@ -128,6 +177,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0080', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0080 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0080');
@@ -141,6 +197,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0090', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0090 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0090');
@@ -154,6 +217,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0100', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0100 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0100');
@@ -167,6 +237,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0110', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0110 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0110');
@@ -180,6 +257,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0120', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0120 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0120');
@@ -193,6 +277,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0130', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0130 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0130');
@@ -206,6 +297,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0140', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0140 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0140');
@@ -219,6 +317,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0150', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0150 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0150');
@@ -232,6 +337,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0160', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0160 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0160');
@@ -245,6 +357,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0170', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0170 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0170');
@@ -258,6 +377,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0180', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0180 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0180');
@@ -271,6 +397,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0190', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0190 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0190');
@@ -284,6 +417,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0200', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0200 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0200');
@@ -297,6 +437,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0210', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0210 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0210');
@@ -310,6 +457,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0220', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0220 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0220');
@@ -323,6 +477,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0230', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0230 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0230');
@@ -336,6 +497,13 @@ export default function UiComponentColumnRowResourceTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0240', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_COLUMN_ROW_RESOURCE_0240 start.`);
       Settings.createWindow('testability/pages/UiComponentColumnRowResource/UiComponentColumnRowResource0240');

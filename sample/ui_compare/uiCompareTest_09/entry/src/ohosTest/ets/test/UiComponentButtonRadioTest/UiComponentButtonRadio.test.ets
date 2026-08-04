@@ -33,10 +33,12 @@ export default function UiComponentButtonRadioTest() {
       await driver.delayMs(500);
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0020
-     * @tc.name Radio为勾选类型选中，hover态
-     * @tc.desc Radio为勾选类型选中，hover态
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0020
+     * @tc.name   : Radio为勾选类型选中，hover态
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0020', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0020 start');
@@ -52,10 +54,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0040
-     * @tc.name Radio为勾选类型选中，focus态
-     * @tc.desc Radio为勾选类型选中，focus态
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0040
+     * @tc.name   : Radio为勾选类型选中，focus态
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0040', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0040 start');
@@ -71,10 +75,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0070
-     * @tc.name Radio为勾选类型未选中，hover态
-     * @tc.desc Radio为勾选类型未选中，hover态
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0070
+     * @tc.name   : Radio为勾选类型未选中，hover态
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0070', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0070 start');
@@ -95,10 +101,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0090
-     * @tc.name Radio为勾选类型未选中，focus态
-     * @tc.desc Radio为勾选类型未选中，focus态
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0090
+     * @tc.name   : Radio为勾选类型未选中，focus态
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0090', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0090 start');
@@ -114,10 +122,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CUSTONMIZING_0190
-     * @tc.name 在预览器上查看Radio自定义样式
-     * @tc.desc 在预览器上查看Radio自定义样式，预览器显示正常
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CUSTONMIZING_0190
+     * @tc.name   : 在预览器上查看Radio自定义样式
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CUSTONMIZING_0190', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CUSTONMIZING_0190 start');
@@ -139,10 +149,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LAYOUT_0010
-     * @tc.name 通用属性内边距设置
-     * @tc.desc 通用属性内边距设置
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LAYOUT_0010
+     * @tc.name   : 通用属性内边距设置
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LAYOUT_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LAYOUT_0010 start');
@@ -161,10 +173,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_016
-     * @tc.name indicatorBuilder值设置为image，设置padding为10
-     * @tc.desc indicatorBuilder值设置为image，设置padding为10，传入image图片，添加onChange事件回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_016
+     * @tc.name   : indicatorBuilder值设置为image，设置padding为10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_016', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_016 start');
@@ -185,10 +199,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_017
-     * @tc.name indicatorBuilder值设置为image，设置margin为10
-     * @tc.desc indicatorBuilder值设置为image，设置margin为10，传入image图片，添加onChange事件回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_017
+     * @tc.name   : indicatorBuilder值设置为image，设置margin为10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_017', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_017 start');
@@ -209,10 +225,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_023
-     * @tc.name indicatorBuilder值设置为DOT，indicatorColor设为Pink
-     * @tc.desc indicatorBuilder值设置为DOT，indicatorColor设为Pink，添加onChange事件回调
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_023
+     * @tc.name   : indicatorBuilder值设置为DOT，indicatorColor设为Pink
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_023', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_023 start');
@@ -233,10 +251,12 @@ export default function UiComponentButtonRadioTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_RADIO_Rtl_0010
-     * @tc.name 简体中文时，设置direction为Rtl
-     * @tc.desc 简体中文时，设置direction为Rtl，查看radio显示样式
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_Rtl_0010
+     * @tc.name   : 简体中文时，设置direction为Rtl
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_RADIO_Rtl_0010', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_BUTTON_RADIO_Rtl_0010 start');

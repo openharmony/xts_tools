@@ -27,10 +27,12 @@ export default function UiComponentBasicInput() {
       }
     });
 
-    /**
-     * @tc.number Ace_JSDeclarativeParadigm_Component_Basic_Input_010
-     * @tc.name 长文本框光标颜色测试
-     * @tc.desc 测试长文本框光标颜色设置和显示
+    /*
+     * @tc.number : Ace_JSDeclarativeParadigm_Component_Basic_Input_010
+     * @tc.name   : 长文本框光标颜色测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('Ace_JSDeclarativeParadigm_Component_Basic_Input_010', 0, async () => {
       Logger.info('Ace_JSDeclarativeParadigm_Component_Basic_Input_010 begin');
@@ -51,10 +53,12 @@ export default function UiComponentBasicInput() {
       Logger.info('Ace_JSDeclarativeParadigm_Component_Basic_Input_010 end');
     });
 
-    /**
-     * @tc.number Ace_JSDeclarativeParadigm_Component_Basic_Input_011
-     * @tc.name 长文本框删除字符测试
-     * @tc.desc 测试长文本框删除字符功能和字符计数
+    /*
+     * @tc.number : Ace_JSDeclarativeParadigm_Component_Basic_Input_011
+     * @tc.name   : 长文本框删除字符测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('Ace_JSDeclarativeParadigm_Component_Basic_Input_011', 0, async () => {
       Logger.info('Ace_JSDeclarativeParadigm_Component_Basic_Input_011 begin');

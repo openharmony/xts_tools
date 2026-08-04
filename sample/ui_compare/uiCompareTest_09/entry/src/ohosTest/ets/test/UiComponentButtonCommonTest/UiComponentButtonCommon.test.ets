@@ -27,10 +27,12 @@ export default function UiComponentButtonCommon() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_BUTTON_COMMON_BUTTON_0080
-     * @tc.name ButtonCommon0080
-     * @tc.desc 验证CalendarPicker组件，测试参数index=1的时候，modifer配置和原有配置效果是否一致
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_COMMON_BUTTON_0080
+     * @tc.name   : ButtonCommon0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_COMMON_BUTTON_0080', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_BUTTON_COMMON_BUTTON_0080 begin');

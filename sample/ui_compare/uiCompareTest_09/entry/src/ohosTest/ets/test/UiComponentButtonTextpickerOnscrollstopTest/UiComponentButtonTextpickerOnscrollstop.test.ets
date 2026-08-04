@@ -37,6 +37,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0090', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0090 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0090');
@@ -50,6 +57,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0120', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0120 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0120');
@@ -63,6 +77,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0230', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0230 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0230');
@@ -76,6 +97,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0260', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0260 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0260');
@@ -89,6 +117,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0370', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0370 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0370');
@@ -102,6 +137,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0400', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0400 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0400');
@@ -115,6 +157,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0580
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0580
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0580', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0580 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0580');
@@ -128,6 +177,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0610', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0610 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0610');
@@ -141,6 +197,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0720
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0720
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0720', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0720 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0720');
@@ -154,6 +217,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0750
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0750
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0750', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0750 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0750');
@@ -167,6 +237,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0860
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0860
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0860', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0860 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0860');
@@ -180,6 +257,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0890
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0890
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0890', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0890 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop0890');
@@ -193,6 +277,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1070', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1070 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop1070');
@@ -206,6 +297,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1100', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1100 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop1100');
@@ -219,6 +317,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1210', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1210 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop1210');
@@ -232,6 +337,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1240', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1240 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop1240');
@@ -245,6 +357,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1350', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1350 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop1350');
@@ -258,6 +377,13 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1380', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1380 start.`);
       Settings.createWindow('testability/pages/UiComponentButtonTextpickerOnscrollstop/UiComponentButtonTextpickerOnscrollstop1380');

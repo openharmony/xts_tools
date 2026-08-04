@@ -37,6 +37,13 @@ export default function UiAbilityPage() {
       done()
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0010
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0010 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage10")
@@ -50,6 +57,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0020
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0020 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage20")
@@ -63,6 +77,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0030
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0030 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage30")
@@ -76,6 +97,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0040
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0040 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage40")
@@ -89,6 +117,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0050
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0050 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage50")
@@ -102,6 +137,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0060
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0060 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage60")
@@ -115,6 +157,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0070
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0070 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage70")
@@ -128,6 +177,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0080
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0080 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage80")
@@ -141,6 +197,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0090
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0090 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage90")
@@ -154,6 +217,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0110
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0110 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage110")
@@ -167,6 +237,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0120
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0120 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage120")
@@ -180,6 +257,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0130
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0130 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage130")
@@ -193,6 +277,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0140
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0140', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0140 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage140")
@@ -204,6 +295,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0150
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0150', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0150 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage150")
@@ -217,6 +315,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0170
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0170', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0170 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage170")
@@ -230,6 +335,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0180
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0180', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0180 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage180")
@@ -243,6 +355,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0190
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0190', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0190 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage190")
@@ -256,6 +375,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0200
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0200', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0200 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage200")
@@ -269,6 +395,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0210
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0210', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0210 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage210")
@@ -282,6 +415,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0220
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0220', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0220 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage220")
@@ -295,6 +435,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0230
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0230', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0230 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage230")
@@ -308,6 +455,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0240
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0240', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0240 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage240")
@@ -321,6 +475,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0260
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0260', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0260 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage260")
@@ -334,6 +495,13 @@ export default function UiAbilityPage() {
       done();
     })
 
+    /*
+     * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0270
+     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_ABILITY_PAGE_0270', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ABILITY_PAGE_0270 start.`);
       Settings.createWindow("testability/pages/UiAbilityPage/UiAbilityPage270")

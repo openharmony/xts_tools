@@ -28,11 +28,12 @@ export default function UiComponentCalendarPickerBorder() {
       }
     });
 
-    /**
-     * 用例ID: ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110
-     * 用例描述: CalendarPicker border异常值测试
-     * 自动化程度: 80%
-     * 说明: 截图验证边框样式，需手动观察边框宽度
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110', 0, async () => {
       Logger.info('ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110 begin');
