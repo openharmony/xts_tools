@@ -44,7 +44,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0040
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0040
      * @tc.type   : Function
-     * @tc.desc   : When a circular button is not set with width and height, and the radius is set through the border-radius property, the default width and height will be the diameter size.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -79,7 +78,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0030
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0030
      * @tc.type   : Function
-     * @tc.desc   : When a circular button does not have its width and height set, the width and height will default to the diameter size after setting the radius through the borderRadius property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -114,7 +112,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0020
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0020
      * @tc.type   : Function
-     * @tc.desc   : When using a capsule-shaped button together with the border property, the border({ radius }) does not take effect, and the button's border-radius always remains half of its height.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -149,7 +146,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0050
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0050
      * @tc.type   : Function
-     * @tc.desc   : When a circular button does not have its width and height set, the width and height will default to the diameter size after setting the radius through the borderRadius property. Moreover, when multiple directions are set in borderRadius, the parsing order is topleft > topright > bottomleft > bottomright.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -198,7 +194,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0060
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0060
      * @tc.type   : Function
-     * @tc.desc   : When a circular button does not have its borderRadius set, the smaller value of its width and height is used as the diameter.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -233,7 +228,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0090
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0090
      * @tc.type   : Function
-     * @tc.desc   : When a circular button does not set its width, height, or borderRadius, the container's diameter is determined by the smaller value of the content's width and height.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -268,7 +262,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0080
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0080
      * @tc.type   : Function
-     * @tc.desc   : When a circular button does not set its width, height, or borderRadius, the diameter for the label usage is the default height.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -303,7 +296,6 @@ export default function DialogSpecificationsUi() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0120
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0120
      * @tc.type   : Function
-     * @tc.desc   : The clip property does not clip child nodes that exceed the area. That is, when the size of the prefix or suffix icon is set larger than the size of the background panel, it can be displayed beyond the boundary.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

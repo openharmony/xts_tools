@@ -44,7 +44,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0010
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the background property to customize the component background.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -65,7 +64,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0013
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0013
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the backgroundImage property to introduce the image source.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -86,7 +84,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0015
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0015
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the ImageRepeatX property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -107,7 +104,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0016
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0016
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the ImageRepeatY property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -130,7 +126,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0017
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0017
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the ImageRepeatXY property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -150,7 +145,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0019
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0019
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the backgroundColor gradient and ImageRepeat simultaneously.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -170,7 +164,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0026
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0026
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the BackgroundEffectOptions.radius to be less than the component's radius.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -191,7 +184,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0029
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0029
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the BackgroundEffectOptions.saturation property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -212,7 +204,6 @@ export default function ProgressBackground() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0031
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0031
      * @tc.type   : Function
-     * @tc.desc   : For the Progress component in Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule style) styles, set the BackgroundEffectOptions.brightness property.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

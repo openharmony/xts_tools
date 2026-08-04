@@ -44,7 +44,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0010
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0010
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's title with parameter type ResourceStr: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,7 +71,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0080
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0080
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's subtitle with parameter type ResourceStr: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -100,7 +98,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0090
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0090
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's message with parameter type ResourceStr: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -128,7 +125,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0100
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0100
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's autoCancel with parameter type ResourceStr: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -156,7 +152,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0120
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0120
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's confirm with parameter type enabled(boolean): $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -184,7 +179,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0140
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0140
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's confirm with parameter type defaultFocus(boolean): $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -212,7 +206,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0160
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0160
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's confirm with parameter type style(DialogButtonStyle): $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -240,7 +233,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0180
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0180
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's confirm with value parameter type ResourceStr: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -268,7 +260,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0190
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0190
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's confirm with fontColor parameter type ResourceColor: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -296,7 +287,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0200
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0200
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's confirm with backgroundColor parameter type ResourceColor: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -324,7 +314,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0250
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0250
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's offset parameter type Offset(string): { dx: $$ , dy: $$}
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -352,7 +341,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0260
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0260
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's gridCount parameter type number: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -380,7 +368,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0300
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0300
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's maskRect Rectangle parameter type: (x,y,width,height: all four are abnormal values $$)
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -408,7 +395,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0310
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0310
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's showInSubWindow parameter type boolean: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -436,7 +422,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0340
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0340
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's isModal parameter type boolean: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -464,7 +449,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0390
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0390
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's backgroundColor parameter type ResourceColor: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -492,7 +476,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0530
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0530
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's backgroundBlurStyle parameter type BlurStyle: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -520,7 +503,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0550
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0550
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's secondaryButton enabled parameter type boolean: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -548,7 +530,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0570
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0570
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's secondaryButton defaultFocus parameter type boolean: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -576,7 +557,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0590
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0590
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's secondaryButton style parameter type DialogButtonStyle: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -604,7 +584,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0610
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0610
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's secondaryButton value parameter type ResourceStr(Resource): $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -632,7 +611,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0660
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0660
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's secondaryButton fontColor parameter type ResourceColor: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -660,7 +638,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0710
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0710
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's secondaryButton backgroundColor parameter type ResourceColor: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -688,7 +665,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0740
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0740
      * @tc.type   : function
-     * @tc.desc   : Verify the AlertDialog's buttonDirection parameter type DialogButtonDirection: $$
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -716,7 +692,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1500
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1500
      * @tc.type   : function
-     * @tc.desc   : Light mode, alertDialog visual display conforms to UX specifications
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -744,7 +719,6 @@ export default function DialogAlertInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1600
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1600
      * @tc.type   : function
-     * @tc.desc   : Dark mode, alertDialog visual display conforms to UX specifications
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

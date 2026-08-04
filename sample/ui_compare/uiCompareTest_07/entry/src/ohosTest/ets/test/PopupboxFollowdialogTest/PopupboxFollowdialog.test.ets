@@ -43,7 +43,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0030
      * @tc.name   : Set the targetBuilder parameter to undefined
-     * @tc.desc   : targetBuilder参数设置为undefined
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,7 +64,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0040
      * @tc.name   : Set the visible parameter to false
-     * @tc.desc   : visible参数设置为false
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +89,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0050
      * @tc.name   : Set the visible parameter to true
-     * @tc.desc   : visible参数设置为true
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,7 +114,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0060
      * @tc.name   : Set the visible parameter to undefined
-     * @tc.desc   : visible参数设置为undefined
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,7 +139,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0070
      * @tc.name   : Dynamically switch visible property value
-     * @tc.desc   : 动态切换visible属性值
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -177,7 +172,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0090
      * @tc.name   : Verify arrowOffset less than radius arrow display position and style
-     * @tc.desc   : 验证arrowOffset < radius时，查看箭头的位置和样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -204,7 +198,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0100
      * @tc.name   : Verify popover dynamically switch arrowPointPosition property value display
-     * @tc.desc   : 验证popover中动态切换arrowPointPosition，根据键盘在父组件显示位置，该值是否按设置的值展示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,7 +226,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0110
      * @tc.name   : Verify popover dynamically switch Placement property value display
-     * @tc.desc   : 验证popover中动态切换Placement的值是否按设置的值展示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,7 +255,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0120
      * @tc.name   : Verify popover dynamically switch popup style property value display
-     * @tc.desc   : 验证popover中动态切换popup样式属性的值是否按设置的值展示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,7 +286,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0130
      * @tc.name   : Verify popover parameter is required
-     * @tc.desc   : 验证popover参数的必填性
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,7 +307,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0140
      * @tc.name   : Verify targetBuilder parameter is required
-     * @tc.desc   : 验证targetBuilder参数的必填性
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,7 +328,6 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0150
      * @tc.name   : Verify visible parameter is required
-     * @tc.desc   : 验证visible参数的必填性
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -44,7 +44,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0020
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0020
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the Progress component after switching types is in line with UX design in the context of age-friendly adaptation.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -86,7 +85,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0040
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0040
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the pill-shaped Progress component with a top padding set to 0 is in line with UX design in the context of age-friendly adaptation.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -122,7 +120,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0010
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0010
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the capsule-shaped Progress component is in line with UX design in the context of age-friendly scenarios.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -155,7 +152,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0060
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0060
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the capsule-shaped Progress component with a top padding of 10 is in line with UX design in the context of age-friendly scenarios.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -188,7 +184,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0030
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0030
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the capsule-shaped Progress component with a top padding set to null is in line with UX design in the context of age-friendly scenarios.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -221,7 +216,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0080
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0080
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the capsule-shaped Progress component without setting height and padding is in line with UX design in the context of age-friendly scenarios.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -254,7 +248,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0050
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0050
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the capsule-shaped Progress component with a top padding set to -10 is in line with UX design in the context of age-friendly scenarios..
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -287,7 +280,6 @@ export default function ProgressAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0070
      * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0070
      * @tc.type   : Function
-     * @tc.desc   : The visual effect of the capsule-shaped Progress component with a top padding of 10 and no height setting is in line with UX design in the context of age-friendly scenarios.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

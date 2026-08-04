@@ -43,7 +43,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0010
      * @tc.name   : Verify the feature of overlay node's new non-rendering capability
-     * @tc.desc   : 验证overlay节点新增不渲染能力特性
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +85,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0020
      * @tc.name   : Verify overlay popup and callback display normally when level is set to -5
-     * @tc.desc   : 验证再设置层级为-5的时候，overlay的弹窗和回调正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,7 +118,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0030
      * @tc.name   : Verify overlay popup and callback display normally when level is set to 0.1111
-     * @tc.desc   : 验证再设置层级为0.1111的时候，overlay的弹窗和回调正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,7 +151,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0040
      * @tc.name   : Verify overlay popup and callback display normally when level is set to 100001
-     * @tc.desc   : 验证再设置层级为100001的时候，overlay的弹窗和回调正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,7 +184,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0050
      * @tc.name   : Verify overlay popup and callback display normally when level is set to undefined
-     * @tc.desc   : 验证再设置层级为undefined的时候，overlay的弹窗和回调正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,7 +217,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0070
      * @tc.name   : Verify overlay popup will not cover Modal UIExtension
-     * @tc.desc   : 验证的overlay弹窗不会覆盖Modal UIExtension
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -256,7 +250,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0090
      * @tc.name   : Verify overlayManager supports level management and displays normally on atomic services
-     * @tc.desc   : 验证设置overlayManager支持层级管理支持在元服务上面正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -290,7 +283,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0100
      * @tc.name   : Verify overlay popup with x/y offset will not cover keyboard
-     * @tc.desc   : 验证设置overlay弹窗以一定的x/y方向的偏移量，使得最后的弹出位置，位于键盘的位置，此时的overlay弹窗不会覆盖键盘
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +311,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0110
      * @tc.name   : Verify overlay popup can be removed normally when level is set to 100001
-     * @tc.desc   : 验证设置了层级为100001的时候，overlay的弹窗能正常被移除和回调正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -353,7 +344,6 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0120
      * @tc.name   : Verify overlay popup and callback display normally when level is set to -100001
-     * @tc.desc   : 验证设置层级为-100001的时候，overlay的弹窗和回调正常显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

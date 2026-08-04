@@ -44,7 +44,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0010
      * @tc.type   : function
-     * @tc.desc   : Test setting the sharedTransition property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -112,7 +111,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0020
      * @tc.type   : function
-     * @tc.desc   : Test setting the zIndex property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -157,7 +155,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0030
      * @tc.type   : function
-     * @tc.desc   : Test setting the displayPriority property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -212,7 +209,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0040
      * @tc.type   : function
-     * @tc.desc   : Test setting the alignSelf property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -263,7 +259,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0050
      * @tc.type   : function
-     * @tc.desc   : Test setting the flexBasis property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -314,7 +309,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0060
      * @tc.type   : function
-     * @tc.desc   : Test setting the flexGrow property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -365,7 +359,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0070
      * @tc.type   : function
-     * @tc.desc   : Test setting the flexShrink property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -416,7 +409,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0080
      * @tc.type   : function
-     * @tc.desc   : Test setting the transform property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -465,7 +457,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0090
      * @tc.type   : function
-     * @tc.desc   : Test setting the rotate property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -514,7 +505,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0100
      * @tc.type   : function
-     * @tc.desc   : Test setting the gridOffset property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -563,7 +553,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0110
      * @tc.type   : function
-     * @tc.desc   : Test setting the gridSpan property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -612,7 +601,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0120
      * @tc.type   : function
-     * @tc.desc   : Test setting the scale property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -661,7 +649,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0130
      * @tc.type   : function
-     * @tc.desc   : Test setting the translate property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -710,7 +697,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0140
      * @tc.type   : function
-     * @tc.desc   : Test setting the renderGroup property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -755,7 +741,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0150
      * @tc.type   : function
-     * @tc.desc   : Test setting the hueRotate property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -806,7 +791,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0160
      * @tc.type   : function
-     * @tc.desc   : Test setting the sepia property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -857,7 +841,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0170
      * @tc.type   : function
-     * @tc.desc   : Test setting the align property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -908,7 +891,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0180
      * @tc.type   : function
-     * @tc.desc   : Test setting the direction property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -955,7 +937,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0190
      * @tc.type   : function
-     * @tc.desc   : Test setting the position property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1006,7 +987,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0200
      * @tc.type   : function
-     * @tc.desc   : Test setting the markAnchor property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1057,7 +1037,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0210
      * @tc.type   : function
-     * @tc.desc   : Test setting the offset property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1108,7 +1087,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0220
      * @tc.type   : function
-     * @tc.desc   : Test setting the markAnchor property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1159,7 +1137,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0230
      * @tc.type   : function
-     * @tc.desc   : Test setting the saturate property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1204,7 +1181,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0240
      * @tc.type   : function
-     * @tc.desc   : Test setting the saturate property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1249,7 +1225,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0250
      * @tc.type   : function
-     * @tc.desc   : Test setting the saturate property with normal, abnormal, and boundary values.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1295,7 +1270,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0260
      * @tc.type   : function
-     * @tc.desc   : Test setting the Picker properties with CanLoop, DefaultPickerItemHeight, DisappearTextStyle, SelectedTextStyle, TextStyle, SelectedIndex.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1340,7 +1314,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0270
      * @tc.type   : function
-     * @tc.desc   : Test setting the saturate property with extreme high value (100).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1429,7 +1402,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290
      * @tc.type   : function
-     * @tc.desc   : Test setting the saturate property with zero boundary value (0).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1474,7 +1446,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300
      * @tc.type   : function
-     * @tc.desc   : Test setting the saturate property with double value (2.0).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1519,7 +1490,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with orange color.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1564,7 +1534,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with green string.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1609,7 +1578,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with orange color (enhanced version).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1654,7 +1622,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with RGBA semi-transparent red.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1699,7 +1666,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with resource reference blue.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1744,7 +1710,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with resource reference red.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1789,7 +1754,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with empty string boundary value.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1834,7 +1798,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with no setting (default behavior).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1879,7 +1842,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390
      * @tc.type   : function
-     * @tc.desc   : Test setting the colorBlend property with blue color (simple version).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1924,7 +1886,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with value 0.3.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1969,7 +1930,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with value 0.8.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2014,7 +1974,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with value 1 (complete grayscale).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2059,7 +2018,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with negative value (-1).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2104,7 +2062,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with extreme value (10).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2149,7 +2106,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with minimal value (0.05).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2194,7 +2150,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with extreme negative value (-10000).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2239,7 +2194,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with no setting (default behavior).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2284,7 +2238,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480
      * @tc.type   : function
-     * @tc.desc   : Test setting the grayscale property with extreme positive value (10000).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2329,7 +2282,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490
      * @tc.type   : function
-     * @tc.desc   : Test setting the contrast property with value 0.3.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2374,7 +2326,6 @@ export default function CommonAttrCommonModifier() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500
      * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500
      * @tc.type   : function
-     * @tc.desc   : Test setting the contrast property with value 0.8.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

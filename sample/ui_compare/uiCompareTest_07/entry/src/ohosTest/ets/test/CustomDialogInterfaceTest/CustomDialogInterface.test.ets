@@ -44,7 +44,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1420
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1420
      * @tc.type   : Function
-     * @tc.desc   : Custom Dialog Controller for Custom Dialogs, with configuration parameters including builder, alignment, and closeAnimation. The closeAnimation parameter allows you to set the animation curve to EaseOut (an enumeration type) for the custom dialog's closing animation effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -71,7 +70,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1410
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1410
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. The custom dialog's closing animation effect, closeAnimation, can be configured with an animation curve, curve, which is of the enumeration type EaseInOut.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -98,7 +96,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1990
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1990
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and showInSubWindow. The parameter showInSubWindow determines whether the dialog is displayed in a sub-window and is set to true.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -125,7 +122,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1280
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1280
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. The closing animation effect of the custom dialog, closeAnimation, can be configured with an animation playback mode, playMode, which is set to Normal.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -152,7 +148,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1680
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1680
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation duration duration has not been set and defaults to 1000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -179,7 +174,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1700
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1700
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation duration duration is set to 2000.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -206,7 +200,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1880
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1880
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation curve curve is set to the enumeration type EaseInOut.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -233,7 +226,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1290
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1290
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController, with configuration parameters builder, alignment, and closeAnimation, sets the animation playback mode playMode of the closing animation effect closeAnimation to Reverse.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -260,7 +252,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1740
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1740
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation playback mode playMode is set to Alternate.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -287,7 +278,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1390
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1390
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. For the closing animation effect of the custom dialog, closeAnimation, the animation curve curve is set to the enumeration type Ease.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -314,7 +304,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1830
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1830
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation playback speed tempo is set to 1.0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -341,7 +330,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1300
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1300
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. For the closing animation effect of the custom dialog, closeAnimation, the animation playback count iterations is set to -1.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -368,7 +356,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1840
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1840
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation playback speed tempo is set to 2.0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -395,7 +382,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1860
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1860
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation curve curve is set to the enumeration type Ease.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -422,7 +408,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1870
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1870
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation curve curve is set to the enumeration type EaseIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -449,7 +434,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1950
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1950
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation curve curve is set to the enumeration type Linear, which is the default value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -476,7 +460,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1760
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1760
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation playback mode playMode is set to Reverse.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -503,7 +486,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1260
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1260
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. For the closing animation effect of the custom dialog, closeAnimation, the animation playback mode playMode is set to AlternateReverse.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -530,7 +512,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1210
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1210
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. For the closing animation effect of the custom dialog, closeAnimation, the animation duration duration has not been set and defaults to 1000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -557,7 +538,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1730
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1730
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation playback mode playMode is set to AlternateReverse.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -584,7 +564,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1380
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1380
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and closeAnimation. For the closing animation effect of the custom dialog, closeAnimation, the animation curve curve is set to a string type.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -611,7 +590,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1770
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1770
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configuration parameters including builder, alignment, and openAnimation. For the pop-up animation effect of the custom dialog, openAnimation, the animation playback count iterations is set to -1.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -638,7 +616,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1480
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1480
      * @tc.type   : Function
-     * @tc.desc   : CustomDialogController, a custom dialog, has configurable parameters including builder, alignment, and closeAnimation. The closeAnimation parameter is used to set the animation effect when the custom dialog is closed. The animation curve is specified by the curve parameter, which is an enumeration type with a default value of Linear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -665,7 +642,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1900
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1900
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters such as builder, alignment, and openAnimation. The animation effect when the custom dialog pops up is set by the openAnimation parameter. The animation curve is specified by the curve parameter, which is an enumeration type with a value of ExtremeDeceleration.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -692,7 +668,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1310
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1310
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter. The number of times the animation is played is specified by the iterations parameter, which is set to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -718,7 +693,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1430
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1430
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter. The animation curve for the closeAnimation is specified by the curve parameter, which is an enumeration type with a value of ExtremeDeceleration.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -744,7 +718,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1710
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1710
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog pops up is set by the openAnimation parameter. The duration of the openAnimation is specified by the duration parameter, which is set to 500 milliseconds.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -770,7 +743,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1850
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1850
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog pops up is set by the openAnimation parameter. The animation curve for the openAnimation is specified by the curve parameter, which is of type string.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -796,7 +768,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1400
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1400
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter. The animation curve for the closeAnimation is specified by the curve parameter, which is an enumeration type with a value of EaseIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -822,7 +793,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1220
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1220
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter. The delay for the closeAnimation is specified by the delay parameter, which defaults to 0 milliseconds.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -848,7 +818,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1470
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1470
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter. The animation curve for the closeAnimation is specified by the curve parameter, which is an enumeration type with a value of LinearOutSlowIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -874,7 +843,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1330
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1330
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter. The number of times the closeAnimation is played is specified by the iterations parameter, which defaults to 1.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -900,7 +868,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1230
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1230
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with duration set to 2000.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -926,7 +893,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1790
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1790
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with iterations set to 3.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -952,7 +918,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1460
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1460
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with curve set to Curve.Friction.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -978,7 +943,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1240
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1240
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with duration set to 500.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1004,7 +968,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1750
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1750
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with playMode set to PlayMode.Normal.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1030,7 +993,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1360
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1360
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with tempo set to 1.0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1056,7 +1018,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1690
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1690
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with delay set to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1082,7 +1043,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1820
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1820
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with tempo set to 0.5.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1108,7 +1068,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1800
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1800
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with iterations set to 1.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1134,7 +1093,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1890
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1890
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.EaseOut.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1160,7 +1118,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1350
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1350
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with tempo set to 0.5.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1186,7 +1143,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1930
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1930
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.Friction.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1212,7 +1168,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1320
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1320
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with iterations set to 3.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1238,7 +1193,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1940
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1940
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.LinearOutSlowIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1264,7 +1218,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1490
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1490
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with curve set to Curve.Rhythm.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1290,7 +1243,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1270
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1270
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with playMode set to PlayMode.Alternate.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1316,7 +1268,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1910
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1910
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.FastOutLinearIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1342,7 +1293,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1370
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1370
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with tempo set to 2.0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1368,7 +1318,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1250
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1250
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with onFinish callback.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1394,7 +1343,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1340
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1340
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with tempo set to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1420,7 +1368,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1960
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1960
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.Rhythm.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1446,7 +1393,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1810
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1810
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with tempo set to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1472,7 +1418,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1450
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1450
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with curve set to Curve.FastOutSlowIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1498,7 +1443,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1980
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1980
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and showInSubWindow. The showInSubWindow parameter is set to false.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1524,7 +1468,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1720
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1720
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with onFinish callback.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1550,7 +1493,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1500
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1500
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with curve set to Curve.Sharp.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1576,7 +1518,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1920
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1920
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.FastOutSlowIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1602,7 +1543,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1510
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1510
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with curve set to Curve.Smooth.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1628,7 +1568,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1440
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1440
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and closeAnimation. The animation effect when the custom dialog is closed is set by the closeAnimation parameter with curve set to Curve.FastOutLinearIn.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1654,7 +1593,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1780
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1780
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with iterations set to 0.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -1680,7 +1618,6 @@ export default function CustomDialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1970
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1970
      * @tc.type   : Function
-     * @tc.desc   : The custom dialog CustomDialogController has configurable parameters including builder, alignment, and openAnimation. The animation effect when the custom dialog opens is set by the openAnimation parameter with curve set to Curve.Smooth.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

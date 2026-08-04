@@ -451,12 +451,12 @@ export default function ProgressBuilder() {
 
 
     /*
-      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
-      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
-      * @tc.type   : Set the width and height of the Progress component to be smaller than the builder area.
-      * @tc.size   : MediumTest
-      * @tc.level  : 2
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080
+     * @tc.type   : Set the width and height of the Progress component to be smaller than the builder area.
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_BUILDER_0080 start.`);
       Settings.createWindow("testability/pages/ProgressBuilder/ProgressBuilder0080")

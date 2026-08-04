@@ -44,7 +44,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0013
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0013
      * @tc.type   : Function
-     * @tc.desc   : Using the native code to switch to gradient colors for a circular Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -73,7 +72,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0014
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0014
      * @tc.type   : Function
-     * @tc.desc   : Using the native code to switch to monochrome for a circular Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -102,7 +100,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0015
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0015
      * @tc.type   : Function
-     * @tc.desc   : Using the native code to switch between monochrome and gradient colors for a circular Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -131,7 +128,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0016
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0016
      * @tc.type   : Function
-     * @tc.desc   : The circular Progress uses the modifier to switch between gradient colors and strokeWidth.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -160,7 +156,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0017
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0017
      * @tc.type   : Function
-     * @tc.desc   : For the circular Progress component, use the modifier to switch between monochrome and strokeWidth.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -189,7 +184,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0018
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0018
      * @tc.type   : Function
-     * @tc.desc   : Using the modifier to switch between colors (monochrome and gradient) and strokeWidth for a circular Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -218,7 +212,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0019
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0019
      * @tc.type   : Function
-     * @tc.desc   : Using the native code to switch between gradient colors and strokeWidth for a circular Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -247,7 +240,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0020
      * @tc.type   : Function
-     * @tc.desc   : The circular Progress uses native method to switch between single colors and strokeWidth.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -276,7 +268,6 @@ export default function ProgressModifierColor() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0021
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0021
      * @tc.type   : Function
-     * @tc.desc   : Using the native code to switch between monochrome and strokeWidth for a circular Progress component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

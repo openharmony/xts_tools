@@ -45,7 +45,6 @@ export default function CommonSize() {
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0009
      * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0009
      * @tc.type   : Function
-     * @tc.desc   : Ring-shaped Progress, set size to {width: 100}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -66,7 +65,6 @@ export default function CommonSize() {
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0007
      * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0007
      * @tc.type   : Function
-     * @tc.desc   : Eclipse-shaped Progress, set size to {width: 100}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -87,7 +85,6 @@ export default function CommonSize() {
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0010
      * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0010
      * @tc.type   : Function
-     * @tc.desc   : Capsule-shaped Progress, set size to {width: 300, height: 50}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -108,7 +105,6 @@ export default function CommonSize() {
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0008
      * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0008
      * @tc.type   : Function
-     * @tc.desc   : ScaleRing-shaped Progress, set size to {width: 100}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -129,7 +125,6 @@ export default function CommonSize() {
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0006
      * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0006
      * @tc.type   : Function
-     * @tc.desc   : Linear Progress, set size to {width: 300, height: 10}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

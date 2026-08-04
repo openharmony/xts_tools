@@ -44,7 +44,6 @@ export default function WindowAbilityMaskLayer() {
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_001
      * @tc.name   : In free-form window mode, with ConfigWindowMask set to true and a product-custom file (abc) present, the mask layer is enabled.
      * @tc.type   : function
-     * @tc.desc   : 自由窗口，ConfigWindowMask为true,有产品自定义文件（abc），蒙层开启
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -74,7 +73,6 @@ export default function WindowAbilityMaskLayer() {
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_002
      * @tc.name   : In free-form window mode, with ConfigWindowMask set to true but no product-custom file (abc) present, the mask layer is not enabled.
      * @tc.type   : function
-     * @tc.desc   : 自由窗口，ConfigWindowMask为true,无产品自定义文件（abc），蒙层不开启
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -103,7 +101,6 @@ export default function WindowAbilityMaskLayer() {
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_003
      * @tc.name   : In free-form window mode, with ConfigWindowMask set to false, the mask layer is closed.
      * @tc.type   : function
-     * @tc.desc   : 自由窗口，ConfigWindowMask为false,蒙层关闭
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -132,7 +129,6 @@ export default function WindowAbilityMaskLayer() {
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_004
      * @tc.name   : In maximized window mode, the mask layer can be enabled and disabled.
      * @tc.type   : function
-     * @tc.desc   : 窗口最大化，蒙层开启/关闭
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -167,7 +163,6 @@ export default function WindowAbilityMaskLayer() {
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_005
      * @tc.name   : When another window is displayed above the mask layer window and partially obscured, the mask layer can be enabled and disabled.
      * @tc.type   : function
-     * @tc.desc   : 蒙层窗口上方显示其他窗口，被部分遮挡，蒙层开启/关闭
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -202,7 +197,6 @@ export default function WindowAbilityMaskLayer() {
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_008
      * @tc.name   : Continuously enable and disable the mask layer 50 times.
      * @tc.type   : function
-     * @tc.desc   : 连续开启/关闭蒙层50次
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

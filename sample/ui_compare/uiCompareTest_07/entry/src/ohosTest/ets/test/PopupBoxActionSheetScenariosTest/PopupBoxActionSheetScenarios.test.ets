@@ -44,7 +44,6 @@ export default function PopupBoxActionSheetScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0010
      * @tc.type   : function
-     * @tc.desc   : Create a button-less popup, then click the Gallery Free Window (WGR) – List Selection Popup, without overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -79,7 +78,6 @@ export default function PopupBoxActionSheetScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0020
      * @tc.type   : function
-     * @tc.desc   : Create a button-less popup, then click the Gallery Free Window (WGR) – List Selection Popup, with overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -110,7 +108,6 @@ export default function PopupBoxActionSheetScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0030
      * @tc.type   : function
-     * @tc.desc   : Create a popup with buttons, then click the Gallery Free Window (WGR) – List Selection Popup, without overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -141,7 +138,6 @@ export default function PopupBoxActionSheetScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0040
      * @tc.type   : function
-     * @tc.desc   : Create a popup with buttons, then click the Gallery Free Window (WGR) – List Selection Popup, with overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -172,7 +168,6 @@ export default function PopupBoxActionSheetScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0100
      * @tc.type   : function
-     * @tc.desc   : Verify compilation error when calling ActionSheet.show() without parameters in list popup.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -197,7 +192,6 @@ export default function PopupBoxActionSheetScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0120
      * @tc.type   : function
-     * @tc.desc   : Button binds list selection popup event, sets cancel function, verifies that the callback triggered when clicking the mask layer to close the popup after triggering the popup is correct.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

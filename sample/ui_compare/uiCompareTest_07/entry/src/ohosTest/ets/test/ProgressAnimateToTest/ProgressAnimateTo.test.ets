@@ -44,7 +44,6 @@ export default function ProgressAnimateTo() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010
      * @tc.type   : Function
-     * @tc.desc   : The Progress component is used simultaneously with the animateTo animation effect, and the enableSmoothEffect property is set to false.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -65,7 +64,6 @@ export default function ProgressAnimateTo() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011
      * @tc.type   : Function
-     * @tc.desc   : The Progress component is used simultaneously with the animateTo animation effect, and the enableSmoothEffect property is set to true.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -86,7 +84,6 @@ export default function ProgressAnimateTo() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0014
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0014
      * @tc.type   : Function
-     * @tc.desc   : The Progress component is used simultaneously with the animateTo animation effect, and the enableScanEffect property is set to true.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -107,7 +104,6 @@ export default function ProgressAnimateTo() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0015
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0015
      * @tc.type   : Function
-     * @tc.desc   : The Progress component is used simultaneously with the animateTo animation effect, and the enableScanEffect property is set to false.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -128,7 +124,6 @@ export default function ProgressAnimateTo() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0012
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0012
      * @tc.type   : Function
-     * @tc.desc   : The Progress component is used simultaneously with the animateTo animation effect, and the ProgressStatus property of RingStyleOptions is set to LOADING.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -149,7 +144,6 @@ export default function ProgressAnimateTo() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0013
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0013
      * @tc.type   : Function
-     * @tc.desc   : The Progress component is used simultaneously with the animateTo animation effect, and the ProgressStatus property of RingStyleOptions is set to PROGRESSING.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

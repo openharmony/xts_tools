@@ -76,12 +76,12 @@ export default function ComponentNavModifier() {
     })
 
     /*
- * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120
- * @tc.name   : navigation组件hideToolBar设置为false
- * @tc.type   : Function
- * @tc.size   : MediumTest
- * @tc.level  : 1
- */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120
+     * @tc.name   : navigation组件hideToolBar设置为false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120 start.`);
       Settings.createWindow("testability/pages/ComponentNavModifier/ComponentNavModifier0120")

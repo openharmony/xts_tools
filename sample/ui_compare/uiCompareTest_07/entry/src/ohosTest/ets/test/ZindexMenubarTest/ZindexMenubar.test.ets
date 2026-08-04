@@ -44,7 +44,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0010
      * @tc.name   : When showInSubWindow is set to false and placement is set to BottomEnd, verify that the AlertDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为false的时候，placement设置为BottomEnd,验证alertdialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -105,7 +104,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0090
      * @tc.name   : When showInSubWindow is set to false, verify that the TimePickerDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为false的时候，验证TimePickerDialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -166,7 +164,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0100
      * @tc.name   : When showInSubWindow is set to false, verify that the ActionMenu component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为false的时候，验证创建并显示ActionMenu，其组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -227,7 +224,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0110
      * @tc.name   : When showInSubWindow is set to false, verify that the dialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为false的时候，验证创建并显示dialog，其组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -288,7 +284,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0120
      * @tc.name   : When showInSubWindow is set to true and placement is set to TopStart, verify that the AlertDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，placement设置为TopStart，验证alertdialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -335,7 +330,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0130
      * @tc.name   : When showInSubWindow is set to true and placement is set to TopStart, verify that the CustomDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，placement设置为TopStart，验证CustomDialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -388,7 +382,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0140
      * @tc.name   : When showInSubWindow is set to true and placement is set to TopStart, verify that the OpenCustomDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，placement设置为TopStart，验证OpenCustomDialog组件Z序是否在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -440,7 +433,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0150
      * @tc.name   : When showInSubWindow is set to true and placement is set to TopStart, verify that the dialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，placement设置为TopStart，验证创建并显示dialog，其组件Z序是否在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -492,7 +484,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0160
      * @tc.name   : When showInSubWindow is set to true, verify that the ActionSheet component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证ActionSheet组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -545,7 +536,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0170
      * @tc.name   : When showInSubWindow is set to true, verify that the CalendarPickerDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证CalendarPickerDialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -606,7 +596,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0180
      * @tc.name   : When showInSubWindow is set to true, verify that the DatePickerDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证DatePickerDialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -667,7 +656,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0190
      * @tc.name   : When showInSubWindow is set to true, verify that the Popup component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证Popup组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -720,7 +708,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0200
      * @tc.name   : When showInSubWindow is set to true, verify that the TextPickerDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证TextPickerDialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -781,7 +768,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0210
      * @tc.name   : When showInSubWindow is set to true, verify that the TimePickerDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证TimePickerDialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -842,7 +828,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0220
      * @tc.name   : When showInSubWindow is set to true, verify that the ActionMenu component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 当showInSubWindow设置为true的时候，验证创建并显示ActionMenu，其组件Z序是否在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -895,7 +880,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0230
      * @tc.name   : Verify that bindContextMenu's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证bindContextMenu的Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -946,7 +930,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0240
      * @tc.name   : Verify that bindMenu's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证bindMenu的Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -990,7 +973,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0250
      * @tc.name   : Verify that bindsheet component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证bindsheet组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1051,7 +1033,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0260
      * @tc.name   : Verify Z-order when bindsheet triggers customDialog then SubCustomDialog.
      * @tc.type   : function
-     * @tc.desc   : 验证bindsheet组件调起customDialog，再在customDialog调起SubCustomDialog的z序情况
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1136,7 +1117,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0270
      * @tc.name   : Verify that UIContext ActionSheet component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证UIcontext拉起ActionSheet组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1197,7 +1177,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0280
      * @tc.name   : Verify that UIContext AlertDialog component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证UIcontext拉起alertdialog组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1258,7 +1237,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0290
      * @tc.name   : Verify that UIContext BindSheet component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证UIcontext拉起bindsheet组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1319,7 +1297,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0300
      * @tc.name   : Verify that UIContext OverlayManager component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证UIcontext拉起OverlayManager组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1372,7 +1349,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0310
      * @tc.name   : Verify that UIContext PromptAction component's Z-order is below the menuBar.
      * @tc.type   : function
-     * @tc.desc   : 验证UIcontext拉起PromptAction组件Z序在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1433,7 +1409,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0320
      * @tc.name   : Verify Z-order when appbar service page is triggered first, then dialog.
      * @tc.type   : function
-     * @tc.desc   : 验证先调起appbar服务页面，再调起弹框，对组件Z序的影响
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1494,7 +1469,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0330
      * @tc.name   : Verify Z-order when triggering multiple different types of dialogs simultaneously.
      * @tc.type   : function
-     * @tc.desc   : 验证同时调起多个不同种类的弹框，对组件Z序的影响
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1555,7 +1529,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0340
      * @tc.name   : Verify that toast's Z-order is below menuBar in normal mode.
      * @tc.type   : function
-     * @tc.desc   : 验证当normal模式下，创建并显示toast，其Z序是否在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1616,7 +1589,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0350
      * @tc.name   : Verify that toast's Z-order is below menuBar in TopMost mode.
      * @tc.type   : function
-     * @tc.desc   : 验证当TopMost模式下，创建并显示toast，其Z序是否在menuBar之下
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */
@@ -1677,7 +1649,6 @@ export default function ZindexMenubar() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_ZINDEX_MENUBAR_0360
      * @tc.name   : Verify Z-order when switching between portrait and landscape modes.
      * @tc.type   : function
-     * @tc.desc   : 验证横竖屏切换，对组件Z序的影响
      * @tc.size   : MediumTest
      * @tc.level  : 4
      */

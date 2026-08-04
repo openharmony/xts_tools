@@ -44,7 +44,6 @@ export default function ConstructorUicontext() {
      * @tc.number : SUB_ACE_UI_BUILDNODE_CONSTRUCTOR_UICONTEXT_020
      * @tc.name   : BuildNode初始化不传入UIContext参数测试
      * @tc.type   : function
-     * @tc.desc   : Test initializing BuildNode without passing a UIContext parameter
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

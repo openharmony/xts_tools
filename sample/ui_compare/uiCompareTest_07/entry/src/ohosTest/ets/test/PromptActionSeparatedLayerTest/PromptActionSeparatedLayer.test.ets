@@ -43,10 +43,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0010
      * @tc.name   : Set the toast's showMode to DEFAULT and its shadow to OUTER_DEFAULT_MD.
-     * @tc.desc   : toast设置showMode（DEFAULT）,shadow（OUTER_DEFAULT_MD）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0010 start.`);
@@ -78,10 +77,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0020
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST without setting shadow.
-     * @tc.desc   : toast设置showMode（SYSTEM_TOP_MOST）,不设置shadow
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0020 start.`);
@@ -113,10 +111,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0030
      * @tc.name   : Set the toast's showMode to TOP_MOST and its shadow to OUTER_DEFAULT_MD.
-     * @tc.desc   : toast设置showMode（TOP_MOST）,shadow（OUTER_DEFAULT_MD）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0030 start.`);
@@ -148,10 +145,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0040
      * @tc.name   : Set the toast's showMode to TOP_MOST without setting shadow.
-     * @tc.desc   : toast设置showMode（TOP_MOST）,不设置shadow
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0040 start.`);
@@ -183,10 +179,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0050
      * @tc.name   : Set the toast's showMode to DEFAULT without setting shadow.
-     * @tc.desc   : toast设置showMode（DEFAULT）,不设置shadow
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0050 start.`);
@@ -218,10 +213,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0060
      * @tc.name   : Set the toast's showMode to DEFAULT and its shadow to null.
-     * @tc.desc   : toast设置showMode（DEFAULT）,shadow（null）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0060 start.`);
@@ -253,10 +247,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0070
      * @tc.name   : Set the toast's showMode to TOP_MOST and its shadow to null.
-     * @tc.desc   : toast设置showMode（TOP_MOST）,shadow（null）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0070 start.`);
@@ -288,10 +281,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0080
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST and its shadow to undefined.
-     * @tc.desc   : toast设置showMode（SYSTEM_TOP_MOST）,shadow（undefined）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0080 start.`);
@@ -323,10 +315,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0090
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST and its shadow to OUTER_DEFAULT_MD.
-     * @tc.desc   : toast设置showMode（SYSTEM_TOP_MOST）,shadow（OUTER_DEFAULT_MD）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0090 start.`);
@@ -358,10 +349,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0100
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST and its shadow to null.
-     * @tc.desc   : toast设置showMode（SYSTEM_TOP_MOST）,shadow（null）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0100 start.`);
@@ -393,10 +383,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0110
      * @tc.name   : Set the toast's showMode to DEFAULT and its shadow to undefined.
-     * @tc.desc   : toast设置showMode（DEFAULT）,shadow（undefined）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0110 start.`);
@@ -428,10 +417,9 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0120
      * @tc.name   : Set the toast's showMode to TOP_MOST and its shadow to undefined.
-     * @tc.desc   : toast设置showMode（TOP_MOST）,shadow（undefined）
-     * @tc.size   : MediumTest
      * @tc.type   : Function
-     * @tc.level  : Level 3
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0120', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0120 start.`);

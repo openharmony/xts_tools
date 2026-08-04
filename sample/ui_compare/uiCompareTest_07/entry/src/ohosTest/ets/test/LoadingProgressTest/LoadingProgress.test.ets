@@ -44,7 +44,6 @@ export default function LoadingProgress() {
      * @tc.number : SUB_ACE_UI_loadingProgress_0010
      * @tc.name   : Set the Loading refresh icon animation to non-uniform speed.
      * @tc.type   : function
-     * @tc.desc   : Loading刷新图标动效为非匀速
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

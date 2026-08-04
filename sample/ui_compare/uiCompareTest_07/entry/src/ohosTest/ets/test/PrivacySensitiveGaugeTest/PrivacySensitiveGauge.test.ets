@@ -45,7 +45,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0040
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0040
      * @tc.type   : Function
-     * @tc.desc   : Setting an abnormal value in the Gauge container under privacy-sensitive conditions
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -77,7 +76,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0100
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0100
      * @tc.type   : Function
-     * @tc.desc   : Dynamically toggle colors in the Gauge container under privacy-sensitive mode to check for any visual changes.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -100,7 +98,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0170
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0170
      * @tc.type   : Function
-     * @tc.desc   : Set the description content as an image in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -120,7 +117,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0160
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0160
      * @tc.type   : Function
-     * @tc.desc   : Set the description content as text in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -140,7 +136,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0060
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0060
      * @tc.type   : Function
-     * @tc.desc   : Dynamically update the startAngle of the gauge chart inside the Gauge container.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -163,7 +158,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0110
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0110
      * @tc.type   : Function
-     * @tc.desc   : Dynamically switch the color type of the gauge chart in the Gauge container under privacy-sensitive mode and observe whether any visual change occurs.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -187,7 +181,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0150
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0150
      * @tc.type   : Function
-     * @tc.desc   : Set the strokeWidth of the ring-shaped gauge chart within the Gauge container to an abnormal value under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -219,7 +212,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0030
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0030
      * @tc.type   : Function
-     * @tc.desc   : Set privacySensitive to undefined in the Gauge container.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -239,7 +231,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0190
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0190
      * @tc.type   : Function
-     * @tc.desc   : Dynamically toggle the shadow radius style in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -261,7 +252,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0070
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0070
      * @tc.type   : Function
-     * @tc.desc   : Set an abnormal value for startAngle in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -292,7 +282,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0050
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0050
      * @tc.type   : Function
-     * @tc.desc   : Dynamically update the value of the gauge chart within the Gauge container.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -314,7 +303,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0080
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0080
      * @tc.type   : Function
-     * @tc.desc   : Dynamically update the endAngle of the gauge chart inside the Gauge container.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -336,7 +324,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0120
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0120
      * @tc.type   : Function
-     * @tc.desc   : Set the color to a single-tone ring using ResourceColor in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -356,7 +343,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0090
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0090
      * @tc.type   : Function
-     * @tc.desc   : Set an abnormal value for endAngle in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -387,7 +373,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0130
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0130
      * @tc.type   : Function
-     * @tc.desc   : Set the color to a gradient ring using LinearGradient in the Gauge container under privacy-sensitive mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -404,13 +389,12 @@ export default function PrivacySensitiveGauge() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200
-    * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200
-    * @tc.type   : Function
-    * @tc.desc   : Set an abnormal value for the shadow style's offsetX in the Gauge container under privacy-sensitive mode.
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200
+     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200 start.`);
       Settings.createWindow("testability/pages/PrivacySensitiveGauge/PrivacySensitiveGauge0200")
@@ -435,13 +419,12 @@ export default function PrivacySensitiveGauge() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180
-    * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180
-    * @tc.type   : Function
-    * @tc.desc   : In the Gauge container, setting the shadow style radius to an abnormal value under privacy mode.
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180
+     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180 start.`);
       Settings.createWindow("testability/pages/PrivacySensitiveGauge/PrivacySensitiveGauge0180")
@@ -469,7 +452,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0230
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0230
      * @tc.type   : Function
-     * @tc.desc   : Dynamically switching the shadow style offsetY in the Gauge container under privacy mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -491,7 +473,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0140
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0140
      * @tc.type   : Function
-     * @tc.desc   : Dynamically set the ring thickness of the circular gauge chart within the Gauge container under privacy mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -510,13 +491,12 @@ export default function PrivacySensitiveGauge() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220
-    * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220
-    * @tc.type   : Function
-    * @tc.desc   : Set the offsetY of the shadow style to an abnormal value inside the Gauge container while in privacy mode.
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220
+     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220 start.`);
       Settings.createWindow("testability/pages/PrivacySensitiveGauge/PrivacySensitiveGauge0220")
@@ -544,7 +524,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0210
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0210
      * @tc.type   : Function
-    * @tc.desc   : Set the offsetY of the shadow style to an abnormal value inside the Gauge container while in privacy mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -563,13 +542,12 @@ export default function PrivacySensitiveGauge() {
 
 
     /*
-    * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260
-    * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260
-    * @tc.type   : Function
-    * @tc.desc   : Set the pointer-to-ring-outer-edge spacing (space) inside the Gauge container while in privacy mode.
-    * @tc.size   : MediumTest
-    * @tc.level  : 2
-    */
+     * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260
+     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260 start.`);
       Settings.createWindow("testability/pages/PrivacySensitiveGauge/PrivacySensitiveGauge0260")
@@ -597,7 +575,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0240
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0240
      * @tc.type   : Function
-     * @tc.desc   : Set the pointer style icon in the Gauge container while in privacy mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -617,7 +594,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0250
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0250
      * @tc.type   : Function
-     * @tc.desc   : Dynamically set the pointer style icon in the Gauge container under privacy mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -639,7 +615,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0270
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0270
      * @tc.type   : Function
-     * @tc.desc   : Dynamically set the pointer-to-ring-outer-edge spacing (space) in the Gauge container under privacy mode.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -661,7 +636,6 @@ export default function PrivacySensitiveGauge() {
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0020
      * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0020
      * @tc.type   : Function
-     * @tc.desc   : Set privacySensitive to null in the Gauge container.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

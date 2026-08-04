@@ -44,7 +44,6 @@ export default function QrcodeWatches() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0012
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0012
      * @tc.type   : Function
-     * @tc.desc   : The size of the mobile QRCode component is set to a negative value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -65,7 +64,6 @@ export default function QrcodeWatches() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0013
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0013
      * @tc.type   : Function
-     * @tc.desc   : The size of the mobile QRCode component is set to an excessively large value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -86,7 +84,6 @@ export default function QrcodeWatches() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0015
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0015
      * @tc.type   : Function
-     * @tc.desc   : The color of the mobile QRCode component is set to an invalid string value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -107,7 +104,6 @@ export default function QrcodeWatches() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0014
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0014
      * @tc.type   : Function
-     * @tc.desc   : The color of the mobile QRCode component is set to an invalid number value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -128,7 +124,6 @@ export default function QrcodeWatches() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0011
      * @tc.type   : Function
-     * @tc.desc   : The default size specification of the mobile QRCode component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -149,7 +144,6 @@ export default function QrcodeWatches() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_QRCODE_WATCHES_0010
      * @tc.type   : Function
-     * @tc.desc   : The default color specification of the mobile QRCode component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

@@ -44,7 +44,6 @@ export default function NodecontainerRender() {
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0360
      * @tc.name   : getChild attempts to retrieve a child node under renderNode that does not exist (index greater than the maximum).
      * @tc.type   : function
-     * @tc.desc   : getChild获取renderNode下不存在的子节点(大于最大下标)
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

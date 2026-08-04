@@ -44,7 +44,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0080
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0080
      * @tc.type   : Function
-     * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: -12.75}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -64,7 +63,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0110
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0110
      * @tc.type   : Function
-     * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: -9.1}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -85,7 +83,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0260
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0260
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -106,7 +103,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0300
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0300
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -127,7 +123,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0290
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0290
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController, and click the button to set config.started to false.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -151,7 +146,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0310
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0310
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to null.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -172,7 +166,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0350
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0350
      * @tc.type   : Function
-     * @tc.desc   : Test appending a boolean-type parameter in ContentModifier.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -199,7 +192,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0390
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0390
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController. When starting, modify the appended string-type parameter, and the corresponding value in Builder will be updated.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -226,7 +218,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0380
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0380
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController. When starting, modify the appended boolean-type parameter, and the corresponding value in Builder will be updated.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -253,7 +244,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0400
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0400
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController. When stopping, modify the timeValue, and the corresponding value in Builder will not be updated.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -277,7 +267,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0420
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0420
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController. When stopping, modify the appended string-type parameter, and the corresponding value in Builder will be updated
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -304,7 +293,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0280
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0280
      * @tc.type   : Function
-     * @tc.desc   : Set the controller property parameter of textClockStyle to TextClockController, and click the button to set config.started to true.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -328,7 +316,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0370
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0370
      * @tc.type   : Function
-     * @tc.desc   : When the controller property parameter of textClockStyle is set to TextClockController Start, modifying the timeValue will update the corresponding value in the Builder.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -352,7 +339,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0430
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0430
      * @tc.type   : Function
-     * @tc.desc   : Set the contentModifier of textClockStyle to be dynamically switchable, and switch the contentModifier to builder.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -376,7 +362,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0450
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0450
      * @tc.type   : Function
-     * @tc.desc   : Set the contentModifier of textClockStyle to be dynamically switchable, and switch the contentModifier to null.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -400,7 +385,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0440
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0440
      * @tc.type   : Function
-     * @tc.desc   : Set the contentModifier of textClockStyle to be dynamically switchable, and switch the contentModifier to undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -424,7 +408,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0410
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0410
      * @tc.type   : Function
-     * @tc.desc   : When the controller property of textClockStyle is set to TextClockController stop, modifying the appended boolean type parameter will update the corresponding value in the Builder.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -451,7 +434,6 @@ export default function TextClockContentModifier() {
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0070
      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0070
      * @tc.type   : Function
-     * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: 9.5}.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -469,13 +451,12 @@ export default function TextClockContentModifier() {
 
 
     /*
-      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140
-      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140
-      * @tc.type   : Function
-      * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: undefined}.
-      * @tc.size   : MediumTest
-      * @tc.level  : 2
-      */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140
+     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140 start.`);
       Settings.createWindow("testability/pages/TextClockContentModifier/TextClockContentModifier0140")
@@ -490,13 +471,12 @@ export default function TextClockContentModifier() {
 
 
     /*
-      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040
-      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040
-      * @tc.type   : Function
-      * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: -8}.
-      * @tc.size   : MediumTest
-      * @tc.level  : 2
-      */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040
+     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040 start.`);
       Settings.createWindow("testability/pages/TextClockContentModifier/TextClockContentModifier0040")
@@ -511,13 +491,12 @@ export default function TextClockContentModifier() {
 
 
     /*
-      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060
-      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060
-      * @tc.type   : Function
-      * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: 12}.
-      * @tc.size   : MediumTest
-      * @tc.level  : 2
-      */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060
+     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060 start.`);
       Settings.createWindow("testability/pages/TextClockContentModifier/TextClockContentModifier0060")
@@ -532,13 +511,12 @@ export default function TextClockContentModifier() {
 
 
     /*
-      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020
-      * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020
-      * @tc.type   : Function
-      * @tc.desc   : Set the timeZoneOffset property parameter of textClockStyle to {timeZoneOffset: 0}.
-      * @tc.size   : MediumTest
-      * @tc.level  : 2
-      */
+     * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020
+     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
+     */
     it('SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020', Level.LEVEL2, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020 start.`);
       Settings.createWindow("testability/pages/TextClockContentModifier/TextClockContentModifier0020")

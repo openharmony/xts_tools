@@ -44,7 +44,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0010
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0010
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; setting margin values for the custom component works as expected.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -76,7 +75,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0020
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0020
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; setting padding values for the custom component works as expected.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -108,7 +106,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0030
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0030
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; setting borderWidth values for the custom component works as expected.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -140,7 +137,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0050
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0050
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; child components use default layout capability when no measure operations are performed.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -172,7 +168,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0070
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0070
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; check constraint.minWidth value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -204,7 +199,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0080
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0080
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; check constraint.maxWidth value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -236,7 +230,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0090
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0090
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; check constraint.minHeight value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -268,7 +261,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0100
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0100
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onMeasureSize interface; check constraint.maxHeight value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -300,7 +292,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0110
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0110
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; setting margin values for the custom component works as expected.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -332,7 +323,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0120
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0120
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; setting padding values for the custom component works as expected.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -364,7 +354,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0130
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0130
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; setting borderWidth values for the custom component works as expected.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -396,7 +385,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0150
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0150
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; child components use default layout capability when no layout operations are performed.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -428,7 +416,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0170
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0170
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; check Children.MeasureResult.width value is correct.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -460,7 +447,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0180
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0180
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; check Children.MeasureResult.height value is correct.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -492,7 +478,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0190
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0190
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; check constraint.minWidth value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -524,7 +509,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0200
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0200
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; check constraint.maxWidth value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -556,7 +540,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0210
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0210
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; check constraint.minHeight value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -588,7 +571,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0220
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0220
      * @tc.type   : function
-     * @tc.desc   : Add a custom component and call the onPlaceChildren interface; check constraint.maxHeight value matches parent component constraints.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -620,7 +602,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0250
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0250
      * @tc.type   : function
-     * @tc.desc   : When width and height attributes are passed as percentages, the width and height values returned by onMeasureSize are actual width and height.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -652,7 +633,6 @@ export default function InterfaceCustomLayout() {
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0260
      * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0260
      * @tc.type   : function
-     * @tc.desc   : The units of selfLayoutInfo print values are consistent with MeasureResult and constraint.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

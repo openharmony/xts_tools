@@ -44,7 +44,6 @@ export default function PopupboxMenu() {
      * @tc.number : SUB_ACE_ANALYSE_UI_COMPONENT_POPUPBOX_MENU_0020
      * @tc.name   : bindMenu中配置背景色为红色，圆角为10
      * @tc.type   : function
-     * @tc.desc   : In bindMenu, set the background color to red and the border radius to 10.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

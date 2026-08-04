@@ -43,7 +43,6 @@ export default function BackwardAnalysisAln() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1380
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1380
-     * @tc.desc   : Verify that the visualAbility parameter controls visibility, slider displays correctly
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -69,7 +68,6 @@ export default function BackwardAnalysisAln() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1390
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1390
-     * @tc.desc   : Verify List container with slider components, synchronize slider progress by button click
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,7 +96,6 @@ export default function BackwardAnalysisAln() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1400
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1400
-     * @tc.desc   : Verify half-modal sheet displays correctly after fast scrolling to bottom multiple times
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -124,7 +121,6 @@ export default function BackwardAnalysisAln() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1410
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1410
-     * @tc.desc   : Verify toast with showMode DEFAULT avoids keyboard input method
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,7 +149,6 @@ export default function BackwardAnalysisAln() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1420
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1420
-     * @tc.desc   : Verify toast with showMode TopMost avoids keyboard input method
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +177,6 @@ export default function BackwardAnalysisAln() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1430
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1430
-     * @tc.desc   : Verify dialog avoids keyboard input method
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

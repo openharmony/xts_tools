@@ -44,7 +44,6 @@ export default function NavNavigationAction() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ACTION_800
      * @tc.name   : Set NavigationTitleMode to Full mode, dynamically increase the subtitle length, and gradually reduce the subtitle font size with truncation.
      * @tc.type   : Function
-     * @tc.desc   : 设置NavigationTitleMode为Full模式，动态增加subtitle长度，subtitle字体逐步减小截断
      * @tc.size   : MediumTest
      * @tc.level  : 1
      */

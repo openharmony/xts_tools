@@ -44,7 +44,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0010
      * @tc.type   : function
-     * @tc.desc   : Create a button-free popup, then click Gallery Free Window (WGR) – Alert Dialog, with no overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,7 +71,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0020
      * @tc.type   : function
-     * @tc.desc   : Create a button-free popup, then click Gallery Free Window (WGR) – Alert Dialog, with overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -100,7 +98,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0030
      * @tc.type   : function
-     * @tc.desc   : Create a button popup, then click Gallery Free Window (WGR) – Alert Dialog, with no overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -128,7 +125,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0040
      * @tc.type   : function
-     * @tc.desc   : Create a button popup, then click Gallery Free Window (WGR) – Alert Dialog, with overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -156,7 +152,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0050
      * @tc.type   : function
-     * @tc.desc   : Multiple alert dialog stacking with keyboard ESC key trigger.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -194,7 +189,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0080
      * @tc.type   : function
-     * @tc.desc   : Pop up sub-window alert dialog and click confirm to exit sub-window.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -228,7 +222,6 @@ export default function PopupBoxAlertdialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0090
      * @tc.type   : function
-     * @tc.desc   : Verify that the cancel callback is triggered correctly when clicking the mask layer to close the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -44,7 +44,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0020
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0020
      * @tc.type   : function
-     * @tc.desc   : Validate the alignment of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -63,7 +62,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0010
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0010
      * @tc.type   : function
-     * @tc.desc   : Validate the autoCancel of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -82,7 +80,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0030
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0030
      * @tc.type   : function
-     * @tc.desc   : Validate the offset of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -101,7 +98,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0040
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0040
      * @tc.type   : function
-     * @tc.desc   : Validate the customStyle of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -120,7 +116,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0050
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0050
      * @tc.type   : function
-     * @tc.desc   : Validate the gridCount of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -139,7 +134,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0060
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0060
      * @tc.type   : function
-     * @tc.desc   : Validate the maskColor of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -158,7 +152,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0100
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0100
      * @tc.type   : function
-     * @tc.desc   : Validate the maskRect of CustomDialogControllerOptions, Rectangle parameter type: (x,y,width,height: all abnormal value $$)
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -177,7 +170,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0110
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0110
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation duration of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -196,7 +188,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0120
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0120
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation tempo of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -215,7 +206,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0130
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0130
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation curve of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -234,7 +224,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0140
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0140
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation delay of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -253,7 +242,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0150
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0150
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation iterations of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -272,7 +260,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0160
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0160
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation playMode of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -291,7 +278,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0190
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0190
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation finishCallbackType of CustomDialogControllerOptions, parameter type: $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -310,7 +296,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0230
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0230
      * @tc.type   : function
-     * @tc.desc   : Validate the openAnimation ExpectedFrameRateRange of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -329,7 +314,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0240
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0240
      * @tc.type   : function
-     * @tc.desc   : Validate the showInSubWindow of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -348,7 +332,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0250
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0250
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation duration of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -367,7 +350,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0260
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0260
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation tempo of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -386,7 +368,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0270
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0270
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation curve of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -405,7 +386,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0280
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0280
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation delay of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -424,7 +404,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0290
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0290
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation iterations of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -443,7 +422,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0300
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0300
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation playMode of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -462,7 +440,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0330
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0330
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation finishCallbackType of CustomDialogControllerOptions, parameter type: $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -481,7 +458,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0370
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0370
      * @tc.type   : function
-     * @tc.desc   : Validate the closeAnimation ExpectedFrameRateRange of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -500,7 +476,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0420
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0420
      * @tc.type   : function
-     * @tc.desc   : Validate the backgroundColor of CustomDialogControllerOptions, parameter type: abnormal value $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -519,7 +494,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0670
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0670
      * @tc.type   : function
-     * @tc.desc   : Validate the cornerRadius bottomRight of CustomDialogControllerOptions, parameter type: $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -538,7 +512,6 @@ export default function DialogCustomInterface() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0700
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0700
      * @tc.type   : function
-     * @tc.desc   : Validate the isModal of CustomDialogControllerOptions, parameter type: $$
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

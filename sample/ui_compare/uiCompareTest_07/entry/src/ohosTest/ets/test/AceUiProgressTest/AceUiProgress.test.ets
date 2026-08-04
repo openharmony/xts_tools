@@ -43,7 +43,6 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0010
      * @tc.name   : Enable the halo flicker animation by default.
-     * @tc.desc   : 默认开启光晕闪烁动画
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -67,7 +66,6 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0020
      * @tc.name   : Disable the halo flicker animation.
-     * @tc.desc   : 关闭光晕闪烁动画
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -91,7 +89,6 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0030
      * @tc.name   : Dynamically set halo flicker animation.
-     * @tc.desc   : 动态设置光晕闪烁动画
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -120,7 +117,6 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0040
      * @tc.name   : Enable the halo flicker animation.
-     * @tc.desc   : 开启光晕闪烁动画
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -144,7 +140,6 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0050
      * @tc.name   : LoadingProgress light mode conforms to UX specification.
-     * @tc.desc   : loadingProgress浅色模式符合UX规范
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

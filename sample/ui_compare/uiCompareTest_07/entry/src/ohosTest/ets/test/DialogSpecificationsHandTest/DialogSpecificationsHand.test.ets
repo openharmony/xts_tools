@@ -44,7 +44,6 @@ export default function DialogSpecificationsHand() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0020
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0020
      * @tc.type   : Function
-     * @tc.desc   : The selectAll property of checkboxgroup supports two-way binding with variables.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -74,7 +73,6 @@ export default function DialogSpecificationsHand() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0030
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0030
      * @tc.type   : Function
-     * @tc.desc   : The select property of Checkbox supports two-way binding with variables.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -102,7 +100,6 @@ export default function DialogSpecificationsHand() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0070
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0070
      * @tc.type   : Function
-     * @tc.desc   : The select property of Checkbox supports two-way binding with variables.
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

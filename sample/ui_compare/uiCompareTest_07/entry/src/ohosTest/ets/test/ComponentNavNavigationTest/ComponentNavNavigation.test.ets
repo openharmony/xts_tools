@@ -63,12 +63,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
- * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541
- * @tc.name   : navdestination页面静态设置标题栏为红色颜色
- * @tc.type   : Function
- * @tc.size   : MediumTest
- * @tc.level  : 1
- */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541
+     * @tc.name   : navdestination页面静态设置标题栏为红色颜色
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0541 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation0541_001")
@@ -112,12 +112,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-   * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007
-   * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007
-   * @tc.type   : In Stack mode, the title is not customizable. In Full mode, the subtitle is included, and both the main title and subtitle are set to display extremely long strings in Chinese characters.
-   * @tc.size   : MediumTest
-   * @tc.level  : 1
-   */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007
+     * @tc.type   : In Stack mode, the title is not customizable. In Full mode, the subtitle is included, and both the main title and subtitle are set to display extremely long strings in Chinese characters.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_007 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation007")
@@ -137,12 +137,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-   * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023
-   * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023
-   * @tc.type   : In Stack mode, the title in Free mode includes both the main title and subtitle, and they are set to display extremely long strings in Chinese characters.
-   * @tc.size   : MediumTest
-   * @tc.level  : 1
-   */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023
+     * @tc.type   : In Stack mode, the title in Free mode includes both the main title and subtitle, and they are set to display extremely long strings in Chinese characters.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_023 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation023")
@@ -190,12 +190,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-   * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043
-   * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043
-   * @tc.type   : In Split mode, the title in Free mode includes only the main title, which is set to display an extremely long string in Chinese characters.
-   * @tc.size   : MediumTest
-   * @tc.level  : 1
-   */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043
+     * @tc.type   : In Split mode, the title in Free mode includes only the main title, which is set to display an extremely long string in Chinese characters.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_043 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation043")
@@ -218,12 +218,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037
-  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037
-  * @tc.type   : In Split mode, under the mini mode, dynamically toggle the visibility of the back icon, set both the main title and subtitle, and input Chinese characters.
-  * @tc.size   : MediumTest
-  * @tc.level  : 1
-  */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037
+     * @tc.type   : In Split mode, under the mini mode, dynamically toggle the visibility of the back icon, set both the main title and subtitle, and input Chinese characters.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_037 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation037")
@@ -249,12 +249,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054
-  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054
-  * @tc.type   : Set the title bar of the NavDestination page to dynamically switch to blue.
-  * @tc.size   : MediumTest
-  * @tc.level  : 1
-  */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054
+     * @tc.type   : Set the title bar of the NavDestination page to dynamically switch to blue.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_054 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation054_001")
@@ -274,12 +274,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015
-  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015
-  * @tc.type   : In Stack mode, dynamically hide the back icon in the mini title bar, set primary and secondary titles, and pass in an extremely long Chinese string.
-  * @tc.size   : MediumTest
-  * @tc.level  : 1
-  */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015
+     * @tc.type   : In Stack mode, dynamically hide the back icon in the mini title bar, set primary and secondary titles, and pass in an extremely long Chinese string.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_015 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation015")
@@ -302,12 +302,12 @@ export default function ComponentNavNavigation() {
 
 
     /*
-  * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019
-  * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019
-  * @tc.type   : In Stack mode, the title bar in Free mode only includes the primary title and sets the display for extremely long Chinese strings.
-  * @tc.size   : MediumTest
-  * @tc.level  : 1
-  */
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019
+     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019
+     * @tc.type   : In Stack mode, the title bar in Free mode only includes the primary title and sets the display for extremely long Chinese strings.
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_019 start.`);
       Settings.createWindow("testability/pages/ComponentNavNavigation/ComponentNavNavigation019")
@@ -364,7 +364,6 @@ export default function ComponentNavNavigation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0501
      * @tc.name   : The title bar floats above the content area, scroll the content area up and down.
      * @tc.type   : Function
-     * @tc.desc   : 标题栏悬浮在内容区之上，标题栏设置背景颜色，上下滑动内容区
      * @tc.size   : MediumTest
      * @tc.level  : 1
      */
@@ -390,7 +389,6 @@ export default function ComponentNavNavigation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_0502
      * @tc.name   : The title bar floats above the content area, scroll the content area and set to stack mode.
      * @tc.type   : Function
-     * @tc.desc   : 标题栏悬浮在内容区之上，标题栏设置背景颜色，上下滑动内容区，设置为stack模式
      * @tc.size   : MediumTest
      * @tc.level  : 1
      */

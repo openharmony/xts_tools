@@ -44,7 +44,6 @@ export default function ProgressBorderradius() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDERRADIUS_0025
      * @tc.name   : Dynamically modify the border radius value and border radius type.
      * @tc.type   : function
-     * @tc.desc   : 动态修改圆角值和圆角类型
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

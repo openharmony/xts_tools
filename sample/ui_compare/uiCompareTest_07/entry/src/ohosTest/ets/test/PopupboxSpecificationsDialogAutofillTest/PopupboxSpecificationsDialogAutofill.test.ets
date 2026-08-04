@@ -43,7 +43,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0060
      * @tc.name   : Verify Normal input mode popup does not auto-fill
-     * @tc.desc   : 验证Normal输入模式下弹窗不自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,7 +70,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0070
      * @tc.name   : Verify NUMBER_DECIMAL input mode popup does not auto-save
-     * @tc.desc   : 验证NUMBER_DECIMAL输入模式下弹窗不自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +97,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0080
      * @tc.name   : Verify NUMBER_DECIMAL input mode popup does not auto-fill
-     * @tc.desc   : 验证NUMBER_DECIMAL输入模式下弹窗不自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,7 +124,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0090
      * @tc.name   : Verify NUMBER_PASSWORD input mode popup does not auto-save
-     * @tc.desc   : 验证NUMBER_PASSWORD输入模式下弹窗不自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -155,7 +151,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0100
      * @tc.name   : Verify NUMBER_PASSWORD input mode popup does not auto-fill
-     * @tc.desc   : 验证NUMBER_PASSWORD输入模式下弹窗不自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,7 +178,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0110
      * @tc.name   : Verify Number input mode popup does not auto-save
-     * @tc.desc   : 验证Number输入模式下弹窗不自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,7 +205,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0120
      * @tc.name   : Verify Number input mode popup does not auto-fill
-     * @tc.desc   : 验证Number输入模式下弹窗不自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +232,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0130
      * @tc.name   : Verify Password input mode popup can auto-save
-     * @tc.desc   : 验证Password输入模式下弹窗能够自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,7 +259,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0140
      * @tc.name   : Verify Password input mode popup can auto-fill
-     * @tc.desc   : 验证Password输入模式下弹窗能够自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,7 +286,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0150
      * @tc.name   : Verify PhoneNumber input mode popup does not auto-save
-     * @tc.desc   : 验证PhoneNumber输入模式下弹窗不自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -323,7 +313,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0160
      * @tc.name   : Verify PhoneNumber input mode popup does not auto-fill
-     * @tc.desc   : 验证PhoneNumber输入模式下弹窗不自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,7 +340,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0170
      * @tc.name   : Verify URL input mode popup does not auto-save
-     * @tc.desc   : 验证URL输入模式下弹窗不自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,7 +367,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0180
      * @tc.name   : Verify URL input mode popup does not auto-fill
-     * @tc.desc   : 验证URL输入模式下弹窗不自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -407,7 +394,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0190
      * @tc.name   : Verify USER_NAME input mode popup can auto-save
-     * @tc.desc   : 验证USER_NAME输入模式下弹窗能够自动保存
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,7 +421,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0200
      * @tc.name   : Verify USER_NAME input mode popup can auto-fill
-     * @tc.desc   : 验证USER_NAME输入模式下弹窗能够自动填充
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -463,7 +448,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0210
      * @tc.name   : Verify popup can configure keyboard
-     * @tc.desc   : 验证弹窗可配置键盘
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -490,7 +474,6 @@ export default function PopupboxSpecificationsDialogAutofill() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_DIALOG_AUTOFILL_0220
      * @tc.name   : Verify popup saved content matches input field content
-     * @tc.desc   : 验证弹窗保存的内容是否能与输入框的内容匹配
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

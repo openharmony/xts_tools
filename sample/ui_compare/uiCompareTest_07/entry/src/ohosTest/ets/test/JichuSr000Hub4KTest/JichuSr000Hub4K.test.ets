@@ -44,7 +44,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0010
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0010
      * @tc.type   : Function
-     * @tc.desc   : Verify the required nature of the options parameter in promptAction.showToast
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -64,7 +63,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0020
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0020
      * @tc.type   : Function
-     * @tc.desc   : Verify that promptAction.showToast without message parameter causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -86,7 +84,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0030
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0030
      * @tc.type   : Function
-     * @tc.desc   : Verify that promptAction.showDialog without options parameter causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -108,7 +105,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0040
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0040
      * @tc.type   : Function
-     * @tc.desc   : Verify that promptAction.showActionMenu without options parameter causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -130,7 +126,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0050
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0050
      * @tc.type   : Function
-     * @tc.desc   : Verify that promptAction.showActionMenu without buttons parameter causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -152,7 +147,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0060
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0060
      * @tc.type   : Function
-     * @tc.desc   : Verify that buttons without color parameter in promptAction.showActionMenu causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -174,7 +168,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0070
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0070
      * @tc.type   : Function
-     * @tc.desc   : Verify that buttons without text parameter in promptAction.showActionMenu causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -196,7 +189,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0080
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0080
      * @tc.type   : Function
-     * @tc.desc   : Verify that buttons with text parameter set to number type causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -218,7 +210,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0090
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0090
      * @tc.type   : Function
-     * @tc.desc   : Verify that promptAction.openCustomDialog without options parameter causes compilation error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -240,7 +231,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0100
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0100
      * @tc.type   : Function
-     * @tc.desc   : Verify that dialog can be displayed in subwindow when showInSubWindow is true
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -266,7 +256,6 @@ export default function JichuSr000Hub4K() {
      * @tc.number : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0110
      * @tc.name   : SUB_ACE_FUNCTION_JICHU_SR000HUB4K_0110
      * @tc.type   : Function
-     * @tc.desc   : Verify that dialog cannot be displayed in subwindow when showInSubWindow is false
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

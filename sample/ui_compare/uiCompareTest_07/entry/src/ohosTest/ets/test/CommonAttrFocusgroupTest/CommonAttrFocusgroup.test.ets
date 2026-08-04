@@ -44,7 +44,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0100
      * @tc.name   : When focusScopeId is dynamically changed to either a valid or invalid ID while isGroup is true, the focus group takes effect.
      * @tc.type   : function
-     * @tc.desc   : focusScopeId传入动态修改id为正常值或异常值，isGroup为true，焦点组生效
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -114,7 +113,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0200
      * @tc.name   : When focusScopeId is a normal value and isGroup is dynamically changed to true or false, the focus group takes effect accordingly.
      * @tc.type   : function
-     * @tc.desc   : focusScopeId正常值，动态修改isGroup为true或false
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -170,7 +168,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0300
      * @tc.name   : When focusScopeId is set to a duplicate value and isGroup is true, the later focus group with the same ID does not take effect.
      * @tc.type   : function
-     * @tc.desc   : focusScopeId传入id为重复值，isGroup为true，后设置相同id的焦点组不生效
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -212,7 +209,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0400
      * @tc.name   : In split mode, pressing Tab key navigates focus from navdestination to navbar across pages.
      * @tc.type   : function
-     * @tc.desc   : 双栏下tab键 navdestination跨页面走焦到navbar上
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -262,7 +258,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0500
      * @tc.name   : Cross focus group navigation, another focus group has a previously focused node, no default focus component.
      * @tc.type   : function
-     * @tc.desc   : 跨焦点组走焦，另一个焦点组上次有节点获焦，无默认获焦组件
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -306,7 +301,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0600
      * @tc.name   : Cross focus group navigation, another focus group has a previously focused node, with default focus component.
      * @tc.type   : function
-     * @tc.desc   : 跨焦点组走焦，另一个焦点组上次有节点获焦，有默认获焦组件
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -358,7 +352,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0700
      * @tc.name   : Cross focus group navigation, another focus group has no previously focused node, no default focus component.
      * @tc.type   : function
-     * @tc.desc   : 跨焦点组走焦，另一个焦点组上次无节点获焦，无默认获焦组件
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -399,7 +392,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0800
      * @tc.name   : Cross focus group navigation, another focus group has no previously focused node, with default focus component.
      * @tc.type   : function
-     * @tc.desc   : 跨焦点组走焦，另一个焦点组上次无节点获焦，有默认获焦组件
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -426,7 +418,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_0900
      * @tc.name   : Mixed focus navigation between focus group and non-focus group, no default focus component in focus group.
      * @tc.type   : function
-     * @tc.desc   : 焦点组和非焦点组之间混合走焦，焦点组内无默认获奖组件
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -473,7 +464,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1000
      * @tc.name   : Focus group has no focusable child component, parent container component is focusable.
      * @tc.type   : function
-     * @tc.desc   : 焦点组内无可获焦子组件，父容器组件可获焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -512,7 +502,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1100
      * @tc.name   : Delete focus group and check focus navigation with Tab key.
      * @tc.type   : function
-     * @tc.desc   : 删除焦点组，tab键查看走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -552,7 +541,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1200
      * @tc.name   : Focus group is invisible, check focus navigation with Tab key.
      * @tc.type   : function
-     * @tc.desc   : 焦点组不可见，tab键查看走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -596,7 +584,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1300
      * @tc.name   : Focus group component sets tabIndex, navigate according to tabIndex order.
      * @tc.type   : function
-     * @tc.desc   : 焦点组组件设置tabIndex，按照tabIndex顺序走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -631,7 +618,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1400
      * @tc.name   : Focus group inner component sets focusBox to change focus box style.
      * @tc.type   : function
-     * @tc.desc   : 焦点组内组件设置focusBox，改变焦点框样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -667,7 +653,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1500
      * @tc.name   : Click blank area to call clearFocus, clear focus.
      * @tc.type   : function
-     * @tc.desc   : 点击空白处调用clearFocus，清除焦点
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -703,7 +688,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1600
      * @tc.name   : Non-subwindow calls Menu, MenuGroup is set as focus group, navigate with Tab key.
      * @tc.type   : function
-     * @tc.desc   : 非子窗口调用Menu菜单，MenuGroup设置为焦点组，按tab走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -739,7 +723,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1700
      * @tc.name   : Subwindow calls Menu, MenuGroup is set as focus group, navigate with Tab key.
      * @tc.type   : function
-     * @tc.desc   : 子窗口调用Menu菜单，MenuGroup设置为焦点组，按tab走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -775,7 +758,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1800
      * @tc.name   : Dialog component adds focus group, navigate with Tab key.
      * @tc.type   : function
-     * @tc.desc   : dialog组件添加焦点组，按tab走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -815,7 +797,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_1900
      * @tc.name   : Popup component adds focus group, navigate with Tab key.
      * @tc.type   : function
-     * @tc.desc   : popUp组件添加焦点组，按tab走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -851,7 +832,6 @@ export default function CommonAttrFocusgroup() {
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSGROUP_2000
      * @tc.name   : Half modal page adds focus group, navigate with Tab key in half modal panel.
      * @tc.type   : function
-     * @tc.desc   : 半模态页面添加焦点组，按tab在半模态面板走焦
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

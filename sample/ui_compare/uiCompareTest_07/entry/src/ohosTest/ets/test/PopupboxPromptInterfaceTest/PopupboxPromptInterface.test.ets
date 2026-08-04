@@ -43,7 +43,6 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0030
      * @tc.name   : showActionMenu buttons parameter not passed
-     * @tc.desc   : 验证@ohos.prompt通过getUIContext方法获取unicontent对象，调用getPromptAction方法.showActionMenu方法的buttons参数不传入
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,7 +66,6 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0060
      * @tc.name   : showActionMenu color parameter not passed
-     * @tc.desc   : 验证@ohos.prompt通过getUIContext方法获取unicontent对象，调用getPromptAction方法.showActionMenu方法的color参数不传入
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +89,6 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0090
      * @tc.name   : showActionMenu text parameter not passed
-     * @tc.desc   : 验证@ohos.prompt通过getUIContext方法获取unicontent对象，调用getPromptAction方法.showActionMenu方法的text参数不传入
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,7 +112,6 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1500
      * @tc.name   : Toast visual display in light mode conforms to UX specification
-     * @tc.desc   : 浅色模式下，toast视觉显示符合UX规范
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +137,6 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1600
      * @tc.name   : Toast visual display in dark mode conforms to UX specification
-     * @tc.desc   : 深色模式下，toast视觉显示符合UX规范
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

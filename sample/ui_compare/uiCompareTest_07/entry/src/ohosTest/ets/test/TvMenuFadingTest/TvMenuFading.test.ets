@@ -44,7 +44,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_001
      * @tc.name   : Set a background image for menuItem and check the fade-out effect.
      * @tc.type   : function
-     * @tc.desc   : menuItem设置背景图片，查看渐隐效果
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,7 +71,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_002
      * @tc.name   : Set a background color for menuItem and check the fade-out effect.
      * @tc.type   : function
-     * @tc.desc   : menuItem设置背景颜色，查看渐隐效果
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -100,7 +98,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_003
      * @tc.name   : Set a background color for menu and check the fade-out effect.
      * @tc.type   : function
-     * @tc.desc   : menu组件设置背景颜色，查看渐隐效果
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -128,7 +125,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_004
      * @tc.name   : Set a background image for menu and check the fade-out effect.
      * @tc.type   : function
-     * @tc.desc   : menu设置背景图片，查看渐隐效果
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -156,7 +152,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_021
      * @tc.name   : SubMenuExpandingMode configuration does not affect the overlong effect.
      * @tc.type   : function
-     * @tc.desc   : 子菜单subMenuExpandingMode配置，不影响超长效果
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -189,7 +184,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_031
      * @tc.name   : MenuItem overlong focus marquee, switch to background.
      * @tc.type   : function
-     * @tc.desc   : menuitem超长获焦跑马灯，切换后台
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -222,7 +216,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_032
      * @tc.name   : MenuItem overlong focus marquee, screen off and on.
      * @tc.type   : function
-     * @tc.desc   : menuitem超长获焦跑马灯，息屏再亮屏
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -255,7 +248,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_033
      * @tc.name   : MenuItem overlong, long press and move.
      * @tc.type   : function
-     * @tc.desc   : menuitem超长，长按移动
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -299,7 +291,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_034
      * @tc.name   : Menu expand submenu, click blank area to collapse.
      * @tc.type   : function
-     * @tc.desc   : menu展开二级菜单，点击空白处收起
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -336,7 +327,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_035
      * @tc.name   : Menu component focus hover switch.
      * @tc.type   : function
-     * @tc.desc   : menu组件焦点hover切换
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -390,7 +380,6 @@ export default function TvMenuFading() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_036
      * @tc.name   : Menu component focus switch back and forth.
      * @tc.type   : function
-     * @tc.desc   : menu组件焦点来回切换
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

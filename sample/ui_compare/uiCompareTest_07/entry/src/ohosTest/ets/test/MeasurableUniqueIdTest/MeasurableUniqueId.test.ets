@@ -44,7 +44,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0010
      * @tc.type   : function
-     * @tc.desc   : In onMeasureSize and onPlaceChildren, print logs showing the uniqueId field from Measurable and Layoutable. Call the getUniqueId interface of FrameNode and print the result to the logs.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -76,7 +75,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0020
      * @tc.type   : function
-     * @tc.desc   : Through the getFrameNodeByUniqueId interface, the correct NodeContainer FrameNode can be obtained, and the FrameNode of its placeholder sub-component can be further obtained, with its size changed to 100 and background color changed to pink.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -108,7 +106,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0030
      * @tc.type   : function
-     * @tc.desc   : Through the getFrameNodeByUniqueId interface, the correct NodeContainer FrameNode can be obtained, and clicking the button to call the Get series API of FrameNode can print correct information.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -150,7 +147,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0040
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and add common events.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -193,7 +189,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0050
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and add sliding gesture events.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -241,7 +236,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0060
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and add long press gesture events.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -289,7 +283,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0070
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and add double tap gesture events.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -339,7 +332,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0080
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and add child nodes at the end.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -376,7 +368,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0090
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and add child nodes after the sixth node.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -411,7 +402,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0100
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and remove a child node.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -442,7 +432,6 @@ export default function MeasurableUniqueId() {
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0110
      * @tc.type   : function
-     * @tc.desc   : Correctly obtain the FrameNode of the placeholder sub-component and clear all child nodes.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

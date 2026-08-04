@@ -44,7 +44,6 @@ export default function PopupBoxAlertdialogInterface() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_INTERFACE_1200
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_INTERFACE_1200
      * @tc.type   : function
-     * @tc.desc   : Obtain the Uniconten object via getUIContext(), call the showAlertDialog() method to create a warning dialog with a confirmation-button type, and set the content message (Resource type).
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

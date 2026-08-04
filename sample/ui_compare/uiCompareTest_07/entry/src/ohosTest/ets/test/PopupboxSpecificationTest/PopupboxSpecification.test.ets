@@ -44,7 +44,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0010
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless popup, then click on the gallery's free window (WGR) - popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,7 +71,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0020
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless popup, then click on the gallery's free window (WGR) - popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -100,7 +98,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0030
      * @tc.type   : function
-     * @tc.desc   : Create a popup with buttons, then click on the gallery's free window (WGR) - popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -128,7 +125,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0040
      * @tc.type   : function
-     * @tc.desc   : Create a popup with buttons, then click on the gallery's free window (WGR) - popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -156,7 +152,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0050
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless alert popup, then click on the gallery's free window (WGR) - alert popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -184,7 +179,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0060
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless alert popup, then click on the gallery's free window (WGR) - alert popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -212,7 +206,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0070
      * @tc.type   : function
-     * @tc.desc   : Create an alert popup with buttons, then click on the gallery's free window (WGR) - alert popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -240,7 +233,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0080
      * @tc.type   : function
-     * @tc.desc   : Create an alert popup with buttons, then click on the gallery's free window (WGR) - alert popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -268,7 +260,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0090
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless list selection popup, then click on the gallery's free window (WGR) - list selection popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -296,7 +287,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0100
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless list selection popup, then click on the gallery's free window (WGR) - list selection popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -324,7 +314,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0110
      * @tc.type   : function
-     * @tc.desc   : Create a list selection popup with buttons, then click on the gallery's free window (WGR) - list selection popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -352,7 +341,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0120
      * @tc.type   : function
-     * @tc.desc   : Create a list selection popup with buttons, then click on the gallery's free window (WGR) - list selection popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -380,7 +368,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0250
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless prompt popup, then click on the gallery's free window (WGR) - prompt, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -408,7 +395,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0260
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless prompt popup, then click on the gallery's free window (WGR) - prompt, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -436,7 +422,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0270
      * @tc.type   : function
-     * @tc.desc   : Create a prompt popup with buttons, then click on the gallery's free window (WGR) - prompt, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -464,7 +449,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0280
      * @tc.type   : function
-     * @tc.desc   : Create a prompt popup with buttons, then click on the gallery's free window (WGR) - prompt, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -492,7 +476,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0290
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless promptAction popup, then click on the gallery's free window (WGR) - promptAction, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -520,7 +503,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0300
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless promptAction popup, then click on the gallery's free window (WGR) - promptAction, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -548,7 +530,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0310
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0310
      * @tc.type   : function
-     * @tc.desc   : Create a promptAction popup with buttons, then click on the gallery's free window (WGR) - promptAction, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -576,7 +557,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0320
      * @tc.type   : function
-     * @tc.desc   : Create a promptAction popup with buttons, then click on the gallery's free window (WGR) - promptAction, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -604,7 +584,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0330
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless custom popup, then click on the gallery's free window (WGR) - custom popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -632,7 +611,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0340
      * @tc.type   : function
-     * @tc.desc   : Create a buttonless custom popup, then click on the gallery's free window (WGR) - custom popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -660,7 +638,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0350
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0350
      * @tc.type   : function
-     * @tc.desc   : Create a custom popup with buttons, then click on the gallery's free window (WGR) - custom popup, with an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -688,7 +665,6 @@ export default function PopupboxSpecification() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0360
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0360
      * @tc.type   : function
-     * @tc.desc   : Create a custom popup with buttons, then click on the gallery's free window (WGR) - custom popup, without an overlay.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -44,7 +44,6 @@ export default function PopupboxSpecificationsAlignment() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0030
      * @tc.type   : function
-     * @tc.desc   : In UIExtension, repeatedly clicking on the popup with showInSubWindow set to true.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -96,7 +95,6 @@ export default function PopupboxSpecificationsAlignment() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0090
      * @tc.type   : function
-     * @tc.desc   : In UIExtension, click subWindow:T, switch focus to click for dialog, press enter key to click for dialog popup.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -138,7 +136,6 @@ export default function PopupboxSpecificationsAlignment() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0100
      * @tc.type   : function
-     * @tc.desc   : In UIExtension, click subWindow:T, switch focus to click for dialog, click for dialog popup, use tab key to switch focus and close sub-dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -188,7 +185,6 @@ export default function PopupboxSpecificationsAlignment() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0110
      * @tc.type   : function
-     * @tc.desc   : In UIExtension, click subWindow:T, switch focus to click for dialog, click for dialog popup, click button to close sub-dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -235,7 +231,6 @@ export default function PopupboxSpecificationsAlignment() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0140
      * @tc.type   : function
-     * @tc.desc   : In UIExtension, click subWindow:T, click for dialog popup, enter/space to close sub-dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

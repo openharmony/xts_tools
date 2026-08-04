@@ -44,7 +44,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0040
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample4
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -64,7 +63,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0070
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample4
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -93,7 +91,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0080
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample8
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -122,7 +119,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0060
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample6
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -151,7 +147,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0120
      * @tc.type   : Functio
-     * @tc.desc   : Guage#GuageTest#GuageExample5_2
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -171,7 +166,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0110
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample5_1
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -191,7 +185,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0050
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample5
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -211,7 +204,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0130
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample5_3
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -231,7 +223,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0180
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9_5
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -254,7 +245,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0090
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -277,7 +267,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0190
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9_6
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -300,7 +289,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0150
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9_2
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -323,7 +311,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0140
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9_1
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -346,7 +333,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0170
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9_4
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -369,7 +355,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0160
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample9_3
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -392,7 +377,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0100
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample10
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -412,7 +396,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0030
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample3
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -444,7 +427,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0020
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample2
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -482,7 +464,6 @@ export default function InfomationGaugeUi() {
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0010
      * @tc.type   : Function
-     * @tc.desc   : Guage#GuageTest#GuageExample1
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

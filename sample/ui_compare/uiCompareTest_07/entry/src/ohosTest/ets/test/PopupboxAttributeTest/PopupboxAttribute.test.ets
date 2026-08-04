@@ -44,7 +44,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0120
      * @tc.type   : function
-     * @tc.desc   : Configure the onDidAppear, onDidDisappear, onWillAppear, and onWillDisappear functions to verify the callback situations when opening a pop-up window and closing it by swiping left, swiping right, tapping the overlay, or tapping the Close button.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -78,7 +77,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0130
      * @tc.type   : function
-     * @tc.desc   : Configure onDidAppear, onDidDisappear, onWillAppear, onWillDisappear functions to verify that these four callbacks are triggered when opening and closing the dialog normally
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -110,7 +108,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0140
      * @tc.type   : function
-     * @tc.desc   : Configure onWillDismiss without dismiss method in the function body, allow clicking the overlay, three-key back, swipe left/right, keyboard ESC, the global custom dialog that does not depend on UI components does not exit, and returns the reason for intercepting the dialog closure
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -148,7 +145,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0150
      * @tc.type   : function
-     * @tc.desc   : Configure onWillDismiss without dismiss method in the function body, click the close button (promptAction.closeCustomDialog(customDialogId)), the global custom dialog that does not depend on UI components does not trigger dismissDialog.dismiss() callback and can exit normally
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -180,7 +176,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0160
      * @tc.type   : function
-     * @tc.desc   : Configure onWillDismiss with dismiss method in the function body, autoCancel is false, allow clicking the overlay, the dialog does not close and does not call back the dismiss method, and does not return the reason for intercepting the dialog closure
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -218,7 +213,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0170
      * @tc.type   : function
-     * @tc.desc   : Configure onWillDismiss with dismiss method in the function body, allow clicking the overlay, three-key back, left/right swipe, keyboard ESC, the global custom dialog that does not depend on UI components exits and triggers dismissDialog.dismiss() callback
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -261,7 +255,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0180
      * @tc.type   : function
-     * @tc.desc   : In the page, set up two pop-up windows. When opening and closing them, the triggered animations and event callback functions correspond to the pop-up window that is being opened.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -303,7 +296,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0190
      * @tc.type   : function
-     * @tc.desc   : Verify asymmetric TransitionEffect.scale({ x: 0, y: 0 }).animation({ duration: 5000 }), TransitionEffect.OPACITY.animation({ duration: 5000 }) with duration 5000ms, show/exit animation effects are normal
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -336,7 +328,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0200
      * @tc.type   : function
-     * @tc.desc   : Verify IDENTITY show/exit animation effects are normal
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -369,7 +360,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0220
      * @tc.type   : function
-     * @tc.desc   : Verify OPACITY with duration 5000ms, show/exit animation effects are normal
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -402,7 +392,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0240
      * @tc.type   : function
-     * @tc.desc   : Verify opacity 0.5 with duration 5000ms, show/exit animation effects are normal
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -435,7 +424,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0490
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0490
      * @tc.type   : function
-     * @tc.desc   : Verify that when opening two dialogs A/B, closing dialog A from dialog B, the focus works normally
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -474,7 +462,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0210
      * @tc.type   : function
-     * @tc.desc   : Verify move:top show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -508,7 +495,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0260
      * @tc.type   : function
-     * @tc.desc   : Verify scale({ x:2,y:2 }) show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -542,7 +528,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0230
      * @tc.type   : function
-     * @tc.desc   : Verify opacity -20 (abnormal value) show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -576,7 +561,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0270
      * @tc.type   : function
-     * @tc.desc   : Verify SLIDE show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -610,7 +594,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0250
      * @tc.type   : function
-     * @tc.desc   : Verify rotate({ x:100,y:100, angle: "90deg" }) show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -649,7 +632,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0280
      * @tc.type   : function
-     * @tc.desc   : Verify SLIDE_SWITCH show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -683,7 +665,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0290
      * @tc.type   : function
-     * @tc.desc   : Verify translate({ x: 10, y: 10 }) show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -722,7 +703,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0300
      * @tc.type   : function
-     * @tc.desc   : Verify translate({ x: 10, y: 10 }) show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -756,7 +736,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0320
      * @tc.type   : function
-     * @tc.desc   : Verify animation object playMode parameter supports reverse playback
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -784,7 +763,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0330
      * @tc.type   : function
-     * @tc.desc   : Verify that when Page A opens a dialog with UIContext of Page B, focus works normally
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -817,7 +795,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0340
      * @tc.type   : function
-     * @tc.desc   : Verify combine transition effect (opacity + rotate) show/exit animation effects are normal when duration is 5000ms
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -851,7 +828,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0410
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0410
      * @tc.type   : function
-     * @tc.desc   : Verify that global custom dialog not dependent on UI components follows native dialog focus logic
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -882,7 +858,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0420
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0420
      * @tc.type   : function
-     * @tc.desc   : Verify that global custom dialog not dependent on UI components avoids soft keyboard and safe area
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -921,7 +896,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0430
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0430
      * @tc.type   : function
-     * @tc.desc   : Verify that using closeCustomDialog to close an unopened dialog returns an error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -947,7 +921,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0440
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0440
      * @tc.type   : function
-     * @tc.desc   : Verify that using updateCustomDialog to update an unopened dialog returns an error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -973,7 +946,6 @@ export default function PopupboxAttribute() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0460
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0460
      * @tc.type   : function
-     * @tc.desc   : Verify that opening the same ComponentContent again when it's already opened returns an error
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -44,7 +44,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0220
      * @tc.type   : function
-     * @tc.desc   : Validate that the exit animation curve is LinearOutSlowIn in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -74,7 +73,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0010
      * @tc.type   : function
-     * @tc.desc   : Create a dialog without buttons, then click the gallery free window (WGR) - custom dialog without mask.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -96,7 +94,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0020
      * @tc.type   : function
-     * @tc.desc   : Create a dialog without buttons, then click the gallery free window (WGR) - custom dialog with mask.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -118,7 +115,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0030
      * @tc.type   : function
-     * @tc.desc   : Create a dialog with buttons, then click the gallery free window (WGR) - custom dialog without mask.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -140,7 +136,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0040
      * @tc.type   : function
-     * @tc.desc   : Create a dialog with buttons, then click the gallery free window (WGR) - custom dialog with mask.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -162,7 +157,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0080
      * @tc.type   : function
-     * @tc.desc   : Connect keyboard and click Enter key in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -184,7 +178,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0090
      * @tc.type   : function
-     * @tc.desc   : Connect keyboard and click ESC key in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -206,7 +199,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0100
      * @tc.type   : function
-     * @tc.desc   : Connect keyboard and click Tab key to check if it can get focus in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -228,7 +220,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0110
      * @tc.type   : function
-     * @tc.desc   : Connect keyboard and click space key in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -250,7 +241,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0120
      * @tc.type   : function
-     * @tc.desc   : Connect mouse and verify if it can click in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -276,7 +266,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0130
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is Ease in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -302,7 +291,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0140
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is EaseIn in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -328,7 +316,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0150
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is EaseInOut in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -354,7 +341,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0160
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is EaseOut in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -380,7 +366,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0170
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is ExtremeDeceleration in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -406,7 +391,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0180
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is FastOutLinearIn in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -432,7 +416,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0190
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is FastOutSlowIn in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -458,7 +441,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0200
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is Friction in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -484,7 +466,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0210
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is Linear in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -510,7 +491,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0230
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is Rhythm in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -536,7 +516,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0240
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is Sharp in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -562,7 +541,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0250
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation curve is Smooth in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -588,7 +566,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0260
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation delay is not set in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -614,7 +591,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0270
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation delay is set to -1000 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -640,7 +616,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0280
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation delay is set to 1000 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -666,7 +641,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0290
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation duration is not set in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -692,7 +666,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0300
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation duration is set to -1000 to play for 1s in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -718,7 +691,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0310
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0310
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation duration is set to 0 with no animation effect in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -744,7 +716,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0320
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation duration is set to 4000 to play for 4s in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -770,7 +741,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0330
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation duration is set to 9999 and tempo is set to 0 with no animation effect in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -796,7 +766,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0340
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation iterations are not set in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -822,7 +791,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0350
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0350
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation iterations is set to -1 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -848,7 +816,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0360
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0360
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation iterations is set to -10 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -874,7 +841,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0370
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0370
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation iterations is set to 0 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -900,7 +866,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0380
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0380
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation iterations is set to 5 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -926,7 +891,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0390
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0390
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation tempo is not set in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -952,7 +916,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0400
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0400
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation tempo is set to -10 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -978,7 +941,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0410
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0410
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation tempo is set to 0 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1004,7 +966,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0420
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0420
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation tempo is set to 2 in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1030,7 +991,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0430
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0430
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 10 times with playMode Alternate in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1056,7 +1016,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0440
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0440
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 10 times with playMode AlternateReverse in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1082,7 +1041,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0450
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0450
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 10 times with playMode.Normal in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1108,7 +1066,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0460
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0460
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 10 times with playMode Reverse in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1134,7 +1091,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0470
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0470
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 1 time with playMode Alternate in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1160,7 +1116,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0480
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0480
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 1 time with playMode AlternateReverse in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1186,7 +1141,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0490
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0490
      * @tc.type   : function
-     * @tc.desc   : Verify that the exit animation is set to play 1 time with playMode Reverse in the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1212,7 +1166,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0530
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0530
      * @tc.type   : function
-     * @tc.desc   : Stack multiple dialogs in custom dialog and trigger ESC key using keyboard.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1234,7 +1187,6 @@ export default function CustomDialogScenarios() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0650
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_SCENARIOS_0650
      * @tc.type   : function
-     * @tc.desc   : Set two buttons on one page, both bound to custom dialog events, both set cancel functions, verify that the callback triggered when closing the dialog by clicking the mask layer is correct.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

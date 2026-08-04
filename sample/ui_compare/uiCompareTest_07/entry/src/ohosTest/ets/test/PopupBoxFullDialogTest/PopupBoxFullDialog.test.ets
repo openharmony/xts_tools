@@ -44,7 +44,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0250
      * @tc.type   : function
-     * @tc.desc   : Verify that the display and exit animation effects are normal when rotate({ x:100, y:100, angle: "90deg" }) with a duration of 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -80,7 +79,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0340
      * @tc.type   : function
-     * @tc.desc   : Verify that the display and exit animation effects are normal when combine [TransitionEffect.opacity(0.5).animation({ duration: duration, curve: Curve.Ease }).combine(TransitionEffect.rotate({ z: 1, angle: 180 }))] with a duration of 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -113,7 +111,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0230
      * @tc.type   : function
-     * @tc.desc   : Verify that the display and exit animation effects are normal when opacity is -20 (abnormal value) with a duration of 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -146,7 +143,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0330
      * @tc.type   : function
-     * @tc.desc   : Verify that when Page A opens a dialog with UIContext of Page B, focus works normally.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -180,7 +176,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0300
      * @tc.type   : function
-     * @tc.desc   : Verify that the display and exit animation effects are normal when translate({ x: 10, y: 10 }) with a duration of 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -213,7 +208,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0320
      * @tc.type   : function
-     * @tc.desc   : Verify that animation object playMode parameter supports reverse playback.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -242,7 +236,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0410
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0410
      * @tc.type   : function
-     * @tc.desc   : Verify that global custom dialog not dependent on UI components follows native dialog focus logic.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -274,7 +267,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0290
      * @tc.type   : function
-     * @tc.desc   : Verify that the display and exit animation effects are normal when translate({ x: 10, y: 10 }) with a duration of 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -307,7 +299,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0420
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0420
      * @tc.type   : function
-     * @tc.desc   : Verify that global custom dialog not dependent on UI components avoids soft keyboard and safe area.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -342,7 +333,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0460
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0460
      * @tc.type   : function
-     * @tc.desc   : Verify that opening the same ComponentContent again when it's already opened returns an error.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -374,7 +364,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0440
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0440
      * @tc.type   : function
-     * @tc.desc   : Verify that using updateCustomDialog to dynamically update custom options of an unopened dialog returns an error.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -401,7 +390,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0430
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0430
      * @tc.type   : function
-     * @tc.desc   : Verify that using closeCustomDialog to close an unopened dialog returns an error.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -428,7 +416,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0490
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0490
      * @tc.type   : function
-     * @tc.desc   : Verify that when opening two dialogs A/B, closing dialog A from dialog B, the focus works normally.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -470,7 +457,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0190
      * @tc.type   : function
-     * @tc.desc   : Verify that asymmetric TransitionEffect.scale({ x: 0, y: 0 }).animation({ duration: 5000 }), TransitionEffect.OPACITY.animation({ duration: 5000 }) display and exit animation effects are normal with a duration of 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -503,7 +489,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0120
      * @tc.type   : function
-     * @tc.desc   : Verify that onDidAppear, onDidDisappear, onWillAppear, onWillDisappear callback functions work correctly when opening and closing the dialog.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -535,7 +520,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0140
      * @tc.type   : function
-     * @tc.desc   : Verify that onWillDismiss without dismiss method intercepts dialog close and returns the reason.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -571,7 +555,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0180
      * @tc.type   : function
-     * @tc.desc   : Verify that two dialogs trigger correct lifecycle callbacks when opened and closed.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -613,7 +596,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0160
      * @tc.type   : function
-     * @tc.desc   : Verify that onWillDismiss with dismiss method and autoCancel false blocks overlay click but allows back key.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -648,7 +630,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0130
      * @tc.type   : function
-     * @tc.desc   : Verify that onDidAppear, onDidDisappear, onWillAppear, onWillDisappear callback functions work correctly when opening and closing the dialog normally.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -680,7 +661,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0170
      * @tc.type   : function
-     * @tc.desc   : Verify that onWillDismiss with dismiss method allows dialog to close and returns the reason.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -719,7 +699,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0150
      * @tc.type   : function
-     * @tc.desc   : Verify that onWillDismiss without dismiss method does not trigger callback when closed by closeCustomDialog button.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -753,7 +732,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0200
      * @tc.type   : function
-     * @tc.desc   : Verify IDENTITY transition effect shows and exits normally with no transition effect.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -784,7 +762,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0210
      * @tc.type   : function
-     * @tc.desc   : Verify move:top transition effect shows and exits normally with duration 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -815,7 +792,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0220
      * @tc.type   : function
-     * @tc.desc   : Verify OPACITY transition effect shows and exits normally with duration 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -846,7 +822,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0240
      * @tc.type   : function
-     * @tc.desc   : Verify opacity 0.5 transition effect shows and exits normally with duration 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -877,7 +852,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0260
      * @tc.type   : function
-     * @tc.desc   : Verify scale({ x: 2, y: 2 }) transition effect shows and exits normally with duration 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -908,7 +882,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0280
      * @tc.type   : function
-     * @tc.desc   : Verify SLIDE_SWITCH transition effect shows and exits normally with duration 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -939,7 +912,6 @@ export default function PopupBoxFullDialog() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0270
      * @tc.type   : function
-     * @tc.desc   : Verify SLIDE transition effect shows and exits normally with duration 5000ms.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

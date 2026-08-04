@@ -44,7 +44,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0010
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0010
      * @tc.type   : function
-     * @tc.desc   : Verify the required nature of the message parameter in ActionSheet.show().
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -77,7 +76,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0020
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0020
      * @tc.type   : function
-     * @tc.desc   : Verify the required nature of the message parameter in ActionSheet.show().
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -110,7 +108,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0030
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0030
      * @tc.type   : function
-     * @tc.desc   : Verify the required nature of the message parameter in ActionSheet.show().
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -145,7 +142,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0040
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0040
      * @tc.type   : function
-     * @tc.desc   : Verify ActionSheet with wrong message parameter type.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -178,7 +174,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0050
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0050
      * @tc.type   : function
-     * @tc.desc   : Verify ActionSheet with abnormal subtitle value.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -211,7 +206,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0060
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0060
      * @tc.type   : function
-     * @tc.desc   : Verify ActionSheet with showInSubWindow set to false.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -241,7 +235,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0070
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0070
      * @tc.type   : function
-     * @tc.desc   : Verify ActionSheet with showInSubWindow set to true.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -271,7 +264,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0080
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0080
      * @tc.type   : function
-     * @tc.desc   : Verify the optional nature of non-required parameters in ActionSheet.show().
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -301,7 +293,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0600
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0600
      * @tc.type   : function
-     * @tc.desc   : Verify actionSheet visual display conforms to UX specifications in dark mode.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -330,7 +321,6 @@ export default function DialogActionsheet() {
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0700
      * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0700
      * @tc.type   : function
-     * @tc.desc   : Verify actionSheet visual display conforms to UX specifications in light mode.
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
