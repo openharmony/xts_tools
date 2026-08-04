@@ -63,10 +63,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010
-     * @tc.desc    List top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010';
@@ -92,10 +93,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020
-     * @tc.desc    List bottom pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020';
@@ -123,10 +125,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030
-     * @tc.desc    List top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030';
@@ -146,10 +149,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090
-     * @tc.desc    Scroll bottom pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090';
@@ -177,10 +181,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100
-     * @tc.desc    Scroll top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100';
@@ -200,10 +205,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080
-     * @tc.desc    Scroll top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080';
@@ -229,10 +235,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150
-     * @tc.desc    Grid top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150';
@@ -258,10 +265,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160
-     * @tc.desc    Grid bottom pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160';
@@ -289,10 +297,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170
-     * @tc.desc    Grid top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170';
@@ -312,10 +321,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230
-     * @tc.desc    WaterFlow top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230';
@@ -341,10 +351,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240
-     * @tc.desc    WaterFlow bottom pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240';
@@ -372,10 +383,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250
-     * @tc.desc    WaterFlow top pull-to-follow effect
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250';
@@ -395,10 +407,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040
-     * @tc.desc    List nested with child component prioritized, parent and child pull-down follow effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040';
@@ -428,10 +441,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050
-     * @tc.desc    List nested with parent component prioritized, parent and child pull-down follow effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050';
@@ -461,10 +475,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060
-     * @tc.desc    List nested scrolling
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060';
@@ -494,10 +509,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070
-     * @tc.desc    List horizontal layout left-right pull follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070';
@@ -527,10 +543,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110
-     * @tc.desc    Scroll parent component pull-down, child component takes priority
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110';
@@ -560,10 +577,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120
-     * @tc.desc    Scroll child component pull-down, parent component takes priority
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120';
@@ -593,10 +611,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130
-     * @tc.desc    Scroll nested scrolling
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130';
@@ -626,10 +645,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140
-     * @tc.desc    Scroll horizontal layout left-right pull follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140';
@@ -659,10 +679,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180
-     * @tc.desc    Grid parent component pull-down, child component takes priority
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180';
@@ -692,10 +713,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190
-     * @tc.desc    Grid child component pull-down, parent component takes priority
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190';
@@ -725,10 +747,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200
-     * @tc.desc    Grid nested scrolling
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200';
@@ -758,10 +781,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210
-     * @tc.desc    Grid horizontal layout left-right pull follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210';
@@ -791,10 +815,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220
-     * @tc.desc    Grid unequal height scenario left-right pull follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220';
@@ -824,10 +849,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260
-     * @tc.desc    WaterFlow parent component pull-down, child component takes priority
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260';
@@ -857,10 +883,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270
-     * @tc.desc    WaterFlow child component pull-down, parent component takes priority
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270';
@@ -890,10 +917,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280
-     * @tc.desc    WaterFlow nested scrolling
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280';
@@ -923,10 +951,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290
-     * @tc.desc    WaterFlow horizontal layout left-right pull follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290';
@@ -956,10 +985,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300
-     * @tc.desc    List scrollTo out-of-bounds bounce effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300';
@@ -989,10 +1019,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350
-     * @tc.desc    Scroll component repeated pull-down or pull-up
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350';
@@ -1030,10 +1061,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360
-     * @tc.desc    Scroll component set start or end offset, pull down or pull up, observe follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360';
@@ -1063,10 +1095,11 @@ export default function UIComponentScrollPullDown() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370
-     * @tc.desc    Scroll component set limit alignment attribute, pull down or pull up, observe follow-finger effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370';

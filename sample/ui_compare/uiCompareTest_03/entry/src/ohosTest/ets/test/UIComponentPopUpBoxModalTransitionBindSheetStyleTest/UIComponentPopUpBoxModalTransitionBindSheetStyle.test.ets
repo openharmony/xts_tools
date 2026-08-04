@@ -63,10 +63,11 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030
-     * @tc.desc    Set Tibetan title and subtitle with showClose false
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030';
@@ -86,10 +87,11 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070
-     * @tc.desc    Set semi-modal with preferType SheetType Center Chinese title and subtitle and showClose false on mobile device
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070';
@@ -109,10 +111,11 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140
-     * @tc.desc    Set Tibetan title and subtitle with showClose true
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140';
@@ -132,10 +135,11 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150
-     * @tc.desc    Set semi-modal with preferType SheetType Popup Chinese title and subtitle and showClose false on mobile device
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150';

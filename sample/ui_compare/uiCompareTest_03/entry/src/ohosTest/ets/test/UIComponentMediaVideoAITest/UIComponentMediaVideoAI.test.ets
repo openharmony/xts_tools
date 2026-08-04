@@ -69,10 +69,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150
-     * @tc.desc    Set enableAnalyzer(true) for the video component
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150';
@@ -103,10 +104,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160
-     * @tc.desc    Set enableAnalyzer(false) for the video component
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160';
@@ -137,10 +139,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170
-     * @tc.desc    Set enableAnalyzer(undefined) for the video component
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170';
@@ -171,10 +174,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180
-     * @tc.desc    Set enableAnalyzer(null) for the video component
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180';
@@ -205,10 +209,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190
-     * @tc.desc    Set enableAnalyzer(false) for the video component
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190';
@@ -264,10 +269,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200
-     * @tc.desc    The video component's ImageAnalyzerConfig only supports the 'text' type
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200';
@@ -298,10 +304,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210
-     * @tc.desc    The video component's ImageAnalyzerConfig only supports the 'subject' type
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210';
@@ -332,10 +339,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220
-     * @tc.desc    Manually configured: video component's ImageAnalyzerConfig = 333
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220';
@@ -366,10 +374,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230
-     * @tc.desc    Manually configured: video component's ImageAnalyzerConfig as undefined
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230';
@@ -400,10 +409,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240
-     * @tc.desc    Manually configured: video component's ImageAnalyzerConfig as null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240';
@@ -434,10 +444,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250
-     * @tc.desc    Manually configured: video component's ImageAnalyzerConfig as null
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250';
@@ -468,10 +479,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270
-     * @tc.desc    While the video component is paused, drag the progress bar to the middle position. After releasing, play the video and immediately pause it again
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270';
@@ -516,10 +528,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280
-     * @tc.desc    While the video component is in idle state (not playing), drag the progress bar to the mid-point. After releasing, verify that playback starts automatically and then immediately pauses again
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280';
@@ -553,10 +566,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290
-     * @tc.desc    Play the video until it stops naturally, with AI recognition not available during playback
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290';
@@ -601,10 +615,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300
-     * @tc.desc    After pausing the video, dynamically change objectFit to Contain, Cover, Auto, Fill, ScaleDown, and None, then observe the AI recognition results for each mode
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300';
@@ -672,10 +687,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310
-     * @tc.desc    AI recognition functions normally when the video is paused in full-screen mode
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310';
@@ -709,10 +725,11 @@ export default function UIComponentMediaVideoAI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320
-     * @tc.desc    Repeatedly switch between full-screen and windowed modes to verify proper overlay destruction and consistent AI recognition performance
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320';

@@ -63,10 +63,11 @@ export default function UIComponentScrollFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010
-     * @tc.desc    Enable scroll_fadingEdge with true
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010';
@@ -89,10 +90,11 @@ export default function UIComponentScrollFadingEdge() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020
-     * @tc.desc    Disable scroll_fadingEdge with false
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020';

@@ -60,10 +60,11 @@ export default function UIComponentPopupBoxSelectMirror() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020
-     * @tc.desc    Test Select component mirroring capability with proper focus navigation in Simplified Chinese environment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020';
@@ -107,10 +108,11 @@ export default function UIComponentPopupBoxSelectMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030
-     * @tc.desc    Test Select component mirroring capability with proper focus navigation in Uyghur language environment
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030';
@@ -169,10 +171,11 @@ export default function UIComponentPopupBoxSelectMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040
-     * @tc.desc    Verify layout behavior in Simplified Chinese environment when direction property is unset
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040';
@@ -196,10 +199,11 @@ export default function UIComponentPopupBoxSelectMirror() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050
-     * @tc.desc    Verify layout behavior in Simplified Chinese environment when direction property is set to AUTO
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050';

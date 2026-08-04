@@ -59,10 +59,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970
-     * @tc.desc    Scroll component supports edgeEffect set to edgeEffect: EdgeEffect.Fade
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970';
@@ -92,10 +93,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980
-     * @tc.desc    Scroll component supports edgeEffect set to edgeEffect: EdgeEffect.Fade, { alwaysEnabled: false }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980';
@@ -125,10 +127,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990
-     * @tc.desc    Scroll component supports edgeEffect set to edgeEffect: EdgeEffect.Fade, { alwaysEnabled: true }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990';
@@ -158,10 +161,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000
-     * @tc.desc    Scroll component supports edgeEffect set to edgeEffect: EdgeEffect.None
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000';
@@ -191,10 +195,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010
-     * @tc.desc    Scroll component supports edgeEffect set to edgeEffect: EdgeEffect.None, { alwaysEnabled: false }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010';
@@ -224,10 +229,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020
-     * @tc.desc    Scroll component supports edgeEffect set to edgeEffect: EdgeEffect.None, { alwaysEnabled: true }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020';
@@ -257,10 +263,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080
-     * @tc.desc    Scroll component supports enablePaging as undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080';
@@ -283,10 +290,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090
-     * @tc.desc    Scroll component supports enableScrollInteraction set to false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090';
@@ -309,10 +317,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100
-     * @tc.desc    Scroll component supports enableScrollInteraction set to true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100';
@@ -335,10 +344,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110
-     * @tc.desc    Scroll component supports enableScrollInteraction set to undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110';
@@ -361,10 +371,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARALLEL, scrollBackward: NestedScrollMode.PARALLEL }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170';
@@ -401,10 +412,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARALLEL, scrollBackward: NestedScrollMode.PARENT_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180';
@@ -441,10 +453,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARALLEL, scrollBackward: NestedScrollMode.SELF_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190';
@@ -481,10 +494,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARALLEL, scrollBackward: NestedScrollMode.SELF_ONLY }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200';
@@ -521,10 +535,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARENT_FIRST, scrollBackward: NestedScrollMode.PARALLEL }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210';
@@ -561,10 +576,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARENT_FIRST, scrollBackward: NestedScrollMode.PARENT_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220';
@@ -601,10 +617,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARENT_FIRST, scrollBackward: NestedScrollMode.SELF_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230';
@@ -641,10 +658,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.PARENT_FIRST, scrollBackward: NestedScrollMode.SELF_ONLY }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240';
@@ -681,10 +699,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_FIRST, scrollBackward: NestedScrollMode.PARALLEL }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250';
@@ -721,10 +740,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_FIRST, scrollBackward: NestedScrollMode.PARENT_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260';
@@ -761,10 +781,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_FIRST, scrollBackward: NestedScrollMode.SELF_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270';
@@ -801,10 +822,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_FIRST, scrollBackward: NestedScrollMode.SELF_ONLY }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280';
@@ -841,10 +863,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_ONLY, scrollBackward: NestedScrollMode.PARALLEL }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290';
@@ -881,10 +904,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_ONLY, scrollBackward: NestedScrollMode.PARENT_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300';
@@ -921,10 +945,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_ONLY, scrollBackward: NestedScrollMode.SELF_FIRST }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310';
@@ -961,10 +986,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320
-     * @tc.desc    Scroll component supports nestedScroll set to { scrollForward: NestedScrollMode.SELF_ONLY, scrollBackward: NestedScrollMode.SELF_ONLY }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320';
@@ -1001,10 +1027,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500
-     * @tc.desc    Scroll component supports scrollBar set to BarState.Auto
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500';
@@ -1027,10 +1054,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510
-     * @tc.desc    Scroll component supports scrollBar set to BarState.On
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510';
@@ -1053,10 +1081,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520
-     * @tc.desc    Scroll component supports scrollBar set to BarState.Off
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520';
@@ -1079,10 +1108,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530
-     * @tc.desc    Scroll component supports scrollBar set to undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530';
@@ -1105,10 +1135,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540
-     * @tc.desc    Scroll component supports scrollSnap as undefined
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540';
@@ -1133,10 +1164,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570
-     * @tc.desc    Scroll component supports scrollSnap as { snapAlign: ScrollSnapAlign.NONE, snapPagination: [30, 60, 90, 120], enableSnapToStart: false }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570';
@@ -1161,10 +1193,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580
-     * @tc.desc    Scroll component supports scrollSnap as { snapAlign: ScrollSnapAlign.START }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580';
@@ -1189,10 +1222,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590
-     * @tc.desc    Scroll component supports scrollSnap as { snapAlign: ScrollSnapAlign.CENTER }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590';
@@ -1217,10 +1251,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600
-     * @tc.desc    Scroll component supports scrollSnap as { snapAlign: ScrollSnapAlign.END }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600';
@@ -1245,10 +1280,11 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610
-     * @tc.name    SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610
-     * @tc.desc    Scroll component supports scrollSnap as { snapAlign: ScrollSnapAlign.NONE }
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610';

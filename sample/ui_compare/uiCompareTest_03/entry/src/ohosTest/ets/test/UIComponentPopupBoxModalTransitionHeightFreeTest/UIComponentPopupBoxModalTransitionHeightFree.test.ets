@@ -60,10 +60,11 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020
-     * @tc.desc    Verify dragBar remains hidden when only height is set with dragBar true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020';
@@ -112,10 +113,11 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030
-     * @tc.desc    Confirm dragBar appears only with multi-gear setup (gears ≥ 2) when gears match and dragBar is true
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030';
@@ -164,10 +166,11 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040
-     * @tc.desc    Ensure dragBar stays hidden with mismatched multi-gear setup (gears ≥ 2) and dragBar false
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040';

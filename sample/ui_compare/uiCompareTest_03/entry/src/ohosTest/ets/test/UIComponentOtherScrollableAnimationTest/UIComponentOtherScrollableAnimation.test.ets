@@ -59,10 +59,11 @@ export default function UIComponentOtherScrollableAnimation() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010
-     * @tc.desc    Scroll component layout vertically scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010';
@@ -87,10 +88,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020
-     * @tc.desc    Scroll component layout vertically scrollable, follow-finger scrolling with built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020';
@@ -115,10 +117,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030
-     * @tc.desc    Scroll component nested with a List component, vertically scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030';
@@ -143,10 +146,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040
-     * @tc.desc    Scroll component layout vertically scrollable, mouse drag scrollbar scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040';
@@ -171,10 +175,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050
-     * @tc.desc    Scroll component layout vertically scrollable, bound external scrollbar follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050';
@@ -199,10 +204,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060
-     * @tc.desc    Scroll component layout vertically scrollable, finger drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060';
@@ -231,10 +237,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070
-     * @tc.desc    Scroll component layout vertically scrollable, mouse drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070';
@@ -263,10 +270,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080
-     * @tc.desc    Scroll component layout not filling one screen vertically and not scrollable, finger swipe component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080';
@@ -291,10 +299,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090
-     * @tc.desc    Scroll component layout vertically scrollable, set enableScrollInteraction to false, follow-finger scrolling component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090';
@@ -319,10 +328,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100
-     * @tc.desc    Scroll component layout horizontally scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100';
@@ -347,10 +357,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110
-     * @tc.desc    Scroll component layout horizontally scrollable, follow-finger scrolling with built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110';
@@ -375,10 +386,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120
-     * @tc.desc    Scroll component nested with a List component, horizontally scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120';
@@ -403,10 +415,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130
-     * @tc.desc    Scroll component layout horizontally scrollable, mouse drag scrollbar scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130';
@@ -431,10 +444,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140
-     * @tc.desc    Scroll component layout horizontally scrollable, bound external scrollbar follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140';
@@ -462,10 +476,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150
-     * @tc.desc    Scroll component layout horizontally scrollable, finger drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150';
@@ -494,10 +509,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160
-     * @tc.desc    Scroll component layout horizontally scrollable, mouse drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160';
@@ -526,10 +542,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170
-     * @tc.desc    Scroll component layout not filling one screen horizontally and not scrollable, finger swipe component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170';
@@ -554,10 +571,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180
-     * @tc.desc    Scroll component layout horizontally scrollable, set enableScrollInteraction to false, follow-finger scrolling component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180';
@@ -582,10 +600,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190
-     * @tc.desc    List component layout vertically scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190';
@@ -610,10 +629,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200
-     * @tc.desc    List component layout vertically scrollable, follow-finger scrolling with built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200';
@@ -638,10 +658,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210
-     * @tc.desc    List component layout vertically scrollable, mouse drag scrollbar scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210';
@@ -666,10 +687,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220
-     * @tc.desc    List component layout vertically scrollable, bound external scrollbar follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220';
@@ -697,10 +719,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230
-     * @tc.desc    List component layout vertically scrollable, finger drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230';
@@ -729,10 +752,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240
-     * @tc.desc    List component layout vertically scrollable, mouse drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240';
@@ -761,10 +785,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250
-     * @tc.desc    List component layout not filling one screen vertically and not scrollable, finger swipe component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250';
@@ -789,10 +814,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260
-     * @tc.desc    List component layout vertically scrollable, set enableListInteraction to false, follow-finger scrolling component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260';
@@ -817,10 +843,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270
-     * @tc.desc    List component layout horizontally scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270';
@@ -845,10 +872,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280
-     * @tc.desc    List component layout horizontally scrollable, follow-finger scrolling with built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280';
@@ -873,10 +901,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290
-     * @tc.desc    List component layout horizontally scrollable, mouse drag scrollbar scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290';
@@ -901,10 +930,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300
-     * @tc.desc    List component layout horizontally scrollable, bound external scrollbar follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300';
@@ -932,10 +962,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310
-     * @tc.desc    List component layout horizontally scrollable, finger drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310';
@@ -964,10 +995,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320
-     * @tc.desc    List component layout horizontally scrollable, mouse drag child components to swap positions test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320';
@@ -996,10 +1028,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330
-     * @tc.desc    List component layout not filling one screen horizontally and not scrollable, finger swipe component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330';
@@ -1024,10 +1057,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340
-     * @tc.desc    List component layout horizontally scrollable, set enableListInteraction to false, follow-finger scrolling component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340';
@@ -1052,10 +1086,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350
-     * @tc.desc    Grid component layout vertically scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350';
@@ -1080,10 +1115,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360
-     * @tc.desc    Grid component layout vertically scrollable, follow-finger scrolling with built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360';
@@ -1108,10 +1144,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370
-     * @tc.desc    Grid component layout vertically scrollable, mouse drag built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370';
@@ -1136,10 +1173,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380
-     * @tc.desc    Grid component layout not filling one screen vertically and not scrollable, finger swipe component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380';
@@ -1164,10 +1202,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400
-     * @tc.desc    Grid component layout vertically scrollable, set enableScrollInteraction to false, follow-finger scrolling component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400';
@@ -1192,10 +1231,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410
-     * @tc.desc    Grid component layout horizontally scrollable, follow-finger scrolling test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410';
@@ -1220,10 +1260,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420
-     * @tc.desc    Grid component layout horizontally scrollable, follow-finger scrolling with built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420';
@@ -1248,10 +1289,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430
-     * @tc.desc    Grid component layout horizontally scrollable, mouse drag built-in scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430';
@@ -1276,10 +1318,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440
-     * @tc.desc    Grid component layout not filling one screen horizontally and not scrollable, finger swipe component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440';
@@ -1304,10 +1347,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460
-     * @tc.desc    Grid component layout horizontally scrollable, set enableScrollInteraction to false, follow-finger scrolling component test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460';
@@ -1332,10 +1376,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590
-     * @tc.desc    TextArea component finger drag scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590';
@@ -1359,10 +1404,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600
-     * @tc.desc    TextArea component mouse drag scrollbar test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600';
@@ -1388,10 +1434,11 @@ export default function UIComponentOtherScrollableAnimation() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610
-     * @tc.name    SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610
-     * @tc.desc    List sets ListItem to be swipe-to-delete test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610
+     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610';

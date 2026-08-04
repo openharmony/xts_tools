@@ -68,10 +68,11 @@ export default function UIComponentMediaVideoReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010
-     * @tc.desc    Enable or disable autoplay. When playing an online video, disconnect the network, then call 'reset' after reconnecting to restart playback
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010';
@@ -177,10 +178,11 @@ export default function UIComponentMediaVideoReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011
-     * @tc.desc    If the network is disconnected initially, the video can play normally after reconnecting and calling 'reset'
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011';
@@ -216,10 +218,11 @@ export default function UIComponentMediaVideoReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012
-     * @tc.desc    Play the video online, call 'reset' after disconnecting from the network, and the video can play normally once reconnected
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012';
@@ -269,10 +272,11 @@ export default function UIComponentMediaVideoReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024
-     * @tc.desc    During video playback, when the screen turns off and is then unlocked, call reset()
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024';
@@ -296,10 +300,11 @@ export default function UIComponentMediaVideoReset() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030
-     * @tc.desc    During video playback, when the screen turns off and is then unlocked, call reset()
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030';
