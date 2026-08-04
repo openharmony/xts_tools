@@ -41,11 +41,11 @@ export default function UiComponentTextRichEditorDoubleClick() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003
-        * @tc.name   : Double click to display numbers in one line
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003
+     * @tc.name   : Double click to display numbers in one line
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0003")
@@ -77,11 +77,11 @@ export default function UiComponentTextRichEditorDoubleClick() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010
-        * @tc.name   : Double click words distributed in two lines within visible range
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010
+     * @tc.name   : Double click words distributed in two lines within visible range
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0010")
@@ -113,11 +113,11 @@ export default function UiComponentTextRichEditorDoubleClick() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001
-        * @tc.name   : Double click textspan without spaces displayed in one line
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001
+     * @tc.name   : Double click textspan without spaces displayed in one line
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorDoubleClick/UiComponentTextRichEditorDoubleClick0001")

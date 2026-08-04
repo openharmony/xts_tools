@@ -39,12 +39,12 @@ export default function UiComponentTextRichEditorLineHeightAndLetterSpacing() {
     })
 
     /*
-      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT_LETTERSPACING_0027
-      * @tc.name   : Set lineHeight property when setting indentation for PixelMap image content
-      * @tc.type   : Function
-      * @tc.size   : UiTest
-      * @tc.level  : 3
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT_LETTERSPACING_0027
+     * @tc.name   : Set lineHeight property when setting indentation for PixelMap image content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT_LETTERSPACING_0027", Level.LEVEL3, async (done: Function) => {
         Settings.createWindow("testability/pages/UiComponentTextRichEditorLineHeightAndLetterSpacing/UiComponentTextRichEditorLineHeightAndLetterSpacing0027")
         await Utils.sleep(2000) // 等待窗口创建完成

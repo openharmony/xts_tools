@@ -43,7 +43,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0040
      * @tc.name   : stack mode with navdestination, navigation sets height (1000), navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0040", Level.LEVEL3, async (done: Function) => {
@@ -69,7 +69,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0210
      * @tc.name   : split mode without navdestination, navigation sets height ("auto"), navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0210", Level.LEVEL3, async (done: Function) => {
@@ -94,7 +94,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0190
      * @tc.name   : split mode with navdestination, navigation sets height (1000), navdestination sets height auto observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0190", Level.LEVEL3, async (done: Function) => {
@@ -125,7 +125,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0020
      * @tc.name   : stack mode with navdestination, navigation sets height (auto), navdestination sets height 500 observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0020", Level.LEVEL3, async (done: Function) => {
@@ -156,7 +156,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070
      * @tc.name   : stack mode with navdestination, navigation sets height (auto), set two pages navdestination to 500 and auto
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0070", Level.LEVEL3, async (done: Function) => {
@@ -196,7 +196,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0010
      * @tc.name   : stack mode with navdestination, navigation sets height (auto), navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0010", Level.LEVEL3, async (done: Function) => {
@@ -222,7 +222,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0170
      * @tc.name   : split mode with navdestination, navigation sets height (1000), navdestination sets height 500 observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0170", Level.LEVEL3, async (done: Function) => {
@@ -253,7 +253,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0140
      * @tc.name   : split mode with navdestination, navigation sets height to auto, navdestination sets height less than navbar observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0140", Level.LEVEL3, async (done: Function) => {
@@ -284,7 +284,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0120
      * @tc.name   : split mode with navdestination, navigation sets height to auto, navdestination sets height greater than navbar observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0120", Level.LEVEL3, async (done: Function) => {
@@ -315,7 +315,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150
      * @tc.name   : split mode with navdestination, navigation sets height to auto, set two pages with different heights, dynamically switch observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0150", Level.LEVEL3, async (done: Function) => {
@@ -355,7 +355,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110
      * @tc.name   : split mode with navdestination, navigation sets height to auto, navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0110", Level.LEVEL3, async (done: Function) => {
@@ -385,7 +385,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0180
      * @tc.name   : split mode with navdestination, navigation sets height (500), navdestination sets height 700 observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0180", Level.LEVEL3, async (done: Function) => {
@@ -416,7 +416,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0160
      * @tc.name   : split mode with navdestination, navigation sets height to fixed value 1000, navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0160", Level.LEVEL3, async (done: Function) => {
@@ -442,7 +442,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0030
      * @tc.name   : stack mode with navdestination, navigation sets height (auto), navdestination sets height ("auto") observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0030", Level.LEVEL3, async (done: Function) => {
@@ -473,7 +473,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0060
      * @tc.name   : stack mode with navdestination, navigation sets height (1000), navdestination sets height ("auto") observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0060", Level.LEVEL3, async (done: Function) => {
@@ -504,7 +504,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0050
      * @tc.name   : stack mode with navdestination, navigation sets height (1000), navdestination sets height 500 observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0050", Level.LEVEL3, async (done: Function) => {
@@ -535,7 +535,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0130
      * @tc.name   : split mode with navdestination, navigation sets height to auto, navdestination sets auto, observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0130", Level.LEVEL3, async (done: Function) => {
@@ -566,7 +566,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0100
      * @tc.name   : stack mode with navdestination, navigation does not set height, navdestination does not set height observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0100", Level.LEVEL3, async (done: Function) => {
@@ -597,7 +597,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0200
      * @tc.name   : stack mode without navdestination, navigation sets height ("auto"), navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0200", Level.LEVEL3, async (done: Function) => {
@@ -622,7 +622,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0080
      * @tc.name   : stack mode with navdestination, navigation does not set height, navbar interface observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0080", Level.LEVEL3, async (done: Function) => {
@@ -648,7 +648,7 @@ export default function UiComponentNavNavigationAutonegotiation() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0090
      * @tc.name   : stack mode with navdestination, navigation does not set height, navdestination sets 500 observation effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_AUTONEGOTIATION_0090", Level.LEVEL3, async (done: Function) => {

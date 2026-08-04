@@ -40,11 +40,11 @@ export default function UiComponentTextRichEditorOnDragStart() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005
-        * @tc.name   : Drag out text content and set onDragStart
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005
+     * @tc.name   : Drag out text content and set onDragStart
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart005")
@@ -74,14 +74,13 @@ export default function UiComponentTextRichEditorOnDragStart() {
     })
 
     /*
-
-    @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006
-    @tc.name : Drag images and text in RichEditor component into the edge hot zone with the mouse
-    @tc.type : Function
-    @tc.size : UiTest
-    @tc.level : 3
-    */
-    it ("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006", Level.LEVEL3, async (done: Function) => {
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006
+     * @tc.name   : Drag images and text in RichEditor component into the edge hot zone with the mouse
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
+    it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow ("testability/pages/UiComponentTextRichEditorOnDragStart/UiComponentTextRichEditorOnDragStart006")
       await Utils.sleep (1000)
       let driver = await Driver.create ()

@@ -39,11 +39,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_009_811
-        * @tc.name   : Edit mode, long press text content to select words
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_009_811
+     * @tc.name   : Edit mode, long press text content to select words
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_009_811", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress009811")
@@ -66,11 +66,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_005
-        * @tc.name   : Preview mode, long press font with height greater than component height
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_005
+     * @tc.name   : Preview mode, long press font with height greater than component height
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_005", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress005")
@@ -109,11 +109,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_002
-        * @tc.name   : Preview mode, long press component content without releasing and drag
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_002
+     * @tc.name   : Preview mode, long press component content without releasing and drag
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_002", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress002")
@@ -142,11 +142,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_010
-        * @tc.name   : Edit mode, long press character with height greater than component height
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_010
+     * @tc.name   : Edit mode, long press character with height greater than component height
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_010", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress010")
@@ -166,11 +166,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_003
-        * @tc.name   : Preview mode, long press component content without releasing and drag, then release
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_003
+     * @tc.name   : Preview mode, long press component content without releasing and drag, then release
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_003", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress003")
@@ -197,11 +197,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_009
-        * @tc.name   : Edit mode, long press text without releasing and drag
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_009
+     * @tc.name   : Edit mode, long press text without releasing and drag
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_009", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress009")
@@ -231,11 +231,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_007
-        * @tc.name   : Preview mode, long press empty component
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_007
+     * @tc.name   : Preview mode, long press empty component
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_007", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress007")
@@ -265,11 +265,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_008
-        * @tc.name   : Preview mode, long press content at end of line
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_008
+     * @tc.name   : Preview mode, long press content at end of line
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_008", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress008")
@@ -288,11 +288,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_006
-        * @tc.name   : Preview mode, long press at beginning of line for indented text content
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_006
+     * @tc.name   : Preview mode, long press at beginning of line for indented text content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_006", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress006")
@@ -317,11 +317,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_012
-        * @tc.name   : Edit mode, long press imagespan/builderspan, release and drag
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_012
+     * @tc.name   : Edit mode, long press imagespan/builderspan, release and drag
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_012", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress012")
@@ -346,11 +346,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_014
-        * @tc.name   : Edit mode, long press at end of line/empty space
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_014
+     * @tc.name   : Edit mode, long press at end of line/empty space
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_014", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress014")
@@ -371,11 +371,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_015
-        * @tc.name   : Preview mode, long press selected text content can still call onSelectionChange and onselect normally
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_015
+     * @tc.name   : Preview mode, long press selected text content can still call onSelectionChange and onselect normally
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_015", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress015")
@@ -395,11 +395,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_0019
-        * @tc.name   : Preview mode, long press a relatively large image
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_0019
+     * @tc.name   : Preview mode, long press a relatively large image
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_0019", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress0019")
@@ -418,11 +418,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_0020
-        * @tc.name   : Preview mode, long press and drag handle to select, release, then long press selected content to float
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_0020
+     * @tc.name   : Preview mode, long press and drag handle to select, release, then long press selected content to float
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_0020", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress0020")
@@ -441,11 +441,11 @@ export default function UiComponentTextRichEditorLongPress() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_00020
-        * @tc.name   : Long press emoji in edit or preview mode
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_00020
+     * @tc.name   : Long press emoji in edit or preview mode
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_longpress_00020", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorLongPress/UiComponentTextRichEditorLongPress00020")

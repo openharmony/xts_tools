@@ -39,11 +39,11 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0001
-        * @tc.name   : Set cursor avoidance mechanism to OFFSET_WITH_CARET mode, change cursor position, observe avoidance effect
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0001
+     * @tc.name   : Set cursor avoidance mechanism to OFFSET_WITH_CARET mode, change cursor position, observe avoidance effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0001", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0001")
@@ -104,11 +104,11 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0002
-        * @tc.name   : Set cursor avoidance mechanism to OFFSET_WITH_CARET mode, long press text content, observe avoidance effect
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0002
+     * @tc.name   : Set cursor avoidance mechanism to OFFSET_WITH_CARET mode, long press text content, observe avoidance effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0002", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0002")
@@ -141,11 +141,11 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0014
-        * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, long press text content, observe avoidance effect
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0014
+     * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, long press text content, observe avoidance effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0014", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0014")
@@ -178,11 +178,11 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0015
-        * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, continuously input content, observe avoidance effect
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0015
+     * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, continuously input content, observe avoidance effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0015", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0015")
@@ -220,11 +220,11 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0013
-        * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, change cursor position, observe avoidance effect
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0013
+     * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, change cursor position, observe avoidance effect
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0013", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorAvoidCursor/UiComponentTextRichEditorAvoidCursor0013")

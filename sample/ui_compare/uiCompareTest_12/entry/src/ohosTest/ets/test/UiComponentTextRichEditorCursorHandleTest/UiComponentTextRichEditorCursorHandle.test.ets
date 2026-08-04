@@ -40,11 +40,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       await Utils.sleep(500);
       done()
     })
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001
      * @tc.name   : Mouse text selection
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0001", Level.LEVEL2, async (done: Function) => {
@@ -77,11 +77,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       done();
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0002
      * @tc.name   : Mouse shape changes when dragging scrollbar and returning to text editing area
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0002", Level.LEVEL2, async (done: Function) => {
@@ -121,11 +121,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       done();
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003
      * @tc.name   : Cursor height follows the text on the left side
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0003", Level.LEVEL3, async (done: Function) => {
@@ -163,11 +163,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       done();
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0004
      * @tc.name   : The cursor follows the finger at the automatic line break position
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0004", Level.LEVEL3, async (done: Function) => {
@@ -216,11 +216,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       done();
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0005
      * @tc.name   : The content area scrolls following the cursor movement, keeping the cursor bottom visible
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0005", Level.LEVEL3, async (done: Function) => {
@@ -256,11 +256,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       done();
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0006
      * @tc.name   : Click on the blank area below the end-of-line text and above a non-blank line
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0006", Level.LEVEL3, async (done: Function) => {
@@ -286,11 +286,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
     })
 
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008
      * @tc.name   : Calling updateSpanStyle keeps the context menu displayed
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0008", Level.LEVEL3, async (done: Function) => {
@@ -325,11 +325,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
       done();
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0011
      * @tc.name   : Double-clicking on a blank line has no selection effect
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0011", Level.LEVEL3, async (done: Function) => {
@@ -354,11 +354,11 @@ export default function UiComponentTextRichEditorCursorHandle() {
     })
 
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007
      * @tc.name   : Handle position remains accurate without misalignment
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_HANDLE_0007", Level.LEVEL3, async (done: Function) => {

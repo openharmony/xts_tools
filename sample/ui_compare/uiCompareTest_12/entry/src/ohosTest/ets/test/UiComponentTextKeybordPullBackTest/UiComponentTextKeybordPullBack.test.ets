@@ -30,11 +30,11 @@ export default function UiComponentTextKeybordPullBack() {
       done()
     })
 
-    /**
+    /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020
      * @tc.name   : Switch page to trigger keyboard retract
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020', 0, async (done: Function) => {

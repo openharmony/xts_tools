@@ -39,11 +39,11 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005
-        * @tc.name   : Drag builderSpan bound to onDragStart
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005
+     * @tc.name   : Drag builderSpan bound to onDragStart
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0005", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0005")
@@ -72,11 +72,11 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001
-        * @tc.name   : Drag builderSpan set by Image, Text, Row components
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001
+     * @tc.name   : Drag builderSpan set by Image, Text, Row components
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0001", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0001")
@@ -105,11 +105,11 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006
-        * @tc.name   : Long press and drag single/multiple builderspan in mixed text and image layout
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006
+     * @tc.name   : Long press and drag single/multiple builderspan in mixed text and image layout
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0006", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0006")
@@ -138,11 +138,11 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003
-        * @tc.name   : Drag builderSpan within component
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003
+     * @tc.name   : Drag builderSpan within component
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0003", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0003")
@@ -171,11 +171,11 @@ export default function UiComponentTextRichEditorBuilderSpanDrag() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004
-        * @tc.name   : Drag builderSpan outside component and release
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004
+     * @tc.name   : Drag builderSpan outside component and release
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BUILDERSPANDRAG_0004", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorBuilderSpanDrag/UiComponentTextRichEditorBuilderSpanDrag0004")

@@ -41,7 +41,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to "0"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140", Level.LEVEL3, async (done: Function) => {
@@ -66,7 +66,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50px"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160", Level.LEVEL3, async (done: Function) => {
@@ -91,7 +91,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0px"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170", Level.LEVEL3, async (done: Function) => {
@@ -116,7 +116,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50px"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180", Level.LEVEL3, async (done: Function) => {
@@ -141,7 +141,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50vp"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190", Level.LEVEL3, async (done: Function) => {
@@ -166,7 +166,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0vp"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200", Level.LEVEL3, async (done: Function) => {
@@ -191,7 +191,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50vp"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210", Level.LEVEL3, async (done: Function) => {
@@ -216,7 +216,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50fp"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220", Level.LEVEL3, async (done: Function) => {
@@ -241,7 +241,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-0fp"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230", Level.LEVEL3, async (done: Function) => {
@@ -266,7 +266,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50fp"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240", Level.LEVEL3, async (done: Function) => {
@@ -291,7 +291,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50lpx"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250", Level.LEVEL3, async (done: Function) => {
@@ -316,7 +316,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0lpx"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260", Level.LEVEL3, async (done: Function) => {
@@ -341,7 +341,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50lpx"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270", Level.LEVEL3, async (done: Function) => {
@@ -366,7 +366,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "80%"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280", Level.LEVEL3, async (done: Function) => {
@@ -391,7 +391,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290", Level.LEVEL3, async (done: Function) => {
@@ -416,7 +416,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50%"
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300", Level.LEVEL3, async (done: Function) => {
@@ -441,7 +441,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, short text input 1 (grid count less than 4)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310", Level.LEVEL3, async (done: Function) => {
@@ -466,7 +466,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, short text input 2 (grid count less than 4)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320", Level.LEVEL3, async (done: Function) => {
@@ -491,7 +491,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, short text input 3 (grid count less than 4)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330", Level.LEVEL3, async (done: Function) => {
@@ -516,7 +516,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, longer text input 1 (grid count greater than 4 and less than 480vp)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340", Level.LEVEL3, async (done: Function) => {
@@ -541,7 +541,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, longer text input 2 (grid count greater than 4 and less than 480vp)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350", Level.LEVEL3, async (done: Function) => {
@@ -566,7 +566,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, longer text input 3 (grid count greater than 4 and less than 480vp)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360", Level.LEVEL3, async (done: Function) => {
@@ -591,7 +591,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, very long text input (grid count greater than 480vp)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370", Level.LEVEL3, async (done: Function) => {
@@ -616,7 +616,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280
      * @tc.name   : Preview capability blue zone test
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280", Level.LEVEL3, async (done: Function) => {
@@ -641,7 +641,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290
      * @tc.name   : Popup adds arrowPlacement property, ContextPopupOptions parameter ArrowPlacement set to Start
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290", Level.LEVEL3, async (done: Function) => {
@@ -666,7 +666,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300
      * @tc.name   : Popup adds arrowPlacement property, ContextPopupOptions parameter ArrowPlacement set to Center
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300", Level.LEVEL3, async (done: Function) => {
@@ -691,7 +691,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310
      * @tc.name   : Popup adds arrowPlacement property, ContextPopupOptions parameter ArrowPlacement set to End
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310", Level.LEVEL3, async (done: Function) => {
@@ -716,7 +716,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, within 20vp of leftmost (top) side of bubble (including 20vp)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320", Level.LEVEL3, async (done: Function) => {
@@ -741,7 +741,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, within safe distance of bubble
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330", Level.LEVEL3, async (done: Function) => {
@@ -766,7 +766,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, within 20vp of rightmost (bottom) side of bubble (including 20vp)
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340", Level.LEVEL3, async (done: Function) => {
@@ -791,7 +791,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, popup width less than 40vp
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350", Level.LEVEL3, async (done: Function) => {

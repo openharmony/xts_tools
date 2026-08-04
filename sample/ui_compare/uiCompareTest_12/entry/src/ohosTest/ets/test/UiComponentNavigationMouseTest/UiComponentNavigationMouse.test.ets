@@ -37,7 +37,7 @@ export default function UiComponentNavigationMouse() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0050
      * @tc.name   : Navigation scenario drag out of hot area
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0050", Level.LEVEL3, async (done: Function) => {
@@ -84,7 +84,7 @@ export default function UiComponentNavigationMouse() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0020
      * @tc.name   : Navigation scenario single and double column switching
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0020", Level.LEVEL3, async (done: Function) => {
@@ -134,7 +134,7 @@ export default function UiComponentNavigationMouse() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0040
      * @tc.name   : Navigation scenario drag stop
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0040", Level.LEVEL3, async (done: Function) => {
@@ -189,7 +189,7 @@ export default function UiComponentNavigationMouse() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0090
      * @tc.name   : sidebarcontainer scenario drag stop
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0090", Level.LEVEL3, async (done: Function) => {
@@ -239,7 +239,7 @@ export default function UiComponentNavigationMouse() {
      * @tc.number : SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0100
      * @tc.name   : sidebarcontainer scenario drag out of hot area
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_NAVIGATION_MOUSE_0100", Level.LEVEL3, async (done: Function) => {

@@ -39,11 +39,11 @@ export default function UiComponentTextRichEditorCustomKeyboardAvoidance() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018
-        * @tc.name   : Continue inputting content after the page avoids the custom keyboard
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018
+     * @tc.name   : Continue inputting content after the page avoids the custom keyboard
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018", Level.LEVEL3, async (done: Function) => {
       // 1、打开页面
@@ -90,11 +90,11 @@ export default function UiComponentTextRichEditorCustomKeyboardAvoidance() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0020
-        * @tc.name   : Continue inputting content after the page avoids the custom keyboard
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0020
+     * @tc.name   : Continue inputting content after the page avoids the custom keyboard
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0020", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorCustomKeyboardAvoidance/UiComponentTextRichEditorCustomKeyboardAvoidance0020")

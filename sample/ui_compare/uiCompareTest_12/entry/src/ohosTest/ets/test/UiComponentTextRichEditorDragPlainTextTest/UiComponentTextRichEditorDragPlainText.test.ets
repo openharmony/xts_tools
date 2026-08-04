@@ -39,11 +39,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024
-        * @tc.name   : RichEditor can query dragged content using getSpans after dragging text into it
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024
+     * @tc.name   : RichEditor can query dragged content using getSpans after dragging text into it
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0024", Level.LEVEL3, async (done: Function) => {
 
@@ -88,11 +88,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
 
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013
-        * @tc.name   : RichEditor can drag text and images at the same time
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013
+     * @tc.name   : RichEditor can drag text and images at the same time
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0013", Level.LEVEL3, async (done: Function) => {
 
@@ -140,11 +140,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
 
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003
-        * @tc.name   : RichEditor can drag text between two spans with space span
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003
+     * @tc.name   : RichEditor can drag text between two spans with space span
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0003", Level.LEVEL3, async (done: Function) => {
 
@@ -202,11 +202,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016
-        * @tc.name   : Set different colors, styles, and decorative line fonts for the RichEditor and text box, then drag the text into it.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016
+     * @tc.name   : Set different colors, styles, and decorative line fonts for the RichEditor and text box, then drag the text into it.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0016", Level.LEVEL3, async (done: Function) => {
       try {
@@ -251,11 +251,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017
-        * @tc.name   : Set text with different font styles inside the text box and drag the text into it.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017
+     * @tc.name   : Set text with different font styles inside the text box and drag the text into it.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0017", Level.LEVEL3, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0017")
@@ -295,11 +295,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006
-        * @tc.name   : When RichEditor contains non-text elements (images, emojis, symbols), drag text into it.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006
+     * @tc.name   : When RichEditor contains non-text elements (images, emojis, symbols), drag text into it.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0006", Level.LEVEL3, async (done: Function) => {
       try {
@@ -345,11 +345,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014
-        * @tc.name   : Drag text with larger font size, spacing, line height, and font width into the RichEditor.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014
+     * @tc.name   : Drag text with larger font size, spacing, line height, and font width into the RichEditor.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0014", Level.LEVEL3, async (done: Function) => {
       try {
@@ -396,11 +396,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
 
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007
-        * @tc.name   : When RichEditor contains long text, drag text to the position before the long text.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007
+     * @tc.name   : When RichEditor contains long text, drag text to the position before the long text.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0007", Level.LEVEL3, async (done: Function) => {
       try {
@@ -446,11 +446,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008
-        * @tc.name   : When RichEditor contains long text, drag text to the position after the last character of the long text.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008
+     * @tc.name   : When RichEditor contains long text, drag text to the position after the last character of the long text.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0008", Level.LEVEL3, async (done: Function) => {
       try {
@@ -505,11 +505,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002
-        * @tc.name   : Drag into the space between spans in RichEditor.
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002
+     * @tc.name   : Drag into the space between spans in RichEditor.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0002", Level.LEVEL3, async (done: Function) => {
 
@@ -555,12 +555,12 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-           * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009
-           * @tc.name   : When RichEditor contains long text, drag text into the middle of the long text segment.
-           * @tc.type   : Function
-           * @tc.size   : UiTest
-           * @tc.level  : 3
-        */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009
+     * @tc.name   : When RichEditor contains long text, drag text into the middle of the long text segment.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0009", Level.LEVEL3, async (done: Function) => {
         Settings.createWindow("testability/pages/UiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0009")
         await Utils.sleep(1000)
@@ -601,11 +601,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004
-        * @tc.name   : Drag text between spans in RichEditor with space span
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004
+     * @tc.name   : Drag text between spans in RichEditor with space span
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0004", Level.LEVEL3, async (done: Function) => {
         Settings.createWindow("testability/pages/UiComponentTextRichEditorDragPlainText/UiComponentTextRichEditorDragPlainText0004")
@@ -645,11 +645,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005
-        * @tc.name   : Drag text to RichEditor with preset content
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005
+     * @tc.name   : Drag text to RichEditor with preset content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0005", Level.LEVEL3, async (done: Function) => {
       try {
@@ -694,11 +694,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018
-        * @tc.name   : Drag text to RichEditor with long text content
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018
+     * @tc.name   : Drag text to RichEditor with long text content
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0018", Level.LEVEL3, async (done: Function) => {
       try {
@@ -746,11 +746,11 @@ export default function UiComponentTextRichEditorDragPlainText() {
     })
 
     /*
-        * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020
-        * @tc.name   : Drag text to RichEditor with mixed content (text and images)
-        * @tc.type   : Function
-        * @tc.size   : UiTest
-        * @tc.level  : 3
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020
+     * @tc.name   : Drag text to RichEditor with mixed content (text and images)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0020", Level.LEVEL3, async (done: Function) => {
       try {

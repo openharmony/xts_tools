@@ -42,7 +42,7 @@ export default function UiComponentTextRichEditorAdaptiveAging() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013
      * @tc.name   : Activate rolling verification
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ADAPTIVE_AGING_0013", Level.LEVEL3, async (done: Function) => {
