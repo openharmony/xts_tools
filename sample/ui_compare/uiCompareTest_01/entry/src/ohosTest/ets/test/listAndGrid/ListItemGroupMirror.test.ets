@@ -42,7 +42,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0010
-     * @tc.desc   : 切换屏幕为横向->竖向，观察组件布局
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,7 +71,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0020
-     * @tc.desc   : 切换屏幕为横向->竖向，观察组件布局
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,7 +100,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0030
-     * @tc.desc   : 设置组件的头部组件为button，观察组件镜像后布局显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +120,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0040
-     * @tc.desc   : 设置组件的尾部组件为Text，观察组件镜像后布局显示
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,7 +140,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0050
-     * @tc.desc   : 设置组件的space为number：20，观察组件镜像后的列表项间距
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +160,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0060
-     * @tc.desc   : 设置组件的space为number：'40'，观察组件镜像后的列表项间距
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,7 +180,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0080
-     * @tc.desc   : 设置组件的style为CARD，观察组件镜像后的卡片样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,7 +200,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0090
-     * @tc.desc   : 设置组件的divider颜色为yellow，观察组件镜像后的分割线样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,7 +220,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0120
-     * @tc.desc   : 设置组件的childrenMainSize属性的update为(2,500)，观察组件镜像后的高度
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -254,7 +245,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0130
-     * @tc.desc   : 设置组件的childrenMainSize属性的splice为(0)，观察组件镜像后的高度
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -280,7 +270,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0140
-     * @tc.desc   : 设置组件的通用属性align为TopEnd，观察组件镜像后的子元素的对齐方式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,7 +290,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0150
-     * @tc.desc   : 设置组件的通用属性direction为Ltr，观察组件镜像后的组件排列方式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -322,7 +310,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0160
-     * @tc.desc   : 设置组件的通用属性direction为Auto，观察组件镜像后的组件排列方式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,7 +330,6 @@ export default function ListItemGroupMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0170
-     * @tc.desc   : 设置组件的通用属性direction为rtl，观察组件镜像后的组件排列方式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

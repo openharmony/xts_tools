@@ -42,7 +42,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0190
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +60,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0080
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +80,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0020
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,7 +98,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0030
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +116,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0040
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,7 +136,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0090
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -156,7 +156,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0380_941
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,7 +176,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMAINSIZEBTINDEX_0010_141_624
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -194,7 +194,7 @@ export default function RepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_GETITEMAINSIZEBTINDEX_0010_141_656_824
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

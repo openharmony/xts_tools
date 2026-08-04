@@ -42,7 +42,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_0010
-     * @tc.desc   : ArcList_拖拽排序
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,7 +74,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_0030
-     * @tc.desc   : ArcList_增删item
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -121,7 +119,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_0040
-     * @tc.desc   : ArcList_ArcList不设置高，自适应父组件高度
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -146,7 +143,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_DIRECTION_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_DIRECTION_0010
-     * @tc.desc   : ArcList_设置通用属性direction
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -171,7 +167,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_PM_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_PM_0010
-     * @tc.desc   : ArcList_设置padding或者margin
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +198,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0040
-     * @tc.desc   : ArcList_scrollBar_抛滑滚动条
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,7 +227,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0050
-     * @tc.desc   : ArcList_scrollBar_增删item
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,7 +269,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0060
-     * @tc.desc   : ArcList_scrollBar_内容不满一屏
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -298,7 +290,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0070
-     * @tc.desc   : ArcList_scrollBar_childrenMainSize_ArcListItem高度不一样
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,7 +318,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0080
-     * @tc.desc   : ArcList_scrollBar_滚动条下面有按钮
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -354,7 +344,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0090
-     * @tc.desc   : ArcList_scrollBar_滑动内容区后反方向拖动滚动条
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,7 +376,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0110
-     * @tc.desc   : ArcList_scrollBar_镜像效果
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -412,7 +400,6 @@ export default function ArcListTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLISTITEM_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLISTITEM_0010
-     * @tc.desc   : ArcListItem_多态样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

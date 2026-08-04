@@ -41,7 +41,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0020
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（NONE）、alignment（BOTTOM）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +86,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0030
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（45px）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -128,7 +126,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0050
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（16vp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,7 +171,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0060
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（50fp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -220,7 +216,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0070
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（49%）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -266,7 +261,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0080
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（100lpx）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -312,7 +306,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0090
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（undefined）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,7 +351,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0100
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（0）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -404,7 +396,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0110
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（-10）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +441,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0120
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（9999）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -496,7 +486,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0130
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（45px）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -542,7 +531,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0140
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（16vp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -593,7 +581,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0150
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（50fp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,7 +632,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0160
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（49%）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -696,7 +682,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0170
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（100lpx）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -747,7 +732,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0180
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（undefined）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -798,7 +782,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0190
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（0）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -849,7 +832,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0200
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（-10）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -900,7 +882,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0210
-     * @tc.desc   : CustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（9999）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -951,7 +932,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0230
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（NONE）、alignment（BOTTOM）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -997,7 +977,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0240
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（45px）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1038,7 +1017,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0250
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（16vp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1084,7 +1062,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0260
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（50fp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1130,7 +1107,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0270
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（49%）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1176,7 +1152,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0280
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（100lpx）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1222,7 +1197,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0290
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（undefined）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1268,7 +1242,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0300
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（0）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1314,7 +1287,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0310
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0310
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（-10）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1360,7 +1332,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0320
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（9999）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1406,7 +1377,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0330
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（45px）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1452,7 +1422,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0340
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（16vp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1503,7 +1472,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0350
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0350
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（50fp）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1554,7 +1522,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0360
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0360
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（49%）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1605,7 +1572,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0370
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0370
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（100lpx）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1656,7 +1622,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0380
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0380
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（undefined）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1707,7 +1672,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0390
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0390
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（false）、keyboardAvoidDistance（0）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1758,7 +1722,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0400
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0400
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（-10）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1809,7 +1772,6 @@ export default function DialogAvoidTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0410
      * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0410
-     * @tc.desc   : promptAction.openCustomDialog设置keyboardAvoidMode（DEFAULT）、alignment（BOTTOM）、showInSubWindow（True）、keyboardAvoidDistance（9999）时避让情况
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

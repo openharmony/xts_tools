@@ -42,7 +42,7 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +60,7 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,7 +78,7 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,7 +96,7 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +114,7 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

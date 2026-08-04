@@ -43,7 +43,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0170
-     * @tc.desc   : Surface类型动态设置offsetX测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +90,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0180
-     * @tc.desc   : Surface类型动态设置offsetY测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +137,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0190
-     * @tc.desc   : Surface类型动态设置surfaceWidth测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,7 +178,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0200
-     * @tc.desc   : Surface类型动态设置surfaceHeight测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,7 +219,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0210
-     * @tc.desc   : Surface类型不设置offsetX/offsetY测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,7 +248,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0220
-     * @tc.desc   : Surface类型不设置surfaceWidth/surfaceHeight测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -283,7 +277,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0240
-     * @tc.desc   : Surface类型异常值测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,7 +320,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0250
-     * @tc.desc   : Texture类型动态设置offsetX测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -371,7 +363,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0260
-     * @tc.desc   : Texture类型动态设置offsetY测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -415,7 +406,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0270
-     * @tc.desc   : Texture类型动态设置surfaceWidth测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -454,7 +444,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0280
-     * @tc.desc   : Texture类型动态设置surfaceHeight测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -493,7 +482,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0290
-     * @tc.desc   : Texture类型不设置offsetX/offsetY测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -522,7 +510,6 @@ export default function XComponentSurfaceRectTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0300
-     * @tc.desc   : Texture类型不设置surfaceWidth/surfaceHeight测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

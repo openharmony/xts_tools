@@ -43,7 +43,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0027
      * @tc.name   : PatternLock component: Pass abnormal values (1, 0, -1, 100), empty values (undefined, null), and
-     * empty strings to the interface
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,7 +71,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0028
      * @tc.name   : PatternLock component: Set sideLength property with abnormal values (1, 0, -1, 100), empty values
-     * (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -101,7 +99,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0029
      * @tc.name   : PatternLock component: Set circleRadius property with abnormal values (1, 0, -1, 100), empty values
-     * (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +127,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0030
      * @tc.name   : PatternLock component: Set backgroundColor property with abnormal values (1, 0, -1, 100), empty
-     * values (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +155,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0031
      * @tc.name   : PatternLock component: Set regularColor property with abnormal values (1, 0, -1, 100), empty values
-     * (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,7 +183,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0032
      * @tc.name   : PatternLock component: Set selectedColor property with abnormal values (1, 0, -1, 100), empty
-     * values (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,7 +211,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0033
      * @tc.name   : PatternLock component: Set activeColor property with abnormal values (1, 0, -1, 100), empty values
-     * (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,7 +239,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0034
      * @tc.name   : PatternLock component: Set pathColor property with abnormal values (1, 0, -1, 100), empty values
-     * (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,7 +267,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0035
      * @tc.name   : PatternLock component: Set pathStrokeWidth property with abnormal values (1, 0, -1, 100), empty
-     * values (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +285,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0036
      * @tc.name   : PatternLock component: Set autoReset property with abnormal values (1, 0, -1, 100), empty values
-     * (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -318,7 +308,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0037
      * @tc.name   : PatternLock component: For activateCircleStyle property, set color with abnormal values
-     * (1, 0, -1, 100), empty values (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -342,7 +331,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0038
      * @tc.name   : PatternLock component: For activateCircleStyle property, set radius with abnormal values
-     * (1, 0, -1, 100), empty values (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -361,7 +349,6 @@ export default function PatternLockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_OUTLIERS_0039
      * @tc.name   : PatternLock component: For activateCircleStyle property, set enableWaveEffect with abnormal values
-     * (1, 0, -1, 100), empty values (undefined, null), and empty strings
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -43,10 +43,6 @@ export default function measureResultTest() {
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_MEASURERESULT_0010
      * @tc.name   : The onPlaceChildren function takes in child components' Layoutable objects with the following
-     * MeasureResult configuration for text:
-     * borderWidth: (top: null, right: null, bottom: null, left: null)
-     * Margin: Same as borderWidth
-     * Padding: null
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

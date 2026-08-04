@@ -45,7 +45,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0010
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +88,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0020
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +129,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0030
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,7 +170,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0040
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,7 +211,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0050
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套Scroll场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套Scroll场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -270,7 +265,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0060
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套List场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套List场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -314,7 +308,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0070
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套Grid场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套Grid场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -364,7 +357,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0080
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套WaterFlow场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Scroll、Scroll再嵌套WaterFlow场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -414,7 +406,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0090
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套Scroll场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套Scroll场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -464,7 +455,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0100
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套List场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套List场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -514,7 +504,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0110
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套Grid场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套Grid场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -564,7 +553,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0120
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套WaterFlow场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套List、List再嵌套WaterFlow场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -614,7 +602,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0130
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套Scroll场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套Scroll场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -664,7 +651,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0140
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套List场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套List场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -714,7 +700,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0150
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套Grid场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套Grid场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -764,7 +749,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0160
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套WaterFlow场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套Grid、Grid再嵌套WaterFlow场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -814,7 +798,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0170
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套Scroll场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套Scroll场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -864,7 +847,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0180
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套List场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套List场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -914,7 +896,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0190
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套Grid场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套Grid场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -964,7 +945,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0200
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套WaterFlow场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation嵌套WaterFlow、WaterFlow再嵌套WaterFlow场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1014,7 +994,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0210
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个Scroll场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个Scroll场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1067,7 +1046,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0220
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个Grid场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个Grid场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1117,7 +1095,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0230
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个WaterFlow场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个WaterFlow场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1167,7 +1144,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0240
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个List场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套多个List场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1217,7 +1193,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0250
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套Scroll，Scroll嵌套多个Grid)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套Scroll，Scroll嵌套多个Grid)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1278,7 +1253,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0260
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套Scroll，Scroll嵌套1个List，1个WaterFlow)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套Scroll，Scroll嵌套1个List，1个WaterFlow)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1339,7 +1313,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0270
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套List，List嵌套1个Grid，1个WaterFlow)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套List，List嵌套1个Grid，1个WaterFlow)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1400,7 +1373,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0280
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套WaterFlow，WaterFlow嵌套1个Grid，1个Scroll)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(一个Navigation下嵌套WaterFlow，WaterFlow嵌套1个Grid，1个Scroll)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1461,7 +1433,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0290
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(异常值场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(异常值场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1511,7 +1482,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0300
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(多次调用场景场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(多次调用场景场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1561,7 +1531,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0310
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(单双栏场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(单双栏场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1615,7 +1584,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0320
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(dialog页面场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(dialog页面场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1665,7 +1633,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0330
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(子窗口场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(子窗口场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1721,7 +1688,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0340
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(鼠标场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(鼠标场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1771,7 +1737,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0350
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(抛滑场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(抛滑场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1821,7 +1786,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0360
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(滑动滚动条场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(滑动滚动条场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1871,7 +1835,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0370
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(横竖屏切换场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(横竖屏切换场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1930,7 +1893,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0390
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation非全屏场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(Navigation非全屏场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1984,7 +1946,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0400
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置标题栏场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置标题栏场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2034,7 +1995,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0410
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置工具栏场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(只设置工具栏场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2084,7 +2044,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0420
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏非自定义场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏非自定义场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2134,7 +2093,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0430
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏非自定义、工具栏自定义场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏非自定义、工具栏自定义场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2184,7 +2142,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0440
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏自定义场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(标题栏自定义、工具栏自定义场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2234,7 +2191,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0450
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(接口滑动场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(接口滑动场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2286,7 +2242,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0460
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(padding场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(padding场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2344,7 +2299,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0470
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(BarStyle场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(BarStyle场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2402,7 +2356,6 @@ export default function NavigationBindToScrollableTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BINDTOSCROLLABLE_0480
      * @tc.name   : Navigation标题栏工具栏支持跟手滑动隐藏显示(ignoreLayoutSafeArea场景)
-     * @tc.desc   : Navigation标题栏工具栏支持跟手滑动隐藏显示(ignoreLayoutSafeArea场景)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

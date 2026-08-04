@@ -43,7 +43,6 @@ export default function SidebarContainerStepperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0060
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +61,6 @@ export default function SidebarContainerStepperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0030
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +79,6 @@ export default function SidebarContainerStepperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0020
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,7 +97,6 @@ export default function SidebarContainerStepperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0040
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +115,6 @@ export default function SidebarContainerStepperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0050
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,7 +133,6 @@ export default function SidebarContainerStepperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_CUT_SIDEBARCONTAINER_STEPPER_0010
-     * @tc.desc   : Manual click verification of router push jump interruption and continuation function (pushurl method)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

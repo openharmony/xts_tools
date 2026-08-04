@@ -42,7 +42,7 @@ export default function LoadingProgressTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_OUTLIERS_0023
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +60,7 @@ export default function LoadingProgressTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_OUTLIERS_0024
-     * @tc.name   :
+     * @tc.name   : * @tc.type   : Function
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

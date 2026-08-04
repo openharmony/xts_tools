@@ -71,7 +71,6 @@ export default function SpecialComponentsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0250
      * @tc.name   : Click on the TextInput component, rotate the screen to landscape mode, the soft keyboard does not
-     * fully close, and the textInput remains focused.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

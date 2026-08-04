@@ -43,7 +43,6 @@ export default function FocusDynamicTest() {
     /*
      * @tc.number : SUB_ACE_FOCUS_DYNAMIC_EFFECT_017
      * @tc.name   : SUB_ACE_FOCUS_DYNAMIC_EFFECT_017
-     * @tc.desc   : Component Focus Motion Effect UX Inspection
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

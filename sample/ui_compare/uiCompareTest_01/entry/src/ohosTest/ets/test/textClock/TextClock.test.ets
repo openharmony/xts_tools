@@ -43,7 +43,6 @@ export default function TextClockTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0067
      * @tc.name   : TextClock component: When setting the textShadow property, pass abnormal values (1, 0, -1, 100),
-     * empty values (undefined, null), and empty strings to offsetX.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

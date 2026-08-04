@@ -44,7 +44,6 @@ export default function expectedFrameTest() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040
      * @tc.name   : Under standard test conditions, testing the animation effect when the expected frame rate
-     * parameters of keyframe animation are integers and equal.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,7 +81,6 @@ export default function expectedFrameTest() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010
      * @tc.name   : Under standard test conditions, testing the animation effect when the expected frame rate
-     * parameters of keyframe animation are integers and equal.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,7 +105,6 @@ export default function expectedFrameTest() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020
      * @tc.name   : Under standard test conditions, testing the animation effect when the expected frame rate
-     * parameters of a keyframe animation are integers.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

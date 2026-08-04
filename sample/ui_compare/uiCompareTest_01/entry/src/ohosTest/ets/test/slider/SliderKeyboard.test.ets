@@ -44,7 +44,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0120
-     * @tc.desc   : 水平Slider点击键盘方向键down焦点离开
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,7 +73,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0140
-     * @tc.desc   : 水平Slider点击键盘方向键right滑块向右滑动
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,7 +102,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0170
-     * @tc.desc   : 垂直Slider点击键盘方向键left焦点离开
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -134,7 +131,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0150
-     * @tc.desc   : 垂直Slider点击键盘方向键up滑块向上滑动
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,7 +160,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0110
-     * @tc.desc   : 水平Slider点击键盘方向键up焦点离开
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -194,7 +189,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0200
-     * @tc.desc   : 动态方向Slider键盘操作测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,7 +222,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0160
-     * @tc.desc   : 垂直Slider点击键盘方向键down滑块向下滑动
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +251,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0180
-     * @tc.desc   : 垂直Slider点击键盘方向键right焦点离开
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -288,7 +280,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0190
-     * @tc.desc   : 水平Slider横屏方向键操作测试
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -326,7 +317,6 @@ export default function SliderKeyboardTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_ACTION_0130
-     * @tc.desc   : 水平Slider点击键盘方向键left滑块向左滑动
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

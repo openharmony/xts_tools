@@ -63,8 +63,6 @@ export default function gestureMonopolize01Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110
      * @tc.name   : Set the 'monopolize' attribute for the List component and bind it to a mouse wheel event. Bind the
-     * column component to a tap gesture. Verify that the column's tap gesture responds normally when the List
-     * component's monopolize state is not triggered.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

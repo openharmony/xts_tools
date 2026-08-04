@@ -43,7 +43,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0010
-     * @tc.desc   : Slider组件适老化（打开应用，系统设置字体大小）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +76,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0020
-     * @tc.desc   : Slider组件适老化（系统设置字体大小，后打开应用）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +116,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0030
-     * @tc.desc   : Slider组件适老化（接口设置字体大小，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,7 +139,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0040
-     * @tc.desc   : Slider组件适老化（style属性测试，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,7 +165,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0050
-     * @tc.desc   : Slider组件适老化（超大滑块场景测试，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -192,7 +187,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0060
-     * @tc.desc   : Slider组件适老化（避让测试，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,7 +209,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0070
-     * @tc.desc   : Slider组件适老化（rotate属性测试，设置1.75倍，从左向右滑动）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,7 +231,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0080
-     * @tc.desc   : Slider组件适老化（direction属性测试，设置1.75倍，方向横向）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +253,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0090
-     * @tc.desc   : Slider组件适老化（reverse属性测试，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -284,7 +275,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0100
-     * @tc.desc   : Slider组件适老化（自定义气泡文本场景，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -307,7 +297,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0110
-     * @tc.desc   : Slider组件适老化（横竖屏场景，设置1.75倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -334,7 +323,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0120
-     * @tc.desc   : Slider组件适老化（锁屏热启动场景）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -373,7 +361,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0150
-     * @tc.desc   : Slider组件适老化（接口设置字体大小，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,7 +384,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0160
-     * @tc.desc   : Slider组件适老化（style属性测试，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -424,7 +410,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0170
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0170
-     * @tc.desc   : Slider组件适老化（style属性测试，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -451,7 +436,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0180
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0180
-     * @tc.desc   : Slider组件适老化（超大滑块场景测试，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -474,7 +458,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0190
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0190
-     * @tc.desc   : Slider组件适老化（超大滑块场景测试，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -497,7 +480,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0200
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0200
-     * @tc.desc   : Slider组件适老化（避让测试，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -520,7 +502,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0210
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0210
-     * @tc.desc   : Slider组件适老化（避让测试，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -543,7 +524,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0220
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0220
-     * @tc.desc   : Slider组件适老化（rotate属性测试，设置2倍，从左向右滑动）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -566,7 +546,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0230
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0230
-     * @tc.desc   : Slider组件适老化（rotate属性测试，设置3.2倍，从左向右滑动）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -589,7 +568,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0240
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0240
-     * @tc.desc   : Slider组件适老化（rotate属性测试，设置1.75倍，从右向左滑动）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -612,7 +590,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0250
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0250
-     * @tc.desc   : Slider组件适老化（rotate属性测试，设置2倍，从右向左滑动）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -635,7 +612,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0260
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0260
-     * @tc.desc   : Slider组件适老化（rotate属性测试，设置3.2倍，从右向左滑动）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -658,7 +634,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0270
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0270
-     * @tc.desc   : Slider组件适老化（direction属性测试，设置2倍，方向横向）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -681,7 +656,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0280
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0280
-     * @tc.desc   : Slider组件适老化（direction属性测试，设置3.2倍，方向横向）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -704,7 +678,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0290
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0290
-     * @tc.desc   : Slider组件适老化（direction属性测试，设置1.75倍，方向纵向）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -727,7 +700,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0300
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0300
-     * @tc.desc   : Slider组件适老化（direction属性测试，设置2倍，方向纵向）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -750,7 +722,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0310
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0310
-     * @tc.desc   : Slider组件适老化（direction属性测试，设置3.2倍，方向纵向）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -773,7 +744,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0320
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0320
-     * @tc.desc   : Slider组件适老化（reverse属性测试，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -796,7 +766,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0330
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0330
-     * @tc.desc   : Slider组件适老化（reverse属性测试，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -819,7 +788,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0340
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0340
-     * @tc.desc   : Slider组件适老化（自定义气泡文本场景，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -842,7 +810,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0350
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0350
-     * @tc.desc   : Slider组件适老化（自定义气泡文本场景，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -865,7 +832,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0360
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0360
-     * @tc.desc   : Slider组件适老化（横竖屏场景，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -892,7 +858,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0370
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0370
-     * @tc.desc   : Slider组件适老化（横竖屏场景，设置3.2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -919,7 +884,6 @@ export default function SliderAgingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0380
      * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0380
-     * @tc.desc   : Slider组件适老化（接口设置字体大小，设置2倍）
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

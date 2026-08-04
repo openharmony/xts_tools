@@ -47,7 +47,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0010
      * @tc.name   : NavigationCommonTitle传入有效Modifier，Full模式下，主副字体样式变化
-     * @tc.desc   : NavigationCommonTitle传入有效Modifier，Full模式下，主副字体样式变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +88,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0020
      * @tc.name   : NavigationCommonTitle传入有效Modifier，Full模式下，主副字体样式变化，更改标题内容变化
-     * @tc.desc   : NavigationCommonTitle传入有效Modifier，Full模式下，主副字体样式变化，更改标题内容变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,7 +135,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0030
      * @tc.name   : NavigationCommonTitle传入有效Modifier，Free模式下，主副字体样式变化
-     * @tc.desc   : NavigationCommonTitle传入有效Modifier，Free模式下，主副字体样式变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -198,7 +195,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0040
      * @tc.name   : NavigationCommonTitle传入有效Modifier，Mini模式下，主副字体样式变化
-     * @tc.desc   : NavigationCommonTitle传入有效Modifier，Mini模式下，主副字体样式变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,7 +245,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0050
      * @tc.name   : NavigationCommonTitle传入有效Modifier，主副字体样式变化，标题栏隐藏再显示，字体样式不发生改变
-     * @tc.desc   : NavigationCommonTitle传入有效Modifier，主副字体样式变化，标题栏隐藏再显示，字体样式不发生改变
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +289,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0060
      * @tc.name   : navigation嵌套子窗，NavigationCommonTitle传入有效Modifier，更改主副标题样式生效
-     * @tc.desc   : navigation嵌套子窗，NavigationCommonTitle传入有效Modifier，更改主副标题样式生效
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,7 +339,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0070
      * @tc.name   : navigation嵌套子窗，NavigationCommonTitle传入空Modifier，字体样式为系统默认
-     * @tc.desc   : navigation嵌套子窗，NavigationCommonTitle传入空Modifier，字体样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -382,7 +375,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0080
      * @tc.name   : navigation嵌套子窗，NavigationCommonTitle传入undefined，字体样式为系统默认
-     * @tc.desc   : navigation嵌套子窗，NavigationCommonTitle传入undefined，字体样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,7 +411,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0090
      * @tc.name   : navigation嵌套子窗，NavigationCommonTitle传入null，字体样式为系统默认
-     * @tc.desc   : navigation嵌套子窗，NavigationCommonTitle传入null，字体样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,7 +447,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0100
      * @tc.name   : NavigationCommonTitle传入空Modifier，字体样式为系统默认
-     * @tc.desc   : NavigationCommonTitle传入空Modifier，字体样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -488,7 +478,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0110
      * @tc.name   : NavigationCommonTitle传入undefined，字体样式为系统默认
-     * @tc.desc   : NavigationCommonTitle传入undefined，字体样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -520,7 +509,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0120
      * @tc.name   : NavigationCommonTitle传入null，字体样式为系统默认
-     * @tc.desc   : NavigationCommonTitle传入null，字体样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -552,7 +540,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0130
      * @tc.name   : NavigationCommonTitle类型title，镜像测试，系统语言设为维吾尔语，字体样式跟随镜像变化
-     * @tc.desc   : NavigationCommonTitle类型title，镜像测试，系统语言设为维吾尔语，字体样式跟随镜像变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -612,7 +599,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0140
      * @tc.name   : NavigationCommonTitle传入有效Modifier，主副字体样式变化，息屏解锁，回到后台再返回应用不影响字体样式
-     * @tc.desc   : NavigationCommonTitle传入有效Modifier，主副字体样式变化，息屏解锁，回到后台再返回应用不影响字体样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -652,7 +638,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0150
      * @tc.name   : 页面跳转navdestination页面，传入Modifier字体样式可变化
-     * @tc.desc   : 页面跳转navdestination页面，传入Modifier字体样式可变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -705,7 +690,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0160
      * @tc.name   : ResourceStr类型title，传入有效Modifier，可改变标题样式
-     * @tc.desc   : ResourceStr类型title，传入有效Modifier，可改变标题样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -754,7 +738,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0170
      * @tc.name   : ResourceStr类型title，传入空Modifier，标题样式为系统默认
-     * @tc.desc   : ResourceStr类型title，传入空Modifier，标题样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -786,7 +769,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0180
      * @tc.name   : ResourceStr类型title，Modifier传入undefined，标题样式为系统默认
-     * @tc.desc   : ResourceStr类型title，Modifier传入undefined，标题样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -818,7 +800,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0190
      * @tc.name   : ResourceStr类型title，Modifier传入null，标题样式为系统默认
-     * @tc.desc   : ResourceStr类型title，Modifier传入null，标题样式为系统默认
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -850,7 +831,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0200
      * @tc.name   : ResourceStr类型title，镜像测试，系统语言设为维吾尔语，字体样式跟随镜像变化
-     * @tc.desc   : ResourceStr类型title，镜像测试，系统语言设为维吾尔语，字体样式跟随镜像变化
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -889,7 +869,6 @@ export default function NavigationFeatureTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_0210
      * @tc.name   : 自定义类型title，传入有效Modifier，不可改变标题样式
-     * @tc.desc   : 自定义类型title，传入有效Modifier，不可改变标题样式
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

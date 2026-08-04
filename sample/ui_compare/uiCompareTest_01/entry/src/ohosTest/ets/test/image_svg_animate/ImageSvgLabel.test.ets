@@ -421,7 +421,7 @@ export default function ImageSvgLabelTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVGLABEL_0032
      * @tc.name   : Image with svg
-     * @极光tc.type   : Function
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

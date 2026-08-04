@@ -63,7 +63,6 @@ export default function waterflowMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0110_259
      * @tc.name   : Testing keyboard tab focus navigation when using columnsTemplate: 1fr 1fr 1fr layout with mirroring
-     * effect (with button placement)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +87,6 @@ export default function waterflowMirrorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_MIRROR_0260_569
      * @tc.name   : Testing keyboard tab focus navigation when using rowsTemplate: 1fr 1fr 1fr layout with mirroring
-     * effect (with button placement)
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
