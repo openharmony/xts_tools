@@ -55,13 +55,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090
-       * @tc.name    Apply the image resource to the property string and set the layoutStyle
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090
+     * @tc.name   : Apply the image resource to the property string and set the layoutStyle
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption01")
@@ -78,13 +77,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100
-       * @tc.name    Apply the image resource to the property string and set the colorFilter
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100
+     * @tc.name   : Apply the image resource to the property string and set the colorFilter
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption02")
@@ -101,13 +99,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040
-       * @tc.name    Apply the image resource to the property string and set the size
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040
+     * @tc.name   : Apply the image resource to the property string and set the size
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption03")
@@ -124,13 +121,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050
-       * @tc.name    Apply the image resource to the property string and set the size to(0,0)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050
+     * @tc.name   : Apply the image resource to the property string and set the size to(0,0)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption04")
@@ -147,13 +143,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060
-       * @tc.name    Apply the image resource to the property string and set the size to(-100,-100)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060
+     * @tc.name   : Apply the image resource to the property string and set the size to(-100,-100)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption05")
@@ -170,13 +165,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use replaceStyle to replace the image style
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use replaceStyle to replace the image style
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption06")
@@ -197,13 +191,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use setStyle to add an image style
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use setStyle to add an image style
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption07")
@@ -224,13 +217,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030
-       * @tc.name    Referencing the wrong image resource
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030
+     * @tc.name   : Referencing the wrong image resource
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption08")
@@ -247,13 +239,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and run the clearstyles to clear the image style
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the clearstyles to clear the image style
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption09")
@@ -274,13 +265,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and run the removestyle to clear the image style
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the removestyle to clear the image style
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption10")
@@ -301,13 +291,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and run the removestyles to clear the image style
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the removestyles to clear the image style
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption11")
@@ -328,13 +317,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and run the removestring to clear the image style
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the removestring to clear the image style
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption12")
@@ -355,13 +343,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use appendStyledString to insert a new image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use appendStyledString to insert a new image
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption13")
@@ -382,13 +369,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use insertStyledString to insert a new image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use insertStyledString to insert a new image
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption14")
@@ -409,13 +395,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use replaceStyledString to insert a new image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use replaceStyledString to insert a new image
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption15")
@@ -436,13 +421,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use replaceString to insert a string
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use replaceString to insert a string
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption16")
@@ -462,13 +446,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130
-       * @tc.name    Set the ResourceImageAttachmentOptions property string to add an image, and use the insertString to insert text before and after the image
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130
+     * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use the insertString to insert text before and after the image
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption17")
@@ -488,13 +471,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070
-       * @tc.name    Apply the image resource to the property string and set the verticalAlign
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070
+     * @tc.name   : Apply the image resource to the property string and set the verticalAlign
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption18")
@@ -511,13 +493,12 @@ export default function UiComponentResourceImageAttachmentOption() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080
-       * @tc.name    Apply the image resource to the property string and set the objectFit
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080
+     * @tc.name   : Apply the image resource to the property string and set the objectFit
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentResourceImageAttachmentOption/UiComponentResourceImageAttachmentOption19")
