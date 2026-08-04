@@ -58,13 +58,12 @@ export default function UiComponentUIExtensionComponent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050
-       * @tc.name    The UIExtensionComponent component interface is provided,UIExtensionComponent component is set to size
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050
+     * @tc.name   : The UIExtensionComponent component interface is provided,UIExtensionComponent component is set to size
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050`);
       Settings.createWindow("testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent01")
@@ -77,13 +76,12 @@ export default function UiComponentUIExtensionComponent() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130
-       * @tc.name    The UIExtensionComponent component interface is provided,UIExtensionComponent sets the onError event
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130
+     * @tc.name   : The UIExtensionComponent component interface is provided,UIExtensionComponent sets the onError event
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130`);
       Settings.createWindow("testability/pages/UiComponentUIExtensionComponent/UiComponentUIExtensionComponent02")

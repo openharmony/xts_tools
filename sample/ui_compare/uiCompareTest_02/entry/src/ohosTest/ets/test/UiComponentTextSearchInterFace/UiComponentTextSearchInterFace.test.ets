@@ -55,13 +55,12 @@ export default function UiComponentTextSearchInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460
-       * @tc.name    Search component, set the entered text to TextAlign.End
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460
+     * @tc.name   : Search component, set the entered text to TextAlign.End
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460 start.`);
       Settings.createWindow("testability/pages/UiComponentTextSearchInterFace/UiComponentTextSearchInterFace01")
@@ -76,13 +75,12 @@ export default function UiComponentTextSearchInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450
-       * @tc.name    Search component, set the entered text to TextAlign.Center
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450
+     * @tc.name   : Search component, set the entered text to TextAlign.Center
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450 start.`);
       Settings.createWindow("testability/pages/UiComponentTextSearchInterFace/UiComponentTextSearchInterFace02")
@@ -97,13 +95,12 @@ export default function UiComponentTextSearchInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480
-       * @tc.name    Search component, set the entered text to TextAlign.Start
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480
+     * @tc.name   : Search component, set the entered text to TextAlign.Start
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480 start.`);
       Settings.createWindow("testability/pages/UiComponentTextSearchInterFace/UiComponentTextSearchInterFace03")
@@ -118,13 +115,12 @@ export default function UiComponentTextSearchInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150
-       * @tc.name    Search component, not set the TextAlign
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150
+     * @tc.name   : Search component, not set the TextAlign
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentTextSearchInterFace/UiComponentTextSearchInterFace04")
@@ -139,13 +135,12 @@ export default function UiComponentTextSearchInterFace() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010
-       * @tc.name    Search component common property test
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010
+     * @tc.name   : Search component common property test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextSearchInterFace/UiComponentTextSearchInterFace05")

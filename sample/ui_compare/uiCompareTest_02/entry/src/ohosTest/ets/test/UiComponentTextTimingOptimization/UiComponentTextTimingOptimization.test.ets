@@ -55,13 +55,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060
-       * @tc.name    Bind the LINE_HEIGHT type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060
+     * @tc.name   : Bind the LINE_HEIGHT type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization01")
@@ -74,13 +73,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080
-       * @tc.name    Bind the URL type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080
+     * @tc.name   : Bind the URL type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization02")
@@ -97,13 +95,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010
-       * @tc.name    Bind the FONT type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010
+     * @tc.name   : Bind the FONT type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization03")
@@ -116,13 +113,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030
-       * @tc.name    Bind the BASELINE_OFFSET type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030
+     * @tc.name   : Bind the BASELINE_OFFSET type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization04")
@@ -135,13 +131,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040
-       * @tc.name    Bind the LETTER_SPACING type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040
+     * @tc.name   : Bind the LETTER_SPACING type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization05")
@@ -154,13 +149,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070
-       * @tc.name    Bind the BACKGROUND_COLOR type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070
+     * @tc.name   : Bind the BACKGROUND_COLOR type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization06")
@@ -173,13 +167,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020
-       * @tc.name    Bind the DECORATION type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020
+     * @tc.name   : Bind the DECORATION type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization07")
@@ -192,13 +185,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090
-       * @tc.name    Bind the GESTURE type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090
+     * @tc.name   : Bind the GESTURE type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization08")
@@ -216,13 +208,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110
-       * @tc.name    Bind the IMAGE type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110
+     * @tc.name   : Bind the IMAGE type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization09")
@@ -235,13 +226,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050
-       * @tc.name    Bind the TEXT_SHADOW type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050
+     * @tc.name   : Bind the TEXT_SHADOW type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization10")
@@ -254,13 +244,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100
-       * @tc.name    Bind the PARAGRAPH_STYLE type attribute string in the attribute string aboutToAppear
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100
+     * @tc.name   : Bind the PARAGRAPH_STYLE type attribute string in the attribute string aboutToAppear
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization11")
@@ -273,13 +262,12 @@ export default function UiComponentTextTimingOptimization() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130
-       * @tc.name    Multiple text components are displayed simultaneously
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130
+     * @tc.name   : Multiple text components are displayed simultaneously
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentTextTimingOptimization/UiComponentTextTimingOptimization12")

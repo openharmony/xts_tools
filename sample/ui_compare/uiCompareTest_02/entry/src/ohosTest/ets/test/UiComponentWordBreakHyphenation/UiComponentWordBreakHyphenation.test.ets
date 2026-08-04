@@ -55,13 +55,12 @@ export default function UiComponentWordBreakHyphenation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0010
-       * @tc.name    inline mode of the Text/TextInput component and the TextArea component, set the text to CJK text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0010
+     * @tc.name   : inline mode of the Text/TextInput component and the TextArea component, set the text to CJK text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0010', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0010 start.`);
       Settings.createWindow("testability/pages/UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation01")
@@ -74,13 +73,12 @@ export default function UiComponentWordBreakHyphenation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190
-       * @tc.name    Change the type of line break
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190
+     * @tc.name   : Change the type of line break
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation02");
@@ -100,13 +98,12 @@ export default function UiComponentWordBreakHyphenation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0050
-       * @tc.name    The Text component sets the attribute string to CJK text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0050
+     * @tc.name   : The Text component sets the attribute string to CJK text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation03")
@@ -119,13 +116,12 @@ export default function UiComponentWordBreakHyphenation() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0030
-       * @tc.name    span/ContainerSpan, set the CJK text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0030
+     * @tc.name   : span/ContainerSpan, set the CJK text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WORDBREAK_HYPHENATION_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentWordBreakHyphenation/UiComponentWordBreakHyphenation04")
