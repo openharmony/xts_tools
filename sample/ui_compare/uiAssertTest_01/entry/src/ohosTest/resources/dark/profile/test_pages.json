@@ -1,0 +1,10 @@
+{
+  "src": [
+    "testability/pages/Index",
+    "testability/pages/UiComponentMediaCalendarPickerDisabledDate/UiComponentMediaCalendarPickerDisabledDate0020",
+    "testability/pages/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0086",
+    "testability/pages/UiComponentMediaTextClockOutliers/UiComponentMediaTextClockOutliers0071",
+    "testability/pages/UiComponentDisplayNative/UiComponentDisplayNative0070",
+    "testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface0040"
+  ]
+}
