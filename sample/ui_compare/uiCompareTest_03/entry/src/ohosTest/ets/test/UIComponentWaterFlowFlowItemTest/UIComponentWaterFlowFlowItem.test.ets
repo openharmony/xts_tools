@@ -59,10 +59,11 @@ export default function UIComponentWaterFlowFlowItem() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030
-     * @tc.desc    FlowItem sets visibility property for dynamic switching
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030';
@@ -89,10 +90,11 @@ export default function UIComponentWaterFlowFlowItem() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300
-     * @tc.desc    WaterFlow adds child nodes in over-boundary state, observe display effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300';
@@ -117,10 +119,11 @@ export default function UIComponentWaterFlowFlowItem() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310
-     * @tc.desc    WaterFlow deletes child nodes in over-boundary state, observe display effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310';

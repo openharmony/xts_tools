@@ -59,10 +59,11 @@ export default function UIComponentWaterFlowEventModifier() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010
-     * @tc.desc    WaterFlow sets onScrollFrameBegin event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0010';
@@ -87,10 +88,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020
-     * @tc.desc    WaterFlow sets onWillScroll event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0020';
@@ -115,10 +117,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030
-     * @tc.desc    WaterFlow sets onDidScroll event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0030';
@@ -143,10 +146,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040
-     * @tc.desc    WaterFlow sets onReachStart event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0040';
@@ -171,10 +175,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050
-     * @tc.desc    WaterFlow sets onReachEnd event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0050';
@@ -199,10 +204,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060
-     * @tc.desc    WaterFlow sets onScrollStart event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0060';
@@ -227,10 +233,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070
-     * @tc.desc    WaterFlow sets onScrollStop event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0070';
@@ -255,10 +262,11 @@ export default function UIComponentWaterFlowEventModifier() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080
-     * @tc.desc    WaterFlow sets onScrollIndex event via modifier test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_EVENT_MODIFIER_0080';

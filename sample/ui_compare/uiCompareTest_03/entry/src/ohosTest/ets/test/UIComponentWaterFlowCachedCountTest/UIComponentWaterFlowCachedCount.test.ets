@@ -60,10 +60,11 @@ export default function UIComponentWaterFlowCachedCount() {
 
     
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110
-     * @tc.desc    After adding data at the bottom in Waterflow, observe the preloading situation.
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110';

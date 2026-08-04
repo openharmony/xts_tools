@@ -62,10 +62,11 @@ export default function UIComponentTextRichEditorInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013
-     * @tc.desc    getTypingStyle correctly retrieves the user's preset style
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0013';
@@ -83,10 +84,11 @@ export default function UIComponentTextRichEditorInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016
-     * @tc.desc    getCaretOffset correctly returns the current cursor position
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0016';
@@ -118,10 +120,11 @@ export default function UIComponentTextRichEditorInterface() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817
-     * @tc.desc    Verify the setCaretOffset functionality
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999_817';

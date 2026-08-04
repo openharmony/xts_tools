@@ -62,10 +62,11 @@ export default function UIComponentTextRichEditorUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070
-     * @tc.desc    RichEditor#RichEditorTest#RichEditorTest_007
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0070';
@@ -81,10 +82,11 @@ export default function UIComponentTextRichEditorUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160
-     * @tc.desc    RichEditor#RichEditorTest#RichEditorTest_016
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0160';
@@ -100,10 +102,11 @@ export default function UIComponentTextRichEditorUI() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400
-     * @tc.name    SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400
-     * @tc.desc    RichEditor#RichEditorTest#RichEditorTest_040
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400', Level.LEVEL0, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_UI_0400';

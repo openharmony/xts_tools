@@ -60,10 +60,11 @@ export default function UIComponentWaterFlowClipComent() {
 
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010
-     * @tc.desc    Vertical layout waterflow sets CONTENT_ONLY
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010';
@@ -84,10 +85,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020
-     * @tc.desc    Vertical layout waterflow sets BOUNDARY
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020';
@@ -108,10 +110,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030
-     * @tc.desc    Vertical layout waterflow sets SAFE_AREA
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030';
@@ -132,10 +135,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040
-     * @tc.desc    Vertical layout waterflow sets RectShape custom clipping area
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040';
@@ -156,10 +160,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050
-     * @tc.desc    Waterflow sets RectShape parameter to 0
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050';
@@ -180,10 +185,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060
-     * @tc.desc    Waterflow sets RectShape parameter as negative number
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060';
@@ -204,10 +210,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070
-     * @tc.desc    Waterflow sets RectShape parameter as oversized value
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070';
@@ -228,10 +235,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080
-     * @tc.desc    Waterflow sets custom clipping area with offset displacement
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080';
@@ -252,10 +260,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090
-     * @tc.desc    Horizontal layout waterflow sets clipping effect
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090';
@@ -276,10 +285,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100
-     * @tc.desc    Waterflow sets clipping area, observe effect when switching portrait and landscape
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100';
@@ -328,10 +338,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120
-     * @tc.desc    Waterflow sets clipping area, dynamically change column and row spacing
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120';
@@ -354,10 +365,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130
-     * @tc.desc    Waterflow sets clipping area, dynamically change number of columns and rows
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130';
@@ -380,10 +392,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170
-     * @tc.desc    Waterflow sets clipping area, edge fade effect test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170';
@@ -406,10 +419,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180
-     * @tc.desc    Waterflow sets clipping area, padding dynamic change test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180';
@@ -432,10 +446,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190
-     * @tc.desc    Waterflow sets clipping area, mirror effect test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190';
@@ -456,10 +471,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200
-     * @tc.desc    Waterflow sets clipping area, controller jump test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200';
@@ -482,10 +498,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210
-     * @tc.desc    Waterflow sets clipping area, event callback test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210';
@@ -510,10 +527,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230
-     * @tc.desc    Waterflow sets clipping area, add and delete item test
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230';
@@ -540,10 +558,11 @@ export default function UIComponentWaterFlowClipComent() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250
-     * @tc.desc    Waterflow component RectShape custom area set together with clip and clipShape
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250', Level.LEVEL3, async (done: Function) => {
       TAG = 'SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250';
