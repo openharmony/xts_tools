@@ -42,7 +42,6 @@ export default function MediaTextpickerColumnwidths() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0015
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0015
-     * @tc.desc   : range is a single column of data, and if columnWidths is set to the normal value of LengthMetrics.lpx(100).
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -64,7 +63,6 @@ export default function MediaTextpickerColumnwidths() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0011
-     * @tc.desc   : range is a single column of data, and if columnWidths is set to the normal value of LengthMetrics.vp(100).
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -86,7 +84,6 @@ export default function MediaTextpickerColumnwidths() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0013
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0013
-     * @tc.desc   : range is a single column of data, and if columnWidths is set to the normal value of LengthMetrics.fp(80).
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -108,7 +105,6 @@ export default function MediaTextpickerColumnwidths() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0014
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0014
-     * @tc.desc   : range is a single column of data, and if columnWidths is set to the normal value of LengthMetrics.percent(20).
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -130,7 +126,6 @@ export default function MediaTextpickerColumnwidths() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0010
-     * @tc.desc   : range is a single column of data, and the display effect is not set when columnWidths is not set when the range is a single column of data
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -152,7 +147,6 @@ export default function MediaTextpickerColumnwidths() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0016
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0016
-     * @tc.desc   : range is a single column of data, and if columnWidths is set to the normal value of LengthMetrics.lpx(80).
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

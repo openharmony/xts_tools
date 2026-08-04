@@ -41,13 +41,12 @@ export default function RoutingSupportstageInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010
-       * @tc.desc    Test router.back() interface to navigate back to previous page or specified page
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface10")
@@ -63,13 +62,12 @@ export default function RoutingSupportstageInterface() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030
-       * @tc.desc    Test router.getLength() interface to get current page stack count
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface30")
@@ -85,13 +83,12 @@ export default function RoutingSupportstageInterface() {
     })
     
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050
-       * @tc.desc    Test router.getState() interface to get current page state information
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface50")
@@ -107,13 +104,12 @@ export default function RoutingSupportstageInterface() {
     })
     
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060
-       * @tc.desc    Test router.pushUrl() interface to navigate to specified pages within the app
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface60")
@@ -129,13 +125,12 @@ export default function RoutingSupportstageInterface() {
     })
     
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070
-       * @tc.desc    ProgressLinear sets the strokeRadius property
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface70")
@@ -152,13 +147,12 @@ export default function RoutingSupportstageInterface() {
 
 
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080
-       * @tc.desc    Test router.enableAlertBeforeBackPage interface to enable back page confirmation dialog
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface80")
@@ -174,13 +168,12 @@ export default function RoutingSupportstageInterface() {
     })
     
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040
-       * @tc.desc    ProgressLinear sets the strokeRadius property
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface40")
@@ -196,13 +189,12 @@ export default function RoutingSupportstageInterface() {
     })
     
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100
-       * @tc.desc    Test named routing interface functionality with successful navigation
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface100")
@@ -218,13 +210,12 @@ export default function RoutingSupportstageInterface() {
     })
     
     /*
-       * @tc.number  SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020
-       * @tc.name    SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020
-       * @tc.desc    Test router.clear() functionality to clear all pages in the router stack
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020
+     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020 start.`);
       Settings.createWindow("testability/pages/RoutingSupportstageInterface/RoutingSupportstageInterface20")

@@ -42,7 +42,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011
-     * @tc.desc   : The TextPicker component sets disableTextStyleAnimation to true, and sets the color of the defaultTextStyle property, the size, weight, minFontSize, maxFontSize, and overflow parameter outliers of -1, 0, 1, 99999, 10px, 100%, empty string, undefined, null combination, display the effect by default
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -57,13 +56,12 @@ export default function MediaTextpickerDisabletsa() {
     })
 
     /*
- * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010
- * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010
- * @tc.desc   : The TextPicker component sets disableTextStyleAnimation to true, and sets the color of the defaultTextStyle property, the size, weight, minFontSize, maxFontSize, and overflow parameter outliers of -1, 0, 1, 99999, 10px, 100%, empty string, undefined, null combination, display the effect by default
- * @tc.type   : Function
- * @tc.size   : MediumTest
- * @tc.level  : 1
- */
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 1
+     */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010 start.`);
       Settings.createWindow("testability/pages/MediaTextpickerDisabletsa/MediaTextpickerDisabletsa_01")
@@ -76,7 +74,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0010
-     * @tc.desc   : The TextPicker component quickly and frequently slides to validate the onEnterSelectedArea event call
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -99,7 +96,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0020
-     * @tc.desc   : The TextPickerDialog component quickly and frequently slides to verify that the onEnterSelectedArea event is called
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -123,7 +119,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0010
-     * @tc.desc   : The TextPicker component verifies when the onEnterSelectedArea event is triggered
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -146,7 +141,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0011
-     * @tc.desc   : The TextPickerDialog component verifies when the onEnterSelectedArea event is triggered
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -169,7 +163,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0010
-     * @tc.desc   : The TimePicker component verifies when the onEnterSelectedArea event is triggered
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -192,7 +185,6 @@ export default function MediaTextpickerDisabletsa() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0011
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0011
-     * @tc.desc   : The TimePickerDialog component verifies when the onEnterSelectedArea event is triggered
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

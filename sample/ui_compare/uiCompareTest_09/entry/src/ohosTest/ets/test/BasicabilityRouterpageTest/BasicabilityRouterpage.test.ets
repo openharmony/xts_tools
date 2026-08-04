@@ -27,10 +27,12 @@ export default function BasicabilityRouterpage() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTERPAGE_008
-     * @tc.name  跳转1个页面，更新到1个页面后，清空后在跳转1个页面
-     * @tc.desc  测试router的push、replace、clear操作序列
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_008
+     * @tc.name   : 跳转1个页面，更新到1个页面后，清空后在跳转1个页面
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTERPAGE_008', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_008 begin');
@@ -67,10 +69,12 @@ export default function BasicabilityRouterpage() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_008 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTERPAGE_027
-     * @tc.name  携带参数加载首页，参数值为null
-     * @tc.desc  测试应用启动时的参数获取
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_027
+     * @tc.name   : 携带参数加载首页，参数值为null
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTERPAGE_027', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_027 begin');
@@ -84,10 +88,12 @@ export default function BasicabilityRouterpage() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_027 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTERPAGE_028
-     * @tc.name  页面A和页面B之间携带参数的反复跳转
-     * @tc.desc  测试页面间参数传递和栈管理
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_028
+     * @tc.name   : 页面A和页面B之间携带参数的反复跳转
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTERPAGE_028', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_028 begin');

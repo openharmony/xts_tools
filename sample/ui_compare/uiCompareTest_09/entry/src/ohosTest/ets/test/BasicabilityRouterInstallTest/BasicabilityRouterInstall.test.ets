@@ -27,10 +27,12 @@ export default function BasicabilityRouterInstall() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_001
-     * @tc.name  目标页面共享hsp分包已安装，直接跳转
-     * @tc.desc  测试跳转到已安装的共享HSP模块
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_001
+     * @tc.name   : 目标页面共享hsp分包已安装，直接跳转
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_001', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_001 begin');
@@ -44,10 +46,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_001 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_002
-     * @tc.name  目标页面共享hsp分包未安装，执行免安装后跳转
-     * @tc.desc  测试HSP免安装功能
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_002
+     * @tc.name   : 目标页面共享hsp分包未安装，执行免安装后跳转
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_002', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_002 begin');
@@ -61,10 +65,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_002 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_003
-     * @tc.name  目标页面hap分包已安装，直接跳转
-     * @tc.desc  测试跳转到已安装的HAP分包
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_003
+     * @tc.name   : 目标页面hap分包已安装，直接跳转
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_003', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_003 begin');
@@ -78,10 +84,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_003 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_004
-     * @tc.name  目标页面hap分包未安装，执行免安装后跳转
-     * @tc.desc  测试HAP免安装功能
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_004
+     * @tc.name   : 目标页面hap分包未安装，执行免安装后跳转
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_004', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_004 begin');
@@ -95,10 +103,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_004 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_005
-     * @tc.name  跳转页面输入的uri错误或不存在，返回错误码100002
-     * @tc.desc  测试push错误uri时的错误处理
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_005
+     * @tc.name   : 跳转页面输入的uri错误或不存在，返回错误码100002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_005', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_005 begin');
@@ -117,10 +127,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_005 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_006
-     * @tc.name  跳转页面压入页面数超过32，返回错误码100003
-     * @tc.desc  测试页面栈溢出时的错误处理
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_006
+     * @tc.name   : 跳转页面压入页面数超过32，返回错误码100003
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_006', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_006 begin');
@@ -144,10 +156,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_006 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_007
-     * @tc.name  替换页面输入的uri错误或不存在，返回错误码200002
-     * @tc.desc  测试replace错误uri时的错误处理
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_007
+     * @tc.name   : 替换页面输入的uri错误或不存在，返回错误码200002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_007', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_007 begin');
@@ -166,10 +180,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_007 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_010
-     * @tc.name  性能测试，调用router实现免安装路由，跳转不卡顿、不掉帧
-     * @tc.desc  测试router跳转性能
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_010
+     * @tc.name   : 性能测试，调用router实现免安装路由，跳转不卡顿、不掉帧
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_010', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_010 begin');
@@ -188,10 +204,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_010 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_011
-     * @tc.name  内存测试，调用router实现多个免安装路由，无内存泄漏
-     * @tc.desc  测试大量router跳转时的内存状态
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_011
+     * @tc.name   : 内存测试，调用router实现多个免安装路由，无内存泄漏
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_011', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_011 begin');
@@ -210,10 +228,12 @@ export default function BasicabilityRouterInstall() {
       Logger.info('SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_011 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_BASICABILITY_ROUTERPAGE_012
-     * @tc.name  循环跳转返回界面，查询内存是否溢出
-     * @tc.desc  测试循环跳转时的内存稳定性
+    /*
+     * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_012
+     * @tc.name   : 循环跳转返回界面，查询内存是否溢出
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_BASICABILITY_ROUTERPAGE_012', 0, async () => {
       Logger.info('SUB_ACE_BASICABILITY_ROUTERPAGE_012 begin');

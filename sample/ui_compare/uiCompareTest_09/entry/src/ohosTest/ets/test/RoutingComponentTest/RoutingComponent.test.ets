@@ -40,7 +40,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING_0010
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING_0010
-     * @tc.desc   : 命名路由注册时，退出程序，验证程序是否退出，map是否重新注册
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,7 +56,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0020
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0020
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry无name，entryAbility中的window拉起一个页面，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,7 +72,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0030
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0030
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry无name，import ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +88,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0040
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0040
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry无name，import HAR内ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +104,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0050
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0050
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry无name，import HSP内ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,7 +120,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0060
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0060
-     * @tc.desc   : 窗口加载命名路由页面，无@Entry，import ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,7 +136,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0070
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0070
-     * @tc.desc   : 窗口加载命名路由页面，无@Entry，import HAR内ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +152,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0080
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0080
-     * @tc.desc   : 窗口加载命名路由页面，无@Entry，import HSP内ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,7 +168,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0090
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0090
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry有name，entryAbility中的window拉起一个页面，可以加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -193,7 +184,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0100
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0100
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry有name，import ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,7 +200,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0110
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0110
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry有name，import HAR内ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -227,7 +216,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0120
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0120
-     * @tc.desc   : 窗口加载命名路由页面，有@Entry有name，import HSP内ets，无法加载页面
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,7 +232,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0130
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0130
-     * @tc.desc   : 窗口加载命名路由页面，loadContentByName中name为string，编译成功
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +248,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0140
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0140
-     * @tc.desc   : 窗口加载命名路由页面，loadContentByName中name为number，编译报错
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -278,7 +264,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0150
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0150
-     * @tc.desc   : 窗口加载命名路由页面，loadContentByName中name为空，编译报错
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,7 +280,6 @@ export default function RoutingComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0160
      * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0160
-     * @tc.desc   : 窗口加载命名路由页面，loadContentByName中callback为空，编译失败
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

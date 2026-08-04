@@ -47,7 +47,6 @@ export default function MediaBadgeLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0036
      * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0036
-     * @tc.desc   : BadgeParamWithString does not set the component and text size, and creates a badge after adjusting the font
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

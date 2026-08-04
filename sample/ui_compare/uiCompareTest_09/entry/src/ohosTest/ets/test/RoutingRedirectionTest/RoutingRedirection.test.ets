@@ -41,13 +41,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0010
-       * @tc.name    SUB_ACE_Routing_redirection_0010
-       * @tc.desc    Test router page navigation and upload page path to meta-ability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0010
+     * @tc.name   : SUB_ACE_Routing_redirection_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_redirection_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0010 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection10")
@@ -62,13 +61,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0020
-       * @tc.name    SUB_ACE_Routing_redirection_0020
-       * @tc.desc    Test cross hap package routing: Package A launches Package B page
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0020
+     * @tc.name   : SUB_ACE_Routing_redirection_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_redirection_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0020 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection20")
@@ -83,13 +81,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0030
-       * @tc.name    SUB_ACE_Routing_redirection_0030
-       * @tc.desc    Test cross hap package routing: Package A launches Package B page, then Package B internal router navigation
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0030
+     * @tc.name   : SUB_ACE_Routing_redirection_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_redirection_0030', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0030 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection30")
@@ -105,13 +102,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0040
-       * @tc.name    SUB_ACE_Routing_redirection_0040
-       * @tc.desc    Test router.back success and upload page path to meta-ability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0040
+     * @tc.name   : SUB_ACE_Routing_redirection_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_redirection_0040', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0040 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection40")
@@ -127,13 +123,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0050
-       * @tc.name    SUB_ACE_Routing_redirection_0050
-       * @tc.desc    Test router.pushUrl success and upload page path to meta-ability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0050
+     * @tc.name   : SUB_ACE_Routing_redirection_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_redirection_0050', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0050 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection50")
@@ -149,13 +144,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0060
-       * @tc.name    SUB_ACE_Routing_redirection_0060
-       * @tc.desc    Test router.pushNamedRoute success and upload page path to meta-ability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0060
+     * @tc.name   : SUB_ACE_Routing_redirection_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_redirection_0060', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0060 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection60")
@@ -170,13 +164,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0070
-       * @tc.name    SUB_ACE_Routing_redirection_0070
-       * @tc.desc    Test router.replaceNamedRoute success and upload page path to meta-ability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   3
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0070
+     * @tc.name   : SUB_ACE_Routing_redirection_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_Routing_redirection_0070', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0070 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection70")
@@ -191,13 +184,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0080
-       * @tc.name    SUB_ACE_Routing_redirection_0080
-       * @tc.desc    Test router.replaceUrl success and upload page path to meta-ability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0080
+     * @tc.name   : SUB_ACE_Routing_redirection_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_redirection_0080', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0080 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection80")
@@ -213,13 +205,12 @@ export default function RoutingRedirection() {
     })
 
     /*
-       * @tc.number  SUB_ACE_Routing_redirection_0090
-       * @tc.name    SUB_ACE_Routing_redirection_0090
-       * @tc.desc    Test repeated page navigation performance and stability
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_Routing_redirection_0090
+     * @tc.name   : SUB_ACE_Routing_redirection_0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_Routing_redirection_0090', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_Routing_redirection_0090 start.`);
       Settings.createWindow("testability/pages/RoutingRedirection/RoutingRedirection90")

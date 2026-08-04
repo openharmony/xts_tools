@@ -41,13 +41,12 @@ export default function ProgressLinear() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010
-       * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010
-       * @tc.desc    ProgressLinear sets the strokeRadius property
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010 start.`);
       Settings.createWindow("testability/pages/ProgressLinear/ProgressLinear01")
@@ -58,12 +57,11 @@ export default function ProgressLinear() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011
-     * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011
-     * @tc.desc    ProgressLinear sets the strokeRadius property (does not set strokeWidth)
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011 start.`);
@@ -75,13 +73,12 @@ export default function ProgressLinear() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012
-      * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012
-      * @tc.desc    ProgressLinear sets the strokeRadius property
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012 start.`);
       Settings.createWindow("testability/pages/ProgressLinear/ProgressLinear03")
@@ -93,13 +90,12 @@ export default function ProgressLinear() {
     })
 
     /*
-    * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
-    * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
-    * @tc.desc    ProgressLinear sets the strokeRadius property
-    * @tc.size    MediumTest
-    * @tc.type    Function
-    * @tc.level   0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
+     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013 start.`);
       Settings.createWindow("testability/pages/ProgressLinear/ProgressLinear04")
@@ -111,13 +107,12 @@ export default function ProgressLinear() {
     })
 
     /*
-    * @tc.number  SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
-    * @tc.name    SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
-    * @tc.desc    ProgressLinear sets the strokeRadius property
-    * @tc.size    MediumTest
-    * @tc.type    Function
-    * @tc.level   0
-    */
+     * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014', Level.LEVEL1, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014 start.`);
       Settings.createWindow("testability/pages/ProgressLinear/ProgressLinear05")
