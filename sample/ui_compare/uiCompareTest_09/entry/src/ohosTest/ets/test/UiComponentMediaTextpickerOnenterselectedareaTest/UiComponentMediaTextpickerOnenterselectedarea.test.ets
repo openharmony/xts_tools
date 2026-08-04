@@ -43,11 +43,11 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0014
-     * @tc.name: TextpickerOnenterselectedarea0014
-     * @tc.desc: TextPicker组件onEnterSelectedArea事件验证回调返回值
-     * @tc.level: Level 2
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0014
+     * @tc.name   : TextpickerOnenterselectedarea0014
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0014', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0014 START')
@@ -67,11 +67,11 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0015
-     * @tc.name: TextpickerOnenterselectedarea0015
-     * @tc.desc: TextPickerDialog组件onEnterSelectedArea事件验证回调返回值
-     * @tc.level: Level 2
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0015
+     * @tc.name   : TextpickerOnenterselectedarea0015
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0015', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0015 START')
@@ -96,11 +96,11 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0016
-     * @tc.name: TextpickerOnenterselectedarea0016
-     * @tc.desc: TextPicker跨格点击未选中项，验证事件触发次数
-     * @tc.level: Level 2
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0016
+     * @tc.name   : TextpickerOnenterselectedarea0016
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0016', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0016 START')
@@ -123,11 +123,11 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0017
-     * @tc.name: TextpickerOnenterselectedarea0017
-     * @tc.desc: TextPickerDialog跨格点击，验证事件触发次数
-     * @tc.level: Level 2
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0017
+     * @tc.name   : TextpickerOnenterselectedarea0017
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 2
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0017', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0017 START')

@@ -43,11 +43,11 @@ export default function UiComponentMediaKeyboardEventTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0010
-     * @tc.name: KeyboardEvent0010
-     * @tc.desc: Image组件键盘操作事件，Tab获焦，上下键切换
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0010
+     * @tc.name   : KeyboardEvent0010
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0010', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0010 START')
@@ -73,11 +73,11 @@ export default function UiComponentMediaKeyboardEventTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0012
-     * @tc.name: KeyboardEvent0012
-     * @tc.desc: LoadingProgress组件键盘操作，无获焦边框，通过日志确认获焦
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0012
+     * @tc.name   : KeyboardEvent0012
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0012', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0012 START')
@@ -100,11 +100,11 @@ export default function UiComponentMediaKeyboardEventTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0013
-     * @tc.name: KeyboardEvent0013
-     * @tc.desc: 胶囊样式Progress组件键盘获焦测试
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0013
+     * @tc.name   : KeyboardEvent0013
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0013', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0013 START')

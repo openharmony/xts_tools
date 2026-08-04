@@ -29,10 +29,12 @@ export default function UiComponentMediaHeifTest() {
       }
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0010
-     * @tc.name: Heif0010
-     * @tc.desc: Image组件src属性为heif格式测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0010
+     * @tc.name   : Heif0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0010', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0010 start');
@@ -51,10 +53,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0020
-     * @tc.name: Heif0020
-     * @tc.desc: Image组件alt属性为heif格式测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0020
+     * @tc.name   : Heif0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0020', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0020 start');
@@ -70,10 +74,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0030
-     * @tc.name: Heif0030
-     * @tc.desc: Image组件objectFit属性测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0030
+     * @tc.name   : Heif0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0030', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0030 start');
@@ -95,10 +101,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0040
-     * @tc.name: Heif0040
-     * @tc.desc: Image组件objectRepeat属性测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0040
+     * @tc.name   : Heif0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0040', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0040 start');
@@ -114,10 +122,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0050
-     * @tc.name: Heif0050
-     * @tc.desc: Image组件renderMode属性测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0050
+     * @tc.name   : Heif0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0050', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0050 start');
@@ -136,10 +146,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0070
-     * @tc.name: Heif0070
-     * @tc.desc: Image组件copyOption属性测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0070
+     * @tc.name   : Heif0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0070', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0070 start');
@@ -155,10 +167,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0090
-     * @tc.name: Heif0090
-     * @tc.desc: ImageSpan组件value属性为heif格式测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0090
+     * @tc.name   : Heif0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0090', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0090 start');
@@ -174,10 +188,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0100
-     * @tc.name: Heif0100
-     * @tc.desc: ImageSpan组件objectFit属性测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0100
+     * @tc.name   : Heif0100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0100', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0100 start');
@@ -193,10 +209,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0120
-     * @tc.name: Heif0120
-     * @tc.desc: ImageAnimator组件heif格式测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0120
+     * @tc.name   : Heif0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0120', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0120 start');
@@ -218,10 +236,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0130
-     * @tc.name: Heif0130
-     * @tc.desc: ImageAnimator组件播放时长1000ms测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0130
+     * @tc.name   : Heif0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0130', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0130 start');
@@ -237,10 +257,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0140
-     * @tc.name: Heif0140
-     * @tc.desc: Column组件backgroundImage为heif格式测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0140
+     * @tc.name   : Heif0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0140', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0140 start');
@@ -259,10 +281,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0150
-     * @tc.name: Heif0150
-     * @tc.desc: Text组件borderImage为heif格式测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0150
+     * @tc.name   : Heif0150
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0150', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0150 start');
@@ -278,10 +302,12 @@ export default function UiComponentMediaHeifTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0160
-     * @tc.name: Heif0160
-     * @tc.desc: 生态图片加载情况测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0160
+     * @tc.name   : Heif0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0160', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0160 start');

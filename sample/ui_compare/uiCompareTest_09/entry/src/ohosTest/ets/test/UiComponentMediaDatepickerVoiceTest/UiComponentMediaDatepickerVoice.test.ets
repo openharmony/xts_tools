@@ -29,9 +29,12 @@ export default function UiComponentMediaDatepickerVoiceTest() {
       await driver.delayMs(500);
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0015
-     * @tc.name 参数输入string类型验证
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0015
+     * @tc.name   : 参数输入string类型验证
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0015', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0015 start');
@@ -44,9 +47,12 @@ export default function UiComponentMediaDatepickerVoiceTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0030
-     * @tc.name 一指向上一指向下滑动音效振动测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0030
+     * @tc.name   : 一指向上一指向下滑动音效振动测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0030', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0030 start');
@@ -59,9 +65,12 @@ export default function UiComponentMediaDatepickerVoiceTest() {
       done();
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0047
-     * @tc.name API隔离测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0047
+     * @tc.name   : API隔离测试
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0047', 0, async (done: Function) => {
       Logger.info('TEST', 'SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0047 start');

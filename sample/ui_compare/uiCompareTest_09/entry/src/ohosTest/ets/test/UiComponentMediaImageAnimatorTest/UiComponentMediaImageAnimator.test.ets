@@ -43,11 +43,11 @@ export default function UiComponentMediaImageAnimatorTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0018
-     * @tc.name: ImageanimatorMonitorinvisiblearea0018
-     * @tc.desc: ImageAnimator组件设置monitorInvisibleArea属性异常值string/非法字符时编译报错
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0018
+     * @tc.name   : ImageanimatorMonitorinvisiblearea0018
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0018', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0018 START')
@@ -69,11 +69,11 @@ export default function UiComponentMediaImageAnimatorTest() {
     })
 
     /*
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0033
-     * @tc.name: ImageanimatorMonitorinvisiblearea0033
-     * @tc.desc: ImageAnimator组件设置monitorInvisibleArea属性API隔离验证
-     * @tc.level: Level 3
-     * @tc.type: Func
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0033
+     * @tc.name   : ImageanimatorMonitorinvisiblearea0033
+     * @tc.type   : Func
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0033', 0, async (done: Function) => {
       console.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0033 START')

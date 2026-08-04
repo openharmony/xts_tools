@@ -29,10 +29,12 @@ export default function UiComponentMediaImageTest() {
       }
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0010
-     * @tc.name: ImageArktscard0010
-     * @tc.desc: ArkTS卡片中Image组件使用媒体框架能力
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0010
+     * @tc.name   : ImageArktscard0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0010', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0010 start');
@@ -45,10 +47,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0011
-     * @tc.name: ImageArktscard0011
-     * @tc.desc: ArkTS卡片中Image组件传入base64格式图片
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0011
+     * @tc.name   : ImageArktscard0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0011', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0011 start');
@@ -61,10 +65,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0013
-     * @tc.name: ImageArktscard0013
-     * @tc.desc: 深浅模式切换后Image组件显示测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0013
+     * @tc.name   : ImageArktscard0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0013', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0013 start');
@@ -82,10 +88,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BASE64_0010
-     * @tc.name: ImageBase640010
-     * @tc.desc: Base64字符串引入GIF图片测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BASE64_0010
+     * @tc.name   : ImageBase640010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BASE64_0010', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BASE64_0010 start');
@@ -98,10 +106,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOREGROUND_0010
-     * @tc.name: ImageForeground0010
-     * @tc.desc: 前景图大于背景图测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOREGROUND_0010
+     * @tc.name   : ImageForeground0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOREGROUND_0010', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOREGROUND_0010 start');
@@ -116,10 +126,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011
-     * @tc.name: ImageGif0011
-     * @tc.desc: 多张动图列表快速滑动测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011
+     * @tc.name   : ImageGif0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011 start');
@@ -132,10 +144,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERFACE_0720
-     * @tc.name: ImageInterface0720
-     * @tc.desc: 相对路径引用图片跨包跨模块验证
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERFACE_0720
+     * @tc.name   : ImageInterface0720
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERFACE_0720', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERFACE_0720 start');
@@ -148,10 +162,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0035
-     * @tc.name: ImageObjectfitAlign0035
-     * @tc.desc: ObjectFit Align类型横竖屏切换测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0035
+     * @tc.name   : ImageObjectfitAlign0035
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0035', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0035 start');
@@ -169,10 +185,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0011
-     * @tc.name: ImageOnerror0011
-     * @tc.desc: 网络图片下载成功但size<=0触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0011
+     * @tc.name   : ImageOnerror0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0011', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0011 start');
@@ -185,10 +203,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0012
-     * @tc.name: ImageOnerror0012
-     * @tc.desc: $r(app.media.xxxxxx)错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0012
+     * @tc.name   : ImageOnerror0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0012', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0012 start');
@@ -201,10 +221,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0013
-     * @tc.name: ImageOnerror0013
-     * @tc.desc: Base64字符串错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0013
+     * @tc.name   : ImageOnerror0013
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0013', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0013 start');
@@ -217,10 +239,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0014
-     * @tc.name: ImageOnerror0014
-     * @tc.desc: PixelMap/DrawableDescriptor对象错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0014
+     * @tc.name   : ImageOnerror0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0014', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0014 start');
@@ -233,10 +257,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0015
-     * @tc.name: ImageOnerror0015
-     * @tc.desc: 沙箱路径错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0015
+     * @tc.name   : ImageOnerror0015
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0015', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0015 start');
@@ -249,10 +275,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0016
-     * @tc.name: ImageOnerror0016
-     * @tc.desc: 相对路径错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0016
+     * @tc.name   : ImageOnerror0016
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0016', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0016 start');
@@ -265,10 +293,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0017
-     * @tc.name: ImageOnerror0017
-     * @tc.desc: 媒体库原图错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0017
+     * @tc.name   : ImageOnerror0017
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0017', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0017 start');
@@ -281,10 +311,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0018
-     * @tc.name: ImageOnerror0018
-     * @tc.desc: 媒体库缩略图错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0018
+     * @tc.name   : ImageOnerror0018
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0018', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0018 start');
@@ -297,10 +329,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0019
-     * @tc.name: ImageOnerror0019
-     * @tc.desc: 共享内存错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0019
+     * @tc.name   : ImageOnerror0019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0019', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0019 start');
@@ -313,10 +347,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0020
-     * @tc.name: ImageOnerror0020
-     * @tc.desc: ASTC文件错误触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0020
+     * @tc.name   : ImageOnerror0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0020', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0020 start');
@@ -329,10 +365,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0021
-     * @tc.name: ImageOnerror0021
-     * @tc.desc: 非矢量图解码失败触发OnError
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0021
+     * @tc.name   : ImageOnerror0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0021', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0021 start');
@@ -345,10 +383,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0011
-     * @tc.name: ImageOpacity0011
-     * @tc.desc: Opacity属性异常值测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0011
+     * @tc.name   : ImageOpacity0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0011', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0011 start');
@@ -366,10 +406,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SRC_0010
-     * @tc.name: ImageSrc0010
-     * @tc.desc: 网络图片缓存测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SRC_0010
+     * @tc.name   : ImageSrc0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SRC_0010', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SRC_0010 start');
@@ -382,10 +424,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0014
-     * @tc.name: ImageSvgNew0014
-     * @tc.desc: SVG动画标签测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0014
+     * @tc.name   : ImageSvgNew0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0014', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0014 start');
@@ -398,10 +442,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0018
-     * @tc.name: ImageSvgNew0018
-     * @tc.desc: SVG objectFit测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0018
+     * @tc.name   : ImageSvgNew0018
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0018', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0018 start');
@@ -414,10 +460,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0019
-     * @tc.name: ImageSvgNew0019
-     * @tc.desc: SVG objectRepeat测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0019
+     * @tc.name   : ImageSvgNew0019
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0019', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0019 start');
@@ -430,10 +478,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0020
-     * @tc.name: ImageSvgNew0020
-     * @tc.desc: SVG colorFilter测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0020
+     * @tc.name   : ImageSvgNew0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0020', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0020 start');
@@ -451,10 +501,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0021
-     * @tc.name: ImageSvgNew0021
-     * @tc.desc: SVG obscured测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0021
+     * @tc.name   : ImageSvgNew0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0021', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0021 start');
@@ -467,10 +519,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0022
-     * @tc.name: ImageSvgNew0022
-     * @tc.desc: SVG padding测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0022
+     * @tc.name   : ImageSvgNew0022
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0022', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0022 start');
@@ -483,10 +537,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0023
-     * @tc.name: ImageSvgNew0023
-     * @tc.desc: SVG fillColor测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0023
+     * @tc.name   : ImageSvgNew0023
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0023', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0023 start');
@@ -499,10 +555,12 @@ export default function UiComponentMediaImageTest() {
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0024
-     * @tc.name: ImageSvgNew0024
-     * @tc.desc: SVG draggable测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0024
+     * @tc.name   : ImageSvgNew0024
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0024', 0, async (done: Function) => {
       Logger.info('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0024 start');
