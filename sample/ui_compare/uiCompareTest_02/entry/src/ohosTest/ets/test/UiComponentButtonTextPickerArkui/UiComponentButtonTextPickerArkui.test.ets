@@ -55,13 +55,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760
-       * @tc.name    rating set stars to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760
+     * @tc.name   : rating set stars to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui01")
@@ -74,13 +73,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750
-       * @tc.name    rating set stars to 3
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750
+     * @tc.name   : rating set stars to 3
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui02")
@@ -93,13 +91,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800
-       * @tc.name    set starStyle to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800
+     * @tc.name   : set starStyle to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui03")
@@ -112,13 +109,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790
-       * @tc.name    set starStyle to Custom images
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790
+     * @tc.name   : set starStyle to Custom images
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui04")
@@ -131,13 +127,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770
-       * @tc.name    set stepSize to 0.5
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770
+     * @tc.name   : set stepSize to 0.5
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui05")
@@ -155,13 +150,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310
-       * @tc.name    checkboxGroup set selected to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310
+     * @tc.name   : checkboxGroup set selected to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui06")
@@ -174,13 +168,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320
-       * @tc.name    checkboxGroup set selected to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320
+     * @tc.name   : checkboxGroup set selected to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui07")
@@ -193,13 +186,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330
-       * @tc.name    checkboxGroup set selectedColor to #007DAA
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330
+     * @tc.name   : checkboxGroup set selectedColor to #007DAA
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui08")
@@ -212,13 +204,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340
-       * @tc.name    checkboxGroup set selectedColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340
+     * @tc.name   : checkboxGroup set selectedColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui09")
@@ -231,13 +222,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350
-       * @tc.name    checkboxGroup set unselectedColor to Color.Red
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350
+     * @tc.name   : checkboxGroup set unselectedColor to Color.Red
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui10")
@@ -250,13 +240,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360
-       * @tc.name    checkboxGroup set unselectedColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360
+     * @tc.name   : checkboxGroup set unselectedColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui11")
@@ -269,13 +258,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400
-       * @tc.name    checkboxGroup set checkboxShape to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400
+     * @tc.name   : checkboxGroup set checkboxShape to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui12")
@@ -288,13 +276,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390
-       * @tc.name    checkboxGroup set checkboxShape to ROUNDED_SQUARE
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390
+     * @tc.name   : checkboxGroup set checkboxShape to ROUNDED_SQUARE
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui13")
@@ -307,13 +294,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370
-       * @tc.name    checkboxGroup set mark
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370
+     * @tc.name   : checkboxGroup set mark
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui14")
@@ -326,13 +312,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380
-       * @tc.name    checkboxGroup set mark to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380
+     * @tc.name   : checkboxGroup set mark to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui15")
@@ -345,13 +330,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190
-       * @tc.name    checkbox set selected to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190
+     * @tc.name   : checkbox set selected to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui16")
@@ -364,13 +348,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200
-       * @tc.name    checkbox set selected to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200
+     * @tc.name   : checkbox set selected to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui17")
@@ -383,13 +366,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210
-       * @tc.name    checkbox set selectColor to 0xed6f21
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210
+     * @tc.name   : checkbox set selectColor to 0xed6f21
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui18")
@@ -402,13 +384,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220
-       * @tc.name    checkbox set selectColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220
+     * @tc.name   : checkbox set selectColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui19")
@@ -421,13 +402,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260
-       * @tc.name    checkbox set unselectColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260
+     * @tc.name   : checkbox set unselectColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui20")
@@ -440,13 +420,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250
-       * @tc.name    checkbox set unselectColor to 0xed6f21
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250
+     * @tc.name   : checkbox set unselectColor to 0xed6f21
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui21")
@@ -459,13 +438,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270
-       * @tc.name    checkbox set mask
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270
+     * @tc.name   : checkbox set mask
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui22")
@@ -478,13 +456,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280
-       * @tc.name    checkbox set mask to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280
+     * @tc.name   : checkbox set mask to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui23")
@@ -497,13 +474,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300
-       * @tc.name    checkbox set contentModifier to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300
+     * @tc.name   : checkbox set contentModifier to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui24")
@@ -516,13 +492,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240
-       * @tc.name    checkbox set checkbox shape to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240
+     * @tc.name   : checkbox set checkbox shape to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui25")
@@ -535,13 +510,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230
-       * @tc.name    checkbox set checkbox shape to ROUNDED_SQUARE
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230
+     * @tc.name   : checkbox set checkbox shape to ROUNDED_SQUARE
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui26")
@@ -554,13 +528,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840
-       * @tc.name    select set value 'TTTTT'
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840
+     * @tc.name   : select set value 'TTTTT'
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui27")
@@ -573,13 +546,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850
-       * @tc.name    select set value to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850
+     * @tc.name   : select set value to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui28")
@@ -592,13 +564,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830
-       * @tc.name    select set selected to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830
+     * @tc.name   : select set selected to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui29")
@@ -613,13 +584,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880
-       * @tc.name    select set fontcolor to '#188888'
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880
+     * @tc.name   : select set fontcolor to '#188888'
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui30")
@@ -632,13 +602,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890
-       * @tc.name    select set fontcolor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890
+     * @tc.name   : select set fontcolor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui31")
@@ -651,13 +620,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860
-       * @tc.name    select set font to { size: 20, weight: 500 }
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860
+     * @tc.name   : select set font to { size: 20, weight: 500 }
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui32")
@@ -670,13 +638,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870
-       * @tc.name    select set font to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870
+     * @tc.name   : select set font to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui33")
@@ -689,13 +656,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900
-       * @tc.name    select set selectedOptionBgColor to Color.Pink
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900
+     * @tc.name   : select set selectedOptionBgColor to Color.Pink
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui34")
@@ -710,13 +676,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910
-       * @tc.name    select set selectedOptionBgColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910
+     * @tc.name   : select set selectedOptionBgColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui35")
@@ -731,13 +696,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940
-       * @tc.name    select set selectedOptionFontColor to Orange
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940
+     * @tc.name   : select set selectedOptionFontColor to Orange
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui36")
@@ -752,13 +716,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950
-       * @tc.name    select set selectedOptionFontColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950
+     * @tc.name   : select set selectedOptionFontColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui37")
@@ -773,13 +736,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000
-       * @tc.name    select set optionFontColor to black
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000
+     * @tc.name   : select set optionFontColor to black
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui38")
@@ -794,13 +756,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920
-       * @tc.name    select set selectedOptionFont to { size: 26, weight: 400 }
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920
+     * @tc.name   : select set selectedOptionFont to { size: 26, weight: 400 }
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui39")
@@ -815,13 +776,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930
-       * @tc.name    select set selectedOptionFont to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930
+     * @tc.name   : select set selectedOptionFont to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui40")
@@ -836,13 +796,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960
-       * @tc.name    select set optionBgColor to #188800
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960
+     * @tc.name   : select set optionBgColor to #188800
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui41")
@@ -857,13 +816,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970
-       * @tc.name    select set optionBgColor to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970
+     * @tc.name   : select set optionBgColor to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui42")
@@ -878,13 +836,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980
-       * @tc.name    select set optionFont to { size: 26, weight: 400 }
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980
+     * @tc.name   : select set optionFont to { size: 26, weight: 400 }
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui43")
@@ -899,13 +856,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990
-       * @tc.name    select set optionFont to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990
+     * @tc.name   : select set optionFont to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui44")
@@ -920,13 +876,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820
-       * @tc.name    select set selected to 2
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820
+     * @tc.name   : select set selected to 2
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui45")
@@ -941,13 +896,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170
-       * @tc.name    select set ControlSize to normal
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170
+     * @tc.name   : select set ControlSize to normal
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui46")
@@ -962,13 +916,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180
-       * @tc.name    select set ControlSize to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180
+     * @tc.name   : select set ControlSize to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui47")
@@ -983,13 +936,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190
-       * @tc.name    select set menuItemContentModifier to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190
+     * @tc.name   : select set menuItemContentModifier to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui48")
@@ -1004,13 +956,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720
-       * @tc.name    radio set check to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720
+     * @tc.name   : radio set check to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui49")
@@ -1023,13 +974,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710
-       * @tc.name    radio set check to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710
+     * @tc.name   : radio set check to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui50")
@@ -1042,13 +992,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730
-       * @tc.name    radio set contentModifier to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730
+     * @tc.name   : radio set contentModifier to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui51")
@@ -1061,13 +1010,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670
-       * @tc.name    timePicker set dateTimeOptions to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670
+     * @tc.name   : timePicker set dateTimeOptions to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui52")
@@ -1080,13 +1028,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490
-       * @tc.name    DatePicker set disappearTextStyle to blue
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490
+     * @tc.name   : DatePicker set disappearTextStyle to blue
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui53")
@@ -1099,13 +1046,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500
-       * @tc.name    DatePicker set disappearTextStyle to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500
+     * @tc.name   : DatePicker set disappearTextStyle to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui54")
@@ -1118,13 +1064,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470
-       * @tc.name    DatePicker set lunar to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470
+     * @tc.name   : DatePicker set lunar to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui55")
@@ -1137,13 +1082,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480
-       * @tc.name    DatePicker set lunar to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480
+     * @tc.name   : DatePicker set lunar to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui56")
@@ -1156,13 +1100,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420
-       * @tc.name    CalendarPicker set CalendarAlign to START
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420
+     * @tc.name   : CalendarPicker set CalendarAlign to START
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui57")
@@ -1177,13 +1120,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430
-       * @tc.name    CalendarPicker set CalendarAlign to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430
+     * @tc.name   : CalendarPicker set CalendarAlign to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui58")
@@ -1198,13 +1140,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780
-       * @tc.name    rating set stepSize to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780
+     * @tc.name   : rating set stepSize to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui59")
@@ -1219,13 +1160,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450
-       * @tc.name    calendarPicker set textStyle font to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450
+     * @tc.name   : calendarPicker set textStyle font to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui60")
@@ -1238,13 +1178,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440
-       * @tc.name    calendarPicker set textStyle font to 20
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440
+     * @tc.name   : calendarPicker set textStyle font to 20
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui61")
@@ -1257,13 +1196,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810
-       * @tc.name    rating set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810
+     * @tc.name   : rating set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui62")
@@ -1278,13 +1216,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740
-       * @tc.name    radio set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740
+     * @tc.name   : radio set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui63")
@@ -1299,13 +1236,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410
-       * @tc.name    checkboxGroup set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410
+     * @tc.name   : checkboxGroup set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui64")
@@ -1320,13 +1256,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290
-       * @tc.name    checkbox set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290
+     * @tc.name   : checkbox set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui65")
@@ -1341,13 +1276,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700
-       * @tc.name    timePicker set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700
+     * @tc.name   : timePicker set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui66")
@@ -1363,13 +1297,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460
-       * @tc.name    CalendarPicker set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460
+     * @tc.name   : CalendarPicker set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui67")
@@ -1386,13 +1319,12 @@ export default function UiComponentButtonTextPickerArkui() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180
-       * @tc.name    CalendarPicker set onChange to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180
+     * @tc.name   : CalendarPicker set onChange to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentButtonTextPickerArkui/UiComponentButtonTextPickerArkui68")
