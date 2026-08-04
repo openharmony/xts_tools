@@ -38,10 +38,11 @@ export default function UIImportComponentContentTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040
-     * @tc.name    SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040
-     * @tc.desc    Basic Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040
+     * @tc.name   : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040 start.`);
@@ -65,10 +66,11 @@ export default function UIImportComponentContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020
-     * @tc.name    SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020
-     * @tc.desc    Basic Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020
+     * @tc.name   : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020 start.`);
@@ -92,10 +94,11 @@ export default function UIImportComponentContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030
-     * @tc.name    SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030
-     * @tc.desc    Basic Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030
+     * @tc.name   : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030 start.`);

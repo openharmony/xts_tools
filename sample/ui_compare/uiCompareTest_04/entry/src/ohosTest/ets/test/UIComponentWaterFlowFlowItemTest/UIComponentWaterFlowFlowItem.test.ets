@@ -38,10 +38,11 @@ export default function UIComponentWaterFlowFlowItemTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0010 start.`);
@@ -55,10 +56,11 @@ export default function UIComponentWaterFlowFlowItemTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020
-     * @tc.name    SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020
-     * @tc.desc    Component 3 groups
-     * @tc.level   3
+     * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020', Level.LEVEL3, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0020 start.`);

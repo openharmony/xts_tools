@@ -38,10 +38,11 @@ export default function UIComponentSnapShotComponentContentTest() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010';
@@ -61,10 +62,11 @@ export default function UIComponentSnapShotComponentContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650';
@@ -87,10 +89,11 @@ export default function UIComponentSnapShotComponentContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550';
@@ -113,10 +116,11 @@ export default function UIComponentSnapShotComponentContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450';
@@ -139,10 +143,11 @@ export default function UIComponentSnapShotComponentContentTest() {
     });
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480
-     * @tc.name    SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480
-     * @tc.desc    Interactive Framework Group
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480
+     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480', Level.LEVEL0, async (done: Function) => {
       let caseName: string = 'SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480';
