@@ -27,10 +27,12 @@ export default function UiComponentPopupboxSmartmultiwindow() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0820
-     * @tc.name Smartmultiwindow0820
-     * @tc.desc 直板机悬浮窗操作：TextPickerDialog组件，观察蒙层效果、组件布局和对齐状态
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0820
+     * @tc.name   : Smartmultiwindow0820
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0820', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0820 begin');
@@ -53,10 +55,12 @@ export default function UiComponentPopupboxSmartmultiwindow() {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0820 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1940
-     * @tc.name Smartmultiwindow1940
-     * @tc.desc 直板机悬浮窗操作：DatePickerDialog组件，观察蒙层效果、组件布局和对齐状态
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1940
+     * @tc.name   : Smartmultiwindow1940
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1940', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1940 begin');

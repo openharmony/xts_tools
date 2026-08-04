@@ -37,6 +37,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorACTION0070');
@@ -53,6 +60,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_200
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_200', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_200 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorACTION0070200');
@@ -69,6 +83,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorACTION0070971');
@@ -85,6 +106,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorACTION0070971619');
@@ -101,6 +129,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619_030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619_030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619_030', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619_030 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorACTION0070971619030');
@@ -117,6 +152,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0330
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0330', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0330 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorACTION0330');
@@ -129,6 +171,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0010 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorCROSSENDPHOTOGRAPHINGANDSCANNING0010');
@@ -141,6 +190,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0011', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0011 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorCROSSENDPHOTOGRAPHINGANDSCANNING0011');
@@ -153,6 +209,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0012', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0012 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorCROSSENDPHOTOGRAPHINGANDSCANNING0012');
@@ -165,6 +228,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0014
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0014
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0014', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0014 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorCROSSENDPHOTOGRAPHINGANDSCANNING0014');
@@ -177,6 +247,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0020
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0020', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0020 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorCROSSENDPHOTOGRAPHINGANDSCANNING0020');
@@ -189,6 +266,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMLAYOUT_0140
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMLAYOUT_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMLAYOUT_0140', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMLAYOUT_0140 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorCUSTOMLAYOUT0140');
@@ -201,6 +285,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0001
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0001', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0001 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorDFXREINFORCIN0001');
@@ -213,6 +304,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0002
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0002', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0002 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorDFXREINFORCIN0002');
@@ -225,6 +323,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0003
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0003
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0003', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0003 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorDFXREINFORCIN0003');
@@ -237,6 +342,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0021', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0021 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorDRAGPLAINTEXT0021');
@@ -249,6 +361,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0022
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0022
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0022', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0022 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorDRAGPLAINTEXT0022');
@@ -261,6 +380,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT&LETTERSPACING_0015_765
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT&LETTERSPACING_0015_765
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT&LETTERSPACING_0015_765', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT&LETTERSPACING_0015_765 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorLINEHEIGHTAndLETTERSPACING0015765');
@@ -282,6 +408,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_002
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_002', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_002 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorONDRAGSTART002');
@@ -298,6 +431,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_004
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_004
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_004', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_004 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorONDRAGSTART004');
@@ -314,6 +454,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_007
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_007
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_007', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_007 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorONDRAGSTART007');
@@ -330,6 +477,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_012', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_012 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorONDRAGSTART012');
@@ -346,6 +500,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PRELOADING_SCREEN_0024_108
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PRELOADING_SCREEN_0024_108
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PRELOADING_SCREEN_0024_108', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PRELOADING_SCREEN_0024_108 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorPRELOADINGSCREEN0024108');
@@ -358,6 +519,13 @@ export default function UiComponentTextRicheditorActionTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_PC_MENU_0010
+     * @tc.name   : SUB_ACE_UI_PC_MENU_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_PC_MENU_0010', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_PC_MENU_0010 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorAction/UiComponentTextRicheditorMENU0010');

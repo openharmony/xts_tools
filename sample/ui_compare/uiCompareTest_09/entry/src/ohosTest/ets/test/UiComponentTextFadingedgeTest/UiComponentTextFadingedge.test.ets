@@ -27,10 +27,12 @@ export default function UiComponentTextFadingedge() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010
-     * @tc.name FadingedgeTv0010
-     * @tc.desc Search disable态未超长渐隐测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010
+     * @tc.name   : FadingedgeTv0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010 begin');
@@ -43,10 +45,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090
-     * @tc.name FadingedgeTv0090
-     * @tc.desc Search预置文本超长渐隐测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090
+     * @tc.name   : FadingedgeTv0090
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090 begin');
@@ -65,10 +69,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470
-     * @tc.name FadingedgeTv0470
-     * @tc.desc Search文本超长和非超长间反复切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470
+     * @tc.name   : FadingedgeTv0470
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470 begin');
@@ -95,10 +101,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0490
-     * @tc.name FadingedgeTv0490
-     * @tc.desc Search文本超长，输入态和非输入态间反复切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0490
+     * @tc.name   : FadingedgeTv0490
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0490', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0490 begin');
@@ -126,10 +134,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0490 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950
-     * @tc.name FadingedgeTv0950
-     * @tc.desc TextInput文本超长和非超长间反复切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950
+     * @tc.name   : FadingedgeTv0950
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950 begin');
@@ -156,10 +166,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510
-     * @tc.name FadingedgeTv0510
-     * @tc.desc TextInput disable态未超长渐隐测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510
+     * @tc.name   : FadingedgeTv0510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510 begin');
@@ -172,10 +184,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600
-     * @tc.name FadingedgeTv0600
-     * @tc.desc TextInput超长文本编辑渐隐测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600
+     * @tc.name   : FadingedgeTv0600
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600 begin');
@@ -194,10 +208,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960
-     * @tc.name FadingedgeTv0960
-     * @tc.desc TextInput超长文本光标位置渐隐测试
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960
+     * @tc.name   : FadingedgeTv0960
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960 begin');
@@ -216,10 +232,12 @@ export default function UiComponentTextFadingedge() {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0970
-     * @tc.name FadingedgeTv0970
-     * @tc.desc TextInput文本超长，输入态和非输入态间反复切换
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0970
+     * @tc.name   : FadingedgeTv0970
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0970', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0970 begin');

@@ -30,10 +30,12 @@ export default function UiComponentPopupboxMenuBlur() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_004
-     * @tc.name bindcontextmenu（入参为CustomBuilder，使用Menu()）
-     * @tc.desc 验证bindContextMenu使用Menu()时有模糊材质
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_004
+     * @tc.name   : bindcontextmenu（入参为CustomBuilder，使用Menu()）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_004', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentPopupboxMenuBlur/MenuBlur004');
@@ -48,10 +50,12 @@ export default function UiComponentPopupboxMenuBlur() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_004');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_007
-     * @tc.name bindmenu入参为MenuElement-API10
-     * @tc.desc 验证bindMenu使用MenuElement时无模糊材质
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_007
+     * @tc.name   : bindmenu入参为MenuElement-API10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_007', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentPopupboxMenuBlur/MenuBlur007');
@@ -66,10 +70,12 @@ export default function UiComponentPopupboxMenuBlur() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_007');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_008
-     * @tc.name bindmenu入参为CustomBuilder（不使用Menu()）-API10
-     * @tc.desc 验证bindMenu使用CustomBuilder不使用Menu()时无模糊材质
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_008
+     * @tc.name   : bindmenu入参为CustomBuilder（不使用Menu()）-API10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_008', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentPopupboxMenuBlur/MenuBlur008');
@@ -84,10 +90,12 @@ export default function UiComponentPopupboxMenuBlur() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_008');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_009
-     * @tc.name bindmenu入参为CustomBuilder（使用Menu()）-API10
-     * @tc.desc 验证bindMenu使用CustomBuilder+Menu()时无模糊材质（API10）
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_009
+     * @tc.name   : bindmenu入参为CustomBuilder（使用Menu()）-API10
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_009', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentPopupboxMenuBlur/MenuBlur009');

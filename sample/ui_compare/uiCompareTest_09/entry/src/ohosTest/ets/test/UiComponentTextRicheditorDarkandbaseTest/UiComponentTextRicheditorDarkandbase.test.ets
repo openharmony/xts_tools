@@ -37,6 +37,13 @@ export default function UiComponentTextRicheditorDarkandbaseTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0021
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0021
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0021', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0021 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorDarkandbase/UiComponentTextRicheditorDarkandbase0021');
@@ -63,6 +70,13 @@ export default function UiComponentTextRicheditorDarkandbaseTest() {
       done();
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0022
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0022
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0022', 0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0022 start.`);
       Settings.createWindow('testability/pages/UiComponentTextRicheditorDarkandbase/UiComponentTextRicheditorDarkandbase0022');

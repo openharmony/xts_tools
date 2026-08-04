@@ -29,6 +29,13 @@ export default function UiComponentTextRicheditorCustommenu() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0002
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0002
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0002', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorCustommenu/RicheditorCustommenu0002');
       await driver.delayMs(1000);
@@ -39,6 +46,13 @@ export default function UiComponentTextRicheditorCustommenu() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0004
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0004
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0004', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorCustommenu/RicheditorCustommenu0004');
       await driver.delayMs(1000);
@@ -49,6 +63,13 @@ export default function UiComponentTextRicheditorCustommenu() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0006
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0006
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0006', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorCustommenu/RicheditorCustommenu0006');
       await driver.delayMs(1000);
@@ -59,6 +80,13 @@ export default function UiComponentTextRicheditorCustommenu() {
       await driver.delayMs(500);
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0007
+     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0007
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0007', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentTextRicheditorCustommenu/RicheditorCustommenu0007');
       await driver.delayMs(1000);

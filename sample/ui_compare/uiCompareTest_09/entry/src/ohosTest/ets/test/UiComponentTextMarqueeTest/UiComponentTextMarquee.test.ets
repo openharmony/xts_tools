@@ -27,10 +27,12 @@ export default function UiComponentTextMarquee() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0350
-     * @tc.name 跑马灯循环未结束，重新触发start
-     * @tc.desc 编写demo，验证触发跑马灯回调MarqueeState.START
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0350
+     * @tc.name   : 跑马灯循环未结束，重新触发start
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0350', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_TV_0350 begin');
@@ -52,10 +54,12 @@ export default function UiComponentTextMarquee() {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_TV_0350 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0800
-     * @tc.name 多个跑马灯同时执行
-     * @tc.desc text文本超长，验证不同text控件有跑马灯+渐隐，动效流畅
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0800
+     * @tc.name   : 多个跑马灯同时执行
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0800', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_TV_0800 begin');
@@ -69,10 +73,12 @@ export default function UiComponentTextMarquee() {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_TV_0800 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_TV_0810
-     * @tc.name 跑马灯循环多次，回调次数无丢失
-     * @tc.desc text文本超长，验证跑马灯回调次数无丢失
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0810
+     * @tc.name   : 跑马灯循环多次，回调次数无丢失
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_TV_0810', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_TV_0810 begin');

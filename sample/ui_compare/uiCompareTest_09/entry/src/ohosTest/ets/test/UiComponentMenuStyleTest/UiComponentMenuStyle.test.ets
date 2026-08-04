@@ -30,6 +30,13 @@ export default function UiComponentMenuStyle() {
       }
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0030
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0030', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentMenuStyle/MenuStyle0030');
       await driver.delayMs(500);
@@ -42,6 +49,13 @@ export default function UiComponentMenuStyle() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0030');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0040
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0040', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentMenuStyle/MenuStyle0040');
       await driver.delayMs(500);
@@ -54,6 +68,13 @@ export default function UiComponentMenuStyle() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0040');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TOUCH_0080
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TOUCH_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TOUCH_0080', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentMenuStyle/MenuTouch0080');
       await driver.delayMs(500);
@@ -66,6 +87,13 @@ export default function UiComponentMenuStyle() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TOUCH_0080');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0010
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0010', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentMenuStyle/MenuUiextension0010');
       await driver.delayMs(500);
@@ -78,6 +106,13 @@ export default function UiComponentMenuStyle() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0010');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_011
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_011
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_011', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentMenuStyle/SelectBlur0011');
       await driver.delayMs(500);
@@ -90,6 +125,13 @@ export default function UiComponentMenuStyle() {
       await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_011');
     });
 
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_012
+     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_012
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_012', 0, async () => {
       await Settings.createWindow('testability/pages/UiComponentMenuStyle/ToolbarBlur0012');
       await driver.delayMs(500);

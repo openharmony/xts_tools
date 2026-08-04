@@ -31,10 +31,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       await driver.delayMs(2000);
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0010
-     * @tc.name: Navigation自定义转场动画能力增强（正常值测试）
-     * @tc.desc: 测试DEFAULT/NONE/TITLE/CONTENT转场类型
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0010
+     * @tc.name   : Navigation自定义转场动画能力增强（正常值测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0010', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0010');
@@ -60,10 +62,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0020
-     * @tc.name: Navigation自定义转场动画能力增强（异常值测试）
-     * @tc.desc: 测试undefined/null转场类型
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0020
+     * @tc.name   : Navigation自定义转场动画能力增强（异常值测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0020', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0020');
@@ -84,10 +88,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0030
-     * @tc.name: Navigation自定义转场动画能力增强（push接口测试）
-     * @tc.desc: 测试pushPath/pushPathByName/pushDestination等接口
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0030
+     * @tc.name   : Navigation自定义转场动画能力增强（push接口测试）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0030', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0030');
@@ -108,10 +114,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0040
-     * @tc.name: Navigation自定义转场动画能力增强（push接口测试，带有页面栈的操作模式）
-     * @tc.desc: 测试MOVE_TO_TOP_SINGLETON/POP_TO_SINGLETON模式
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0040
+     * @tc.name   : Navigation自定义转场动画能力增强（push接口测试，带有页面栈的操作模式）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0040', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0040');
@@ -132,10 +140,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0050
-     * @tc.name: Navigation自定义转场动画能力增强（replace接口）
-     * @tc.desc: 测试replacePath/replacePathByName接口
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0050
+     * @tc.name   : Navigation自定义转场动画能力增强（replace接口）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0050', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0050');
@@ -156,10 +166,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0060
-     * @tc.name: Navigation自定义转场动画能力增强（replace接口，带有页面栈的操作模式）
-     * @tc.desc: 测试replace + MOVE_TO_TOP_SINGLETON等模式
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0060
+     * @tc.name   : Navigation自定义转场动画能力增强（replace接口，带有页面栈的操作模式）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0060', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0060');
@@ -175,10 +187,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0070
-     * @tc.name: Navigation自定义转场动画能力增强（pop、popToName接口）
-     * @tc.desc: 测试pop/popToName接口转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0070
+     * @tc.name   : Navigation自定义转场动画能力增强（pop、popToName接口）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0070', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0070');
@@ -199,10 +213,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0080
-     * @tc.name: Navigation自定义转场动画能力增强（popToIndex接口）
-     * @tc.desc: 测试popToIndex接口转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0080
+     * @tc.name   : Navigation自定义转场动画能力增强（popToIndex接口）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0080', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0080');
@@ -218,10 +234,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0090
-     * @tc.name: Navigation自定义转场动画能力增强（remove接口）
-     * @tc.desc: 测试remove相关接口转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0090
+     * @tc.name   : Navigation自定义转场动画能力增强（remove接口）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0090', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0090');
@@ -237,10 +255,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0100
-     * @tc.name: Navigation自定义转场动画能力增强（clear接口）
-     * @tc.desc: 测试clear接口转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0100
+     * @tc.name   : Navigation自定义转场动画能力增强（clear接口）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0100', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0100');
@@ -261,10 +281,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0110
-     * @tc.name: Navigation自定义转场动画能力增强（move接口）
-     * @tc.desc: 测试moveToTop/moveIndexToTop接口
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0110
+     * @tc.name   : Navigation自定义转场动画能力增强（move接口）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0110', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0110');
@@ -280,10 +302,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0120
-     * @tc.name: Navigation自定义转场动画能力增强（横竖屏切换场景）
-     * @tc.desc: 测试横竖屏切换时的转场动画 - 需要手动切换屏幕方向
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0120
+     * @tc.name   : Navigation自定义转场动画能力增强（横竖屏切换场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0120', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0120');
@@ -299,10 +323,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0130
-     * @tc.name: Navigation自定义转场动画能力增强（DIALOG页面场景）
-     * @tc.desc: 测试DIALOG类型页面转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0130
+     * @tc.name   : Navigation自定义转场动画能力增强（DIALOG页面场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0130', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0130');
@@ -323,10 +349,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0140
-     * @tc.name: Navigation自定义转场动画能力增强（DIALOG+STANDARD场景）
-     * @tc.desc: 测试DIALOG和STANDARD混合页面场景
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0140
+     * @tc.name   : Navigation自定义转场动画能力增强（DIALOG+STANDARD场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0140', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0140');
@@ -342,10 +370,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0150
-     * @tc.name: Navigation自定义转场动画能力增强（DIALOG+STANDARD moveToTop场景）
-     * @tc.desc: 测试DIALOG和STANDARD混合 + moveToTop场景
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0150
+     * @tc.name   : Navigation自定义转场动画能力增强（DIALOG+STANDARD moveToTop场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0150', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0150');
@@ -361,10 +391,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0160
-     * @tc.name: Navigation自定义转场动画能力增强（单双栏切换场景）
-     * @tc.desc: 测试Stack/Split模式切换场景
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0160
+     * @tc.name   : Navigation自定义转场动画能力增强（单双栏切换场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0160', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0160');
@@ -385,10 +417,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0170
-     * @tc.name: Navigation自定义转场动画能力增强（子窗口场景）
-     * @tc.desc: 测试子窗口中的转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0170
+     * @tc.name   : Navigation自定义转场动画能力增强（子窗口场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0170', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0170');
@@ -409,10 +443,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0180
-     * @tc.name: Navigation自定义转场动画能力增强（NavDestination隐藏标题栏场景）
-     * @tc.desc: 测试hideTitle=true时的转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0180
+     * @tc.name   : Navigation自定义转场动画能力增强（NavDestination隐藏标题栏场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0180', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0180');
@@ -433,10 +469,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0190
-     * @tc.name: Navigation自定义转场动画能力增强（navBarPosition场景）
-     * @tc.desc: 测试navBarPosition: Start/End场景
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0190
+     * @tc.name   : Navigation自定义转场动画能力增强（navBarPosition场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0190', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0190');
@@ -452,10 +490,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0200
-     * @tc.name: Navigation自定义转场动画能力增强（镜像场景）
-     * @tc.desc: 测试RTL语言环境下的转场动画 - 需要手动切换系统语言
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0200
+     * @tc.name   : Navigation自定义转场动画能力增强（镜像场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0200', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0200');
@@ -471,10 +511,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0210
-     * @tc.name: Navigation自定义转场动画能力增强（disableAnimation场景）
-     * @tc.desc: 测试disableAnimation=true时禁用转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0210
+     * @tc.name   : Navigation自定义转场动画能力增强（disableAnimation场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0210', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0210');
@@ -495,10 +537,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0220
-     * @tc.name: Navigation自定义转场动画能力增强（animated场景）
-     * @tc.desc: 测试animated=false时禁用转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0220
+     * @tc.name   : Navigation自定义转场动画能力增强（animated场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0220', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0220');
@@ -514,10 +558,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0230
-     * @tc.name: Navigation自定义转场动画能力增强（NavPathStack操作开发者自定义场景）
-     * @tc.desc: 测试开发者自定义NavPathStack操作
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0230
+     * @tc.name   : Navigation自定义转场动画能力增强（NavPathStack操作开发者自定义场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0230', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0230');
@@ -533,10 +579,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0240
-     * @tc.name: Navigation自定义转场动画能力增强（调用queryNavigationInfo场景）
-     * @tc.desc: 测试queryNavigationInfo场景下的转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0240
+     * @tc.name   : Navigation自定义转场动画能力增强（调用queryNavigationInfo场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0240', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0240');
@@ -552,10 +600,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0250
-     * @tc.name: Navigation自定义转场动画能力增强（调用OnReady场景）
-     * @tc.desc: 测试OnReady回调中的转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0250
+     * @tc.name   : Navigation自定义转场动画能力增强（调用OnReady场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0250', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0250');
@@ -571,10 +621,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0260
-     * @tc.name: Navigation自定义转场动画能力增强（自定义动画场景）
-     * @tc.desc: 测试自定义动画优先级
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0260
+     * @tc.name   : Navigation自定义转场动画能力增强（自定义动画场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0260', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0260');
@@ -595,10 +647,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0280
-     * @tc.name: Navigation自定义转场动画能力增强（跳转HSP场景）
-     * @tc.desc: 测试跳转HSP模块页面的转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0280
+     * @tc.name   : Navigation自定义转场动画能力增强（跳转HSP场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0280', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0280');
@@ -614,10 +668,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0290
-     * @tc.name: Navigation自定义转场动画能力增强（跳转HAR场景）
-     * @tc.desc: 测试跳转HAR模块页面的转场动画
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0290
+     * @tc.name   : Navigation自定义转场动画能力增强（跳转HAR场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0290', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0290');
@@ -633,10 +689,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0300
-     * @tc.name: Navigation自定义转场动画能力增强（一次push DIALOG+STANDARD页面场景）
-     * @tc.desc: 测试一次push多个DIALOG+STANDARD页面
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0300
+     * @tc.name   : Navigation自定义转场动画能力增强（一次push DIALOG+STANDARD页面场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0300', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0300');
@@ -657,10 +715,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0310
-     * @tc.name: Navigation自定义转场动画能力增强（一次push DIALOG页面场景）
-     * @tc.desc: 测试一次push多个DIALOG页面
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0310
+     * @tc.name   : Navigation自定义转场动画能力增强（一次push DIALOG页面场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0310', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0310');
@@ -681,10 +741,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0320
-     * @tc.name: Navigation自定义转场动画能力增强（一次push STANDARD页面场景）
-     * @tc.desc: 测试一次push多个STANDARD页面
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0320
+     * @tc.name   : Navigation自定义转场动画能力增强（一次push STANDARD页面场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0320', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0320');
@@ -705,10 +767,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0330
-     * @tc.name: Navigation自定义转场动画能力增强（一次push STANDARD页面异常值场景）
-     * @tc.desc: 测试STANDARD页面异常TransitionType值
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0330
+     * @tc.name   : Navigation自定义转场动画能力增强（一次push STANDARD页面异常值场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0330', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0330');
@@ -729,10 +793,12 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
       done();
     });
 
-    /**
-     * @tc.number: SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0340
-     * @tc.name: Navigation自定义转场动画能力增强（一次push DIALOG页面异常值场景）
-     * @tc.desc: 测试DIALOG页面异常TransitionType值
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0340
+     * @tc.name   : Navigation自定义转场动画能力增强（一次push DIALOG页面异常值场景）
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('testNavdestinationSystemtransitio0340', 0, async (done: Function) => {
       await Settings.createWindow('testability/pages/UiComponentNavNavdestinationNavdestinationsystemtransitio/NavdestinationSystemtransitio0340');

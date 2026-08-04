@@ -27,10 +27,12 @@ export default function UiComponentTextRicheditorBackplane() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0001
-     * @tc.name RicheditorBackplane0001
-     * @tc.desc builderspan默认背板颜色和拖拽投影
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0001
+     * @tc.name   : RicheditorBackplane0001
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0001', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0001 begin');
@@ -43,10 +45,12 @@ export default function UiComponentTextRicheditorBackplane() {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0001 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0007
-     * @tc.name RicheditorBackplane0007
-     * @tc.desc 2个builderspan红色背板+投影
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0007
+     * @tc.name   : RicheditorBackplane0007
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0007', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0007 begin');

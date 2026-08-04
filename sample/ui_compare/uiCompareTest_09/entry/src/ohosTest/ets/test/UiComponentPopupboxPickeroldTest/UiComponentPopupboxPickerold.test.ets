@@ -27,10 +27,12 @@ export default function UiComponentPopupboxPickerold() {
       }
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0030
-     * @tc.name Pickerold0030
-     * @tc.desc CalendarPickerDialog组件验证宽高保持固定，调整系统字体大小，字体会发生变化
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0030
+     * @tc.name   : Pickerold0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0030', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0030 begin');
@@ -53,10 +55,12 @@ export default function UiComponentPopupboxPickerold() {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0030 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0040
-     * @tc.name Pickerold0040
-     * @tc.desc CalendarPickerDialog组件验证不同档位进行切换有无异常情况
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0040
+     * @tc.name   : Pickerold0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0040', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0040 begin');
@@ -78,10 +82,12 @@ export default function UiComponentPopupboxPickerold() {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0040 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0050
-     * @tc.name Pickerold0050
-     * @tc.desc 验证字体大小为小于1.75条件下，系统未给Picker组件进行适老化适配
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0050
+     * @tc.name   : Pickerold0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0050', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0050 begin');
@@ -103,10 +109,12 @@ export default function UiComponentPopupboxPickerold() {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0050 end');
     });
 
-    /**
-     * @tc.number SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0060
-     * @tc.name Pickerold0060
-     * @tc.desc 验证字体大小为特大一档（1.75）条件下，系统给Picker组件进行适老化适配
+    /*
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0060
+     * @tc.name   : Pickerold0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0060', 0, async () => {
       Logger.info('SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0060 begin');
