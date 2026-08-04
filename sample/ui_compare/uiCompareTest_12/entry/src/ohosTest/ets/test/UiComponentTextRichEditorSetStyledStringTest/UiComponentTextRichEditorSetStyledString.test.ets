@@ -43,7 +43,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201_232
      * @tc.name   : Verify attribute string built RichEditor component supports onSubmit
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201_232", Level.LEVEL3, async (done: Function) => {
@@ -84,7 +84,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0048_665
      * @tc.name   : Verify attribute string built RichEditor component supports getLayoutManager
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0048_665", Level.LEVEL3, async (done: Function) => {
@@ -109,7 +109,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0064
      * @tc.name   : Verify attribute string deletion operation
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0064", Level.LEVEL3, async (done: Function) => {
@@ -149,7 +149,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201
      * @tc.name   : Verify attribute string built RichEditor component does not support onDidIMEInput
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201", Level.LEVEL3, async (done: Function) => {
@@ -186,7 +186,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0030
      * @tc.name   : Verify attribute string supports placeholder attribute
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0030", Level.LEVEL3, async (done: Function) => {
@@ -226,7 +226,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0033
      * @tc.name   : Verify attribute string supports caretColor attribute
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0033", Level.LEVEL3, async (done: Function) => {
@@ -273,7 +273,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0041
      * @tc.name   : Verify attribute string input operation
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0041", Level.LEVEL3, async (done: Function) => {
@@ -315,7 +315,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0042
      * @tc.name   : Verify attribute string supports getCaretOffset
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0042", Level.LEVEL3, async (done: Function) => {
@@ -345,7 +345,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0081
      * @tc.name   : Get attribute string displayed by rich text component through getStyledString
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0081", Level.LEVEL3, async (done: Function) => {
@@ -385,7 +385,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201_232_533
      * @tc.name   : Verify attribute string built RichEditor component supports editMenuOptions
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201_232_533", Level.LEVEL3, async (done: Function) => {
@@ -430,7 +430,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478
      * @tc.name   : Verify attribute string built RichEditor component supports barState
      * @tc.type   : Function
-     * @tc.size   : UiTest
+     * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478", Level.LEVEL3, async (done: Function) => {

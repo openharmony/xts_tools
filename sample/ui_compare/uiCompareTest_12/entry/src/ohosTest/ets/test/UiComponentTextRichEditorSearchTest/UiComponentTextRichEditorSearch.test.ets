@@ -313,7 +313,6 @@ export default function UiComponentTextRichEditorSearch() {
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
-
      */
     it("SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0011", Level.LEVEL2, async (done: Function) => {
       Settings.createWindow("testability/pages/UiComponentTextRichEditorSearch/UiComponentTextRichEditorSearch0011")
