@@ -55,13 +55,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060
-       * @tc.name    Replace text, less text for more text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060
+     * @tc.name   : Replace text, less text for more text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange01");
@@ -77,13 +76,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050
-       * @tc.name    Replace text, more text for less text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050
+     * @tc.name   : Replace text, more text for less text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange02");
@@ -104,13 +102,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030
-       * @tc.name    Delete individual characters
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030
+     * @tc.name   : Delete individual characters
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange03");
@@ -126,13 +123,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040
-       * @tc.name    add  text
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040
+     * @tc.name   : add  text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange04");
@@ -148,13 +144,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020
-       * @tc.name    Delete the selected text.
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020
+     * @tc.name   : Delete the selected text.
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange05");
@@ -175,13 +170,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170
-      * @tc.name    Delete the text,set onWillDelete to true,and onWillChange to true
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170
+     * @tc.name   : Delete the text,set onWillDelete to true,and onWillChange to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange06");
@@ -198,13 +192,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180
-      * @tc.name    Delete the text, set onWillDelete to true, and onWillChange to false
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180
+     * @tc.name   : Delete the text, set onWillDelete to true, and onWillChange to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange07");
@@ -221,13 +214,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190
-      * @tc.name    Delete the text, set onWillDelete to false, and onWillChange to true
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190
+     * @tc.name   : Delete the text, set onWillDelete to false, and onWillChange to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange08");
@@ -244,13 +236,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110
-      * @tc.name    Insert text and set onWillInsert to false
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110
+     * @tc.name   : Insert text and set onWillInsert to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange09");
@@ -266,13 +257,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240
-      * @tc.name    Use addText to add text
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240
+     * @tc.name   : Use addText to add text
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange10");
@@ -288,13 +278,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090
-      * @tc.name    Insert text with onWillInsert set to true and onWillChange set to true
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090
+     * @tc.name   : Insert text with onWillInsert set to true and onWillChange set to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange11");
@@ -310,13 +299,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100
-      * @tc.name    Insert text with onWillInsert set to true and onWillChange set to false
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100
+     * @tc.name   : Insert text with onWillInsert set to true and onWillChange set to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange12");
@@ -332,13 +320,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210
-      * @tc.name    Empty text deletion
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210
+     * @tc.name   : Empty text deletion
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange13");
@@ -355,13 +342,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260
-      * @tc.name    modifier test
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260
+     * @tc.name   : modifier test
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange14");
@@ -377,13 +363,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140
-      * @tc.name    Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to true
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140
+     * @tc.name   : Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange15");
@@ -402,13 +387,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150
-      * @tc.name    Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to false
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150
+     * @tc.name   : Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange16");
@@ -427,13 +411,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120
-      * @tc.name    Replace the text, set onWillInsert to true, onWillDelete to true, and onWillChange to true
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120
+     * @tc.name   : Replace the text, set onWillInsert to true, onWillDelete to true, and onWillChange to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange17");
@@ -452,13 +435,12 @@ export default function UiComponentOnWillChange() {
     })
 
     /*
-      * @tc.number  SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160
-      * @tc.name    Replace the text, set onWillInsert to false, onWillDelete to true, and onWillChange to true
-      * @tc.desc    Function test
-      * @tc.size    MediumTest
-      * @tc.type    Function
-      * @tc.level   0
-      */
+     * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160
+     * @tc.name   : Replace the text, set onWillInsert to false, onWillDelete to true, and onWillChange to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentOnWillChange/UiComponentOnWillChange18");

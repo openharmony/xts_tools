@@ -55,13 +55,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1180
-       * @tc.name    024: Verify the openPopup interface when the options parameter placement is set to LeftTop
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1180
+     * @tc.name   : 024: Verify the openPopup interface when the options parameter placement is set to LeftTop
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1180 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal01")
@@ -76,13 +75,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1170
-       * @tc.name    023: Verify the openPopup interface when the options parameter placement is set to BottomRight
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1170
+     * @tc.name   : 023: Verify the openPopup interface when the options parameter placement is set to BottomRight
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1170 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal02")
@@ -97,13 +95,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1200
-       * @tc.name    026: Verify the openPopup interface when the options parameter placement is set to RightTop
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1200
+     * @tc.name   : 026: Verify the openPopup interface when the options parameter placement is set to RightTop
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1200', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1200 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal03")
@@ -118,13 +115,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1230
-       * @tc.name    029: Verify the openPopup interface when the options parameter placement is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1230
+     * @tc.name   : 029: Verify the openPopup interface when the options parameter placement is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1230 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal04")
@@ -139,13 +135,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1210
-       * @tc.name    027: Verify the openPopup interface when the options parameter placement is set to RightBottom
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1210
+     * @tc.name   : 027: Verify the openPopup interface when the options parameter placement is set to RightBottom
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1210', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1210 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal05")
@@ -160,13 +155,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1190
-       * @tc.name    025: Verify the openPopup interface when the options parameter placement is set to LeftBottom
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1190
+     * @tc.name   : 025: Verify the openPopup interface when the options parameter placement is set to LeftBottom
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1190', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1190 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal06")
@@ -181,13 +175,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1090
-       * @tc.name    019: Verify the openPopup interface when the options parameter placement is set to Bottom
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1090
+     * @tc.name   : 019: Verify the openPopup interface when the options parameter placement is set to Bottom
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1090', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1090 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal07")
@@ -202,13 +195,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1140
-       * @tc.name    020: Verify the openPopup interface when the options parameter placement is set to TopLeft
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1140
+     * @tc.name   : 020: Verify the openPopup interface when the options parameter placement is set to TopLeft
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1140 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal08")
@@ -223,13 +215,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1160
-       * @tc.name    022: Verify the openPopup interface when the options parameter placement is set to BottomLeft
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1160
+     * @tc.name   : 022: Verify the openPopup interface when the options parameter placement is set to BottomLeft
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1160 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal09")
@@ -244,13 +235,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1150
-       * @tc.name    021: Verify the openPopup interface when the options parameter placement is set to TopRight
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1150
+     * @tc.name   : 021: Verify the openPopup interface when the options parameter placement is set to TopRight
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1150 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal10")
@@ -265,13 +255,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0750
-       * @tc.name    016: Verify the openPopup interface when the options parameter placement is set to Left
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0750
+     * @tc.name   : 016: Verify the openPopup interface when the options parameter placement is set to Left
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0750 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal11")
@@ -286,13 +275,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0860
-       * @tc.name    017: Verify the openPopup interface when the options parameter placement is set to Right
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0860
+     * @tc.name   : 017: Verify the openPopup interface when the options parameter placement is set to Right
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0860 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal12")
@@ -307,13 +295,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0980
-       * @tc.name    017: Verify the openPopup interface when the options parameter placement is set to Top
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0980
+     * @tc.name   : 017: Verify the openPopup interface when the options parameter placement is set to Top
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0980', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0980 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal13")
@@ -328,13 +315,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1310
-       * @tc.name    037: Verify the openPopup interface when the options parameter enableArrow is set to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1310
+     * @tc.name   : 037: Verify the openPopup interface when the options parameter enableArrow is set to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1310', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1310 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal14")
@@ -349,12 +335,11 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-     * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300
-     * @tc.name    036: Verify the openPopup interface when the options parameter enableArrow is set to true
-     * @tc.desc    Function test
-     * @tc.size    MediumTest
-     * @tc.type    Function
-     * @tc.level   0
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300
+     * @tc.name   : 036: Verify the openPopup interface when the options parameter enableArrow is set to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
      */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1300 start.`);
@@ -370,13 +355,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1340
-       * @tc.name    040: Verify the openPopup interface when the options parameter autoCancel is set to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1340
+     * @tc.name   : 040: Verify the openPopup interface when the options parameter autoCancel is set to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1340 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal16")
@@ -393,13 +377,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1350
-       * @tc.name    041: Verify the openPopup interface when the options parameter autoCancel is set to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1350
+     * @tc.name   : 041: Verify the openPopup interface when the options parameter autoCancel is set to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1350 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal17")
@@ -416,13 +399,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1370
-       * @tc.name    043: Verify the openPopup interface when the options parameter autoCancel is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1370
+     * @tc.name   : 043: Verify the openPopup interface when the options parameter autoCancel is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1370', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1370 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal18")
@@ -439,13 +421,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1840
-       * @tc.name    089: Verify the openPopup interface when the arrowHeight parameter in the options is set to 40lpx
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1840
+     * @tc.name   : 089: Verify the openPopup interface when the arrowHeight parameter in the options is set to 40lpx
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1840', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1840 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal19")
@@ -462,13 +443,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1830
-       * @tc.name    088: Verify the openPopup interface when the arrowHeight parameter in the options is set to 30fp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1830
+     * @tc.name   : 088: Verify the openPopup interface when the arrowHeight parameter in the options is set to 30fp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1830', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1830 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal20")
@@ -485,13 +465,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1850
-       * @tc.name    090: Verify the openPopup interface when the arrowHeight parameter in the options is set to 30%
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1850
+     * @tc.name   : 090: Verify the openPopup interface when the arrowHeight parameter in the options is set to 30%
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1850', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1850 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal21")
@@ -508,13 +487,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1880
-       * @tc.name    093: Verify the openPopup interface when the arrowHeight parameter in the options is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1880
+     * @tc.name   : 093: Verify the openPopup interface when the arrowHeight parameter in the options is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1880', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1880 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal22")
@@ -531,13 +509,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1860
-       * @tc.name    092: Verify the openPopup interface when the arrowHeight parameter in the options is set to $r("app.string.string45")
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1860
+     * @tc.name   : 092: Verify the openPopup interface when the arrowHeight parameter in the options is set to $r("app.string.string45")
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1860', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1860 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal23")
@@ -554,13 +531,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1820
-       * @tc.name    087: Verify the openPopup interface when the arrowHeight parameter in the options is set to 20vp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1820
+     * @tc.name   : 087: Verify the openPopup interface when the arrowHeight parameter in the options is set to 20vp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1820', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1820 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal24")
@@ -577,13 +553,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1810
-       * @tc.name    086: Verify the openPopup interface when the arrowHeight parameter in the options is set to 10px
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1810
+     * @tc.name   : 086: Verify the openPopup interface when the arrowHeight parameter in the options is set to 10px
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1810', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1810 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal25")
@@ -600,13 +575,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1740
-       * @tc.name    078: Verify the openPopup interface when the arrowWidth parameter in the options is set to 20vp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1740
+     * @tc.name   : 078: Verify the openPopup interface when the arrowWidth parameter in the options is set to 20vp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1740 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal26")
@@ -623,13 +597,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1730
-       * @tc.name    079: Verify the openPopup interface when the arrowWidth parameter in the options is set to 10px
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1730
+     * @tc.name   : 079: Verify the openPopup interface when the arrowWidth parameter in the options is set to 10px
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1730 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal27")
@@ -646,13 +619,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1800
-       * @tc.name    085: Verify the openPopup interface when the arrowWidth parameter in the options is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1800
+     * @tc.name   : 085: Verify the openPopup interface when the arrowWidth parameter in the options is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1800', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1800 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal28")
@@ -669,13 +641,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1770
-       * @tc.name    082: Verify the openPopup interface when the arrowWidth parameter in the options is set to 30%
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1770
+     * @tc.name   : 082: Verify the openPopup interface when the arrowWidth parameter in the options is set to 30%
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1770', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1770 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal29")
@@ -692,13 +663,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1750
-       * @tc.name    080: Verify the openPopup interface when the arrowWidth parameter in the options is set to 30fp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1750
+     * @tc.name   : 080: Verify the openPopup interface when the arrowWidth parameter in the options is set to 30fp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1750', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1750 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal30")
@@ -715,13 +685,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1760
-       * @tc.name    081: Verify the openPopup interface when the arrowWidth parameter in the options is set to 40lpx
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1760
+     * @tc.name   : 081: Verify the openPopup interface when the arrowWidth parameter in the options is set to 40lpx
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1760', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1760 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal31")
@@ -738,13 +707,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1780
-       * @tc.name    83: Verify the openPopup interface when the arrowWidth parameter in the options is set to app.string.string45
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1780
+     * @tc.name   : 83: Verify the openPopup interface when the arrowWidth parameter in the options is set to app.string.string45
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1780 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal32")
@@ -761,13 +729,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1680
-       * @tc.name    073: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to START
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1680
+     * @tc.name   : 073: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to START
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1680', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1680 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal33")
@@ -784,13 +751,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1700
-       * @tc.name    075: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to END
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1700
+     * @tc.name   : 075: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to END
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1700', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1700 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal34")
@@ -807,13 +773,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1720
-       * @tc.name    077: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1720
+     * @tc.name   : 077: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1720', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1720 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal35")
@@ -830,13 +795,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1690
-       * @tc.name    074: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to CENTER
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1690
+     * @tc.name   : 074: Verify the openPopup interface when the arrowPointPosition parameter in the options is set to CENTER
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1690 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal36")
@@ -853,13 +817,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0110
-       * @tc.name    0101: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_XS
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0110
+     * @tc.name   : 0101: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_XS
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0110', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0110 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal37")
@@ -874,13 +837,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0120
-       * @tc.name    0102: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_SM
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0120
+     * @tc.name   : 0102: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_SM
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0120', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0120 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal38")
@@ -895,13 +857,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0140
-       * @tc.name    0104: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_LG
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0140
+     * @tc.name   : 0104: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_LG
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0140', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0140 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal39")
@@ -916,13 +877,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0150
-       * @tc.name    0104: Verify the openPopup interface when the shadow parameter in options is set to OUTER_FLOATING_SM
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0150
+     * @tc.name   : 0104: Verify the openPopup interface when the shadow parameter in options is set to OUTER_FLOATING_SM
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0150', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0150 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal40")
@@ -937,13 +897,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0130
-       * @tc.name    0103: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_MD
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0130
+     * @tc.name   : 0103: Verify the openPopup interface when the shadow parameter in options is set to OUTER_DEFAULT_MD
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0130', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0130 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal41")
@@ -958,13 +917,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0160
-       * @tc.name    0106: Verify the openPopup interface when the shadow parameter in options is set to OUTER_FLOATING_MD
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0160
+     * @tc.name   : 0106: Verify the openPopup interface when the shadow parameter in options is set to OUTER_FLOATING_MD
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0160', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0160 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal42")
@@ -979,13 +937,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1500
-       * @tc.name    055: Verify the openPopup interface when the options parameter mask is set to Color.Green
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1500
+     * @tc.name   : 055: Verify the openPopup interface when the options parameter mask is set to Color.Green
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1500', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1500 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal43")
@@ -1000,13 +957,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1520
-       * @tc.name    057: Verify the openPopup interface when the options parameter mask is set to 0xffff00
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1520
+     * @tc.name   : 057: Verify the openPopup interface when the options parameter mask is set to 0xffff00
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1520', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1520 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal44")
@@ -1021,13 +977,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1510
-       * @tc.name    056: Verify the openPopup interface when the options parameter mask is set to #FF00FF
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1510
+     * @tc.name   : 056: Verify the openPopup interface when the options parameter mask is set to #FF00FF
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1510', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1510 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal45")
@@ -1042,13 +997,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1490
-       * @tc.name    054: Verify the openPopup interface when the options parameter mask is set to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1490
+     * @tc.name   : 054: Verify the openPopup interface when the options parameter mask is set to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1490', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1490 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal46")
@@ -1065,13 +1019,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1470
-       * @tc.name    053: Verify the openPopup interface when the options parameter mask is set to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1470
+     * @tc.name   : 053: Verify the openPopup interface when the options parameter mask is set to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1470', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1470 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal47")
@@ -1088,13 +1041,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0330
-       * @tc.name    0121: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_THIN
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0330
+     * @tc.name   : 0121: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_THIN
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0330', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0330 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal48")
@@ -1109,13 +1061,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0350
-       * @tc.name    0123: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_THICK
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0350
+     * @tc.name   : 0123: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_THICK
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0350', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0350 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal49")
@@ -1130,13 +1081,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0340
-       * @tc.name    0122: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_REGULAR
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0340
+     * @tc.name   : 0122: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_REGULAR
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0340', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0340 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal50")
@@ -1151,13 +1101,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0260
-       * @tc.name    0115: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to BACKGROUND_THIN
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0260
+     * @tc.name   : 0115: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to BACKGROUND_THIN
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0260', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0260 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal51")
@@ -1172,13 +1121,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0270
-       * @tc.name    0116: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to BACKGROUND_REGULAR
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0270
+     * @tc.name   : 0116: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to BACKGROUND_REGULAR
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0270', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0270 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal52")
@@ -1193,13 +1141,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0230
-       * @tc.name    0112: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to Thin
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0230
+     * @tc.name   : 0112: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to Thin
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0230', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0230 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal53")
@@ -1214,13 +1161,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0240
-       * @tc.name    0113: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to Regular
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0240
+     * @tc.name   : 0113: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to Regular
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0240', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0240 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal54")
@@ -1235,13 +1181,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0250
-       * @tc.name    0114: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to Thick
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0250
+     * @tc.name   : 0114: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to Thick
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0250', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0250 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal55")
@@ -1256,13 +1201,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0300
-       * @tc.name    0119: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to None
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0300
+     * @tc.name   : 0119: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to None
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0300', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0300 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal56")
@@ -1277,13 +1221,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0360
-       * @tc.name    0124: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_ULTRA_THICK
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0360
+     * @tc.name   : 0124: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to COMPONENT_ULTRA_THICK
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0360', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0360 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal57")
@@ -1298,13 +1241,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0380
-       * @tc.name    0126: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0380
+     * @tc.name   : 0126: Verify the openPopup interface when the backgroundBlurStyle parameter in the options is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0380', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0380 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal58")
@@ -1319,13 +1261,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1400
-       * @tc.name    046: Verify the openPopup interface when the arrowOffset parameter in the options is set to "30"
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1400
+     * @tc.name   : 046: Verify the openPopup interface when the arrowOffset parameter in the options is set to "30"
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1400', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1400 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal59")
@@ -1340,13 +1281,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1430
-       * @tc.name    049: Verify the openPopup interface when the arrowOffset parameter in the options is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1430
+     * @tc.name   : 049: Verify the openPopup interface when the arrowOffset parameter in the options is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1430', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1430 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal60")
@@ -1361,13 +1301,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1390
-       * @tc.name    045: Verify the openPopup interface when the arrowOffset parameter in the options is set to 15
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1390
+     * @tc.name   : 045: Verify the openPopup interface when the arrowOffset parameter in the options is set to 15
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1390', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1390 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal61")
@@ -1382,13 +1321,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1640
-       * @tc.name    069: Verify the openPopup interface when the options set the width parameter to 50fp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1640
+     * @tc.name   : 069: Verify the openPopup interface when the options set the width parameter to 50fp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1640', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1640 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal62")
@@ -1403,13 +1341,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1620
-       * @tc.name    067: Verify the openPopup interface when the options set the width parameter to 50px
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1620
+     * @tc.name   : 067: Verify the openPopup interface when the options set the width parameter to 50px
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1620', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1620 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal63")
@@ -1424,13 +1361,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1630
-       * @tc.name    068: Verify the openPopup interface when the options set the width parameter to 50vp
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1630
+     * @tc.name   : 068: Verify the openPopup interface when the options set the width parameter to 50vp
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1630', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1630 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal64")
@@ -1445,13 +1381,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1660
-       * @tc.name    071: Verify the openPopup interface when the options set the width parameter to 50%
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1660
+     * @tc.name   : 071: Verify the openPopup interface when the options set the width parameter to 50%
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1660', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1660 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal65")
@@ -1466,13 +1401,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1650
-       * @tc.name    070: Verify the openPopup interface when the options set the width parameter to 50lpx
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1650
+     * @tc.name   : 070: Verify the openPopup interface when the options set the width parameter to 50lpx
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1650', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1650 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal66")
@@ -1487,13 +1421,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0170
-       * @tc.name    0107: Verify the openPopup interface options by setting the shadow parameter to the ShadowOptions property (radius: 50, type: ShadowType.COLOR, color: Color.Black, offsetX: 50, offsetY: 50, fill: true)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0170
+     * @tc.name   : 0107: Verify the openPopup interface options by setting the shadow parameter to the ShadowOptions property (radius: 50, type: ShadowType.COLOR, color: Color.Black, offsetX: 50, offsetY: 50, fill: true)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0170', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0170 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal67")
@@ -1508,13 +1441,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0180
-       * @tc.name    0108: Verify the openPopup interface options by setting the shadow parameter to the ShadowOptions property(radius:50, type:ShadowType.BLUR,color:“#FF00FF“,offsetX:50,offsetY:50,fill:false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0180
+     * @tc.name   : 0108: Verify the openPopup interface options by setting the shadow parameter to the ShadowOptions property(radius:50, type:ShadowType.BLUR,color:“#FF00FF“,offsetX:50,offsetY:50,fill:false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0180', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0180 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal68")
@@ -1529,13 +1461,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1600
-       * @tc.name    065: Verify the openPopup interface when the options set the offset parameters x and y to 100
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1600
+     * @tc.name   : 065: Verify the openPopup interface when the options set the offset parameters x and y to 100
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1600', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1600 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal69")
@@ -1550,13 +1481,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1590
-       * @tc.name    064: Verify the openPopup interface when the options set the offset parameters x and y to '30'
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1590
+     * @tc.name   : 064: Verify the openPopup interface when the options set the offset parameters x and y to '30'
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1590 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal70")
@@ -1571,13 +1501,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1580
-       * @tc.name    063: Verify the openPopup interface when the options parameter targetSpace is set to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1580
+     * @tc.name   : 063: Verify the openPopup interface when the options parameter targetSpace is set to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1580', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1580 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal71")
@@ -1592,13 +1521,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1550
-       * @tc.name    060: Verify the openPopup interface when the options parameter targetSpace is set to 20
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1550
+     * @tc.name   : 060: Verify the openPopup interface when the options parameter targetSpace is set to 20
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1550', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1550 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal72")
@@ -1613,13 +1541,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540
-       * @tc.name    059: Verify the openPopup interface when the options parameter targetSpace is set to '10'
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540
+     * @tc.name   : 059: Verify the openPopup interface when the options parameter targetSpace is set to '10'
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1540 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal73")
@@ -1634,13 +1561,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660
-       * @tc.name    0151 Verify the updatePopup interface when the initial placement parameter in options is set to LEFT, and then changed to BOTTOM (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660
+     * @tc.name   : 0151 Verify the updatePopup interface when the initial placement parameter in options is set to LEFT, and then changed to BOTTOM (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0660 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal74")
@@ -1658,13 +1584,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680
-       * @tc.name    0153  Verify the updatePopup interface when the initial enableArrow parameter in options is set to true, and then changed to false (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680
+     * @tc.name   : 0153  Verify the updatePopup interface when the initial enableArrow parameter in options is set to true, and then changed to false (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0680 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal75")
@@ -1682,13 +1607,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710
-       * @tc.name    0156 Verify the updatePopup interface when the initial arrowOffset parameter in options is set to "15", and then changed to 30 (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710
+     * @tc.name   : 0156 Verify the updatePopup interface when the initial arrowOffset parameter in options is set to "15", and then changed to 30 (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0710 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal76")
@@ -1706,13 +1630,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740
-       * @tc.name    0159 Verify the updatePopup interface when the initial targetSpace parameter in options is set to "10", and then changed to 20 (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740
+     * @tc.name   : 0159 Verify the updatePopup interface when the initial targetSpace parameter in options is set to "10", and then changed to 20 (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0740 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal77")
@@ -1730,13 +1653,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730
-       * @tc.name    0158 Verify the updatePopup interface when the initial mask parameter in options is set to true, and then changed to {color:Color.Green} (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730
+     * @tc.name   : 0158 Verify the updatePopup interface when the initial mask parameter in options is set to true, and then changed to {color:Color.Green} (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0730 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal78")
@@ -1754,13 +1676,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810
-       * @tc.name    0165 Verify the updatePopup interface when the initial radius parameter in options is set to "10px", and then changed to "40lpx" (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810
+     * @tc.name   : 0165 Verify the updatePopup interface when the initial radius parameter in options is set to "10px", and then changed to "40lpx" (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0810 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal79")
@@ -1778,13 +1699,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780
-       * @tc.name    0162 Verify the updatePopup interface when the initial arrowPointPosition parameter in options is set to START, and then changed to END (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780
+     * @tc.name   : 0162 Verify the updatePopup interface when the initial arrowPointPosition parameter in options is set to START, and then changed to END (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0780 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal80")
@@ -1802,13 +1722,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820
-       * @tc.name    0166 Verify the updatePopup interface when the initial shadow parameter in options is set to OUTER_DEFAULT_XS, and then changed to OUTER_DEFAULT_LG (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820
+     * @tc.name   : 0166 Verify the updatePopup interface when the initial shadow parameter in options is set to OUTER_DEFAULT_XS, and then changed to OUTER_DEFAULT_LG (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0820 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal81")
@@ -1826,13 +1745,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830
-       * @tc.name    0167 Verify the updatePopup interface when the initial backgroundBlurStyle parameter in options is set to BlurStyle.Thick, and then changed to NONE (with partialUpdate set to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830
+     * @tc.name   : 0167 Verify the updatePopup interface when the initial backgroundBlurStyle parameter in options is set to BlurStyle.Thick, and then changed to NONE (with partialUpdate set to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0830 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal82")
@@ -1850,13 +1768,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910
-       * @tc.name    0174 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (with partialUpdate set to undefined)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910
+     * @tc.name   : 0174 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (with partialUpdate set to undefined)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0910 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal83")
@@ -1874,13 +1791,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890
-       * @tc.name    0172 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (with partialUpdate set to true)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890
+     * @tc.name   : 0172 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (with partialUpdate set to true)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0890 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal84")
@@ -1898,13 +1814,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920
-       * @tc.name    0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (not set partialUpdate)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920
+     * @tc.name   : 0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (not set partialUpdate)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0920 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal85")
@@ -1922,13 +1837,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900
-       * @tc.name    0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (set partialUpdate to null)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900
+     * @tc.name   : 0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (set partialUpdate to null)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal86")
@@ -1946,13 +1860,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950
-       * @tc.name    0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (not set partialUpdate and closePopup)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950
+     * @tc.name   : 0175 Verify the updatePopup interface when the initial placement parameter in options is set to Left, and then changed to Bottom (not set partialUpdate and closePopup)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0950 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal87")
@@ -1974,13 +1887,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900
-       * @tc.name    0175 Verify the updatePopup interface when the initial autoCancel parameter in options is set to false, and then changed to true (set partialUpdate to false)
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0900
+     * @tc.name   : 0175 Verify the updatePopup interface when the initial autoCancel parameter in options is set to false, and then changed to true (set partialUpdate to false)
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0690 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal88")
@@ -2002,13 +1914,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960
-       * @tc.name    0178: Directly call closePopup after verifying the openPopup interface
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960
+     * @tc.name   : 0178: Directly call closePopup after verifying the openPopup interface
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal89")
@@ -2026,13 +1937,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960
-       * @tc.name    0142: Verify the openPopup interface when setting followTransformOfTarget to true
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0960
+     * @tc.name   : 0142: Verify the openPopup interface when setting followTransformOfTarget to true
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0560 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal90")
@@ -2047,13 +1957,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570
-       * @tc.name    0143: Verify the openPopup interface when setting followTransformOfTarget to false
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570
+     * @tc.name   : 0143: Verify the openPopup interface when setting followTransformOfTarget to false
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0570 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal91")
@@ -2068,13 +1977,12 @@ export default function UiComponentPopupBoxPopupGlobal() {
     })
 
     /*
-       * @tc.number  SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590
-       * @tc.name    0145: Verify the openPopup interface when setting followTransformOfTarget to undefined
-       * @tc.desc    Function test
-       * @tc.size    MediumTest
-       * @tc.type    Function
-       * @tc.level   0
-       */
+     * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590
+     * @tc.name   : 0145: Verify the openPopup interface when setting followTransformOfTarget to undefined
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 0
+     */
     it('SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590', Level.LEVEL0, async (done: Function) => {
       Logger.info('TEST', `SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590 start.`);
       Settings.createWindow("testability/pages/UiComponentPopupBoxPopupGlobal/UiComponentPopupBoxPopupGlobal92")
