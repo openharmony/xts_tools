@@ -20400,6 +20400,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk_c/zh-cn/filemanagement/file_uri",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk_c/filemanagement/fileio",
             "bundle_name": [
                 "file_api"
@@ -20415,6 +20422,13 @@
         },
         {
             "path": "interface/sdk_c/filemanagement/fileshare",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk_c/zh-cn/filemanagement/fileshare",
             "bundle_name": [
                 "app_file_service"
             ],
