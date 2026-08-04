@@ -41,11 +41,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530 start.`);
@@ -65,11 +66,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220 start.`);
@@ -89,11 +91,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590 start.`);
@@ -113,11 +116,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560 start.`);
@@ -138,11 +142,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580 start.`);
@@ -162,11 +167,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210 start.`);
@@ -187,11 +193,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270 start.`);
@@ -211,11 +218,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290 start.`);
@@ -236,11 +244,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240 start.`);
@@ -260,11 +269,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510 start.`);
@@ -284,11 +294,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230 start.`);
@@ -309,11 +320,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250 start.`);
@@ -334,11 +346,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260 start.`);
@@ -359,11 +372,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310 start.`);
@@ -384,11 +398,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520 start.`);
@@ -408,11 +423,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320 start.`);
@@ -432,11 +448,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330 start.`);
@@ -456,11 +473,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340 start.`);
@@ -481,11 +499,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360 start.`);
@@ -505,11 +524,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350 start.`);
@@ -529,11 +549,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370 start.`);
@@ -552,11 +573,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280 start.`);
@@ -576,11 +598,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       done()
     })
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380 start.`);
@@ -601,11 +624,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420 start.`);
@@ -626,11 +650,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010 start.`);
@@ -651,11 +676,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470 start.`);
@@ -676,11 +702,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040 start.`);
@@ -701,11 +728,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430 start.`);
@@ -726,11 +754,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070 start.`);
@@ -749,11 +778,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020 start.`);
@@ -774,11 +804,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410 start.`);
@@ -797,11 +828,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460 start.`);
@@ -822,11 +854,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110 start.`);
@@ -847,11 +880,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440 start.`);
@@ -870,11 +904,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490 start.`);
@@ -895,11 +930,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060 start.`);
@@ -918,11 +954,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050 start.`);
@@ -943,11 +980,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500 start.`);
@@ -968,11 +1006,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130 start.`);
@@ -991,11 +1030,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480 start.`);
@@ -1016,11 +1056,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080 start.`);
@@ -1041,11 +1082,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140 start.`);
@@ -1066,11 +1108,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120 start.`);
@@ -1091,11 +1134,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030 start.`);
@@ -1116,11 +1160,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160 start.`);
@@ -1139,11 +1184,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170 start.`);
@@ -1164,11 +1210,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180 start.`);
@@ -1187,11 +1234,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180 finish.`);
       done()
     })
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200 start.`);
@@ -1212,11 +1260,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190 start.`);
@@ -1237,11 +1286,12 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
 
 
-    /**
-     * @tc.number     : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
-     * @tc.name       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
-     * @tc.desc       : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
-     * @tc.level      : Level 3
+    /*
+     * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
+     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
+     * @tc.type   : Function
+     * @tc.size   : MediumTest
+     * @tc.level  : 3
      */
     it('ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570', 0, async (done: Function) => {
       Logger.info('TEST', `ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570 start.`);
