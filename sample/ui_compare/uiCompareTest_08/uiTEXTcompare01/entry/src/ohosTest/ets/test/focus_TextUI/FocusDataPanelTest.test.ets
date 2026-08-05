@@ -44,7 +44,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0016
+     * @tc.name   : Media datapanel animateTo
+     * @tc.desc   : Verify media datapanel animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -65,7 +66,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_ANIMATETO_0017
+     * @tc.name   : Media datapanel animateTo
+     * @tc.desc   : Verify media datapanel animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -86,7 +88,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0010
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0010
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -107,7 +110,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0020
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0020
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -128,7 +132,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0030
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0030
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -150,7 +155,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0040
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0040
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -171,7 +177,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0050
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0050
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -192,7 +199,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0070
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0070
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -213,7 +221,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0080
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0080
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -234,7 +243,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0090
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0090
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -254,7 +264,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0100
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0100
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -275,7 +286,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0110
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0110
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -296,7 +308,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0130
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0130
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -317,7 +330,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0140
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0140
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -338,7 +352,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0150
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0150
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -359,7 +374,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0160
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0160
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -380,7 +396,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0170
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0170
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -401,7 +418,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0180
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0180
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -422,7 +440,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0190
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0190
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -443,7 +462,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0200
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0200
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -464,7 +484,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0250
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0250
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -485,7 +506,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0260
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0260
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -506,7 +528,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0270
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0270
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -527,7 +550,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0280
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0280
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -548,7 +572,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0290
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0290
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -569,7 +594,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0300
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0300
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -589,7 +615,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0310
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0310
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -610,7 +637,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0320
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0320
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -631,7 +659,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0330
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0330
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -652,7 +681,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0340
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0340
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -673,7 +703,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0350
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0350
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -694,7 +725,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0360
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0360
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -715,7 +747,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0370
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0370
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -736,7 +769,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0380
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0380
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -757,7 +791,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0390
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0390
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -778,7 +813,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0400
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0400
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -799,7 +835,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0410
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0410
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -820,7 +857,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0430
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0430
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -841,7 +879,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : ARKUI_DATAPANEL_BODERRAIDUS_0440
-     * @tc.name   : ARKUI_DATAPANEL_BODERRAIDUS_0440
+     * @tc.name   : Datapanel boderraidus
+     * @tc.desc   : Verify datapanel boderraidus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -862,7 +901,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0180
+     * @tc.name   : Information datapanel interface
+     * @tc.desc   : Verify information datapanel interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -881,7 +921,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_INTERFACE_0490
+     * @tc.name   : Information datapanel interface
+     * @tc.desc   : Verify information datapanel interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -900,7 +941,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0010
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -919,7 +961,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0011
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -938,7 +981,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0012
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -957,7 +1001,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0013
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -976,7 +1021,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0014
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -995,7 +1041,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0015
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1014,7 +1061,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0016
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1033,7 +1081,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0017
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1052,7 +1101,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0018
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1071,7 +1121,8 @@ export default function FocusDataPanelTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATAPANEL_WATCHES_0019
+     * @tc.name   : Media datapanel watches
+     * @tc.desc   : Verify media datapanel watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

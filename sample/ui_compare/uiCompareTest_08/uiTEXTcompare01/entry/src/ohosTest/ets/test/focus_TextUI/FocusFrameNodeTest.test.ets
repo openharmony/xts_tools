@@ -42,7 +42,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0011
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0012
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -80,7 +82,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0013
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -99,7 +102,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0014
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +122,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0015
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -137,7 +142,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0016
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -155,7 +161,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0017
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -174,7 +181,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0019
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -193,7 +201,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0020
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -212,7 +221,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0022
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -231,7 +241,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0024
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -251,7 +262,8 @@ export default function FocusFrameNodeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0028
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0028
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

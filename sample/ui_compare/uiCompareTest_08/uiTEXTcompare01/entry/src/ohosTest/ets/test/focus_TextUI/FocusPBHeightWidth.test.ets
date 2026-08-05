@@ -41,7 +41,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0380
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -69,7 +70,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0390
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,7 +99,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0400
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,7 +128,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0410
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,7 +157,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0420
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,7 +186,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0430
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -209,7 +215,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0440
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,7 +244,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0450
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,7 +273,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0460
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,7 +302,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0470
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,7 +331,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0480
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,7 +360,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0490
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -377,7 +389,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0500
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -405,7 +418,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0510
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -433,7 +447,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0520
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -461,7 +476,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0530
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -489,7 +505,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0540
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -517,7 +534,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0550
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -545,7 +563,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0560
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -573,7 +592,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0570
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -601,7 +621,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0580
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -629,7 +650,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0590
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -657,7 +679,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0600
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -685,7 +708,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0610
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -713,7 +737,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0620
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,7 +766,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0630
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -769,7 +795,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0640
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -797,7 +824,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0650
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -825,7 +853,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0660
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -853,7 +882,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0670
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -881,7 +911,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0680
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -909,7 +940,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0690
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -937,7 +969,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0700
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -965,7 +998,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0710
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -993,7 +1027,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0720
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1021,7 +1056,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0730
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1049,7 +1085,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0740
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1077,7 +1114,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0750
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1105,7 +1143,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0760
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1133,7 +1172,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0770
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1161,7 +1201,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0780
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1189,7 +1230,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0790
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1217,7 +1259,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0800
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1245,7 +1288,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0810
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1272,7 +1316,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0820
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1299,7 +1344,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0830
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1326,7 +1372,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0840
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1353,7 +1400,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0850
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1380,7 +1428,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0860
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1407,7 +1456,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0870
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1434,7 +1484,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0880
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1461,7 +1512,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0890
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1488,7 +1540,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0900
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1515,7 +1568,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0910
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1542,7 +1596,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0920
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1569,7 +1624,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0930
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1596,7 +1652,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0940
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1623,7 +1680,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0950
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1650,7 +1708,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0960
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1677,7 +1736,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0970
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1704,7 +1764,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0980
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1731,7 +1792,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0990
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1758,7 +1820,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1000
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1785,7 +1848,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1010
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1812,7 +1876,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1020
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1839,7 +1904,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1030
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1866,7 +1932,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1040
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1893,7 +1960,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1050
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1920,7 +1988,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1060
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1947,7 +2016,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1070
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1974,7 +2044,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1080
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2001,7 +2072,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1090
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2028,7 +2100,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1100
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2055,7 +2128,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1110
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2082,7 +2156,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1120
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2109,7 +2184,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1130
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2136,7 +2212,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1140
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2163,7 +2240,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1150
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2190,7 +2268,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1160
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2217,7 +2296,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1170
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2244,7 +2324,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1180
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2271,7 +2352,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1190
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2298,7 +2380,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1200
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2325,7 +2408,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1210
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2352,7 +2436,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1220
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2379,7 +2464,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1230
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2406,7 +2492,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1240
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2433,7 +2520,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1250
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2460,7 +2548,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1260
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2487,7 +2576,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1270
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2514,7 +2604,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1280
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2541,7 +2632,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1290
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2568,7 +2660,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1300
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2595,7 +2688,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1310
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2622,7 +2716,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1320
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2649,7 +2744,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1330
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2676,7 +2772,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1340
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2703,7 +2800,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1350
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2730,7 +2828,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1360
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2757,7 +2856,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1370
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2784,7 +2884,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1380
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2811,7 +2912,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1390
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2838,7 +2940,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1400
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2865,7 +2968,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1410
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2892,7 +2996,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1420
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2919,7 +3024,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1430
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2946,7 +3052,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1440
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2973,7 +3080,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1450
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3000,7 +3108,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1460
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3027,7 +3136,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1470
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3054,7 +3164,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1480
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3081,7 +3192,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1490
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3108,7 +3220,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1500
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3135,7 +3248,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1510
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3162,7 +3276,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1520
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3189,7 +3304,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1530
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3216,7 +3332,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1540
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3243,7 +3360,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1550
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3270,7 +3388,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1560
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3297,7 +3416,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1570
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3324,7 +3444,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1580
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3351,7 +3472,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1590
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3378,7 +3500,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1600
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3405,7 +3528,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1610
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3432,7 +3556,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1620
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3459,7 +3584,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1630
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3486,7 +3612,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1640
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3513,7 +3640,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1650
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3540,7 +3668,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1660
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3567,7 +3696,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1670
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3594,7 +3724,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1680
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3621,7 +3752,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1690
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3648,7 +3780,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1700
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3675,7 +3808,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1710
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3702,7 +3836,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1720
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3729,7 +3864,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1730
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3756,7 +3892,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1740
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3783,7 +3920,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1750
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3810,7 +3948,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1760
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3837,7 +3976,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1770
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3864,7 +4004,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1780
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3891,7 +4032,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1790
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3918,7 +4060,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1800
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3945,7 +4088,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1810
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3972,7 +4116,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1820
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3999,7 +4144,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1830
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4026,7 +4172,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1840
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4053,7 +4200,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1850
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4080,7 +4228,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1860
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4107,7 +4256,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1870
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4134,7 +4284,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1880
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4161,7 +4312,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1890
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4188,7 +4340,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1900
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4215,7 +4368,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1910
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4242,7 +4396,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1920
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4269,7 +4424,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1930
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4296,7 +4452,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1940
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4323,7 +4480,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1950
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4350,7 +4508,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1960
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4377,7 +4536,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1970
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4404,7 +4564,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1980
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4431,7 +4592,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_1990
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4458,7 +4620,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2000
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4495,7 +4658,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2010
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4532,7 +4696,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2020
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4559,7 +4724,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2030
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4586,7 +4752,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2040
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4613,7 +4780,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2050
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4640,7 +4808,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2060
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4667,7 +4836,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2070
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4694,7 +4864,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2080
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4721,7 +4892,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2090
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4748,7 +4920,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2100
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4775,7 +4948,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2110
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4802,7 +4976,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2120
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4829,7 +5004,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2130
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4856,7 +5032,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2140
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4883,7 +5060,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2150
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4910,7 +5088,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2160
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4937,7 +5116,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2170
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4964,7 +5144,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2180
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4991,7 +5172,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2190
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5018,7 +5200,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2200
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5045,7 +5228,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2210
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5072,7 +5256,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2220
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5099,7 +5284,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2230
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5126,7 +5312,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2240
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5153,7 +5340,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2250
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5180,7 +5368,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2260
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5207,7 +5396,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2500
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5243,7 +5433,8 @@ export default function FocusPBHeightWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2600
+     * @tc.name   : Popupbox popup heightwidth
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

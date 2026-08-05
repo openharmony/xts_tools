@@ -43,7 +43,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0011
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -63,7 +64,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0012
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -83,7 +85,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0014
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -104,7 +107,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0015
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -124,7 +128,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0016
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -144,7 +149,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0018
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -164,7 +170,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0019
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -184,7 +191,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0021
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -204,7 +212,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0022
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -224,7 +233,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0024
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -244,7 +254,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0029
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -264,7 +275,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0030
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -283,7 +295,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0031
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -303,7 +316,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0032
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -323,7 +337,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0033
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -342,7 +357,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0034
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -363,7 +379,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0036
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -383,7 +400,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0037
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -403,7 +421,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0038
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -423,7 +442,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0039
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -442,7 +462,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0041
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -462,7 +483,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0042
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -482,7 +504,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0043
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -501,7 +524,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0044
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -521,7 +545,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0046
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -541,7 +566,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0047
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -561,7 +587,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0048
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -581,7 +608,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0049
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -601,7 +629,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0050
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -620,7 +649,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0051
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -640,7 +670,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0053
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -660,7 +691,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0055
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -679,7 +711,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0057
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -699,7 +732,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0058
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -719,7 +753,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0060
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -738,7 +773,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0063
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -758,7 +794,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0064
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -778,7 +815,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0065
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -797,7 +835,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0066
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -817,7 +856,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0068
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -834,7 +874,8 @@ export default function FocusMediaBadgeBorder() {
     })
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0072
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -853,7 +894,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0073
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -873,7 +915,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0074
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -893,7 +936,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0075
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -912,7 +956,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0076
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -932,7 +977,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0079
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -952,7 +998,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0080
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -972,7 +1019,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0081
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -991,7 +1039,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0086
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1011,7 +1060,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0089
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1031,7 +1081,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0090
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1051,7 +1102,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0091
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1070,7 +1122,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0092
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1090,7 +1143,8 @@ export default function FocusMediaBadgeBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_BORDER_0093
+     * @tc.name   : Media Badge border
+     * @tc.desc   : Verify media Badge border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

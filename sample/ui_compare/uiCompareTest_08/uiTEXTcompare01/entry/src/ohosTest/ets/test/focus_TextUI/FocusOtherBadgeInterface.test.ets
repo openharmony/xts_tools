@@ -42,7 +42,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0010
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0020
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -80,7 +82,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0030
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -99,7 +102,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0040
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +122,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0050
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -137,7 +142,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0060
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -156,7 +162,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0070
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -176,7 +183,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0080
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -195,7 +203,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0090
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -214,7 +223,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0100
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -233,7 +243,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0110
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -252,7 +263,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0120
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -271,7 +283,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0130
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -290,7 +303,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0140
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -309,7 +323,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0150
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -328,7 +343,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0160
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -347,7 +363,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0170
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -366,7 +383,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0180
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -385,7 +403,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0240
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -404,7 +423,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0250
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -423,7 +443,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0350
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -443,7 +464,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0370
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -462,7 +484,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0380
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -482,7 +505,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0390
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -501,7 +525,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0400
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -520,7 +545,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0410
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -539,7 +565,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0470
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -558,7 +585,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0700
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -577,7 +605,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0710
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -596,7 +625,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0780
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -615,7 +645,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0790
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -634,7 +665,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0800
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -653,7 +685,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0810
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -672,7 +705,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0820
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -691,7 +725,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0830
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -710,7 +745,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0840
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -729,7 +765,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0850
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -749,7 +786,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0860
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -768,7 +806,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0870
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -787,7 +826,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0880
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -807,7 +847,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0890
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -826,7 +867,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0900
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -845,7 +887,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0920
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -864,7 +907,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0930
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -883,7 +927,8 @@ export default function FocusOtherBadgeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_BADGE_INTERFACE_0940
+     * @tc.name   : Other Badge interface
+     * @tc.desc   : Verify other Badge interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

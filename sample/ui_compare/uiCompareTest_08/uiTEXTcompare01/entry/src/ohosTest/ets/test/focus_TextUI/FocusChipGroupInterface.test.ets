@@ -42,7 +42,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0160
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,7 +72,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0170
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -101,7 +103,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0180
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -124,7 +127,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0190
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -146,7 +150,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0200
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,7 +179,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0210
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,7 +208,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0220
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,7 +237,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0260
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +266,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0270
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,7 +294,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0280
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,7 +323,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0290
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -341,7 +352,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0300
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -369,7 +381,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0310
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,7 +410,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0320
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -425,7 +439,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0330
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -453,7 +468,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0370
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -481,7 +497,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0410
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -509,7 +526,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0430
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -537,7 +555,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0440
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -565,7 +584,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0450
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -593,7 +613,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0460
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -621,7 +642,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0470
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -649,7 +671,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0480
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -677,7 +700,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0490
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -705,7 +729,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0500
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -733,7 +758,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0510
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -761,7 +787,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0520
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -789,7 +816,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0560
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -817,7 +845,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0600
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -845,7 +874,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0620
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -873,7 +903,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0630
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -901,7 +932,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0640
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -925,7 +957,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0650
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -949,7 +982,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0680
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -975,7 +1009,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0710
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -997,7 +1032,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0720
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1021,7 +1057,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0730
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1045,7 +1082,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0750
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1065,7 +1103,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0760
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1093,7 +1132,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0770
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1121,7 +1161,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0780
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1141,7 +1182,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0800
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1161,7 +1203,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0810
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1189,7 +1232,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0820
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1217,7 +1261,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0830
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1245,7 +1290,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0840
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1273,7 +1319,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0860
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1301,7 +1348,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0870
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1333,7 +1381,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0880
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1354,7 +1403,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_0890
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1375,7 +1425,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1170
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1400,7 +1451,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1070
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1434,7 +1486,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1080
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1466,7 +1519,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1090
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1489,7 +1543,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1100
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1512,7 +1567,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1110
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1535,7 +1591,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1120
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1558,7 +1615,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1130
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1581,7 +1639,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1140
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1604,7 +1663,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1150
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1628,7 +1688,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1180
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1653,7 +1714,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1190
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1695,7 +1757,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1220
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1718,7 +1781,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1240
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1741,7 +1805,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1480
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1813,7 +1878,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1500
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1857,7 +1923,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1510
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1901,7 +1968,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1540
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1948,7 +2016,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1550
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1995,7 +2064,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1590
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2032,7 +2102,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1600
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2066,7 +2137,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1620
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2100,7 +2172,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1630
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2134,7 +2207,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1640
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2168,7 +2242,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1650
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2202,7 +2277,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1660
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2246,7 +2322,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1670
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2280,7 +2357,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1680
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2314,7 +2392,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1690
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2348,7 +2427,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1700
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2382,7 +2462,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1710
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2416,7 +2497,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1720
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2450,7 +2532,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1730
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2484,7 +2567,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1740
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2518,7 +2602,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1750
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2568,7 +2653,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1760
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2598,7 +2684,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1770
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2628,7 +2715,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1780
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2662,7 +2750,8 @@ export default function FocusChipGroupInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIPGROUP_INTERFACE_1870
+     * @tc.name   : Text chipgroup interface
+     * @tc.desc   : Verify text chipgroup interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

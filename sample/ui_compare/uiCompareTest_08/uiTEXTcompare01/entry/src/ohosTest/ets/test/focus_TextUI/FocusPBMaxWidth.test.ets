@@ -41,7 +41,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0010
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,7 +64,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0020
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +87,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0030
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +121,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0040
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -150,7 +154,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0050
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +187,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0060
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -214,7 +220,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0070
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -236,7 +243,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0080
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +266,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0090
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -280,7 +289,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0100
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -302,7 +312,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0110
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,7 +335,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0120
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -346,7 +358,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0130
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,7 +381,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0140
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -390,7 +404,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0150
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -412,7 +427,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0160
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -434,7 +450,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0170
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,7 +473,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0180
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -495,7 +513,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0190
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -554,7 +573,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0210
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -605,7 +625,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0220
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -641,7 +662,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0240
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -677,7 +699,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0260
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -703,7 +726,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0270
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -734,7 +758,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0280
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -765,7 +790,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0290
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -792,7 +818,8 @@ export default function FocusPBMaxWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_MAXWIDTH_0310
+     * @tc.name   : Popupbox popup maxwidth
+     * @tc.desc   : Verify popupbox popup maxwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -42,7 +42,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0011
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -73,7 +74,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0013
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -101,7 +103,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0014
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -132,7 +135,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0015
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -154,7 +158,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0016
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -181,7 +186,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0017
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -212,7 +218,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0018
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -233,7 +240,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0019
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -261,7 +269,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0020
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -292,7 +301,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0021
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -315,7 +325,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0022
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -343,7 +354,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0023
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -374,7 +386,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0024
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -396,7 +409,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0025
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -424,7 +438,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0026
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -454,7 +469,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0027
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -475,7 +491,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0028
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -502,7 +519,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0029
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -533,7 +551,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0030
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -556,7 +575,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0031
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -584,7 +604,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0032
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -615,7 +636,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0033
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -637,7 +659,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0035
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -668,7 +691,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0037
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -695,7 +719,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0038
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -726,7 +751,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0039
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -748,7 +774,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0040
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -776,7 +803,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0041
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -808,7 +836,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0042
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -830,7 +859,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0043
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -858,7 +888,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0044
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -889,7 +920,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0045
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -911,7 +943,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0046
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -938,7 +971,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0047
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -968,7 +1002,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0048
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -989,7 +1024,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0049
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1016,7 +1052,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0050
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1048,7 +1085,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0051
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1071,7 +1109,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0052
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1100,7 +1139,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0053
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1132,7 +1172,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0054
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1155,7 +1196,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0055
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1184,7 +1226,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0056
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1216,7 +1259,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0057
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1239,7 +1283,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0058
+     * @tc.name   : Media Badge large font / aging font
+     * @tc.desc   : Verify media Badge large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1271,7 +1316,8 @@ export default function FocusMediaBadgeLargeFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059
+     * @tc.name   : aging-friendly / large font-FrameNode
+     * @tc.desc   : Verify the interface under test: aging-friendly / large font-FrameNode.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

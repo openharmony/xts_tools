@@ -41,7 +41,8 @@ export default function FocusPopupBoxTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0330
+     * @tc.name   : Popupbox enter
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -101,7 +102,8 @@ export default function FocusPopupBoxTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0490
+     * @tc.name   : Popupbox enter
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -161,7 +163,8 @@ export default function FocusPopupBoxTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0530
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -189,7 +192,8 @@ export default function FocusPopupBoxTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0670
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -218,7 +222,8 @@ export default function FocusPopupBoxTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0010
+     * @tc.name   : Popupbox lunarswitchstyle
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -247,7 +252,8 @@ export default function FocusPopupBoxTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_LUNARSWITCHSTYLE_0100
+     * @tc.name   : Popupbox lunarswitchstyle
+     * @tc.desc   : Verify popupbox lunarswitchstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

@@ -44,7 +44,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_WATCHES_0012
+     * @tc.name   : Media PatternLock watches
+     * @tc.desc   : Verify media PatternLock watches interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -64,7 +65,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0010
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -88,7 +90,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0020
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -112,7 +115,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0030
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -136,7 +140,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0040
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -162,7 +167,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0050
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -187,7 +193,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0060
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -212,7 +219,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0070
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -236,7 +244,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0080
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -259,7 +268,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0090
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -284,7 +294,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0100
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -309,7 +320,8 @@ export default function FocusPatternLockTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110
-     * @tc.name   : SUB_ACE_UI_ARKUI_PATTERNLOCKACTIVECIRCLECOLOR_0110
+     * @tc.name   : ArkUI patternlockactivecirclecolor
+     * @tc.desc   : Verify ArkUI patternlockactivecirclecolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

@@ -43,7 +43,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0010
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -62,7 +63,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0020
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -81,7 +83,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0030
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -100,7 +103,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0050
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +122,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0060
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -139,7 +144,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0070
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -158,7 +164,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0080
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -176,7 +183,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0090
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -197,7 +205,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0100
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -215,7 +224,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0110
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -234,7 +244,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0120
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -253,7 +264,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0130
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -272,7 +284,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0140
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -291,7 +304,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0150
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -310,7 +324,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0160
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -332,7 +347,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0170
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -353,7 +369,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0180
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -372,7 +389,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0190
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -390,7 +408,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0200
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -408,7 +427,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0210
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -426,7 +446,8 @@ export default function FocusContentModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_DATAPANEL_CONTENTMODIFIER_0250
+     * @tc.name   : Information datapanel contentModifier
+     * @tc.desc   : Verify information datapanel contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
