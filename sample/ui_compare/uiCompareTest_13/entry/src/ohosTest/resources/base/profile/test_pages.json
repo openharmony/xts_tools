@@ -11,6 +11,21 @@
     "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0060",
     "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0010",
     "testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0022",
-    "testability/pages/UiComponentMediaDarkColorMode/UiComponentMediaDarkColorMode0026"
+    "testability/pages/UiComponentMediaDarkColorMode/UiComponentMediaDarkColorMode0026",
+    "testability/pages/UiComponentMediaImageParallelization/UiComponentMediaImageParallelization0080",
+    "testability/pages/UiComponentMediaBadgeLargeFont/UiComponentMediaBadgeLargeFont0059",
+    "testability/pages/UiComponentMediaProgressEvent/UiComponentMediaProgressEvent0027",
+    "testability/pages/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0091",
+    "testability/pages/UiComponentButtonTextPickerCustomAnimation/UiComponentButtonTextPickerCustomAnimation0070",
+    "testability/pages/UiComponentButtonTextPickerCustomAnimation/UiComponentButtonTextPickerCustomAnimation0120",
+    "testability/pages/UiComponentMediaCalendarPickerDc/UiComponentMediaCalendarPickerDc0032",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200001",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200002",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200004",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200005",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200006",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200007",
+    "testability/pages/UiComponentMediaImageApi20/UiComponentMediaImageApi200008",
+    "testability/pages/UiComponentMediaImageAnimateto/UiComponentMediaImageAnimateto0023"
   ]
 }
