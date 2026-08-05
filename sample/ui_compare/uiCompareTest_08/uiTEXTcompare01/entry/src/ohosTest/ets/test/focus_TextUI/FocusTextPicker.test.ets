@@ -44,7 +44,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0040
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -68,7 +69,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0060
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -91,7 +93,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0070
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -113,7 +116,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0080
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -135,7 +139,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0110
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -157,7 +162,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0180
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -179,7 +185,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0200
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -202,7 +209,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0210
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -225,7 +233,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0220
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -248,7 +257,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0250
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -271,7 +281,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0320
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -325,7 +336,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0340
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -346,7 +358,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0350
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -368,7 +381,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0360
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -390,7 +404,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0390
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -412,7 +427,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0460
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -434,7 +450,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0480
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -456,7 +473,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0490
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -478,7 +496,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0530
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -500,7 +519,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0550
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -522,7 +542,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0560
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -544,7 +565,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0570
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -567,7 +589,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0600
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -589,7 +612,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0670
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -611,7 +635,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0690
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -633,7 +658,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0700
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -655,7 +681,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0710
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -677,7 +704,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0740
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -700,7 +728,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0810
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -723,7 +752,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0830
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -745,7 +775,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0840
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -768,7 +799,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0850
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -790,7 +822,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0880
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -812,7 +845,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0950
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -834,7 +868,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0970
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -857,7 +892,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0980
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -912,7 +948,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1020
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -935,7 +972,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1040
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -958,7 +996,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1050
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -981,7 +1020,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1060
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1006,7 +1046,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1090
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1031,7 +1072,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1160
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1056,7 +1098,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1180
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1079,7 +1122,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1190
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1102,7 +1146,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1200
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1125,7 +1170,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1230
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1148,7 +1194,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1300
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1172,7 +1219,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1320
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1196,7 +1244,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1330
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1220,7 +1269,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1340
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1243,7 +1293,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1370
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1266,7 +1317,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1440
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1320,7 +1372,8 @@ export default function FocusTextPickerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1460
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

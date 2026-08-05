@@ -42,7 +42,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002
-     * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0002
+     * @tc.name   : Text timer font color
+     * @tc.desc   : Verify text timer font color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -60,7 +61,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003
-     * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0003
+     * @tc.name   : Text timer font color
+     * @tc.desc   : Verify text timer font color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -78,7 +80,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004
-     * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_COLOR_0004
+     * @tc.name   : Text timer font color
+     * @tc.desc   : Verify text timer font color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -97,7 +100,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002
-     * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0002
+     * @tc.name   : Text timer font size
+     * @tc.desc   : Verify text timer font size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -115,7 +119,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003
-     * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0003
+     * @tc.name   : Text timer font size
+     * @tc.desc   : Verify text timer font size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -134,7 +139,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004
-     * @tc.name   : SUB_ACE_UI_TEXT_TIMER_FONT_SIZE_0004
+     * @tc.name   : Text timer font size
+     * @tc.desc   : Verify text timer font size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -153,7 +159,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010
-     * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0010
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -172,7 +179,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012
-     * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0012
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -191,7 +199,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014
-     * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0014
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -210,7 +219,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015
-     * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0015
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -229,7 +239,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016
-     * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0016
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -247,7 +258,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023
-     * @tc.name   : SUB_ACE_UI_TEXTTIMER_COMMON_FONTWEIGHT_0023
+     * @tc.name   : Texttimer common fontweight
+     * @tc.desc   : Verify texttimer common fontweight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -265,7 +277,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0040
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -292,7 +305,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0050
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -318,7 +332,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0060
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0060
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -346,7 +361,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0070
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -373,7 +389,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0080
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -400,7 +417,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0090
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -426,7 +444,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTTIMER_0100
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTTIMER_0100
+     * @tc.name   : ArkUI texttimer
+     * @tc.desc   : Verify ArkUI texttimer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -445,7 +464,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0250
+     * @tc.name   : Information texttimer interface
+     * @tc.desc   : Verify information texttimer interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -463,7 +483,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0280
+     * @tc.name   : Information texttimer interface
+     * @tc.desc   : Verify information texttimer interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -482,7 +503,8 @@ export default function FocusTextTimerTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_TEXTTIMER_INTERFACE_0290
+     * @tc.name   : Information texttimer interface
+     * @tc.desc   : Verify information texttimer interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
