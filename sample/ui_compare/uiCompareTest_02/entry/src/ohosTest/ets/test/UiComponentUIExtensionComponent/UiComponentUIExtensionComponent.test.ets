@@ -60,6 +60,7 @@ export default function UiComponentUIExtensionComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0050
      * @tc.name   : The UIExtensionComponent component interface is provided,UIExtensionComponent component is set to size
+     * @tc.desc   : Verify special components UIExtensionComponent interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function UiComponentUIExtensionComponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0130
      * @tc.name   : The UIExtensionComponent component interface is provided,UIExtensionComponent sets the onError event
+     * @tc.desc   : Verify special components UIExtensionComponent interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

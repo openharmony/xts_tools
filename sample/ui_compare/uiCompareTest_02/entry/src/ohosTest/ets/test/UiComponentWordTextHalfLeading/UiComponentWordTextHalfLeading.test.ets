@@ -57,6 +57,7 @@ export default function UiComponentWordTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0010
      * @tc.name   : text component, set halfLeading to true
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function UiComponentWordTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0020
      * @tc.name   : text component, set halfLeading to false
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -57,6 +57,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0010
      * @tc.name   : Use addTextCpan to add text content for setting half leading
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -79,6 +80,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0003
      * @tc.name   : Use addTextCpan to add text content for setting half leading
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -101,6 +103,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0007
      * @tc.name   : Dynamically setting up halfleading
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -122,6 +125,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0008
      * @tc.name   : Dynamically setting up lineHeight
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -143,6 +147,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0004
      * @tc.name   : Set halfLeading to null/undefined
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -164,6 +169,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0005
      * @tc.name   : Image text mixing, halfleading only applies to text
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -185,6 +191,7 @@ export default function UiComponentTextRichEditorHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_HALFLEADING_0006
      * @tc.name   : Add decorative lines to the text and set halfLeading to true
+     * @tc.desc   : Verify text richeditor halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

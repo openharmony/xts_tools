@@ -57,6 +57,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0060
      * @tc.name   : Bind the LINE_HEIGHT type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0080
      * @tc.name   : Bind the URL type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +99,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0010
      * @tc.name   : Bind the FONT type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +118,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0030
      * @tc.name   : Bind the BASELINE_OFFSET type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +137,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0040
      * @tc.name   : Bind the LETTER_SPACING type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +156,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0070
      * @tc.name   : Bind the BACKGROUND_COLOR type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +175,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0020
      * @tc.name   : Bind the DECORATION type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +194,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0090
      * @tc.name   : Bind the GESTURE type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,6 +218,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0110
      * @tc.name   : Bind the IMAGE type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,6 +237,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0050
      * @tc.name   : Bind the TEXT_SHADOW type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +256,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0100
      * @tc.name   : Bind the PARAGRAPH_STYLE type attribute string in the attribute string aboutToAppear
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +275,7 @@ export default function UiComponentTextTimingOptimization() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TIMING_OPTIMIZATION_0130
      * @tc.name   : Multiple text components are displayed simultaneously
+     * @tc.desc   : Verify text timing optimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -57,6 +57,7 @@ export default function UiComponentTextTranslateMenu() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0060
      * @tc.name   : TextInput component, password mode
+     * @tc.desc   : Verify text translate menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiComponentTextTranslateMenu() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0230
      * @tc.name   : Right-click the Text/TextInput/TextArea/Search component
+     * @tc.desc   : Verify text translate menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -113,6 +115,7 @@ export default function UiComponentTextTranslateMenu() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TRANSLATE_MENU_0110
      * @tc.name   : The TextInput/TextArea/Search component sets selectionMenuHidden to true, and the Chinese version is selected
+     * @tc.desc   : Verify text translate menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

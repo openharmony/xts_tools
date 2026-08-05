@@ -57,6 +57,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0010
      * @tc.name   : Search adds maxLength, set maxLength, enter text
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0020
      * @tc.name   : Search adds maxLength, dynamically increase maxLength
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -102,6 +104,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0030
      * @tc.name   : Search adds maxLength, dynamically decrease maxLength with input text
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -122,6 +125,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0040
      * @tc.name   : Search adds maxLength, decrease then increase maxLength with input text
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -145,6 +149,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0270
      * @tc.name   : Set caret position
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -164,6 +169,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0280
      * @tc.name   : Dynamically increase caret position, text length less than caret position
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +189,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0290
      * @tc.name   : Dynamically increase caret position, text length greater than caret position
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -202,6 +209,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0300
      * @tc.name   : Dynamically decrease caret position, decrease to less than 0
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -221,6 +229,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0310
      * @tc.name   : Dynamically decrease caret position, decrease to greater than or equal to 0
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -240,6 +249,7 @@ export default function UiTextCrossDevice() {
     /*
      * @tc.number : SUB_ACE_UI_TEXT_CROSSDEVICE_0320
      * @tc.name   : Mouse click a position to place caret
+     * @tc.desc   : Verify text crossdevice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

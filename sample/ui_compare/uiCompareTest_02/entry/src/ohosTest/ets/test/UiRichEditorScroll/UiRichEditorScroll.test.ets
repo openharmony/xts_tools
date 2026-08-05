@@ -57,6 +57,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0120
      * @tc.name   : RichEditor, multi-line text is displayed in the content area, and the height is dynamically changed
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -79,6 +80,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0150
      * @tc.name   : RichEditor, multi-line text, delete content
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -101,6 +103,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0110
      * @tc.name   : RichEditor, multi-line text is displayed in the content area, and the width is dynamically changed
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -123,6 +126,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0210
      * @tc.name   : RichEditor, multi-line text, padding settings
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -145,6 +149,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0230
      * @tc.name   : RichEditor, multi-line text, set clip
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -168,6 +173,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0130
      * @tc.name   : RichEditor, multi-line text, select all text Scroll up and down to select all without disappearing
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -195,6 +201,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0250
      * @tc.name   : RichEditor, multi-line text, select all text Scroll up and down to select all without disappearing
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -222,6 +229,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0270
      * @tc.name   : RichEditor, multi-line text, click to truncate text
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -247,6 +255,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0220
      * @tc.name   : RichEditor, multi-line text, set text indentation
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -265,6 +274,7 @@ export default function UiRichEditorScroll() {
     /*
      * @tc.number : SUB_ACE_UI_RICHEDITOR_SCROLL_0140
      * @tc.name   : RichEditor, multi-line text, select part of the text
+     * @tc.desc   : Verify richeditor scroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

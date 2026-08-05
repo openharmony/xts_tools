@@ -57,6 +57,7 @@ export default function UiComponentTextSearchInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1460
      * @tc.name   : Search component, set the entered text to TextAlign.End
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiComponentTextSearchInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1450
      * @tc.name   : Search component, set the entered text to TextAlign.Center
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -97,6 +99,7 @@ export default function UiComponentTextSearchInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1480
      * @tc.name   : Search component, set the entered text to TextAlign.Start
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +120,7 @@ export default function UiComponentTextSearchInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0150
      * @tc.name   : Search component, not set the TextAlign
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,6 +141,7 @@ export default function UiComponentTextSearchInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0010
      * @tc.name   : Search component common property test
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -57,6 +57,7 @@ export default function UiImportComponentContent() {
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
      * @tc.name   : ComponentCotent's dispose method test
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiImportComponentContent() {
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0090
      * @tc.name   : ComponentCotent's updateConfiguration method test
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -101,6 +103,7 @@ export default function UiImportComponentContent() {
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0050
      * @tc.name   : ComponentCotent's update method test
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -57,6 +57,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0062
      * @tc.name   : setSelection is set to text selection, and the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -83,6 +84,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0063
      * @tc.name   : For gesture/mouse selections containing elements with a length greater than 1, call getSelection to obtain the current selected area range of the current rich text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -109,6 +111,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9793
      * @tc.name   : Using getSelection in the onSelect callback can accurately return the span information of the selected content or cursor
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -132,6 +135,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0111
      * @tc.name   : Use setSelection in the onWillChange callback to accurately set the text selection (before the text change).
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -152,6 +156,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0112
      * @tc.name   : Use setSelection in the onDidchange callback to accurately set the text selection (after the text change).
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -172,6 +177,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0027
      * @tc.name   : Using getParagraphs in the onDidChange callback can accurately return paragraph style and range information after text changes
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -194,6 +200,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0025
      * @tc.name   : Use getParagraphs in the onWillChange callback to accurately return the paragraph style and range information before the text change
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -216,6 +223,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0026
      * @tc.name   : Using getspans in the onDidChange callback can accurately return all span information after the text change
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -238,6 +246,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0024
      * @tc.name   : Using getspans in the onWillChange callback can accurately return all span information before the text change
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -260,6 +269,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0106
      * @tc.name   : Use getSelection in the onSelectionChange callback to accurately return the span information of the selected content or cursor
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -289,6 +299,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0023
      * @tc.name   : Use getCaretOffset in the onSelectionChange callback to get the exact cursor position
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -318,6 +329,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0116
      * @tc.name   : Use setSelection in the onDeleteComplete callback to accurately set the text selection (after deletion)
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -342,6 +354,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0115
      * @tc.name   : Use setSelection in the aboutToDelete callback to accurately set the text selection (before deletion)
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -365,6 +378,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0114
      * @tc.name   : Use setSelection in the onIMEInputComplete callback to accurately set the text selection (after input)
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -388,6 +402,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0113
      * @tc.name   : Use setSelection in the aboutToIMEInput callback to accurately set the text selection (before input)
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -411,6 +426,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0103
      * @tc.name   : Use getSelection in the aboutToDelete callback to accurately return the span information where the selected content or cursor is located (before deletion)
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -434,6 +450,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0101
      * @tc.name   : Use getSelection in the aboutToIMEInput callback to accurately return the span information where the selected content or cursor is located (before entering)
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -457,6 +474,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0108
      * @tc.name   : Use getSelection in the onDidChange callback to accurately return the span information of the selected content or cursor (after the text changes).
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -483,6 +501,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0107
      * @tc.name   : Use getSelection in the onWillChange callback to accurately return the span information of the selected content or cursor (before the text changes).
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -509,6 +528,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0065
      * @tc.name   : updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -530,6 +550,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0056
      * @tc.name   : updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -565,6 +586,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9792
      * @tc.name   : Use setSelection in the onSelect callback to accurately set the text selection
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -590,6 +612,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0052
      * @tc.name   : updateParagraphStyle updates the style of the paragraph so that the range boundary falls in the middle of elements with a length greater than 1
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -618,6 +641,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1480
      * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and then click/left mouse button to click on the text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -647,6 +671,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1470
      * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:LongPress,options:onAppear,OnDisappear, and then click/left click on the text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -671,6 +696,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1420
      * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType：RightClick，options：onAppear，OnDisappear
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -695,6 +721,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1390
      * @tc.name   : do not set bindSelectMenu, right-click the image content
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -715,6 +742,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1410
      * @tc.name   : If you do not set bindSelectMenu, select the image and text with the mouse, and right-click the image content
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -737,6 +765,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1500
      * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -761,6 +790,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1430
      * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType:RightClick,options:onAppear,OnDisappear, and long-press again to select text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -794,6 +824,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1440
      * @tc.name   : bindSelectionMenu parameter spantype:MIXED; content：Builder； responType：RightClick，options：onAppear，OnDisappear
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -827,6 +858,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1370
      * @tc.name   : not set bindSelectMenu, select the content in Chinese and right-click the text area
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -850,6 +882,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1460
      * @tc.name   : bindSelectionMenu parameter spantype:Text; content：Builder； responType：LongPress，options：onAppear，OnDisappearSet the custom builder width and height to the percentage format
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -869,6 +902,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0400
      * @tc.name   : Set up a long-press event for TextSpan
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -890,6 +924,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0370
      * @tc.name   : Set click events for ImageSpan
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -911,6 +946,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0380
      * @tc.name   : Set up a click event for TextSpan
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -932,6 +968,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0390
      * @tc.name   : Set up a long press event for ImageSpan
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -953,6 +990,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_1490
      * @tc.name   : bindSelectionMenu with long press to select text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -57,6 +57,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0050
      * @tc.name   : When the attribute string contains two or more placeholder characters, replace the string within the specified range and retrieve the string.
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -81,6 +82,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0060
      * @tc.name   : When the attribute string contains two or more placeholder characters, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +107,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0070
      * @tc.name   : When the attribute string contains two or more placeholder characters, insert string at specified index position
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,6 +132,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0080
      * @tc.name   : Insert strings with different styles
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,6 +157,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0150
      * @tc.name   : When placeholder characters are at the front of text, replace the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -177,6 +182,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0160
      * @tc.name   : When placeholder characters are at the front of text, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +207,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0170
      * @tc.name   : When placeholder characters are at the front of text, insert string at specified index position
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +232,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0180
      * @tc.name   : When placeholder characters are in the middle of text, replace the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,6 +257,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0190
      * @tc.name   : When placeholder characters are in the middle of text, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -273,6 +282,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0210
      * @tc.name   : When placeholder characters are at the end of text, replace the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,6 +307,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0220
      * @tc.name   : When placeholder characters are at the end of text, remove the string within the specified range
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,6 +332,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0230
      * @tc.name   : When placeholder characters are at the end of text, insert string at specified index position
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,6 +357,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0280
      * @tc.name   : Text component modifier method calls clip property
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -366,6 +379,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0290
      * @tc.name   : TextInput/TextArea component modifier method calls backgroundColor
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +399,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0310
      * @tc.name   : TextInput/TextArea component modifier method calls width
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -403,6 +418,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0320
      * @tc.name   : TextInput/TextArea component modifier method calls padding
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -422,6 +438,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0330
      * @tc.name   : TextInput/TextArea component modifier method calls margin
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -441,6 +458,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0340
      * @tc.name   : TextInput/TextArea component modifier method calls border
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -460,6 +478,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0360
      * @tc.name   : TextInput/TextArea component modifier method calls foregroundColor
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -479,6 +498,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0370
      * @tc.name   : TextInput/TextArea component modifier method calls onClick
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -503,6 +523,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0570
      * @tc.name   : TextInput component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -526,6 +547,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0580
      * @tc.name   : TextArea component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -549,6 +571,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0590
      * @tc.name   : Search component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -572,6 +595,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0600
      * @tc.name   : Text component sets 120,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -595,6 +619,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0610
      * @tc.name   : Toast displays 15,000 characters text
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -617,6 +642,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0640
      * @tc.name   : StyledString with different styledKey modifier verification
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -637,6 +663,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0650
      * @tc.name   : StyledString with same content different styledKey modifier verification
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -657,6 +684,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0660
      * @tc.name   : StyledString with applyNormalAttribute and applyPressedAttribute
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -679,6 +707,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0040
      * @tc.name   : TextInput/Search/TextArea component size animation
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -709,6 +738,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0090
      * @tc.name   : Text component with garbled text format
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -729,6 +759,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0130
      * @tc.name   : TextInput component changes cancelButton type on focus
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -751,6 +782,7 @@ export default function UiComponentTextReverseAnalysis() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_REVERSEANALYSIS_0140
      * @tc.name   : Search component changes cancelButton type on focus
+     * @tc.desc   : Verify text reverseanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

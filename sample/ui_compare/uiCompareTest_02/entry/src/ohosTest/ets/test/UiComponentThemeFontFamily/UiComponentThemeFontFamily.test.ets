@@ -57,6 +57,7 @@ export default function UiComponentThemeFontFamily() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0040
      * @tc.name   : Theme font changed in italics
+     * @tc.desc   : Verify theme fontfamily interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -85,6 +86,7 @@ export default function UiComponentThemeFontFamily() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0030
      * @tc.name   : Theme font changes weight
+     * @tc.desc   : Verify theme fontfamily interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -113,6 +115,7 @@ export default function UiComponentThemeFontFamily() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0010
      * @tc.name   : Theme font changes size
+     * @tc.desc   : Verify theme fontfamily interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,6 +144,7 @@ export default function UiComponentThemeFontFamily() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_THEME_FONTFAMILY_0020
      * @tc.name   : Theme font changes fontcolor
+     * @tc.desc   : Verify theme fontfamily interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

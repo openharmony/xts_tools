@@ -57,6 +57,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0010
      * @tc.name   : Changing the component size in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -81,6 +82,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0011
      * @tc.name   : Changing the font size in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -105,6 +107,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0012
      * @tc.name   : Setting leadingMargin in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,6 +132,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0013
      * @tc.name   : Setting textAlign in the rich editor does not affect the word wrap effect
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -153,6 +157,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0015
      * @tc.name   : Setting both lineBreakStrategy and wordBreak in the rich editor
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -171,6 +176,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0014
      * @tc.name   : Input content follows paragraph line break in the rich editor
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

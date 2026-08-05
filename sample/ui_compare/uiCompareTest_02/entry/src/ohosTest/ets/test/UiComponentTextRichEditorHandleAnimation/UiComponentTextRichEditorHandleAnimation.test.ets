@@ -57,6 +57,7 @@ export default function UiComponentTextRichEditorHandleAnimation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle-animation_0002
      * @tc.name   : Perform a translation animation and observe the handles and menus
+     * @tc.desc   : Verify text richeditor handle-animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -83,6 +84,7 @@ export default function UiComponentTextRichEditorHandleAnimation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle-animation_0003
      * @tc.name   : Perform a rotation animation and observe the handles and menus
+     * @tc.desc   : Verify text richeditor handle-animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -109,6 +111,7 @@ export default function UiComponentTextRichEditorHandleAnimation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle-animation_0006
      * @tc.name   : Perform a size change animation and observe the handles and menus
+     * @tc.desc   : Verify text richeditor handle-animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -135,6 +138,7 @@ export default function UiComponentTextRichEditorHandleAnimation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle-animation_0008
      * @tc.name   : Select symbol/builder and observe the handles and menus
+     * @tc.desc   : Verify text richeditor handle-animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

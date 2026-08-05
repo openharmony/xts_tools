@@ -57,6 +57,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0003
      * @tc.name   : Set the text range of the area obtained by getRectsForRange to [1,2]
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0013
      * @tc.name   : Set the height of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_TOP(3)
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -97,6 +99,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0012
      * @tc.name   : Set the height of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_MIDDLE(2)
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +120,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0020
      * @tc.name   : getRectsForRange gets empty text/shows the draw area information of the placeholder
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -143,6 +147,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0015
      * @tc.name   : Set the height of the rectangular area returned by getRectsForRange to STRUT(5)
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -163,6 +168,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0008
      * @tc.name   : Set the width of the rectangular area returned by getRectsForRange to MAX(1)
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +189,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0014
      * @tc.name   : Set the width of the rectangular area returned by getRectsForRange to INCLUDE_LINE_SPACE_BOTTOM(4)
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -203,6 +210,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0007
      * @tc.name   : Set the width of the rectangular area returned by getRectsForRange to TIGHT(0)
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -223,6 +231,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0017
      * @tc.name   : getRectsForRange obtains the drawing area information of plain text (CHINESE, ENGLI, N.Y., and Korea, spaces, special symbols, expressions) content
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -249,6 +258,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0019
      * @tc.name   : getRectsForRangeto get the draw area information for the property string content
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -269,6 +279,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0004
      * @tc.name   : Set the text range of the area obtained by getRectsForRange to [50,51]
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -289,6 +300,7 @@ export default function UiComponentTextRichEditorGetRects() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0018
      * @tc.name   : getRectsForRange obtains the drawing area information of the mixed text (TextSpan, ImageSpan, BuilderSpan, SymbolSpan) content
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

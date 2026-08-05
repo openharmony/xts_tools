@@ -60,6 +60,7 @@ export default function UiComponentTextRicheditor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0070
      * @tc.name   : Click the search button to make the selected text out of focus
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -83,6 +84,7 @@ export default function UiComponentTextRicheditor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERACTION_0020
      * @tc.name   : The Search component gestures and clicks the cursor to pop up a single handle and menu
+     * @tc.desc   : Verify text search interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -105,6 +107,7 @@ export default function UiComponentTextRicheditor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0080
      * @tc.name   : Click the component input box several times and the cursor appears
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -132,6 +135,7 @@ export default function UiComponentTextRicheditor() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE-GAUGE_0010
      * @tc.name   : In the Gauge container, set privacySensitive to false
+     * @tc.desc   : Verify ArkUI privacysensitive-gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -150,6 +154,7 @@ export default function UiComponentTextRicheditor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RICHEDITOR_SYMBOL_ SHUFFLEEDITING_0370-GAUGE_0010
      * @tc.name   : In the Gauge container, set privacySensitive to false
+     * @tc.desc   : Verify richeditor symbol  shuffleediting 0370-gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

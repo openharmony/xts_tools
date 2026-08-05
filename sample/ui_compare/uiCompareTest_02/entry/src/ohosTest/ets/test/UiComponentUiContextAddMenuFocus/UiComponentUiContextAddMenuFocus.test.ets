@@ -57,6 +57,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0140
      * @tc.name   : Connect to the external mouse settings and set the mouse style to NORTH with setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0150
      * @tc.name   : Connect to the external mouse settings and set the mouse style to West with setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -99,6 +101,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0220
      * @tc.name   : Connect the external mouse settings and set the mouse style to LOADNG by setting setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -120,6 +123,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0180
      * @tc.name   : Connect the external mouse settings and set the mouse style to TEXT_CURSOR by using setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,6 +145,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0170
      * @tc.name   : Connect the external mouse settings and set the mouse style to COLOR_SUCKER by setting setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -162,6 +167,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0190
      * @tc.name   : Connect the external mouse settings and set the mouse style to HELP by setting setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +189,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0160
      * @tc.name   : Connect the external mouse settings and set the mouse style to MOVE by setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -204,6 +211,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0110
      * @tc.name   : Connect the external mouse settings and see that the default mouse style is a black arrow
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -223,6 +231,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0130
      * @tc.name   : Connect the external mouse settings and set the mouse style to HAND_POINTING by setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -244,6 +253,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0120
      * @tc.name   : Connect the external mouse settings and set the mouse style to CURSOR_CIRCLE by setCursor
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -265,6 +275,7 @@ export default function UiComponentUiContextAddMenuFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ADDMENUFOCUS_0030
      * @tc.name   : Call getFocusController(): FocusController, and set focusable(false) to the component
+     * @tc.desc   : Verify special components uicontext addmenufocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

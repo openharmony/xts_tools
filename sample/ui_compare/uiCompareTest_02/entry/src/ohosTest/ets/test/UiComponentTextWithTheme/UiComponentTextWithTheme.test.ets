@@ -57,6 +57,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0070
      * @tc.name   : Text component, set the selection to select a blank row
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -81,6 +82,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0080
      * @tc.name   : Text component, set the selection to select a blank row
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -105,6 +107,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0030
      * @tc.name   : Set the global theme theme and the local theme WithTheme
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,6 +132,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0010
      * @tc.name   : Set the global theme
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -147,6 +151,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0020
      * @tc.name   : Set the global theme to null
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -165,6 +170,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0040
      * @tc.name   : Set local light and dark modes, switch system light and dark modes
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +189,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0060
      * @tc.name   : Without setting parameters for WithTheme
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -208,6 +215,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0050
      * @tc.name   : WithTheme is set to null or undefined
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -233,6 +241,7 @@ export default function UiComponentTextWithTheme() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_WITHTHEME_0050
      * @tc.name   : WithTheme is set to null or undefined
+     * @tc.desc   : Verify text withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

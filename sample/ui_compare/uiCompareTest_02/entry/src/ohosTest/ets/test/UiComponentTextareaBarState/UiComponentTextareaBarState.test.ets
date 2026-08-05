@@ -57,6 +57,7 @@ export default function UiComponentTextareaBarState() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0020
      * @tc.name   : TextArea component, multiple lines of text, long mouse press on the blank space of the scrollbar
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,6 +85,7 @@ export default function UiComponentTextareaBarState() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0030
      * @tc.name   : TextArea component, multi-line text, set not to display scrollbar, mouse click scrollbar area
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +113,7 @@ export default function UiComponentTextareaBarState() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0010
      * @tc.name   : TextArea component, multiple lines of text, mouse click scrollbar blank space
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -143,6 +146,7 @@ export default function UiComponentTextareaBarState() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTAREA_BARSTATE_0040
      * @tc.name   : TextArea component, multi-line text, the input box position is lower, which can trigger input method avoidance
+     * @tc.desc   : Verify textarea barstate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
