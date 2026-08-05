@@ -24,6 +24,7 @@ export default function UiComponentDisplayNative0070() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DISPLAY_NATIVE_0070
      * @tc.name   : PatternLock native trace marker without tdd binary
+     * @tc.desc   : Verify the interface under test: PatternLock native memory tracing without device TDD binary.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

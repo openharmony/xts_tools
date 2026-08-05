@@ -23,6 +23,7 @@ export default function UiComponentMediaTextClockOutliers0071() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTCLOCK_OUTLIERS_0071
      * @tc.name   : TextClock textShadow null undefined empty fallback marker
+     * @tc.desc   : Verify TextClock outlier parameters interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

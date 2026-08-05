@@ -23,6 +23,7 @@ export default function UiComponentMediaCalendarPickerDisabledDate0020() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020
      * @tc.name   : CalendarPicker disabledDateRange null keeps today selectable
+     * @tc.desc   : Verify the interface under test: CalendarPicker-disabledDateRange-null.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

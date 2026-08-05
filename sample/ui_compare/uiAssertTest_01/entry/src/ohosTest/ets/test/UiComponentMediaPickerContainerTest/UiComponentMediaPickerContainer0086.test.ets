@@ -23,6 +23,7 @@ export default function UiComponentMediaPickerContainer0086() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0086
      * @tc.name   : Picker container DFX dump readiness marker
+     * @tc.desc   : Verify the interface under test: Picker DFXverify.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
