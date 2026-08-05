@@ -39,7 +39,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0090
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0120
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0230
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0260
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0370
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0400
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0580
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0610
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0720
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +228,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0750
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +249,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0860
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,7 +270,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0890
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +291,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1070
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,7 +312,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1100
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +333,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1210
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,7 +354,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1240
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -359,7 +375,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1350
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,7 +396,8 @@ export default function UiComponentButtonTextpickerOnscrollstopTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1380
+     * @tc.name   : Button TextPicker onscrollstop
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function ActionGesturePangesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_PANGESTURE_BACKWARDANALYSIS_0040
      * @tc.name   : PanGesture复杂场景
+     * @tc.desc   : Verify action gesture pangesture backwardanalysis interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -49,6 +50,7 @@ export default function ActionGesturePangesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0850
      * @tc.name   : PanGesture参数校验
+     * @tc.desc   : Verify action gesture pangesture intureface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,6 +84,7 @@ export default function ActionGesturePangesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_PANGESTURE_INTUREFACE_0870
      * @tc.name   : PanGesture组件下树
+     * @tc.desc   : Verify action gesture pangesture intureface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

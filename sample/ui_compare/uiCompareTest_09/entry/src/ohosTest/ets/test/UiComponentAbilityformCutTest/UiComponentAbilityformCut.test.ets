@@ -36,6 +36,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0030
      * @tc.name   : testSegmentButtonMaxFontScale1
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +80,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0040
      * @tc.name   : testSegmentButtonMaxFontScale2
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,6 +118,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0080
      * @tc.name   : testActionSheetBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,6 +161,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0090
      * @tc.name   : testChipGroupBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +205,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0100
      * @tc.name   : testChipGroupAging
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -232,6 +237,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0110
      * @tc.name   : testChipBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +270,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0190
      * @tc.name   : testChipAging
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -288,6 +295,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0200
      * @tc.name   : testSelectFont
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,6 +337,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0210
      * @tc.name   : testSelectDivider
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -370,6 +379,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0240
      * @tc.name   : testSelectOptionFont
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -411,6 +421,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0260
      * @tc.name   : testSelectRTL
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -445,6 +456,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0330
      * @tc.name   : testPopupBasic
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -483,6 +495,7 @@ export default function UiComponentAbilityformCutTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ABILITYFORM_CUT_0340
      * @tc.name   : testPopupDirection
+     * @tc.desc   : Verify abilityform cut interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -42,7 +42,8 @@ export default function ProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0010
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -58,7 +59,8 @@ export default function ProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0011
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -74,7 +76,8 @@ export default function ProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0012
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -91,7 +94,8 @@ export default function ProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0013
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -108,7 +112,8 @@ export default function ProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0014
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

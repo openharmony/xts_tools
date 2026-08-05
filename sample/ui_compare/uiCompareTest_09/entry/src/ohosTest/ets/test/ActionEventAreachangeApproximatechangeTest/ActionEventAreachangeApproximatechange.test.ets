@@ -30,6 +30,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0020
      * @tc.name   : expectedUpdateInterval = -100
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0040
      * @tc.name   : expectedUpdateInterval = undefined
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0050
      * @tc.name   : expectedUpdateInterval = null
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +120,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0060
      * @tc.name   : expectedUpdateInterval 不设置
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,6 +149,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0070
      * @tc.name   : expectedUpdateInterval = 500
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,6 +178,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0080
      * @tc.name   : expectedUpdateInterval = 1000
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +207,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0090
      * @tc.name   : expectedUpdateInterval = 100
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -229,6 +236,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0100
      * @tc.name   : expectedUpdateInterval = 0
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,6 +265,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0110
      * @tc.name   : expectedUpdateInterval = 1
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,6 +294,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0120
      * @tc.name   : event传入undefined
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +323,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0130
      * @tc.name   : 横竖屏切换
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,6 +356,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0140
      * @tc.name   : 息屏测试
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -374,6 +386,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0150
      * @tc.name   : 退后台测试
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -403,6 +416,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0160
      * @tc.name   : 组件下树/上树
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -445,6 +459,7 @@ export default function ActionEventAreachangeApproximatechangeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0170
      * @tc.name   : 设置通用属性为不可见
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

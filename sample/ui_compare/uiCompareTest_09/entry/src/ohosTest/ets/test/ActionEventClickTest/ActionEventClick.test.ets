@@ -30,6 +30,7 @@ export default function ActionEventClickTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0090
      * @tc.name   : 两根手指分别按在不同组件内
+     * @tc.desc   : Verify action event commonevent click interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function ActionEventClickTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_CLICK_0160
      * @tc.name   : 4x4月视图卡片鼠标点击前后切换月份
+     * @tc.desc   : Verify action event commonevent click interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

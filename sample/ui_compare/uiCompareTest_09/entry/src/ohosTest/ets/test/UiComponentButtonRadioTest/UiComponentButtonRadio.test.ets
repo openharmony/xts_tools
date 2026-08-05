@@ -36,6 +36,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0020
      * @tc.name   : Radio为勾选类型选中，hover态
+     * @tc.desc   : Verify button radio checkmark interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,6 +58,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0040
      * @tc.name   : Radio为勾选类型选中，focus态
+     * @tc.desc   : Verify button radio checkmark interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +80,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0070
      * @tc.name   : Radio为勾选类型未选中，hover态
+     * @tc.desc   : Verify button radio checkmark interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +107,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CHECKMARK_0090
      * @tc.name   : Radio为勾选类型未选中，focus态
+     * @tc.desc   : Verify button radio checkmark interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,6 +129,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_CUSTONMIZING_0190
      * @tc.name   : 在预览器上查看Radio自定义样式
+     * @tc.desc   : Verify button radio custonmizing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -152,6 +157,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LAYOUT_0010
      * @tc.name   : 通用属性内边距设置
+     * @tc.desc   : Verify button radio layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,6 +182,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_016
      * @tc.name   : indicatorBuilder值设置为image，设置padding为10
+     * @tc.desc   : Verify button radio lconic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,6 +209,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_017
      * @tc.name   : indicatorBuilder值设置为image，设置margin为10
+     * @tc.desc   : Verify button radio lconic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,6 +236,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_LCONIC_023
      * @tc.name   : indicatorBuilder值设置为DOT，indicatorColor设为Pink
+     * @tc.desc   : Verify button radio lconic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -254,6 +263,7 @@ export default function UiComponentButtonRadioTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_RADIO_Rtl_0010
      * @tc.name   : 简体中文时，设置direction为Rtl
+     * @tc.desc   : Verify button radio rtl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

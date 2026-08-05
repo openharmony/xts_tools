@@ -43,7 +43,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0020
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0020
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -64,7 +65,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0030
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0030
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -85,7 +87,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0120
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0120
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -106,7 +109,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0060
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0060
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -127,7 +131,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0040
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0040
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -148,7 +153,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0110
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0110
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -169,7 +175,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0100
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0100
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -190,7 +197,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0010
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0010
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -211,7 +219,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0080
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0080
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -233,7 +242,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0050
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0050
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -255,7 +265,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0090
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0090
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -276,7 +287,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0070
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0070
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -297,7 +309,8 @@ export default function StatusmanagerComponentreuse() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0150
-     * @tc.name   : SUB_ACE_STATUSMANAGER_COMPONENTREUSE_0150
+     * @tc.name   : Statusmanager componentreuse
+     * @tc.desc   : Verify statusmanager componentreuse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

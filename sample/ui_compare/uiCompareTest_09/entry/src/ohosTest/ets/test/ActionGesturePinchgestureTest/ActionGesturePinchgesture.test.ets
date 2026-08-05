@@ -30,6 +30,7 @@ export default function ActionGesturePinchgesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_PINCHGESRURE_INTERFACE_0650
      * @tc.name   : 图库大图捏合
+     * @tc.desc   : Verify action gesture pinchgesrure interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

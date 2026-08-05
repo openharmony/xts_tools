@@ -39,7 +39,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING_0010
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -55,7 +56,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0020
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,7 +73,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0030
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +90,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0040
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,7 +107,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0050
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +124,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0060
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,7 +141,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0070
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,7 +158,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0080
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +175,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0090
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,7 +192,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0100
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +209,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0110
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,7 +226,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0120
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,7 +243,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0130
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,7 +260,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0140
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,7 +277,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0150
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +294,8 @@ export default function RoutingComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROTING__0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROTING__0160
+     * @tc.name   : Roting
+     * @tc.desc   : Verify roting interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

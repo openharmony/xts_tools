@@ -41,7 +41,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0060
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0060
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +63,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0090
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0090
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +88,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0070
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0070
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -110,7 +113,8 @@ export default function Statusmanagerv2Freezing() {
 
       /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0110
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -134,7 +138,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0020
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,7 +163,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0080
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +188,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0030
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -206,7 +213,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0160
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,7 +230,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0050
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,7 +247,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0100
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -262,7 +272,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0150
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,7 +297,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0140
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -310,7 +322,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0130
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -334,7 +347,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0010
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,7 +372,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0170
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -382,7 +397,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0210
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -406,7 +422,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0200
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -430,7 +447,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0190
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0190
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -454,7 +472,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0180
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0180
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -478,7 +497,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0230
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0230
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,7 +531,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0220
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0220
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -527,7 +548,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0240
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0240
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -641,7 +663,8 @@ export default function Statusmanagerv2Freezing() {
     //
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0040
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0040
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -656,7 +679,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0320
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0320
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -671,7 +695,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_FREEZING_0330
+     * @tc.name   : Statusmanagerv2 freezing
+     * @tc.desc   : Verify statusmanagerv2 freezing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -686,7 +711,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
-     * @tc.name   : SUB_ACE_STATUSMANAGER_APPSTORAGEV2_PERSISTANCEV2MORE_0020
+     * @tc.name   : Statusmanager appstoragev2 persistancev2more
+     * @tc.desc   : Verify statusmanager appstoragev2 persistancev2more interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -700,7 +726,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0090
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -714,7 +741,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0050
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -729,7 +757,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0010
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -743,7 +772,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0060
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -757,7 +787,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0100
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -771,7 +802,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0110
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -785,7 +817,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0150
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -800,7 +833,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0120
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -814,7 +848,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0200
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -828,7 +863,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0210
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -842,7 +878,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0220
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -856,7 +893,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0230
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0230
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -870,7 +908,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0240
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0240
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -884,7 +923,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0250
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0250
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -898,7 +938,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0260
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0260
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -912,7 +953,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0270
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0270
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -926,7 +968,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0280
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0280
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -940,7 +983,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0310
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0310
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -954,7 +998,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0300
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0300
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -968,7 +1013,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0320
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0320
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -982,7 +1028,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0330
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0330
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -996,7 +1043,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0340
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0340
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1010,7 +1058,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0350
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0350
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1024,7 +1073,8 @@ export default function Statusmanagerv2Freezing() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGER_RUSABLEV2_0360
-     * @tc.name   : SUB_ACE_STATUSMANAGER_RUSABLEV2_0360
+     * @tc.name   : Statusmanager rusablev2
+     * @tc.desc   : Verify statusmanager rusablev2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

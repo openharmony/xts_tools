@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch4Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0400
      * @tc.name   : Grid多选双指 - 按压时WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,6 +68,7 @@ export default function ActionBlockageDragBatch4Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0410
      * @tc.name   : Grid多选双指 - 按压时READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +106,7 @@ export default function ActionBlockageDragBatch4Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0420
      * @tc.name   : Grid多选双指 - 拖拽中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,6 +144,7 @@ export default function ActionBlockageDragBatch4Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0430
      * @tc.name   : Grid多选双指 - 拖拽中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -178,6 +182,7 @@ export default function ActionBlockageDragBatch4Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0440
      * @tc.name   : Grid多选双指 - 拖拽中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

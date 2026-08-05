@@ -43,7 +43,8 @@ export default function CounterMirrorImage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_COUNTER-MIRROR-IMAGE_0030
-     * @tc.name   : SUB_ACE_UI_ARKUI_COUNTER-MIRROR-IMAGE_0030
+     * @tc.name   : ArkUI counter-mirror-image
+     * @tc.desc   : Verify ArkUI counter-mirror-image interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -66,7 +67,8 @@ export default function CounterMirrorImage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_COUNTER-MIRROR-IMAGE_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_COUNTER-MIRROR-IMAGE_0070
+     * @tc.name   : ArkUI counter-mirror-image
+     * @tc.desc   : Verify ArkUI counter-mirror-image interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -95,7 +97,8 @@ export default function CounterMirrorImage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0010
-     * @tc.name   : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0010
+     * @tc.name   : ArkUI badge-mirror-image
+     * @tc.desc   : Verify ArkUI badge-mirror-image interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -119,7 +122,8 @@ export default function CounterMirrorImage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0050
+     * @tc.name   : ArkUI badge-mirror-image
+     * @tc.desc   : Verify ArkUI badge-mirror-image interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -142,7 +146,8 @@ export default function CounterMirrorImage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_BADGE-MIRROR-IMAGE_0090
+     * @tc.name   : ArkUI badge-mirror-image
+     * @tc.desc   : Verify ArkUI badge-mirror-image interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

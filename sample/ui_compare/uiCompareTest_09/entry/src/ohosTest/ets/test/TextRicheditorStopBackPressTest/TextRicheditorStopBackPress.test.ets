@@ -41,7 +41,8 @@ export default function TextRicheditorStopBackPress() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00003
+     * @tc.name   : Text richeditor stopbackpress
+     * @tc.desc   : Verify text richeditor stopbackpress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -67,7 +68,8 @@ export default function TextRicheditorStopBackPress() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00001
+     * @tc.name   : Text richeditor stopbackpress
+     * @tc.desc   : Verify text richeditor stopbackpress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -92,7 +94,8 @@ export default function TextRicheditorStopBackPress() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_StopBackPress_00002
+     * @tc.name   : Text richeditor stopbackpress
+     * @tc.desc   : Verify text richeditor stopbackpress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

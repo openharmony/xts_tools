@@ -46,7 +46,8 @@ export default function MediaFramenode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0021
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -62,7 +63,8 @@ export default function MediaFramenode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0010
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -78,7 +80,8 @@ export default function MediaFramenode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0027
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0027
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -94,7 +97,8 @@ export default function MediaFramenode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0025
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0025
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -110,7 +114,8 @@ export default function MediaFramenode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0023
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0023
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -126,7 +131,8 @@ export default function MediaFramenode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_FRAMENODE_0018
+     * @tc.name   : Media framenode
+     * @tc.desc   : Verify media framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

@@ -30,6 +30,7 @@ export default function ActionEventDragMultiselectdragEffectTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0540
      * @tc.name   : 分屏模式下多选拖拽
+     * @tc.desc   : Verify action event commonevent drag multiselectdrag-effect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,6 +61,7 @@ export default function ActionEventDragMultiselectdragEffectTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0550
      * @tc.name   : 长按不松手连续2次返回
+     * @tc.desc   : Verify action event commonevent drag multiselectdrag-effect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function ActionEventDragMultiselectdragEffectTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0560
      * @tc.name   : 长按不松手连续3次返回后再次拖拽
+     * @tc.desc   : Verify action event commonevent drag multiselectdrag-effect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -124,6 +127,7 @@ export default function ActionEventDragMultiselectdragEffectTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTISELECTDRAG-EFFECT_0580
      * @tc.name   : 横屏模式多选拖拽
+     * @tc.desc   : Verify action event commonevent drag multiselectdrag-effect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

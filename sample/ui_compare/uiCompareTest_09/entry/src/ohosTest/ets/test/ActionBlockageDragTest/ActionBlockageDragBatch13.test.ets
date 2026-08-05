@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch13Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1070
      * @tc.name   : 父子组件 - 父组件阻塞
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function ActionBlockageDragBatch13Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1080
      * @tc.name   : 父子组件 - 子组件阻塞
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,6 +102,7 @@ export default function ActionBlockageDragBatch13Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1090
      * @tc.name   : 父子组件 - 父子都阻塞
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,6 +138,7 @@ export default function ActionBlockageDragBatch13Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1100
      * @tc.name   : 不调用阻塞接口 - 正常拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

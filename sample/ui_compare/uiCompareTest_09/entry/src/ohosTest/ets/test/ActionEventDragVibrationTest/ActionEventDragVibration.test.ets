@@ -30,6 +30,7 @@ export default function ActionEventDragVibrationTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0450
      * @tc.name   : 压力测试文本连续长按50次
+     * @tc.desc   : Verify action event commonevent drag vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,6 +61,7 @@ export default function ActionEventDragVibrationTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_VIBRATION_0460
      * @tc.name   : 压力测试菜单连续拖拽50次
+     * @tc.desc   : Verify action event commonevent drag vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch9Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0800
      * @tc.name   : Grid单选鼠标 - 起拖时WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionBlockageDragBatch9Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0810
      * @tc.name   : Grid单选鼠标 - 起拖时READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function ActionBlockageDragBatch9Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0820
      * @tc.name   : Grid单选鼠标 - 移动中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +126,7 @@ export default function ActionBlockageDragBatch9Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0830
      * @tc.name   : Grid单选鼠标 - 移动中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,6 +158,7 @@ export default function ActionBlockageDragBatch9Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0840
      * @tc.name   : Grid单选鼠标 - 移动中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

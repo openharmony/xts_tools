@@ -43,7 +43,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0080
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0080
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -63,7 +64,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0030
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0030
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -83,7 +85,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0040
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0040
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -103,7 +106,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0020
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0020
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -123,7 +127,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0120
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0120
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -143,7 +148,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0070
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0070
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -163,7 +169,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0060
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0060
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -183,7 +190,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0160
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0160
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -203,7 +211,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0100
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0100
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -223,7 +232,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0150
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0150
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -243,7 +253,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0110
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0110
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -263,7 +274,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0140
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0140
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -283,7 +295,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0180
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0180
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -303,7 +316,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0200
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0200
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -324,7 +338,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0190
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0190
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -345,7 +360,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0210
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0210
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -366,7 +382,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0220
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0220
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -398,7 +415,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0230
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0230
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -417,7 +435,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0260
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0260
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -437,7 +456,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0270
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -462,7 +482,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0280
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0280
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -483,7 +504,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0240
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -508,7 +530,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0250
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -533,7 +556,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0290
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -553,7 +577,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0300
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -574,7 +599,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0310
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -603,7 +629,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0320
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -624,7 +651,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0330
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -653,7 +681,8 @@ export default function Statusmanagerv2Optimize() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0340
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_OPTIMIZE_0340
+     * @tc.name   : Statusmanagerv2 optimize
+     * @tc.desc   : Verify statusmanagerv2 optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

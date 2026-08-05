@@ -42,7 +42,8 @@ export default function TextRichtexteditorMenuReinforcing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0001
+     * @tc.name   : Text richeditor menu reinforcing
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -59,7 +60,8 @@ export default function TextRichtexteditorMenuReinforcing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002
+     * @tc.name   : Text richeditor menu reinforcing
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -79,7 +81,8 @@ export default function TextRichtexteditorMenuReinforcing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0002_B
+     * @tc.name   : Text richeditor menu reinforcing b
+     * @tc.desc   : Verify text richeditor menu reinforcing b interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

@@ -30,6 +30,7 @@ export default function ActionEventDragWayTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_WAY-0050
      * @tc.name   : 拖拽启动-长按+拖出窗口
+     * @tc.desc   : Verify action event commonevent drag way-0050 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

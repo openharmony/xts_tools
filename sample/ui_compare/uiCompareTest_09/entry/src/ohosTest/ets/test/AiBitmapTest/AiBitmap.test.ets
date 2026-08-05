@@ -30,6 +30,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0010
      * @tc.name   : 页面中无Image加载的位图
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -49,6 +50,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0020
      * @tc.name   : 页面中有Image加载的位图及矢量图
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +70,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0030
      * @tc.name   : 页面中有Image加载的位图(隐藏)
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0040
      * @tc.name   : 页面中有Image加载的位图(不上树)
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -121,6 +125,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0050
      * @tc.name   : 页面中有Image加载的位图(图片很多)
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,6 +145,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0060
      * @tc.name   : 页面中有Image加载的位图，频繁进行抠图
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -160,6 +166,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0070
      * @tc.name   : XComponent页面自绘制内容，可进行抠图
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,6 +186,7 @@ export default function AiBitmap() {
     /*
      * @tc.number : SUB_ACE_AI_BITMAP_0080
      * @tc.name   : WebView页面自绘制内容，可进行抠图
+     * @tc.desc   : Verify ai bitmap interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

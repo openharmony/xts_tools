@@ -30,6 +30,7 @@ export default function ActionGestureSwipegesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0410
      * @tc.name   : 验证滑动空白区域list响应滑动，滑动红色区域list不滚动
+     * @tc.desc   : Verify action gesture swipegesture interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,6 +67,7 @@ export default function ActionGestureSwipegesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_SWIPEGESTURE_INTERFACE_0430
      * @tc.name   : 历史点坐标验证
+     * @tc.desc   : Verify action gesture swipegesture interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

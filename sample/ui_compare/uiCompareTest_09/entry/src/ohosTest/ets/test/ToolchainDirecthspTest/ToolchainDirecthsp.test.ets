@@ -41,7 +41,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0010
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0010
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,7 +65,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0020
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0020
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +89,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0030
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0030
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -110,7 +113,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0040
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0040
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,7 +137,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0050
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0050
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -156,7 +161,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0060
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0060
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +185,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0070
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0070
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,7 +209,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0080
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0080
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,7 +233,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0090
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0090
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -248,7 +257,8 @@ export default function ToolchainDirecthsp() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_DIRECTHSP_0100
-     * @tc.name   : SUB_ACE_TOOLCHAIN_DIRECTHSP_0100
+     * @tc.name   : Toolchain directhsp
+     * @tc.desc   : Verify toolchain directhsp interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -39,7 +39,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0010
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0040
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0160
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0210
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0240
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0310
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0460
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0600
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function UiComponentButtonTextpickerMirrorimageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_MIRRORIMAGE_0610
+     * @tc.name   : Button TextPicker mirrorimage
+     * @tc.desc   : Verify button TextPicker mirrorimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

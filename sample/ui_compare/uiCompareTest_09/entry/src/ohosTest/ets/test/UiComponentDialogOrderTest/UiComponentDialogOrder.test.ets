@@ -35,6 +35,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0010
      * @tc.name   : testDialogOrderShowDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0020
      * @tc.name   : testDialogOrderCustomController100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +109,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0040
      * @tc.name   : testDialogOrderAlertDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,6 +141,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0050
      * @tc.name   : testDialogOrderOpenCustomDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +173,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0060
      * @tc.name   : testDialogOrderActionSheetNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +206,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0090
      * @tc.name   : testDialogOrderShowDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -232,6 +238,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0120
      * @tc.name   : testDialogOrderPresentCustomDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,6 +270,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0210
      * @tc.name   : testDialogOrderAlertDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,6 +302,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0280
      * @tc.name   : testDialogOrderShowDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -325,6 +334,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0350
      * @tc.name   : testDialogOrderAlertDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -356,6 +366,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0030
      * @tc.name   : testDialogOrderOpenWithController100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -378,6 +389,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0070
      * @tc.name   : testDialogOrderOpenCustomDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -400,6 +412,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0080
      * @tc.name   : testDialogOrderCustomControllerNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -422,6 +435,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0100
      * @tc.name   : testDialogOrderAlertDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -444,6 +458,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0110
      * @tc.name   : testDialogOrderOpenWithControllerUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -466,6 +481,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0130
      * @tc.name   : testDialogOrderPresentCustomDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -488,6 +504,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0140
      * @tc.name   : testDialogOrderCustomController0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -510,6 +527,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0150
      * @tc.name   : testDialogOrderOpenWithControllerNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -532,6 +550,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0160
      * @tc.name   : testDialogOrderPresentCustomDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -554,6 +573,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0170
      * @tc.name   : testDialogOrderOpenCustomDialogNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -576,6 +596,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0180
      * @tc.name   : testDialogOrderCustomControllerUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -598,6 +619,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0190
      * @tc.name   : testDialogOrderActionSheetUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -620,6 +642,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0200
      * @tc.name   : testDialogOrderOpenCustomDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -642,6 +665,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0220
      * @tc.name   : testDialogOrderShowDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -664,6 +688,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0230
      * @tc.name   : testDialogOrderShowDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -686,6 +711,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0240
      * @tc.name   : testDialogOrderOpenWithControllerNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -708,6 +734,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0250
      * @tc.name   : testDialogOrderPresentCustomDialogUndefined
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -730,6 +757,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0260
      * @tc.name   : testDialogOrderPresentCustomDialog0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -752,6 +780,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0270
      * @tc.name   : testDialogOrderActionSheet0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -774,6 +803,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0290
      * @tc.name   : testDialogOrderAlertDialogNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -796,6 +826,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0300
      * @tc.name   : testDialogOrderOpenWithController0p1111
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -818,6 +849,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0310
      * @tc.name   : testDialogOrderOpenCustomDialog100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -840,6 +872,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0320
      * @tc.name   : testDialogOrderCustomControllerNeg100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -862,6 +895,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0330
      * @tc.name   : testDialogOrderActionSheet100001
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -884,6 +918,7 @@ export default function UiComponentDialogOrderTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DIALOG_ORDER_0340
      * @tc.name   : testDialogOrderActionSheetNeg5
+     * @tc.desc   : Verify button dialog order interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

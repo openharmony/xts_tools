@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch6Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0500
      * @tc.name   : TextInput单指 - 按压时WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionBlockageDragBatch6Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0510
      * @tc.name   : TextInput单指 - 按压时READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function ActionBlockageDragBatch6Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0520
      * @tc.name   : TextInput单指 - 拖拽中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +126,7 @@ export default function ActionBlockageDragBatch6Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0530
      * @tc.name   : TextInput单指 - 拖拽中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,6 +158,7 @@ export default function ActionBlockageDragBatch6Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0540
      * @tc.name   : TextInput单指 - 拖拽中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

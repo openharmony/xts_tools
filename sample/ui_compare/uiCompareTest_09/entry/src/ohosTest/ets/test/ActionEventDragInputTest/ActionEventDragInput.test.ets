@@ -30,6 +30,7 @@ export default function ActionEventDragInputTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INPUT_0270
      * @tc.name   : 输入组件拖拽跟手图显示
+     * @tc.desc   : Verify action event commonevent drag input interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

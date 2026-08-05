@@ -41,7 +41,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0011
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -57,7 +58,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0010
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -73,7 +75,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0010
+     * @tc.name   : Media TextPicker onenterselectedarea mtbf
+     * @tc.desc   : Verify media TextPicker onenterselectedarea mtbf interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -95,7 +98,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_MTBF_0020
+     * @tc.name   : Media TextPicker onenterselectedarea mtbf
+     * @tc.desc   : Verify media TextPicker onenterselectedarea mtbf interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -118,7 +122,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0010
+     * @tc.name   : Media TextPicker onenterselectedarea
+     * @tc.desc   : Verify media TextPicker onenterselectedarea interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -140,7 +145,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0011
+     * @tc.name   : Media TextPicker onenterselectedarea
+     * @tc.desc   : Verify media TextPicker onenterselectedarea interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -162,7 +168,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0010
+     * @tc.name   : Media TimePicker onenterselectedarea
+     * @tc.desc   : Verify media TimePicker onenterselectedarea interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -184,7 +191,8 @@ export default function MediaTextpickerDisabletsa() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ONENTERSELECTEDAREA_0011
+     * @tc.name   : Media TimePicker onenterselectedarea
+     * @tc.desc   : Verify media TimePicker onenterselectedarea interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

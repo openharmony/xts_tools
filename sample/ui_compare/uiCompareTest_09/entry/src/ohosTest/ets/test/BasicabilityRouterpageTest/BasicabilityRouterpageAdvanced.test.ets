@@ -30,6 +30,7 @@ export default function BasicabilityRouterpageAdvanced() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_029
      * @tc.name   : 页面间传参更新及获取参数
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function BasicabilityRouterpageAdvanced() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_031
      * @tc.name   : 应用启动首页，url路径输入有误
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

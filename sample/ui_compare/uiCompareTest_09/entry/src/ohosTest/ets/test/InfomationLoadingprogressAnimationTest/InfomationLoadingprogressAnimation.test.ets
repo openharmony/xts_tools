@@ -42,7 +42,8 @@ export default function InfomationLoadingprogressAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_LOADINGPROGRESS_ANIMATION_0020
+     * @tc.name   : Information LoadingProgress animation
+     * @tc.desc   : Verify information LoadingProgress animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

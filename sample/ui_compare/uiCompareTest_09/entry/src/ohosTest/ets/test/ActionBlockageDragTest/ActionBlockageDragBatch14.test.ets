@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch14Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1110
      * @tc.name   : 手指长按拖拽*50次
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionBlockageDragBatch14Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1120
      * @tc.name   : 手指快速拖拽*50次
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function ActionBlockageDragBatch14Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1130
      * @tc.name   : 鼠标拖拽*50次
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -31,6 +31,7 @@ export default function NavigationDFXEnhanced() {
     /*
      * @tc.number : NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510
      * @tc.name   : NavigationRouterTestLevel3_SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DUMPDFX_0510
+     * @tc.desc   : Verify navigationroutertestlevel3 sub ace ui component nav navigation dumpdfx interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1000
      * @tc.name   : 长按过程中息屏 - 取消拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1010
      * @tc.name   : 长按过程中松手 - 取消拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1020
      * @tc.name   : 长按中另一手指点击外部 - 取消拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,6 +130,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1030
      * @tc.name   : 等待5S内息屏 - 取消拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,6 +162,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1040
      * @tc.name   : 等待5S内松手 - 取消拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -189,6 +194,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1050
      * @tc.name   : 等待5S内点击外部 - 拖拽不取消
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -224,6 +230,7 @@ export default function ActionBlockageDragBatch12Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_1060
      * @tc.name   : 等待5S内松开鼠标 - 取消拖拽
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function ActionBlockageDragBatch8Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0620
      * @tc.name   : Image+Menu鼠标 - 移动中未超5S WAITING
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionBlockageDragBatch8Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0630
      * @tc.name   : Image+Menu鼠标 - 移动中未超5S READY
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function ActionBlockageDragBatch8Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0640
      * @tc.name   : Image+Menu鼠标 - 移动中超过5S
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

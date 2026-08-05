@@ -41,7 +41,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0080
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0080
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,7 +64,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0210
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0210
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,7 +86,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0100
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0100
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,7 +108,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0110
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0110
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,7 +130,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0120
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0120
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +152,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0190
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0190
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +174,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0250
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0250
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -189,7 +196,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0180
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0180
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,7 +218,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0200
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0200
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,7 +240,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0170
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0170
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -252,7 +262,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0220
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0220
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -273,7 +284,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0260
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0260
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +306,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0060
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0060
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,7 +328,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0270
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0270
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -336,7 +350,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0240
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0240
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -357,7 +372,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0280
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0280
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -378,7 +394,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0320
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0320
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,7 +416,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0300
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0300
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,7 +438,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0350
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0350
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -441,7 +460,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0290
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0290
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -462,7 +482,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0310
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0310
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -483,7 +504,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0340
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0340
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -504,7 +526,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0390
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0390
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -525,7 +548,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0360
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0360
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -546,7 +570,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0420
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0420
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -567,7 +592,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0370
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0370
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -588,7 +614,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0410
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0410
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -609,7 +636,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0380
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0380
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -630,7 +658,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0430
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0430
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -651,7 +680,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0440
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0440
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -672,7 +702,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0550
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0550
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -693,7 +724,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0450
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0450
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -709,7 +741,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0330
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0330
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -730,7 +763,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0560
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0560
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -751,7 +785,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0460
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0460
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -767,7 +802,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0090
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0090
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -783,7 +819,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0490
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0490
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -799,7 +836,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0050
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0050
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -815,7 +853,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0470
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0470
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -831,7 +870,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0010
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0010
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -847,7 +887,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0480
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0480
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -863,7 +904,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0160
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0160
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -879,7 +921,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0500
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0500
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -895,7 +938,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0070
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0070
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -911,7 +955,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0030
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0030
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -927,7 +972,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0140
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0140
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -943,7 +989,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0020
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0020
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -959,7 +1006,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0150
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0150
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -975,7 +1023,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0130
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0130
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -991,7 +1040,8 @@ export default function SnapshotGetsync() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_GETSYNC_0040
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_GETSYNC_0040
+     * @tc.name   : Snapshot getsync
+     * @tc.desc   : Verify snapshot getsync interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

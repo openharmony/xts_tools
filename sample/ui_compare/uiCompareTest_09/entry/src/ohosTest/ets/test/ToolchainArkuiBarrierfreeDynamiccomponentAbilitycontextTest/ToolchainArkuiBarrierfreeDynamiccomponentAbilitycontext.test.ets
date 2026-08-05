@@ -39,7 +39,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0001
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0001
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0002
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0002
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0003
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0003
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0004
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0004
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0005
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0005
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0006
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0006
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0007
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0007
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0008
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0008
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function ToolchainArkuiBarrierfreeDynamiccomponentAbilitycontextT
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0009
-     * @tc.name   : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ADYNAMICCOMPONENT_ABILITYCONTEXT_0009
+     * @tc.name   : Barrierfree adynamiccomponent abilitycontext
+     * @tc.desc   : Verify barrierfree adynamiccomponent abilitycontext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

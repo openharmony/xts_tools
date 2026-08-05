@@ -30,7 +30,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0010
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0010
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,7 +65,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0020
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0020
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,7 +100,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0030
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0030
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +135,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0040
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0040
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +170,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0050
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0050
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,7 +205,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0060
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0060
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -234,7 +240,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0070
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0070
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -268,7 +275,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0080
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0080
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -302,7 +310,8 @@ export default function ActionBlockageDrag() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0090
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0090
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

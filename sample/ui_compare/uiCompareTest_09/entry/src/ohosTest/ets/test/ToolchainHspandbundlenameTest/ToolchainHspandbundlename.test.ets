@@ -33,6 +33,7 @@ export default function ToolchainHspandbundlename() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0010
      * @tc.name   : 在entry中，引用HSP中的页面
+     * @tc.desc   : Verify toolchain hspandbundlename interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -53,6 +54,7 @@ export default function ToolchainHspandbundlename() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0020
      * @tc.name   : 在entry中，引用HSP中的页面，但integrateHsp为false
+     * @tc.desc   : Verify toolchain hspandbundlename interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,6 +75,7 @@ export default function ToolchainHspandbundlename() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0030
      * @tc.name   : 在entry中，引用HSP中的页面，但integrateHsp为空
+     * @tc.desc   : Verify toolchain hspandbundlename interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +96,7 @@ export default function ToolchainHspandbundlename() {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_HSPANDBUNDLENAME_0040
      * @tc.name   : 在entry中，路由跳转到HSP中的页面
+     * @tc.desc   : Verify toolchain hspandbundlename interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -42,7 +42,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0010
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +63,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0020
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,7 +84,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0030
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,7 +105,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0040
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,7 +126,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0050
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,7 +147,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0060
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,7 +168,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0070
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +189,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0080
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,7 +210,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0090
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,7 +231,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0100
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -242,7 +252,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0110
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -262,7 +273,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0120
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -282,7 +294,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0130
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -302,7 +315,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0140
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -322,7 +336,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0150
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -342,7 +357,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0160
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -362,7 +378,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0170
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -382,7 +399,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0180
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -402,7 +420,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0190
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -422,7 +441,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0200
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -442,7 +462,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0210
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -462,7 +483,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0220
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -482,7 +504,8 @@ export default function RoutingNamedRoutesInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230
-     * @tc.name   : SUB_ACE_Routing_NAMEDROUTES_INTERFACE_0230
+     * @tc.name   : Routing namedroutes interface
+     * @tc.desc   : Verify routing namedroutes interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

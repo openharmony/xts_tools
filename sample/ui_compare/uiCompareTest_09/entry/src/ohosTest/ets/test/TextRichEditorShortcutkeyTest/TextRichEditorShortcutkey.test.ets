@@ -41,7 +41,8 @@ export default function TextRichEditorShortcutkey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0005
+     * @tc.name   : Text richeditor shortcutkey
+     * @tc.desc   : Verify text richeditor shortcutkey interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -65,7 +66,8 @@ export default function TextRichEditorShortcutkey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0004
+     * @tc.name   : Text richeditor shortcutkey
+     * @tc.desc   : Verify text richeditor shortcutkey interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -89,7 +91,8 @@ export default function TextRichEditorShortcutkey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0003
+     * @tc.name   : Text richeditor shortcutkey
+     * @tc.desc   : Verify text richeditor shortcutkey interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -113,7 +116,8 @@ export default function TextRichEditorShortcutkey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0001
+     * @tc.name   : Text richeditor shortcutkey
+     * @tc.desc   : Verify text richeditor shortcutkey interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,7 +141,8 @@ export default function TextRichEditorShortcutkey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0002
+     * @tc.name   : Text richeditor shortcutkey
+     * @tc.desc   : Verify text richeditor shortcutkey interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -161,7 +166,8 @@ export default function TextRichEditorShortcutkey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SHORTCUTKEY_0006
+     * @tc.name   : Text richeditor shortcutkey
+     * @tc.desc   : Verify text richeditor shortcutkey interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

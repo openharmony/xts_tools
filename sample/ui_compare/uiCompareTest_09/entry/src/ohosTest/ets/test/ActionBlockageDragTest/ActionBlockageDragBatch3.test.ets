@@ -30,7 +30,8 @@ export default function ActionBlockageDragBatch3() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0350
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0350
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -55,7 +56,8 @@ export default function ActionBlockageDragBatch3() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0360
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0360
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +82,8 @@ export default function ActionBlockageDragBatch3() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0370
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0370
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,7 +108,8 @@ export default function ActionBlockageDragBatch3() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0380
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0380
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +134,8 @@ export default function ActionBlockageDragBatch3() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_BLOCKAGE_DRAG_0390
-     * @tc.name   : SUB_ACE_ACTION_BLOCKAGE_DRAG_0390
+     * @tc.name   : Action blockage drag
+     * @tc.desc   : Verify action blockage drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

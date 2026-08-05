@@ -41,7 +41,8 @@ export default function TextRicheditorSearch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0001
+     * @tc.name   : Text richeditor search
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

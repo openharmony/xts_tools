@@ -30,6 +30,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_001
      * @tc.name   : 目标页面共享hsp分包已安装，直接跳转
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -49,6 +50,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_002
      * @tc.name   : 目标页面共享hsp分包未安装，执行免安装后跳转
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +70,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_003
      * @tc.name   : 目标页面hap分包已安装，直接跳转
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,6 +90,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_004
      * @tc.name   : 目标页面hap分包未安装，执行免安装后跳转
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -106,6 +110,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_005
      * @tc.name   : 跳转页面输入的uri错误或不存在，返回错误码100002
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,6 +135,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_006
      * @tc.name   : 跳转页面压入页面数超过32，返回错误码100003
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,6 +165,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_007
      * @tc.name   : 替换页面输入的uri错误或不存在，返回错误码200002
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +190,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_010
      * @tc.name   : 性能测试，调用router实现免安装路由，跳转不卡顿、不掉帧
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,6 +215,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTER_SR000HV0U4_011
      * @tc.name   : 内存测试，调用router实现多个免安装路由，无内存泄漏
+     * @tc.desc   : Verify basicability router sr000hv0u4 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +240,7 @@ export default function BasicabilityRouterInstall() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_012
      * @tc.name   : 循环跳转返回界面，查询内存是否溢出
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

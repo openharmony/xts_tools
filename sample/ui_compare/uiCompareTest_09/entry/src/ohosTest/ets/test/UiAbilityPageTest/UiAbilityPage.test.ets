@@ -39,7 +39,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0010
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0010
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0020
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0020
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0030
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0030
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0040
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0040
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0050
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0050
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0060
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0060
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0070
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0070
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0080
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0080
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0090
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0090
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +228,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0110
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0110
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +249,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0120
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0120
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,7 +270,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0130
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0130
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +291,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0140
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0140
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +310,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0150
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0150
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,7 +331,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0170
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0170
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -337,7 +352,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0180
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0180
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -357,7 +373,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0190
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0190
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -377,7 +394,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0200
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0200
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,7 +415,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0210
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0210
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,7 +436,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0220
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0220
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -437,7 +457,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0230
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0230
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -457,7 +478,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0240
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0240
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -477,7 +499,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0260
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0260
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -497,7 +520,8 @@ export default function UiAbilityPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_PAGE_0270
-     * @tc.name   : SUB_ACE_UI_ABILITY_PAGE_0270
+     * @tc.name   : Ability page
+     * @tc.desc   : Verify ability page interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

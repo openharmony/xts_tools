@@ -35,6 +35,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0080
      * @tc.name   : testButtonLabelForm
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0260
      * @tc.name   : testButtonHeightAdaptivePolicy
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,6 +97,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0340
      * @tc.name   : testButtonMinFontSize
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,6 +119,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0430
      * @tc.name   : testButtonWeight
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +151,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_INTERFACE_0620
      * @tc.name   : testButtonUndoRedo
+     * @tc.desc   : Verify button interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -189,6 +194,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOX_DFX_0010
      * @tc.name   : testCheckboxOnChange
+     * @tc.desc   : Verify button checkbox DFX interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,6 +228,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_Rtl_0010
      * @tc.name   : testCheckboxGroupRtl
+     * @tc.desc   : Verify button checkboxgroup rtl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,6 +257,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_ADD_0010
      * @tc.name   : testDatePickerMultiColumn
+     * @tc.desc   : Verify button DatePicker add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -272,6 +280,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_EVENT_0010
      * @tc.name   : testDatePickerOnChange
+     * @tc.desc   : Verify button DatePicker event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,6 +303,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_UX_005
      * @tc.name   : testButtonStylePolymorphic
+     * @tc.desc   : Verify button ux interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -328,6 +338,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060
      * @tc.name   : testCheckboxGroupLongName
+     * @tc.desc   : Verify button checkboxgroup scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -352,6 +363,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_CHECKBOXGROUP_SCENARIOS_0060_558
      * @tc.name   : testCheckboxGroupRemoveItem
+     * @tc.desc   : Verify button checkboxgroup scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,6 +395,7 @@ export default function UiComponentButtonInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_DATEPICKER_INTERFACE_0190
      * @tc.name   : testDatePickerHeightOverflow
+     * @tc.desc   : Verify button DatePicker interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

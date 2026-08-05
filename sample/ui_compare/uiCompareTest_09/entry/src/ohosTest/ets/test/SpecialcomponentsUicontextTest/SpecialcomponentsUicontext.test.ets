@@ -41,7 +41,8 @@ export default function SpecialcomponentsUicontext() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0050
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +63,8 @@ export default function SpecialcomponentsUicontext() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00290
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,7 +86,8 @@ export default function SpecialcomponentsUicontext() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00420
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,7 +107,8 @@ export default function SpecialcomponentsUicontext() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_00700
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

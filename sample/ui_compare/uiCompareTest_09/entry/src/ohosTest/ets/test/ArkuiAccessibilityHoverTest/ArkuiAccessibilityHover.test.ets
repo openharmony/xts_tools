@@ -33,6 +33,7 @@ export default function ArkuiAccessibilityHover() {
     /*
      * @tc.number : Arkui_Accessibility_Hover_1
      * @tc.name   : 启动无障碍并按压目标对象
+     * @tc.desc   : Verify ArkUI accessibility hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -53,6 +54,7 @@ export default function ArkuiAccessibilityHover() {
     /*
      * @tc.number : Arkui_Accessibility_Hover_7
      * @tc.name   : 聚焦到深层节点的某一目标后无操作
+     * @tc.desc   : Verify ArkUI accessibility hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +80,7 @@ export default function ArkuiAccessibilityHover() {
     /*
      * @tc.number : Arkui_Accessibility_Hover_8
      * @tc.name   : 动态改变虚拟子节点中的x值
+     * @tc.desc   : Verify ArkUI accessibility hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +108,7 @@ export default function ArkuiAccessibilityHover() {
     /*
      * @tc.number : Arkui_Accessibility_Hover_13
      * @tc.name   : 聚焦到某一按键后无操作
+     * @tc.desc   : Verify ArkUI accessibility hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

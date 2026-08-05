@@ -30,6 +30,7 @@ export default function ActionEventAreachangeInterfaceTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_INTERFACE_0270
      * @tc.name   : 触发消失的onVisibleAreaChange回调
+     * @tc.desc   : Verify action event commonevent areachange interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,7 +41,8 @@ export default function MediaTextpickerColumnwidths() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0015
+     * @tc.name   : Media TextPicker columnwidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -62,7 +63,8 @@ export default function MediaTextpickerColumnwidths() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0011
+     * @tc.name   : Media TextPicker columnwidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -83,7 +85,8 @@ export default function MediaTextpickerColumnwidths() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0013
+     * @tc.name   : Media TextPicker columnwidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -104,7 +107,8 @@ export default function MediaTextpickerColumnwidths() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0014
+     * @tc.name   : Media TextPicker columnwidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -125,7 +129,8 @@ export default function MediaTextpickerColumnwidths() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0010
+     * @tc.name   : Media TextPicker columnwidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -146,7 +151,8 @@ export default function MediaTextpickerColumnwidths() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0016
+     * @tc.name   : Media TextPicker columnwidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

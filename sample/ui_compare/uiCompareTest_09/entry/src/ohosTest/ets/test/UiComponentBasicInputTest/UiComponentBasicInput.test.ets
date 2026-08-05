@@ -30,6 +30,7 @@ export default function UiComponentBasicInput() {
     /*
      * @tc.number : Ace_JSDeclarativeParadigm_Component_Basic_Input_010
      * @tc.name   : 长文本框光标颜色测试
+     * @tc.desc   : Verify ace jsdeclarativeparadigm component basic input interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -56,6 +57,7 @@ export default function UiComponentBasicInput() {
     /*
      * @tc.number : Ace_JSDeclarativeParadigm_Component_Basic_Input_011
      * @tc.name   : 长文本框删除字符测试
+     * @tc.desc   : Verify ace jsdeclarativeparadigm component basic input interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

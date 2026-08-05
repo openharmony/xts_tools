@@ -30,6 +30,7 @@ export default function UiComponentButtonTimepicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TIMEPICKER_SOUNDVIBRATION_0020
      * @tc.name   : TimepickerSoundvibration0020
+     * @tc.desc   : Verify button TimePicker soundvibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

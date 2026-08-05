@@ -30,6 +30,7 @@ export default function UiComponentButtonCommon() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_COMMON_BUTTON_0080
      * @tc.name   : ButtonCommon0080
+     * @tc.desc   : Verify button common button interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

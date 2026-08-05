@@ -42,7 +42,8 @@ export default function RoutingSupportstageInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0010
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -63,7 +64,8 @@ export default function RoutingSupportstageInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0030
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,7 +86,8 @@ export default function RoutingSupportstageInterface() {
     
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0050
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -105,7 +108,8 @@ export default function RoutingSupportstageInterface() {
     
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0060
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -126,7 +130,8 @@ export default function RoutingSupportstageInterface() {
     
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0070
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -148,7 +153,8 @@ export default function RoutingSupportstageInterface() {
 
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0080
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -169,7 +175,8 @@ export default function RoutingSupportstageInterface() {
     
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0040
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -190,7 +197,8 @@ export default function RoutingSupportstageInterface() {
     
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0100
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -211,7 +219,8 @@ export default function RoutingSupportstageInterface() {
     
     /*
      * @tc.number : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020
-     * @tc.name   : SUB_ACE_Routing_SUPPORTSTAGE_INTERFACE_0020
+     * @tc.name   : Routing supportstage interface
+     * @tc.desc   : Verify routing supportstage interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

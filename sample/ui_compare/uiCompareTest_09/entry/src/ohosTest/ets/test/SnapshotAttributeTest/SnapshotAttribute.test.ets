@@ -44,7 +44,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0230
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0230
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -64,7 +65,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0690
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0690
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,7 +82,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0290
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0290
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -96,7 +99,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0790
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0790
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -112,7 +116,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0200
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0200
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -128,7 +133,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0720
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0720
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -144,7 +150,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0260
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0260
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -160,7 +167,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0740
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0740
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -177,7 +185,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0220
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0220
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -197,7 +206,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0770
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0770
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -213,7 +223,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0280
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0280
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -230,7 +241,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0270
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0270
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -247,7 +259,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0780
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0780
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -263,7 +276,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0760
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0760
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -280,7 +294,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0330
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0330
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -296,7 +311,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0830
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0830
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -312,7 +328,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0350
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0350
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -328,7 +345,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0840
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0840
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -345,7 +363,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0300
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0300
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -362,7 +381,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0250
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0250
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -378,7 +398,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0810
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0810
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -395,7 +416,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0750
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0750
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -411,7 +433,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0320
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0320
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -427,7 +450,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0800
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0800
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -443,7 +467,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0340
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0340
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -459,7 +484,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0850
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0850
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -475,7 +501,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0310
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0310
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -491,7 +518,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0820
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0820
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -507,7 +535,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0360
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0360
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -523,7 +552,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0860
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0860
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -539,7 +569,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0240
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0240
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -555,7 +586,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0730
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0730
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -571,7 +603,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0400
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0400
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -587,7 +620,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0880
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0880
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -603,7 +637,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0370
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0370
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -619,7 +654,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0890
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0890
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -635,7 +671,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0390
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0390
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -651,7 +688,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0870
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0870
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -667,7 +705,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0380
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0380
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -683,7 +722,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0900
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0900
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -700,7 +740,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0430
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0430
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -716,7 +757,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0910
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0910
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -732,7 +774,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0460
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0460
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -748,7 +791,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0450
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0450
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -764,7 +808,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0410
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0410
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -780,7 +825,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0440
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0440
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -796,7 +842,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0920
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0920
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -812,7 +859,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0470
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0470
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -828,7 +876,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0560
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0560
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -844,7 +893,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0480
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0480
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -860,7 +910,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0010
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0010
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -876,7 +927,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0530
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0530
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -892,7 +944,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0490
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0490
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -908,7 +961,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0040
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0040
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -924,7 +978,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0520
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0520
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -940,7 +995,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0030
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0030
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -956,7 +1012,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0570
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0570
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -972,7 +1029,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0150
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0150
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -988,7 +1046,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0620
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0620
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1004,7 +1063,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0020
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0020
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1020,7 +1080,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0500
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0500
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1036,7 +1097,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0100
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0100
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1052,7 +1114,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0580
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0580
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1068,7 +1131,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0140
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0140
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1084,7 +1148,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0590
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0590
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1100,7 +1165,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0110
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0110
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1116,7 +1182,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0540
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0540
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1132,7 +1199,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0120
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0120
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1148,7 +1216,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0600
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0600
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1164,7 +1233,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0050
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0050
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1180,7 +1250,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0550
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0550
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1196,7 +1267,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0060
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0060
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1212,7 +1284,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0610
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0610
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1228,7 +1301,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0090
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0090
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1244,7 +1318,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0510
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0510
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1260,7 +1335,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0130
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0130
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1276,7 +1352,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0630
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0630
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1292,7 +1369,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0160
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0160
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1308,7 +1386,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0670
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0670
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1324,7 +1403,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0070
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0070
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1340,7 +1420,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0640
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0640
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1356,7 +1437,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0080
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0080
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1372,7 +1454,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0680
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0680
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1388,7 +1471,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0180
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0180
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1404,7 +1488,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0700
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0700
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1420,7 +1505,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0170
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0170
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1436,7 +1522,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0660
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0660
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1452,7 +1539,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0190
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1486,7 +1574,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0650
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0650
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1502,7 +1591,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0210
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0210
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1518,7 +1608,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1534,7 +1625,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1558,7 +1650,8 @@ export default function SnapshotAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710
-     * @tc.name   : SUB_ACE_UI_SNAPSHOT_ATTRIBUTE_0710
+     * @tc.name   : Snapshot attribute
+     * @tc.desc   : Verify snapshot attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

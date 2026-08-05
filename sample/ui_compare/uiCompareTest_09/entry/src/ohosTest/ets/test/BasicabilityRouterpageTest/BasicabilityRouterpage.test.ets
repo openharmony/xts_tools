@@ -30,6 +30,7 @@ export default function BasicabilityRouterpage() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_008
      * @tc.name   : 跳转1个页面，更新到1个页面后，清空后在跳转1个页面
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,6 +73,7 @@ export default function BasicabilityRouterpage() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_027
      * @tc.name   : 携带参数加载首页，参数值为null
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,6 +93,7 @@ export default function BasicabilityRouterpage() {
     /*
      * @tc.number : SUB_ACE_BASICABILITY_ROUTERPAGE_028
      * @tc.name   : 页面A和页面B之间携带参数的反复跳转
+     * @tc.desc   : Verify basicability routerpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

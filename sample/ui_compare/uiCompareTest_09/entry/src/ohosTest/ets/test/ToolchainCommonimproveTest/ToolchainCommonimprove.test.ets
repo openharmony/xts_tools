@@ -39,7 +39,8 @@ export default function ToolchainCommonimproveTest() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0030
-     * @tc.name   : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0030
+     * @tc.name   : Toolchain commonimprove
+     * @tc.desc   : Verify toolchain commonimprove interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function ToolchainCommonimproveTest() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0040
-     * @tc.name   : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0040
+     * @tc.name   : Toolchain commonimprove
+     * @tc.desc   : Verify toolchain commonimprove interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function ToolchainCommonimproveTest() {
 
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0050
-     * @tc.name   : SUB_ACE_TOOLCHAIN_COMMONIMPROVE_0050
+     * @tc.name   : Toolchain commonimprove
+     * @tc.desc   : Verify toolchain commonimprove interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function ActionEventAreachangeApproximatechangeBatch2Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0320
      * @tc.name   : 频繁调用接口测试
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ActionEventAreachangeApproximatechangeBatch2Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0330
      * @tc.name   : 内存泄漏测试
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

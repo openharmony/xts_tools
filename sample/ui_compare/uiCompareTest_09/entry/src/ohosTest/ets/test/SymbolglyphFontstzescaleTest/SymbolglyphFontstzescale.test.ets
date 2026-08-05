@@ -42,7 +42,8 @@ export default function SymbolglyphFontstzescale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0030
+     * @tc.name   : Symbolglyph fontstzescale
+     * @tc.desc   : Verify symbolglyph fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

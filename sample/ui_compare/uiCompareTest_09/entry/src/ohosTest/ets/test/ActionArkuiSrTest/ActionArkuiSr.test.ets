@@ -33,6 +33,7 @@ export default function ActionArkuiSr() {
     /*
      * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0010
      * @tc.name   : 正常模式下改变Z序
+     * @tc.desc   : Verify sr20250106997626 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function ActionArkuiSr() {
     /*
      * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0060
      * @tc.name   : 单手模式拖拽缩小动画
+     * @tc.desc   : Verify sr20250106997626 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,6 +87,7 @@ export default function ActionArkuiSr() {
     /*
      * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0080
      * @tc.name   : 单手模式右下角position位置验证
+     * @tc.desc   : Verify sr20250106997626 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +108,7 @@ export default function ActionArkuiSr() {
     /*
      * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0100
      * @tc.name   : 单手模式左下角position位置验证
+     * @tc.desc   : Verify sr20250106997626 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,6 +129,7 @@ export default function ActionArkuiSr() {
     /*
      * @tc.number : SUB_ACE_ACTION_ARKUI_SR20241018107358_0060
      * @tc.name   : 高级组件metaBall动画效果六
+     * @tc.desc   : Verify sr20241018107358 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,6 +149,7 @@ export default function ActionArkuiSr() {
     /*
      * @tc.number : SUB_ACE_ACTION_ARKUI_SR20250106997626_0120
      * @tc.name   : 单手模式点击事件Dump
+     * @tc.desc   : Verify sr20250106997626 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

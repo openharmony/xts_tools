@@ -30,7 +30,8 @@ export default function UiComponentCalendarPickerBorder() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0110
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

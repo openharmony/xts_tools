@@ -30,6 +30,7 @@ export default function ActionEventDragScenariosTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0280
      * @tc.name   : 快速抛滑组件
+     * @tc.desc   : Verify action event commonevent drag scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,6 +61,7 @@ export default function ActionEventDragScenariosTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_SCENARIOS_0290
      * @tc.name   : 多次拖拽组件
+     * @tc.desc   : Verify action event commonevent drag scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

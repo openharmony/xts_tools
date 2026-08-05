@@ -32,7 +32,8 @@ export default function UiComponentCalendarPicker() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BARRIERFREE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BARRIERFREE_0010
+     * @tc.name   : Popupbox menu barrierfree
+     * @tc.desc   : Verify popupbox menu barrierfree interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -51,7 +52,8 @@ export default function UiComponentCalendarPicker() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0020
+     * @tc.name   : Popupbox menu habit
+     * @tc.desc   : Verify popupbox menu habit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,7 +72,8 @@ export default function UiComponentCalendarPicker() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0160
+     * @tc.name   : Popupbox menu habit
+     * @tc.desc   : Verify popupbox menu habit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +92,8 @@ export default function UiComponentCalendarPicker() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_HABIT_0300
+     * @tc.name   : Popupbox menu habit
+     * @tc.desc   : Verify popupbox menu habit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +112,8 @@ export default function UiComponentCalendarPicker() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010_DUPLICATE
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010_DUPLICATE
+     * @tc.name   : Component function basiccontainer formselection TimePicker languageorder duplicate
+     * @tc.desc   : Verify component function basiccontainer formselection TimePicker languageorder duplicate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

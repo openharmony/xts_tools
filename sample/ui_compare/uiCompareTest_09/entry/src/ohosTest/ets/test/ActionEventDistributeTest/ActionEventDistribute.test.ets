@@ -30,6 +30,7 @@ export default function ActionEventDistributeTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DISTRIBUTE_0010
      * @tc.name   : 分屏条正常滑动后窗口显示正常
+     * @tc.desc   : Verify action event commonevent distribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
