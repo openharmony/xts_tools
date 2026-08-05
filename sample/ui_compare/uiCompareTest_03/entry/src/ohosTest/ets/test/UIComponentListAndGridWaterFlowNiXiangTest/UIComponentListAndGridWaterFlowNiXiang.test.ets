@@ -60,7 +60,8 @@ export default function UIComponentListAndGridWaterFlowNiXiang() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0010
+     * @tc.name   : Listandgrid waterflow nixiang
+     * @tc.desc   : Verify listandgrid waterflow nixiang interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,7 +93,8 @@ export default function UIComponentListAndGridWaterFlowNiXiang() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_NIXIANG_0020
+     * @tc.name   : Listandgrid waterflow nixiang
+     * @tc.desc   : Verify listandgrid waterflow nixiang interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

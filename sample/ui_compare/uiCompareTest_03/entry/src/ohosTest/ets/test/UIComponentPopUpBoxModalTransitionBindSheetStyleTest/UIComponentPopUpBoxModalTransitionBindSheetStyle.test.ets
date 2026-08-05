@@ -64,7 +64,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0030
+     * @tc.name   : Popupbox modaltransition bindsheetstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -88,7 +89,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0070
+     * @tc.name   : Popupbox modaltransition bindsheetstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -112,7 +114,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0140
+     * @tc.name   : Popupbox modaltransition bindsheetstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -136,7 +139,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETSTYLE_0150
+     * @tc.name   : Popupbox modaltransition bindsheetstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

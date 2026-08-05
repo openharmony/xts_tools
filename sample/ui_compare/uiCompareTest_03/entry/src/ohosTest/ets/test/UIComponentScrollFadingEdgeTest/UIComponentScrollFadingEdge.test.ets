@@ -64,7 +64,8 @@ export default function UIComponentScrollFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0010
+     * @tc.name   : Scroll fadingedge
+     * @tc.desc   : Verify scroll fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -91,7 +92,8 @@ export default function UIComponentScrollFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_FADINGEDGE_0020
+     * @tc.name   : Scroll fadingedge
+     * @tc.desc   : Verify scroll fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

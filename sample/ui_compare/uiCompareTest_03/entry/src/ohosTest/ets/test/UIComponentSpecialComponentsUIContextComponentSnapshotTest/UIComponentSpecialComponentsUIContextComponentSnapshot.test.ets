@@ -63,7 +63,8 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0180
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -87,7 +88,8 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0340
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,7 +113,8 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0360
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -135,7 +138,8 @@ export default function UIComponentSpecialComponentsUIContextComponentSnapshot()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_COMPONENTSNAPSHOT_0460
+     * @tc.name   : Special components uicontext componentsnapshot
+     * @tc.desc   : Verify special components uicontext componentsnapshot interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

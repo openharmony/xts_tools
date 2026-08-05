@@ -70,7 +70,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0150
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -105,7 +106,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0160
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -140,7 +142,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0170
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -175,7 +178,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0180
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -210,7 +214,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0190
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -270,7 +275,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0200
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -305,7 +311,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0210
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -340,7 +347,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0220
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -375,7 +383,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0230
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -410,7 +419,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0240
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -445,7 +455,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0250
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -480,7 +491,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0270
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -529,7 +541,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0280
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -567,7 +580,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0290
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -616,7 +630,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0300
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -688,7 +703,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0310
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -726,7 +742,8 @@ export default function UIComponentMediaVideoAI() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_AI_0320
+     * @tc.name   : Media video ai
+     * @tc.desc   : Verify media video ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

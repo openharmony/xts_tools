@@ -60,7 +60,8 @@ export default function UIComponentScrollScrollPaging() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0170
+     * @tc.name   : Scroll paging
+     * @tc.desc   : Verify scroll paging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function UIComponentScrollScrollPaging() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_PAGING_0180
+     * @tc.name   : Scroll paging
+     * @tc.desc   : Verify scroll paging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

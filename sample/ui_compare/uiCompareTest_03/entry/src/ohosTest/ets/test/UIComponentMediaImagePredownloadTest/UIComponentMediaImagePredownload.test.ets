@@ -64,7 +64,8 @@ export default function UIComponentMediaImagePredownload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0010
+     * @tc.name   : Media Image predownload
+     * @tc.desc   : Verify media Image predownload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,7 +85,8 @@ export default function UIComponentMediaImagePredownload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0011
+     * @tc.name   : Media Image predownload
+     * @tc.desc   : Verify media Image predownload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -104,7 +106,8 @@ export default function UIComponentMediaImagePredownload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0012
+     * @tc.name   : Media Image predownload
+     * @tc.desc   : Verify media Image predownload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -124,7 +127,8 @@ export default function UIComponentMediaImagePredownload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PREDOWNLOAD_0013
+     * @tc.name   : Media Image predownload
+     * @tc.desc   : Verify media Image predownload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

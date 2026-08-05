@@ -69,7 +69,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentPropertyTes
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_LENGTH_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_PROPERTYTEST_COMMONATTRIBUTES_PADDING_LENGTH_0020
+     * @tc.name   : Special components embeddedcomponent propertytest commonattributes padding length
+     * @tc.desc   : Verify special components embeddedcomponent propertytest commonattributes padding length interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

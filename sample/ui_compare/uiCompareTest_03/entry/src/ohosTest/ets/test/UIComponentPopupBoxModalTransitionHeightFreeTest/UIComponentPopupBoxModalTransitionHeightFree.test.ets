@@ -61,7 +61,8 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0020
+     * @tc.name   : Popupbox modaltransition heightfree
+     * @tc.desc   : Verify popupbox modaltransition heightfree interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +115,8 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0030
+     * @tc.name   : Popupbox modaltransition heightfree
+     * @tc.desc   : Verify popupbox modaltransition heightfree interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +169,8 @@ export default function UIComponentPopupBoxModalTransitionHeightFree() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_HEIGHTFREE_0040
+     * @tc.name   : Popupbox modaltransition heightfree
+     * @tc.desc   : Verify popupbox modaltransition heightfree interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

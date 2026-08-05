@@ -80,7 +80,8 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0010
+     * @tc.name   : Popupbox modaltransition keyboard
+     * @tc.desc   : Verify popupbox modaltransition keyboard interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,7 +286,8 @@ export default function UIComponentPopupBoxModalTransitionKeyboard() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_KEYBOARD_0040
+     * @tc.name   : Popupbox modaltransition keyboard
+     * @tc.desc   : Verify popupbox modaltransition keyboard interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

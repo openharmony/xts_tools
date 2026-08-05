@@ -63,7 +63,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0010
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -86,7 +87,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0020
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -109,7 +111,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0030
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -138,7 +141,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0040
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -167,7 +171,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0060
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -227,7 +232,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0070
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -255,7 +261,8 @@ export default function UIComponentSpecialComponentsXComponentOnload() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_ONLOAD_0080
+     * @tc.name   : Special components xcomponent onload
+     * @tc.desc   : Verify special components xcomponent onload interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

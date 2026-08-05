@@ -64,7 +64,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetBottomStyle()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0020
+     * @tc.name   : Popupbox modaltransition bindsheetbottomstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetbottomstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -90,7 +91,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetBottomStyle()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0030
+     * @tc.name   : Popupbox modaltransition bindsheetbottomstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetbottomstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -114,7 +116,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetBottomStyle()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0040
+     * @tc.name   : Popupbox modaltransition bindsheetbottomstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetbottomstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -138,7 +141,8 @@ export default function UIComponentPopUpBoxModalTransitionBindSheetBottomStyle()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MODALTRANSITION_BINDSHEETBOTTOMSTYLE_0050
+     * @tc.name   : Popupbox modaltransition bindsheetbottomstyle
+     * @tc.desc   : Verify popupbox modaltransition bindsheetbottomstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

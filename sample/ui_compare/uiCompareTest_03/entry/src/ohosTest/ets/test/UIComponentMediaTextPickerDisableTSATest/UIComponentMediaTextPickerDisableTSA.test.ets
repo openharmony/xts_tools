@@ -64,7 +64,8 @@ export default function UIComponentMediaTextPickerDisableTSA() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0014
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,7 +85,8 @@ export default function UIComponentMediaTextPickerDisableTSA() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0027
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

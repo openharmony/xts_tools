@@ -64,7 +64,8 @@ export default function UIComponentPopUpBoxEnter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0010
+     * @tc.name   : Popupbox enter
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -94,7 +95,8 @@ export default function UIComponentPopUpBoxEnter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ENTER_0410
+     * @tc.name   : Popupbox enter
+     * @tc.desc   : Verify popupbox enter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

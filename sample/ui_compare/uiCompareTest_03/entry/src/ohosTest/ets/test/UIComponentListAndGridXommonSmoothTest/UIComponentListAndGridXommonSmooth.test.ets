@@ -60,7 +60,8 @@ export default function UIComponentListAndGridXommonSmooth() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0010
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0020
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0030
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,7 +141,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0040
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,7 +168,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0090
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,7 +195,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0100
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +222,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -242,7 +249,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0120_934
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -268,7 +276,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +303,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0130_372
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -320,7 +330,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -346,7 +357,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0140_800
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,7 +384,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -398,7 +411,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0150_197
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -424,7 +438,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -452,7 +467,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0160_337
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -480,7 +496,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0170_760
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -508,7 +525,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0180_236
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -536,7 +554,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0190_168
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -564,7 +583,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0200_733
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -590,7 +610,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0210_310
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -618,7 +639,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0220_739
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -646,7 +668,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0230
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -672,7 +695,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0240
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -700,7 +724,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -728,7 +753,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0250_718
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -754,7 +780,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0260
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -780,7 +807,8 @@ export default function UIComponentListAndGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SMOOTH_0270
+     * @tc.name   : Listandgrid xommon smooth
+     * @tc.desc   : Verify listandgrid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -64,7 +64,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0010
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -92,7 +93,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0020
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -112,7 +114,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0030
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -135,7 +138,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0040
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -155,7 +159,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0050
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -190,7 +195,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0060
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -210,7 +216,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0070
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -233,7 +240,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0080
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -253,7 +261,8 @@ export default function UIComponentScrollClipContent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_CLIPCONTENT_0090
+     * @tc.name   : Scroll clipcontent
+     * @tc.desc   : Verify scroll clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

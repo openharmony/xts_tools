@@ -69,7 +69,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_0040
+     * @tc.name   : Special components embeddcomponent
+     * @tc.desc   : Verify special components embeddcomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

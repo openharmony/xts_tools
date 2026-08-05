@@ -64,7 +64,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0010
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -94,7 +95,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0011
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -124,7 +126,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0012
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -154,7 +157,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0013
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -184,7 +188,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0034
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -215,7 +220,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0035
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -246,7 +252,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0036
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -277,7 +284,8 @@ export default function UIComponentMediaTimePickerEnableCascade() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_ENABLECASCADE_0037
+     * @tc.name   : Media TimePicker enablecascade
+     * @tc.desc   : Verify media TimePicker enablecascade interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

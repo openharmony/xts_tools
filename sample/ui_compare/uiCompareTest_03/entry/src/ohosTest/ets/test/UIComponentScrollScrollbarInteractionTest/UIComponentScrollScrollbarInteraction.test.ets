@@ -60,7 +60,8 @@ export default function UIComponentScrollScrollbarInteraction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0410
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function UIComponentScrollScrollbarInteraction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0420
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +120,8 @@ export default function UIComponentScrollScrollbarInteraction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0440
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,7 +148,8 @@ export default function UIComponentScrollScrollbarInteraction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0450
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,7 +176,8 @@ export default function UIComponentScrollScrollbarInteraction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_INTERACTION_0460
+     * @tc.name   : Scroll scrollbar interaction
+     * @tc.desc   : Verify scroll scrollbar interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

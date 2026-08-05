@@ -60,7 +60,8 @@ export default function UIComponentOtherScrollableAnimation() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0010
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +90,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0020
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +120,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0030
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +150,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0040
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,7 +180,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0050
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,7 +210,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0060
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,7 +244,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0070
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,7 +278,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0080
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -300,7 +308,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0090
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +338,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0100
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,7 +368,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0110
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,7 +398,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0120
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,7 +428,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0130
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -445,7 +458,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0140
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -477,7 +491,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0150
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -510,7 +525,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0160
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -543,7 +559,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0170
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -572,7 +589,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0180
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -601,7 +619,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0190
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -630,7 +649,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0200
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -659,7 +679,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0210
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -688,7 +709,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0220
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -720,7 +742,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0230
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -753,7 +776,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0240
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -786,7 +810,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0250
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -815,7 +840,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0260
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -844,7 +870,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0270
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -873,7 +900,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0280
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -902,7 +930,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0290
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -931,7 +960,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0300
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -963,7 +993,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0310
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -996,7 +1027,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0320
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1029,7 +1061,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0330
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1058,7 +1091,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0340
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1087,7 +1121,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0350
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1116,7 +1151,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0360
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1145,7 +1181,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0370
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1174,7 +1211,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0380
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1203,7 +1241,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0400
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1232,7 +1271,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0410
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1261,7 +1301,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0420
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1290,7 +1331,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0430
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1319,7 +1361,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0440
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1348,7 +1391,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0460
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1377,7 +1421,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0590
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1405,7 +1450,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0600
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1435,7 +1481,8 @@ export default function UIComponentOtherScrollableAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_OTHER_SCROLLABLE_ANIMATION_0610
+     * @tc.name   : Other scrollable animation
+     * @tc.desc   : Verify other scrollable animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

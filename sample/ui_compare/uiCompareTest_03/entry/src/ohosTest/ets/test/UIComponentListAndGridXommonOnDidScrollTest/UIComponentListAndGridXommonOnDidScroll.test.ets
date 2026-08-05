@@ -60,7 +60,8 @@ export default function UIComponentListAndGridXommonOnDidScroll() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0010
+     * @tc.name   : Listandgrid xommon ondidscroll
+     * @tc.desc   : Verify listandgrid xommon ondidscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +90,8 @@ export default function UIComponentListAndGridXommonOnDidScroll() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0020
+     * @tc.name   : Listandgrid xommon ondidscroll
+     * @tc.desc   : Verify listandgrid xommon ondidscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +125,8 @@ export default function UIComponentListAndGridXommonOnDidScroll() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_ONDIDSCROLL_0030
+     * @tc.name   : Listandgrid xommon ondidscroll
+     * @tc.desc   : Verify listandgrid xommon ondidscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

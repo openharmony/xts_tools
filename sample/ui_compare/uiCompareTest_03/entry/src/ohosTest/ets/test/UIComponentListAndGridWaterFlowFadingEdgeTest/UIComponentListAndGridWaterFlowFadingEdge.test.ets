@@ -60,7 +60,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0030
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0040
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0060
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,7 +141,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0070
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,7 +168,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0080
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,7 +195,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0090
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -220,7 +226,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0100
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -248,7 +255,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0110
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -278,7 +286,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0120
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -308,7 +317,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0130
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -338,7 +348,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0140
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -364,7 +375,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0150
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -390,7 +402,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0160
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,7 +429,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0170
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -447,7 +461,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0180
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -473,7 +488,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0190
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -499,7 +515,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0200
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -525,7 +542,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0210
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -551,7 +569,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0220
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -577,7 +596,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0230
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -603,7 +623,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0240
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -629,7 +650,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0250
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -655,7 +677,8 @@ export default function UIComponentListAndGridWaterFlowFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0260
+     * @tc.name   : Listandgrid waterflow fadingedge
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

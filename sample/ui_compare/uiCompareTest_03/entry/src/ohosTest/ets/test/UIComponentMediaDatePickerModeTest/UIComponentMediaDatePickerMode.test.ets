@@ -64,7 +64,8 @@ export default function UIComponentMediaDatePickerMode() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0010
+     * @tc.name   : Media DatePicker mode
+     * @tc.desc   : Verify media DatePicker mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

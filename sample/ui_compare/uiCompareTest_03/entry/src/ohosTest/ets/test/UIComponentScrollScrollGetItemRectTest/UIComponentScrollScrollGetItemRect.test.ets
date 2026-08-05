@@ -60,7 +60,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0210
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -90,7 +91,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0220
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +132,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0280
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,7 +161,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0310
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,7 +192,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0320
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,7 +233,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0330
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +264,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0340
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +304,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0350
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -332,7 +340,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0360
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,7 +376,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0370
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -395,7 +405,8 @@ export default function UIComponentScrollScrollGetItemRect() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_GETITEMRECT_0380
+     * @tc.name   : Scroll getitemrect
+     * @tc.desc   : Verify scroll getitemrect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

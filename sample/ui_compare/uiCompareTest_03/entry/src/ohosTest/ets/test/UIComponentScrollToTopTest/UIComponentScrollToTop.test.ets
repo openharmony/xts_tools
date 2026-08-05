@@ -64,7 +64,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0040
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -91,7 +92,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0050
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -118,7 +120,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0060
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -145,7 +148,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0070
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -172,7 +176,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0120
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -199,7 +204,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0130
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -226,7 +232,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0140
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -253,7 +260,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0150
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -280,7 +288,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0220
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -307,7 +316,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0230
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -334,7 +344,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0240
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -361,7 +372,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0250
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -388,7 +400,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0290
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -415,7 +428,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0300
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -442,7 +456,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0310
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -469,7 +484,8 @@ export default function UIComponentScrollToTop() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0320
+     * @tc.name   : Scrolltotop
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

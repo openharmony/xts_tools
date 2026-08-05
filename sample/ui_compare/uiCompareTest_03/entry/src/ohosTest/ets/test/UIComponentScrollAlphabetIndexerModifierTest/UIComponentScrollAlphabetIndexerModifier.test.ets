@@ -60,7 +60,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0970
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -94,7 +95,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0980
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -128,7 +130,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_0990
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,7 +165,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1000
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,7 +200,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1010
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,7 +235,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1020
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,7 +270,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1080
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,7 +298,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1090
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -318,7 +326,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1100
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,7 +354,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1110
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,7 +382,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1170
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -413,7 +424,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1180
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -454,7 +466,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1190
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -495,7 +508,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1200
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -536,7 +550,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1210
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -577,7 +592,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1220
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -618,7 +634,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1230
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -659,7 +676,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1240
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -700,7 +718,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1250
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,7 +760,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1260
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -782,7 +802,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1270
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -823,7 +844,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1280
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -864,7 +886,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1290
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -905,7 +928,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1300
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -946,7 +970,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1310
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -987,7 +1012,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1320
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1028,7 +1054,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1500
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1055,7 +1082,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1510
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1082,7 +1110,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1520
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1109,7 +1138,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1530
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1136,7 +1166,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1540
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1165,7 +1196,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1570
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1194,7 +1226,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1580
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1223,7 +1256,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1590
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1252,7 +1286,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1600
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1281,7 +1316,8 @@ export default function UIComponentScrollAlphabetIndexerModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_ALPHABETINDEXERMODIFIER_1610
+     * @tc.name   : Scroll alphabetindexermodifier
+     * @tc.desc   : Verify scroll alphabetindexermodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

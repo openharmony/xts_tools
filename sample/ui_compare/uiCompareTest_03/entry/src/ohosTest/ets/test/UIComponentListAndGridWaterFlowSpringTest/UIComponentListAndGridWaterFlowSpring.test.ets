@@ -60,7 +60,8 @@ export default function UIComponentListAndGridWaterFlowSpring() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0160_620
+     * @tc.name   : Listandgrid waterflow spring
+     * @tc.desc   : Verify listandgrid waterflow spring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +89,8 @@ export default function UIComponentListAndGridWaterFlowSpring() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0170_446
+     * @tc.name   : Listandgrid waterflow spring
+     * @tc.desc   : Verify listandgrid waterflow spring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +118,8 @@ export default function UIComponentListAndGridWaterFlowSpring() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SPRING_0190_782
+     * @tc.name   : Listandgrid waterflow spring
+     * @tc.desc   : Verify listandgrid waterflow spring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

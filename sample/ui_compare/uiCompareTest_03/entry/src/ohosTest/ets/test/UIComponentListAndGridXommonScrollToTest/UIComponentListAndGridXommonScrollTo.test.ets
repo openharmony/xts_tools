@@ -60,7 +60,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0010
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0020
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0030
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,7 +141,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0040
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,7 +168,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0050
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,7 +195,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0060
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +222,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0070
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -245,7 +252,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0080
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -274,7 +282,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0100
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -302,7 +311,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0110
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -359,7 +369,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0120
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -391,7 +402,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0130
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -423,7 +435,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0140
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -449,7 +462,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0150
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -475,7 +489,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0160
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -501,7 +516,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0170
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -527,7 +543,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0180
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -553,7 +570,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0190
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -579,7 +597,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0200
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -605,7 +624,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0210
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -634,7 +654,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0220
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -663,7 +684,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0240
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -691,7 +713,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0250
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -748,7 +771,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0260
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -780,7 +804,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0270
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -812,7 +837,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0280
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -838,7 +864,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0290
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -864,7 +891,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0300
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -890,7 +918,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0310
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -916,7 +945,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0320
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -942,7 +972,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0330
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -968,7 +999,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0340
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -994,7 +1026,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1023,7 +1056,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0350_454
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1052,7 +1086,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1081,7 +1116,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0360_525
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1110,7 +1146,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1138,7 +1175,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0380_392
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1166,7 +1204,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0390
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1223,7 +1262,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0400
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1255,7 +1295,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1287,7 +1328,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0410_746
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1319,7 +1361,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1345,7 +1388,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0420_283
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1371,7 +1415,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0430
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1397,7 +1442,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0440
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1423,7 +1469,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0450
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1449,7 +1496,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0460
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1475,7 +1523,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0470
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1501,7 +1550,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0480
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1527,7 +1577,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0490
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1556,7 +1607,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0500
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1585,7 +1637,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0520
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1613,7 +1666,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0530
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1670,7 +1724,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0540
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1702,7 +1757,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0550
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1734,7 +1790,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0560
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1760,7 +1817,8 @@ export default function UIComponentListAndGridXommonScrollTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_XOMMON_SCROLLTO_0680_459
+     * @tc.name   : Listandgrid xommon scrollto
+     * @tc.desc   : Verify listandgrid xommon scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

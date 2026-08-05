@@ -60,7 +60,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0370
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0550
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,7 +119,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0560
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +152,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0570
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,7 +185,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0600
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,7 +218,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0610
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -245,7 +251,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0620
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,7 +284,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0630
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,7 +313,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0640
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -336,7 +345,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0650
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -364,7 +374,8 @@ export default function UIComponentScrollScrollInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_INTERFACE_0660
+     * @tc.name   : Scroll interface
+     * @tc.desc   : Verify scroll interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

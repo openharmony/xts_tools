@@ -69,7 +69,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentOnKeyEvent(
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONKEYEVENT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_ONKEYEVENT_0010
+     * @tc.name   : Special components embeddedcomponent onkeyevent
+     * @tc.desc   : Verify special components embeddedcomponent onkeyevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

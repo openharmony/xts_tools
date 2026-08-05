@@ -61,7 +61,8 @@ export default function UIComponentPopupBoxSelectMirror() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0020
+     * @tc.name   : Popupbox selectmirror
+     * @tc.desc   : Verify popupbox selectmirror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,7 +110,8 @@ export default function UIComponentPopupBoxSelectMirror() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0030
+     * @tc.name   : Popupbox selectmirror
+     * @tc.desc   : Verify popupbox selectmirror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,7 +174,8 @@ export default function UIComponentPopupBoxSelectMirror() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0040
+     * @tc.name   : Popupbox selectmirror
+     * @tc.desc   : Verify popupbox selectmirror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,7 +203,8 @@ export default function UIComponentPopupBoxSelectMirror() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SELECTMIRROR_0050
+     * @tc.name   : Popupbox selectmirror
+     * @tc.desc   : Verify popupbox selectmirror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

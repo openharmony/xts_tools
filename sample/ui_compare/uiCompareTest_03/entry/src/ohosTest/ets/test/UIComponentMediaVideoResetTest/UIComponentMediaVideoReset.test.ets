@@ -69,7 +69,8 @@ export default function UIComponentMediaVideoReset() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0010
+     * @tc.name   : Media video reset
+     * @tc.desc   : Verify media video reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -179,7 +180,8 @@ export default function UIComponentMediaVideoReset() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0011
+     * @tc.name   : Media video reset
+     * @tc.desc   : Verify media video reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -219,7 +221,8 @@ export default function UIComponentMediaVideoReset() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0012
+     * @tc.name   : Media video reset
+     * @tc.desc   : Verify media video reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -273,7 +276,8 @@ export default function UIComponentMediaVideoReset() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0024
+     * @tc.name   : Media video reset
+     * @tc.desc   : Verify media video reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -301,7 +305,8 @@ export default function UIComponentMediaVideoReset() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_RESET_0030
+     * @tc.name   : Media video reset
+     * @tc.desc   : Verify media video reset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -60,7 +60,8 @@ export default function UIComponentPopupBoxPopupScenarios() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_SCENARIOS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_SCENARIOS_0010
+     * @tc.name   : Popupbox popup scenarios
+     * @tc.desc   : Verify popupbox popup scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

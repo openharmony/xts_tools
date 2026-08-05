@@ -64,7 +64,8 @@ export default function UIComponentMediaPatternLockForeground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0011
+     * @tc.name   : Media PatternLock foreground
+     * @tc.desc   : Verify media PatternLock foreground interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,7 +94,8 @@ export default function UIComponentMediaPatternLockForeground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0014
+     * @tc.name   : Media PatternLock foreground
+     * @tc.desc   : Verify media PatternLock foreground interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -122,7 +124,8 @@ export default function UIComponentMediaPatternLockForeground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0019
+     * @tc.name   : Media PatternLock foreground
+     * @tc.desc   : Verify media PatternLock foreground interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -160,7 +163,8 @@ export default function UIComponentMediaPatternLockForeground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PATTERNLOCK_FOREGROUND_0021
+     * @tc.name   : Media PatternLock foreground
+     * @tc.desc   : Verify media PatternLock foreground interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

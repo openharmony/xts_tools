@@ -69,7 +69,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0010
+     * @tc.name   : Special components embeddedcomponent key
+     * @tc.desc   : Verify special components embeddedcomponent key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -103,7 +104,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0020
+     * @tc.name   : Special components embeddedcomponent key
+     * @tc.desc   : Verify special components embeddedcomponent key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,7 +139,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0030
+     * @tc.name   : Special components embeddedcomponent key
+     * @tc.desc   : Verify special components embeddedcomponent key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -180,7 +183,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0040
+     * @tc.name   : Special components embeddedcomponent key
+     * @tc.desc   : Verify special components embeddedcomponent key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -223,7 +227,8 @@ export default function UIComponentSpecialComponentsEmbeddedComponentKey() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_KEY_0050
+     * @tc.name   : Special components embeddedcomponent key
+     * @tc.desc   : Verify special components embeddedcomponent key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

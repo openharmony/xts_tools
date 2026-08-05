@@ -64,7 +64,8 @@ export default function UIComponentSymbolGlyphFontSizeScale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0010
+     * @tc.name   : Symbolglyph fontstzescale
+     * @tc.desc   : Verify symbolglyph fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -94,7 +95,8 @@ export default function UIComponentSymbolGlyphFontSizeScale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0110
+     * @tc.name   : Symbolglyph fontstzescale
+     * @tc.desc   : Verify symbolglyph fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -124,7 +126,8 @@ export default function UIComponentSymbolGlyphFontSizeScale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FONTSTZESCALE_0130
+     * @tc.name   : Symbolglyph fontstzescale
+     * @tc.desc   : Verify symbolglyph fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

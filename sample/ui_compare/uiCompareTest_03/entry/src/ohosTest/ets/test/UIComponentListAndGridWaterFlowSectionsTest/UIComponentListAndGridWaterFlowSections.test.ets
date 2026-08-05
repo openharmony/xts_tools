@@ -60,7 +60,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0170_975
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,7 +85,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0180_779
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +110,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0330_306
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -134,7 +137,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0370_222
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,7 +166,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0390_902
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,7 +193,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0400_699
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +222,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0480_718
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,7 +251,8 @@ export default function UIComponentListAndGridWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_SECTIONS_0570
+     * @tc.name   : Listandgrid waterflow sections
+     * @tc.desc   : Verify listandgrid waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

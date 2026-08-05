@@ -64,7 +64,8 @@ export default function UIComponentMediaImageSupportThumbnails() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0013
+     * @tc.name   : Media Image support thumbnails
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -89,7 +90,8 @@ export default function UIComponentMediaImageSupportThumbnails() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0014
+     * @tc.name   : Media Image support thumbnails
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -120,7 +122,8 @@ export default function UIComponentMediaImageSupportThumbnails() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0016
+     * @tc.name   : Media Image support thumbnails
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

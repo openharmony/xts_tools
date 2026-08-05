@@ -64,7 +64,8 @@ export default function UIComponentMediaImageFillColorReset() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLORRESET_0011
+     * @tc.name   : Media Image fillcolorreset
+     * @tc.desc   : Verify media Image fillcolorreset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

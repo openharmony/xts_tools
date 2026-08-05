@@ -64,7 +64,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0010
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -94,7 +95,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0020
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -126,7 +128,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0030
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -150,7 +153,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0090
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -182,7 +186,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0100
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -206,7 +211,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0080
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -236,7 +242,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0150
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -266,7 +273,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0160
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -298,7 +306,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0170
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -322,7 +331,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0230
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -352,7 +362,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0240
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -384,7 +395,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0250
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -408,7 +420,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0040
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -442,7 +455,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0050
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -476,7 +490,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0060
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -510,7 +525,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0070
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -544,7 +560,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0110
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -578,7 +595,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0120
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -612,7 +630,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0130
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -646,7 +665,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0140
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -680,7 +700,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0180
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -714,7 +735,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0190
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -748,7 +770,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0200
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -782,7 +805,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0210
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -816,7 +840,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0220
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -850,7 +875,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0260
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -884,7 +910,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0270
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -918,7 +945,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0280
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -952,7 +980,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0290
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -986,7 +1015,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0300
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1020,7 +1050,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0350
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1062,7 +1093,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0360
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1096,7 +1128,8 @@ export default function UIComponentScrollPullDown() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_PULLDOWN_0370
+     * @tc.name   : Scroll pulldown
+     * @tc.desc   : Verify scroll pulldown interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

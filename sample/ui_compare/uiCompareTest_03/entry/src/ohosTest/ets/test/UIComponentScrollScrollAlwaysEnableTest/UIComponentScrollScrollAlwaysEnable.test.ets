@@ -60,7 +60,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0010
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,7 +97,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0020
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +134,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0030
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +171,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0040
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -204,7 +208,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0050
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,7 +245,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0060
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,7 +282,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0070
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,7 +324,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0080
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,7 +366,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0090
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,7 +408,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0100
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,7 +445,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0110
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -476,7 +487,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0120
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -517,7 +529,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0230
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -549,7 +562,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0240
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -581,7 +595,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0250
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -613,7 +628,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0260
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,7 +661,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0270
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -677,7 +694,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0280
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -709,7 +727,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0290
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -744,7 +763,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0300
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -776,7 +796,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0310
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -813,7 +834,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0330
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -849,7 +871,8 @@ export default function UIComponentScrollScrollAlwaysEnable() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ALWAYSENABLE_0340
+     * @tc.name   : Scroll alwaysenable
+     * @tc.desc   : Verify scroll alwaysenable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

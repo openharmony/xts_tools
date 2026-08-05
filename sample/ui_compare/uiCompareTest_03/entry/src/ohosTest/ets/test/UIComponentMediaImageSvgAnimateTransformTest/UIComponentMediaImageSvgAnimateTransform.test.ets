@@ -64,7 +64,8 @@ export default function UIComponentMediaImageSvgAnimateTransform() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0022
+     * @tc.name   : Media Image svg animatetransform
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -86,7 +87,8 @@ export default function UIComponentMediaImageSvgAnimateTransform() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0027
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0027
+     * @tc.name   : Media Image svg animatetransform
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

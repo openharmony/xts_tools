@@ -64,7 +64,8 @@ export default function UIComponentScrollScrollPage() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLPAGE_0130
+     * @tc.name   : Scroll scrollpage
+     * @tc.desc   : Verify scroll scrollpage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
