@@ -60,7 +60,8 @@ export default function UIComponentWaterFlowFlowItem() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0030
+     * @tc.name   : Waterflow flowitem
+     * @tc.desc   : Verify waterflow flowitem interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +92,8 @@ export default function UIComponentWaterFlowFlowItem() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0300
+     * @tc.name   : Waterflow flowitem
+     * @tc.desc   : Verify waterflow flowitem interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,7 +122,8 @@ export default function UIComponentWaterFlowFlowItem() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FLOWITEM_0310
+     * @tc.name   : Waterflow flowitem
+     * @tc.desc   : Verify waterflow flowitem interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

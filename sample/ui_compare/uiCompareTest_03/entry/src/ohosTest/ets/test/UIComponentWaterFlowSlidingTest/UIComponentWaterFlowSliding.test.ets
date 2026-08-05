@@ -60,7 +60,8 @@ export default function UIComponentWaterFlowSliding() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0310
+     * @tc.name   : Waterflow sliding
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +89,8 @@ export default function UIComponentWaterFlowSliding() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0460
+     * @tc.name   : Waterflow sliding
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

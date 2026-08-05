@@ -63,7 +63,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0010
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -85,7 +86,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0020
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -107,7 +109,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0030
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -128,7 +131,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0040
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -149,7 +153,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0050
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -170,7 +175,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0060
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -191,7 +197,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0070
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -212,7 +219,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0080
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -235,7 +243,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0090
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -256,7 +265,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0100
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -277,7 +287,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0110
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -298,7 +309,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0120
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -319,7 +331,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0130
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -340,7 +353,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0140
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -361,7 +375,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0150
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -382,7 +397,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0160
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -403,7 +419,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0170
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -424,7 +441,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0180
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -445,7 +463,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0190
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -466,7 +485,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0200
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -487,7 +507,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0210
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -508,7 +529,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0220
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -529,7 +551,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0230
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -550,7 +573,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0240
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -571,7 +595,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0250
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -592,7 +617,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0260
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -613,7 +639,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0270
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -634,7 +661,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0280
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -655,7 +683,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0290
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -676,7 +705,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0300
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -697,7 +727,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0310
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -718,7 +749,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0320
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -739,7 +771,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0330
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -760,7 +793,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0340
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -781,7 +815,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0350
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -802,7 +837,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0360
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -823,7 +859,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0370
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -844,7 +881,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0380
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -865,7 +903,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0390
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -886,7 +925,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0400
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -907,7 +947,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0410
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -928,7 +969,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0420
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -949,7 +991,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0430
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -970,7 +1013,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0440
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -991,7 +1035,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0450
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1012,7 +1057,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0460
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1033,7 +1079,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0470
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1054,7 +1101,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0480
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1075,7 +1123,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0490
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1096,7 +1145,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0500
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1117,7 +1167,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0510
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1138,7 +1189,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0520
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1159,7 +1211,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0530
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1180,7 +1233,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0540
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1201,7 +1255,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0550
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1222,7 +1277,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0560
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1243,7 +1299,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0570
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1264,7 +1321,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0580
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1285,7 +1343,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0590
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1306,7 +1365,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0600
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1327,7 +1387,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0610
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1348,7 +1409,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0620
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1369,7 +1431,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0630
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1390,7 +1453,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0640
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1411,7 +1475,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0650
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1432,7 +1497,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0660
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1453,7 +1519,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0670
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1474,7 +1541,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0680
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1495,7 +1563,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0690
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1516,7 +1585,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0700
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1537,7 +1607,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0710
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1558,7 +1629,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0720
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1579,7 +1651,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0730
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1600,7 +1673,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0740
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1621,7 +1695,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0750
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1642,7 +1717,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0760
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1663,7 +1739,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0770
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1684,7 +1761,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0780
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1705,7 +1783,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0790
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1726,7 +1805,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0800
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1747,7 +1827,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0810
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1768,7 +1849,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0820
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1789,7 +1871,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0830
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1810,7 +1893,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0840
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1831,7 +1915,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0850
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1852,7 +1937,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0860
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1873,7 +1959,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0870
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1894,7 +1981,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0880
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1915,7 +2003,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0890
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1936,7 +2025,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0900
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1957,7 +2047,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0910
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1978,7 +2069,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0920
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1999,7 +2091,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0930
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2020,7 +2113,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0950
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2041,7 +2135,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0960
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2065,7 +2160,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0970
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2086,7 +2182,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0980
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2107,7 +2204,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_0990
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2128,7 +2226,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1000
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2149,7 +2248,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1010
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2170,7 +2270,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1020
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2191,7 +2292,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1030
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2212,7 +2314,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1040
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2233,7 +2336,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1060
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2254,7 +2358,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1070
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2275,7 +2380,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1080
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2296,7 +2402,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1090
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2317,7 +2424,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1100
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2338,7 +2446,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1110
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2359,7 +2468,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1120
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2380,7 +2490,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1130
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2401,7 +2512,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1140
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2422,7 +2534,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1160
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2443,7 +2556,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1170
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2464,7 +2578,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1180
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2485,7 +2600,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1190
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2506,7 +2622,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1200
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2527,7 +2644,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1210
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2548,7 +2666,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1220
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2569,7 +2688,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1230
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2590,7 +2710,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1240
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2611,7 +2732,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1260
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2632,7 +2754,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1270
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2653,7 +2776,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1280
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2674,7 +2798,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1290
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2695,7 +2820,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1300
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2716,7 +2842,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1310
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2737,7 +2864,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1320
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2758,7 +2886,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1330
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2779,7 +2908,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1340
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2800,7 +2930,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1350
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2821,7 +2952,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1360
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2842,7 +2974,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1370
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2863,7 +2996,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1380
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2884,7 +3018,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1390
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2905,7 +3040,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1400
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2926,7 +3062,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1410
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2947,7 +3084,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1420
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2968,7 +3106,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1430
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2989,7 +3128,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1440
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3010,7 +3150,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1450
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3031,7 +3172,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1460
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3052,7 +3194,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1470
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3073,7 +3216,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1490
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3094,7 +3238,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1500
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3115,7 +3260,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1510
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3142,7 +3288,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1520
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3163,7 +3310,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1530
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3184,7 +3332,8 @@ export default function UIComponentTextChipInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_INTERFACE_1540
+     * @tc.name   : Text chip interface
+     * @tc.desc   : Verify text chip interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

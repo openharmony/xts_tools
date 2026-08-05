@@ -61,7 +61,8 @@ export default function UIComponentWaterFlowCachedCount() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CACHEDCOUNT_0110
+     * @tc.name   : Waterflow cachedcount
+     * @tc.desc   : Verify waterflow cachedcount interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

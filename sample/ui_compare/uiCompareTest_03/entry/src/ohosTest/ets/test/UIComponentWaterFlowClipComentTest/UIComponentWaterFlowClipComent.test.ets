@@ -61,7 +61,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0010
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0020
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0030
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,7 +139,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0040
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -161,7 +165,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0050
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,7 +191,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0060
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,7 +217,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0070
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -236,7 +243,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0080
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +269,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0090
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,7 +295,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0100
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,7 +349,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0120
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -366,7 +377,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0130
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -393,7 +405,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0170
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,7 +433,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0180
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -447,7 +461,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0190
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -472,7 +487,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0200
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -499,7 +515,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0210
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -528,7 +545,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0230
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -559,7 +577,8 @@ export default function UIComponentWaterFlowClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_CLIPCOMENT_0250
+     * @tc.name   : Waterflow clipcoment
+     * @tc.desc   : Verify waterflow clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

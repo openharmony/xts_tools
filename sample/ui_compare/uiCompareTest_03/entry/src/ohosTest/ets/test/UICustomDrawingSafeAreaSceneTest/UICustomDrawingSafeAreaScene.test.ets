@@ -60,7 +60,8 @@ export default function UICustomDrawingSafeAreaScene() {
     
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0330
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +82,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0520
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -110,7 +112,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0530
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +144,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0540
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -177,7 +181,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0550
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,7 +212,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0560
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,7 +253,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0570
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -268,7 +275,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0580
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +305,8 @@ export default function UICustomDrawingSafeAreaScene() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_SAFEAREA_SCENE_0970
+     * @tc.name   : Custom drawing safearea scene
+     * @tc.desc   : Verify custom drawing safearea scene interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

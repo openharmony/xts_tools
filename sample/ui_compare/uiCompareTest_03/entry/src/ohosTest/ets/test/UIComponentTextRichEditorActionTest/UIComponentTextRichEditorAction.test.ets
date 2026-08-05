@@ -63,7 +63,8 @@ export default function UIComponentTextRichEditorAction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -98,7 +99,8 @@ export default function UIComponentTextRichEditorAction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0320
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -125,7 +127,8 @@ export default function UIComponentTextRichEditorAction() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290_960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0290_960
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -60,7 +60,8 @@ export default function UIRelativeContainerCollaboration() {
 
     /*
      * @tc.number : SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0680
-     * @tc.name   : SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0680
+     * @tc.name   : Relativecontainer collaboration
+     * @tc.desc   : Verify relativecontainer collaboration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -114,7 +115,8 @@ export default function UIRelativeContainerCollaboration() {
 
     /*
      * @tc.number : SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0690
-     * @tc.name   : SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0690
+     * @tc.name   : Relativecontainer collaboration
+     * @tc.desc   : Verify relativecontainer collaboration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -168,7 +170,8 @@ export default function UIRelativeContainerCollaboration() {
 
     /*
      * @tc.number : SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0700
-     * @tc.name   : SUB_ACE_UI_RELATIVECONTAINER_COLLABORATION_0700
+     * @tc.name   : Relativecontainer collaboration
+     * @tc.desc   : Verify relativecontainer collaboration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

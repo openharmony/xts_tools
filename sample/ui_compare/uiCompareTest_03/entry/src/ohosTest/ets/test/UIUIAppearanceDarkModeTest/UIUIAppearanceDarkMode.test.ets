@@ -60,7 +60,8 @@ export default function UIUIAppearanceDarkMode() {
     
     /*
      * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020
-     * @tc.name   : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0020
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function UIUIAppearanceDarkMode() {
 
     /*
      * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030
-     * @tc.name   : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0030
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +116,8 @@ export default function UIUIAppearanceDarkMode() {
 
     /*
      * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040
-     * @tc.name   : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0040
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +144,8 @@ export default function UIUIAppearanceDarkMode() {
 
     /*
      * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050
-     * @tc.name   : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0050
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +172,8 @@ export default function UIUIAppearanceDarkMode() {
 
     /*
      * @tc.number : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060
-     * @tc.name   : SUB_ACE_UI_UIAPPEARANCE_DARKMODE_0060
+     * @tc.name   : Uiappearance darkmode
+     * @tc.desc   : Verify uiappearance darkmode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

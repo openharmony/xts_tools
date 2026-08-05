@@ -60,7 +60,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0010
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0020
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -110,7 +112,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0030
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,7 +138,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0040
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,7 +166,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0050
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,7 +228,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0060
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -256,7 +262,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0070
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -283,7 +290,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0080
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,7 +319,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0090
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -336,7 +345,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0100
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -361,7 +371,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0110
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -392,7 +403,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0120
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -423,7 +435,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0130
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +463,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0140
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -480,7 +494,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0170
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -505,7 +520,8 @@ export default function UIComponentWaterFlowSlidingWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_WINDOW_0180
+     * @tc.name   : Waterflow sliding window
+     * @tc.desc   : Verify waterflow sliding window interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

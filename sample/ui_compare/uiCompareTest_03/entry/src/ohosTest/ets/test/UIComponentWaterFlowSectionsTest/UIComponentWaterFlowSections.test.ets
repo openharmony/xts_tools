@@ -64,7 +64,8 @@ export default function UIComponentWaterFlowSections() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0020
+     * @tc.name   : Waterflow sections
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -60,7 +60,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0140
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0150
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +116,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0170
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +144,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0180
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +172,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0190
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,7 +200,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0200
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,7 +228,8 @@ export default function UIComponentWaterFlowFooter() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0210
+     * @tc.name   : Waterflow footer
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
