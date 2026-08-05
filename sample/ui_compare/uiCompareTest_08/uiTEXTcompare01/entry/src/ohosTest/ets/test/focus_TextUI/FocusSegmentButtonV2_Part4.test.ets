@@ -41,7 +41,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3800
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,7 +77,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3810
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3820
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -146,7 +149,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3830
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,7 +185,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3840
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +221,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3850
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -251,7 +257,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3860
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,7 +293,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3870
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,7 +329,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3880
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -356,7 +365,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3890
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -391,7 +401,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3900
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -426,7 +437,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3910
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -461,7 +473,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3920
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -496,7 +509,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3930
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -531,7 +545,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3940
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -566,7 +581,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3950
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -601,7 +617,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3960
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -636,7 +653,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3970
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -671,7 +689,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3980
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -706,7 +725,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_3990
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,7 +761,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4000
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -776,7 +797,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4010
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -811,7 +833,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4020
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -846,7 +869,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4030
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -881,7 +905,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4040
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -916,7 +941,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4050
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -951,7 +977,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4060
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -986,7 +1013,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4070
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1021,7 +1049,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4080
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1056,7 +1085,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4090
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1091,7 +1121,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4100
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1126,7 +1157,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4110
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1161,7 +1193,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4120
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1196,7 +1229,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4130
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1279,7 +1313,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4140
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1314,7 +1349,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4150
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1349,7 +1385,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4160
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1432,7 +1469,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4170
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1467,7 +1505,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4180
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1502,7 +1541,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4190
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1537,7 +1577,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4200
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1572,7 +1613,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4210
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1607,7 +1649,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4220
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1642,7 +1685,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4230
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1677,7 +1721,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4240
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1712,7 +1757,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4250
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1747,7 +1793,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4260
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1782,7 +1829,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4270
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1817,7 +1865,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4280
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1852,7 +1901,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4290
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1887,7 +1937,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4300
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1922,7 +1973,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4310
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1957,7 +2009,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4320
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1992,7 +2045,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4330
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2027,7 +2081,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4340
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2110,7 +2165,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4350
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2161,7 +2217,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4360
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2196,7 +2253,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4370
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2279,7 +2337,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4380
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2330,7 +2389,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4390
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2365,7 +2425,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4400
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2400,7 +2461,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4410
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2435,7 +2497,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4420
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2470,7 +2533,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4430
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2505,7 +2569,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4440
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2540,7 +2605,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4450
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2575,7 +2641,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4460
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2610,7 +2677,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4470
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2645,7 +2713,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4480
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2680,7 +2749,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4490
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2715,7 +2785,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4500
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2750,7 +2821,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4510
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2785,7 +2857,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4520
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2820,7 +2893,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4530
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2855,7 +2929,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4540
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2890,7 +2965,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4550
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2925,7 +3001,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4560
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2960,7 +3037,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4570
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2995,7 +3073,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4580
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3030,7 +3109,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4590
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3065,7 +3145,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4600
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3100,7 +3181,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4610
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3183,7 +3265,8 @@ export default function FocusSegmentButtonV2TestPart4() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4620
+     * @tc.name   : Button segmentbuttonv2
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3235,6 +3318,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4630
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSizeNegative
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3270,6 +3354,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4640
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSize20vp
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3305,6 +3390,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4650
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSize40Percent
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3340,6 +3426,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4660
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSize40fp
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3375,6 +3462,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4670
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSize40lpx
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3410,6 +3498,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4680
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSize40px
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3445,6 +3534,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4690
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSizeResource
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3480,6 +3570,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4700
      * @tc.name   : testSegmentButtonV2ItemSymbolFontSizeUndefined
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3515,6 +3606,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4710
      * @tc.name   : testSegmentButtonV2LanguageDirectionAuto
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3550,6 +3642,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4720
      * @tc.name   : testSegmentButtonV2LanguageDirectionLtr
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3585,6 +3678,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4730
      * @tc.name   : testSegmentButtonV2LanguageDirectionRtl
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3620,6 +3714,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4770
      * @tc.name   : testSegmentButtonV2OnItemClicked
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3682,6 +3777,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4780
      * @tc.name   : testSegmentButtonV2OnSelectedIndexChange
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3754,6 +3850,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4790
      * @tc.name   : testSegmentButtonV2SelectedIndexNegative
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3781,6 +3878,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4800
      * @tc.name   : testSegmentButtonV2SelectedIndex1
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3808,6 +3906,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4810
      * @tc.name   : testSegmentButtonV2SelectedIndex999
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3835,6 +3934,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4870
      * @tc.name   : testCapsuleSegmentButtonV2ModifierWithStringIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3887,6 +3987,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4880
      * @tc.name   : testCapsuleSegmentButtonV2TextIconMixed
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3939,6 +4040,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4890
      * @tc.name   : testCapsuleSegmentButtonV2PureHMSymbolIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3991,6 +4093,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4900
      * @tc.name   : testCapsuleSegmentButtonV2PureImageIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4043,6 +4146,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4910
      * @tc.name   : testCapsuleSegmentButtonV2PureTextString
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4087,6 +4191,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4920
      * @tc.name   : testCapsuleSegmentButtonV2PureTextEnabledFalse
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4123,6 +4228,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4930
      * @tc.name   : testCapsuleSegmentButtonV2PureTextLongText
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4159,6 +4265,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_4940
      * @tc.name   : testCapsuleSegmentButtonV2CustomTextIconMixed
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4211,6 +4318,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5000
      * @tc.name   : testMultiCapsuleSegmentButtonV2Modifier
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4263,6 +4371,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5010
      * @tc.name   : testMultiCapsuleSegmentButtonV2TextIconMixed
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4315,6 +4424,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5020
      * @tc.name   : testMultiCapsuleSegmentButtonV2PureHMSymbolIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4367,6 +4477,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5030
      * @tc.name   : testMultiCapsuleSegmentButtonV2PureImageIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4419,6 +4530,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5040
      * @tc.name   : testMultiCapsuleSegmentButtonV2PureTextString
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4463,6 +4575,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5050
      * @tc.name   : testMultiCapsuleSegmentButtonV2PureTextEnabledFalse
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4499,6 +4612,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5060
      * @tc.name   : testMultiCapsuleSegmentButtonV2PureTextLongText
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4535,6 +4649,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5070
      * @tc.name   : testMultiCapsuleSegmentButtonV2CustomTextIconMixed
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4587,6 +4702,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5130
      * @tc.name   : testTabSegmentButtonV2Modifier
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4639,6 +4755,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5140
      * @tc.name   : testTabSegmentButtonV2TextIconMixed
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4691,6 +4808,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5150
      * @tc.name   : testTabSegmentButtonV2PureHMSymbolIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4743,6 +4861,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5160
      * @tc.name   : testTabSegmentButtonV2PureImageIcon
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4795,6 +4914,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5170
      * @tc.name   : testTabSegmentButtonV2PureTextString
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4839,6 +4959,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5180
      * @tc.name   : testTabSegmentButtonV2PureTextEnabledFalse
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4875,6 +4996,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5190
      * @tc.name   : testTabSegmentButtonV2PureTextLongText
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4911,6 +5033,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5200
      * @tc.name   : testTabSegmentButtonV2CustomTextIconMixed
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4963,6 +5086,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5210
      * @tc.name   : testSegmentButtonV2ChangeItemsArrayLength
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5014,6 +5138,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5220
      * @tc.name   : testSegmentButtonV2ReplaceItemsArray
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5064,6 +5189,7 @@ export default function FocusSegmentButtonV2TestPart4() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTONV2_5230
      * @tc.name   : testSegmentButtonV2SymbolDualConfig
+     * @tc.desc   : Verify button segmentbuttonv2 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

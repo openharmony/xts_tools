@@ -44,7 +44,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_001
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -63,7 +64,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_004
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -85,7 +87,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_WordBreak_HYPHENATION_00001
+     * @tc.name   : Text richeditor wordbreak hyphenation
+     * @tc.desc   : Verify text richeditor wordbreak hyphenation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -105,7 +108,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0001
+     * @tc.name   : Text richeditor enablekeyboardfocus
+     * @tc.desc   : Verify text richeditor enablekeyboardfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -126,7 +130,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ENABLEKEYBOARDFOCUS_0005
+     * @tc.name   : Text richeditor enablekeyboardfocus
+     * @tc.desc   : Verify text richeditor enablekeyboardfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -147,7 +152,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEMETRICS_0003
+     * @tc.name   : Text richeditor linemetrics
+     * @tc.desc   : Verify text richeditor linemetrics interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -168,7 +174,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PREVENTDEFAULT_0001
+     * @tc.name   : Text richeditor preventdefault
+     * @tc.desc   : Verify text richeditor preventdefault interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -188,7 +195,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_floatoff_0005
+     * @tc.name   : Text richeditor floatoff
+     * @tc.desc   : Verify text richeditor floatoff interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -208,7 +216,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0059
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -228,7 +237,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0019
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -249,7 +259,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0014
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -282,7 +293,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0015
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -309,7 +321,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9999
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -329,7 +342,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0001
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -349,7 +363,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0017
+     * @tc.name   : Text richeditor interface
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -385,7 +400,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0001
+     * @tc.name   : Text richeditor stringspan
+     * @tc.desc   : Verify text richeditor stringspan interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -406,7 +422,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0004
+     * @tc.name   : Text richeditor stringspan
+     * @tc.desc   : Verify text richeditor stringspan interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -430,7 +447,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0016
+     * @tc.name   : Text richeditor stringspan
+     * @tc.desc   : Verify text richeditor stringspan interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -455,7 +473,8 @@ export default function FocusRichEditor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringspan_0017
+     * @tc.name   : Text richeditor stringspan
+     * @tc.desc   : Verify text richeditor stringspan interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

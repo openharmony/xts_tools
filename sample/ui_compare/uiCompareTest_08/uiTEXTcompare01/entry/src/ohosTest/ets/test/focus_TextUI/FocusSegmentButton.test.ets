@@ -41,7 +41,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010
+     * @tc.name   : Button segmentbuttom accessibility
+     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +89,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020
+     * @tc.name   : Button segmentbuttom accessibility
+     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,7 +137,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030
+     * @tc.name   : Button segmentbuttom accessibility
+     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +171,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050
+     * @tc.name   : Button segmentbuttom accessibility
+     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,7 +214,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100
+     * @tc.name   : Button segmentbuttom accessibility
+     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -252,7 +257,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0010
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,7 +291,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0020
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -318,7 +325,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0030
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,7 +359,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0040
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -384,7 +393,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0050
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,7 +427,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0060
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +461,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACTION_0070
+     * @tc.name   : Button segmentbuttom action
+     * @tc.desc   : Verify button segmentbuttom action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -488,7 +500,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0010
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -562,7 +575,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0020
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -624,7 +638,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0030
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -686,7 +701,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0050
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -748,7 +764,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0100
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -810,7 +827,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0130
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -872,7 +890,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0140
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -934,7 +953,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0150
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -996,7 +1016,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0170
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1058,7 +1079,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0200
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1120,7 +1142,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0210
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1182,7 +1205,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0220
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1244,7 +1268,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0240
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1306,7 +1331,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0270
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1368,7 +1394,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0280
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1430,7 +1457,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_AGING_0290
+     * @tc.name   : Button segmentbuttom aging
+     * @tc.desc   : Verify button segmentbuttom aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1492,7 +1520,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0010
+     * @tc.name   : Button segmentbuttom click
+     * @tc.desc   : Verify button segmentbuttom click interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1558,7 +1587,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0020
+     * @tc.name   : Button segmentbuttom click
+     * @tc.desc   : Verify button segmentbuttom click interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1623,7 +1653,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_CLICK_0030
+     * @tc.name   : Button segmentbuttom click
+     * @tc.desc   : Verify button segmentbuttom click interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1688,7 +1719,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0010
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1743,7 +1775,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0020
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1799,7 +1832,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0030
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1856,7 +1890,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0040
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1892,7 +1927,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0050
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1917,7 +1953,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0060
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1973,7 +2010,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0070
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2028,7 +2066,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0080
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2053,7 +2092,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0090
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2123,7 +2163,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0100
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2146,7 +2187,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0110
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2221,7 +2263,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0120
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2291,7 +2334,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0130
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2320,7 +2364,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0140
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2384,7 +2429,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0150
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2449,7 +2495,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0160
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2476,7 +2523,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERACTION_0170
+     * @tc.name   : Button segmentbuttom interaction
+     * @tc.desc   : Verify button segmentbuttom interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2547,7 +2595,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2380
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2596,7 +2645,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2390
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2645,7 +2695,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2400
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2707,7 +2758,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2410
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2756,7 +2808,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2420
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2805,7 +2858,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2430
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2859,7 +2913,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2440
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2920,7 +2975,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2450
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2981,7 +3037,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2460
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3030,7 +3087,8 @@ export default function FocusSegmentButtonTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_INTERFACE_2470
+     * @tc.name   : Button segmentbuttom interface
+     * @tc.desc   : Verify button segmentbuttom interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
