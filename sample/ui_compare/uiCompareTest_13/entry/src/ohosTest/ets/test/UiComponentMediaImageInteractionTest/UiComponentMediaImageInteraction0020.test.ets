@@ -41,7 +41,8 @@ export default function UiComponentMediaImageInteraction0020() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0020
      * @tc.name   : MEDIA IMAGE INTERACTION 0020
-     * @tc.desc   : Verify visual interaction path for SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0020: 长按、单击、双击、捏合、旋转交互动作.
+     * @tc.desc   : Verify visual interaction path for SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0020:
+     *          长按、单击、双击、捏合、旋转交互动作.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -28,7 +28,10 @@ export default function UiComponentPluginManager0016() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0016', Level.LEVEL3, async (done: Function) => {
+    it(
+      'SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0016',
+      Level.LEVEL3,
+      async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentPluginManager/UiComponentPluginManager0016')
       let driver = await Driver.create()
       await Utils.sleep(800)

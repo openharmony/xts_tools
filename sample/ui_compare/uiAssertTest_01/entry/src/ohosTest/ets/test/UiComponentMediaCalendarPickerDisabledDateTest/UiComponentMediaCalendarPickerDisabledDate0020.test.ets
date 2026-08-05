@@ -29,7 +29,10 @@ export default function UiComponentMediaCalendarPickerDisabledDate0020() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020', Level.LEVEL3, async (done: Function) => {
-      await Settings.changeWindow('testability/pages/UiComponentMediaCalendarPickerDisabledDate/UiComponentMediaCalendarPickerDisabledDate0020')
+      await Settings.changeWindow(
+        'testability/pages/UiComponentMediaCalendarPickerDisabledDate/' +
+        'UiComponentMediaCalendarPickerDisabledDate0020'
+      )
       let driver = await Driver.create()
       await Utils.sleep(1500)
       let btn = await driver.waitForComponent(ON.id('calendarpicker_null_btn'), 8000)

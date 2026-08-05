@@ -29,7 +29,10 @@ export default function UiComponentMediaPickerContainer0086() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0086', Level.LEVEL3, async (done: Function) => {
-      await Settings.changeWindow('testability/pages/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0086')
+      await Settings.changeWindow(
+        'testability/pages/UiComponentMediaPickerContainer/' +
+        'UiComponentMediaPickerContainer0086'
+      )
       let driver = await Driver.create()
       await Utils.sleep(1500)
       let btn = await driver.waitForComponent(ON.id('picker_dfx_btn'), 8000)

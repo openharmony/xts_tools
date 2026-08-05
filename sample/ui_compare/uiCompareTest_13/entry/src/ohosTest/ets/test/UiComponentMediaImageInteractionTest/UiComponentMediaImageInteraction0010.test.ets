@@ -41,7 +41,8 @@ export default function UiComponentMediaImageInteraction0010() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0010
      * @tc.name   : MEDIA IMAGE INTERACTION 0010
-     * @tc.desc   : Verify visual interaction path for SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0010: 长按图片，可以将其选择的图片拖入另一图片框中，在另一图片框中显示该图片。.
+     * @tc.desc   : Verify visual interaction path for SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERACTION_0010:
+     *          长按图片，可以将其选择的图片拖入另一图片框中，在另一图片框中显示该图片。.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

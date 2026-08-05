@@ -47,7 +47,10 @@ export default function UiComponentMediaCalendarPickerDisabled0020() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_CAlENDARPICKER_DISABLEDDATE_0020', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentMediaCalendarPickerDisabled/UiComponentMediaCalendarPickerDisabled0020')
+      Settings.createWindow(
+        'testability/pages/UiComponentMediaCalendarPickerDisabled/' +
+        'UiComponentMediaCalendarPickerDisabled0020'
+      )
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('calendarpicker_disabled_0020'), 2000)

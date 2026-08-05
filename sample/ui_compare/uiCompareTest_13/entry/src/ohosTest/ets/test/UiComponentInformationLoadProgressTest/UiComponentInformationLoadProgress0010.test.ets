@@ -47,7 +47,10 @@ export default function UiComponentInformationLoadProgress0010() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_loadingProgress_0010', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0010')
+      Settings.createWindow(
+        'testability/pages/UiComponentInformationLoadProgress/' +
+        'UiComponentInformationLoadProgress0010'
+      )
       let driver = await Driver.create()
       await Utils.sleep(500)
       let target = await driver.waitForComponent(ON.id('loadingprogress_0010'), 500)

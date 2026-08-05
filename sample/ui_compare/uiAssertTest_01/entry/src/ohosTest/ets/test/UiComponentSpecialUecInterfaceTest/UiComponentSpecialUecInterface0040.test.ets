@@ -23,12 +23,16 @@ export default function UiComponentSpecialUecInterface0040() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0040
      * @tc.name   : UEC without width height still creates host placeholder
-     * @tc.desc   : Verify the interface under test: UIExtensionComponent component interface，UIExtensionComponent componentwithout width/height.
+     * @tc.desc   : Verify the interface under test: UIExtensionComponent component interface，UIExtensionComponent
+     *          componentwithout width/height.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0040', Level.LEVEL3, async (done: Function) => {
+    it(
+      'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_INTERFACE_0040',
+      Level.LEVEL3,
+      async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface0040')
       let driver = await Driver.create()
       await Utils.sleep(1500)

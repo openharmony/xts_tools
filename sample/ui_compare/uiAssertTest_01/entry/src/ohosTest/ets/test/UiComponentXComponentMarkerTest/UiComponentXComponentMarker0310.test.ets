@@ -28,7 +28,10 @@ export default function UiComponentXComponentMarker0310() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310', Level.LEVEL3, async (done: Function) => {
+    it(
+      'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310',
+      Level.LEVEL3,
+      async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker0310')
       let driver = await Driver.create()
       await Utils.sleep(800)

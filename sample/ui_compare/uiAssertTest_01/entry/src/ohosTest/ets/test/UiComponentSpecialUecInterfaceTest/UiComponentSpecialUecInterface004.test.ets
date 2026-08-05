@@ -28,7 +28,10 @@ export default function UiComponentSpecialUecInterface004() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_004', Level.LEVEL3, async (done: Function) => {
+    it(
+      'SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_004',
+      Level.LEVEL3,
+      async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface004')
       let driver = await Driver.create()
       await Utils.sleep(1500)

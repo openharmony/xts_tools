@@ -41,13 +41,17 @@ export default function UiComponentInformationLoadProgress0060() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060
      * @tc.name   : LoadingProgress unset enableLoading with contentModifier true
-     * @tc.desc   : Verify the interface under test: LoadingProgress component set enableLoading set 、 contentModifier set enableLoading to true.
+     * @tc.desc   : Verify the interface under test: LoadingProgress component set enableLoading set 、 contentModifier
+     *          set enableLoading to true.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0060')
+      Settings.createWindow(
+        'testability/pages/UiComponentInformationLoadProgress/' +
+        'UiComponentInformationLoadProgress0060'
+      )
       let driver = await Driver.create()
       await Utils.sleep(500)
       let target = await driver.waitForComponent(ON.id('loadprogress_builder_0060'), 500)

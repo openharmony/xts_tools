@@ -41,7 +41,8 @@ export default function UiComponentMediaProgressAnimateto0010() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010
      * @tc.name   : Progress animateTo enableSmoothEffect false
-     * @tc.desc   : Verify the interface under test: Progress animateToanimation set enableSmoothEffect property to false.
+     * @tc.desc   : Verify the interface under test: Progress animateToanimation set enableSmoothEffect property to
+     *          false.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

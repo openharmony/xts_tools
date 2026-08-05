@@ -28,7 +28,10 @@ export default function UiComponentXComponentMarker0150() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_XCOMPONENT_TYPENODE_CAPI_CAPABILITIE_EXPANSION_0150', Level.LEVEL3, async (done: Function) => {
+    it(
+      'SUB_ACE_UI_COMPONENT_XCOMPONENT_TYPENODE_CAPI_CAPABILITIE_EXPANSION_0150',
+      Level.LEVEL3,
+      async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker0150')
       let driver = await Driver.create()
       await Utils.sleep(800)

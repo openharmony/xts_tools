@@ -48,7 +48,10 @@ export default function UiComponentInformationLoadProgress0022() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0022', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentInformationLoadProgress/UiComponentInformationLoadProgress0022')
+      Settings.createWindow(
+        'testability/pages/UiComponentInformationLoadProgress/' +
+        'UiComponentInformationLoadProgress0022'
+      )
       let driver = await Driver.create()
       await Utils.sleep(500)
 

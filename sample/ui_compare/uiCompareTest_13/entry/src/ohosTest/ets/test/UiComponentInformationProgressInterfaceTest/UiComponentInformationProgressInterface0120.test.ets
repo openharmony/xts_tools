@@ -41,13 +41,17 @@ export default function UiComponentInformationProgressInterface0120() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0120
      * @tc.name   : Ring progress shadow false
-     * @tc.desc   : Verify the interface under test: ring Progressset scan effectanimation，RingStyleOptionsshadowset to false.
+     * @tc.desc   : Verify the interface under test: ring Progressset scan effectanimation，RingStyleOptionsshadowset to
+     *          false.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0120', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0120')
+      Settings.createWindow(
+        'testability/pages/UiComponentInformationProgressInterface/' +
+        'UiComponentInformationProgressInterface0120'
+      )
       let driver = await Driver.create()
       await Utils.sleep(500)
       let target = await driver.waitForComponent(ON.id('progress_interface_0120'), 500)

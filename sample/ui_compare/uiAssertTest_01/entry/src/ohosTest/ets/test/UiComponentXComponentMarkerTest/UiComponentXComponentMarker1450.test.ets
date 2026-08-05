@@ -28,7 +28,10 @@ export default function UiComponentXComponentMarker1450() {
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450', Level.LEVEL3, async (done: Function) => {
+    it(
+      'SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450',
+      Level.LEVEL3,
+      async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker1450')
       let driver = await Driver.create()
       await Utils.sleep(800)

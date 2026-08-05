@@ -47,7 +47,10 @@ export default function UiComponentMediaImageCrossplatform0079() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0079', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0079')
+      Settings.createWindow(
+        'testability/pages/UiComponentMediaImageCrossplatform/' +
+        'UiComponentMediaImageCrossplatform0079'
+      )
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('image_cross_0079'), 2000)

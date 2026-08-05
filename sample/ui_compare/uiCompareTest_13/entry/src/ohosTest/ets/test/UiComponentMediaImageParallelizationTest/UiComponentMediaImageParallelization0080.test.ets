@@ -47,7 +47,10 @@ export default function UiComponentMediaImageParallelization0080() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_PARALLELIZATION_0080', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentMediaImageParallelization/UiComponentMediaImageParallelization0080')
+      Settings.createWindow(
+        'testability/pages/UiComponentMediaImageParallelization/' +
+        'UiComponentMediaImageParallelization0080'
+      )
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('loading_parallel_0080'), 2000)

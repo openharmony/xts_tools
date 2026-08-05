@@ -60,7 +60,12 @@ export default class TestAbility extends UIAbility {
 
   onConfigurationUpdate(newConfig: Configuration): void {
     AppStorage.setOrCreate('currentColorMode', newConfig.colorMode);
-    hilog.info(0x0000, 'testTag', 'the newConfig.colorMode is %{public}s', JSON.stringify(AppStorage.get('currentColorMode')) ?? '');
+    hilog.info(
+      0x0000,
+      'testTag',
+      'the newConfig.colorMode is %{public}s',
+      JSON.stringify(AppStorage.get('currentColorMode')) ?? ''
+    );
 
   }
 
@@ -80,7 +85,8 @@ export default class TestAbility extends UIAbility {
         Logger.error(TAG, 'getAllApplicationInfo failed: %{public}s', err.message);
         console.error("")
       }
-      let tokenID = data.appInfo.accessTokenId; //系统应用可以通过bundleManager.getApplicationInfo获取，普通应用可以通过bundleManager.getBundleInfoForSelf获取
+      let tokenID = data.appInfo.accessTokenId;
+      //系统应用可以通过bundleManager.getApplicationInfo获取，普通应用可以通过bundleManager.getBundleInfoForSelf获取
       atManager.grantUserGrantedPermission(tokenID, 'ohos.permission.READ_MEDIA', permissionFlags, (err, data) => {
         if (err) {
           Logger.info(TAG, `grantUserGrantedPermission fail, err->${JSON.stringify(err)}`)

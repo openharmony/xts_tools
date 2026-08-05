@@ -29,7 +29,10 @@ export default function UiComponentMediaTextClockOutliers0071() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071', Level.LEVEL3, async (done: Function) => {
-      await Settings.changeWindow('testability/pages/UiComponentMediaTextClockOutliers/UiComponentMediaTextClockOutliers0071')
+      await Settings.changeWindow(
+        'testability/pages/UiComponentMediaTextClockOutliers/' +
+        'UiComponentMediaTextClockOutliers0071'
+      )
       let driver = await Driver.create()
       await Utils.sleep(1500)
       let btn = await driver.waitForComponent(ON.id('textclock_outlier_btn'), 8000)

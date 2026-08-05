@@ -47,7 +47,10 @@ export default function UiComponentInformationProgressInterface0160() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0160', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentInformationProgressInterface/UiComponentInformationProgressInterface0160')
+      Settings.createWindow(
+        'testability/pages/UiComponentInformationProgressInterface/' +
+        'UiComponentInformationProgressInterface0160'
+      )
       let driver = await Driver.create()
       await Utils.sleep(500)
       let target = await driver.waitForComponent(ON.id('progress_interface_0160'), 500)

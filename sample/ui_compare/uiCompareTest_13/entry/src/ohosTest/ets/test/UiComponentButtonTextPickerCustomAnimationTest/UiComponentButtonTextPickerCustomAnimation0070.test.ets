@@ -47,7 +47,10 @@ export default function UiComponentButtonTextPickerCustomAnimation0070() {
      * @tc.level  : 3
      */
     it('SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_CUSTOMANIMATION_0070', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentButtonTextPickerCustomAnimation/UiComponentButtonTextPickerCustomAnimation0070')
+      Settings.createWindow(
+        'testability/pages/UiComponentButtonTextPickerCustomAnimation/' +
+        'UiComponentButtonTextPickerCustomAnimation0070'
+      )
       let driver = await Driver.create()
       await Utils.sleep(800)
       let target = await driver.waitForComponent(ON.id('textpicker_custom_0070'), 2000)

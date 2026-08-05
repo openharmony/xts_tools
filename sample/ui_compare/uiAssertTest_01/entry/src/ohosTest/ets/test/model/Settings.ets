@@ -96,7 +96,7 @@ class Settings {
 
   changeDpi(dpi: number) {
     let screenClass: screen.Screen;
-    screen.getAllScreens((err: BusinessError, data: Array<screen.Screen>) => {
+    screen.getAllScreens((err: BusinessError, data: screen.Screen[]) => {
       if (err.code) {
         Logger.error(TAG, `Failed to get all screens. Cause : ${JSON.stringify(err)}`);
         return;
@@ -115,7 +115,7 @@ class Settings {
     })
   }
 
-  setWindowSystemBarEnable(windowClass: window.Window, names: Array<'status' | 'navigation'>) {
+  setWindowSystemBarEnable(windowClass: window.Window, names: ('status' | 'navigation')[]) {
     windowClass.setWindowSystemBarEnable(names, (err: BusinessError) => {
       const errCode: number = err.code;
       if (errCode) {
@@ -167,7 +167,8 @@ class Settings {
 
   /*
    * 窗口页面更新
-   * Setting.createWindow(pageURI: String, {X,Y,width,height,dpi}?:{X?:number,Y?:number,width?:number,height?:number,dpi?:number}):void
+   * Setting.createWindow(pageURI: String, {X,Y,width,height,dpi}?:{X?:number,Y?:number,width?:number,height?:number,dpi
+   * ?:number}):void
    * 必填：
    * pageURI：页面路由
    * 选填：
@@ -176,7 +177,14 @@ class Settings {
    * dpi:像素密度，默认dpi=330，可配置范围：80-640
    * */
 
-  createWindow(pageURI: string, X?: number | undefined, Y?: number | undefined, width?: number | undefined, height?: number | undefined, dpi?: number | undefined) {
+  createWindow(
+    pageURI: string,
+    X?: number | undefined,
+    Y?: number | undefined,
+    width?: number | undefined,
+    height?: number | undefined,
+    dpi?: number | undefined
+  ) {
 
     this.windowCreateType = "createWindow"
     if (X == undefined) {
@@ -217,7 +225,12 @@ class Settings {
     })
   }
 
-  async changeWindow(pageURI: string, width?: number | undefined, height?: number | undefined, dpi?: number | undefined) {
+  async changeWindow(
+    pageURI: string,
+    width?: number | undefined,
+    height?: number | undefined,
+    dpi?: number | undefined
+  ) {
 
     this.windowCreateType = "changeWindow"
     if (width == undefined) {
