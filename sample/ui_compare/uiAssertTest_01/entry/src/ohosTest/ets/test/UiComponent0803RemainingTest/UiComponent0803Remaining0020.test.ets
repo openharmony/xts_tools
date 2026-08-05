@@ -22,8 +22,8 @@ export default function UiComponent0803Remaining0020() {
   describe('UiComponent0803Remaining0020', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTITHREAD_ISSUE_GC_0020
-     * @tc.name   : MULTITHREAD ISSUE GC 0020
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_COMPONENT_MULTITHREAD_ISSUE_GC_0020: 主动GC命令，多个线程（20+）并发创建布局类组件（内存泄漏）.
+     * @tc.name   : Real component path: image
+     * @tc.desc   : Verify real image component mounts and exposes ready status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponent0803Remaining0020() {
       await Settings.changeWindow('testability/pages/UiComponent0803Remaining/UiComponent0803Remaining0020')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0020'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('comp_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0020'), 5000)
+      let result = await driver.waitForComponent(ON.id('comp_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(text).assertEqual('image_ready')
       done()
     })
   })

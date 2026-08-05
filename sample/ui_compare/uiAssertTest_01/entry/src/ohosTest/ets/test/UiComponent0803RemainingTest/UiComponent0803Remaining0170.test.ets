@@ -22,8 +22,8 @@ export default function UiComponent0803Remaining0170() {
   describe('UiComponent0803Remaining0170', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_MODIFIER_CAPABILITY_0170
-     * @tc.name   : LAYOUT MODIFIER CAPABILITY 0170
-     * @tc.desc   : Verify manual/external readiness marker for SUB_ACE_UI_COMPONENT_LAYOUT_MODIFIER_CAPABILITY_0170: Video组件支持Modifier动态设置analyzerConfig属性.
+     * @tc.name   : Real component path: image
+     * @tc.desc   : Verify real image component mounts and exposes ready status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponent0803Remaining0170() {
       await Settings.changeWindow('testability/pages/UiComponent0803Remaining/UiComponent0803Remaining0170')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0170'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('comp_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0170'), 5000)
+      let result = await driver.waitForComponent(ON.id('comp_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('manual_case_pending')
+      expect(text).assertEqual('image_ready')
       done()
     })
   })

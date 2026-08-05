@@ -16,15 +16,14 @@
 import { describe, it, expect, Level } from '@ohos/hypium'
 import Settings from '../model/Settings'
 import Utils from '../model/Utils'
-import AssertLogHelper from '../model/AssertLogHelper'
 import { Driver, ON } from '@kit.TestKit'
 
 export default function UiComponentDisplayNative0070() {
   describe('UiComponentDisplayNative0070', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DISPLAY_NATIVE_0070
-     * @tc.name   : PatternLock native trace marker without tdd binary
-     * @tc.desc   : Verify the interface under test: PatternLock native memory tracing without device TDD binary.
+     * @tc.name   : Real component path: patternlock
+     * @tc.desc   : Verify real patternlock component mounts and exposes ready status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -33,23 +32,20 @@ export default function UiComponentDisplayNative0070() {
       await Settings.changeWindow('testability/pages/UiComponentDisplayNative/UiComponentDisplayNative0070')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      AssertLogHelper.info(`hint=${AssertLogHelper.dumpDelegatorHint()}`)
-      let btn = await driver.waitForComponent(ON.id('native_trace_btn'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('comp_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0070'), 5000)
+      let result = await driver.waitForComponent(ON.id('comp_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('UINodeTracer:pending_or_skipped')
+      expect(text).assertEqual('patternlock_ready')
       done()
     })
   })

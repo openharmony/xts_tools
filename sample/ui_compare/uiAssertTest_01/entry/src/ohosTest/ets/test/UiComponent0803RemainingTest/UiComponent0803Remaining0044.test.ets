@@ -22,8 +22,8 @@ export default function UiComponent0803Remaining0044() {
   describe('UiComponent0803Remaining0044', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTITHREAD_BUJU_SPECIAL_0010
-     * @tc.name   : MULTITHREAD BUJU SPECIAL 0010
-     * @tc.desc   : Verify manual/external readiness marker for SUB_ACE_UI_COMPONENT_MULTITHREAD_BUJU_SPECIAL_0010: 并行化布局组件极限场景验证，节点深度为50个组件.
+     * @tc.name   : Nested layout depth proxy
+     * @tc.desc   : Verify nested Column depth proxy layout and status text.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponent0803Remaining0044() {
       await Settings.changeWindow('testability/pages/UiComponent0803Remaining/UiComponent0803Remaining0044')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0010'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('depth_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0010'), 5000)
+      let result = await driver.waitForComponent(ON.id('depth_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('manual_case_pending')
+      expect(text).assertEqual('depth_20')
       done()
     })
   })

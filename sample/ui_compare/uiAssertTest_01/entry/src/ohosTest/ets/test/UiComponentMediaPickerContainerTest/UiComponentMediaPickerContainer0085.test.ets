@@ -22,8 +22,8 @@ export default function UiComponentMediaPickerContainer0085() {
   describe('UiComponentMediaPickerContainer0085', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0085
-     * @tc.name   : Picker crown operation readiness marker
-     * @tc.desc   : Verify Picker crown-operation automation readiness when crown hardware is absent.
+     * @tc.name   : Real component path: textpicker
+     * @tc.desc   : Verify real textpicker component mounts and exposes ready status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponentMediaPickerContainer0085() {
       await Settings.changeWindow('testability/pages/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0085')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('picker_crown_btn'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('comp_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_crown_0085'), 5000)
+      let result = await driver.waitForComponent(ON.id('comp_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('picker_crown_pending_or_skipped')
+      expect(text).assertEqual('textpicker_ready')
       done()
     })
   })

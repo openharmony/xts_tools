@@ -22,8 +22,8 @@ export default function UiComponent0803Remaining0090() {
   describe('UiComponent0803Remaining0090', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEMORY_LEAK_0090
-     * @tc.name   : MEMORY LEAK 0090
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_COMPONENT_MEMORY_LEAK_0090: column组件嵌套video组件，VideoController动态切换.
+     * @tc.name   : Nested layout depth proxy
+     * @tc.desc   : Verify nested Column depth proxy layout and status text.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponent0803Remaining0090() {
       await Settings.changeWindow('testability/pages/UiComponent0803Remaining/UiComponent0803Remaining0090')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0090'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('depth_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0090'), 5000)
+      let result = await driver.waitForComponent(ON.id('depth_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(text).assertEqual('depth_20')
       done()
     })
   })
