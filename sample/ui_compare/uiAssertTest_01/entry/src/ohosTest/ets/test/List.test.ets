@@ -25,7 +25,52 @@ import UiComponentMediaTextClockOutliers0071 from './UiComponentMediaTextClockOu
 import UiComponentSpecialUecInterface002 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface002.test'
 import UiComponentSpecialUecInterface0040 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0040.test'
 
+import UiComponentPopupAccessibility1460 from './UiComponentPopupAccessibilityTest/UiComponentPopupAccessibility1460.test'
+
+import UiComponentSpecialUecInterface003 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface003.test'
+
+import UiComponentSpecialUecInterface004 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface004.test'
+
+import UiComponentSpecialUecInterface005 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface005.test'
+
+import UiComponentSpecialUecInterface007 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface007.test'
+
+import UiComponentPluginComponent0001 from './UiComponentPluginComponentTest/UiComponentPluginComponent0001.test'
+
+import UiComponentPluginComponent0002 from './UiComponentPluginComponentTest/UiComponentPluginComponent0002.test'
+
+import UiComponentPluginManager0001 from './UiComponentPluginManagerTest/UiComponentPluginManager0001.test'
+
+import UiComponentPluginManager0005 from './UiComponentPluginManagerTest/UiComponentPluginManager0005.test'
+
+import UiComponentPluginManager0009 from './UiComponentPluginManagerTest/UiComponentPluginManager0009.test'
+
+import UiComponentPluginManager0013 from './UiComponentPluginManagerTest/UiComponentPluginManager0013.test'
+
+import UiComponentPluginManager0017 from './UiComponentPluginManagerTest/UiComponentPluginManager0017.test'
+
+import UiComponentEmbeddedComponent0017 from './UiComponentEmbeddedComponentTest/UiComponentEmbeddedComponent0017.test'
+
+import UiComponentEmbeddedComponent0034 from './UiComponentEmbeddedComponentTest/UiComponentEmbeddedComponent0034.test'
+
+import UiComponentXComponentMarker0110 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0110.test'
+
 export default function testsuite() {
+  UiComponentXComponentMarker0110()
+  UiComponentEmbeddedComponent0034()
+  UiComponentEmbeddedComponent0017()
+  UiComponentPluginManager0017()
+  UiComponentPluginManager0013()
+  UiComponentPluginManager0009()
+  UiComponentPluginManager0005()
+  UiComponentPluginManager0001()
+  UiComponentPluginComponent0002()
+  UiComponentPluginComponent0001()
+  UiComponentSpecialUecInterface007()
+  UiComponentSpecialUecInterface005()
+  UiComponentSpecialUecInterface004()
+  UiComponentSpecialUecInterface003()
+  UiComponentPopupAccessibility1460()
   UiComponent0803Batch0001()
   UiComponentDisplayNative0070()
   UiComponentDisplayNative0110()

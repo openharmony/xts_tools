@@ -15,19 +15,19 @@
 
 @Entry
 @Component
-struct UiComponentMediaTextClockOutliers0071 {
+struct UiComponentEmbeddedComponent0034 {
   @State resultText: string = 'idle'
   build() {
     Column({ space: 16 }) {
-      Text('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071')
+      Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0034')
         .fontSize(12)
-      Button('mark_outlier')
-        .id('textclock_outlier_btn')
+      Button('mark_term')
+        .id('embedded_term_btn')
         .onClick(() => {
-          this.resultText = 'textclock_textShadow_outlier_ok'
+          this.resultText = 'embedded_onTerminated_pending'
         })
       Text(this.resultText)
-        .id('assert_result_tc_0071')
+        .id('assert_result_emb_0034')
         .fontSize(16)
     }
     .width('100%')

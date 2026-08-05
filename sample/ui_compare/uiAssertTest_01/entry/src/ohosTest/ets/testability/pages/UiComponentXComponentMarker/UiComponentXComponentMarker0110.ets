@@ -15,19 +15,19 @@
 
 @Entry
 @Component
-struct UiComponentMediaTextClockOutliers0071 {
+struct UiComponentXComponentMarker0110 {
   @State resultText: string = 'idle'
   build() {
     Column({ space: 16 }) {
-      Text('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071')
+      Text('SUB_ACE_UI_COMPONENT_XCOMPONENT_PRIVACY_LAYER_0110')
         .fontSize(12)
-      Button('mark_outlier')
-        .id('textclock_outlier_btn')
+      Button('mark_privacy')
+        .id('xcomp_privacy_btn')
         .onClick(() => {
-          this.resultText = 'textclock_textShadow_outlier_ok'
+          this.resultText = 'xcomponent_privacy_layer_pending'
         })
       Text(this.resultText)
-        .id('assert_result_tc_0071')
+        .id('assert_result_xc_0110')
         .fontSize(16)
     }
     .width('100%')

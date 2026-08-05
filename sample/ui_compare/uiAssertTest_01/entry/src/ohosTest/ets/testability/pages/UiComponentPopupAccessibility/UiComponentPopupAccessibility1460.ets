@@ -15,19 +15,19 @@
 
 @Entry
 @Component
-struct UiComponentMediaTextClockOutliers0071 {
+struct UiComponentPopupAccessibility1460 {
   @State resultText: string = 'idle'
   build() {
     Column({ space: 16 }) {
-      Text('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071')
+      Text('SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1460')
         .fontSize(12)
-      Button('mark_outlier')
-        .id('textclock_outlier_btn')
+      Button('mark_a11y')
+        .id('datepicker_a11y_btn')
         .onClick(() => {
-          this.resultText = 'textclock_textShadow_outlier_ok'
+          this.resultText = 'datepicker_screen_reader_pending'
         })
       Text(this.resultText)
-        .id('assert_result_tc_0071')
+        .id('assert_result_aln_1460')
         .fontSize(16)
     }
     .width('100%')

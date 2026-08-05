@@ -15,19 +15,19 @@
 
 @Entry
 @Component
-struct UiComponentMediaTextClockOutliers0071 {
+struct UiComponentPluginManager0009 {
   @State resultText: string = 'idle'
   build() {
     Column({ space: 16 }) {
-      Text('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071')
+      Text('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_0009')
         .fontSize(12)
-      Button('mark_outlier')
-        .id('textclock_outlier_btn')
+      Button('mark_push')
+        .id('plugin_push_btn_0009')
         .onClick(() => {
-          this.resultText = 'textclock_textShadow_outlier_ok'
+          this.resultText = 'plugin_push_target_bundle_ok'
         })
       Text(this.resultText)
-        .id('assert_result_tc_0071')
+        .id('assert_result_push_0009')
         .fontSize(16)
     }
     .width('100%')

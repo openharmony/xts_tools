@@ -18,21 +18,21 @@ import Settings from '../model/Settings'
 import Utils from '../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 
-export default function UiComponentMediaTextClockOutliers0071() {
-  describe('UiComponentMediaTextClockOutliers0071', () => {
+export default function UiComponentEmbeddedComponent0034() {
+  describe('UiComponentEmbeddedComponent0034', () => {
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071
-     * @tc.name   : TextClock textShadow outlier marker
-     * @tc.desc   : Verify TextClock textShadow outlier/null/undefined readiness marker path.
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0034
+     * @tc.name   : EmbeddedComponent terminateSelf marker
+     * @tc.desc   : Verify EmbeddedComponent repeated onTerminated readiness marker.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_MEDIA_TEXTCLOCK_OUTLIERS_0071', Level.LEVEL3, async (done: Function) => {
-      await Settings.changeWindow('testability/pages/UiComponentMediaTextClockOutliers/UiComponentMediaTextClockOutliers0071')
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0034', Level.LEVEL3, async (done: Function) => {
+      await Settings.changeWindow('testability/pages/UiComponentEmbeddedComponent/UiComponentEmbeddedComponent0034')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('textclock_outlier_btn'), 8000)
+      let btn = await driver.waitForComponent(ON.id('embedded_term_btn'), 8000)
       if (btn == undefined) {
         expect(false).assertTrue()
         done()
@@ -40,14 +40,14 @@ export default function UiComponentMediaTextClockOutliers0071() {
       }
       await btn.click()
       await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_tc_0071'), 5000)
+      let result = await driver.waitForComponent(ON.id('assert_result_emb_0034'), 5000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('textclock_textShadow_outlier_ok')
+      expect(text).assertEqual('embedded_onTerminated_pending')
       done()
     })
   })
