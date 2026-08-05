@@ -264,7 +264,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380
-     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and it displays correctly when accessibility mode is enabled.
+     * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and it displays correctly when a11y mode is enabled.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -831,7 +831,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530
-     * @tc.name   : Verify Toggle button displays correctly with accessibility.
+     * @tc.name   : Verify Toggle button displays correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -864,7 +864,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160
-     * @tc.name   : Verify BindPopup buttons display correctly with accessibility.
+     * @tc.name   : Verify BindPopup buttons display correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -905,7 +905,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170
-     * @tc.name   : Verify Button displays correctly with accessibility.
+     * @tc.name   : Verify Button displays correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -938,7 +938,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180
-     * @tc.name   : Verify CalendarPickerDialog buttons display correctly with accessibility.
+     * @tc.name   : Verify CalendarPickerDialog buttons display correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -988,7 +988,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210
-     * @tc.name   : Verify TimePickerDialog buttons display correctly with accessibility.
+     * @tc.name   : Verify TimePickerDialog buttons display correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -1038,7 +1038,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190
-     * @tc.name   : Verify DatePickerDialog buttons display correctly with accessibility.
+     * @tc.name   : Verify DatePickerDialog buttons display correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
@@ -1088,7 +1088,7 @@ export default function UiComponentButtonButtonRadius() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200
-     * @tc.name   : Verify TextPickerDialog buttons display correctly with accessibility.
+     * @tc.name   : Verify TextPickerDialog buttons display correctly with a11y mode.
      * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest

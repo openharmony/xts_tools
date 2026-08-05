@@ -81,7 +81,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_14b87831670c4785be8ba178c20729bd
      * @tc.name   : 多列TextPicker向下抛滑测试
-     * @tc.desc   : Verify testcase 14b87831670c4785be8ba178c20729bd interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,7 +196,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_215db3475396420780b9468f6b5ff0b2
      * @tc.name   : 多列TextPicker向上滑动测试
-     * @tc.desc   : Verify testcase 215db3475396420780b9468f6b5ff0b2 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -236,7 +236,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_22ac5a840300445d9e6492a72c6edbe5
      * @tc.name   : 单列TextPicker向下滑动测试
-     * @tc.desc   : Verify testcase 22ac5a840300445d9e6492a72c6edbe5 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -316,7 +316,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_25f6417f4ecb434d8ad92b418b28252d
      * @tc.name   : 多列TextPicker向上滑动测试
-     * @tc.desc   : Verify testcase 25f6417f4ecb434d8ad92b418b28252d interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -356,7 +356,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_2c8e0c798bf64a19a7390ba337103614
      * @tc.name   : 多列TextPicker更改选中项观察焦点显示测试
-     * @tc.desc   : Verify testcase 2c8e0c798bf64a19a7390ba337103614 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -391,7 +391,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_30039cfa9bbb4c32a4cfe2b27deb5016
      * @tc.name   : 单列TextPicker向上滑动测试
-     * @tc.desc   : Verify testcase 30039cfa9bbb4c32a4cfe2b27deb5016 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -466,7 +466,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_40339f966de94ef98a5caa6c45385505
      * @tc.name   : 单列TextPicker更改选中项观察焦点显示测试
-     * @tc.desc   : Verify testcase 40339f966de94ef98a5caa6c45385505 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -501,7 +501,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_4244b55f14754080985d09058c9f475b
      * @tc.name   : 单列TextPicker更改选中项观察焦点显示测试
-     * @tc.desc   : Verify testcase 4244b55f14754080985d09058c9f475b interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -576,7 +576,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_4668573ef865430fb5f52a7f204e3d3d
      * @tc.name   : 多列TextPicker点击下面备选项测试
-     * @tc.desc   : Verify testcase 4668573ef865430fb5f52a7f204e3d3d interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -691,7 +691,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_4f35499a5da34892a348f699a3e53544
      * @tc.name   : 多列TextPicker向上抛滑测试
-     * @tc.desc   : Verify testcase 4f35499a5da34892a348f699a3e53544 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -806,7 +806,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_6e921880c23546b790a4030d143e1cf6
      * @tc.name   : 多列TextPicker点击下面备选项测试
-     * @tc.desc   : Verify testcase 6e921880c23546b790a4030d143e1cf6 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -841,7 +841,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_7ff6b29516ae44718a7b2edfe4dc6827
      * @tc.name   : 多列TextPicker向下滑动测试
-     * @tc.desc   : Verify testcase 7ff6b29516ae44718a7b2edfe4dc6827 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -881,7 +881,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_88aed828742e415091f54af6df16ac76
      * @tc.name   : 单列TextPicker向上滑动测试
-     * @tc.desc   : Verify testcase 88aed828742e415091f54af6df16ac76 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -921,7 +921,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_8951b19265b844d2938cb2e418db6ee2
      * @tc.name   : 单列TextPicker点击下面备选项测试
-     * @tc.desc   : Verify testcase 8951b19265b844d2938cb2e418db6ee2 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -956,7 +956,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_8e8138a0d4e3456a821d13e44e0ad056
      * @tc.name   : 单列TextPicker向上滑动测试
-     * @tc.desc   : Verify testcase 8e8138a0d4e3456a821d13e44e0ad056 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -996,7 +996,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_8f5e401394864f4c81b5ae368a2d9e28
      * @tc.name   : 单列TextPicker更改选中项观察焦点显示测试
-     * @tc.desc   : Verify testcase 8f5e401394864f4c81b5ae368a2d9e28 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1031,7 +1031,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_968fc329c6ca42349f5f34703516c729
      * @tc.name   : 单列TextPicker向上/向下拖动测试
-     * @tc.desc   : Verify testcase 968fc329c6ca42349f5f34703516c729 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1076,7 +1076,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_9b0865fde4944a4bb7132ede4f0ee734
      * @tc.name   : 多列TextPicker更改选中项观察焦点显示测试
-     * @tc.desc   : Verify testcase 9b0865fde4944a4bb7132ede4f0ee734 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1111,7 +1111,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_9eb33ab9b98f4e6abbd0496d3c11a5a1
      * @tc.name   : 多列TextPicker向上/向下拖动测试
-     * @tc.desc   : Verify testcase 9eb33ab9b98f4e6abbd0496d3c11a5a1 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1156,7 +1156,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_adff3a7f152d40a1bf832657464cdd97
      * @tc.name   : 单列TextPicker向下抛滑测试
-     * @tc.desc   : Verify testcase adff3a7f152d40a1bf832657464cdd97 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1196,7 +1196,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_b299e39bc22540c1bbc92a18daacde52
      * @tc.name   : 多列TextPicker多指操作同时滑动多列测试
-     * @tc.desc   : Verify testcase b299e39bc22540c1bbc92a18daacde52 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1236,7 +1236,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_b7b3eff086254580aad762d1412f167f
      * @tc.name   : 单列TextPicker向上/向下拖动测试
-     * @tc.desc   : Verify testcase b7b3eff086254580aad762d1412f167f interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1321,7 +1321,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_bb7b577d6e3f42d1aea1beccef3ae6aa
      * @tc.name   : 多列TextPicker向上/向下拖动测试
-     * @tc.desc   : Verify testcase bb7b577d6e3f42d1aea1beccef3ae6aa interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1366,7 +1366,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_bc806ed771454bd6ae5fa168ee7968fc
      * @tc.name   : 单列TextPicker向上抛滑测试
-     * @tc.desc   : Verify testcase bc806ed771454bd6ae5fa168ee7968fc interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1406,7 +1406,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_c01c175a018347d298ded2bbaa2d0348
      * @tc.name   : 单列TextPicker向上抛滑测试
-     * @tc.desc   : Verify testcase c01c175a018347d298ded2bbaa2d0348 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1446,7 +1446,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_c4dea52734874179b91657dfcadc88ff
      * @tc.name   : 多列TextPicker点击上面备选项测试
-     * @tc.desc   : Verify testcase c4dea52734874179b91657dfcadc88ff interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1481,7 +1481,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_c64edd5197f34871948a2e906c3c0dc8
      * @tc.name   : 单列TextPicker向下滑动测试
-     * @tc.desc   : Verify testcase c64edd5197f34871948a2e906c3c0dc8 interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1521,7 +1521,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_c6ef566c80ff4adab2548e723f44b8be
      * @tc.name   : 多列TextPicker向下抛滑测试
-     * @tc.desc   : Verify testcase c6ef566c80ff4adab2548e723f44b8be interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1561,7 +1561,7 @@ export default function TextPickerAllTestCases() {
     /*
      * @tc.number : TestCase_cf66f56aac5b470b9a487312c914b36b
      * @tc.name   : 单列TextPicker点击上面备选项测试
-     * @tc.desc   : Verify testcase cf66f56aac5b470b9a487312c914b36b interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1634,36 +1634,36 @@ export default function TextPickerAllTestCases() {
     });
 
     /*
-     * @tc.number : TestCase_d98d83da5bbc4618bca575c09837928b
+     * @tc.number : TestCase_this case
      * @tc.name   : 单列TextPicker点击下面备选项测试
-     * @tc.desc   : Verify testcase d98d83da5bbc4618bca575c09837928b interface behavior and expected UI result for this case.
+     * @tc.desc   : Verify TextPicker UI interaction and expected visual result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_d98d83da5bbc4618bca575c09837928b', Level.LEVEL3, async (done: Function) => {
+    it('TestCase_this case', Level.LEVEL3, async (done: Function) => {
       let driver: Driver = Driver.create();
       Settings.createWindow("testability/pages/textPicker/textPickerTestCase42");
       await driver.waitForIdle(500, 2000);
 
       try {
-        console.info('TEST_d98d83da5bbc4618bca575c09837928b: 开始查找TextPicker组件 (textPicker_42)');
+        console.info('TEST_this case: 开始查找TextPicker组件 (textPicker_42)');
         let textPicker: Component = await driver.waitForComponent(ON.id('textPicker_42'), 1000);
-        console.info('TEST_d98d83da5bbc4618bca575c09837928b: 成功找到TextPicker组件');
+        console.info('TEST_this case: 成功找到TextPicker组件');
 
-        console.info('TEST_d98d83da5bbc4618bca575c09837928b: 开始点击TextPicker');
+        console.info('TEST_this case: 开始点击TextPicker');
         await textPicker.click();
-        console.info('TEST_d98d83da5bbc4618bca575c09837928b: TextPicker点击完成');
+        console.info('TEST_this case: TextPicker点击完成');
         await driver.waitForIdle(1000, 2000);
 
-        await windowSnap.snapShot('TestCase_d98d83da5bbc4618bca575c09837928b');
+        await windowSnap.snapShot('TestCase_this case');
         await Utils.sleep(1000);
 
-        console.info('TEST_d98d83da5bbc4618bca575c09837928b: 测试用例执行成功');
+        console.info('TEST_this case: 测试用例执行成功');
         done();
       } catch (error) {
-        console.error('TEST_d98d83da5bbc4618bca575c09837928b: 测试用例执行失败 - ' + JSON.stringify(error));
-        console.error('TEST_d98d83da5bbc4618bca575c09837928b: 错误堆栈: ' + error.message);
+        console.error('TEST_this case: 测试用例执行失败 - ' + JSON.stringify(error));
+        console.error('TEST_this case: 错误堆栈: ' + error.message);
         expect().assertFail();
       }
     });

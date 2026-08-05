@@ -40,15 +40,15 @@ export default function FocusSegmentButtonTest() {
     })
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010
-     * @tc.name   : Button segmentbuttom accessibility
-     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010
+     * @tc.name   : Button segmentbuttom a11y
+     * @tc.desc   : Verify button segmentbuttom a11y interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010 start.`);
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010 start.`);
       try {
         Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0010");
         let driver: Driver = await Driver.create();
@@ -80,23 +80,23 @@ export default function FocusSegmentButtonTest() {
         await windowSnap.snapShot();
         await Utils.sleep(1000);
 
-        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010 end.`);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010 end.`);
       } catch (err) {
-        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0010 error: ${err}`);
+        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0010 error: ${err}`);
       }
       done();
     });
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020
-     * @tc.name   : Button segmentbuttom accessibility
-     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020
+     * @tc.name   : Button segmentbuttom a11y
+     * @tc.desc   : Verify button segmentbuttom a11y interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020 start.`);
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020 start.`);
       try {
         await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0020");
         let driver: Driver = await Driver.create();
@@ -128,23 +128,23 @@ export default function FocusSegmentButtonTest() {
         await windowSnap.snapShot();
         await Utils.sleep(1000);
 
-        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020 end.`);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020 end.`);
       } catch (err) {
-        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0020 error: ${err}`);
+        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0020 error: ${err}`);
       }
       done();
     });
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030
-     * @tc.name   : Button segmentbuttom accessibility
-     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030
+     * @tc.name   : Button segmentbuttom a11y
+     * @tc.desc   : Verify button segmentbuttom a11y interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030 start.`);
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030 start.`);
       try {
         await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0030");
         let driver: Driver = await Driver.create();
@@ -162,23 +162,23 @@ export default function FocusSegmentButtonTest() {
         await windowSnap.snapShot();
         await Utils.sleep(1000);
 
-        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030 end.`);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030 end.`);
       } catch (err) {
-        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0030 error: ${err}`);
+        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0030 error: ${err}`);
       }
       done();
     });
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050
-     * @tc.name   : Button segmentbuttom accessibility
-     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050
+     * @tc.name   : Button segmentbuttom a11y
+     * @tc.desc   : Verify button segmentbuttom a11y interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050 start.`);
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050 start.`);
       try {
         await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0050");
         let driver: Driver = await Driver.create();
@@ -205,23 +205,23 @@ export default function FocusSegmentButtonTest() {
         await windowSnap.snapShot();
         await Utils.sleep(1000);
 
-        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050 end.`);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050 end.`);
       } catch (err) {
-        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0050 error: ${err}`);
+        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0050 error: ${err}`);
       }
       done();
     });
 
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100
-     * @tc.name   : Button segmentbuttom accessibility
-     * @tc.desc   : Verify button segmentbuttom accessibility interface behavior and expected UI result for this case.
+     * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100
+     * @tc.name   : Button segmentbuttom a11y
+     * @tc.desc   : Verify button segmentbuttom a11y interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100', Level.LEVEL3, async (done: Function) => {
-      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100 start.`);
+    it('SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100', Level.LEVEL3, async (done: Function) => {
+      Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100 start.`);
       try {
         await Settings.createWindow("testability/pages/focus_SegmentButton/SegmentButton0100");
         let driver: Driver = await Driver.create();
@@ -248,9 +248,9 @@ export default function FocusSegmentButtonTest() {
         await windowSnap.snapShot();
         await Utils.sleep(1000);
 
-        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100 end.`);
+        Logger.info('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100 end.`);
       } catch (err) {
-        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_ACCESSIBILITY_0100 error: ${err}`);
+        Logger.error('TEST', `SUB_ACE_UI_COMPONENT_BUTTON_SEGMENTBUTTOM_A11Y_0100 error: ${err}`);
       }
       done();
     });
