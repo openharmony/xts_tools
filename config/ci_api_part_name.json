@@ -4806,6 +4806,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.resourceschedule.deviceStandby.d.ts",
+            "bundle_name": [
+                "device_standby"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.net.statistics.d.ts",
             "bundle_name": [
                 "netmanager_base"
