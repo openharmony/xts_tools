@@ -5,6 +5,12 @@
     "testability/pages/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0086",
     "testability/pages/UiComponentMediaTextClockOutliers/UiComponentMediaTextClockOutliers0071",
     "testability/pages/UiComponentDisplayNative/UiComponentDisplayNative0070",
-    "testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface0040"
+    "testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface0040",
+    "testability/pages/UiComponentMediaPcEvent/UiComponentMediaPcEvent0027",
+    "testability/pages/UiComponentMediaDatePickerMode/UiComponentMediaDatePickerMode0024",
+    "testability/pages/UiComponentDisplayNative/UiComponentDisplayNative0110",
+    "testability/pages/UiComponentMediaPickerContainer/UiComponentMediaPickerContainer0085",
+    "testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface002",
+    "testability/pages/UiComponent0803Batch/UiComponent0803Batch0001"
   ]
 }
