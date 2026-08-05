@@ -18,14 +18,17 @@
 ```text
     /*
      * @tc.number : <完整测试号>
-     * @tc.name   : <英文用例名>
+     * @tc.name   : <英文短标题，勿直接填测试号>
+     * @tc.desc   : <英文描述：说明本用例验证的接口/属性/行为>
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
 ```
 
-字段顺序与空格对齐以上模板；缺字段须补齐。
+字段顺序与空格对齐以上模板；缺字段须补齐。`@tc.desc` **必填**，用英文说明测的是什么接口或场景。
+
+工具：`python3 tools/unify_tc_comments.py`（会尽量从用例号与 0803 xlsx 名称生成英文 name/desc，并保留 CRLF）。
 
 ## 对比配置
 
@@ -49,5 +52,3 @@
 - [tools/unify_tc_comments.py](tools/unify_tc_comments.py) — 统一活跃 Suite 注释
 - [tools/gen_or_fill_uicompare_json.py](tools/gen_or_fill_uicompare_json.py) — 补齐/回填对比 json5
 - [tools/split_0803_xlsx.py](tools/split_0803_xlsx.py) — 从 xlsx 生成分流清单
-- [tools/gen_snap13_progress_batch.py](tools/gen_snap13_progress_batch.py) — `_13` Progress/Loading 首批生成
-- [tools/gen_assert01_batch.py](tools/gen_assert01_batch.py) — `uiAssertTest_01` 首批生成
