@@ -44,6 +44,7 @@ export default function navigationContent01Test() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030
      * @tc.name   : In Stack mode, hide the toolbar and titlebar simultaneously. Extend the content area to the status bar and Aibar.
+     * @tc.desc   : Verify nav navigation contentexpansion interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,6 +67,7 @@ export default function navigationContent01Test() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0290
      * @tc.name   : Use Modifier to hide the toolbar and titlebar simultaneously. Extend the content area to the status bar and Aibar, and disable safety area extension upper and lower.
+     * @tc.desc   : Verify nav navigation contentexpansion interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

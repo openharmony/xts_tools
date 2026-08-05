@@ -41,6 +41,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0160
      * @tc.name   : List启用链式联动动效，划动List
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,6 +73,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0170
      * @tc.name   : List不启用链式联动动效，滑动List
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +105,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0180
      * @tc.name   : List组件横向分布，划动后点击顶部状态栏
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,6 +139,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0330
      * @tc.name   : Grid不规则布局，划动后点击顶部状态栏
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,6 +172,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0340
      * @tc.name   : Grid嵌套不同滚动组件，划动后点击顶部状态栏
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,6 +205,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0650
      * @tc.name   : 滚动组件和scrollToIndex组合测试
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +237,7 @@ export default function ScrollToTopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLLTOTOP_0660
      * @tc.name   : 滚动组件数据为200时
+     * @tc.desc   : Verify scrolltotop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

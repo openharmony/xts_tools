@@ -43,6 +43,7 @@ export default function ImageNetworkTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NETWORKPICTURES_0020
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media networkpictures interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageNetworkTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_NETWORKPICTURES_0040
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media networkpictures interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -45,7 +45,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0290_177
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,7 +64,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0170_861
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +83,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0400_045
+     * @tc.name   : Nav navigation symbol
+     * @tc.desc   : Verify nav navigation symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0370
+     * @tc.name   : Nav navigation baseproperty
+     * @tc.desc   : Verify nav navigation baseproperty interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0300_496
+     * @tc.name   : Nav navigation back
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -212,7 +217,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYSTEMBARSTYLE_0060_024
+     * @tc.name   : Nav navigation systembarstyle
+     * @tc.desc   : Verify nav navigation systembarstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,7 +246,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0020_405
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +265,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0200_811
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,7 +284,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_CONTENTEXPANSION_0030_227
+     * @tc.name   : Nav navigation contentexpansion
+     * @tc.desc   : Verify nav navigation contentexpansion interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +303,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0230_354
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -312,7 +322,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0730_530
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,7 +341,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0050_299
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -348,7 +360,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_SYMBOL_0140_226
+     * @tc.name   : Nav navigation symbol
+     * @tc.desc   : Verify nav navigation symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -366,7 +379,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0310_250
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -384,7 +398,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0240_508
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -402,7 +417,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0090_618
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,7 +436,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0070_571
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -438,7 +455,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0100_771
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,7 +474,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0510_988
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -474,7 +493,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0340_021
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -492,7 +512,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0740_522
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -510,7 +531,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_216
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -528,7 +550,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0590_474
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -548,7 +571,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0360
+     * @tc.name   : Nav navigation baseproperty
+     * @tc.desc   : Verify nav navigation baseproperty interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -568,7 +592,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BASEPROPERTY_0260
+     * @tc.name   : Nav navigation baseproperty
+     * @tc.desc   : Verify nav navigation baseproperty interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -589,7 +614,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0720_462
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -610,7 +636,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0380_470
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -628,7 +655,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0030_369
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -646,7 +674,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0040_448
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -664,7 +693,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_053
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -682,7 +712,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0140_557
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -700,7 +731,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0570_324
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -720,7 +752,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0330_250
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -739,7 +772,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0290_249
+     * @tc.name   : Nav navigation back
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -832,7 +866,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0080_285
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -850,7 +885,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0490_747
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -868,7 +904,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0220_957
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -886,7 +923,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0370_072
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -910,7 +948,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0210_165
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -928,7 +967,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_BACK_0280_916
+     * @tc.name   : Nav navigation back
+     * @tc.desc   : Verify nav navigation back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1021,7 +1061,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0010_249
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1039,7 +1080,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0360_448
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1057,7 +1099,8 @@ export default function NavigationInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACE_0580_781
+     * @tc.name   : Nav navigation interface
+     * @tc.desc   : Verify nav navigation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

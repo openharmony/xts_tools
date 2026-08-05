@@ -41,6 +41,7 @@ export default function ListMaintainVisibleContentPositionTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0070
      * @tc.name   : List组件maintainVisibleContentPosition设置为true，设置cachedcount测试
+     * @tc.desc   : Verify listandgrid list maintainvisiblecontentposition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -94,6 +95,7 @@ export default function ListMaintainVisibleContentPositionTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0020
      * @tc.name   : List组件maintainVisibleContentPosition设置为undefined测试
+     * @tc.desc   : Verify listandgrid list maintainvisiblecontentposition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +149,7 @@ export default function ListMaintainVisibleContentPositionTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0060
      * @tc.name   : List组件maintainVisibleContentPosition设置为true，设置cachedcount测试
+     * @tc.desc   : Verify listandgrid list maintainvisiblecontentposition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,6 +203,7 @@ export default function ListMaintainVisibleContentPositionTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0210
      * @tc.name   : List组件maintainVisibleContentPosition设置为true，显示区域上方增删数据测试
+     * @tc.desc   : Verify listandgrid list maintainvisiblecontentposition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,6 +257,7 @@ export default function ListMaintainVisibleContentPositionTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MAINTAINVISIBLECONTENTPOSITION_0260
      * @tc.name   : List组件maintainVisibleContentPosition设置为true，显示区域上方增删item，item内信息包括表情包，照片，视频，文字，增删的时候滑动页面测试
+     * @tc.desc   : Verify listandgrid list maintainvisiblecontentposition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

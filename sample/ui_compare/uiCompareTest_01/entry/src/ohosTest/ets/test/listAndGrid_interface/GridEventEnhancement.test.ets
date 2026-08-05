@@ -42,6 +42,7 @@ export default function GridEventEnhancementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0060_165
      * @tc.name   : 验证边缘设置回弹效果触发onReachStart事件
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

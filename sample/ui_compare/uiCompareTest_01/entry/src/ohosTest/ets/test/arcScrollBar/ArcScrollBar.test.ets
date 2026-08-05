@@ -43,6 +43,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0010
      * @tc.name   : ArcScrollBar binds same scroller with List, Grid, Scroll
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,6 +75,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0020
      * @tc.name   : ArcScrollBar not binds same scroller with List, Grid, Scroll
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +107,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0030
      * @tc.name   : ArcScrollBar sets state to On
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -134,6 +137,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0040
      * @tc.name   : ArcScrollBar sets state to Auto
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,6 +174,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0050
      * @tc.name   : ArcScrollBar sets state to Off
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +206,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0060
      * @tc.name   : ArcScrollBar dynamically changes state
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,6 +245,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0070
      * @tc.name   : ArcScrollBar not sets state
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,6 +282,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0080
      * @tc.name   : List and Grid call scrollTo and scrollToIndex
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +321,7 @@ export default function ArcScrollBarTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT__CROWN_ARCSCROLLBAR_0100
      * @tc.name   : Use crown rotation to scroll List, Grid, Scroll
+     * @tc.desc   : Verify crown arcscrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

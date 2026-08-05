@@ -42,6 +42,7 @@ export default function GridAlignItemsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0120
      * @tc.name   : Gridlayoutoption场景测试alignItems
+     * @tc.desc   : Verify grid alignltems interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,6 +61,7 @@ export default function GridAlignItemsTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0130
      * @tc.name   : repeat加载GridItem场景下，测试alignItems属性
+     * @tc.desc   : Verify grid alignltems interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

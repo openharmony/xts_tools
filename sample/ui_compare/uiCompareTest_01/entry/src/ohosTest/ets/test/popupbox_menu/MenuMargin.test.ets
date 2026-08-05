@@ -41,7 +41,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0010
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,7 +67,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0020
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +93,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0030
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +119,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0040
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +145,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0050
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +171,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0060
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,7 +197,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0070
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +223,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0080
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,7 +249,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0090
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,7 +280,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0100
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,7 +311,8 @@ export default function MenuMarginTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_MARGIN_0110
+     * @tc.name   : Popupbox menu margin
+     * @tc.desc   : Verify popupbox menu margin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

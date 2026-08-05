@@ -41,7 +41,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0010
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,7 +71,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0020
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +101,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0030
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +122,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0040
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +143,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0050
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +164,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0060
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +185,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0080
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +206,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0090
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +227,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0120
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,7 +253,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0130
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -269,7 +279,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0140
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -289,7 +300,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0150
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,7 +321,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0160
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +342,8 @@ export default function ListItemGroupMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_MIRROR_0170
+     * @tc.name   : Listandgrid listitemgroup mirror layout
+     * @tc.desc   : Verify listandgrid listitemgroup mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

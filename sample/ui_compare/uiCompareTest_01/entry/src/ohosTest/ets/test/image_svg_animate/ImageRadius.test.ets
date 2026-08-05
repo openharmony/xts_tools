@@ -43,6 +43,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0010
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0011
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0012
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0013
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0014
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERRADIUS_0015
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderradius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +157,7 @@ export default function ImageRadiusTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0011
      * @tc.name   : Image with svg
+     * @tc.desc   : Verify media Image fillcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

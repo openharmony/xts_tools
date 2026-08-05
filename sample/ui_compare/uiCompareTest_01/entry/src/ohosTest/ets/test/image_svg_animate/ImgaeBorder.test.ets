@@ -43,6 +43,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0011
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0012
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0013
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0014
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0015
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0016
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +157,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0010
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +176,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0011
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +195,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0012
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,6 +214,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0013
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +233,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0014
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +252,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0015
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +271,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0016
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +290,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0017
      * @tc.name   : Image with url
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +309,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0018
      * @tc.name   : Image border rendering 0018
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +328,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0019
      * @tc.name   : Image border rendering 0019
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +347,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0020
      * @tc.name   : Image border rendering 0020
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +366,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0021
      * @tc.name   : Image border rendering 0021
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +385,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0022
      * @tc.name   : Image border rendering 0022
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +404,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0023
      * @tc.name   : Image border rendering 0023
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -403,6 +423,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0024
      * @tc.name   : Image border rendering 0024
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -421,6 +442,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0025
      * @tc.name   : Image border rendering 0025
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -439,6 +461,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0026
      * @tc.name   : Image border rendering 0026
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -457,6 +480,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0027
      * @tc.name   : Image border rendering 0027
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -475,6 +499,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0028
      * @tc.name   : Image border rendering 0028
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -493,6 +518,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0029
      * @tc.name   : Image border rendering 0029
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,6 +537,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0030
      * @tc.name   : Image border rendering 0030
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -529,6 +556,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0031
      * @tc.name   : Image border rendering 0031
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -547,6 +575,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0032
      * @tc.name   : Image border rendering 0032
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -565,6 +594,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0033
      * @tc.name   : Image border rendering 0033
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -583,6 +613,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0034
      * @tc.name   : Image border rendering 0034
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -601,6 +632,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0035
      * @tc.name   : Image border rendering 0035
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -619,6 +651,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0036
      * @tc.name   : Image border rendering 0036
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -637,6 +670,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0037
      * @tc.name   : Image border rendering 0037
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -655,6 +689,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0038
      * @tc.name   : Image border rendering 0038
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -673,6 +708,7 @@ export default function ImageBorderTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDERIMAGE_0039
      * @tc.name   : Image border rendering 0039
+     * @tc.desc   : Verify media Image borderimage interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

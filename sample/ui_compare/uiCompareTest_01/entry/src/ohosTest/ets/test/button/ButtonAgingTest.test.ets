@@ -42,7 +42,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0420
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,7 +71,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1060
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,7 +100,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0400
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,7 +129,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1100
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,7 +158,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0370
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +187,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1090
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,7 +216,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0430
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,7 +245,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1070
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -266,7 +274,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0390
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +303,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1040
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -322,7 +332,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0410
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,7 +361,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1080
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -378,7 +390,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0440
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -406,7 +419,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1050
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -434,7 +448,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0840
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -457,7 +472,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0660
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -485,7 +501,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0830
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -508,7 +525,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0680
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -531,7 +549,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0810
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -554,7 +573,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0640
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -582,7 +602,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0450
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -610,7 +631,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0620
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -638,7 +660,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0380
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -666,7 +689,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0630
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -694,7 +718,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0850
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -717,7 +742,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0800
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -740,7 +766,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0650
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -768,7 +795,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0670
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -792,7 +820,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0920
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -820,7 +849,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0700
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -848,7 +878,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0320
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -872,7 +903,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1110
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -896,7 +928,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0860
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -919,7 +952,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0690
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -943,7 +977,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0950
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -971,7 +1006,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0720
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -995,7 +1031,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0080
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1018,7 +1055,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0890
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1046,7 +1084,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0710
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1074,7 +1113,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0020
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1109,7 +1149,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0880
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1137,7 +1178,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0740
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1160,7 +1202,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0090
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1188,7 +1231,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0870
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1211,7 +1255,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0730
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1234,7 +1279,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0040
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1257,7 +1303,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0930
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1285,7 +1332,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0770
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1309,7 +1357,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0050
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1337,7 +1386,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0910
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1365,7 +1415,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0760
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1389,7 +1440,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0070
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1417,7 +1469,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0900
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1445,7 +1498,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0750
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1468,7 +1522,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0010
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1503,7 +1558,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0940
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1531,7 +1587,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1130
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1559,7 +1616,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0100
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1587,7 +1645,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0820
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1615,7 +1674,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1120
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1643,7 +1703,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0160
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1671,7 +1732,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0460
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1699,7 +1761,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1160
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1727,7 +1790,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0120
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1754,7 +1818,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0470
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1782,7 +1847,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1200
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1810,7 +1876,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0110
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1834,7 +1901,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0480
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1862,7 +1930,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1150
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1890,7 +1959,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0030
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1913,7 +1983,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0510
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1941,7 +2012,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1140
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1969,7 +2041,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0060
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1997,7 +2070,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0490
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2025,7 +2099,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1180
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2053,7 +2128,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0140
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2090,7 +2166,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0500
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2118,7 +2195,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1240
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2146,7 +2224,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0150
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2169,7 +2248,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0520
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2197,7 +2277,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1220
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2225,7 +2306,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0130
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2261,7 +2343,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0540
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2289,7 +2372,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1210
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2317,7 +2401,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0190
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2340,7 +2425,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0560
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2368,7 +2454,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1250
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2396,7 +2483,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0180
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2419,7 +2507,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0600
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2442,7 +2531,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1170
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2470,7 +2560,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0200
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2489,7 +2580,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0230
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2512,7 +2604,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0530
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2540,7 +2633,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0570
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2568,7 +2662,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1230
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2596,7 +2691,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0780
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2619,7 +2715,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0240
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2647,7 +2744,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0580
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2670,7 +2768,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1260
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2697,7 +2796,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0220
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2725,7 +2825,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0550
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2753,7 +2854,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1270
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2780,7 +2882,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0170
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2803,7 +2906,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0590
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2826,7 +2930,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0790
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2849,7 +2954,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0260
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2877,7 +2983,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0610
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2900,7 +3007,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1190
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2928,7 +3036,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0250
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2956,7 +3065,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0960
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2984,7 +3094,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0210
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3003,7 +3114,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0970
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3031,7 +3143,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0340
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3059,7 +3172,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0980
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3087,7 +3201,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0360
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3110,7 +3225,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1010
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3133,7 +3249,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0310
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3156,7 +3273,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1000
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3179,7 +3297,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0350
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3202,7 +3321,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1030
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3230,7 +3350,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0300
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3253,7 +3374,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_1020
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3281,7 +3403,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0330
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3304,7 +3427,8 @@ export default function ButtonAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_SUITABLEFORAGING_0990
+     * @tc.name   : Button suitableforaging
+     * @tc.desc   : Verify button suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

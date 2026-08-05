@@ -44,6 +44,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0010
      * @tc.name   : Navigation支持关闭单双栏切换动效（enableModeChangeAnimation正常值测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,6 +103,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0020
      * @tc.name   : Navigation支持关闭单双栏切换动效（enableModeChangeAnimation异常值测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -160,6 +162,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0030
      * @tc.name   : Navigation支持关闭单双栏切换动效（Auto模式，横竖屏切换测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -209,6 +212,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0040
      * @tc.name   : Navigation支持关闭单双栏切换动效（Stack切换Split、Split切换Stack场景测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -252,6 +256,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0050
      * @tc.name   : Navigation支持关闭单双栏切换动效（Stack切换Auto、Auto切换Stack场景测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -308,6 +313,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0060
      * @tc.name   : Navigation支持关闭单双栏切换动效（Split切换Auto、Auto切换Split场景测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,6 +364,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0070
      * @tc.name   : Navigation支持关闭单双栏切换动效（隐藏、显示navbar场景测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -401,6 +408,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0080
      * @tc.name   : Navigation支持关闭单双栏切换动效（modifier测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -439,6 +447,7 @@ export default function NavigationEnableModeChangeAnimationTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ENABLEMODECHANGEANIMATION_0090
      * @tc.name   : Navigation支持关闭单双栏切换动效（单双栏组合场景测试）
+     * @tc.desc   : Verify nav navigation enablemodechangeanimation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

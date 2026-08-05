@@ -42,7 +42,8 @@ export default function MediaImageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BORDER_0010
+     * @tc.name   : Media Image border
+     * @tc.desc   : Verify media Image border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +61,8 @@ export default function MediaImageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0022
+     * @tc.name   : Media Image focusable
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +89,8 @@ export default function MediaImageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0024
+     * @tc.name   : Media Image focusable
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +117,8 @@ export default function MediaImageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0010
+     * @tc.name   : Media Image focusable
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +145,8 @@ export default function MediaImageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOCUSABLE_0016
+     * @tc.name   : Media Image focusable
+     * @tc.desc   : Verify media Image focusable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +173,8 @@ export default function MediaImageTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FILLCOLOR_0010
+     * @tc.name   : Media Image fillcolor
+     * @tc.desc   : Verify media Image fillcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

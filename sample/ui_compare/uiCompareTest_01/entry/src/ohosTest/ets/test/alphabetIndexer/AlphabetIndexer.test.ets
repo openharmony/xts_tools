@@ -43,6 +43,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0180
      * @tc.name   : Attribute - popupBackground(value: ResourceColor) - Take string value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,6 +64,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0250
      * @tc.name   : Attribute - popupBackground(value: ResourceColor) - Not set
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,6 +85,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0200
      * @tc.name   : Attribute - popupBackground(value: ResourceColor) - Set to rgb value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +106,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0190
      * @tc.name   : Attribute - popupBackground(value: ResourceColor) - Take enum value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +127,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0170
      * @tc.name   : Attribute - popupBackground(value: ResourceColor) - Take number value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +148,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0010
      * @tc.name   : Attribute - alignStyle(value: IndexerAlign) - Left
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,6 +169,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0020
      * @tc.name   : Attribute - alignStyle(value: IndexerAlign) - Right
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +190,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0240
      * @tc.name   : Attribute - popupColor(value: ResourceColor) - Take string value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,6 +211,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0230
      * @tc.name   : Attribute - popupColor(value: ResourceColor) - Take number value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +232,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0210
      * @tc.name   : Attribute - popupColor(value: ResourceColor) - Not set
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -243,6 +253,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0260
      * @tc.name   : Attribute - popupColor(value: ResourceColor) - Set to rgb value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,6 +274,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0250
      * @tc.name   : Attribute - popupColor(value: ResourceColor) - Take enum value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -283,6 +295,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0300
      * @tc.name   : Attribute - popupPosition(value: Position) - Default value
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -303,6 +316,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0280
      * @tc.name   : Attribute - popupFont(value: Font) - Default configuration
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -323,6 +337,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0480
      * @tc.name   : Attribute - usingPopup(value: boolean) - false .usingPopup(false)
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,6 +358,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0500
      * @tc.name   : Attribute - usingPopup(value: boolean) - Not configured
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,6 +379,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_ATTRIBUTE_0490
      * @tc.name   : Attribute - usingPopup(value: boolean) - true .usingPopup(true)
+     * @tc.desc   : Verify other alphabetindexer attribute interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,6 +400,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0380
      * @tc.name   : Set AlphabetIndexer's popupTitleBackground attribute parameter to color.red
+     * @tc.desc   : Verify other alphabetindexer improve interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -403,6 +421,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0310
      * @tc.name   : Set AlphabetIndexer's popupBackgroundBlurStyle attribute parameter to COMPONENT_REGULAR
+     * @tc.desc   : Verify other alphabetindexer improve interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -423,6 +442,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0220
      * @tc.name   : Set AlphabetIndexer's popupBackgroundBlurStyle attribute parameter to Regular
+     * @tc.desc   : Verify other alphabetindexer improve interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -443,6 +463,7 @@ export default function AlphabetIndexerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0250
      * @tc.name   : Set AlphabetIndexer's popupBackgroundBlurStyle attribute parameter to BACKGROUND_REGULAR
+     * @tc.desc   : Verify other alphabetindexer improve interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

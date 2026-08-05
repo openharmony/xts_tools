@@ -41,7 +41,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_0010
+     * @tc.name   : Arclist
+     * @tc.desc   : Verify arclist interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,7 +74,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_0030
+     * @tc.name   : Arclist
+     * @tc.desc   : Verify arclist interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +120,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_0040
+     * @tc.name   : Arclist
+     * @tc.desc   : Verify arclist interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,7 +145,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_DIRECTION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_DIRECTION_0010
+     * @tc.name   : Arclist direction
+     * @tc.desc   : Verify arclist direction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +170,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_PM_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_PM_0010
+     * @tc.name   : Arclist pm
+     * @tc.desc   : Verify arclist pm interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -197,7 +202,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0040
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,7 +232,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0050
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -268,7 +275,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0060
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -289,7 +297,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0070
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,7 +326,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0080
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,7 +353,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0090
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,7 +386,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0110
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,7 +411,8 @@ export default function ArcListTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLISTITEM_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLISTITEM_0010
+     * @tc.name   : Arclistitem
+     * @tc.desc   : Verify arclistitem interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

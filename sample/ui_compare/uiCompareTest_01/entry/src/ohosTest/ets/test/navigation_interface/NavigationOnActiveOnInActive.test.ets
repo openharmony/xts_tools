@@ -45,6 +45,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0010
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，只push STANDARD页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +116,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0020
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，只push DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,6 +187,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0030
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，push STANDARD、DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +258,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0040
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，push STANDARD、DIALOG页面，使用MOVE_TO_TOP_SINGLETON）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -337,6 +341,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0050
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，push STANDARD、DIALOG页面，使用POP_TO_SINGLETON）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,6 +424,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0060
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作replace接口，replace STANDARD页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -489,6 +495,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0070
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作replace接口，replace DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -559,6 +566,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0080
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作replace接口，replace STANDARD页面，使用MOVE_TO_TOP_SINGLETON）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -629,6 +637,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0090
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作replace接口，replace STANDARD页面，使用POP_TO_SINGLETON）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -699,6 +708,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0100
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作moveIndexToTop STANDARD页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -781,6 +791,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0110
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作moveIndexToTop DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -875,6 +886,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0120
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作pop接口，pop STANDARD、DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -957,6 +969,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0130
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作pop接口，popToIndex STANDARD、DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1039,6 +1052,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0140
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作remove STANDARD页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1109,6 +1123,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0150
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作remove DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1203,6 +1218,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0160
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作remove STANDARD、DIALOG页面）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1297,6 +1313,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0170
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作clear）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1367,6 +1384,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0180
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（返回键+侧滑返回）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1466,6 +1484,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0190
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，关闭动画，参数animated设置为false）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1560,6 +1579,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0200
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作push接口，关闭动画，disableAnimation设置为true）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1666,6 +1686,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0210
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（自定义动画场景）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1736,6 +1757,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0220
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用push*3,pop*2）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1794,6 +1816,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0230
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用pop*3）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1910,6 +1933,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0240
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用move*3,pop*2）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2008,6 +2032,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0260
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用push+pushDestination）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2037,6 +2062,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0270
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（栈操作一次调用replace+moveToTop）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2066,6 +2092,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0280
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（aboutToAppear进行栈操作，remove接口测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2095,6 +2122,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0290
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（aboutToAppear进行栈操作，push接口测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2124,6 +2152,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0300
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（OnReady进行栈操作，push接口测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2153,6 +2182,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0310
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套场景）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2235,6 +2265,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0320
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套操作，replaceDestination+pushPath结合）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2285,6 +2316,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0330
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（Navigation嵌套操作，pushDestination+pushPath结合）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2315,6 +2347,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0340
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（同一个页面存在两个navigation）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2395,6 +2428,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0350
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（跳转hsp测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2453,6 +2487,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0360
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（路由栈派生类场景测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2515,6 +2550,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0370
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（通过queryNavigationInfo获取栈操作场景）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2577,6 +2613,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0380
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（无感监听场景）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2659,6 +2696,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0390
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（子窗口场景）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2753,6 +2791,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0410
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（visibility测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2811,6 +2850,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0420
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（前后台切换场景测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2875,6 +2915,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0430
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（锁屏解锁场景测试）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2939,6 +2980,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0440
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件pushUrl多实例场景验证）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3026,6 +3068,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0450
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件pushUrl单实例场景验证）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3120,6 +3163,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0460
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件replaceUrl多实例场景验证）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3195,6 +3239,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0470
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，router组件replaceUrl单实例场景验证）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3282,6 +3327,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0480
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，back场景验证）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3381,6 +3427,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0490
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（router组件场景，replaceNamedRoute场景验证）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3463,6 +3510,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0500
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3509,6 +3557,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0510
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，push half-modal）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3555,6 +3604,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0520
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，pop half-modal）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3613,6 +3663,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0530
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（half-modal场景，replace half-modal）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3671,6 +3722,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0540
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，push full-modal）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3717,6 +3769,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0550
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，pop full-modal）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3775,6 +3828,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0560
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（full-modal场景，replace full-modal）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3833,6 +3887,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0570
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，show CustomDialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3891,6 +3946,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0580
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，close CustomDialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3961,6 +4017,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0590
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（CustomDialog场景，show multiple CustomDialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4031,6 +4088,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0620
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，show dialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4089,6 +4147,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0630
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，close dialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4159,6 +4218,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0640
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.showDialog场景，push page while dialog showing）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4229,6 +4289,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0650
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.openCustomDialog场景，show custom dialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4287,6 +4348,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0680
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（promptAction.openCustomDialog场景，show multiple custom dialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4357,6 +4419,7 @@ export default function NavigationOnActiveOnInActiveTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_ONACTIVEONINACTIVE_0690
      * @tc.name   : NavDestination新增OnActive和OnInActive生命周期（UIContext dialog场景，show dialog）
+     * @tc.desc   : Verify nav navigation onactiveoninactive interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

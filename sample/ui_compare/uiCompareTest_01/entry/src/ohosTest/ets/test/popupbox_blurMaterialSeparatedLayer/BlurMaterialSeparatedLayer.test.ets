@@ -43,6 +43,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0020
      * @tc.name   : AlertDialog设置primaryButton（两个按钮）、backgroundBlurStyle（BACKGROUND_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0030
      * @tc.name   : popup设置 popupOption、不设置按钮（纯文本）、backgroundBlurStyle（Thick）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,6 +93,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0060
      * @tc.name   : AlertDialog设置primaryButton（一个按钮）、backgroundBlurStyle（Thin）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,6 +116,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0090
      * @tc.name   : Customdialog设置backgroundBlurStyle（COMPONENT_ULTRA_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,6 +143,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0120
      * @tc.name   : ActionSheet设置backgroundBlurStyle（null）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -161,6 +166,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0130
      * @tc.name   : toast设置SYSTEM_TOP_MOST、backgroundBlurStyle（undefined）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +189,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0080
      * @tc.name   : popup设置 popupOption、设置按钮（primaryButton）、backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -209,6 +216,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0100
      * @tc.name   : Customdialog设置backgroundBlurStyle（undefined）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -235,6 +243,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0150
      * @tc.name   : popup设置 popupOption、不设置按钮（纯文本）、backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,6 +270,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0160
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -283,6 +293,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0240
      * @tc.name   : toast设置DEFAULT、backgroundBlurStyle（COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,6 +316,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0260
      * @tc.name   : AlertDialog设置primaryButton（两个按钮）、backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,6 +339,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0170
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +362,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0180
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -371,6 +385,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0190
      * @tc.name   : popup设置 popupOption、不设置按钮（纯文本）、backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,6 +412,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0200
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,6 +435,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0210
      * @tc.name   : ActionSheet设置backgroundBlurStyle（BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -441,6 +458,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0220
      * @tc.name   : ActionSheet设置backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -463,6 +481,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0250
      * @tc.name   : CustomDialog设置backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -485,6 +504,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0270
      * @tc.name   : CustomDialog设置backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -507,6 +527,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0280
      * @tc.name   : Popup设置backgroundBlurStyle（纯文本，COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -529,6 +550,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0290
      * @tc.name   : Popup设置backgroundBlurStyle（一个按钮，COMPONENT_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -551,6 +573,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0300
      * @tc.name   : ActionSheet设置backgroundBlurStyle（BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -573,6 +596,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0310
      * @tc.name   : Popup设置CustomPopupOption、backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -595,6 +619,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0320
      * @tc.name   : Popup设置backgroundBlurStyle（一个按钮，NONE）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -617,6 +642,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0330
      * @tc.name   : Popup设置backgroundBlurStyle（一个按钮，BACKGROUND_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -639,6 +665,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0340
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -661,6 +688,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0350
      * @tc.name   : Toast设置TOP_MOST、backgroundBlurStyle（COMPONENT_ULTRA_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -683,6 +711,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0360
      * @tc.name   : CustomDialog设置backgroundBlurStyle（BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -705,6 +734,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0370
      * @tc.name   : CustomDialog设置backgroundBlurStyle（COMPONENT_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -727,6 +757,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0380
      * @tc.name   : Popup设置backgroundBlurStyle（一个按钮，NONE）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -749,6 +780,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0390
      * @tc.name   : AlertDialog设置primaryButton（两个按钮）、backgroundBlurStyle（BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -771,6 +803,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0400
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -793,6 +826,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0410
      * @tc.name   : CustomDialog设置backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -815,6 +849,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0420
      * @tc.name   : Toast设置DEFAULT、backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -837,6 +872,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0430
      * @tc.name   : CustomDialog设置backgroundBlurStyle（COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -859,6 +895,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0440
      * @tc.name   : AlertDialog设置primaryButton（两个按钮）、backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -881,6 +918,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0450
      * @tc.name   : AlertDialog设置primaryButton（一个按钮）、backgroundBlurStyle（Regular）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -903,6 +941,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0460
      * @tc.name   : Popup设置backgroundBlurStyle（纯文本，Thin）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -925,6 +964,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0470
      * @tc.name   : ActionSheet设置backgroundBlurStyle（BACKGROUND_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -947,6 +987,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0480
      * @tc.name   : Popup设置backgroundBlurStyle（一个按钮，BACKGROUND_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -969,6 +1010,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0490
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -991,6 +1033,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0500
      * @tc.name   : Toast设置TOP_MOST、backgroundBlurStyle（COMPONENT_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1013,6 +1056,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0510
      * @tc.name   : Popup设置CustomPopupOption、backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1035,6 +1079,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0520
      * @tc.name   : AlertDialog设置primaryButton（三个按钮）、backgroundBlurStyle（null）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1057,6 +1102,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0530
      * @tc.name   : AlertDialog设置primaryButton（三个按钮）、backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1079,6 +1125,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0540
      * @tc.name   : Toast设置DEFAULT、backgroundBlurStyle（Thick）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1101,6 +1148,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0550
      * @tc.name   : Popup设置backgroundBlurStyle（两个按钮，COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1123,6 +1171,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0570
      * @tc.name   : AlertDialog设置primaryButton（一个按钮）、backgroundBlurStyle（Thick）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1145,6 +1194,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0580
      * @tc.name   : AlertDialog设置primaryButton（两个按钮）、backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1167,6 +1217,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0590
      * @tc.name   : AlertDialog设置primaryButton（三个按钮）、backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1189,6 +1240,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0600
      * @tc.name   : Toast设置SYSTEM_TOP_MOST、backgroundBlurStyle（COMPONENT_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1211,6 +1263,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0610
      * @tc.name   : ActionSheet设置backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1233,6 +1286,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0620
      * @tc.name   : ActionSheet设置backgroundBlurStyle（NONE）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1255,6 +1309,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0630
      * @tc.name   : ActionSheet设置backgroundBlurStyle（Thin）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1277,6 +1332,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0640
      * @tc.name   : ActionSheet设置backgroundBlurStyle（COMPONENT_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1299,6 +1355,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0650
      * @tc.name   : Toast设置DEFAULT、backgroundBlurStyle（BACKGROUND_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1321,6 +1378,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0660
      * @tc.name   : Toast设置TOP_MOST、backgroundBlurStyle（BACKGROUND_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1343,6 +1401,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0670
      * @tc.name   : Toast设置TOP_MOST、backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1365,6 +1424,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0680
      * @tc.name   : Popup设置CustomPopupOption、backgroundBlurStyle（undefined）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1387,6 +1447,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0690
      * @tc.name   : AlertDialog设置primaryButton（三个按钮）、backgroundBlurStyle（COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1409,6 +1470,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0700
      * @tc.name   : Toast设置TOP_MOST、backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1431,6 +1493,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0710
      * @tc.name   : Popup设置CustomPopupOption、backgroundBlurStyle（null）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1453,6 +1516,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0720
      * @tc.name   : AlertDialog设置primaryButton（两个按钮）、backgroundBlurStyle（NONE）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1475,6 +1539,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0730
      * @tc.name   : CustomDialog设置backgroundBlurStyle（BACKGROUND_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1497,6 +1562,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0740
      * @tc.name   : ActionSheet设置backgroundBlurStyle（Thick）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1519,6 +1585,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0750
      * @tc.name   : ActionSheet设置backgroundBlurStyle（undefined）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1541,6 +1608,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0760
      * @tc.name   : AlertDialog设置primaryButton（三个按钮）、backgroundBlurStyle（COMPONENT_ULTRA_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1563,6 +1631,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0770
      * @tc.name   : Toast设置SYSTEM_TOP_MOST、backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1585,6 +1654,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0780
      * @tc.name   : Toast设置DEFAULT、backgroundBlurStyle（BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1607,6 +1677,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0790
      * @tc.name   : CustomDialog设置backgroundBlurStyle（Thin）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1629,6 +1700,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0810
      * @tc.name   : ActionSheet设置backgroundBlurStyle（Regular）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1651,6 +1723,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0820
      * @tc.name   : CustomDialog设置backgroundBlurStyle（COMPONENT_REGULAR）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1673,6 +1746,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0840
      * @tc.name   : Popup设置backgroundBlurStyle（两个按钮，COMPONENT_ULTRA_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1695,6 +1769,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0850
      * @tc.name   : Toast设置SYSTEM_TOP_MOST、backgroundBlurStyle（null）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1717,6 +1792,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0870
      * @tc.name   : CustomDialog设置backgroundBlurStyle（NONE）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1739,6 +1815,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0880
      * @tc.name   : AlertDialog设置primaryButton（三个按钮）、backgroundBlurStyle（undefined）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1761,6 +1838,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0900
      * @tc.name   : Popup设置backgroundBlurStyle（纯文本，BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1783,6 +1861,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0910
      * @tc.name   : CustomDialog设置backgroundBlurStyle（Thick）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1805,6 +1884,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0920
      * @tc.name   : Toast设置DEFAULT、backgroundBlurStyle（Regular）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1827,6 +1907,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0940
      * @tc.name   : Toast设置SYSTEM_TOP_MOST、backgroundBlurStyle（COMPONENT_THICK）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1849,6 +1930,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0950
      * @tc.name   : Toast设置TOP_MOST、backgroundBlurStyle（NONE）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1871,6 +1953,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0960
      * @tc.name   : ActionSheet设置backgroundBlurStyle（BACKGROUND_THIN）的显示效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1893,6 +1976,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0970
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（IMAGE），backgroundBlurStyle（COMPONENT_ULTRA_THIN）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1916,6 +2000,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0980
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（COMPONENT_ULTRA_THICK）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1939,6 +2024,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_0990
      * @tc.name   : bindContextMenu设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），enableArrow（true），二级菜单设置为STACK_EXPAND，backgroundBlurStyle（NONE）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1964,6 +2050,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1000
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（COMPONENT_THICK）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1987,6 +2074,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1010
      * @tc.name   : bindMenu不设置isShown，content（Array<MenuElement>有3个菜单），enableArrow（true），backgroundBlurStyle（Regular）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2009,6 +2097,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1020
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（undefined）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2032,6 +2121,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1030
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（RightClick），enableArrow（true），二级菜单设置为EMBEDDED_EXPAND，backgroundBlurStyle（BACKGROUND_ULTRA_THICK）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2055,6 +2145,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1040
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（IMAGE），backgroundBlurStyle（COMPONENT_REGULAR）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2078,6 +2169,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1050
      * @tc.name   : bindMenu不设置isShown，content（Array<MenuElement>有3个菜单），enableArrow（false），backgroundBlurStyle（Thin）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2100,6 +2192,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1060
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），二级菜单设置为SIDE_EXPAND，backgroundBlurStyle（BACKGROUND_THICK）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2123,6 +2216,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1070
      * @tc.name   : bindMenu设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），title(HelloWorld)，showInSubWindow（false），enableArrow（true），二级菜单设置为SIDE_EXPAND，backgroundBlurStyle（Thick）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2149,6 +2243,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1080
      * @tc.name   : bindMenu设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），title(HelloWorld)，showInSubWindow（true），enableArrow（true），二级菜单设置为EMBEDDED_EXPAND，backgroundBlurStyle（BACKGROUND_THIN）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2175,6 +2270,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1090
      * @tc.name   : bindMenu设置isShown，content（CustomBuilder有3个菜单），showInSubWindow（true），enableArrow（true），二级菜单设置为STACK_EXPAND，backgroundBlurStyle（BACKGROUND_REGULAR）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2201,6 +2297,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1100
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（IMAGE），backgroundBlurStyle（COMPONENT_THIN）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2224,6 +2321,7 @@ export default function BlurMaterialSeparatedLayerTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BLURMATERIALSEPARATEDLAYER_1110
      * @tc.name   : bindContextMenu不设置isShown，content（CustomBuilder有MenuItemGroup包含的1个MenuItem菜单），responseType（LongPress），enableArrow（true），preview（CustomBuilder），backgroundBlurStyle（null）的效果
+     * @tc.desc   : Verify popupbox blurmaterialseparatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

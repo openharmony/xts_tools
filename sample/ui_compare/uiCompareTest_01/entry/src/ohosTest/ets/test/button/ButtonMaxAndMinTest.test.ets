@@ -43,6 +43,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0010
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,6 +86,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0020
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,6 +129,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0030
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +172,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0040
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,6 +215,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0050
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,6 +258,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0060
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +301,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0070
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -337,6 +344,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0080
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,6 +387,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0090
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -421,6 +430,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0100
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -463,6 +473,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0110
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -494,6 +505,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0120
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -525,6 +537,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0130
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -556,6 +569,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0140
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -587,6 +601,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0150
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -618,6 +633,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0160
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -649,6 +665,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0170
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -680,6 +697,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0180
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -711,6 +729,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0190
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -742,6 +761,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0200
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -773,6 +793,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0210
      * @tc.name   : Button minFontScale和maxFontScale测试 - 打开适老化开关，minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -804,6 +825,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0220
      * @tc.name   : Button minFontScale和maxFontScale测试 - 打开适老化开关到最大，最大只能放大到2倍
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -835,6 +857,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0230
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -866,6 +889,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0240
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -897,6 +921,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0250
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -928,6 +953,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0260
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -959,6 +985,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0270
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -990,6 +1017,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0280
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1021,6 +1049,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0290
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1052,6 +1081,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0300
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1083,6 +1113,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0310
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1114,6 +1145,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0320
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1145,6 +1177,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0330
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1176,6 +1209,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0340
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1207,6 +1241,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0350
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1238,6 +1273,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0360
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1269,6 +1305,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0370
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1300,6 +1337,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0380
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1331,6 +1369,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0390
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1362,6 +1401,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0400
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1393,6 +1433,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0410
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1424,6 +1465,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0420
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1455,6 +1497,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0430
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1486,6 +1529,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0440
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1517,6 +1561,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0450
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1548,6 +1593,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0460
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1579,6 +1625,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0470
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1610,6 +1657,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0480
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1641,6 +1689,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0490
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1672,6 +1721,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0500
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1703,6 +1753,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0510
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1734,6 +1785,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0520
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1765,6 +1817,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0530
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1796,6 +1849,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0540
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1827,6 +1881,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0550
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1858,6 +1913,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0560
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1889,6 +1945,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0570
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1920,6 +1977,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0580
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1951,6 +2009,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0590
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1982,6 +2041,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0600
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2013,6 +2073,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0610
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2044,6 +2105,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0620
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2075,6 +2137,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0630
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2106,6 +2169,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0640
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2137,6 +2201,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0650
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2168,6 +2233,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0660
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2199,6 +2265,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0670
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2230,6 +2297,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0680
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2261,6 +2329,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0690
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2292,6 +2361,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0700
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2323,6 +2393,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0710
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2354,6 +2425,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0720
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2385,6 +2457,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0730
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2416,6 +2489,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0740
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2447,6 +2521,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0750
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2478,6 +2553,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0760
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2509,6 +2585,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0770
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2540,6 +2617,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0780
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2571,6 +2649,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0790
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2602,6 +2681,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0800
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2633,6 +2713,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0810
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2664,6 +2745,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0820
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2695,6 +2777,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0830
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2726,6 +2809,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0840
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2757,6 +2841,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0850
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2788,6 +2873,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0860
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2819,6 +2905,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0870
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2850,6 +2937,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0880
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2881,6 +2969,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0890
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2912,6 +3001,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0900
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2943,6 +3033,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0910
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2974,6 +3065,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0920
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3005,6 +3097,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0940
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3036,6 +3129,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0950
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3067,6 +3161,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0960
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3098,6 +3193,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0970
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3129,6 +3225,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0980
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3160,6 +3257,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_0990
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3191,6 +3289,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1000
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3222,6 +3321,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1010
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3253,6 +3353,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1020
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3284,6 +3385,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1030
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3315,6 +3417,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1040
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3346,6 +3449,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1050
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3377,6 +3481,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1060
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3408,6 +3513,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1070
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3439,6 +3545,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1080
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3470,6 +3577,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1090
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3501,6 +3609,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1100
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3532,6 +3641,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1110
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3563,6 +3673,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1120
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3594,6 +3705,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1130
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3625,6 +3737,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1140
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3656,6 +3769,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1150
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3687,6 +3801,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1160
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3718,6 +3833,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1170
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3749,6 +3865,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1180
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3780,6 +3897,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1190
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3811,6 +3929,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1200
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3842,6 +3961,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1210
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3873,6 +3993,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1220
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3904,6 +4025,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1230
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3935,6 +4057,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1240
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3966,6 +4089,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1250
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3997,6 +4121,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1260
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4028,6 +4153,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1270
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4059,6 +4185,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1280
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4090,6 +4217,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1290
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4121,6 +4249,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1300
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4152,6 +4281,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1310
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4183,6 +4313,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1320
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4214,6 +4345,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1330
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4245,6 +4377,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1340
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4276,6 +4409,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1350
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4307,6 +4441,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1360
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4338,6 +4473,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1370
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4369,6 +4505,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1380
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4400,6 +4537,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1390
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4431,6 +4569,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1400
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4462,6 +4601,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1410
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4493,6 +4633,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1420
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4524,6 +4665,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1430
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4555,6 +4697,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1440
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4586,6 +4729,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1450
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4617,6 +4761,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1460
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.7，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4648,6 +4793,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1470
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4679,6 +4825,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1480
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为-1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4710,6 +4857,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1490
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为undefined，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4741,6 +4889,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1500
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为null，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4772,6 +4921,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1510
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4803,6 +4953,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1520
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4834,6 +4985,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1530
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为20，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4865,6 +5017,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1540
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4896,6 +5049,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1550
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.5
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4927,6 +5081,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1560
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1.75
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4958,6 +5113,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1570
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -4989,6 +5145,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1580
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为-1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5020,6 +5177,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1590
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为0
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5051,6 +5209,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1600
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为undefined
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5082,6 +5241,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1610
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为null
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5113,6 +5273,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1620
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5144,6 +5305,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1630
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为20
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5175,6 +5337,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1650
      * @tc.name   : Button minFontScale和maxFontScale测试 - 不设置minFontScale，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5206,6 +5369,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1660
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为0.5，maxFontScale为3.2
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -5237,6 +5401,7 @@ export default function ButtonMaxAndMinTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_MAXANDMIN_1670
      * @tc.name   : Button minFontScale和maxFontScale测试 - minFontScale为1，maxFontScale为1
+     * @tc.desc   : Verify button maxandmin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

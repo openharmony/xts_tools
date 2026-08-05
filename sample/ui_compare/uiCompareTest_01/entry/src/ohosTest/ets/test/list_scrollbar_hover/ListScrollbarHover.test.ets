@@ -43,6 +43,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0030
      * @tc.name   : List scrollbar hover test - change color
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,6 +77,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0050
      * @tc.name   : List scrollbar hover test - change layout direction
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,6 +111,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0100
      * @tc.name   : List scrollbar hover test - Image component state change
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,6 +145,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0040
      * @tc.name   : List scrollbar hover test - change width
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,6 +179,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0060
      * @tc.name   : List scrollbar hover test - change direction
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -208,6 +213,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0080
      * @tc.name   : List scrollbar hover test - Text component state change
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +247,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0130
      * @tc.name   : List scrollbar hover test - Text component direction change
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -274,6 +281,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0110
      * @tc.name   : List scrollbar hover test - Text component layout direction change
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -307,6 +315,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0120
      * @tc.name   : List scrollbar hover test - Image component layout direction change
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -340,6 +349,7 @@ export default function ListScrollbarHoverTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SACROLLBAR_HOVER_0140
      * @tc.name   : List scrollbar hover test - Image component direction change
+     * @tc.desc   : Verify list sacrollbar hover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -43,6 +43,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0010
      * @tc.name   : SVG animate test case 10
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0011
      * @tc.name   : SVG animate test case 11
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0012
      * @tc.name   : SVG animate test case 12
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0013
      * @tc.name   : SVG animate test case 13
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0014
      * @tc.name   : SVG animate test case 14
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0015
      * @tc.name   : SVG animate test case 15
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +157,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0016
      * @tc.name   : SVG animate test case 16
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +176,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0017
      * @tc.name   : SVG animate test case 17
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +195,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0018
      * @tc.name   : SVG animate test case 18
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,6 +214,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0019
      * @tc.name   : SVG animate test case 19
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +233,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0020
      * @tc.name   : SVG animate test case 20
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +252,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATE_0021
      * @tc.name   : SVG animate test case 21
+     * @tc.desc   : Verify media Image svg animate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +271,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0023
      * @tc.name   : SVG animate test case 22
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +290,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0024
      * @tc.name   : SVG animateTransform test case 24
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +309,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0025
      * @tc.name   : SVG animateTransform test case 25
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +328,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0026
      * @tc.name   : SVG animateTransform test case 26
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +347,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0028
      * @tc.name   : SVG animateTransform test case 28
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +366,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0029
      * @tc.name   : SVG animateTransform test case 29
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +385,7 @@ export default function ImageSvgAnimateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_ANIMATETRANSFORM_0030
      * @tc.name   : SVG animateTransform test case 30
+     * @tc.desc   : Verify media Image svg animatetransform interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

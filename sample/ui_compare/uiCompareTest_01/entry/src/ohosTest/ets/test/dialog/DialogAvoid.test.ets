@@ -40,7 +40,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0020
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0030
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,7 +127,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0050
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,7 +173,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0060
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,7 +219,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0070
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -260,7 +265,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0080
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,7 +311,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0090
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,7 +357,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0100
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -395,7 +403,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0110
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -440,7 +449,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0120
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -485,7 +495,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0130
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -530,7 +541,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0140
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -580,7 +592,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0150
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -631,7 +644,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0160
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -681,7 +695,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0170
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -731,7 +746,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0180
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -781,7 +797,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0190
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -831,7 +848,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0200
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -881,7 +899,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0210
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -931,7 +950,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0230
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -976,7 +996,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0240
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1016,7 +1037,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0250
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1061,7 +1083,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0260
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1106,7 +1129,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0270
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1151,7 +1175,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0280
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1196,7 +1221,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0290
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1241,7 +1267,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0300
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1286,7 +1313,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0310
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1331,7 +1359,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0320
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1376,7 +1405,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0330
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1421,7 +1451,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0340
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1471,7 +1502,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0350
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1521,7 +1553,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0360
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1571,7 +1604,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0370
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1621,7 +1655,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0380
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1671,7 +1706,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0390
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1721,7 +1757,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0400
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1771,7 +1808,8 @@ export default function DialogAvoidTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIALOGAVOID_0410
+     * @tc.name   : Dialogavoid
+     * @tc.desc   : Verify dialogavoid interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

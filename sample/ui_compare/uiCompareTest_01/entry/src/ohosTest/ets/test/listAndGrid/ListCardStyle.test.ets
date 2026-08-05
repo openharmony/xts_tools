@@ -41,6 +41,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0010
      * @tc.name   : ListItem and ListItemGroup CARD style with isEnabled=false test
+     * @tc.desc   : Verify listandgrid list interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,6 +71,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0020
      * @tc.name   : ListItem and ListItemGroup CARD style mouse hover effect test
+     * @tc.desc   : Verify listandgrid list interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0030
      * @tc.name   : ListItem and ListItemGroup CARD style display effect test
+     * @tc.desc   : Verify listandgrid list interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -128,6 +131,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERACTION_0040
      * @tc.name   : ListItem and ListItemGroup CARD style press effect test
+     * @tc.desc   : Verify listandgrid list interaction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,6 +161,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0760
      * @tc.name   : ListItem and ListItemGroup CARD style with selectable=true test
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,6 +191,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0770
      * @tc.name   : ListItem and ListItemGroup CARD style default card style effect test
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,6 +221,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0900
      * @tc.name   : ListItem and ListItemGroup CARD style with isEnabled=true test
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,6 +251,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0570
      * @tc.name   : ListItem and ListItemGroup CARD style Tab key focus effect test
+     * @tc.desc   : Verify listandgrid list ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -273,6 +281,7 @@ export default function ListCardStyleTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UI_0590
      * @tc.name   : ListItem and ListItemGroup CARD style mouse hover visual effect test
+     * @tc.desc   : Verify listandgrid list ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

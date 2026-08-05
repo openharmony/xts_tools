@@ -43,6 +43,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0029
      * @tc.name   : image test rotate、translate、scale
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0027
      * @tc.name   : image test rotate、translate、scale
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,6 +83,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0025
      * @tc.name   : image test alt without src
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +102,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0031
      * @tc.name   : image test rotate、translate、scale with landScape
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -121,6 +125,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0030
      * @tc.name   : image test rotate、translate、scale with clip
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,6 +144,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0023
      * @tc.name   : image test rotate、translate、scale with change image
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,6 +169,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0020
      * @tc.name   : image test rotate、translate、scale with matchTextDirection
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,6 +188,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0033
      * @tc.name   : image test rotate、translate、scale with change image
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,6 +221,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0028
      * @tc.name   : image test rotate、translate、scale with orientation
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +240,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0026
      * @tc.name   : image test rotate、translate、scale and change
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,6 +259,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0024
      * @tc.name   : image test rotate、translate、scale in PixelMap
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +278,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0032
      * @tc.name   : image test different rotate、translate、scale in PixelMap
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -307,6 +319,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0012
      * @tc.name   : image test translate、scale in combine
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,6 +340,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0021
      * @tc.name   : image test translate、rotate、autoResize
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,6 +359,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0011
      * @tc.name   : image test only set matrix
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,6 +378,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0010
      * @tc.name   : image test only set objectFit(ImageFit.MATRIX)
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -381,6 +397,7 @@ export default function ImageThumbNailsTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SUPPORT_THUMBNAILS_0022
      * @tc.name   : image test rotate、translate、scale with ImageRotateOrientation.AUTO
+     * @tc.desc   : Verify media Image support thumbnails interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

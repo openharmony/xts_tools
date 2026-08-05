@@ -43,6 +43,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERCONNECTION_0020
      * @tc.name   : Refresh nested Swiper test - loop true without edge
+     * @tc.desc   : Verify other refresh interconnection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,6 +88,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0010
      * @tc.name   : Refresh pullDownRatio 0 test - cannot pull down or up
+     * @tc.desc   : Verify refresh pulldownradio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +125,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0050
      * @tc.name   : Refresh pullDownRatio 1 test - can follow hand pull down and up
+     * @tc.desc   : Verify refresh pulldownradio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,6 +162,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0020
      * @tc.name   : Refresh pullDownRatio 0.1 test - high resistance when pulling
+     * @tc.desc   : Verify refresh pulldownradio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,6 +199,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0040
      * @tc.name   : Refresh pullDownRatio 0.9 test - normal pull down and up
+     * @tc.desc   : Verify refresh pulldownradio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +236,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0030
      * @tc.name   : Refresh pullDownRatio 0.5 test - normal pull down and up
+     * @tc.desc   : Verify refresh pulldownradio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +273,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PULLDOWNRADIO_0180
      * @tc.name   : Refresh default dynamic pullDownRatio test - resistance increases with pull distance
+     * @tc.desc   : Verify refresh pulldownradio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -303,6 +310,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0010
      * @tc.name   : Refresh pullToRefresh false test - cannot pull down to refresh
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,6 +347,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_PROMPTTEXT_0140
      * @tc.name   : Refresh custom builder refresh component test - custom text display
+     * @tc.desc   : Verify other refresh prompttext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,6 +384,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_PROMPTTEXT_0130
      * @tc.name   : Refresh custom text and bounce animation test - text fades during bounce
+     * @tc.desc   : Verify other refresh prompttext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,6 +426,7 @@ export default function RefreshTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_PROMPTTEXT_0190
      * @tc.name   : Refresh nested List with custom text test - text display normal
+     * @tc.desc   : Verify other refresh prompttext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

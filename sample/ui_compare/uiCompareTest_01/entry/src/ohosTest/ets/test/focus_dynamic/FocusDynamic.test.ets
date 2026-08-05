@@ -42,7 +42,8 @@ export default function FocusDynamicTest() {
 
     /*
      * @tc.number : SUB_ACE_FOCUS_DYNAMIC_EFFECT_017
-     * @tc.name   : SUB_ACE_FOCUS_DYNAMIC_EFFECT_017
+     * @tc.name   : Focus dynamic effect
+     * @tc.desc   : Verify focus dynamic effect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

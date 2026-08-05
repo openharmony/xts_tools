@@ -42,6 +42,7 @@ export default function GridScrollBarTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010_027_880
      * @tc.name   : 不设置onScrollBarUpdate接口设置滚动条
+     * @tc.desc   : Verify listandgrid grid scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,6 +68,7 @@ export default function GridScrollBarTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020_015_730
      * @tc.name   : 设置onScrollBarUpdate接口设置滚动条
+     * @tc.desc   : Verify listandgrid grid scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

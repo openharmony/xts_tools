@@ -44,6 +44,7 @@ export default function expectedFrameTest() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0040
      * @tc.name   : Under standard test conditions, testing the animation effect when the expected frame rate
+     * @tc.desc   : Verify ohos keyframeanimateto expectedframe interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,6 +82,7 @@ export default function expectedFrameTest() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0010
      * @tc.name   : Under standard test conditions, testing the animation effect when the expected frame rate
+     * @tc.desc   : Verify ohos keyframeanimateto expectedframe interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +107,7 @@ export default function expectedFrameTest() {
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0020
      * @tc.name   : Under standard test conditions, testing the animation effect when the expected frame rate
+     * @tc.desc   : Verify ohos keyframeanimateto expectedframe interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

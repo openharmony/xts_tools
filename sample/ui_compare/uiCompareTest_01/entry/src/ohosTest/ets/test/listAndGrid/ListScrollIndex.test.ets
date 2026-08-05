@@ -41,6 +41,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0010
      * @tc.name   : 横向时滑动列表将会返回显示界面中第一个ListItem和最后一个ListItem的索引号
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +87,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0020
      * @tc.name   : 纵向时滑动列表将会返回显示界面中第一个ListItem和最后一个ListItem的索引号
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,6 +133,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0050
      * @tc.name   : 横向滑动列表将会返回显示界面中第一个GroupListItem和最后一个GroupListItem的索引号
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,6 +179,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0170
      * @tc.name   : 滑动到指定位置显示索引号正确
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +205,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0180
      * @tc.name   : 滑动到指定距离显示索引号正确
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,6 +231,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0190
      * @tc.name   : 滑动到指定索引显示索引号正确
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -251,6 +257,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0200
      * @tc.name   : 跳转滑动显示索引号正确
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,6 +283,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_0210
      * @tc.name   : 翻页滑动显示索引号正确
+     * @tc.desc   : Verify list interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,6 +309,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0010
      * @tc.name   : list_getItemIndex_listitem_切换行列数
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -346,6 +355,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0020
      * @tc.name   : list_getVisibleListContentInfo_listitemgroup+listitem_切换行列数
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -391,6 +401,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0030
      * @tc.name   : list_getItemIndex+getVisibleListContentInfo_listitemgroup与listitem间隔布局_切换行列数
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -436,6 +447,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0040
      * @tc.name   : list_getVisibleListContentInfo_listitemgroup+listitem_增删item
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -481,6 +493,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0050
      * @tc.name   : list_getItemIndex_listitem_childrenmainsize
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -521,6 +534,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0060
      * @tc.name   : list_getItemIndex_listitem_动态改变布局方向
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -566,6 +580,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0070
      * @tc.name   : list_getItemIndex_listitem_动态改变item大小
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -611,6 +626,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0080
      * @tc.name   : list_getItemIndex_listitem_动态改变padding/margin
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -656,6 +672,7 @@ export default function ListScrollIndexTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LIST_SCROLLER_GETITEMINDEX_0090
      * @tc.name   : list_getItemIndex_listitem_动态改变item的显隐性
+     * @tc.desc   : Verify list scroller getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

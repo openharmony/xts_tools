@@ -45,6 +45,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0010
      * @tc.name   : Navigation栈操作异常值测试（pushPath为null、undefined）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,6 +84,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0070
      * @tc.name   : Navigation栈操作异常值测试（pushPathByName name为undefined、null、空值）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,6 +120,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0110
      * @tc.name   : Navigation栈操作异常值测试（pushDestination为null、undefined）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,6 +156,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0170
      * @tc.name   : Navigation栈操作异常值测试（pushDestinationByName name为undefined、null、空值）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,6 +192,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0210
      * @tc.name   : Navigation栈操作异常值测试（replacePath为null、undefined）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +228,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0270
      * @tc.name   : Navigation栈操作异常值测试（replacePathByName name为undefined、null、空值）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +270,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0300
      * @tc.name   : Navigation栈操作异常值测试（replaceDestination 为 undefined）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,6 +300,7 @@ export default function NavigationInterfaceFalseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_INTERFACEFALSLE_0310
      * @tc.name   : Navigation栈操作异常值测试（removeByIndexes 为undefined、null、空数组、内部参数为null）
+     * @tc.desc   : Verify nav navigation interfacefalsle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

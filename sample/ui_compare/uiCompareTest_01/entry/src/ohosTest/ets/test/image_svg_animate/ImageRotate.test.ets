@@ -43,6 +43,7 @@ export default function ImageRotateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0032
      * @tc.name   : Image with orientation
+     * @tc.desc   : Verify media Image rotate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function ImageRotateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0019
      * @tc.name   : Image with orientation
+     * @tc.desc   : Verify media Image rotate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function ImageRotateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0023
      * @tc.name   : Image with orientation
+     * @tc.desc   : Verify media Image rotate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,6 +103,7 @@ export default function ImageRotateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0021
      * @tc.name   : Image with orientation
+     * @tc.desc   : Verify media Image rotate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +127,7 @@ export default function ImageRotateTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ROTATE_0028
      * @tc.name   : Image with orientation
+     * @tc.desc   : Verify media Image rotate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

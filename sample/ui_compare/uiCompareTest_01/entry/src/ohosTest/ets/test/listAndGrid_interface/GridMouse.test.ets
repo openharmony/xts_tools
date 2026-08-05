@@ -42,6 +42,7 @@ export default function GridMouseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0040_692
      * @tc.name   : GridItem选中态多态样式观察
+     * @tc.desc   : Verify listandgrid grid mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,6 +71,7 @@ export default function GridMouseTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MOUSE_0130_835
      * @tc.name   : 组件disable态鼠标框选
+     * @tc.desc   : Verify listandgrid grid mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

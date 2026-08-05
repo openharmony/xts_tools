@@ -43,6 +43,7 @@ export default function measureResultTest() {
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_MEASURERESULT_0010
      * @tc.name   : The onPlaceChildren function takes in child components' Layoutable objects with the following
+     * @tc.desc   : Verify ability measureresult interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,6 +41,7 @@ export default function ListCachedCountTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_0030
      * @tc.name   : List和ListItemGroup都使用repeat懒加载cachedcount测试
+     * @tc.desc   : Verify listandgrid list interface cachedcount interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +69,7 @@ export default function ListCachedCountTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_0040
      * @tc.name   : List使用repeat懒加载cachedcount测试
+     * @tc.desc   : Verify listandgrid list interface cachedcount interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -94,6 +96,7 @@ export default function ListCachedCountTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0040
      * @tc.name   : list_CacheCount_show_ForEach
+     * @tc.desc   : Verify listandgrid list interface cachedcount show interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +126,7 @@ export default function ListCachedCountTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0050
      * @tc.name   : list_CacheCount_show_LazyForEach
+     * @tc.desc   : Verify listandgrid list interface cachedcount show interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -152,6 +156,7 @@ export default function ListCachedCountTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0060
      * @tc.name   : list_CacheCount_show_repeat
+     * @tc.desc   : Verify listandgrid list interface cachedcount show interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

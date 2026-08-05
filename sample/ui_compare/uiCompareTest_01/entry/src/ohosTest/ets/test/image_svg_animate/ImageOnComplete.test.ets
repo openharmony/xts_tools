@@ -43,6 +43,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0015
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,6 +64,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0018
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,6 +89,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0019
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,6 +112,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0020
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,6 +135,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0024
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,6 +154,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0016
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,6 +173,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONCOMPLETE_0031
      * @tc.name   : Image with onComplete
+     * @tc.desc   : Verify media Image oncomplete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,6 +198,7 @@ export default function ImageOnCompleteTest () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SIZE_0013
      * @tc.name   : Image with auto size
+     * @tc.desc   : Verify media Image size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

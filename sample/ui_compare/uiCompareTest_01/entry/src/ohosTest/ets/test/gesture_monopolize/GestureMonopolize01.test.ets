@@ -43,6 +43,7 @@ export default function gestureMonopolize01Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0020
      * @tc.name   : button1 component sets the 'monopolize' attribute and binds the touch event. Verify that other components' events respond normally when button1 is not triggered in monopolize mode.
+     * @tc.desc   : Verify action gesture monopolize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,6 +64,7 @@ export default function gestureMonopolize01Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0110
      * @tc.name   : Set the 'monopolize' attribute for the List component and bind it to a mouse wheel event. Bind the
+     * @tc.desc   : Verify action gesture monopolize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function gestureMonopolize01Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0160
      * @tc.name   : column1 component sets the 'monopolize' attribute to false and binds the long-press gesture. column2 binds the tap gesture. Dynamically modify the 'monopolize' value.
+     * @tc.desc   : Verify action gesture monopolize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +120,7 @@ export default function gestureMonopolize01Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_MONOPOLIZE_0150
      * @tc.name   : column1 component sets the 'monopolize' attribute and binds the long-press gesture. column2 binds the tap gesture. Dynamically modify the 'monopolize' value.
+     * @tc.desc   : Verify action gesture monopolize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,6 +149,7 @@ export default function gestureMonopolize01Test() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_RECONSTRUCTION_INTERFACE_0020
      * @tc.name   : Obtaining current window information
+     * @tc.desc   : Verify action gesture reconstruction interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
