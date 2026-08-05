@@ -60,6 +60,19 @@
     "testability/pages/UiComponentTvTextPicker/UiComponentTvTextPicker001",
     "testability/pages/UiComponentTvTextPicker/UiComponentTvTextPicker15",
     "testability/pages/UiComponentTvDatePicker/UiComponentTvDatePicker030",
-    "testability/pages/UiComponentTvTextPicker/UiComponentTvTextPicker037"
+    "testability/pages/UiComponentTvTextPicker/UiComponentTvTextPicker037",
+    "testability/pages/UiComponentMediaImageOnError/UiComponentMediaImageOnError0005",
+    "testability/pages/UiComponentMediaImageOnError/UiComponentMediaImageOnError0013",
+    "testability/pages/UiComponentMediaImageOnError/UiComponentMediaImageOnError0022",
+    "testability/pages/UiComponentMediaImageParsetags/UiComponentMediaImageParsetags0010",
+    "testability/pages/UiComponentMediaImageAi/UiComponentMediaImageAi0130",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0079",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0081",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0082",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0083",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0084",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0086",
+    "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0088",
+    "testability/pages/UiComponentMediaConcurrency/UiComponentMediaConcurrency0036"
   ]
 }

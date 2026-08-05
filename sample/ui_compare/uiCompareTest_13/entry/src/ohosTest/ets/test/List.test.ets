@@ -108,7 +108,46 @@ import UiComponentTvDatePicker030 from './UiComponentTvDatePickerTest/UiComponen
 
 import UiComponentTvTextPicker037 from './UiComponentTvTextPickerTest/UiComponentTvTextPicker037.test'
 
+import UiComponentMediaImageOnError0005 from './UiComponentMediaImageOnErrorTest/UiComponentMediaImageOnError0005.test'
+
+import UiComponentMediaImageOnError0013 from './UiComponentMediaImageOnErrorTest/UiComponentMediaImageOnError0013.test'
+
+import UiComponentMediaImageOnError0022 from './UiComponentMediaImageOnErrorTest/UiComponentMediaImageOnError0022.test'
+
+import UiComponentMediaImageParsetags0010 from './UiComponentMediaImageParsetagsTest/UiComponentMediaImageParsetags0010.test'
+
+import UiComponentMediaImageAi0130 from './UiComponentMediaImageAiTest/UiComponentMediaImageAi0130.test'
+
+import UiComponentMediaImageCrossplatform0079 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0079.test'
+
+import UiComponentMediaImageCrossplatform0081 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0081.test'
+
+import UiComponentMediaImageCrossplatform0082 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0082.test'
+
+import UiComponentMediaImageCrossplatform0083 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0083.test'
+
+import UiComponentMediaImageCrossplatform0084 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0084.test'
+
+import UiComponentMediaImageCrossplatform0086 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0086.test'
+
+import UiComponentMediaImageCrossplatform0088 from './UiComponentMediaImageCrossplatformTest/UiComponentMediaImageCrossplatform0088.test'
+
+import UiComponentMediaConcurrency0036 from './UiComponentMediaConcurrencyTest/UiComponentMediaConcurrency0036.test'
+
 export default function testsuite() {
+  UiComponentMediaConcurrency0036()
+  UiComponentMediaImageCrossplatform0088()
+  UiComponentMediaImageCrossplatform0086()
+  UiComponentMediaImageCrossplatform0084()
+  UiComponentMediaImageCrossplatform0083()
+  UiComponentMediaImageCrossplatform0082()
+  UiComponentMediaImageCrossplatform0081()
+  UiComponentMediaImageCrossplatform0079()
+  UiComponentMediaImageAi0130()
+  UiComponentMediaImageParsetags0010()
+  UiComponentMediaImageOnError0022()
+  UiComponentMediaImageOnError0013()
+  UiComponentMediaImageOnError0005()
   UiComponentTvTextPicker037()
   UiComponentTvDatePicker030()
   UiComponentTvTextPicker15()
