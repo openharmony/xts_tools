@@ -143,7 +143,409 @@ import UiComponentMediaMinorLanguage0021 from './UiComponentMediaMinorLanguageTe
 
 import UiComponentMediaMinorLanguage0031 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0031.test'
 
+import UiComponentSpecialUecInterface0113 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0113.test'
+
+import UiComponentSpecialUecInterface0100 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0100.test'
+
+import UiComponentSpecialUecInterface0050 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0050.test'
+
+import UiComponentDynamicUec0013 from './UiComponentDynamicUecTest/UiComponentDynamicUec0013.test'
+
+import UiComponentDynamicUec0010 from './UiComponentDynamicUecTest/UiComponentDynamicUec0010.test'
+
+import UiComponentDynamicUec0018 from './UiComponentDynamicUecTest/UiComponentDynamicUec0018.test'
+
+import UiComponentDynamicUec0016 from './UiComponentDynamicUecTest/UiComponentDynamicUec0016.test'
+
+import UiComponentDynamicUec0015 from './UiComponentDynamicUecTest/UiComponentDynamicUec0015.test'
+
+import UiComponentDynamicUec0012 from './UiComponentDynamicUecTest/UiComponentDynamicUec0012.test'
+
+import UiComponentDynamicUec0022 from './UiComponentDynamicUecTest/UiComponentDynamicUec0022.test'
+
+import UiComponentDynamicUec0014 from './UiComponentDynamicUecTest/UiComponentDynamicUec0014.test'
+
+import UiComponentDcPriority0030 from './UiComponentDcPriorityTest/UiComponentDcPriority0030.test'
+
+import UiComponentDcRotate0020 from './UiComponentDcRotateTest/UiComponentDcRotate0020.test'
+
+import UiComponentDcPriority0010 from './UiComponentDcPriorityTest/UiComponentDcPriority0010.test'
+
+import UiComponentDcPriority0020 from './UiComponentDcPriorityTest/UiComponentDcPriority0020.test'
+
+import UiComponentXComponentMarker0310 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0310.test'
+
+import UiComponentXComponentMarker0150 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0150.test'
+
+import UiComponentXComponentMarker0120 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0120.test'
+
+import UiComponentXComponentMarker0320 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0320.test'
+
+import UiComponentXComponentMarker0380 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0380.test'
+
+import UiComponentXComponentMarker0390 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0390.test'
+
+import UiComponentXComponentMarker0370 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0370.test'
+
+import UiComponentXComponentMarker0167 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0167.test'
+
+import UiComponentXComponentMarker0130 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0130.test'
+
+import UiComponentXComponentMarker0018 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0018.test'
+
+import UiComponentXComponentMarker0137 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0137.test'
+
+import UiComponentWindowGestures0005 from './UiComponentWindowGesturesTest/UiComponentWindowGestures0005.test'
+
+import UiComponentAtomicServiceMenuBar0010 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0010.test'
+
+import UiComponentAtomicServiceMenuBar0016 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0016.test'
+
+import UiComponentAtomicServiceMenuBar0012 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0012.test'
+
+import UiComponentAtomicServiceMenuBar0013 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0013.test'
+
+import UiComponentAtomicServiceMenuBar0015 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0015.test'
+
+import UiComponentAtomicServiceMenuBar0014 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0014.test'
+
+import UiComponentAtomicServiceCapsule0090 from './UiComponentAtomicServiceCapsuleTest/UiComponentAtomicServiceCapsule0090.test'
+
+import UiComponentAtomicServiceCapsule0040 from './UiComponentAtomicServiceCapsuleTest/UiComponentAtomicServiceCapsule0040.test'
+
+import UiComponentAtomicServiceCapsule0070 from './UiComponentAtomicServiceCapsuleTest/UiComponentAtomicServiceCapsule0070.test'
+
+import UiComponentAtomicServiceCapsule0100 from './UiComponentAtomicServiceCapsuleTest/UiComponentAtomicServiceCapsule0100.test'
+
+import UiComponentWindowGestures0001 from './UiComponentWindowGesturesTest/UiComponentWindowGestures0001.test'
+
+import UiComponentAtomicServiceMenuBar0011 from './UiComponentAtomicServiceMenuBarTest/UiComponentAtomicServiceMenuBar0011.test'
+
+import UiComponentWindowTitlebar0990 from './UiComponentWindowTitlebarTest/UiComponentWindowTitlebar0990.test'
+
+import UiComponentWindowGestures0011 from './UiComponentWindowGesturesTest/UiComponentWindowGestures0011.test'
+
+import UiComponentWindowTitlebar0040 from './UiComponentWindowTitlebarTest/UiComponentWindowTitlebar0040.test'
+
+import UiComponentWindowTitlebar0160 from './UiComponentWindowTitlebarTest/UiComponentWindowTitlebar0160.test'
+
+import UiComponentWindowTitlebar0890 from './UiComponentWindowTitlebarTest/UiComponentWindowTitlebar0890.test'
+
+import UiComponentWindowTitlebar0980 from './UiComponentWindowTitlebarTest/UiComponentWindowTitlebar0980.test'
+
+import UiComponentWindowGestures0440 from './UiComponentWindowGesturesTest/UiComponentWindowGestures0440.test'
+
+import UiComponentWindowMaskLayer0003 from './UiComponentWindowMaskLayerTest/UiComponentWindowMaskLayer0003.test'
+
+import UiComponentWindowMaskLayer0005 from './UiComponentWindowMaskLayerTest/UiComponentWindowMaskLayer0005.test'
+
+import UiComponentWindowGestures0090 from './UiComponentWindowGesturesTest/UiComponentWindowGestures0090.test'
+
+import UiComponentWindowTitlebar0830 from './UiComponentWindowTitlebarTest/UiComponentWindowTitlebar0830.test'
+
+import UiComponentWindowHoverMenu0040 from './UiComponentWindowHoverMenuTest/UiComponentWindowHoverMenu0040.test'
+
+import UiComponentWindowMaskLayer0001 from './UiComponentWindowMaskLayerTest/UiComponentWindowMaskLayer0001.test'
+
+import UiComponentWindowHoverMenu0010 from './UiComponentWindowHoverMenuTest/UiComponentWindowHoverMenu0010.test'
+
+import UiComponentWindowHoverMenu0030 from './UiComponentWindowHoverMenuTest/UiComponentWindowHoverMenu0030.test'
+
+import UiComponentWindowHoverMenu0020 from './UiComponentWindowHoverMenuTest/UiComponentWindowHoverMenu0020.test'
+
+import UiComponentToolbarCustom0410 from './UiComponentToolbarCustomTest/UiComponentToolbarCustom0410.test'
+
+import UiComponentWindowMaskLayer0004 from './UiComponentWindowMaskLayerTest/UiComponentWindowMaskLayer0004.test'
+
+import UiComponentSuecDarkLight0015 from './UiComponentSuecDarkLightTest/UiComponentSuecDarkLight0015.test'
+
+import UiComponentPluginManager0016 from './UiComponentPluginManagerTest/UiComponentPluginManager0016.test'
+
+import UiComponentSpecialUecInterface0015 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0015.test'
+
+import UiComponentSpecialUecInterface0014 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0014.test'
+
+import UiComponentPluginManager0008 from './UiComponentPluginManagerTest/UiComponentPluginManager0008.test'
+
+import UiComponentSpecialUecInterface0032 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0032.test'
+
+import UiComponentSpecialUecInterface0030 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0030.test'
+
+import UiComponentSpecialUecInterface0013 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0013.test'
+
+import UiComponentPluginManager0021 from './UiComponentPluginManagerTest/UiComponentPluginManager0021.test'
+
+import UiComponentEmbeddedComponent0051 from './UiComponentEmbeddedComponentTest/UiComponentEmbeddedComponent0051.test'
+
+import UiComponentPluginManager0026 from './UiComponentPluginManagerTest/UiComponentPluginManager0026.test'
+
+import UiComponentPluginManager0023 from './UiComponentPluginManagerTest/UiComponentPluginManager0023.test'
+
+import UiComponentPluginManager0018 from './UiComponentPluginManagerTest/UiComponentPluginManager0018.test'
+
+import UiComponentPluginManager0043 from './UiComponentPluginManagerTest/UiComponentPluginManager0043.test'
+
+import UiComponentPluginManager0060 from './UiComponentPluginManagerTest/UiComponentPluginManager0060.test'
+
+import UiComponentPluginManager0038 from './UiComponentPluginManagerTest/UiComponentPluginManager0038.test'
+
+import UiComponentPluginManager0040 from './UiComponentPluginManagerTest/UiComponentPluginManager0040.test'
+
+import UiComponentBarrierfree0010 from './UiComponentBarrierfreeTest/UiComponentBarrierfree0010.test'
+
+import UiComponentPluginManager0025 from './UiComponentPluginManagerTest/UiComponentPluginManager0025.test'
+
+import UiComponentPluginManager0024 from './UiComponentPluginManagerTest/UiComponentPluginManager0024.test'
+
+import UiComponentBarrierfree0016 from './UiComponentBarrierfreeTest/UiComponentBarrierfree0016.test'
+
+import UiComponent0803Remaining0050 from './UiComponent0803RemainingTest/UiComponent0803Remaining0050.test'
+
+import UiComponent0803Remaining0090 from './UiComponent0803RemainingTest/UiComponent0803Remaining0090.test'
+
+import UiComponentXComponentMarker1450 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker1450.test'
+
+import UiComponentXComponentMarker0040 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0040.test'
+
+import UiComponent0803Remaining0020 from './UiComponent0803RemainingTest/UiComponent0803Remaining0020.test'
+
+import UiComponentPluginQiangji0140 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0140.test'
+
+import UiComponent0803Remaining0140 from './UiComponent0803RemainingTest/UiComponent0803Remaining0140.test'
+
+import UiComponent0803Remaining0130 from './UiComponent0803RemainingTest/UiComponent0803Remaining0130.test'
+
+import UiComponent0803Remaining0030 from './UiComponent0803RemainingTest/UiComponent0803Remaining0030.test'
+
+import UiComponent0803Remaining0010 from './UiComponent0803RemainingTest/UiComponent0803Remaining0010.test'
+
+import UiComponent0803Remaining0037 from './UiComponent0803RemainingTest/UiComponent0803Remaining0037.test'
+
+import UiComponent0803Remaining0120 from './UiComponent0803RemainingTest/UiComponent0803Remaining0120.test'
+
+import UiComponent0803Remaining0067 from './UiComponent0803RemainingTest/UiComponent0803Remaining0067.test'
+
+import UiComponent0803Remaining0040 from './UiComponent0803RemainingTest/UiComponent0803Remaining0040.test'
+
+import UiComponent0803Remaining0107 from './UiComponent0803RemainingTest/UiComponent0803Remaining0107.test'
+
+import UiComponent0803Remaining0060 from './UiComponent0803RemainingTest/UiComponent0803Remaining0060.test'
+
+import UiComponent0803Remaining0070 from './UiComponent0803RemainingTest/UiComponent0803Remaining0070.test'
+
+import UiComponent0803Remaining0027 from './UiComponent0803RemainingTest/UiComponent0803Remaining0027.test'
+
+import UiComponent0803Remaining0161 from './UiComponent0803RemainingTest/UiComponent0803Remaining0161.test'
+
+import UiComponent0803Remaining0018 from './UiComponent0803RemainingTest/UiComponent0803Remaining0018.test'
+
+import UiComponent0803Remaining0007 from './UiComponent0803RemainingTest/UiComponent0803Remaining0007.test'
+
+import UiComponent0803Remaining0008 from './UiComponent0803RemainingTest/UiComponent0803Remaining0008.test'
+
+import UiComponent0803Remaining0011 from './UiComponent0803RemainingTest/UiComponent0803Remaining0011.test'
+
+import UiComponentMediaDatePickerMode0028 from './UiComponentMediaDatePickerModeTest/UiComponentMediaDatePickerMode0028.test'
+
+import UiComponentSpecialUecInterface0114 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0114.test'
+
+import UiComponentSpecialUecInterface0102 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0102.test'
+
+import UiComponentSpecialUecInterface0105 from './UiComponentSpecialUecInterfaceTest/UiComponentSpecialUecInterface0105.test'
+
+import UiComponent0803Remaining0170 from './UiComponent0803RemainingTest/UiComponent0803Remaining0170.test'
+
+import UiComponent0803Remaining0100 from './UiComponent0803RemainingTest/UiComponent0803Remaining0100.test'
+
+import UiComponent0803Remaining0510 from './UiComponent0803RemainingTest/UiComponent0803Remaining0510.test'
+
+import UiComponent0803Remaining0860 from './UiComponent0803RemainingTest/UiComponent0803Remaining0860.test'
+
+import UiComponent0803Remaining0850 from './UiComponent0803RemainingTest/UiComponent0803Remaining0850.test'
+
+import UiComponent0803Remaining0870 from './UiComponent0803RemainingTest/UiComponent0803Remaining0870.test'
+
+import UiComponent0803Remaining0117 from './UiComponent0803RemainingTest/UiComponent0803Remaining0117.test'
+
+import UiComponent0803Remaining0280 from './UiComponent0803RemainingTest/UiComponent0803Remaining0280.test'
+
+import UiComponent0803Remaining0310 from './UiComponent0803RemainingTest/UiComponent0803Remaining0310.test'
+
+import UiComponentXComponentMarker0030 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0030.test'
+
+import UiComponent0803Remaining0134 from './UiComponent0803RemainingTest/UiComponent0803Remaining0134.test'
+
+import UiComponent0803Remaining0044 from './UiComponent0803RemainingTest/UiComponent0803Remaining0044.test'
+
+import UiComponentPluginQiangji0070 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0070.test'
+
+import UiComponentPluginQiangji0050 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0050.test'
+
+import UiComponentPluginQiangji0010 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0010.test'
+
+import UiComponentPluginQiangji0060 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0060.test'
+
+import UiComponentPluginQiangji0030 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0030.test'
+
+import UiComponentPluginQiangji0090 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0090.test'
+
+import UiComponentPluginQiangji0047 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0047.test'
+
+import UiComponentPluginQiangji0040 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0040.test'
+
+import UiComponentPluginQiangji0067 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0067.test'
+
+import UiComponentPluginQiangji0077 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0077.test'
+
+import UiComponentPluginQiangji0087 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0087.test'
+
+import UiComponentPluginQiangji0020 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0020.test'
+
+import UiComponentPluginQiangji0027 from './UiComponentPluginQiangjiTest/UiComponentPluginQiangji0027.test'
+
+import UiComponent0803Remaining0500 from './UiComponent0803RemainingTest/UiComponent0803Remaining0500.test'
+
+import UiComponentDynamicUec0011 from './UiComponentDynamicUecTest/UiComponentDynamicUec0011.test'
+
+import UiComponentDynamicUec0023 from './UiComponentDynamicUecTest/UiComponentDynamicUec0023.test'
+
+import UiComponentDynamicUec0024 from './UiComponentDynamicUecTest/UiComponentDynamicUec0024.test'
+
 export default function testsuite() {
+  UiComponentDynamicUec0024()
+  UiComponentDynamicUec0023()
+  UiComponentDynamicUec0011()
+  UiComponent0803Remaining0500()
+  UiComponentPluginQiangji0027()
+  UiComponentPluginQiangji0020()
+  UiComponentPluginQiangji0087()
+  UiComponentPluginQiangji0077()
+  UiComponentPluginQiangji0067()
+  UiComponentPluginQiangji0040()
+  UiComponentPluginQiangji0047()
+  UiComponentPluginQiangji0090()
+  UiComponentPluginQiangji0030()
+  UiComponentPluginQiangji0060()
+  UiComponentPluginQiangji0010()
+  UiComponentPluginQiangji0050()
+  UiComponentPluginQiangji0070()
+  UiComponent0803Remaining0044()
+  UiComponent0803Remaining0134()
+  UiComponentXComponentMarker0030()
+  UiComponent0803Remaining0310()
+  UiComponent0803Remaining0280()
+  UiComponent0803Remaining0117()
+  UiComponent0803Remaining0870()
+  UiComponent0803Remaining0850()
+  UiComponent0803Remaining0860()
+  UiComponent0803Remaining0510()
+  UiComponent0803Remaining0100()
+  UiComponent0803Remaining0170()
+  UiComponentSpecialUecInterface0105()
+  UiComponentSpecialUecInterface0102()
+  UiComponentSpecialUecInterface0114()
+  UiComponentMediaDatePickerMode0028()
+  UiComponent0803Remaining0011()
+  UiComponent0803Remaining0008()
+  UiComponent0803Remaining0007()
+  UiComponent0803Remaining0018()
+  UiComponent0803Remaining0161()
+  UiComponent0803Remaining0027()
+  UiComponent0803Remaining0070()
+  UiComponent0803Remaining0060()
+  UiComponent0803Remaining0107()
+  UiComponent0803Remaining0040()
+  UiComponent0803Remaining0067()
+  UiComponent0803Remaining0120()
+  UiComponent0803Remaining0037()
+  UiComponent0803Remaining0010()
+  UiComponent0803Remaining0030()
+  UiComponent0803Remaining0130()
+  UiComponent0803Remaining0140()
+  UiComponentPluginQiangji0140()
+  UiComponent0803Remaining0020()
+  UiComponentXComponentMarker0040()
+  UiComponentXComponentMarker1450()
+  UiComponent0803Remaining0090()
+  UiComponent0803Remaining0050()
+  UiComponentBarrierfree0016()
+  UiComponentPluginManager0024()
+  UiComponentPluginManager0025()
+  UiComponentBarrierfree0010()
+  UiComponentPluginManager0040()
+  UiComponentPluginManager0038()
+  UiComponentPluginManager0060()
+  UiComponentPluginManager0043()
+  UiComponentPluginManager0018()
+  UiComponentPluginManager0023()
+  UiComponentPluginManager0026()
+  UiComponentEmbeddedComponent0051()
+  UiComponentPluginManager0021()
+  UiComponentSpecialUecInterface0013()
+  UiComponentSpecialUecInterface0030()
+  UiComponentSpecialUecInterface0032()
+  UiComponentPluginManager0008()
+  UiComponentSpecialUecInterface0014()
+  UiComponentSpecialUecInterface0015()
+  UiComponentPluginManager0016()
+  UiComponentSuecDarkLight0015()
+  UiComponentWindowMaskLayer0004()
+  UiComponentToolbarCustom0410()
+  UiComponentWindowHoverMenu0020()
+  UiComponentWindowHoverMenu0030()
+  UiComponentWindowHoverMenu0010()
+  UiComponentWindowMaskLayer0001()
+  UiComponentWindowHoverMenu0040()
+  UiComponentWindowTitlebar0830()
+  UiComponentWindowGestures0090()
+  UiComponentWindowMaskLayer0005()
+  UiComponentWindowMaskLayer0003()
+  UiComponentWindowGestures0440()
+  UiComponentWindowTitlebar0980()
+  UiComponentWindowTitlebar0890()
+  UiComponentWindowTitlebar0160()
+  UiComponentWindowTitlebar0040()
+  UiComponentWindowGestures0011()
+  UiComponentWindowTitlebar0990()
+  UiComponentAtomicServiceMenuBar0011()
+  UiComponentWindowGestures0001()
+  UiComponentAtomicServiceCapsule0100()
+  UiComponentAtomicServiceCapsule0070()
+  UiComponentAtomicServiceCapsule0040()
+  UiComponentAtomicServiceCapsule0090()
+  UiComponentAtomicServiceMenuBar0014()
+  UiComponentAtomicServiceMenuBar0015()
+  UiComponentAtomicServiceMenuBar0013()
+  UiComponentAtomicServiceMenuBar0012()
+  UiComponentAtomicServiceMenuBar0016()
+  UiComponentAtomicServiceMenuBar0010()
+  UiComponentWindowGestures0005()
+  UiComponentXComponentMarker0137()
+  UiComponentXComponentMarker0018()
+  UiComponentXComponentMarker0130()
+  UiComponentXComponentMarker0167()
+  UiComponentXComponentMarker0370()
+  UiComponentXComponentMarker0390()
+  UiComponentXComponentMarker0380()
+  UiComponentXComponentMarker0320()
+  UiComponentXComponentMarker0120()
+  UiComponentXComponentMarker0150()
+  UiComponentXComponentMarker0310()
+  UiComponentDcPriority0020()
+  UiComponentDcPriority0010()
+  UiComponentDcRotate0020()
+  UiComponentDcPriority0030()
+  UiComponentDynamicUec0014()
+  UiComponentDynamicUec0022()
+  UiComponentDynamicUec0012()
+  UiComponentDynamicUec0015()
+  UiComponentDynamicUec0016()
+  UiComponentDynamicUec0018()
+  UiComponentDynamicUec0010()
+  UiComponentDynamicUec0013()
+  UiComponentSpecialUecInterface0050()
+  UiComponentSpecialUecInterface0100()
+  UiComponentSpecialUecInterface0113()
   UiComponentMediaMinorLanguage0031()
   UiComponentMediaMinorLanguage0021()
   UiComponentMediaImageApp0056()
