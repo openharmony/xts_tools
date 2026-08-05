@@ -42,7 +42,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0010
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0035
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0035
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -80,7 +82,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0012
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -99,7 +102,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0017
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +122,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0027
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0027
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -137,7 +142,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0031
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0031
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -156,7 +162,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0032
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0032
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -175,7 +182,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0041
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0041
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -194,7 +202,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0042
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0042
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -213,7 +222,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0043
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0043
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -232,7 +242,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0044
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0044
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -251,7 +262,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0066
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0066
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -270,7 +282,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0067
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0067
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -289,7 +302,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0073
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0073
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -308,7 +322,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0076
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0076
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -327,7 +342,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0079
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0079
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -346,7 +362,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0085
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0085
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -365,7 +382,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0090
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -383,7 +401,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0091
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0091
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -402,7 +421,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0092
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0092
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -420,7 +440,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0097
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0097
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -439,7 +460,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0098
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0098
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -458,7 +480,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0117
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0117
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -477,7 +500,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0120
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -496,7 +520,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0123
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0123
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -515,7 +540,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0126
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0126
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -534,7 +560,8 @@ export default function ProgressBorder() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0130
+     * @tc.name   : Media Progress border
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

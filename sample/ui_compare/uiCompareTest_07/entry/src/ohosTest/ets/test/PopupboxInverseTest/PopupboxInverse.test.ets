@@ -43,7 +43,8 @@ export default function PopupboxInverse() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_INVERSE_0280
      * @tc.name   : Verify that the second MenuItem in a menuItemGroup nested within MenuItem has a top margin of 20.
-     * @tc.type   : function
+     * @tc.desc   : Verify popupbox inverse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -68,7 +69,8 @@ export default function PopupboxInverse() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_INVERSE_0290
      * @tc.name   : Verify that the second MenuItem in a menuItemGroup nested within MenuItem has a bottom margin of 20.
-     * @tc.type   : function
+     * @tc.desc   : Verify popupbox inverse interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

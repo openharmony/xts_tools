@@ -43,7 +43,8 @@ export default function ProgressBorderradius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDERRADIUS_0025
      * @tc.name   : Dynamically modify the border radius value and border radius type.
-     * @tc.type   : function
+     * @tc.desc   : Verify media Progress borderradius interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

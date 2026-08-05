@@ -42,8 +42,9 @@ export default function PopupBoxAlertdialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_INTERFACE_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_INTERFACE_1200
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog interface
+     * @tc.desc   : Verify popupbox alertdialog interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

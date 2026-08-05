@@ -42,8 +42,9 @@ export default function PopupBoxActionSheetScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0010
-     * @tc.type   : function
+     * @tc.name   : Popupbox actionsheet scenarios
+     * @tc.desc   : Verify popupbox actionsheet scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -76,8 +77,9 @@ export default function PopupBoxActionSheetScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0020
-     * @tc.type   : function
+     * @tc.name   : Popupbox actionsheet scenarios
+     * @tc.desc   : Verify popupbox actionsheet scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -106,8 +108,9 @@ export default function PopupBoxActionSheetScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0030
-     * @tc.type   : function
+     * @tc.name   : Popupbox actionsheet scenarios
+     * @tc.desc   : Verify popupbox actionsheet scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -136,8 +139,9 @@ export default function PopupBoxActionSheetScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0040
-     * @tc.type   : function
+     * @tc.name   : Popupbox actionsheet scenarios
+     * @tc.desc   : Verify popupbox actionsheet scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -166,8 +170,9 @@ export default function PopupBoxActionSheetScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0100
-     * @tc.type   : function
+     * @tc.name   : Popupbox actionsheet scenarios
+     * @tc.desc   : Verify popupbox actionsheet scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -190,8 +195,9 @@ export default function PopupBoxActionSheetScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ACTIONSHEET_SCENARIOS_0120
-     * @tc.type   : function
+     * @tc.name   : Popupbox actionsheet scenarios
+     * @tc.desc   : Verify popupbox actionsheet scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

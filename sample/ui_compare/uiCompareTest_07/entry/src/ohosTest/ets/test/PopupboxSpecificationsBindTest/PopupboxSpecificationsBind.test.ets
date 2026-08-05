@@ -42,8 +42,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0080
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -92,8 +93,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0090
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -140,8 +142,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0100
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -175,8 +178,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0110
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -218,8 +222,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0120
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -261,8 +266,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0130
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -305,8 +311,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0140
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -348,8 +355,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0150
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -383,8 +391,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0160
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -426,8 +435,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0170
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -461,8 +471,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0180
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -504,8 +515,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0190
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -547,8 +559,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0200
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -582,8 +595,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0210
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -625,8 +639,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0220
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -668,8 +683,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0230
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -711,8 +727,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0240
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -754,8 +771,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0250
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -790,8 +808,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0260
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -834,8 +853,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0270
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -878,8 +898,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0280
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -921,8 +942,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0290
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -956,8 +978,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0300
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -999,8 +1022,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0310
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1048,8 +1072,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0320
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1097,8 +1122,9 @@ export default function PopupboxSpecificationsBind() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_BIND_0330
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications bind
+     * @tc.desc   : Verify popupbox specifications bind interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

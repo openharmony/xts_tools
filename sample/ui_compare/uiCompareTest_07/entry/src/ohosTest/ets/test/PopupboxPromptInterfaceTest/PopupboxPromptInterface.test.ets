@@ -43,6 +43,7 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0030
      * @tc.name   : showActionMenu buttons parameter not passed
+     * @tc.desc   : Verify popupbox prompt interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,6 +67,7 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0060
      * @tc.name   : showActionMenu color parameter not passed
+     * @tc.desc   : Verify popupbox prompt interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_0090
      * @tc.name   : showActionMenu text parameter not passed
+     * @tc.desc   : Verify popupbox prompt interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,6 +115,7 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1500
      * @tc.name   : Toast visual display in light mode conforms to UX specification
+     * @tc.desc   : Verify popupbox prompt interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,6 +141,7 @@ export default function PopupboxPromptInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_INTERFACE_1600
      * @tc.name   : Toast visual display in dark mode conforms to UX specification
+     * @tc.desc   : Verify popupbox prompt interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

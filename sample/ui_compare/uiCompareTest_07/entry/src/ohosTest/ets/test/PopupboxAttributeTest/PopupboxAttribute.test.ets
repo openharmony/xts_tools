@@ -42,8 +42,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0120
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -75,8 +76,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0130
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -106,8 +108,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0140
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -143,8 +146,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0150
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -174,8 +178,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0160
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -211,8 +216,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0170
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -253,8 +259,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0180
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -294,8 +301,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0190
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -326,8 +334,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0200
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -358,8 +367,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0220
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -390,8 +400,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0240
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -422,8 +433,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0490
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -460,8 +472,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0210
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -493,8 +506,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0260
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -526,8 +540,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0230
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -559,8 +574,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0270
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -592,8 +608,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0250
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -630,8 +647,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0280
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -663,8 +681,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0290
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -701,8 +720,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0300
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -734,8 +754,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0320
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -761,8 +782,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0330
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -793,8 +815,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0340
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -826,8 +849,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0410
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -856,8 +880,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0420
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -894,8 +919,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0430
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -919,8 +945,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0440
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -944,8 +971,9 @@ export default function PopupboxAttribute() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ATTRIBUTE_0460
-     * @tc.type   : function
+     * @tc.name   : Popupbox attribute
+     * @tc.desc   : Verify popupbox attribute interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

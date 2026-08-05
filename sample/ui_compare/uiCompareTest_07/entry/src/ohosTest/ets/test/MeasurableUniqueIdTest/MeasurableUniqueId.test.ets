@@ -42,8 +42,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0010
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -73,8 +74,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0020
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -104,8 +106,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0030
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -145,8 +148,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0040
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -187,8 +191,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0050
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -234,8 +239,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0060
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -281,8 +287,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0070
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -330,8 +337,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0080
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -366,8 +374,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0090
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -400,8 +409,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0100
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -430,8 +440,9 @@ export default function MeasurableUniqueId() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEASUABLE_UNIQUEID_0110
-     * @tc.type   : function
+     * @tc.name   : Measuable uniqueid
+     * @tc.desc   : Verify measuable uniqueid interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

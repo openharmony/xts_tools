@@ -42,7 +42,8 @@ export default function ProgressAnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0010
+     * @tc.name   : Progress animateToanimation set enableSmoothEffect property to false
+     * @tc.desc   : Verify the interface under test: Progress animateToanimation set enableSmoothEffect property to false.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -62,7 +63,8 @@ export default function ProgressAnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0011
+     * @tc.name   : Progress animateToanimation set enableSmoothEffect property to true
+     * @tc.desc   : Verify the interface under test: Progress animateToanimation set enableSmoothEffect property to true.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -82,7 +84,8 @@ export default function ProgressAnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0014
+     * @tc.name   : Media Progress animateTo
+     * @tc.desc   : Verify media Progress animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -102,7 +105,8 @@ export default function ProgressAnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0015
+     * @tc.name   : Media Progress animateTo
+     * @tc.desc   : Verify media Progress animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -122,7 +126,8 @@ export default function ProgressAnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0012
+     * @tc.name   : Media Progress animateTo
+     * @tc.desc   : Verify media Progress animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -142,7 +147,8 @@ export default function ProgressAnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_ANIMATETO_0013
+     * @tc.name   : Media Progress animateTo
+     * @tc.desc   : Verify media Progress animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

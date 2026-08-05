@@ -43,7 +43,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0040
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -74,7 +75,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0100
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0100
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -96,7 +98,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0170
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0170
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -115,7 +118,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0160
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0160
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -134,7 +138,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0060
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0060
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -156,7 +161,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0110
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0110
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -179,7 +185,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0150
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0150
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -210,7 +217,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0030
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0030
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -229,7 +237,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0190
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0190
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -250,7 +259,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0070
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -280,7 +290,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0050
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -301,7 +312,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0080
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -322,7 +334,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0120
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0120
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -341,7 +354,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0090
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -371,7 +385,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0130
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0130
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -390,7 +405,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0200
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -420,7 +436,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0180
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -450,7 +467,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0230
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0230
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -471,7 +489,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0140
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0140
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -492,7 +511,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0220
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -522,7 +542,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0210
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0210
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -543,7 +564,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0260
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -573,7 +595,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0240
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0240
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -592,7 +615,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0250
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0250
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -613,7 +637,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0270
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0270
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -634,7 +659,8 @@ export default function PrivacySensitiveGauge() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_PRIVACYSENSITIVE_GAUGE_0020
+     * @tc.name   : ArkUI privacysensitive gauge
+     * @tc.desc   : Verify ArkUI privacysensitive gauge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

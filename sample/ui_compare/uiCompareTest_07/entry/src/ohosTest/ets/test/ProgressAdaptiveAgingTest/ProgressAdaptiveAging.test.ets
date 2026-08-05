@@ -42,7 +42,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0020
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -83,7 +84,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0040
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -118,7 +120,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0010
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0010
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -150,7 +153,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0060
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0060
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -182,7 +186,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0030
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0030
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -214,7 +219,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0080
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -246,7 +252,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0050
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -278,7 +285,8 @@ export default function ProgressAdaptiveAging() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_PROGRESS_ADAPTIVE_AGING_0070
+     * @tc.name   : ArkUI Progress adaptive aging
+     * @tc.desc   : Verify ArkUI Progress adaptive aging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

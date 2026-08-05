@@ -43,6 +43,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0030
      * @tc.name   : Set the targetBuilder parameter to undefined
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,6 +65,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0040
      * @tc.name   : Set the visible parameter to false
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0050
      * @tc.name   : Set the visible parameter to true
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,6 +117,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0060
      * @tc.name   : Set the visible parameter to undefined
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,6 +143,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0070
      * @tc.name   : Dynamically switch visible property value
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,6 +177,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0090
      * @tc.name   : Verify arrowOffset less than radius arrow display position and style
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -198,6 +204,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0100
      * @tc.name   : Verify popover dynamically switch arrowPointPosition property value display
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,6 +233,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0110
      * @tc.name   : Verify popover dynamically switch Placement property value display
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +263,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0120
      * @tc.name   : Verify popover dynamically switch popup style property value display
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,6 +295,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0130
      * @tc.name   : Verify popover parameter is required
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -307,6 +317,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0140
      * @tc.name   : Verify targetBuilder parameter is required
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -328,6 +339,7 @@ export default function PopupboxFollowdialog() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FOLLOWDIALOG_0150
      * @tc.name   : Verify visible parameter is required
+     * @tc.desc   : Verify popupbox followdialog interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

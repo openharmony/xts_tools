@@ -43,6 +43,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0010
      * @tc.name   : Verify the feature of overlay node's new non-rendering capability
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,6 +86,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0020
      * @tc.name   : Verify overlay popup and callback display normally when level is set to -5
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,6 +120,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0030
      * @tc.name   : Verify overlay popup and callback display normally when level is set to 0.1111
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +154,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0040
      * @tc.name   : Verify overlay popup and callback display normally when level is set to 100001
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -184,6 +188,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0050
      * @tc.name   : Verify overlay popup and callback display normally when level is set to undefined
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,6 +222,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0070
      * @tc.name   : Verify overlay popup will not cover Modal UIExtension
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,6 +256,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0090
      * @tc.name   : Verify overlayManager supports level management and displays normally on atomic services
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -283,6 +290,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0100
      * @tc.name   : Verify overlay popup with x/y offset will not cover keyboard
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,6 +319,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0110
      * @tc.name   : Verify overlay popup can be removed normally when level is set to 100001
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -344,6 +353,7 @@ export default function OverlaymanagerLevel() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_OVERLAYMANAGER_LEVEL_0120
      * @tc.name   : Verify overlay popup and callback display normally when level is set to -100001
+     * @tc.desc   : Verify popupbox overlaymanager level interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

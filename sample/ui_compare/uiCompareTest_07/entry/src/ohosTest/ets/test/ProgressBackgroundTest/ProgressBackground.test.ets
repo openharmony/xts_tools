@@ -42,7 +42,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0010
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -62,7 +63,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0013
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -82,7 +84,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0015
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -102,7 +105,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0016
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -124,7 +128,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0017
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -143,7 +148,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0019
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -162,7 +168,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0026
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0026
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -182,7 +189,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0029
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0029
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -202,7 +210,8 @@ export default function ProgressBackground() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0031
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BACKGROUND_0031
+     * @tc.name   : Media Progress background
+     * @tc.desc   : Verify media Progress background interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

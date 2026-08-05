@@ -43,6 +43,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0010
      * @tc.name   : Canvas Path2D LineTo Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0020
      * @tc.name   : Canvas Path2D bezierCurveTo Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,6 +89,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0030
      * @tc.name   : Canvas Path2D quadraticCurveTo Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,6 +112,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0040
      * @tc.name   : Canvas Path2D arc Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,6 +135,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0050
      * @tc.name   : Canvas Path2D arcTo Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,6 +158,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0060
      * @tc.name   : Canvas Path2D ellipse Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,6 +181,7 @@ export default function Path2dAndCanvaspath2d() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATH2D_0070
      * @tc.name   : Canvas Path2D rect Performance Verification
+     * @tc.desc   : Verify canvas path2d and canvaspath2d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

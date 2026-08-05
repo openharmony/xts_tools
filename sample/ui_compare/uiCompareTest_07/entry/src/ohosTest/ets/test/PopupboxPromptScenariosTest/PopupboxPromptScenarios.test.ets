@@ -43,6 +43,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0020
      * @tc.name   : No button popup scenario (WGR) - promptAction popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0030
      * @tc.name   : No button popup scenario (WGR) - promptAction popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0040
      * @tc.name   : No button popup scenario (WGR) - prompt popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,6 +130,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0050
      * @tc.name   : No button popup scenario (WGR) - prompt popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -155,6 +159,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0060
      * @tc.name   : With button popup scenario (WGR) - promptAction popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +188,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0070
      * @tc.name   : With button popup scenario (WGR) - promptAction popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,6 +217,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0080
      * @tc.name   : With button popup scenario (WGR) - prompt popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,6 +246,7 @@ export default function PopupboxPromptScenarios() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPT_SCENARIOS_0090
      * @tc.name   : With button popup scenario (WGR) - prompt popup layer test
+     * @tc.desc   : Verify popupbox prompt scenarios interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

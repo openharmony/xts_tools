@@ -43,7 +43,8 @@ export default function NodecontainerRender() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0360
      * @tc.name   : getChild attempts to retrieve a child node under renderNode that does not exist (index greater than the maximum).
-     * @tc.type   : function
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -43,6 +43,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0170
      * @tc.name   : On a bar-phone (slab device), perform floating-window operations: for the CustomDialog component, when KeyboardAvoidMode is set to default, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +87,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0190
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the showDialog component, non-UIExtension, when ShowInSubWindow is true and KeyboardAvoidMode is set to default, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -128,6 +130,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0290
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the bindContextMenu component with MenuPreviewMode set to image, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,6 +167,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0300
      * @tc.name   : On a bar-phone (slab device), perform floating-window operations: for the sys_topmost component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +205,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0560
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the CustomDialog component, when KeyboardAvoidMode is set to default, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,6 +249,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0570
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the openCustomDialog component, non-UIExtension, when ShowInSubWindow is true, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -289,6 +295,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0660
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the showActionMenu component, non-UIExtension, when ShowInSubWindow is true, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +338,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0830
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the topmost component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,6 +376,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0970
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the showActionMenu component, UIExtension, when ShowInSubWindow is false, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -409,6 +418,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1010
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the sys_topmost component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -446,6 +456,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1080
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the openCustomDialog component, UIExtension, when ShowInSubWindow is true, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -486,6 +497,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1250
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the ActionSheet component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -529,6 +541,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1260
      * @tc.name   : On a bar-phone (slab device), perform floating-window operations: for the default component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -564,6 +577,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1280
      * @tc.name   : On a bar-phone (slab device), perform floating-window operations: for the ActionSheet component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -607,6 +621,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1290
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the openCustomDialog component, UIExtension, when ShowInSubWindow is false, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,6 +660,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1390
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the default component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -680,6 +696,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1450
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the bindContextmenu component with MenuPreviewMode set to none, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -716,6 +733,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1500
      * @tc.name   : On a bar-phone (slab device), perform floating-window operations: for the topmost component, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -753,6 +771,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1550
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the showDialog component, UIExtension, when ShowInSubWindow is true, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -794,6 +813,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1810
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the showDialog component, non-UIExtension, when ShowInSubWindow is false, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -836,6 +856,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1870
      * @tc.name   : On a bar-phone (slab device), perform floating-window operations: for the bindmenu component with ShowInSubWindow set to false, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -873,6 +894,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1920
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the CustomDialog component, when KeyboardAvoidMode is set to none, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -916,6 +938,7 @@ export default function PopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1960
      * @tc.name   : On a bar-phone (slab device), perform split-screen operations: for the openCustomDialog component, non-UIExtension, when ShowInSubWindow is false, observe the overlay effect, component layout, and alignment status.
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

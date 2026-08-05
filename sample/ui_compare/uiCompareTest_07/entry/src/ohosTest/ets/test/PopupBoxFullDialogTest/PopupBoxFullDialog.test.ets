@@ -42,8 +42,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0250
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -77,8 +78,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0340
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -109,8 +111,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0230
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -141,8 +144,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0330
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -174,8 +178,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0300
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -206,8 +211,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0320
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -234,8 +240,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0410
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -265,8 +272,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0290
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -297,8 +305,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0420
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -331,8 +340,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0460
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -362,8 +372,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0440
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -388,8 +399,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0430
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -414,8 +426,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0490
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -455,8 +468,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0190
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -487,8 +501,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0120
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -518,8 +533,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0140
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -553,8 +569,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0180
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -594,8 +611,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0160
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -628,8 +646,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0130
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -659,8 +678,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0170
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -697,8 +717,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0150
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -730,8 +751,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0200
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -760,8 +782,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0210
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -790,8 +813,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0220
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -820,8 +844,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0240
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -850,8 +875,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0260
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -880,8 +906,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0280
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -910,8 +937,9 @@ export default function PopupBoxFullDialog() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_FULLDIALOG_0270
-     * @tc.type   : function
+     * @tc.name   : Popupbox fulldialog
+     * @tc.desc   : Verify popupbox fulldialog interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

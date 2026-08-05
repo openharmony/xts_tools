@@ -42,8 +42,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0010
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -69,8 +70,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0020
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -96,8 +98,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0030
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -123,8 +126,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0040
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -150,8 +154,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0050
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -187,8 +192,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0080
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -220,8 +226,9 @@ export default function PopupBoxAlertdialogScenarios() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_ALERTDIALOG_SCENARIOS_0090
-     * @tc.type   : function
+     * @tc.name   : Popupbox alertdialog scenarios
+     * @tc.desc   : Verify popupbox alertdialog scenarios interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

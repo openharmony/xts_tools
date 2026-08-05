@@ -42,7 +42,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0110
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the min value of the Gauge component to null.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -64,7 +65,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0170
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the max value of the Gauge component to undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -86,7 +88,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0230
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Dynamically switch the value, min, and max values of the Gauge component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -108,7 +111,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0240
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Comparison between the Gauge component's builder and its native implementation.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -130,7 +134,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0210
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Set the Gauge component's contentModifier to undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -149,7 +154,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0130
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's max value to 200.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -171,7 +177,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0060
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component’s value greater than max.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -193,7 +200,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0030
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component’s value to 10.5.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -215,7 +223,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0020
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's value to -20.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -237,7 +246,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0070
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component’s value to a value less than min.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -259,7 +269,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0050
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's value to undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -281,7 +292,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0010
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's value to 20.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -303,7 +315,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0040
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's value to null.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -325,7 +338,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0100
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's min value to 10.5.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -347,7 +361,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0140
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's max value to -10.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -369,7 +384,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0080
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's min value to 10.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -391,7 +407,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0150
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's max value to 200.5.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -413,7 +430,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0120
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's min value to undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -435,7 +453,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0090
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's min value to -10.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -457,7 +476,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0180
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's max value to be less than its min value.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -479,7 +499,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0200
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Place an empty ContentModifier inside the Gauge component's builder.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -501,7 +522,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0190
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use contentModifier(new MyGaugeStyleWithAttrs()) to fully re-customize the content area and set value, min, and max within the Gauge component.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -523,7 +545,8 @@ export default function GaugeContentmodifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_CONTENTMODIFIER_0160
+     * @tc.name   : Information gauge contentModifier
+     * @tc.desc   : Verify information gauge contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Use a ContentModifier to set the Gauge component's max value to null.
      * @tc.size   : MediumTest
      * @tc.level  : 2

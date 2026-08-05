@@ -42,7 +42,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0040
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0070
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -89,7 +91,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0080
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -117,7 +120,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0060
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -145,7 +149,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0120
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Functio
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -164,7 +169,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0110
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -183,7 +189,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0050
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -202,7 +209,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0130
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -221,7 +229,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0180
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -243,7 +252,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0090
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -265,7 +275,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0190
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -287,7 +298,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0150
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -309,7 +321,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0140
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -331,7 +344,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0170
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -353,7 +367,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0160
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -375,7 +390,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0100
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -394,7 +410,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0030
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -425,7 +442,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0020
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -462,7 +480,8 @@ export default function InfomationGaugeUi() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_GAUGE_UI_0010
+     * @tc.name   : Information gauge ui
+     * @tc.desc   : Verify information gauge ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

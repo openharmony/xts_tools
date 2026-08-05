@@ -42,8 +42,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0010
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0010
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -73,8 +74,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0020
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0020
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -104,8 +106,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0030
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0030
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -135,8 +138,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0050
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0050
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -166,8 +170,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0070
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0070
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -197,8 +202,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0080
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0080
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -228,8 +234,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0090
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0090
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -259,8 +266,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0100
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0100
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -290,8 +298,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0110
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0110
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -321,8 +330,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0120
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0120
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -352,8 +362,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0130
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0130
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -383,8 +394,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0150
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0150
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -414,8 +426,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0170
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0170
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -445,8 +458,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0180
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0180
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -476,8 +490,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0190
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0190
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -507,8 +522,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0200
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0200
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -538,8 +554,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0210
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0210
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -569,8 +586,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0220
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0220
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -600,8 +618,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0250
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0250
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -631,8 +650,9 @@ export default function InterfaceCustomLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0260
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_STATESTYLES_INTERFACE__CUSTOMLAYOUT_0260
-     * @tc.type   : function
+     * @tc.name   : Attributes statestyles interface customlayout
+     * @tc.desc   : Verify attributes statestyles interface customlayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

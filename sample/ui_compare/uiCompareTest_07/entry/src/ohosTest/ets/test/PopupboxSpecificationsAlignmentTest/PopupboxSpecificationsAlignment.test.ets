@@ -42,8 +42,9 @@ export default function PopupboxSpecificationsAlignment() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0030
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications alignment
+     * @tc.desc   : Verify popupbox specifications alignment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -93,8 +94,9 @@ export default function PopupboxSpecificationsAlignment() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0090
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications alignment
+     * @tc.desc   : Verify popupbox specifications alignment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -134,8 +136,9 @@ export default function PopupboxSpecificationsAlignment() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0100
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications alignment
+     * @tc.desc   : Verify popupbox specifications alignment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -183,8 +186,9 @@ export default function PopupboxSpecificationsAlignment() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0110
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications alignment
+     * @tc.desc   : Verify popupbox specifications alignment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -229,8 +233,9 @@ export default function PopupboxSpecificationsAlignment() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_ALIGNMENT_0140
-     * @tc.type   : function
+     * @tc.name   : Popupbox specifications alignment
+     * @tc.desc   : Verify popupbox specifications alignment interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
