@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +63,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_200
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +87,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +111,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +135,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619_030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_971_619_030
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,7 +159,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0330
+     * @tc.name   : Text richeditor action
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,7 +179,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0010
+     * @tc.name   : Text richeditor cross end photographing and scanning
+     * @tc.desc   : Verify text richeditor cross end photographing and scanning interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -192,7 +199,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0011
+     * @tc.name   : Text richeditor cross end photographing and scanning
+     * @tc.desc   : Verify text richeditor cross end photographing and scanning interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,7 +219,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0012
+     * @tc.name   : Text richeditor cross end photographing and scanning
+     * @tc.desc   : Verify text richeditor cross end photographing and scanning interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,7 +239,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0014
+     * @tc.name   : Text richeditor cross end photographing and scanning
+     * @tc.desc   : Verify text richeditor cross end photographing and scanning interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,7 +259,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CROSS_END_PHOTOGRAPHING_AND_SCANNING_0020
+     * @tc.name   : Text richeditor cross end photographing and scanning
+     * @tc.desc   : Verify text richeditor cross end photographing and scanning interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -268,7 +279,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMLAYOUT_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMLAYOUT_0140
+     * @tc.name   : Text richeditor customlayout
+     * @tc.desc   : Verify text richeditor customlayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -287,7 +299,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0001
+     * @tc.name   : Text richeditor dfxreinforcin
+     * @tc.desc   : Verify text richeditor dfxreinforcin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,7 +319,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0002
+     * @tc.name   : Text richeditor dfxreinforcin
+     * @tc.desc   : Verify text richeditor dfxreinforcin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -325,7 +339,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DFXREINFORCIN_0003
+     * @tc.name   : Text richeditor dfxreinforcin
+     * @tc.desc   : Verify text richeditor dfxreinforcin interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -344,7 +359,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0021
+     * @tc.name   : Text richeditor dragplaintext
+     * @tc.desc   : Verify text richeditor dragplaintext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,7 +379,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_DRAGPLAINTEXT_0022
+     * @tc.name   : Text richeditor dragplaintext
+     * @tc.desc   : Verify text richeditor dragplaintext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -382,7 +399,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT&LETTERSPACING_0015_765
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT&LETTERSPACING_0015_765
+     * @tc.name   : Text richeditor lineheight&letterspacing
+     * @tc.desc   : Verify text richeditor lineheight&letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -410,7 +428,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_002
+     * @tc.name   : Text richeditor ondragstart
+     * @tc.desc   : Verify text richeditor ondragstart interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -433,7 +452,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_004
+     * @tc.name   : Text richeditor ondragstart
+     * @tc.desc   : Verify text richeditor ondragstart interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,7 +476,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_007
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_007
+     * @tc.name   : Text richeditor ondragstart
+     * @tc.desc   : Verify text richeditor ondragstart interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -479,7 +500,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_012
+     * @tc.name   : Text richeditor ondragstart
+     * @tc.desc   : Verify text richeditor ondragstart interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -502,7 +524,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PRELOADING_SCREEN_0024_108
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_PRELOADING_SCREEN_0024_108
+     * @tc.name   : Text richeditor preloading screen
+     * @tc.desc   : Verify text richeditor preloading screen interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -521,7 +544,8 @@ export default function UiComponentTextRicheditorActionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_PC_MENU_0010
-     * @tc.name   : SUB_ACE_UI_PC_MENU_0010
+     * @tc.name   : Pc menu
+     * @tc.desc   : Verify pc menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

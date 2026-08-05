@@ -33,6 +33,7 @@ export default function UiComponentNavNavigationServiceQuit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0020
      * @tc.name   : 元服务单Page无Navigation场景 + OnBackpress return false
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -58,6 +59,7 @@ export default function UiComponentNavNavigationServiceQuit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0070
      * @tc.name   : 元服务单Page，Stack模式Navigation栈数>1
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +105,7 @@ export default function UiComponentNavNavigationServiceQuit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0080
      * @tc.name   : 元服务单Page，Split模式Navigation栈数>1
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,6 +151,7 @@ export default function UiComponentNavNavigationServiceQuit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0090
      * @tc.name   : 元服务单Page,Stack模式Navigation + OnBackpress return true
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -178,6 +182,7 @@ export default function UiComponentNavNavigationServiceQuit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_FEATURETEST_SERVICE_QUIT_0100
      * @tc.name   : 元服务单Page,Split模式Navigation + OnBackpress return true
+     * @tc.desc   : Verify nav navigation featuretest service quit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

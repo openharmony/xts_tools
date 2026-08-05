@@ -30,6 +30,7 @@ export default function UiComponentMediaTimepicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0032
      * @tc.name   : TimepickerStartendtime0032
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -58,6 +59,7 @@ export default function UiComponentMediaTimepicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0020
      * @tc.name   : TimepickerVoice0020
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

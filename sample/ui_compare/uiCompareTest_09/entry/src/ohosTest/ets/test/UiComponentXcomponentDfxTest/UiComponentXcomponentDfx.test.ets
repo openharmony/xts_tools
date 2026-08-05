@@ -30,6 +30,7 @@ export default function UiComponentXcomponentDfx() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_DFX_0050
      * @tc.name   : XcomponentDfx0050
+     * @tc.desc   : Verify special components xcomponent DFX interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

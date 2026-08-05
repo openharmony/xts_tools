@@ -32,7 +32,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0010
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -51,7 +52,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0030
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,7 +72,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +92,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0130
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +112,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240
+     * @tc.name   : Textinput tv
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,7 +132,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310
+     * @tc.name   : Textinput search tv focus
+     * @tc.desc   : Verify textinput search tv focus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,7 +154,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_BASICCONTAINER_FORMSELECTION_TIMEPICKER_LANGUAGEORDER_0010
+     * @tc.name   : Component function basiccontainer formselection TimePicker languageorder
+     * @tc.desc   : Verify component function basiccontainer formselection TimePicker languageorder interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function UiComponentTextinputTv() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
+     * @tc.name   : Search tv
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +195,7 @@ export default function UiComponentTextinputTv() {
     /*
      * @tc.number : TextInput_Focus_Test
      * @tc.name   : TextInput_Focus_Test
+     * @tc.desc   : Verify textinput focus test interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

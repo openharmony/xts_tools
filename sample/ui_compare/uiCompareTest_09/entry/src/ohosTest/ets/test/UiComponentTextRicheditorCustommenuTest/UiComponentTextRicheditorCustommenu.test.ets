@@ -31,7 +31,8 @@ export default function UiComponentTextRicheditorCustommenu() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0002
+     * @tc.name   : Text richeditor custommenu
+     * @tc.desc   : Verify text richeditor custommenu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -48,7 +49,8 @@ export default function UiComponentTextRicheditorCustommenu() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0004
+     * @tc.name   : Text richeditor custommenu
+     * @tc.desc   : Verify text richeditor custommenu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,7 +67,8 @@ export default function UiComponentTextRicheditorCustommenu() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0006
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0006
+     * @tc.name   : Text richeditor custommenu
+     * @tc.desc   : Verify text richeditor custommenu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,7 +85,8 @@ export default function UiComponentTextRicheditorCustommenu() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0007
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMMENU_0007
+     * @tc.name   : Text richeditor custommenu
+     * @tc.desc   : Verify text richeditor custommenu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

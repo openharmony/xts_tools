@@ -30,6 +30,7 @@ export default function UiComponentTextinputSearchFocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_SEARCH_TV_FOCUS_0310
      * @tc.name   : TextinputSearchFocus0310
+     * @tc.desc   : Verify textinput search tv focus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

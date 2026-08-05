@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0007
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0007
+     * @tc.name   : Text richeditor gundongtiao
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,7 +73,8 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0008
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0008
+     * @tc.name   : Text richeditor gundongtiao
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0012
+     * @tc.name   : Text richeditor gundongtiao
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +135,8 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0013
+     * @tc.name   : Text richeditor gundongtiao
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,7 +157,8 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0014
+     * @tc.name   : Text richeditor gundongtiao
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,7 +179,8 @@ export default function UiComponentTextRicheditorGundongtiaoTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_gundongtiao_0016
+     * @tc.name   : Text richeditor gundongtiao
+     * @tc.desc   : Verify text richeditor gundongtiao interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

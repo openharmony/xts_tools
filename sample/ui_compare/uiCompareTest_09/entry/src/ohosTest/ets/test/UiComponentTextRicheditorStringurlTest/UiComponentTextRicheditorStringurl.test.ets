@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_00020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_00020
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0003
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0004
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0005
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0009
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0009
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0010
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0012
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0013
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0014
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +228,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0015
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +249,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0016
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,7 +270,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0017
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +291,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0018
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,7 +312,8 @@ export default function UiComponentTextRicheditorStringurlTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_stringURL_0019
+     * @tc.name   : Text richeditor stringurl
+     * @tc.desc   : Verify text richeditor stringurl interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

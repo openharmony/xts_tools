@@ -29,7 +29,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0010
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0010
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,7 +62,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0020
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0020
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +88,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0030
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0030
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +122,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0050
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0050
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,7 +139,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0060
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0060
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,7 +156,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0070
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0070
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +173,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0080
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0080
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +206,8 @@ export default function UiComponentMenuExit() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0090
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0090
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_AREACHANGEPLACEHOLDER_0070
      * @tc.name   : AreachangePlaceholder0070
+     * @tc.desc   : Verify special components UIExtensionComponent areachangeplaceholder interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,6 +63,7 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0010
      * @tc.name   : Dpi0010
+     * @tc.desc   : Verify special components UIExtensionComponent dpi interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,6 +82,7 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0020
      * @tc.name   : Dpi0020
+     * @tc.desc   : Verify special components UIExtensionComponent dpi interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,6 +101,7 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_DPI_0040
      * @tc.name   : Dpi0040
+     * @tc.desc   : Verify special components UIExtensionComponent dpi interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,6 +120,7 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_PLACEHOLDER_0010
      * @tc.name   : Placeholder0010
+     * @tc.desc   : Verify special components UIExtensionComponent placeholder interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -134,6 +139,7 @@ export default function UiComponentSpecialcomponentsUiextensioncomponent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_WINDOW_MODE_0006
      * @tc.name   : WindowMode0006
+     * @tc.desc   : Verify special components UIExtensionComponent window mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

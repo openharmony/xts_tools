@@ -45,7 +45,8 @@ export default function UiComponentMediaImageAnimatorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0018
      * @tc.name   : ImageanimatorMonitorinvisiblearea0018
-     * @tc.type   : Func
+     * @tc.desc   : Verify media imageanimator monitorinvisiblearea interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -71,7 +72,8 @@ export default function UiComponentMediaImageAnimatorTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGEANIMATOR_MONITORINVISIBLEAREA_0033
      * @tc.name   : ImageanimatorMonitorinvisiblearea0033
-     * @tc.type   : Func
+     * @tc.desc   : Verify media imageanimator monitorinvisiblearea interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

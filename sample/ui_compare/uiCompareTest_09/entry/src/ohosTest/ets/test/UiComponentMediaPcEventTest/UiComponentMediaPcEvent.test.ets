@@ -45,7 +45,8 @@ export default function UiComponentMediaPcEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0034
      * @tc.name   : PcEvent0034
-     * @tc.type   : Func
+     * @tc.desc   : Verify media pc event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -78,7 +79,8 @@ export default function UiComponentMediaPcEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PC_Event_0035
      * @tc.name   : PcEvent0035
-     * @tc.type   : Func
+     * @tc.desc   : Verify media pc event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

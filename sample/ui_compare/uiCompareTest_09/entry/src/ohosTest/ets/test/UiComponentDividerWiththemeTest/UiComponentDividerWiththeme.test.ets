@@ -39,7 +39,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0010
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0020
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0030
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0040
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0050
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0060
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0070
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0080
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0090
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +228,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0100
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +249,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0110
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,7 +270,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0120
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +291,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0130
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,7 +312,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0140
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +333,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0150
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,7 +354,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0160
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -359,7 +375,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0170
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,7 +396,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0180
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,7 +417,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0190
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,7 +438,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0200
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -439,7 +459,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0210
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -459,7 +480,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0220
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -479,7 +501,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0230
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -499,7 +522,8 @@ export default function UiComponentDividerWiththemeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DIVIDER_WITHTHEME_0240
+     * @tc.name   : Divider withtheme
+     * @tc.desc   : Verify divider withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

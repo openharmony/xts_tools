@@ -30,6 +30,7 @@ export default function UiComponentTextMarquee() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0350
      * @tc.name   : 跑马灯循环未结束，重新触发start
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,6 +58,7 @@ export default function UiComponentTextMarquee() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0800
      * @tc.name   : 多个跑马灯同时执行
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,6 +78,7 @@ export default function UiComponentTextMarquee() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0810
      * @tc.name   : 跑马灯循环多次，回调次数无丢失
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

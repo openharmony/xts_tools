@@ -30,6 +30,7 @@ export default function UiComponentPopupboxPickerold() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0030
      * @tc.name   : Pickerold0030
+     * @tc.desc   : Verify popupbox pickerold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -58,6 +59,7 @@ export default function UiComponentPopupboxPickerold() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0040
      * @tc.name   : Pickerold0040
+     * @tc.desc   : Verify popupbox pickerold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,6 +87,7 @@ export default function UiComponentPopupboxPickerold() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0050
      * @tc.name   : Pickerold0050
+     * @tc.desc   : Verify popupbox pickerold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,6 +115,7 @@ export default function UiComponentPopupboxPickerold() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKEROLD_0060
      * @tc.name   : Pickerold0060
+     * @tc.desc   : Verify popupbox pickerold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

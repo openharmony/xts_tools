@@ -30,6 +30,7 @@ export default function UiComponentSearchTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0400
      * @tc.name   : SearchTv0400
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -54,6 +55,7 @@ export default function UiComponentSearchTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0410
      * @tc.name   : SearchTv0410
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +80,7 @@ export default function UiComponentSearchTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0470
      * @tc.name   : SearchTv0470
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,6 +99,7 @@ export default function UiComponentSearchTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_TV_0510
      * @tc.name   : SearchTv0510
+     * @tc.desc   : Verify search tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

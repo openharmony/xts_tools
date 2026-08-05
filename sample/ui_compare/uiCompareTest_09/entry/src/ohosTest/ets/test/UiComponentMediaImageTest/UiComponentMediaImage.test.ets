@@ -32,6 +32,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0010
      * @tc.name   : ImageArktscard0010
+     * @tc.desc   : Verify media Image arktscard interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -50,6 +51,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0011
      * @tc.name   : ImageArktscard0011
+     * @tc.desc   : Verify media Image arktscard interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +70,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ARKTSCARD_0013
      * @tc.name   : ImageArktscard0013
+     * @tc.desc   : Verify media Image arktscard interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,6 +94,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_BASE64_0010
      * @tc.name   : ImageBase640010
+     * @tc.desc   : Verify media Image base64 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,6 +113,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_FOREGROUND_0010
      * @tc.name   : ImageForeground0010
+     * @tc.desc   : Verify media Image foreground interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,6 +134,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011
      * @tc.name   : ImageGif0011
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_GIF_0011'.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +153,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_INTERFACE_0720
      * @tc.name   : ImageInterface0720
+     * @tc.desc   : Verify media Image interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,6 +172,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OBJECTFIT_ALIGN_0035
      * @tc.name   : ImageObjectfitAlign0035
+     * @tc.desc   : Verify media Image objectfit align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,6 +196,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0011
      * @tc.name   : ImageOnerror0011
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -206,6 +215,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0012
      * @tc.name   : ImageOnerror0012
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -224,6 +234,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0013
      * @tc.name   : ImageOnerror0013
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -242,6 +253,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0014
      * @tc.name   : ImageOnerror0014
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -260,6 +272,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0015
      * @tc.name   : ImageOnerror0015
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -278,6 +291,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0016
      * @tc.name   : ImageOnerror0016
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -296,6 +310,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0017
      * @tc.name   : ImageOnerror0017
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -314,6 +329,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0018
      * @tc.name   : ImageOnerror0018
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -332,6 +348,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0019
      * @tc.name   : ImageOnerror0019
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,6 +367,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0020
      * @tc.name   : ImageOnerror0020
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,6 +386,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ONERROR_0021
      * @tc.name   : ImageOnerror0021
+     * @tc.desc   : Verify media Image onerror interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -386,6 +405,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_OPACITY_0011
      * @tc.name   : ImageOpacity0011
+     * @tc.desc   : Verify media Image opacity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -409,6 +429,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SRC_0010
      * @tc.name   : ImageSrc0010
+     * @tc.desc   : Verify media Image src interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -427,6 +448,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0014
      * @tc.name   : ImageSvgNew0014
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -445,6 +467,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0018
      * @tc.name   : ImageSvgNew0018
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -463,6 +486,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0019
      * @tc.name   : ImageSvgNew0019
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -481,6 +505,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0020
      * @tc.name   : ImageSvgNew0020
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -504,6 +529,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0021
      * @tc.name   : ImageSvgNew0021
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -522,6 +548,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0022
      * @tc.name   : ImageSvgNew0022
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -540,6 +567,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0023
      * @tc.name   : ImageSvgNew0023
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -558,6 +586,7 @@ export default function UiComponentMediaImageTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SVG_NEW_0024
      * @tc.name   : ImageSvgNew0024
+     * @tc.desc   : Verify media Image svg new interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

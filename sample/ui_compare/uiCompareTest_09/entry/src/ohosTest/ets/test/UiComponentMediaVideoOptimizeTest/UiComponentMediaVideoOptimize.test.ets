@@ -45,6 +45,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0070
      * @tc.name   : VideoOptimize0070
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0370
      * @tc.name   : VideoOptimize0370
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0380
      * @tc.name   : VideoOptimize0380
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,6 +116,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0390
      * @tc.name   : VideoOptimize0390
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -134,6 +138,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0400
      * @tc.name   : VideoOptimize0400
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -155,6 +160,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0410
      * @tc.name   : VideoOptimize0410
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,6 +187,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0420
      * @tc.name   : VideoOptimize0420
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,6 +214,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0430
      * @tc.name   : VideoOptimize0430
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,6 +241,7 @@ export default function UiComponentMediaVideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0440
      * @tc.name   : VideoOptimize0440
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

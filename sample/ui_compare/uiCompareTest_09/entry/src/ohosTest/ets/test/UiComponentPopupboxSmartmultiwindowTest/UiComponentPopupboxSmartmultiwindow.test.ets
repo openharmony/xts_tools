@@ -30,6 +30,7 @@ export default function UiComponentPopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_0820
      * @tc.name   : Smartmultiwindow0820
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -58,6 +59,7 @@ export default function UiComponentPopupboxSmartmultiwindow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SMARTMULTIWINDOW_1940
      * @tc.name   : Smartmultiwindow1940
+     * @tc.desc   : Verify popupbox smartmultiwindow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -30,6 +30,7 @@ export default function UiComponentTextRicheditorWindows() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_windows_0001
      * @tc.name   : RicheditorWindows0001
+     * @tc.desc   : Verify text richeditor windows interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

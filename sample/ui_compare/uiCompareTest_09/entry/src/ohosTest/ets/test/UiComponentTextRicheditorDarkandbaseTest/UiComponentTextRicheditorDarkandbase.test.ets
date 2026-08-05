@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorDarkandbaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0021
+     * @tc.name   : Text richeditor darkandbase
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,7 +73,8 @@ export default function UiComponentTextRicheditorDarkandbaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0022
+     * @tc.name   : Text richeditor darkandbase
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

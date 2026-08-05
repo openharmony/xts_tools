@@ -30,6 +30,7 @@ export default function UiComponentTextRicheditorTranslate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_TRANSLATE_0003
      * @tc.name   : RicheditorTranslate0003
+     * @tc.desc   : Verify text richeditor translate interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

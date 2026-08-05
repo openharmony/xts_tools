@@ -30,6 +30,7 @@ export default function UiComponentTextRicheditorVirtualCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0001
      * @tc.name   : RicheditorVirtualCursor0001
+     * @tc.desc   : Verify text richeditor virtual cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -48,6 +49,7 @@ export default function UiComponentTextRicheditorVirtualCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_VIRTUAL_CURSOR_0002
      * @tc.name   : RicheditorVirtualCursor0002
+     * @tc.desc   : Verify text richeditor virtual cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -45,7 +45,8 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0014
      * @tc.name   : TextpickerOnenterselectedarea0014
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TextPicker onenterselectedarea interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -69,7 +70,8 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0015
      * @tc.name   : TextpickerOnenterselectedarea0015
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TextPicker onenterselectedarea interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -98,7 +100,8 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0016
      * @tc.name   : TextpickerOnenterselectedarea0016
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TextPicker onenterselectedarea interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -125,7 +128,8 @@ export default function UiComponentMediaTextpickerOnenterselectedareaTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_ONENTERSELECTEDAREA_0017
      * @tc.name   : TextpickerOnenterselectedarea0017
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TextPicker onenterselectedarea interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

@@ -45,6 +45,7 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0030
      * @tc.name   : NavdestinationSuitableforaging0030
+     * @tc.desc   : Verify nav navdestination suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0060
      * @tc.name   : NavdestinationSuitableforaging0060
+     * @tc.desc   : Verify nav navdestination suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,6 +97,7 @@ export default function UiComponentNavNavdestinationSuitableforagingTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_SUITABLEFORAGING_0090
      * @tc.name   : NavdestinationSuitableforaging0090
+     * @tc.desc   : Verify nav navdestination suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

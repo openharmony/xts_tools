@@ -30,6 +30,7 @@ export default function UiComponentTextRicheditorMenuShare() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_Menu_Share_00001
      * @tc.name   : RicheditorMenuShare00001
+     * @tc.desc   : Verify text richeditor menu share interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

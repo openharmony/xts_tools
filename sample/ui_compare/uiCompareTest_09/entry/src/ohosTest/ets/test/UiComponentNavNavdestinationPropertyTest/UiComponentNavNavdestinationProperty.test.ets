@@ -45,7 +45,8 @@ export default function UiComponentNavNavdestinationPropertyTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0110
+     * @tc.name   : Nav navdestination property
+     * @tc.desc   : Verify nav navdestination property interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,7 +77,8 @@ export default function UiComponentNavNavdestinationPropertyTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_PROPERTY_0120
+     * @tc.name   : Nav navdestination property
+     * @tc.desc   : Verify nav navdestination property interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

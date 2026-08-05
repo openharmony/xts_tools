@@ -31,7 +31,8 @@ export default function UiComponentTextRicheditorHandleAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0005
+     * @tc.name   : Text richeditor handle animation
+     * @tc.desc   : Verify text richeditor handle animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +61,8 @@ export default function UiComponentTextRicheditorHandleAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0009
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0009
+     * @tc.name   : Text richeditor handle animation
+     * @tc.desc   : Verify text richeditor handle animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +97,8 @@ export default function UiComponentTextRicheditorHandleAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_handle_animation_0010
+     * @tc.name   : Text richeditor handle animation
+     * @tc.desc   : Verify text richeditor handle animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

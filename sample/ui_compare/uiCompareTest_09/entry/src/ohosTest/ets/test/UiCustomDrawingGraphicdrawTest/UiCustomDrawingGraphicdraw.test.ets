@@ -39,7 +39,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0530
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0530
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0540
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0540
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0550
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0550
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0560
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0560
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0570
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0570
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0580
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0580
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +165,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0590
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0590
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +186,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0600
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0600
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +207,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0610
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0610
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +228,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0620
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0620
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +249,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0630
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0630
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,7 +270,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0640
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0640
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +291,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0650
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0650
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,7 +312,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0660
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0660
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +333,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0670
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0670
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,7 +354,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0680
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0680
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -359,7 +375,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0690
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0690
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,7 +396,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0700
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0700
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,7 +417,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0710
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0710
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,7 +438,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0720
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0720
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -439,7 +459,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0730
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0730
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -459,7 +480,8 @@ export default function UiCustomDrawingGraphicdrawTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0740
-     * @tc.name   : SUB_ACE_UI_CUSTOM_DRAWING_GRAPHICDRAW_0740
+     * @tc.name   : Custom drawing graphicdraw
+     * @tc.desc   : Verify custom drawing graphicdraw interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

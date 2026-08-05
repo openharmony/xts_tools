@@ -30,7 +30,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0170
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0170
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,7 +77,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0180
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0180
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,7 +105,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0190
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0190
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +133,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0200
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0200
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,7 +161,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0210
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0210
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +221,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0230
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0230
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -243,7 +249,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0240
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0240
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -270,7 +277,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0260
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0260
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +305,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0270
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0270
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,7 +333,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0280
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0280
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,7 +361,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0290
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0290
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -378,7 +389,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0300
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0300
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -405,7 +417,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0310
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0310
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -432,7 +445,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0315
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0315
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -459,7 +473,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0320
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0320
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -486,7 +501,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0330
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0330
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -513,7 +529,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0340
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0340
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -540,7 +557,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0350
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0350
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -567,7 +585,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0360
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0360
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -594,7 +613,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0370
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0370
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -621,7 +641,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0380
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0380
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -648,7 +669,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0390
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0390
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -675,7 +697,8 @@ export default function UiComponentMenuMirrorImageExtended() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0400
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_MIRRORIMAG_0400
+     * @tc.name   : Component function commomattributes menu mirrorimag
+     * @tc.desc   : Verify component function commomattributes menu mirrorimag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

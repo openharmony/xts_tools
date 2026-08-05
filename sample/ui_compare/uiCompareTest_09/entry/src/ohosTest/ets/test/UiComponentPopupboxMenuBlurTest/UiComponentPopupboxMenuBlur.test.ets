@@ -33,6 +33,7 @@ export default function UiComponentPopupboxMenuBlur() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_004
      * @tc.name   : bindcontextmenu（入参为CustomBuilder，使用Menu()）
+     * @tc.desc   : Verify popupbox menu blur interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -53,6 +54,7 @@ export default function UiComponentPopupboxMenuBlur() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_007
      * @tc.name   : bindmenu入参为MenuElement-API10
+     * @tc.desc   : Verify popupbox menu blur interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,6 +75,7 @@ export default function UiComponentPopupboxMenuBlur() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_008
      * @tc.name   : bindmenu入参为CustomBuilder（不使用Menu()）-API10
+     * @tc.desc   : Verify popupbox menu blur interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +96,7 @@ export default function UiComponentPopupboxMenuBlur() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_009
      * @tc.name   : bindmenu入参为CustomBuilder（使用Menu()）-API10
+     * @tc.desc   : Verify popupbox menu blur interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

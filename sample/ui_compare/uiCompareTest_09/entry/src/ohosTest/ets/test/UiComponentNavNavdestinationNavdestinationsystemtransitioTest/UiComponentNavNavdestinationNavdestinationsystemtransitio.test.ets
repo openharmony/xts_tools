@@ -34,6 +34,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0010
      * @tc.name   : Navigation自定义转场动画能力增强（正常值测试）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0020
      * @tc.name   : Navigation自定义转场动画能力增强（异常值测试）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,6 +93,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0030
      * @tc.name   : Navigation自定义转场动画能力增强（push接口测试）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +120,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0040
      * @tc.name   : Navigation自定义转场动画能力增强（push接口测试，带有页面栈的操作模式）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +147,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0050
      * @tc.name   : Navigation自定义转场动画能力增强（replace接口）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +174,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0060
      * @tc.name   : Navigation自定义转场动画能力增强（replace接口，带有页面栈的操作模式）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,6 +196,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0070
      * @tc.name   : Navigation自定义转场动画能力增强（pop、popToName接口）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,6 +223,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0080
      * @tc.name   : Navigation自定义转场动画能力增强（popToIndex接口）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,6 +245,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0090
      * @tc.name   : Navigation自定义转场动画能力增强（remove接口）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,6 +267,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0100
      * @tc.name   : Navigation自定义转场动画能力增强（clear接口）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -284,6 +294,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0110
      * @tc.name   : Navigation自定义转场动画能力增强（move接口）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,6 +316,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0120
      * @tc.name   : Navigation自定义转场动画能力增强（横竖屏切换场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -326,6 +338,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0130
      * @tc.name   : Navigation自定义转场动画能力增强（DIALOG页面场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -352,6 +365,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0140
      * @tc.name   : Navigation自定义转场动画能力增强（DIALOG+STANDARD场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -373,6 +387,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0150
      * @tc.name   : Navigation自定义转场动画能力增强（DIALOG+STANDARD moveToTop场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -394,6 +409,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0160
      * @tc.name   : Navigation自定义转场动画能力增强（单双栏切换场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,6 +436,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0170
      * @tc.name   : Navigation自定义转场动画能力增强（子窗口场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -446,6 +463,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0180
      * @tc.name   : Navigation自定义转场动画能力增强（NavDestination隐藏标题栏场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -472,6 +490,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0190
      * @tc.name   : Navigation自定义转场动画能力增强（navBarPosition场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -493,6 +512,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0200
      * @tc.name   : Navigation自定义转场动画能力增强（镜像场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -514,6 +534,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0210
      * @tc.name   : Navigation自定义转场动画能力增强（disableAnimation场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -540,6 +561,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0220
      * @tc.name   : Navigation自定义转场动画能力增强（animated场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -561,6 +583,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0230
      * @tc.name   : Navigation自定义转场动画能力增强（NavPathStack操作开发者自定义场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -582,6 +605,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0240
      * @tc.name   : Navigation自定义转场动画能力增强（调用queryNavigationInfo场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -603,6 +627,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0250
      * @tc.name   : Navigation自定义转场动画能力增强（调用OnReady场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -624,6 +649,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0260
      * @tc.name   : Navigation自定义转场动画能力增强（自定义动画场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -650,6 +676,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0280
      * @tc.name   : Navigation自定义转场动画能力增强（跳转HSP场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -671,6 +698,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0290
      * @tc.name   : Navigation自定义转场动画能力增强（跳转HAR场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -692,6 +720,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0300
      * @tc.name   : Navigation自定义转场动画能力增强（一次push DIALOG+STANDARD页面场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -718,6 +747,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0310
      * @tc.name   : Navigation自定义转场动画能力增强（一次push DIALOG页面场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -744,6 +774,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0320
      * @tc.name   : Navigation自定义转场动画能力增强（一次push STANDARD页面场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -770,6 +801,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0330
      * @tc.name   : Navigation自定义转场动画能力增强（一次push STANDARD页面异常值场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -796,6 +828,7 @@ export default function UiComponentNavNavdestinationNavdestinationsystemtransiti
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVDESTINATION_NAVDESTINATIONSYSTEMTRANSITIO_0340
      * @tc.name   : Navigation自定义转场动画能力增强（一次push DIALOG页面异常值场景）
+     * @tc.desc   : Verify nav navdestination navdestinationsystemtransitio interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

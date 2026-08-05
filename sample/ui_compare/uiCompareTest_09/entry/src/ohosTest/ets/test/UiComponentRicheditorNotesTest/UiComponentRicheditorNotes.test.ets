@@ -30,6 +30,7 @@ export default function UiComponentRicheditorNotes() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_579
      * @tc.name   : 备忘录url链接复制粘贴
+     * @tc.desc   : Verify text richeditor notes interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,6 +58,7 @@ export default function UiComponentRicheditorNotes() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_NOTES_0007_772_581
      * @tc.name   : 备忘录小窗模式清单/列表圆圈
+     * @tc.desc   : Verify text richeditor notes interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -32,6 +32,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0010
      * @tc.name   : ImageAnimateDisplay0010
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,6 +60,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0011
      * @tc.name   : ImageAnimateDisplay0011
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +88,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0012
      * @tc.name   : ImageAnimateDisplay0012
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,6 +116,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0013
      * @tc.name   : ImageAnimateDisplay0013
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,6 +144,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0014
      * @tc.name   : ImageAnimateDisplay0014
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,6 +172,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0015
      * @tc.name   : ImageAnimateDisplay0015
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -194,6 +200,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0016
      * @tc.name   : ImageAnimateDisplay0016
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -224,6 +231,7 @@ export default function UiComponentMediaImageAnimateDisplayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_ANIMATE_DISPLAY_0017
      * @tc.name   : ImageAnimateDisplay0017
+     * @tc.desc   : Verify media Image animate display interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

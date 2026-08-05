@@ -33,6 +33,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0030
      * @tc.name   : marqueeOptions.delay不设置
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -53,6 +54,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0060
      * @tc.name   : marqueeOptions.delay设置为1000ms
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,6 +75,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0110
      * @tc.name   : marqueeOptions.fromStart不设置，启用渐隐效果
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +96,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0140
      * @tc.name   : marqueeOptions.loop不设置，fromStart设置为true
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,6 +117,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0180
      * @tc.name   : marqueeOptions.loop设置为2
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0250
      * @tc.name   : marqueeOptions.step设置为20
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,6 +159,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0350
      * @tc.name   : 跑马灯循环未结束，重新触发start
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -178,6 +185,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0800
      * @tc.name   : 多个跑马灯同时执行，流畅无卡顿
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -198,6 +206,7 @@ export default function UiComponentTextTv() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TV_0810
      * @tc.name   : 跑马灯循环100次，回调次数无丢失
+     * @tc.desc   : Verify text tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

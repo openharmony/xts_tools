@@ -30,6 +30,7 @@ export default function UiComponentTextRicheditorBackplane() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0001
      * @tc.name   : RicheditorBackplane0001
+     * @tc.desc   : Verify text richeditor backplane interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -48,6 +49,7 @@ export default function UiComponentTextRicheditorBackplane() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_BACKPLANE_0007
      * @tc.name   : RicheditorBackplane0007
+     * @tc.desc   : Verify text richeditor backplane interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

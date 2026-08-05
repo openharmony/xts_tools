@@ -32,6 +32,7 @@ export default function UiComponentMediaDatepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0015
      * @tc.name   : 参数输入string类型验证
+     * @tc.desc   : Verify media DatePicker voice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -50,6 +51,7 @@ export default function UiComponentMediaDatepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0030
      * @tc.name   : 一指向上一指向下滑动音效振动测试
+     * @tc.desc   : Verify media DatePicker voice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +70,7 @@ export default function UiComponentMediaDatepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0047
      * @tc.name   : API隔离测试
+     * @tc.desc   : Verify media DatePicker voice interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

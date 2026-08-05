@@ -45,7 +45,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0010
      * @tc.name   : VideoHsp0010
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -78,7 +79,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0040
      * @tc.name   : VideoHsp0040
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -107,7 +109,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0050
      * @tc.name   : VideoHsp0050
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -131,7 +134,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0060
      * @tc.name   : VideoHsp0060
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -160,7 +164,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0070
      * @tc.name   : VideoHsp0070
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -184,7 +189,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0080
      * @tc.name   : VideoHsp0080
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -213,7 +219,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0090
      * @tc.name   : VideoHsp0090
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -237,7 +244,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0100
      * @tc.name   : VideoHsp0100
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -261,7 +269,8 @@ export default function UiComponentMediaVideoHspTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_HSP_0110
      * @tc.name   : VideoHsp0110
-     * @tc.type   : Func
+     * @tc.desc   : Verify media video hsp interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

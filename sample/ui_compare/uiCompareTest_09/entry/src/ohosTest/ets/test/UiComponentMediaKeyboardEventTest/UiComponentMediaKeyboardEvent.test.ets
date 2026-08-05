@@ -45,7 +45,8 @@ export default function UiComponentMediaKeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0010
      * @tc.name   : KeyboardEvent0010
-     * @tc.type   : Func
+     * @tc.desc   : Verify media keyboard event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -75,7 +76,8 @@ export default function UiComponentMediaKeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0012
      * @tc.name   : KeyboardEvent0012
-     * @tc.type   : Func
+     * @tc.desc   : Verify media keyboard event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -102,7 +104,8 @@ export default function UiComponentMediaKeyboardEventTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_KEYBOARD_Event_0013
      * @tc.name   : KeyboardEvent0013
-     * @tc.type   : Func
+     * @tc.desc   : Verify media keyboard event interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

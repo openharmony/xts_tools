@@ -32,6 +32,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0010
      * @tc.name   : Heif0010
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -56,6 +57,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0020
      * @tc.name   : Heif0020
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,6 +79,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0030
      * @tc.name   : Heif0030
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +107,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0040
      * @tc.name   : Heif0040
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,6 +129,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0050
      * @tc.name   : Heif0050
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,6 +154,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0070
      * @tc.name   : Heif0070
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,6 +176,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0090
      * @tc.name   : Heif0090
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,6 +198,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0100
      * @tc.name   : Heif0100
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -212,6 +220,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0120
      * @tc.name   : Heif0120
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,6 +248,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0130
      * @tc.name   : Heif0130
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -260,6 +270,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0140
      * @tc.name   : Heif0140
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -284,6 +295,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0150
      * @tc.name   : Heif0150
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,6 +317,7 @@ export default function UiComponentMediaHeifTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_HEIF_0160
      * @tc.name   : Heif0160
+     * @tc.desc   : Verify media heif interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

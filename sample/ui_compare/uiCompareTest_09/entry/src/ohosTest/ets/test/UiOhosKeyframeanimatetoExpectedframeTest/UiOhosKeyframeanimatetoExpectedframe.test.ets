@@ -39,7 +39,8 @@ export default function UiOhosKeyframeanimatetoExpectedframeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0090
-     * @tc.name   : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0090
+     * @tc.name   : Ohos keyframeanimateto expectedframe
+     * @tc.desc   : Verify ohos keyframeanimateto expectedframe interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiOhosKeyframeanimatetoExpectedframeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0110
-     * @tc.name   : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0110
+     * @tc.name   : Ohos keyframeanimateto expectedframe
+     * @tc.desc   : Verify ohos keyframeanimateto expectedframe interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiOhosKeyframeanimatetoExpectedframeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0120
-     * @tc.name   : SUB_ACE_UI_OHOS_KEYFRAMEANIMATETO_EXPECTEDFRAME_0120
+     * @tc.name   : Ohos keyframeanimateto expectedframe
+     * @tc.desc   : Verify ohos keyframeanimateto expectedframe interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -32,6 +32,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0010
      * @tc.name   : 静图切换动图再切静图
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -54,6 +55,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0011
      * @tc.name   : 动图切换静图再切动图
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +73,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0012
      * @tc.name   : 多单动图来回切换
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,6 +91,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0013
      * @tc.name   : 多动图切换单动图
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,6 +112,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0014
      * @tc.name   : 多动图组切换
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,6 +130,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0015
      * @tc.name   : 瀑布流动图播放
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,6 +148,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0016
      * @tc.name   : 不同src类型播放
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,6 +166,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0017
      * @tc.name   : 清空图源再恢复
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,6 +189,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0018
      * @tc.name   : 组件区域可变设置
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,6 +205,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0019
      * @tc.name   : 隐私隐藏测试
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,6 +223,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0020
      * @tc.name   : ImageAnimator PixelMap测试
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,6 +241,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0021
      * @tc.name   : 固定播放次数测试
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,6 +259,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0022
      * @tc.name   : 高帧数短时长GIF测试
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +277,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0023
      * @tc.name   : 挂载卸载事件测试
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -286,6 +300,7 @@ export default function UiComponentMediaGifPlayTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_GIF_PLAY_0024
      * @tc.name   : 浮层GIF测试
+     * @tc.desc   : Verify media gif play interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

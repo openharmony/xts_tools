@@ -30,6 +30,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0010
      * @tc.name   : FadingedgeTv0010
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -48,6 +49,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0090
      * @tc.name   : FadingedgeTv0090
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,6 +74,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0470
      * @tc.name   : FadingedgeTv0470
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +107,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0490
      * @tc.name   : FadingedgeTv0490
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,6 +141,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0950
      * @tc.name   : FadingedgeTv0950
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +174,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0510
      * @tc.name   : FadingedgeTv0510
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +193,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0600
      * @tc.name   : FadingedgeTv0600
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,6 +218,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0960
      * @tc.name   : FadingedgeTv0960
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -235,6 +243,7 @@ export default function UiComponentTextFadingedge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0970
      * @tc.name   : FadingedgeTv0970
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

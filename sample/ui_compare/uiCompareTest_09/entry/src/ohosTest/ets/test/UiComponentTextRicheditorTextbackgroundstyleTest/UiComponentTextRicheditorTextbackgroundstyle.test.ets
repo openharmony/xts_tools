@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_006
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_006
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_010
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_011
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiComponentTextRicheditorTextbackgroundstyleTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_textBackgroundStyle_012
+     * @tc.name   : Text richeditor textbackgroundstyle
+     * @tc.desc   : Verify text richeditor textbackgroundstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

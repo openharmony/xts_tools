@@ -30,6 +30,7 @@ export default function UiComponentTextinputTvNew() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0100
      * @tc.name   : 输入框提示文本超长UX检视
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,6 +58,7 @@ export default function UiComponentTextinputTvNew() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_TV_0240
      * @tc.name   : 输入法避让测试
+     * @tc.desc   : Verify textinput tv interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

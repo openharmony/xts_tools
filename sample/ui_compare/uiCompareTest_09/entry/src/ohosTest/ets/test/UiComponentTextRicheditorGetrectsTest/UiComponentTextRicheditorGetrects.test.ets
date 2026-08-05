@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorGetrectsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0001
+     * @tc.name   : Text richeditor getrects
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UiComponentTextRicheditorGetrectsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0005
+     * @tc.name   : Text richeditor getrects
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UiComponentTextRicheditorGetrectsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0006
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0006
+     * @tc.name   : Text richeditor getrects
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UiComponentTextRicheditorGetrectsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0009
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0009
+     * @tc.name   : Text richeditor getrects
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,7 +123,8 @@ export default function UiComponentTextRicheditorGetrectsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0016
+     * @tc.name   : Text richeditor getrects
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +144,8 @@ export default function UiComponentTextRicheditorGetrectsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_GETRECTS_0021
+     * @tc.name   : Text richeditor getrects
+     * @tc.desc   : Verify text richeditor getrects interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

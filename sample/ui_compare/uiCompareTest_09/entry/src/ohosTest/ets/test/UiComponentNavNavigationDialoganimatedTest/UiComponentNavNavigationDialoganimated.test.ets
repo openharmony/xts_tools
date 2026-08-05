@@ -45,7 +45,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0260
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,7 +74,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0270
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0280
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +142,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0290
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,7 +177,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0300
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,7 +223,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0310
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +264,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0320
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -300,7 +307,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0330
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -342,7 +350,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0340
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -376,7 +385,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0350
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,7 +426,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0360
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +461,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0370
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -490,7 +502,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0380
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -530,7 +543,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0390
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -570,7 +584,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0400
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -610,7 +625,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0410
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -655,7 +671,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0420
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -695,7 +712,8 @@ export default function UiComponentNavNavigationDialoganimatedTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_NAV_NAVIGATION_DIALOGANIMATED_0430
+     * @tc.name   : Nav navigation dialoganimated
+     * @tc.desc   : Verify nav navigation dialoganimated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -39,7 +39,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0001
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0001
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,7 +68,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0002
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0002
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +97,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0003
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +126,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0004
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0004
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,7 +155,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0005
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0005
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +184,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0006
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0006
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,7 +213,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0007
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0007
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -235,7 +242,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0008
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0008
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,7 +271,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0009
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0009
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,7 +300,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0010
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +329,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0011
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -347,7 +358,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0012
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,7 +387,8 @@ export default function UiComponentTextRicheditorSetselectionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SETSELECTION_0013
+     * @tc.name   : Text richeditor setselection
+     * @tc.desc   : Verify text richeditor setselection interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

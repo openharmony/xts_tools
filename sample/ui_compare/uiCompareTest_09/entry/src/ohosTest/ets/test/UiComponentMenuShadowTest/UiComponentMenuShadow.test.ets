@@ -30,7 +30,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0200
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -58,7 +59,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0210
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +87,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0220
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +115,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0230
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +143,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0240
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +172,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0250
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -194,7 +200,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0260
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,7 +228,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0270
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,7 +248,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0280
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,7 +276,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0290
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,7 +304,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0300
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,7 +332,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0310
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -348,7 +360,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0320
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,7 +388,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0330
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -402,7 +416,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0340
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -429,7 +444,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0350
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,7 +472,8 @@ export default function UiComponentMenuShadow() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_SHADOWSET_0360
+     * @tc.name   : Component function commomattributes menu shadowset
+     * @tc.desc   : Verify component function commomattributes menu shadowset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

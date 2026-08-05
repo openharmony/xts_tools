@@ -45,7 +45,8 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0014
      * @tc.name   : TimepickerVoice0014
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -74,7 +75,8 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0019
      * @tc.name   : TimepickerVoice0019
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -103,7 +105,8 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0021
      * @tc.name   : TimepickerVoice0021
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -137,7 +140,8 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0022
      * @tc.name   : TimepickerVoice0022
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -166,7 +170,8 @@ export default function UiComponentMediaTimepickerVoiceTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_VOICE_0023
      * @tc.name   : TimepickerVoice0023
-     * @tc.type   : Func
+     * @tc.desc   : Verify media TimePicker voice interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

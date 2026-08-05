@@ -32,6 +32,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0012
      * @tc.name   : Image ColorFilter深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -49,6 +50,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0014
      * @tc.name   : ImageAnimator深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,6 +68,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0017
      * @tc.name   : ImageSpan颜色滤镜深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,6 +84,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0018
      * @tc.name   : DataPanel深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,6 +102,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0020
      * @tc.name   : DataPanel底板颜色深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +120,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0021
      * @tc.name   : Gauge圆环深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +137,8 @@ export default function UiComponentMediaDarkColorModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0022
-     * @tc.name   : LoadingProgress深色模式测试
+     * @tc.name   : set dark color mode，loadingProgress scenario
+     * @tc.desc   : Verify the interface under test: set dark color mode，loadingProgress scenario.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,6 +156,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0023
      * @tc.name   : LoadingProgress设置颜色深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +173,8 @@ export default function UiComponentMediaDarkColorModeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026
-     * @tc.name   : Progress深色模式测试
+     * @tc.name   : set dark color mode，Progress
+     * @tc.desc   : Verify the interface under test: set dark color mode，Progress.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +192,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0027
      * @tc.name   : QRCode深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,6 +210,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0028
      * @tc.name   : QRCode应用场景深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,6 +228,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0029
      * @tc.name   : Badge深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -234,6 +246,7 @@ export default function UiComponentMediaDarkColorModeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0030
      * @tc.name   : Badge应用场景深色模式测试
+     * @tc.desc   : Verify media dark color mode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -32,7 +32,8 @@ export default function UiComponentMenuStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0030
+     * @tc.name   : Popupbox menu style enhancement
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -51,7 +52,8 @@ export default function UiComponentMenuStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_STYLE_ENHANCEMENT_0040
+     * @tc.name   : Popupbox menu style enhancement
+     * @tc.desc   : Verify popupbox menu style enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,7 +72,8 @@ export default function UiComponentMenuStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TOUCH_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TOUCH_0080
+     * @tc.name   : Popupbox menu touch
+     * @tc.desc   : Verify popupbox menu touch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +92,8 @@ export default function UiComponentMenuStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_UIEXTENSION_0010
+     * @tc.name   : Popupbox menu uiextension
+     * @tc.desc   : Verify popupbox menu uiextension interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +112,8 @@ export default function UiComponentMenuStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_011
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_011
+     * @tc.name   : Popupbox menu blur
+     * @tc.desc   : Verify popupbox menu blur interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,7 +132,8 @@ export default function UiComponentMenuStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_012
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_BLUR_012
+     * @tc.name   : Popupbox menu blur
+     * @tc.desc   : Verify popupbox menu blur interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

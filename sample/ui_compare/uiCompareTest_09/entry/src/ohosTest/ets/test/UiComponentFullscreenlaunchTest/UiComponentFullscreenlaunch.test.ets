@@ -30,6 +30,7 @@ export default function UiComponentFullscreenlaunch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0004
      * @tc.name   : FullscreenlaunchOnerror0004
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent onerror onterminated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -56,6 +57,7 @@ export default function UiComponentFullscreenlaunch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0005
      * @tc.name   : FullscreenlaunchOnerror0005
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent onerror onterminated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,6 +84,7 @@ export default function UiComponentFullscreenlaunch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_ONERROR_ONTERMINATED_0006
      * @tc.name   : FullscreenlaunchOnerror0006
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent onerror onterminated interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -29,7 +29,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0100
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -62,7 +63,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0110
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,7 +117,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0120
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +150,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0130
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -184,7 +188,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0140
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -212,7 +217,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0150
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,7 +259,8 @@ export default function UiComponentMenuExitBatch3Test() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0160
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_COMMOMATTRIBUTES_MENU_EXITLOGICOPTIMIZATION_0160
+     * @tc.name   : Component function commomattributes menu exitlogicoptimization
+     * @tc.desc   : Verify component function commomattributes menu exitlogicoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
