@@ -16,23 +16,21 @@
 @Entry
 @Component
 struct UiComponentToolbarCustom0410 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_ATTRIBUTES_TOOLBAR_CUSTOM_0410')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0410')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
-        })
-      Text(this.resultText)
-        .id('assert_result_0410')
-        .fontSize(16)
+      Row() {
+        Text('1')
+        Text('2')
+        Text('3')
+      }
+      .reverse(true)
+      .id('comp_host')
+      Text('row_reverse_ready').id('comp_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

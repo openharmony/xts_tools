@@ -16,23 +16,20 @@
 @Entry
 @Component
 struct UiComponent0803Remaining0870 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_FOLDERSTACK_MINIATURIZATION_0870')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0870')
-        .onClick(() => {
-          this.resultText = 'manual_case_pending'
-        })
-      Text(this.resultText)
-        .id('assert_result_0870')
-        .fontSize(16)
+      ColumnSplit() {
+        Text('A').height(80)
+        Text('B').height(80)
+      }
+      .id('split_host')
+      Text('split_ready')
+        .id('split_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

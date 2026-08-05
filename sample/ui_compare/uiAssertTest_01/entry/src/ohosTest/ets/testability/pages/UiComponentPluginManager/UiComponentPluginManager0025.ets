@@ -16,23 +16,31 @@
 @Entry
 @Component
 struct UiComponentPluginManager0025 {
-  @State resultText: string = 'idle'
+  @State statusText: string = 'idle'
+
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0025')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0025')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
+      PluginComponent({
+        template: { source: 'invalid://plugin/source', bundleName: 'com.example.plugin.not.exist' },
+        data: {}
+      })
+        .width(200)
+        .height(120)
+        .id('plugin_host')
+        .onComplete(() => {
+          this.statusText = 'plugin_complete'
         })
-      Text(this.resultText)
-        .id('assert_result_0025')
-        .fontSize(16)
+        .onError(() => {
+          this.statusText = 'plugin_error'
+        })
+      Text(this.statusText)
+        .id('plugin_status')
+        .fontSize(14)
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

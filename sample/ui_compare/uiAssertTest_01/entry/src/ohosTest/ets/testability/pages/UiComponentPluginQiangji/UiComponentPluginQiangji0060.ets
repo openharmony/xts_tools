@@ -16,23 +16,24 @@
 @Entry
 @Component
 struct UiComponentPluginQiangji0060 {
-  @State resultText: string = 'idle'
+  private items: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 8 }) {
       Text('SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0060')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0060')
-        .onClick(() => {
-          this.resultText = 'manual_case_pending'
-        })
-      Text(this.resultText)
-        .id('assert_result_0060')
-        .fontSize(16)
+      Flex({ wrap: FlexWrap.Wrap }) {
+        ForEach(this.items, (item: number) => {
+          Line().startPoint([0, 0]).endPoint([6, 6])
+        }, (item: number) => item.toString())
+      }
+      .width('100%')
+      .id('shape_batch_host')
+      Text(`count_${this.items.length}`)
+        .id('shape_batch_status')
+        .fontSize(14)
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(12)
   }
 }

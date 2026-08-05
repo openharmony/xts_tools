@@ -16,24 +16,17 @@
 @Entry
 @Component
 struct UiComponentDisplayNative0070 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_DISPLAY_NATIVE_0070')
         .fontSize(12)
-        .id('case_title_0070')
-      Button('mark_trace')
-        .id('native_trace_btn')
-        .onClick(() => {
-          this.resultText = 'UINodeTracer:pending_or_skipped'
-        })
-      Text(this.resultText)
-        .id('assert_result_0070')
-        .fontSize(16)
+      PatternLock()
+        .sideLength(120)
+        .id('comp_host')
+      Text('patternlock_ready').id('comp_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

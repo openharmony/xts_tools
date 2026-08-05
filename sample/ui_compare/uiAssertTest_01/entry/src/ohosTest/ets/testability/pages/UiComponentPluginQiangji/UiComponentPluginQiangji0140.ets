@@ -16,23 +16,17 @@
 @Entry
 @Component
 struct UiComponentPluginQiangji0140 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_LAYOUT_MULTITHREAD_0140')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0140')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
-        })
-      Text(this.resultText)
-        .id('assert_result_0140')
-        .fontSize(16)
+      Image($r('app.media.icon'))
+        .width(80).height(80)
+        .id('comp_host')
+      Text('image_ready').id('comp_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

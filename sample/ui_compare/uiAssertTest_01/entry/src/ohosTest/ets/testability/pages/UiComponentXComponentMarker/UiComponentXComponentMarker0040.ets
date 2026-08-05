@@ -16,23 +16,32 @@
 @Entry
 @Component
 struct UiComponentXComponentMarker0040 {
-  @State resultText: string = 'idle'
+  @State statusText: string = 'idle'
+  private xController: XComponentController = new XComponentController()
+
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_XCOMPONENT_MULTITHREADING_0040')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0040')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
+      XComponent({
+        id: 'xcomp_surface',
+        type: XComponentType.SURFACE,
+        controller: this.xController
+      })
+        .width(200)
+        .height(160)
+        .onLoad(() => {
+          this.statusText = 'xcomp_onload'
         })
-      Text(this.resultText)
-        .id('assert_result_0040')
-        .fontSize(16)
+        .onDestroy(() => {
+          this.statusText = 'xcomp_ondestroy'
+        })
+      Text(this.statusText)
+        .id('xcomp_status')
+        .fontSize(14)
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

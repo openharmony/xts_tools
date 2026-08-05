@@ -16,23 +16,16 @@
 @Entry
 @Component
 struct UiComponentMediaPickerContainer0085 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0085')
         .fontSize(12)
-      Button('mark_crown')
-        .id('picker_crown_btn')
-        .onClick(() => {
-          this.resultText = 'picker_crown_pending_or_skipped'
-        })
-      Text(this.resultText)
-        .id('assert_result_crown_0085')
-        .fontSize(16)
+      TextPicker({ range: ['A', 'B', 'C'] })
+        .id('comp_host')
+      Text('textpicker_ready').id('comp_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

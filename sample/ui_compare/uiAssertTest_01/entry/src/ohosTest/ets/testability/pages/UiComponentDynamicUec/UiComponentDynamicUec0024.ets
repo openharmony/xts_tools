@@ -13,26 +13,38 @@
  * limitations under the License.
  */
 
+import Want from '@ohos.app.ability.Want'
+import { BusinessError } from '@kit.BasicServicesKit'
+
 @Entry
 @Component
 struct UiComponentDynamicUec0024 {
-  @State resultText: string = 'idle'
+  @State statusText: string = 'idle'
+  private want: Want = { bundleName: 'com.example.uea.not.installed', abilityName: 'UIExtAbility' } as Want
+
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0024')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0024')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
+      UIExtensionComponent(this.want)
+        .width(240)
+        .height(160)
+        .id('uec_host')
+        .onError((err: BusinessError) => {
+          this.statusText = `uec_error:${err.code}`
         })
-      Text(this.resultText)
-        .id('assert_result_0024')
-        .fontSize(16)
+        .onRemoteReady(() => {
+          this.statusText = 'uec_remote_ready'
+        })
+      Text(this.statusText)
+        .id('uec_status')
+        .fontSize(14)
+      Text('missing_uea')
+        .id('uec_expect_hint')
+        .fontSize(12)
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }
