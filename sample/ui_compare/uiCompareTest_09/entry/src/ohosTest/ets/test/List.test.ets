@@ -101,7 +101,7 @@ import UiComponentTextTv from './UiComponentTextTvTest/UiComponentTextTv.test';
 import ToolchainHspandbundlename from './ToolchainHspandbundlenameTest/ToolchainHspandbundlename.test';
 import UiComponentNavNavigationServiceQuit from './UiComponentNavNavigationServiceQuitTest/UiComponentNavNavigationServiceQuit.test';
 import ActionArkuiSr from './ActionArkuiSrTest/ActionArkuiSr.test';
-import ArkuiAccessibilityHover from './ArkuiAccessibilityHoverTest/ArkuiAccessibilityHover.test';
+import ArkuiA11yHover from './ArkuiA11yHoverTest/ArkuiA11yHover.test';
 import UiComponentPopupboxMenuBlur from './UiComponentPopupboxMenuBlurTest/UiComponentPopupboxMenuBlur.test';
 import UiComponentTextinputTv from './UiComponentTextinputTvTest/UiComponentTextinputTv.test';
 import UiComponentCalendarPicker from './UiComponentCalendarPickerTest/UiComponentCalendarPicker.test';
@@ -220,7 +220,7 @@ export default function testsuite() {
   ToolchainHspandbundlename();
   UiComponentNavNavigationServiceQuit();
   ActionArkuiSr();
-  ArkuiAccessibilityHover();
+  ArkuiA11yHover();
   UiComponentPopupboxMenuBlur();
   UiComponentTextinputTv();
   UiComponentCalendarPicker();
