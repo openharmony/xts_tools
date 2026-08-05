@@ -41,7 +41,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0020
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0050
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +79,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0080
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0090
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0110
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0160
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0180
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,7 +179,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_0210
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,7 +198,8 @@ export default function PopupboxDoubleStroke() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_DOUBLESTROKE_1030
+     * @tc.name   : Popupbox doublestroke
+     * @tc.desc   : Verify popupbox doublestroke interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

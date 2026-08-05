@@ -41,7 +41,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
         /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0010
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,7 +79,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0020
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,7 +122,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0050
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,7 +166,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0060
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,7 +206,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0070
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,7 +251,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0080
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,7 +291,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0100
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,7 +331,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0110
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,7 +376,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0120
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -407,7 +416,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0140
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -446,7 +456,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0150
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -490,7 +501,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0160
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -529,7 +541,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0170
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -573,7 +586,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0180
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -612,7 +626,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0190
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -656,7 +671,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0200
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -695,7 +711,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0210
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -739,7 +756,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0220
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -778,7 +796,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0230
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -822,7 +841,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0240
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -861,7 +881,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0250
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -905,7 +926,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0260
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -944,7 +966,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0270
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -988,7 +1011,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0320
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1032,7 +1056,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0330
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1071,7 +1096,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0350
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1110,7 +1136,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0360
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1154,7 +1181,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0390
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1193,7 +1221,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0400
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1237,7 +1266,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0410
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1276,7 +1306,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0420
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1320,7 +1351,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0430
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1359,7 +1391,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0440
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1403,7 +1436,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0450
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1442,7 +1476,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0460
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1486,7 +1521,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0470
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1525,7 +1561,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0480
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1570,7 +1607,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0490
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1612,7 +1650,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0500
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1657,7 +1696,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0570
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1696,7 +1736,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0580
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1740,7 +1781,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0640
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1779,7 +1821,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0650
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1823,7 +1866,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0670
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1862,7 +1906,8 @@ export default function PopupBoxSpecificationsPageDisplay01() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0720
+     * @tc.name   : Popupbox specifications pagedisplay
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,7 +41,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0010
-     * @tc.name   : SUB_ACE_TS_TOOLS_0010
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0020
-     * @tc.name   : SUB_ACE_TS_TOOLS_0020
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +79,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0040
-     * @tc.name   : SUB_ACE_TS_TOOLS_0040
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0050
-     * @tc.name   : SUB_ACE_TS_TOOLS_0050
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0060
-     * @tc.name   : SUB_ACE_TS_TOOLS_0060
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0080
-     * @tc.name   : SUB_ACE_TS_TOOLS_0080
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0090
-     * @tc.name   : SUB_ACE_TS_TOOLS_0090
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0100
-     * @tc.name   : SUB_ACE_TS_TOOLS_0100
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +193,8 @@ export default function TsTools() {
 
     /*
      * @tc.number : SUB_ACE_TS_TOOLS_0120
-     * @tc.name   : SUB_ACE_TS_TOOLS_0120
+     * @tc.name   : Ts tools
+     * @tc.desc   : Verify ts tools interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

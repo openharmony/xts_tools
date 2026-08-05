@@ -41,7 +41,8 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0020
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0020
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,7 +75,8 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0030
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0030
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,7 +109,8 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0040
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0040
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,7 +143,8 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0050
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0050
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,7 +177,8 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0060
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0060
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -206,7 +211,8 @@ export default function DocSampleArabic() {
 
     /*
      * @tc.number : SUB_ACE_DOC_SAMPLE_ARABIC_0070
-     * @tc.name   : SUB_ACE_DOC_SAMPLE_ARABIC_0070
+     * @tc.name   : Doc sample arabic
+     * @tc.desc   : Verify doc sample arabic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

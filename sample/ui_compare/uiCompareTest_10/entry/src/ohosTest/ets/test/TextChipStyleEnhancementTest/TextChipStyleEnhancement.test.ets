@@ -41,7 +41,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0040
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -66,7 +67,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0050
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +93,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0060
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +119,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0070
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +145,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0080
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +171,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0090
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,7 +197,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0100
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,7 +223,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0110
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,7 +249,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0120
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -266,7 +275,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0130
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,7 +301,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0140
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -316,7 +327,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0150
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -341,7 +353,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0160
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -366,7 +379,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0170
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -391,7 +405,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0180
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -432,7 +447,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0190
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +466,8 @@ export default function TextChipStyleEnhancement() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_STYLEENHANCEMENT_0220
+     * @tc.name   : Text chip styleenhancement
+     * @tc.desc   : Verify text chip styleenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

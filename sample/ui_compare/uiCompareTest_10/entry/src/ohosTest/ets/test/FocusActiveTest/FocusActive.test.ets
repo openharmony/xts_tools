@@ -41,7 +41,8 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0160
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0160
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,7 +104,8 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0170
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0170
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +167,8 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0180
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0180
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -214,7 +217,8 @@ export default function FocusActive() {
 
     /*
      * @tc.number : SUB_ACE_UI_FOCUS_ACTIVE_0190
-     * @tc.name   : SUB_ACE_UI_FOCUS_ACTIVE_0190
+     * @tc.name   : Focus active
+     * @tc.desc   : Verify focus active interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4

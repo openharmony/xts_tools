@@ -41,7 +41,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0260
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,7 +127,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0270
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,7 +181,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0280
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,7 +231,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0290
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -272,7 +276,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0310
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -316,7 +321,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0330
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -391,7 +397,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0340
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -447,7 +454,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0360
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -484,7 +492,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0410
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -559,7 +568,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0500
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -608,7 +618,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0510
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -669,7 +680,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0520
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -730,7 +742,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0530
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -791,7 +804,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0540
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -852,7 +866,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0550
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -913,7 +928,8 @@ export default function MultiNavigation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MULTINAVIGATION_0560
+     * @tc.name   : Multinavigation
+     * @tc.desc   : Verify multinavigation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

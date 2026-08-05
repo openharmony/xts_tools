@@ -41,7 +41,8 @@ export default function PopupBoxAvoidSafeZone() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0010
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function PopupBoxAvoidSafeZone() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0020
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,7 +131,8 @@ export default function PopupBoxAvoidSafeZone() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0060
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -173,7 +176,8 @@ export default function PopupBoxAvoidSafeZone() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_SAFEZONE_0070
+     * @tc.name   : Popupbox avoid safezone
+     * @tc.desc   : Verify popupbox avoid safezone interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

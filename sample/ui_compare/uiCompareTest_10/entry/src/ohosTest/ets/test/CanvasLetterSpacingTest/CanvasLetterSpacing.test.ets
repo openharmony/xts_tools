@@ -42,7 +42,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0010
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -60,7 +61,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0020
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -78,7 +80,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0030
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -96,7 +99,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0040
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -114,7 +118,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0050
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -132,7 +137,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0060
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -150,7 +156,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0070
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -168,7 +175,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0080
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -186,7 +194,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0090
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -204,7 +213,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0100
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -222,7 +232,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0110
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -240,7 +251,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0120
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -258,7 +270,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0130
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -276,7 +289,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0140
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -294,7 +308,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0150
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -312,7 +327,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0160
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -330,7 +346,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0170
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -348,7 +365,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0180
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -366,7 +384,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0190
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -384,7 +403,8 @@ export default function CanvasLetterSpacing() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_LETTERSPACING_0200
+     * @tc.name   : Canvas letterspacing
+     * @tc.desc   : Verify canvas letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4

@@ -41,7 +41,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0010
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,7 +77,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0020
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0040
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -154,7 +157,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0050
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,7 +199,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0210
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,7 +230,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0220
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,7 +271,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0230
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -310,7 +317,8 @@ export default function TextChipSymbol() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_CHIP_SYMBOL_0240
+     * @tc.name   : Text chip symbol
+     * @tc.desc   : Verify text chip symbol interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

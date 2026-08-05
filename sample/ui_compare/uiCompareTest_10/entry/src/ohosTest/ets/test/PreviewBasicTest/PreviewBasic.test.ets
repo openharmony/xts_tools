@@ -41,7 +41,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0010
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0010
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -59,7 +60,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0030
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0030
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -78,7 +80,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0050
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0050
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -96,7 +99,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0090
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0090
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -114,7 +118,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0100
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0100
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -132,7 +137,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0120
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0120
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -150,7 +156,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0180
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0180
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -168,7 +175,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0190
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0190
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -186,7 +194,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0220
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0220
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -204,7 +213,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0230
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0230
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -222,7 +232,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0240
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0240
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -240,7 +251,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0260
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0260
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -258,7 +270,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0280
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0280
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -276,7 +289,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0320
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0320
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -294,7 +308,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0330
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0330
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -312,7 +327,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0350
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0350
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -330,7 +346,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0370
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0370
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -348,7 +365,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0380
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0380
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -366,7 +384,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0400
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0400
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -384,7 +403,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0460
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0460
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -402,7 +422,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0470
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0470
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -420,7 +441,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0510
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0510
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -438,7 +460,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0530
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0530
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -456,7 +479,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0540
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0540
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -474,7 +498,8 @@ export default function PreviewBasic() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_BASIC_0550
-     * @tc.name   : SUB_ACE_PREVIEW_BASIC_0550
+     * @tc.name   : Preview basic
+     * @tc.desc   : Verify preview basic interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4

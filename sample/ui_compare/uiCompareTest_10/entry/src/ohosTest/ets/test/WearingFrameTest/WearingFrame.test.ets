@@ -41,7 +41,8 @@ export default function WearingFrame() {
 
     /*
      * @tc.number : SUB_ACE_WEARING_FRAME_0030
-     * @tc.name   : SUB_ACE_WEARING_FRAME_0030
+     * @tc.name   : Wearing frame
+     * @tc.desc   : Verify wearing frame interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -90,7 +91,8 @@ export default function WearingFrame() {
 
     /*
      * @tc.number : SUB_ACE_WEARING_FRAME_0050
-     * @tc.name   : SUB_ACE_WEARING_FRAME_0050
+     * @tc.name   : Wearing frame
+     * @tc.desc   : Verify wearing frame interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

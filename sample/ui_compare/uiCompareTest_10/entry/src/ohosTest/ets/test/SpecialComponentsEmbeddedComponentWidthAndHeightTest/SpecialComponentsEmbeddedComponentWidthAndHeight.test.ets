@@ -41,7 +41,8 @@ export default function SpecialComponentsEmbeddedComponentWidthAndHeight() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0020
+     * @tc.name   : Special components embeddedcomponent widthandheight
+     * @tc.desc   : Verify special components embeddedcomponent widthandheight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -75,7 +76,8 @@ export default function SpecialComponentsEmbeddedComponentWidthAndHeight() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_WidthAndHeight_0030
+     * @tc.name   : Special components embeddedcomponent widthandheight
+     * @tc.desc   : Verify special components embeddedcomponent widthandheight interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

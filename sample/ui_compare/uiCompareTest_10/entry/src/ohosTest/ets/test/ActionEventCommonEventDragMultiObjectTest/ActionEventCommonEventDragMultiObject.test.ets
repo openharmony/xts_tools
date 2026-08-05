@@ -42,7 +42,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0140
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +61,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0090
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,7 +80,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0100
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,7 +99,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0130
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +118,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0080
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +137,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0110
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -150,7 +156,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0120
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +175,8 @@ export default function ActionEventCommonEventDragMultiObject() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MULTIOBJECT_0150
+     * @tc.name   : Action event commonevent drag multiobject
+     * @tc.desc   : Verify action event commonevent drag multiobject interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

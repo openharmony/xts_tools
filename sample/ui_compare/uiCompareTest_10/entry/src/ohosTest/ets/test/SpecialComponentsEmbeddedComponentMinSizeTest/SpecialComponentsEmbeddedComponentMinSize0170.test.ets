@@ -41,7 +41,8 @@ export default function SpecialComponentsEmbeddedComponentMinSize0170() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_MINSIZE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_MINSIZE_0170
+     * @tc.name   : Special components embeddcomponent minsize
+     * @tc.desc   : Verify special components embeddcomponent minsize interface behavior and expected UI result for this case.
      * @tc.type   : Set the width and height of the EmbeddedComponent (initialize both width and height to 15vp), and dynamically modify the component's width and height.
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -69,7 +70,8 @@ export default function SpecialComponentsEmbeddedComponentMinSize0170() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_MINSIZE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDCOMPONENT_MINSIZE_0020
+     * @tc.name   : Special components embeddcomponent minsize
+     * @tc.desc   : Verify special components embeddcomponent minsize interface behavior and expected UI result for this case.
      * @tc.type   : Set the width and height of the EmbeddedComponent to 10vp.
      * @tc.size   : MediumTest
      * @tc.level  : 1

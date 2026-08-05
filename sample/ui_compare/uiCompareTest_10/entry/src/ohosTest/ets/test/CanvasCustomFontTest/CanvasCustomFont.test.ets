@@ -42,7 +42,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0010
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -60,7 +61,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0020
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -78,7 +80,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0030
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -96,7 +99,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0040
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -114,7 +118,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0050
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -132,7 +137,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0060
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -150,7 +156,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0070
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -168,7 +175,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0080
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4
@@ -186,7 +194,8 @@ export default function CanvasCustomFont() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_CANVAS_CUSTOM_FONT_0090
+     * @tc.name   : Canvas custom font
+     * @tc.desc   : Verify canvas custom font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 4

@@ -41,7 +41,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0220
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0230
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +79,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0240
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0250
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0260
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0270
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0280
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0290
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +193,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0300
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +212,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0310
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,7 +231,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0320
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +250,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0340
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,7 +269,8 @@ export default function TapGestureDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350
-     * @tc.name   : SUB_ACE_UI_TAPGESTURE_DISTANCETHRESHOLD_0350
+     * @tc.name   : Tapgesture distancethreshold
+     * @tc.desc   : Verify tapgesture distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,7 +41,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0010
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0010
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0020
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0020
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +79,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0030
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0030
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0040
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0040
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0050
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0050
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0060
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0060
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0070
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0070
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0080
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0080
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +193,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0090
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0090
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +212,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0100
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0100
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,7 +231,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0110
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0110
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +250,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0120
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0120
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,7 +269,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0130
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0130
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,7 +288,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0140
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0140
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,7 +307,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0150
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0150
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,7 +326,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0160
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0160
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +345,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0170
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0170
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -347,7 +364,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0180
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0180
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -365,7 +383,8 @@ export default function PreviewContainer() {
 
     /*
      * @tc.number : SUB_ACE_PREVIEW_CONTINER_0190
-     * @tc.name   : SUB_ACE_PREVIEW_CONTINER_0190
+     * @tc.name   : Preview continer
+     * @tc.desc   : Verify preview continer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

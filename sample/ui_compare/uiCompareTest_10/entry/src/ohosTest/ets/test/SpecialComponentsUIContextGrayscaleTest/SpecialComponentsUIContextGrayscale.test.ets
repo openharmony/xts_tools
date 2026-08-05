@@ -41,7 +41,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0100
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : Configure the grayscale for the UIExtensionComponent content, setting the grayscale parameter to -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, 100
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0070
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : Configure the grayscale for the Swiper content, setting the grayscale parameter to -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, 100
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +79,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0020
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Canvas component is configured with grayscale, and the grayscale input parameter is undefined.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0050
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the List component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0030
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Canvas component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0110
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Rating component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0200
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Search component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0060
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the WaterFlow component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +193,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0080
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Stepper component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +212,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0090
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Tabs component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,7 +231,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0140
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the AlphabetIndexer component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +250,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0170
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Text component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,7 +269,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0130
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Shape component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,7 +288,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0180
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the TextArea component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,7 +307,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0120
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Video component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,7 +326,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0040
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Grid component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +345,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0160
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the SideBarContainer component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -347,7 +364,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0190
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the TextInput component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -365,7 +383,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0150
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Navigator component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,7 +402,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0280
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the implicit shared element transition (geometryTransition) within the component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -401,7 +421,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0260
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the keyframe animation (keyframeAnimateTo) is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,7 +440,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0310
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the warning pop-up AlertDialog is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -437,7 +459,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0210
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the RichEditor component is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -455,7 +478,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0290
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the semi-modal transition (bindSheet) is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -473,7 +497,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0300
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the menu (Menu) is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -491,7 +516,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0010
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Canvas component is configured with grayscale, and the input parameter for grayscale is null.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -509,7 +535,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0250
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the explicit animation (animateTo) is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -527,7 +554,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0340
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the DatePickerDialog is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -545,7 +573,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0240
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the animation is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -563,7 +592,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0270
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the Particle is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -581,7 +611,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0360
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the TimePickerDialog is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -599,7 +630,8 @@ export default function SpecialComponentsUIContextGrayscale() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_GRAYSCALE_0350
+     * @tc.name   : Special components uicontext grayscale
+     * @tc.desc   : Verify special components uicontext grayscale interface behavior and expected UI result for this case.
      * @tc.type   : The content of the CalendarPickerDialog is configured with grayscale, and the parameters set for grayscale are -10, -1, 0, 0.2, 0.5, 0.8, 1, 1.5, and 100.
      * @tc.size   : MediumTest
      * @tc.level  : 3

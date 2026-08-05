@@ -41,7 +41,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0010
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0010
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0020
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0020
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,7 +79,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0030
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0030
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0040
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0040
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0050
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0050
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0060
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0060
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0070
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0070
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0080
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0080
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +193,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0090
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0090
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +212,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0100
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0100
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,7 +231,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0110
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0110
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +250,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0120
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0120
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,7 +269,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0130
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0130
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,7 +288,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0140
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0140
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,7 +307,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0150
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0150
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,7 +326,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0160
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0160
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +345,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0170
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0170
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -347,7 +364,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0180
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0180
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -365,7 +383,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0190
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0190
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,7 +402,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0200
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0200
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -401,7 +421,8 @@ export default function OnClickDistanceThreshold() {
 
     /*
      * @tc.number : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0210
-     * @tc.name   : SUB_ACE_UI_ONCLICK_DISTANCETHRESHOLD_0210
+     * @tc.name   : Onclick distancethreshold
+     * @tc.desc   : Verify onclick distancethreshold interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

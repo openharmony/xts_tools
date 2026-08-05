@@ -41,7 +41,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0070
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : A Column component nests a Column1 component. The outer Column has no width or height set, while the Column1 component sets width(AdaptiveLayoutModePolicy.MATCH_PARENT) and height(AdaptiveLayoutModePolicy.MATCH_PARENT).
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -59,7 +60,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0060
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : The Column component nests a Column1 component. The outer Column does not have its width or height explicitly set, while the inner Column1 component sets its height using height(AdaptiveLayoutModePolicy.MATCH_PARENT).
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -77,7 +79,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0010
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : A Column component nests a Column1 component. The outer Column is set with width 100 and height 200 (width: 100, height: 200), while the inner Column1 component sets its width using width(AdaptiveLayoutModePolicy.MATCH_PARENT).
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -95,7 +98,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0050
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : The Column component nests a Column1 component. The outer Column does not have its width or height explicitly set, while the inner Column1 component sets its width using width(AdaptiveLayoutModePolicy.MATCH_PARENT).
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -113,7 +117,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0090
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : The Row component nests a Row1 component. The outer Row is set with width 100 and height 200 (width: 100, height: 200), while the inner Row1 component sets its width using width(AdaptiveLayoutModePolicy.MATCH_PARENT).
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -131,7 +136,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0020
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : The Column component nests a Column1 component. The outer Column is set with a width of 100 and a height of 200 (width: 100, height: 200), while the inner Column1 component sets its height using height(AdaptiveLayoutModePolicy.MATCH_PARENT).
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -149,7 +155,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0030
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : A Column component nests a Column1 component. The outer Column is set with width 100 and height 200 (width: 100, height: 200), while the inner Column1 component sets its width and height using AdaptiveLayoutModePolicy.MATCH_PARENT.
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -167,7 +174,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0130
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : A Row component nests a Row1 component. The outer Row has no width or height set, while the Row1 component sets its width using AdaptiveLayoutModePolicy.MATCH_PARENT.
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -185,7 +193,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0100
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : A Row component nests a Row1 component. The outer Row is configured with a width of 100 and a height of 200 (width: 100, height: 200), while the inner Row1 component sets its height using AdaptiveLayoutModePolicy.MATCH_PARENT.
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -203,7 +212,8 @@ export default function ColumnMatchParent0070() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0110
+     * @tc.name   : Column matchparent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : A Row component nests a Row1 component. The outer Row is set with width 100 and height 200 (width: 100, height: 200), while the inner Row1 component sets its width and height using AdaptiveLayoutModePolicy.MATCH_PARENT.
      * @tc.size   : MediumTest
      * @tc.level  : 1

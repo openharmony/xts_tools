@@ -42,7 +42,8 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100
+     * @tc.name   : Special components fullscreenlaunchcomponent event
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -127,7 +128,8 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_084_895_384
+     * @tc.name   : Special components fullscreenlaunchcomponent event
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -235,7 +237,8 @@ export default function SpecialComponentsFullscreenLaunchComponentEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_FULLSCREENLAUNCHCOMPONENT_EVENT_0100_767
+     * @tc.name   : Special components fullscreenlaunchcomponent event
+     * @tc.desc   : Verify special components fullscreenlaunchcomponent event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

@@ -42,7 +42,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0010
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0010
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +61,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0020
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0020
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,7 +80,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0030
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0030
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,7 +99,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0040
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0040
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0040'.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,7 +118,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0050
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0050
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +137,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0060
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0060
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -150,7 +156,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0070
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0070
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0070'.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,7 +175,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0080
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0080
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,7 +194,8 @@ export default function AtomicserviceCapsulePosition() {
 
     /*
      * @tc.number : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0130
-     * @tc.name   : SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0130
+     * @tc.name   : Ability atomicservice capsule position
+     * @tc.desc   : Verify ability atomicservice capsule position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
