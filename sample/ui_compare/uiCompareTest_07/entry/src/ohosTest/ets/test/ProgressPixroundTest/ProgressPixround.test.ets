@@ -43,7 +43,8 @@ export default function ProgressPixround() {
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_PIXROUND_0001
      * @tc.name   : For Linear (linear), Ring (ring without scale), Eclipse (circular), ScaleRing (ring with scale), and Capsule (capsule-style) Progress components, set pixelRound as follows:
-     * @tc.type   : function
+     * @tc.desc   : Verify Progress pixround interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */

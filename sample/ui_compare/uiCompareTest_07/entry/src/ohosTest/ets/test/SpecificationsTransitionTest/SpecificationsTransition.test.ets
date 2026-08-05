@@ -41,7 +41,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0010
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,7 +83,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0020
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +125,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0030
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +170,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0050
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,7 +215,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0060
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,7 +260,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0080
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,7 +305,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0090
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,7 +350,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0100
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,7 +395,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0110
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -431,7 +440,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0120
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -492,7 +502,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0130
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -553,7 +564,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0140
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -614,7 +626,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0150
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -675,7 +688,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0160
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -737,7 +751,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0170
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -798,7 +813,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0180
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -859,7 +875,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0190
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -920,7 +937,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0200
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -981,7 +999,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0210
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1042,7 +1061,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0220
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1103,7 +1123,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0240
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1164,7 +1185,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0250
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1217,7 +1239,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0270
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1260,7 +1283,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0300
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1304,7 +1328,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0340
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1348,7 +1373,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0370
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1392,7 +1418,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0480
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1453,7 +1480,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0500
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1514,7 +1542,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0230
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1575,7 +1604,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0280
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1612,7 +1642,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0260
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1648,7 +1679,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0410
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1709,7 +1741,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0390
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1750,7 +1783,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0450
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1811,7 +1845,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0350
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1852,7 +1887,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0470
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1913,7 +1949,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0430
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1974,7 +2011,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0330
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2015,7 +2053,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0320
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2056,7 +2095,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0520
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2113,7 +2153,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0310
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2155,7 +2196,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0550
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2198,7 +2240,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0460
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2258,7 +2301,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0510
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2319,7 +2363,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0400
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2381,7 +2426,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0490
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2442,7 +2488,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0380
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2483,7 +2530,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0420
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2544,7 +2592,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0290
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2585,7 +2634,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0530
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2636,7 +2686,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0560
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2673,7 +2724,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0360
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2714,7 +2766,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0440
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2775,7 +2828,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0540
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2815,7 +2869,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0040
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2857,7 +2912,8 @@ export default function SpecificationsTransition() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_TRANSITION_0070
+     * @tc.name   : Popupbox specifications transition
+     * @tc.desc   : Verify popupbox specifications transition interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

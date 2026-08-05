@@ -42,7 +42,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0080
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0110
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0110
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -81,7 +83,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0260
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0260
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -101,7 +104,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0300
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0300
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -121,7 +125,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0290
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0290
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -144,7 +149,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0310
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0310
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -164,7 +170,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0350
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0350
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -190,7 +197,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0390
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0390
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -216,7 +224,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0380
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0380
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -242,7 +251,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0400
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0400
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -265,7 +275,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0420
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0420
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -291,7 +302,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0280
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0280
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -314,7 +326,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0370
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0370
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -337,7 +350,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0430
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0430
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -360,7 +374,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0450
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0450
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -383,7 +398,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0440
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0440
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -406,7 +422,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0410
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0410
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -432,7 +449,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0070
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -452,7 +470,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0140
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -472,7 +491,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0040
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -492,7 +512,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0060
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -512,7 +533,8 @@ export default function TextClockContentModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXTCLOCK_CONTENTMODIFIER_0020
+     * @tc.name   : ArkUI TextClock contentModifier
+     * @tc.desc   : Verify ArkUI TextClock contentModifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

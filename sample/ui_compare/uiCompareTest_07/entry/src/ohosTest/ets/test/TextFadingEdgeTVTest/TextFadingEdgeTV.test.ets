@@ -42,7 +42,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0030
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The text of the search is too long, textAlign enumeration
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -78,7 +79,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0060
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The text of Search is too long, clear and re-enter the long text.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -104,7 +106,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0070
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The text of Search is too long, edit the text content.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -138,7 +141,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0050
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The search text is too long, and there is a search button.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -159,7 +163,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0020
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The disabled state is too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -178,7 +183,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0040
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The search text is too long, modify the font properties.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -203,7 +209,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0210
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : No input, the search text is not too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -222,7 +229,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0260
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : After clearing the oversized text, the placeholder text for no input is displayed correctly.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -249,7 +257,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0390
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The input status is that the Search text is not oversized.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -268,7 +277,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0420
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The input text is too long, and it remains too long after deletion.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -293,7 +303,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0430
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The input text is too long, and it remains too long after deletion.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -318,7 +329,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0440
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Limit the maximum length; the text is too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -340,7 +352,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0480
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Search text is too long, set the position of the input cursor.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -365,7 +378,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0570
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : TextInput text is too long, textAlign enum.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -401,7 +415,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0530
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : showError is too long, no fade-out, no marquee
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -431,7 +446,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0520
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : The disabled state is too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -450,7 +466,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0620
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Limit the maximum length; the text is too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -472,7 +489,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0560
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : TextInput text is too long, InputType enum.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -497,7 +515,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0610
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Adjust the padding of the TextInput component to observe the fade-out effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -522,7 +541,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0630
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Inline input style, TextInput text is too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -541,7 +561,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0710
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Not entered state, TextInput text is not too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -561,7 +582,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0760
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : After clearing the overly long text, the placeholder text in the empty state is still too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -588,7 +610,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0860
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Input state, TextInput text is not too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -607,7 +630,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0900
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Entering a long text, after deleting the text, it is no longer too long.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -638,7 +662,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0910
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Configure showUnderline to observe the fade-out marquee effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -657,7 +682,8 @@ export default function TextFadingEdgeTV() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_Text_FadingEdge_TV_0920
+     * @tc.name   : Text fadingedge tv
+     * @tc.desc   : Verify text fadingedge tv interface behavior and expected UI result for this case.
      * @tc.type   : Set a maximum length limit; the text exceeds the allowed length.
      * @tc.size   : MediumTest
      * @tc.level  : 2

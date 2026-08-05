@@ -43,6 +43,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0010
      * @tc.name   : Set the toast's showMode to DEFAULT and its shadow to OUTER_DEFAULT_MD.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,6 +78,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0020
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST without setting shadow.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,6 +113,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0030
      * @tc.name   : Set the toast's showMode to TOP_MOST and its shadow to OUTER_DEFAULT_MD.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,6 +148,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0040
      * @tc.name   : Set the toast's showMode to TOP_MOST without setting shadow.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,6 +183,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0050
      * @tc.name   : Set the toast's showMode to DEFAULT without setting shadow.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,6 +218,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0060
      * @tc.name   : Set the toast's showMode to DEFAULT and its shadow to null.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,6 +253,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0070
      * @tc.name   : Set the toast's showMode to TOP_MOST and its shadow to null.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -281,6 +288,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0080
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST and its shadow to undefined.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,6 +323,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0090
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST and its shadow to OUTER_DEFAULT_MD.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +358,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0100
      * @tc.name   : Set the toast's showMode to SYSTEM_TOP_MOST and its shadow to null.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,6 +393,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0110
      * @tc.name   : Set the toast's showMode to DEFAULT and its shadow to undefined.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,6 +428,7 @@ export default function PromptActionSeparatedLayer() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PROMPTACTION_SEPARATEDLAYER_0120
      * @tc.name   : Set the toast's showMode to TOP_MOST and its shadow to undefined.
+     * @tc.desc   : Verify popupbox promptaction separatedlayer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

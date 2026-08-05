@@ -43,7 +43,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_001
      * @tc.name   : Set a background image for menuItem and check the fade-out effect.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -70,7 +71,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_002
      * @tc.name   : Set a background color for menuItem and check the fade-out effect.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -97,7 +99,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_003
      * @tc.name   : Set a background color for menu and check the fade-out effect.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -124,7 +127,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_004
      * @tc.name   : Set a background image for menu and check the fade-out effect.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -151,7 +155,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_021
      * @tc.name   : SubMenuExpandingMode configuration does not affect the overlong effect.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -183,7 +188,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_031
      * @tc.name   : MenuItem overlong focus marquee, switch to background.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -215,7 +221,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_032
      * @tc.name   : MenuItem overlong focus marquee, screen off and on.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -247,7 +254,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_033
      * @tc.name   : MenuItem overlong, long press and move.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -290,7 +298,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_034
      * @tc.name   : Menu expand submenu, click blank area to collapse.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -326,7 +335,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_035
      * @tc.name   : Menu component focus hover switch.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -379,7 +389,8 @@ export default function TvMenuFading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TV_Menu_FADING_036
      * @tc.name   : Menu component focus switch back and forth.
-     * @tc.type   : function
+     * @tc.desc   : Verify tv menu fading interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -43,7 +43,8 @@ export default function WindowAbilityMaskLayer() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_001
      * @tc.name   : In free-form window mode, with ConfigWindowMask set to true and a product-custom file (abc) present, the mask layer is enabled.
-     * @tc.type   : function
+     * @tc.desc   : Verify the interface under test: ，ConfigWindowMask to true, （abc），.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -72,7 +73,8 @@ export default function WindowAbilityMaskLayer() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_002
      * @tc.name   : In free-form window mode, with ConfigWindowMask set to true but no product-custom file (abc) present, the mask layer is not enabled.
-     * @tc.type   : function
+     * @tc.desc   : Verify window ability mask layer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -100,7 +102,8 @@ export default function WindowAbilityMaskLayer() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_003
      * @tc.name   : In free-form window mode, with ConfigWindowMask set to false, the mask layer is closed.
-     * @tc.type   : function
+     * @tc.desc   : Verify the interface under test: ，ConfigWindowMask to false,.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -128,7 +131,8 @@ export default function WindowAbilityMaskLayer() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_004
      * @tc.name   : In maximized window mode, the mask layer can be enabled and disabled.
-     * @tc.type   : function
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_004'.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -162,7 +166,8 @@ export default function WindowAbilityMaskLayer() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_005
      * @tc.name   : When another window is displayed above the mask layer window and partially obscured, the mask layer can be enabled and disabled.
-     * @tc.type   : function
+     * @tc.desc   : Verify the interface under test for scenario described by case 'SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_005'.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -196,7 +201,8 @@ export default function WindowAbilityMaskLayer() {
     /*
      * @tc.number : SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_008
      * @tc.name   : Continuously enable and disable the mask layer 50 times.
-     * @tc.type   : function
+     * @tc.desc   : Verify window ability mask layer interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

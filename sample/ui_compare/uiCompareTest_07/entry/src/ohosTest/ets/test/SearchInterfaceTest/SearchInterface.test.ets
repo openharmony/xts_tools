@@ -42,7 +42,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0330
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -89,7 +90,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0050
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -108,7 +110,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0110
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -127,7 +130,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1000
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -146,7 +150,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0720
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -165,7 +170,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0680
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -184,7 +190,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0140
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -203,7 +210,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1130
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -222,7 +230,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0970
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -241,7 +250,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1320
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -260,7 +270,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0740
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -279,7 +290,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0130
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -298,7 +310,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0660
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -317,7 +330,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1290
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -336,7 +350,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0670
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -355,7 +370,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1240
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -374,7 +390,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0100
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -393,7 +410,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0700
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -412,7 +430,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0650
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -431,7 +450,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0710
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -450,7 +470,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1020
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -469,7 +490,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0060
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -488,7 +510,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1190
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -507,7 +530,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0120
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -526,7 +550,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1370
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -545,7 +570,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1440
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -564,7 +590,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_0170
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -583,7 +610,8 @@ export default function SearchInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SEARCH_INTERFACE_1510
+     * @tc.name   : Text search interface
+     * @tc.desc   : Verify text search interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

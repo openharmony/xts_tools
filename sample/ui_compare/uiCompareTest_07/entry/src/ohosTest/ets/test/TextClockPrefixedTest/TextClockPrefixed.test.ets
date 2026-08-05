@@ -42,7 +42,8 @@ export default function TextClockPrefixed() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0040
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0040
+     * @tc.name   : ArkUI text clock prefixed
+     * @tc.desc   : Verify ArkUI text clock prefixed interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -62,7 +63,8 @@ export default function TextClockPrefixed() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0080
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0080
+     * @tc.name   : ArkUI text clock prefixed
+     * @tc.desc   : Verify ArkUI text clock prefixed interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -82,7 +84,8 @@ export default function TextClockPrefixed() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0090
+     * @tc.name   : ArkUI text clock prefixed
+     * @tc.desc   : Verify ArkUI text clock prefixed interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -102,7 +105,8 @@ export default function TextClockPrefixed() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0100
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0100
+     * @tc.name   : ArkUI text clock prefixed
+     * @tc.desc   : Verify ArkUI text clock prefixed interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -122,7 +126,8 @@ export default function TextClockPrefixed() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0050
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0050
+     * @tc.name   : ArkUI text clock prefixed
+     * @tc.desc   : Verify ArkUI text clock prefixed interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -142,7 +147,8 @@ export default function TextClockPrefixed() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0070
-     * @tc.name   : SUB_ACE_UI_ARKUI_TEXT_CLOCK_PREFIXED_0_0070
+     * @tc.name   : ArkUI text clock prefixed
+     * @tc.desc   : Verify ArkUI text clock prefixed interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

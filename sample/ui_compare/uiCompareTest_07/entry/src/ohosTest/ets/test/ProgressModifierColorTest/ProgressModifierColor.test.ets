@@ -42,7 +42,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0013
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0013
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -70,7 +71,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0014
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -98,7 +100,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0015
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -126,7 +129,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0016
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -154,7 +158,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0017
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -182,7 +187,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0018
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -210,7 +216,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0019
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -238,7 +245,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0020
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -266,7 +274,8 @@ export default function ProgressModifierColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_MODIFIER_COLOR_0021
+     * @tc.name   : Information Progress modifier color
+     * @tc.desc   : Verify information Progress modifier color interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

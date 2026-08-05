@@ -42,7 +42,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0070
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the strokeWidth property, refer to the configuration item in the string.json file and set the progress bar width to 50fp.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -62,7 +63,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0060
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the strokeWidth property, refer to the configuration item in the string.json file and set the progress bar width to 50.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -82,7 +84,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0140
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Setting colors and adding a sweeping light animation for a ring progress bar without setting the strokeWidth in RingStyleOptions.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -102,7 +105,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0180
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color for a ring progress bar and add a sweeping light animation, with the color set to $r(app.color.Pink) and the progress type set to ProgressType.Ring.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -122,7 +126,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0240
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color and add a sweeping light animation for a linear progress bar without setting the strokeWidth.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -142,7 +147,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0250
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color and add a sweeping light animation for a linear progress bar, with the strokeWidth set to 10vp.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -162,7 +168,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0330
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scale width parameter of the ring progress bar to the string value "50fp".
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -182,7 +189,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0080
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the strokeWidth property, reference the configuration item in the string.json file to set the progress bar width to 50px.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -202,7 +210,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0440
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the string value "50fp" and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -222,7 +231,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0320
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the ring progress bar scale width parameter scaleWidth to the string value "50".
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -242,7 +252,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0460
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the string value "50vp" and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -262,7 +273,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0410
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the total scale count parameter scaleCount of the ring progress bar to 5.5 (effective only under the ScaleRing ring style).
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -282,7 +294,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0360
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scale width parameter scaleWidth of the ring progress bar to the numeric value 80.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -302,7 +315,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0340
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scale width parameter scaleWidth of the ring progress bar to the string value "50px".
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -322,7 +336,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0350
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scale width parameter scaleWidth of the ring progress bar to the string value "50vp".
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -342,7 +357,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0310
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color and add a sweeping light animation for the linear progress bar, with the ProgressType set to Linear and the color set to rgb(2, 184, 17).
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -362,7 +378,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0450
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the string value "50px" and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -382,7 +399,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0470
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the numeric value 0 and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -402,7 +420,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0430
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the numeric value 0 and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -422,7 +441,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0390
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scale width parameter scaleWidth of the ring progress bar by referencing the configuration items in the string.json file, and configure it with values "50fp", "50vp", and "50px" respectively, then check the display.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -442,7 +462,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0370
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scale width parameter of the circular progress bar to 30% as a percentage.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -462,7 +483,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0400
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the scaleWidth parameter of the circular progress bar to 50, referencing the configuration item in the string.json file.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -482,7 +504,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0420
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the total scale count parameter scaleCount to 90 (effective only under the ScaleRing circular style).
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -502,7 +525,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0280
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the linear progress bar, set the ProgressType to Linear and set the color to $r(app.color.Pink).
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -522,7 +546,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0490
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the linear progress bar, set the ProgressType to Linear and set the color to $r(app.color.Pink).
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -542,7 +567,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0480
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the numerical value of 80vp, and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -562,7 +588,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0500
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the progress bar width strokeWidth to the numerical value of 30%, and check the final display effect.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -582,7 +609,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0200
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the circular progress bar color to Color.Blue and add a sweeping light animation effect, with the ProgressType set to Ring.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -602,7 +630,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0290
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the linear progress bar color to 0xFF0000 and add a sweeping light animation effect, with the ProgressType set to Linear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -622,7 +651,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0300
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color of the linear progress bar to Color.Blue and add a sweeping light animation effect, with the ProgressType set to Linear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -642,7 +672,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0020
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the strokeWidth property, reference the configuration item in the float.json file and set the progress bar width to 50fp.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -662,7 +693,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0260
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color of the linear progress bar and add a sweeping light animation effect, with the ProgressType set to Linear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -682,7 +714,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0270
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Set the color of the linear progress bar to #fc0303 and add a sweeping light animation effect, with the ProgressType set to Linear.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -702,7 +735,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0010
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : Do not configure the following three parameters:strokeWidth?: Length; (Progress bar width)scaleCount?: number; (Total number of scales for the circular progress bar)scaleWidth
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -722,7 +756,8 @@ export default function ProgressInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0090
+     * @tc.name   : Information Progress interface
+     * @tc.desc   : Verify information Progress interface interface behavior and expected UI result for this case.
      * @tc.type   : For the strokeWidth property, reference the configuration item in the string.json file and set the progress bar width to 50vp.
      * @tc.size   : MediumTest
      * @tc.level  : 2

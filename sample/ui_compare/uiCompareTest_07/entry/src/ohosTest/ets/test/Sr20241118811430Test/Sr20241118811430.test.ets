@@ -43,7 +43,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_001
      * @tc.name   : Verify the time cost of setting the new commonibute attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -95,7 +96,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_002
      * @tc.name   : Verify the time cost of setting the appendChild attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -147,7 +149,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_003
      * @tc.name   : Verify the time cost of setting the getChild attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -204,7 +207,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_004
      * @tc.name   : Verify the time cost of setting the insertChildAfter attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -261,7 +265,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_005
      * @tc.name   : Verify the time cost of setting the getChildNumber attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -323,7 +328,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_006
      * @tc.name   : Verify the time cost of setting the getPositionToWindow attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -390,7 +396,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_007
      * @tc.name   : Verify the time cost of setting the getPositionToWindowWithTransform attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -457,7 +464,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_008
      * @tc.name   : Verify the time cost of setting the getLayoutPosition attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -524,7 +532,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_009
      * @tc.name   : Verify the time cost of setting the getUserConfigSize attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -591,7 +600,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_010
      * @tc.name   : Verify the time cost of setting the getId attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -663,7 +673,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_011
      * @tc.name   : Verify the time cost of setting the getUniqueId attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -740,7 +751,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_012
      * @tc.name   : Verify the time cost of setting the isAttached attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -817,7 +829,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_013
      * @tc.name   : Verify the time cost of setting the setMeasuredSize attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -899,7 +912,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_014
      * @tc.name   : Verify the time cost of setting the getMeasuredSize attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -986,7 +1000,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_015
      * @tc.name   : Verify the time cost of setting the setLayoutPosition attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1078,7 +1093,8 @@ export default function Sr20241118811430() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811430_016
      * @tc.name   : Verify the time cost of setting the clearChildren attribute via the added API.
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811430 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

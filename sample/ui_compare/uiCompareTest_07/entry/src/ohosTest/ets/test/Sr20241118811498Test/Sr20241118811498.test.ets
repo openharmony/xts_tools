@@ -45,7 +45,8 @@ export default function Sr20241118811498() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811498_001
      * @tc.name   : Grid component predict algorithm optimization
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811498 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -94,7 +95,8 @@ export default function Sr20241118811498() {
     /*
      * @tc.number : SUB_ACE_ComponentPerformance_SR20241118811498_002
      * @tc.name   : List component predict algorithm optimization
-     * @tc.type   : function
+     * @tc.desc   : Verify componentperformance sr20241118811498 interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
