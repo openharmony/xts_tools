@@ -59,6 +59,7 @@ export default function AceActionEventCommonEventAxisEventsListen() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_001
      * @tc.name   : Verify that BEGIN is triggered when the mouse starts scrolling
+     * @tc.desc   : Verify action event commonevent axis events listen interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -81,6 +82,7 @@ export default function AceActionEventCommonEventAxisEventsListen() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_002
      * @tc.name   : Verify that END is triggered when the mouse stops scrolling
+     * @tc.desc   : Verify action event commonevent axis events listen interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -103,6 +105,7 @@ export default function AceActionEventCommonEventAxisEventsListen() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AXIS_EVENTS_LISTEN_003
      * @tc.name   : Verify that UPDATE is triggered during mouse scrolling
+     * @tc.desc   : Verify action event commonevent axis events listen interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

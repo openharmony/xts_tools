@@ -57,6 +57,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0140
      * @tc.name   : Use the gamepad to trigger KeyEvent-deviceId
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0100
      * @tc.name   : Use the gamepad to trigger KeyEvent-type
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0110
      * @tc.name   : Use the gamepad to trigger KeyEvent-keyCode
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,6 +123,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0130
      * @tc.name   : Use the gamepad to trigger KeyEvent-keySource
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,6 +145,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0150
      * @tc.name   : Use the gamepad to trigger KeyEvent-metaKey
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,6 +167,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0160
      * @tc.name   : Use the gamepad to trigger KeyEvent-timestamp
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +189,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0120
      * @tc.name   : Use the gamepad to trigger KeyEvent-keyText
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -204,6 +211,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0320
      * @tc.name   : Use the gamepad to trigger KeyEvent-type(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +233,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0330
      * @tc.name   : Use the gamepad to trigger KeyEvent-keyCode(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +255,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0340
      * @tc.name   : Use the gamepad to trigger KeyEvent-keyText(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +277,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0350
      * @tc.name   : Use the gamepad to trigger KeyEvent-keySource(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -288,6 +299,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0360
      * @tc.name   : Use the gamepad to trigger KeyEvent-deviceId(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,6 +321,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0370
      * @tc.name   : Use the gamepad to trigger KeyEvent-metaKey(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,6 +343,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0380
      * @tc.name   : Use the gamepad to trigger KeyEvent-timestamp(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,6 +365,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0170
      * @tc.name   : Use the controller to trigger KeyEvent - child component sets stopPropagation
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,6 +387,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0180
      * @tc.name   : Use the gamepad to trigger KeyEvent-child component not set stopPropagation
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -393,6 +409,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0390
      * @tc.name   : Use the gamepad to trigger KeyEvent-child component set stopPropagation(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -414,6 +431,7 @@ export default function ActionEventCommonEventFocusAxisEvent() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FOCUSAXISEVENT_0400
      * @tc.name   : Use the gamepad to trigger KeyEvent-child component not set stopPropagation(Modifier)
+     * @tc.desc   : Verify action event commonevent focusaxisevent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

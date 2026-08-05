@@ -57,6 +57,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0760
      * @tc.name   : rating set stars to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0750
      * @tc.name   : rating set stars to 3
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +95,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0800
      * @tc.name   : set starStyle to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +114,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0790
      * @tc.name   : set starStyle to Custom images
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,6 +133,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0770
      * @tc.name   : set stepSize to 0.5
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -152,6 +157,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0310
      * @tc.name   : checkboxGroup set selected to true
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -170,6 +176,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0320
      * @tc.name   : checkboxGroup set selected to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -188,6 +195,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0330
      * @tc.name   : checkboxGroup set selectedColor to #007DAA
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -206,6 +214,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0340
      * @tc.name   : checkboxGroup set selectedColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -224,6 +233,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0350
      * @tc.name   : checkboxGroup set unselectedColor to Color.Red
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -242,6 +252,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0360
      * @tc.name   : checkboxGroup set unselectedColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -260,6 +271,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0400
      * @tc.name   : checkboxGroup set checkboxShape to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -278,6 +290,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0390
      * @tc.name   : checkboxGroup set checkboxShape to ROUNDED_SQUARE
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -296,6 +309,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0370
      * @tc.name   : checkboxGroup set mark
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -314,6 +328,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0380
      * @tc.name   : checkboxGroup set mark to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -332,6 +347,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0190
      * @tc.name   : checkbox set selected to true
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -350,6 +366,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0200
      * @tc.name   : checkbox set selected to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -368,6 +385,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0210
      * @tc.name   : checkbox set selectColor to 0xed6f21
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -386,6 +404,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0220
      * @tc.name   : checkbox set selectColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -404,6 +423,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0260
      * @tc.name   : checkbox set unselectColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -422,6 +442,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0250
      * @tc.name   : checkbox set unselectColor to 0xed6f21
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -440,6 +461,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0270
      * @tc.name   : checkbox set mask
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -458,6 +480,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0280
      * @tc.name   : checkbox set mask to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -476,6 +499,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0300
      * @tc.name   : checkbox set contentModifier to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -494,6 +518,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0240
      * @tc.name   : checkbox set checkbox shape to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -512,6 +537,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0230
      * @tc.name   : checkbox set checkbox shape to ROUNDED_SQUARE
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -530,6 +556,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0840
      * @tc.name   : select set value 'TTTTT'
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -548,6 +575,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0850
      * @tc.name   : select set value to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -566,6 +594,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0830
      * @tc.name   : select set selected to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -586,6 +615,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0880
      * @tc.name   : select set fontcolor to '#188888'
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -604,6 +634,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0890
      * @tc.name   : select set fontcolor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -622,6 +653,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0860
      * @tc.name   : select set font to { size: 20, weight: 500 }
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -640,6 +672,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0870
      * @tc.name   : select set font to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -658,6 +691,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0900
      * @tc.name   : select set selectedOptionBgColor to Color.Pink
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -678,6 +712,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0910
      * @tc.name   : select set selectedOptionBgColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -698,6 +733,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0940
      * @tc.name   : select set selectedOptionFontColor to Orange
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -718,6 +754,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0950
      * @tc.name   : select set selectedOptionFontColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -738,6 +775,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1000
      * @tc.name   : select set optionFontColor to black
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -758,6 +796,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0920
      * @tc.name   : select set selectedOptionFont to { size: 26, weight: 400 }
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -778,6 +817,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0930
      * @tc.name   : select set selectedOptionFont to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -798,6 +838,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0960
      * @tc.name   : select set optionBgColor to #188800
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -818,6 +859,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0970
      * @tc.name   : select set optionBgColor to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -838,6 +880,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0980
      * @tc.name   : select set optionFont to { size: 26, weight: 400 }
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -858,6 +901,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0990
      * @tc.name   : select set optionFont to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -878,6 +922,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0820
      * @tc.name   : select set selected to 2
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -898,6 +943,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1170
      * @tc.name   : select set ControlSize to normal
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -918,6 +964,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1180
      * @tc.name   : select set ControlSize to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -938,6 +985,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1190
      * @tc.name   : select set menuItemContentModifier to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -958,6 +1006,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0720
      * @tc.name   : radio set check to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -976,6 +1025,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0710
      * @tc.name   : radio set check to true
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -994,6 +1044,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0730
      * @tc.name   : radio set contentModifier to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1012,6 +1063,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0670
      * @tc.name   : timePicker set dateTimeOptions to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1030,6 +1082,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0490
      * @tc.name   : DatePicker set disappearTextStyle to blue
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1048,6 +1101,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0500
      * @tc.name   : DatePicker set disappearTextStyle to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1066,6 +1120,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0470
      * @tc.name   : DatePicker set lunar to true
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1084,6 +1139,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0480
      * @tc.name   : DatePicker set lunar to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1102,6 +1158,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0420
      * @tc.name   : CalendarPicker set CalendarAlign to START
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1122,6 +1179,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0430
      * @tc.name   : CalendarPicker set CalendarAlign to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1142,6 +1200,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0780
      * @tc.name   : rating set stepSize to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1162,6 +1221,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0450
      * @tc.name   : calendarPicker set textStyle font to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1180,6 +1240,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0440
      * @tc.name   : calendarPicker set textStyle font to 20
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1198,6 +1259,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0810
      * @tc.name   : rating set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1218,6 +1280,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0740
      * @tc.name   : radio set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1238,6 +1301,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0410
      * @tc.name   : checkboxGroup set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1258,6 +1322,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0290
      * @tc.name   : checkbox set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1278,6 +1343,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0700
      * @tc.name   : timePicker set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1299,6 +1365,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0460
      * @tc.name   : CalendarPicker set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1321,6 +1388,7 @@ export default function UiComponentButtonTextPickerArkui() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0180
      * @tc.name   : CalendarPicker set onChange to undefined
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

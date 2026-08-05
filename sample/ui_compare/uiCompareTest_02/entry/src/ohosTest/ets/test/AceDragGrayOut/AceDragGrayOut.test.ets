@@ -57,6 +57,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0550
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DEFAULT_SHADOW] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0590
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0650
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DEFAULT_SHADOW] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,6 +123,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0530
      * @tc.name   : [DragPreviewMode.AUTO, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,6 +145,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0630
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DEFAULT_RADIUS, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,6 +167,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0560
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +189,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0520
      * @tc.name   : [DragPreviewMode.AUTO, DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -204,6 +211,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0570
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +233,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0660
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_RADIUS, DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +255,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0610
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +277,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0640
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_RADIUS, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -288,6 +299,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0600
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DEFAULT_RADIUS, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,6 +321,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0620
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,6 +343,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0580
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,6 +365,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0670
      * @tc.name   : [DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,6 +387,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0680
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_SHADOW] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -393,6 +409,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0690
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -414,6 +431,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0700
      * @tc.name   : [DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,6 +453,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0710
      * @tc.name   : dragPreviewOptions mode is empty and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,6 +475,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0460
      * @tc.name   : [DragPreviewMode.DISABLE_SCALE] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -477,6 +497,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0480
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_RADIUS] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -498,6 +519,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0450
      * @tc.name   : [DragPreviewMode.AUTO] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -519,6 +541,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0470
      * @tc.name   : [DragPreviewMode.ENABLE_DEFAULT_SHADOW] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -540,6 +563,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0490
      * @tc.name   : [DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -561,6 +585,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0500
      * @tc.name   : [DragPreviewMode.AUTO, DragPreviewMode.DISABLE_SCALE] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -582,6 +607,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0040
      * @tc.name   : Column component without calling dragPreviewOptions and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -603,6 +629,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0540
      * @tc.name   : [DragPreviewMode.AUTO, DragPreviewMode.DISABLE_SCALE, DragPreviewMode.ENABLE_DEFAULT_SHADOW, DragPreviewMode.ENABLE_DEFAULT_RADIUS, DragPreviewMode.ENABLE_DRAG_ITEM_GRAY_EFFECT] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -624,6 +651,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0440
      * @tc.name   : DragPreviewMode to undefined and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,6 +673,7 @@ export default function AceDragGrayOut() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0510
      * @tc.name   : [DragPreviewMode.AUTO, DragPreviewMode.ENABLE_DEFAULT_SHADOW] and drag column
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

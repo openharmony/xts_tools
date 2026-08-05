@@ -57,6 +57,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0120
      * @tc.name   : Toggle sets both selectedColor and backgroundColor
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -82,6 +83,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0150
      * @tc.name   : The Toggle property selectedColor is RGB color
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -100,6 +102,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0160
      * @tc.name   : The Toggle property selectedColor is string type
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -118,6 +121,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0140
      * @tc.name   : The Toggle property selectedColor is rgba
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -136,6 +140,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0190
      * @tc.name   : The Toggle property selectedColor to  0xff0000
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -154,6 +159,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0180
      * @tc.name   : The Toggle property selectedColor to  Color.Red
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -172,6 +178,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0130
      * @tc.name   : The Toggle property selectedColor to  Resource
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -190,6 +197,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0290
      * @tc.name   : The Toggle property switchPointColor to  Color.White
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -208,6 +216,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0270
      * @tc.name   : The Toggle property switchPointColor to  rgb(255, 255, 255)
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -226,6 +235,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0260
      * @tc.name   : The Toggle property switchPointColor to  rgba(255, 255, 255,1)
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -244,6 +254,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0280
      * @tc.name   : The Toggle property switchPointColor to #ffffff
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -262,6 +273,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0310
      * @tc.name   : The Toggle property switchPointColor to illegal string
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -280,6 +292,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0300
      * @tc.name   : The Toggle property switchPointColor to resource
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -298,6 +311,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0320
      * @tc.name   : The Toggle property switchPointColor to 0xffffff
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -316,6 +330,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0080
      * @tc.name   : ToggleType.Switch type check
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -334,6 +349,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0110
      * @tc.name   : Toggle parameter default validation
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -352,6 +368,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0020
      * @tc.name   : Toggle.Button does not have built-in Text text validation
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -370,6 +387,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0030
      * @tc.name   : ToggleType.Buttontype check
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -388,6 +406,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0050
      * @tc.name   : ToggleType.Checkbox check
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -406,6 +425,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0210
      * @tc.name   : Toggle component isOn state verification
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -427,6 +447,7 @@ export default function UiComponentButtonToggleInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_INTERFACE_0350
      * @tc.name   : Toggle component set type to undefined
+     * @tc.desc   : Verify button toggle interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

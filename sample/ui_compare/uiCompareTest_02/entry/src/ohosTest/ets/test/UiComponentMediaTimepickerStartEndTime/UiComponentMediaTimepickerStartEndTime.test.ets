@@ -57,6 +57,7 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0015
      * @tc.name   : ComponentCotent's dispose method test
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +94,7 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0021
      * @tc.name   : TimePicker 12h start/end exception test
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,6 +131,7 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0022
      * @tc.name   : TimePicker start after end test
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +154,7 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0024
      * @tc.name   : TimePicker selected before start test
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,6 +178,7 @@ export default function UiComponentMediaTimepickerStartEndTime() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TIMEPICKER_STARTENDTIME_0025
      * @tc.name   : TimePicker selected after end test
+     * @tc.desc   : Verify media TimePicker startendtime interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

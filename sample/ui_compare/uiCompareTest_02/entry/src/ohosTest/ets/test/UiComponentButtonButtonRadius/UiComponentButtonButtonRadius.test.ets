@@ -57,6 +57,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0410
      * @tc.name   : Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 30px
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,6 +81,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0400
      * @tc.name   : Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 30%
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -103,6 +105,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0360
      * @tc.name   : Verify that the general attribute Type is set to default,controlSize is set to normal,and the borderRadius is manually set to 10vp
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -126,6 +129,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0010
      * @tc.name   : Verify that buttonStyle is set to a different value and it works properly
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -149,6 +153,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0240
      * @tc.name   : Verify that the default style of the calendarPickerDialog button is capsule and displayed correctly in api18
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -170,6 +175,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0270
      * @tc.name   : Verify that in the api18 environment, the default style of the buttons of timePickerDialog is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -196,6 +202,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0260
      * @tc.name   : Verify that in the api18 environment, the default style of the buttons of TextPickerDialog is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -217,6 +224,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0220
      * @tc.name   : Verify that in the API 18 environment, the default style of the button of bindpopup is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -238,6 +246,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0230
      * @tc.name   : Verify that in the API 18 environment, the default style of the button is ROUNDED_RECTANGLE and displayed normally
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -256,6 +265,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0380
      * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and it displays correctly when accessibility mode is enabled.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -298,6 +308,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0430
      * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and font style is manually set.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,6 +330,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0370
      * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is manually set in Chinese environment.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -340,6 +352,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0420
      * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to normal, and borderRadius is set to reference type.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -361,6 +374,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0480
      * @tc.name   : Verify that the generic attribute 'Type' is set to default, 'controlSize' is set to small, and button height is manually set.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -382,6 +396,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0500
      * @tc.name   : Verify that Type is manually set to ROUNDED_RECTANGLE.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -407,6 +422,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0280
      * @tc.name   : Verify that Type is set to Capsule without borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -428,6 +444,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0460
      * @tc.name   : Verify that button displays correctly with extra long text.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -449,6 +466,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0290
      * @tc.name   : Verify that Type is set to Capsule with borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -470,6 +488,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0510
      * @tc.name   : Verify that all properties are set to default values.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -491,6 +510,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0300
      * @tc.name   : Verify that Type is set to Capsule with font style.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -512,6 +532,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0310
      * @tc.name   : Verify that Type is set to Capsule with extra long text.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -533,6 +554,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0320
      * @tc.name   : Verify that Type is set to Circle without width/height and abnormal borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -551,6 +573,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0340
      * @tc.name   : Verify that Type is set to Circle with width/height and borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -572,6 +595,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0330
      * @tc.name   : Verify that Type is set to Circle without width/height and with borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -593,6 +617,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0350
      * @tc.name   : Verify that Type is set to Normal without borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -614,6 +639,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0450
      * @tc.name   : Verify that button displays correctly with height 50vp.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -638,6 +664,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0440
      * @tc.name   : Verify that button displays correctly with height 30vp.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -662,6 +689,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0030
      * @tc.name   : Verify that stateEffect set to false displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -683,6 +711,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0490
      * @tc.name   : Verify that SMALL controlSize with height 30vp displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -707,6 +736,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0470
      * @tc.name   : Verify that button displays correctly in Uyghur environment with custom borderRadius.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -733,6 +763,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0390
      * @tc.name   : Verify that button displays correctly with manual borderRadius 20vp.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -757,6 +788,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0020
      * @tc.name   : Verify that role set to ERROR displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -778,6 +810,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0520
      * @tc.name   : Verify that button created with modifier displays correctly.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -799,6 +832,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0530
      * @tc.name   : Verify Toggle button displays correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -831,6 +865,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0160
      * @tc.name   : Verify BindPopup buttons display correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -871,6 +906,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0170
      * @tc.name   : Verify Button displays correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -903,6 +939,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0180
      * @tc.name   : Verify CalendarPickerDialog buttons display correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -952,6 +989,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0210
      * @tc.name   : Verify TimePickerDialog buttons display correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1001,6 +1039,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0190
      * @tc.name   : Verify DatePickerDialog buttons display correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1050,6 +1089,7 @@ export default function UiComponentButtonButtonRadius() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_RADIUS_0200
      * @tc.name   : Verify TextPickerDialog buttons display correctly with accessibility.
+     * @tc.desc   : Verify button radius interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

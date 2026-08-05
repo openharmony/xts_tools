@@ -57,6 +57,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0750
      * @tc.name   : Function Test: Obtaining without setting the Swiper component's swipe switching function
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,6 +81,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0440
      * @tc.name   : Function Test: Setting Swiper curve FastOutSlowIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -100,6 +102,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0370
      * @tc.name   : Function Test: Setting Swiper duration 400.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,6 +123,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0510
      * @tc.name   : Function Test: Setting Swiper curve Friction
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,6 +144,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0320
      * @tc.name   : Function Test: Setting Swiper vertical false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,6 +168,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0050
      * @tc.name   : Function Test: Setting Swiper loop true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +189,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0520
      * @tc.name   : Function Test: Not setting Swiper curve
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,6 +210,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0190
      * @tc.name   : Function Test: Setting Swiper indicator true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,6 +229,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0240
      * @tc.name   : Function Test: Setting Swiper interval -4000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +250,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0820
      * @tc.name   : Function Test: Setting Swiper displayArrow true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +269,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0470
      * @tc.name   : Function Test: Setting Swiper curve ExtremeDeceleration
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,6 +290,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0500
      * @tc.name   : Function Test: Setting Swiper curve Smooth
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,6 +311,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0490
      * @tc.name   : Function Test: Setting Swiper curve Rhythm
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,6 +332,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0260
      * @tc.name   : Function Test: Not setting Swiper interval
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -339,6 +353,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0060
      * @tc.name   : Function Test: Setting Swiper loop false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -359,6 +374,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0120
      * @tc.name   : Function Test: Setting Swiper autoPlay true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,6 +395,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0530
      * @tc.name   : Function Test: Setting Swiper itemSpace 50
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,6 +414,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0780
      * @tc.name   : Function Test: Setting Swiper displayArrow hover
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,6 +438,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0250
      * @tc.name   : Function Test: Setting Swiper interval 3000.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -440,6 +459,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0140
      * @tc.name   : Function Test: Not setting Swiper autoPlay
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -460,6 +480,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0540
      * @tc.name   : Function Test: Setting Swiper itemSpace -50
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -478,6 +499,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0550
      * @tc.name   : Function Test: Setting Swiper itemSpace 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -496,6 +518,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0580
      * @tc.name   : Function Test: Setting Swiper index 2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -514,6 +537,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0570
      * @tc.name   : Function Test: Not setting Swiper itemSpace
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -532,6 +556,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0600
      * @tc.name   : Function Test: Setting Swiper index -2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -550,6 +575,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0560
      * @tc.name   : Function Test: Setting Swiper itemSpace 0.1
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -568,6 +594,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0610
      * @tc.name   : Function Test: Setting Swiper index 100
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -586,6 +613,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0070
      * @tc.name   : Function Test: Not setting Swiper loop
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -606,6 +634,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0620
      * @tc.name   : Function Test: Not setting Swiper index
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -624,6 +653,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0640
      * @tc.name   : Function Test: Setting Swiper displayCount 1
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -642,6 +672,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0410
      * @tc.name   : Function Test: Setting Swiper curve EaseIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -662,6 +693,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0630
      * @tc.name   : Function Test: Setting Swiper displayCount 2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -680,6 +712,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0400
      * @tc.name   : Function Test: Setting Swiper curve Ease
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -700,6 +733,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0200
      * @tc.name   : Function Test: Setting Swiper showIndicator false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -718,6 +752,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0310
      * @tc.name   : Function Test: Setting Swiper vertical true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,6 +776,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0650
      * @tc.name   : Function Test: Setting Swiper displayCount 2.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -759,6 +795,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0450
      * @tc.name   : Function Test: Setting Swiper curve LinearOutSlowIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -779,6 +816,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0460
      * @tc.name   : Function Test: Setting Swiper curve FastOutLinearIn
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -799,6 +837,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0660
      * @tc.name   : Function Test: Setting Swiper displayCount -2
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -817,6 +856,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0420
      * @tc.name   : Function Test: Setting Swiper curve EaseOut
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -837,6 +877,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0480
      * @tc.name   : Function Test: Setting Swiper curve Sharp
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -857,6 +898,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0680
      * @tc.name   : Function Test: Not setting Swiper displayCount
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -875,6 +917,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0390
      * @tc.name   : Function Test: Setting Swiper curve Linear
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -895,6 +938,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0430
      * @tc.name   : Function Test: Setting Swiper curve EaseInOut
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -915,6 +959,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0340
      * @tc.name   : Function Test: Setting Swiper duration 1000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -935,6 +980,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0730
      * @tc.name   : Function Test: Setting Swiper disableSwipe true
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -958,6 +1004,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0130
      * @tc.name   : Function Test: Setting Swiper autoPlay false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -978,6 +1025,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0330
      * @tc.name   : Function Test: Not setting Swiper vertical
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1001,6 +1049,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0210
      * @tc.name   : Function Test: Not setting Swiper showIndicator
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1019,6 +1068,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0380
      * @tc.name   : Function Test: Not setting Swiper duration
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1039,6 +1089,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0740
      * @tc.name   : Function Test: Setting Swiper disableSwipe false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1062,6 +1113,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0350
      * @tc.name   : Function Test: Setting Swiper duration -1000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1082,6 +1134,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0670
      * @tc.name   : Function Test: Setting Swiper displayCount 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1102,6 +1155,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0360
      * @tc.name   : Function Test: Setting Swiper duration 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1122,6 +1176,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0220
      * @tc.name   : Function Test: Setting Swiper interval 4000
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1142,6 +1197,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0840
      * @tc.name   : Function Test: Not setting Swiper showDisplayArrow
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1160,6 +1216,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0230
      * @tc.name   : Function Test: Setting Swiper interval 0
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1180,6 +1237,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0830
      * @tc.name   : Function Test: Setting Swiper showDisplayArrow false
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1198,6 +1256,7 @@ export default function UIComponentScrollSwiperGet() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_GET_0590
      * @tc.name   : Function Test: Setting Swiper index 2.5
+     * @tc.desc   : Verify scroll swiper get interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

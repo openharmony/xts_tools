@@ -42,6 +42,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0010
      * @tc.name   : TapGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -70,6 +71,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0020
      * @tc.name   : TapGesture, fingers = 1, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,6 +100,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0030
      * @tc.name   : TapGesture, fingers = 1, isFingerCountLimited is undefined
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,6 +129,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0040
      * @tc.name   : TapGesture, fingers = 2, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,6 +168,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0050
      * @tc.name   : TapGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -202,6 +207,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0060
      * @tc.name   : TapGesture, fingers = 2, isFingerCountLimited is undefined
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,6 +246,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0070
      * @tc.name   : TapGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -290,6 +297,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0090
      * @tc.name   : TapGesture, fingers = 3, isFingerCountLimited is undefined
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -340,6 +348,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0100
      * @tc.name   : TapGesture, fingers = 4, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -404,6 +413,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0110
      * @tc.name   : TapGesture, fingers = 4, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -468,6 +478,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0120
      * @tc.name   : TapGesture, fingers is default, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -496,6 +507,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0130
      * @tc.name   : TapGesture, not set fingers, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -524,6 +536,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0080
      * @tc.name   : TapGesture, fingers = 3, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -574,6 +587,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0530
      * @tc.name   : PinchGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -615,6 +629,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0580
      * @tc.name   : PinchGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -650,6 +665,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0590
      * @tc.name   : PinchGesture, fingers = 2, isFingerCountLimited is undefined
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -685,6 +701,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0600
      * @tc.name   : PinchGesture, fingers is default, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -720,6 +737,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0610
      * @tc.name   : PinchGesture, fingers is not set, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -755,6 +773,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0620
      * @tc.name   : PinchGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -793,6 +812,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0680
      * @tc.name   : RotationGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -828,6 +848,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0630
      * @tc.name   : RotationGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -869,6 +890,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0690
      * @tc.name   : RotationGesture, fingers = 2, isFingerCountLimited is undefined
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -904,6 +926,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0710
      * @tc.name   : RotationGesture, fingers is not set, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -939,6 +962,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0720
      * @tc.name   : RotationGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -974,6 +998,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0700
      * @tc.name   : RotationGesture, fingers is default, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1009,6 +1034,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0520
      * @tc.name   : SwipeGesture, without setting fingers, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1042,6 +1068,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0440
      * @tc.name   : SwipeGesture, fingers = 1, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1075,6 +1102,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0460
      * @tc.name   : SwipeGesture, fingers = 2, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1121,6 +1149,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0470
      * @tc.name   : SwipeGesture, fingers = 3, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1157,6 +1186,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0480
      * @tc.name   : SwipeGesture, fingers = 1, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1190,6 +1220,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0490
      * @tc.name   : SwipeGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1242,6 +1273,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0500
      * @tc.name   : SwipeGesture, fingers = 1, isFingerCountLimited is undefined
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1275,6 +1307,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0510
      * @tc.name   : SwipeGesture, fingers is default, isFingerCountLimited is true
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1308,6 +1341,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0450
      * @tc.name   : SwipeGesture, fingers = 2, isFingerCountLimited is false
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1353,6 +1387,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0320
      * @tc.name   : PanGesture, fingers = 2, isFingerCountLimited is true (1)
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1393,6 +1428,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0330
      * @tc.name   : PanGesture, fingers = 2, isFingerCountLimited is true (2)
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1428,6 +1464,7 @@ export default function ACEActionGestureFingersLimit() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_FINGERS_LIMITE_0340
      * @tc.name   : PanGesture, fingers = 2, isFingerCountLimited is true (3)
+     * @tc.desc   : Verify action gesture fingers limite interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

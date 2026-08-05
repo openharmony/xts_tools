@@ -57,6 +57,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0040
      * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions to be greater than the text length
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0030
      * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions offset is 5
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -99,6 +101,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0050
      * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions offset is null/undefined
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -120,6 +123,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0020
      * @tc.name   : TextInput/TextArea/Search,set addText,and set textOperationOptions offset is -1
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,6 +145,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0240
      * @tc.name   : TextInput/TextArea/Search component, set maxLength, and add addText
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -162,6 +167,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0100
      * @tc.name   : TextInput/TextArea/Search component, set deleteText,set start only,and set undefined/null
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +189,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0010
      * @tc.name   : TextInput/TextArea/Search component, set addText,and leave textOperationOptions unspecified
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -204,6 +211,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0060
      * @tc.name   : TextInput/TextArea/Search component,set addText,set textOperationOptions,add it in the middle of the emoji
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -225,6 +233,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0160
      * @tc.name   : set deleteText,set start and end, greater than 0 and less than the text length,and end greater than start
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -246,6 +255,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0070
      * @tc.name   : TextInput/TextArea/Search component, set deleteText, but not TextRange
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -267,6 +277,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0150
      * @tc.name   : TextInput/TextArea/Search component, set deleteText,set only end,set greater than the text length
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -288,6 +299,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0080
      * @tc.name   : TextInput/TextArea/Search component, set deleteText, and set start only
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -309,6 +321,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0140
      * @tc.name   : TextInput/TextArea/Search component, set deleteText,set only end,and set undefined/null
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -330,6 +343,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0090
      * @tc.name   : TextInput/TextArea/Search component, set deleteText, set only start, less than 0
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -351,6 +365,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0110
      * @tc.name   : TextInput/TextArea/Search component,set deleteText, set start only,and set greater than the text length
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -372,6 +387,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0130
      * @tc.name   : TextInput/TextArea/Search component, set deleteText, set only end, less than 0
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -393,6 +409,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0120
      * @tc.name   : TextInput/TextArea/Search component,set deleteText,set only end,greater than 0 and less than the text length
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -414,6 +431,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0170
      * @tc.name   : set deleteText, set start and end, greater than 0 and less than the text length, and end less than start
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -435,6 +453,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0190
      * @tc.name   : set deleteText, set start and end, and set the text length to be greater than the text length
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -456,6 +475,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0180
      * @tc.name   : TextInput/TextArea/Search component, set deleteText, set start and end, less than 0
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -477,6 +497,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0260
      * @tc.name   : TextInput/TextArea/Search component, set inputFilter, and set addText
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -498,6 +519,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0270
      * @tc.name   : TextInput/TextArea/Search component, set type, and set addText
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -524,6 +546,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0280
      * @tc.name   : TextInput/TextArea/Search component, set type, and set deleteText
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -550,6 +573,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0310
      * @tc.name   : TextInput/TextArea component, set style, set deleteText
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -576,6 +600,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0340
      * @tc.name   : TextArea and TextInput components are in inline mode,set maxLines, and set addText
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -607,6 +632,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0330
      * @tc.name   : TextInput/TextArea/Search component, set the style,and set textAlign
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -633,6 +659,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0350
      * @tc.name   : The TextArea and TextInput components are in inline mode, and textOverflow is set to Ellipsis
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -661,6 +688,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0370
      * @tc.name   : TextInput/TextArea/Search component and set setTextSelection
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -699,6 +727,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0380
      * @tc.name   : TextInput/TextArea/Search component and set onChange
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -724,6 +753,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0390
      * @tc.name   : TextInput/TextArea/Search component and set onwillChange
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -749,6 +779,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0400
      * @tc.name   : TextInput/TextArea/Search component, set onWillInsert, onDidInsert, onWillDelete, and onDidDelete
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -774,6 +805,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0450
      * @tc.name   : TextInput/TextArea/Search component, which returns the addText location
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -796,6 +828,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0410
      * @tc.name   : TextInput/TextArea/Search component, Image testing
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -821,6 +854,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0200
      * @tc.name   : TextInput/TextArea/Search component, set getSelection, and select part of the text
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -856,6 +890,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0220
      * @tc.name   : TextInput/TextArea/Search component, set getSelection, and select part of the text
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -892,6 +927,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0440
      * @tc.name   : TextInput/TextArea/Search component, add text if the text is very long
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -918,6 +954,7 @@ export default function UiComponentControllerAddDelete() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CONTROLLER_ADD_DELETE_0250
      * @tc.name   : TextInput/TextArea/Search component, set getSelection, and select part of the text
+     * @tc.desc   : Verify controller add delete interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

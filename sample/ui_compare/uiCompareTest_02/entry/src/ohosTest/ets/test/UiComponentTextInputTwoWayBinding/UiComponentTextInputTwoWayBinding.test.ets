@@ -57,6 +57,7 @@ export default function UiComponentTextInputTwoWayBinding() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0060
      * @tc.name   : TextInput/TextArea/Search, do not set onchange
+     * @tc.desc   : Verify textinput two way binding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,6 +81,7 @@ export default function UiComponentTextInputTwoWayBinding() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_Two_WAY_BINDING_0050
      * @tc.name   : TextInput/TextArea/Search, do not set onchange
+     * @tc.desc   : Verify textinput two way binding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

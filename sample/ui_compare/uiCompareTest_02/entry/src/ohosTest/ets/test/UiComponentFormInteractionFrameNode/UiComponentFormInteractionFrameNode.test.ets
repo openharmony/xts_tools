@@ -57,6 +57,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0060
      * @tc.name   : (FrameNode capability) 065: Select component selectedOptionBgColor as Color.Green
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,6 +83,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0590
      * @tc.name   : (FrameNode capability)066: Select component divider is divider({strokeWidth: "10px" ,color: Color.Orange })
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +109,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0580
      * @tc.name   : (FrameNode capability) 064: Select component fontColor is Color.Blue
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -124,6 +127,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0520
      * @tc.name   : (FrameNode capability) 073: Select the component arrowPosition as END
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,6 +145,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0620
      * @tc.name   : (FrameNode capability) 073: Select the component space as 10
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,6 +163,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0510
      * @tc.name   : (FrameNode capability) 068: Select component selectedOptionFontColor is Color.Pink
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +189,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0200
      * @tc.name   : (FrameNode capability) 070: Select the component optionFont as weight: FontWeight.Bolder
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -208,6 +215,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0270
      * @tc.name   : (FrameNode capability) 063: Select component font to size:20
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,6 +241,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0680
      * @tc.name   : (FrameNode capability) 061: The value of the Select component is Content Select
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,6 +259,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0740
      * @tc.name   : (FrameNode capability) 071: Select the component optionFontColor as Color.Red
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,6 +285,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0760
      * @tc.name   : (FrameNode capability) 071: Select the component selected as 2
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -300,6 +311,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0800
      * @tc.name   : (FrameNode capability) 062: Select the component controlSize to SMALL
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,6 +329,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0370
      * @tc.name   : (FrameNode capability) 067: Select component selectedOptionFontr as style:FontStyle.Italic
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -342,6 +355,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0460
      * @tc.name   : (FrameNode capability) 075: Select component optionFontColor as Color.Brown
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +381,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0900
      * @tc.name   : (FrameNode)074: Select component menuAlign to MenuAlignType.CENTER, {dx: 0, dy: 0}
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -392,6 +407,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0980
      * @tc.name   : (FrameNode capability) 076: Select the component menuBackgroundBlurStyle to COMPONENT_ULTRA_THICK
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,6 +433,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0660
      * @tc.name   : (FrameNode capability) 076: Select the component optionBgColor to Color.Transparent
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -442,6 +459,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0080
      * @tc.name   : (FrameNode capability) 097: Toggle component selectedColor is #FF00FF (type:Switch)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -465,6 +483,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0160
      * @tc.name   : (FrameNode capability) 092: Toggle component selectedColor is #FF00FF (type:Button)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -488,6 +507,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0550
      * @tc.name   : (FrameNode capability)098: Toggle component selectedColor is 0xffff00 (type:Checkbox)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,6 +531,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0210
      * @tc.name   : (FrameNode capability) 095: Toggle component selectedColor is undefined (type:Button)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -534,6 +555,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0260
      * @tc.name   : (FrameNode capability) 091: Toggle component selectedColor is Color.Green (type:Button)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -557,6 +579,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0700
      * @tc.name   : (FrameNode capability) 100: Toggle component selectedColor is undefined (type:Switch)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -580,6 +603,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0690
      * @tc.name   : (FrameNode capability) 099: Toggle component selectedColor is null (type:Switch)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -603,6 +627,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0390
      * @tc.name   : (FrameNode capability) 098: Toggle component selectedColor is 0xffff00 (type:Switch)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -626,6 +651,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0490
      * @tc.name   : (FrameNode capability) 096: Toggle component selectedColor is Color.green (type:Switch)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -649,6 +675,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0280
      * @tc.name   : (FrameNode capability) 097: Toggle component selectedColor is #FF00FF (type:Checkbox)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -672,6 +699,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0670
      * @tc.name   : (FrameNode capability) 100: Toggle component selectedColor is undefined (type:Checkbox)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -695,6 +723,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0780
      * @tc.name   : (FrameNode capability) 096: Toggle component selectedColor is Color.Green (type:Checkbox)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -718,6 +747,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0830
      * @tc.name   : (FrameNode capability) 099: Toggle component selectedColor is null (type:Checkbox)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,6 +771,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0380
      * @tc.name   : (FrameNode capability) 094: Toggle component selectedColor is null (type:Button)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -764,6 +795,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0810
      * @tc.name   : (FrameNode capability) 093: Toggle component selectedColor is 0xffff00 (type:Button)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -787,6 +819,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0240
      * @tc.name   : (FrameNode capability) 106: Toggle component contentModifier customizes the Toggle content area
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -814,6 +847,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0040
      * @tc.name   : (FrameNode capability) 047: Rating component rating is 5
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -832,6 +866,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0100
      * @tc.name   : (FrameNode capability) 045: Rating component rating is 0.5
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -850,6 +885,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0110
      * @tc.name   : (FrameNode capability) 046: Rating component rating is -1
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -868,6 +904,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0930
      * @tc.name   : (FrameNode capability) 048: Rating component rating is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -886,6 +923,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0150
      * @tc.name   : (FrameNode capability) 043: Rating component rating is 0
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -904,6 +942,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0410
      * @tc.name   : (FrameNode capability) 044: Rating component rating is 1
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -922,6 +961,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0840
      * @tc.name   : (FrameNode capability) 049: Rating component rating is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -940,6 +980,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0050
      * @tc.name   : (FrameNode capability) 053: Rating component stars is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -958,6 +999,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0300
      * @tc.name   : (FrameNode capability) 052: Rating component stars is -1
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -976,6 +1018,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0420
      * @tc.name   : (FrameNode capability) 050: Rating component stars is 0
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -994,6 +1037,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0870
      * @tc.name   : (FrameNode capability) 054: Rating component stars is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1012,6 +1056,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0500
      * @tc.name   : (FrameNode capability) 051: Rating component stars is 5
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1030,6 +1075,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0120
      * @tc.name   : (FrameNode capability) 056: The Rating component indicator is false
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1057,6 +1103,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0540
      * @tc.name   : (FrameNode capability) 055: The Rating component indicator is true
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1084,6 +1131,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0360
      * @tc.name   : (FrameNode capability) 057: The Rating component indicator is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1111,6 +1159,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0970
      * @tc.name   : (FrameNode capability) 058: The Rating component indicator is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1138,6 +1187,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0730
      * @tc.name   : (FrameNode capability) 059: Rating component contentModifier custom scoring component
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1165,6 +1215,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0020
      * @tc.name   : (FrameNode capability) 010: The Checkbox component is selected as null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1190,6 +1241,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0180
      * @tc.name   : (FrameNode capability) 011: The Checkbox component is selected as undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1215,6 +1267,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1010
      * @tc.name   : (FrameNode capability) 008: The Checkbox component is selected as true
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1240,6 +1293,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0850
      * @tc.name   : (FrameNode capability) 009: The Checkbox component is selected as false
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1265,6 +1319,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0600
      * @tc.name   : (FrameNode capability) 013: The selectedColor of the Checkbox component is #FF00FF
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1290,6 +1345,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1020
      * @tc.name   : (FrameNode capability) 015: The selectedColor of the Checkbox component is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1315,6 +1371,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0290
      * @tc.name   : (FrameNode capability) 016: The selectedColor of the Checkbox component is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1340,6 +1397,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0720
      * @tc.name   : (FrameNode capability) 014: The selectedColor of the Checkbox component is 0xffff00
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1365,6 +1423,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0880
      * @tc.name   : (FrameNode capability) 012: The selectedColor of the Checkbox component is Color.Green
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1390,6 +1449,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0650
      * @tc.name   : (FrameNode capability) 020: The shape of the Checkbox component is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1415,6 +1475,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1030
      * @tc.name   : (FrameNode capability) 030: The checkbox component checkboxShape is ROUNDED_SQUARE
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1440,6 +1501,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0320
      * @tc.name   : (FrameNode capability) 032: Checkbox component checkboxShape is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1465,6 +1527,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0450
      * @tc.name   : (FrameNode capability) 031: Checkbox component checkboxShape is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1490,6 +1553,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0960
      * @tc.name   : (FrameNode capability) 029: Checkbox component checkboxShape is CIRCLE
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1515,6 +1579,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0140
      * @tc.name   : (FrameNode) 005: Checkbox component group is string type checkboxgroup
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1540,6 +1605,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0010
      * @tc.name   : (FrameNode) 006: Checkbox component group is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1565,6 +1631,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1000
      * @tc.name   : (FrameNode) 007: Checkbox component group is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1590,6 +1657,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0170
      * @tc.name   : (FrameNode capability) 002: Checkbox component name is string type "check"
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1615,6 +1683,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0340
      * @tc.name   : (FrameNode capability) 004: The name of the Checkbox component is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1640,6 +1709,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0910
      * @tc.name   : (FrameNode capability) 003: The name of the Checkbox component is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1665,6 +1735,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0030
      * @tc.name   : (FrameNode capability) 038: The Radio component checked is true
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1683,6 +1754,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0630
      * @tc.name   : (FrameNode capability) 040: The Radio component checked is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1701,6 +1773,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0230
      * @tc.name   : (FrameNode capability) 039: The Radio component checked is false
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1719,6 +1792,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0350
      * @tc.name   : (FrameNode capability) 041: The Radio component checked is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1737,6 +1811,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0530
      * @tc.name   : (FrameNode capability) 035: The indicatorType of the radio component is DOT
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1761,6 +1836,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0890
      * @tc.name   : (FrameNode capability) 034: The indicatorType of the radio component is TICK
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1785,6 +1861,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0220
      * @tc.name   : (FrameNode capability) 036: The indicatorType of the radio component is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1809,6 +1886,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0330
      * @tc.name   : (FrameNode capability) 037: The indicatorType of the radio component is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1833,6 +1911,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0570
      * @tc.name   : (FrameNode capability) 042: Radio component contentModifier customizes radiobox styles
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1857,6 +1936,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0750
      * @tc.name   : (FrameNode capability) 078: The blockColor of the Slider component is Color.Green
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1875,6 +1955,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1050
      * @tc.name   : (FrameNode capability) 079: The blockColor of the Slider component is #FF00FF
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1893,6 +1974,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0640
      * @tc.name   : (FrameNode capability) 080: The blockColor of the Slider component is 0xffff00
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1911,6 +1993,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_1060
      * @tc.name   : (FrameNode capability) 081: The blockColor of the Slider component is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1929,6 +2012,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0480
      * @tc.name   : (FrameNode capability) 082: The blockColor of the Slider component is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1947,6 +2031,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0990
      * @tc.name   : (FrameNode capability) 083: Slider component showTips is true
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1970,6 +2055,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0610
      * @tc.name   : (FrameNode capability) 084: Slider component showTips is false
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1993,6 +2079,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0130
      * @tc.name   : (FrameNode capability) 086: Slider component showTips is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2016,6 +2103,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0250
      * @tc.name   : (FrameNode capability) 085: Slider component showTips is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2039,6 +2127,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0070
      * @tc.name   : (FrameNode capability) 089: Slider component SliderOptions parameter correctness 3 (undefined)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2057,6 +2146,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0770
      * @tc.name   : (FrameNode capability) 088: Slider component SliderOptions parameter correctness 2 (null)
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2075,6 +2165,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0710
      * @tc.name   : (FrameNode capability) 087: Slider component SliderOptions parameter correctness 1
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2093,6 +2184,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0820
      * @tc.name   : (FrameNode capability) 090: Slider component contentModifier customizes the Slider content area
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2122,6 +2214,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0090
      * @tc.name   : (FrameNode capability) 028: The CheckboxGroup component selectedColor is undefined
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2145,6 +2238,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0560
      * @tc.name   : (FrameNode capability) 024: The CheckboxGroup component selectedColor is Color.Green
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2168,6 +2262,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0190
      * @tc.name   : (FrameNode capability) 025: The CheckboxGroup component selectedColor is #FF00FF
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2191,6 +2286,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0310
      * @tc.name   : (FrameNode capability) 026: The CheckboxGroup component selectedColor is 0xffff00
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2214,6 +2310,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0400
      * @tc.name   : (FrameNode capability) 027: The CheckboxGroup component selectedColor is null
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2238,6 +2335,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0920
      * @tc.name   : (FrameNode capability) 023: The CheckboxGroup component group is of string type "checkboxgroup1" and "checkboxgroup2"
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2269,6 +2367,7 @@ export default function UiComponentFormInteractionFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_FORMINTERACTION_FRAMENODE_0440
      * @tc.name   : (FrameNode capability) 022: Checkbox component contentModifier custom selectedColor to Color.RED
+     * @tc.desc   : Verify popupbox forminteraction framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

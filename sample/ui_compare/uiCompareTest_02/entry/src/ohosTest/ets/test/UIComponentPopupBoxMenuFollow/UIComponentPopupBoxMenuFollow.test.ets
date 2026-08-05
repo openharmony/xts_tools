@@ -57,6 +57,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0210
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to Bottom, the menu displays correctly and the menu items appear along with the preview.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0220
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to LeftBottom, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -97,6 +99,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0230
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to LeftTop, the menu displays normally and the menu items appear along with the preview.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +120,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0280
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to TopLeft, the menu displays normally and the menu items appear along with the preview.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,6 +141,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0270
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to Right, the menu displays correctly and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -157,6 +162,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0240
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to Left, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -177,6 +183,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0260
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to RightTop, the menu displays normally and the menu items appear along with the preview.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -197,6 +204,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0290
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to TopRight, the menu displays normally and the menu items appear along with the preview.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -217,6 +225,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0250
      * @tc.name   : Verify that when bindContextMenu sets preview to a custom builder and placement is set to RightBottom, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -237,6 +246,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0190
      * @tc.name   : Verify that when bindContextMenu sets preview to custom builder and placement to BottomLeft, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -257,6 +267,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0200
      * @tc.name   : Verify that when bindContextMenu sets preview to custom builder and placement to BottomRight, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -277,6 +288,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0300
      * @tc.name   : Verify that when bindContextMenu sets preview to custom builder and placement to Top, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -297,6 +309,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0090
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to Bottom, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -317,6 +330,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0100
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to LeftBottom, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -337,6 +351,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0110
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to LeftTop, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -357,6 +372,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0160
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to TopLeft, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -377,6 +393,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0150
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to Right, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -397,6 +414,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0120
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to Left, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -417,6 +435,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0140
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to RightTop, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -437,6 +456,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0170
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to TopRight, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -457,6 +477,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0130
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to RightBottom, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -477,6 +498,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0180
      * @tc.name   : Verify that when bindContextMenu sets preview to MenuPreviewMode.IMAGE and placement to Top, the menu displays normally and the menu items appear along with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -497,6 +519,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0330
      * @tc.name   : Verify that the menu exits through left and right sliding, and the menu disappears with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -522,6 +545,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0350
      * @tc.name   : Verify that clicking blank makes the menu exit, and the menu disappears with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -547,6 +571,7 @@ export default function UIComponentPopupBoxMenuFollow() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_FOLLOW_0360
      * @tc.name   : Verify that clicking a menu option makes the menu exit, and the menu disappears with the preview image.
+     * @tc.desc   : Verify popupbox menu follow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

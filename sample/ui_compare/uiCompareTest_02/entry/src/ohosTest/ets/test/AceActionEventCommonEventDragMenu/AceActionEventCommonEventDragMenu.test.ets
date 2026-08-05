@@ -57,6 +57,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0010
      * @tc.name   : Set the image component's bindContextMenu to long-press mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -83,6 +84,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0020
      * @tc.name   : Set the image component's bindContextMenu to long-press mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -109,6 +111,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0030
      * @tc.name   : Set the image component's bindContextMenu to long-press mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -135,6 +138,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0040
      * @tc.name   : Set the image component's bindContextMenu to long-press mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -161,6 +165,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0050
      * @tc.name   : Set the image component's bindContextMenu to isShow mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -187,6 +192,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0060
      * @tc.name   : Set the image component's bindContextMenu to isShow mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -213,6 +219,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0070
      * @tc.name   : Set the image component's bindContextMenu to isShow mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -239,6 +246,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0080
      * @tc.name   : Set the image component's bindContextMenu to isShow mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -265,6 +273,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0090
      * @tc.name   : Set the video component's bindContextMenu to long-press mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -291,6 +300,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0100
      * @tc.name   : Set the video component's bindContextMenu to long-press mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -317,6 +327,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0110
      * @tc.name   : Set the video component's bindContextMenu to long-press mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -343,6 +354,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0120
      * @tc.name   : Set the video component's bindContextMenu to long-press mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -369,6 +381,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0130
      * @tc.name   : Set the video component's bindContextMenu to isShow mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -395,6 +408,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0140
      * @tc.name   : Set the video component's bindContextMenu to isShow mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -421,6 +435,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0150
      * @tc.name   : Set the video component's bindContextMenu to isShow mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -447,6 +462,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0160
      * @tc.name   : Set the video component's bindContextMenu to isShow mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -473,6 +489,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0170
      * @tc.name   : Set the grid component's bindContextMenu to long-press mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -499,6 +516,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0180
      * @tc.name   : Set the grid component's bindContextMenu to long-press mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -525,6 +543,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0190
      * @tc.name   : Set the grid component's bindContextMenu to long-press mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -551,6 +570,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0200
      * @tc.name   : Set the grid component's bindContextMenu to long-press mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -577,6 +597,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0210
      * @tc.name   : Set the grid component's bindContextMenu to isShow mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -603,6 +624,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0220
      * @tc.name   : Set the grid component's bindContextMenu to isShow mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -629,6 +651,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0230
      * @tc.name   : Set the grid component's bindContextMenu to isShow mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -655,6 +678,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0240
      * @tc.name   : Set the grid component's bindContextMenu to isShow mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -681,6 +705,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0250
      * @tc.name   : Set the list component's bindContextMenu to long-press mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -707,6 +732,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0260
      * @tc.name   : Set the list component's bindContextMenu to long-press mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -733,6 +759,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0270
      * @tc.name   : Set the list component's bindContextMenu to long-press mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -759,6 +786,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0280
      * @tc.name   : Set the list component's bindContextMenu to long-press mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -785,6 +813,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0290
      * @tc.name   : Set the list component's bindContextMenu to isShow mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -811,6 +840,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0300
      * @tc.name   : Set the list component's bindContextMenu to isShow mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -837,6 +867,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0310
      * @tc.name   : Set the list component's bindContextMenu to isShow mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -863,6 +894,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0320
      * @tc.name   : Set the list component's bindContextMenu to isShow mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -889,6 +921,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0410
      * @tc.name   : Set the custom component's bindContextMenu to long-press mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -915,6 +948,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0420
      * @tc.name   : Set the custom component's bindContextMenu to long-press mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -941,6 +975,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0430
      * @tc.name   : Set the custom component's bindContextMenu to long-press mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -967,6 +1002,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0440
      * @tc.name   : Set the custom component's bindContextMenu to long-press mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -993,6 +1029,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0450
      * @tc.name   : Set the custom component's bindContextMenu to isShow mode and set preview to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1019,6 +1056,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0460
      * @tc.name   : Set the custom component's bindContextMenu to isShow mode and preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1045,6 +1083,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0470
      * @tc.name   : Set the custom component's bindContextMenu to isShow mode and set preview to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1071,6 +1110,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0480
      * @tc.name   : Set the custom component's bindContextMenu to isShow mode and set preview to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1097,6 +1137,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0570
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to long press mode, preview set to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1124,6 +1165,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0580
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to long press mode, preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1151,6 +1193,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0590
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to long press mode, preview set to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1178,6 +1221,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0600
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to long press mode, preview set to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1205,6 +1249,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0610
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to isShow mode, preview set to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1232,6 +1277,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0620
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to isShow mode, preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1259,6 +1305,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0630
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to isShow mode, preview set to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1286,6 +1333,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0640
      * @tc.name   : Grid component multi-selection drag, set bindContextMenu to isShow mode, preview set to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1313,6 +1361,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0490
      * @tc.name   : List component multi-selection drag, set bindContextMenu to long press mode, preview set to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1340,6 +1389,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0500
      * @tc.name   : List component multi-selection drag, set bindContextMenu to long press mode, preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1367,6 +1417,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0510
      * @tc.name   : List component multi-selection drag, set bindContextMenu to long press mode, preview set to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1394,6 +1445,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0520
      * @tc.name   : List component multi-selection drag, set bindContextMenu to long press mode, preview set to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1421,6 +1473,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0530
      * @tc.name   : List component multi-selection drag, set bindContextMenu to isShow mode, preview set to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1448,6 +1501,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0540
      * @tc.name   : List component multi-selection drag, set bindContextMenu to isShow mode, preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1475,6 +1529,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0550
      * @tc.name   : List component multi-selection drag, set bindContextMenu to isShow mode, preview set to IMAGE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1502,6 +1557,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0560
      * @tc.name   : List component multi-selection drag, set bindContextMenu to isShow mode, preview set to customBuilder
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1529,6 +1585,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0330
      * @tc.name   : Hyperlink component set bindContextMenu to long press mode, preview set to NONE
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1556,6 +1613,7 @@ export default function AceActionEventCommonEventDragMenu() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_MENU_0340
      * @tc.name   : Hyperlink component set bindContextMenu to long press mode, preview not set
+     * @tc.desc   : Verify action event commonevent drag menu interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

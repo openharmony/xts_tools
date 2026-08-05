@@ -57,6 +57,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_001
      * @tc.name   : Check if the current finger press duration is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_002
      * @tc.name   : Check if the current finger pressure value is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -97,6 +99,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_003
      * @tc.name   : Check if the current finger press area width is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +120,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_004
      * @tc.name   : Check if the current finger press area height is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,6 +141,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_005
      * @tc.name   : Check if the X-axis offset is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -158,6 +163,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_006
      * @tc.name   : Check if the Y-axis offset is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -179,6 +185,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_007
      * @tc.name   : Check if the left mouse button state is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -200,6 +207,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_008
      * @tc.name   : Check if the right mouse button state is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -221,6 +229,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_009
      * @tc.name   : Check if the middle mouse button state is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -242,6 +251,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_014
      * @tc.name   : Check if LongPressGesture press targetDisplayId is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -262,6 +272,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_015
      * @tc.name   : Check if LongPressGesture release targetDisplayId is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -282,6 +293,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_017
      * @tc.name   : Check if SwiperGesture targetDisplayId is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -303,6 +315,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_018
      * @tc.name   : Check if PanGesture targetDisplayId is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -323,6 +336,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_019
      * @tc.name   : Check if rotationGesture targetDisplayId is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -349,6 +363,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_021
      * @tc.name   : Check if Mouse Modifier button, action, rawDelta are displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -370,6 +385,7 @@ export default function AceEventInformationEnhancement() {
     /*
      * @tc.number : SUB_ACE_EVENT_INFORMATION_ENHANCEMENT_023
      * @tc.name   : Check if PinchGesture targetDisplayId is displayed correctly
+     * @tc.desc   : Verify event information enhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

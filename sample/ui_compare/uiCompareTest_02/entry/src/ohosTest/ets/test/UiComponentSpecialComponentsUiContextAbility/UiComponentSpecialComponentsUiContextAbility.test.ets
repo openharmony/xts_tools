@@ -57,6 +57,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0010
      * @tc.name   : In singleton mode, bundleCodeDir's getHostContext obtains the installation package directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0020
      * @tc.name   : In singleton mode, cacheDir's getHostContext obtains the cache directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -97,6 +99,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0030
      * @tc.name   : In singleton mode, databaseDir's getHostContext obtains the database directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +120,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0040
      * @tc.name   : In singleton mode, distributedFilesDir's getHostContext obtains the distributed files directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,6 +141,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0050
      * @tc.name   : In singleton mode, filesDir's getHostContext obtains the files directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -157,6 +162,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0060
      * @tc.name   : In singleton mode, preferencesDir's getHostContext obtains the preferences directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -177,6 +183,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0070
      * @tc.name   : In singleton mode, resourceDir's getHostContext obtains the resource directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -197,6 +204,7 @@ export default function UiComponentSpecialComponentsUiContextAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UICONTEXT_ABILITY_0080
      * @tc.name   : In singleton mode, tempDir's getHostContext obtains the temporary directory
+     * @tc.desc   : Verify special components uicontext ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -57,6 +57,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_1330
      * @tc.name   : Sets the radial gradient
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0870
      * @tc.name   : setTransform translate is 50
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,6 +97,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0760
      * @tc.name   : setTransform scaleX is 40
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +118,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0770
      * @tc.name   : setTransform scaleY is 1.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,6 +139,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0840
      * @tc.name   : setTransform rotateX is 0.5 rotateY is 0.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -155,6 +160,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0730
      * @tc.name   : setTransform scaleX is 1
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,6 +181,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0860
      * @tc.name   : setTransform scaleX is 1
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,6 +202,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0780
      * @tc.name   : setTransform scaleY is -1
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,6 +223,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0740
      * @tc.name   : setTransform scaleY is -1
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -235,6 +244,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0790
      * @tc.name   : setTransform rotateX is 0.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +265,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0810
      * @tc.name   : setTransform rotateY is 0.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,6 +286,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0800
      * @tc.name   : setTransform rotateX is -0.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +307,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0750
      * @tc.name   : setTransform scaleX is -1
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,6 +328,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0850
      * @tc.name   : setTransform scaleX=1.5 scaleY=1.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -335,6 +349,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0920
      * @tc.name   : setTransform translateY=-50
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -355,6 +370,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0900
      * @tc.name   : setTransform translateY=50
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,6 +391,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0890
      * @tc.name   : setTransform translateX=1000
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -395,6 +412,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0820
      * @tc.name   : setTransform rotateY=-0.5
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -415,6 +433,7 @@ export default function UiComponentCanvasModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MODIFIER_0830
      * @tc.name   : setTransform translateY=50 translateX=50
+     * @tc.desc   : Verify canvas modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

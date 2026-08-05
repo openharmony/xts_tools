@@ -58,6 +58,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0030
      * @tc.name   : LongPressGesture does not set isFingerCountLimited
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +79,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0020
      * @tc.name   : LongPressGesture does not set fingers
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,6 +100,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0010
      * @tc.name   : LongPressGesture does not set duration
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,6 +121,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0040
      * @tc.name   : LongPressGesture does not set repeat
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,6 +142,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0870
      * @tc.name   : SwipeGesture does not set fingers
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,6 +164,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0890
      * @tc.name   : SwipeGesture does not set speed
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -180,6 +186,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0880
      * @tc.name   : SwipeGesture does not set isFingerCountLimited
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +208,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0860
      * @tc.name   : SwipeGesture does not set direction
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,6 +230,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1170
      * @tc.name   : TapGesture sets count to 2
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -243,6 +252,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1200
      * @tc.name   : TapGesture sets count to null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +274,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1210
      * @tc.name   : TapGesture sets count to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,6 +296,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1250
      * @tc.name   : TapGesture sets fingers to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +325,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1240
      * @tc.name   : TapGesture sets fingers to 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -334,6 +347,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1220
      * @tc.name   : TapGesture sets fingers to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -355,6 +369,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1230
      * @tc.name   : TapGesture sets fingers to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -376,6 +391,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1280
      * @tc.name   : TapGesture sets fingers to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -397,6 +413,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1270
      * @tc.name   : TapGesture sets fingers to null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -418,6 +435,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1150
      * @tc.name   : TapGesture sets count to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -439,6 +457,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1160
      * @tc.name   : TapGesture sets count to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -460,6 +479,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1300
      * @tc.name   : TapGesture sets isFingerCountLimited to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -481,6 +501,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1310
      * @tc.name   : TapGesture sets isFingerCountLimited to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -502,6 +523,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1290
      * @tc.name   : TapGesture sets isFingerCountLimited to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -523,6 +545,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0100
      * @tc.name   : LongPressGesture is set to duration of 800
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -544,6 +567,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0050
      * @tc.name   : LongPressGesture is set to duration of -100
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -565,6 +589,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0060
      * @tc.name   : LongPressGesture is set to duration of 0
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -586,6 +611,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0080
      * @tc.name   : LongPressGesture is set to duration of 222.555
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -607,6 +633,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0070
      * @tc.name   : LongPressGesture is set to duration of 200
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -628,6 +655,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0090
      * @tc.name   : LongPressGesture is set to duration of 500
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -649,6 +677,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0120
      * @tc.name   : LongPressGesture is set to fingers of -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -670,6 +699,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0140
      * @tc.name   : LongPressGesture is set to fingers of 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -691,6 +721,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0130
      * @tc.name   : LongPressGesture is set to fingers of 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -712,6 +743,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0170
      * @tc.name   : LongPressGesture is set to fingers of null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -733,6 +765,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0180
      * @tc.name   : LongPressGesture is set to fingers of undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -754,6 +787,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0200
      * @tc.name   : LongPressGesture is set isFingerCountLimited to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -775,6 +809,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0190
      * @tc.name   : LongPressGesture is set isFingerCountLimited to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -796,6 +831,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0210
      * @tc.name   : LongPressGesture is set isFingerCountLimited to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -817,6 +853,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0230
      * @tc.name   : LongPressGesture is set repeated to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -838,6 +875,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0220
      * @tc.name   : LongPressGesture is set repeated to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -859,6 +897,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0240
      * @tc.name   : LongPressGesture is set repeated to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -880,6 +919,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110
      * @tc.name   : LongPressGesture is set duration to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -901,6 +941,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0110
      * @tc.name   : SwipeGesture is set speed to 300
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -923,6 +964,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1060
      * @tc.name   : SwipeGesture is set speed to 0
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -945,6 +987,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1050
      * @tc.name   : SwipeGesture is set speed to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -967,6 +1010,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1070
      * @tc.name   : SwipeGesture is set speed to 100
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -989,6 +1033,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1090
      * @tc.name   : SwipeGesture is set speed to 20.55
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1011,6 +1056,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1080
      * @tc.name   : SwipeGesture is set speed to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1033,6 +1079,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1010
      * @tc.name   : SwipeGesture is set fingers to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1055,6 +1102,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1110
      * @tc.name   : SwipeGesture is set speed to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1077,6 +1125,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1000
      * @tc.name   : SwipeGesture is set fingers to null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1099,6 +1148,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0970
      * @tc.name   : SwipeGesture is set fingers to 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1121,6 +1171,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0960
      * @tc.name   : SwipeGesture is set fingers to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1143,6 +1194,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0950
      * @tc.name   : SwipeGesture is set fingers to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1165,6 +1217,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0980
      * @tc.name   : SwipeGesture is set fingers to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1193,6 +1246,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0990
      * @tc.name   : SwipeGesture is set fingers to 4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1225,6 +1279,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1040
      * @tc.name   : SwipeGesture is set isFingerCountLimited to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1247,6 +1302,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1030
      * @tc.name   : SwipeGesture is set isFingerCountLimited to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1269,6 +1325,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1020
      * @tc.name   : SwipeGesture is set isFingerCountLimited to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1291,6 +1348,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0920
      * @tc.name   : SwipeGesture is set direction to None
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1313,6 +1371,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0900
      * @tc.name   : SwipeGesture is set direction to All
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1335,6 +1394,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0910
      * @tc.name   : SwipeGesture is set direction to Horizontal
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1357,6 +1417,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0940
      * @tc.name   : SwipeGesture is set direction to Vertical
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1379,6 +1440,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0930
      * @tc.name   : SwipeGesture is set direction to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1401,6 +1463,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0280
      * @tc.name   : PanGesture is set distance to -10
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1423,6 +1486,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0290
      * @tc.name   : PanGesture is set distance to 0
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1445,6 +1509,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0300
      * @tc.name   : PanGesture is set distance to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1467,6 +1532,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0310
      * @tc.name   : PanGesture is set distance to 120
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1489,6 +1555,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0320
      * @tc.name   : PanGesture is set distance to 20.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1511,6 +1578,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0330
      * @tc.name   : PanGesture is set distance to 5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1533,6 +1601,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0340
      * @tc.name   : PanGesture is set distance to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1555,6 +1624,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0440
      * @tc.name   : PanGesture is set isFingerCountLimited to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1577,6 +1647,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0430
      * @tc.name   : PanGesture is set isFingerCountLimited to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1599,6 +1670,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0420
      * @tc.name   : PanGesture is set isFingerCountLimited to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1621,6 +1693,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0350
      * @tc.name   : PanGesture is set fingers to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1643,6 +1716,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0360
      * @tc.name   : PanGesture is set fingers to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1665,6 +1739,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0370
      * @tc.name   : PanGesture is set fingers to 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1687,6 +1762,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0400
      * @tc.name   : PanGesture is set fingers to null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1709,6 +1785,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0410
      * @tc.name   : PanGesture is set fingers to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1731,6 +1808,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1260
      * @tc.name   : TapGesture is set fingers to 4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1763,6 +1841,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0380
      * @tc.name   : PanGesture is set fingers to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1791,6 +1870,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0390
      * @tc.name   : PanGesture is set fingers to 4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1823,6 +1903,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0570
      * @tc.name   : PinchGesture is set fingers to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1851,6 +1932,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0560
      * @tc.name   : PinchGesture is set fingers to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1879,6 +1961,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0590
      * @tc.name   : PinchGesture is set fingers to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1907,6 +1990,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0580
      * @tc.name   : PinchGesture is set fingers to 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1935,6 +2019,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0620
      * @tc.name   : PinchGesture is set fingers to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1963,6 +2048,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0600
      * @tc.name   : PinchGesture is set fingers to 4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1995,6 +2081,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0550
      * @tc.name   : PinchGesture is set distance to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2023,6 +2110,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0510
      * @tc.name   : PinchGesture is set distance to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2051,6 +2139,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0520
      * @tc.name   : PinchGesture is set distance to 20.55
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2079,6 +2168,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0540
      * @tc.name   : PinchGesture is set distance to 5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2107,6 +2197,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0650
      * @tc.name   : PinchGesture is set isFingerCountLimited to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2135,6 +2226,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0640
      * @tc.name   : PinchGesture is set isFingerCountLimited to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2163,6 +2255,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0630
      * @tc.name   : PinchGesture is set isFingerCountLimited to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2191,6 +2284,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0530
      * @tc.name   : PinchGesture is set distance to 30
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2219,6 +2313,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0700
      * @tc.name   : RotationGesture is set angle to 0
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2247,6 +2342,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0690
      * @tc.name   : RotationGesture is set angle to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2275,6 +2371,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0710
      * @tc.name   : RotationGesture is set angle to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2303,6 +2400,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0750
      * @tc.name   : RotationGesture is set angle to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2331,6 +2429,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0730
      * @tc.name   : RotationGesture is set angle to 370
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2359,6 +2458,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0770
      * @tc.name   : RotationGesture is set fingers to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2387,6 +2487,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0760
      * @tc.name   : RotationGesture is set fingers to -1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2415,6 +2516,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0810
      * @tc.name   : RotationGesture is set fingers to null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2443,6 +2545,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0790
      * @tc.name   : RotationGesture is set fingers to 2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2471,6 +2574,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0780
      * @tc.name   : RotationGesture is set fingers to 11
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2499,6 +2603,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0800
      * @tc.name   : RotationGesture is set fingers to 4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2531,6 +2636,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0850
      * @tc.name   : RotationGesture is set isFingerCountLimited to undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2559,6 +2665,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0830
      * @tc.name   : RotationGesture is set isFingerCountLimited to false
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2587,6 +2694,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0840
      * @tc.name   : RotationGesture is set isFingerCountLimited to true
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2615,6 +2723,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0500
      * @tc.name   : PinchGesture is set distance to 1
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2643,6 +2752,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0490
      * @tc.name   : PinchGesture is set distance to 0
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2671,6 +2781,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0480
      * @tc.name   : PinchGesture is set distance to -10
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2699,6 +2810,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0160
      * @tc.name   : LongPressGesture设置fingers为4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2730,6 +2842,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0150
      * @tc.name   : LongPressGesture设置fingers为2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2756,6 +2869,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0740
      * @tc.name   : RotationGesture设置angle为50
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2791,6 +2905,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0720
      * @tc.name   : RotationGesture设置angle为2.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2827,6 +2942,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1180
      * @tc.name   : TapGesture设置count为3.5
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2850,6 +2966,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0820
      * @tc.name   : RotationGesture设置fingers为undefined
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2887,6 +3004,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_0610
      * @tc.name   : PinchGesture设置fingers为null
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2913,6 +3031,7 @@ export default function ActionGestureConfiguration() {
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1190
      * @tc.name   : TapGesture设置count为4
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

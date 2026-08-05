@@ -57,6 +57,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0100
      * @tc.name   : If halfleading is set to true, LinePacing is set to TextArea
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0010
      * @tc.name   : If halfleading is set to true, LinePacing is set to TextArea
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -107,6 +109,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0010
      * @tc.name   : If halfleading is set to false, LinePacing is set to TextArea
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -136,6 +139,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0040
      * @tc.name   : If halfleading is true, set the prompt text in the input box
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -154,6 +158,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0030
      * @tc.name   : TextInput/TextArea/Search，halfleading is undefined、null
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -172,6 +177,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0070
      * @tc.name   : Halfleading is true, and multiple lines of text are entered in the inline mode input box
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -204,6 +210,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0110
      * @tc.name   : Halfleading is set to true, and the input box is set to padding
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -228,6 +235,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0080
      * @tc.name   : halfleading is true, and the input field is changed to lineHeight
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -249,6 +257,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0090
      * @tc.name   : Halfleading is true, and the font size is changed in the input box
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -270,6 +279,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0150
      * @tc.name   : Mixed text testing
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -299,6 +309,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0060
      * @tc.name   : Halfleading is true, and multiple lines of text are entered in the inline mode input box
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -331,6 +342,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0050
      * @tc.name   : Halfleading is true, and the input box type is changed
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -365,6 +377,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0160
      * @tc.name   : Multiple lines of scrollable text
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -386,6 +399,7 @@ export default function UiComponentHalfLeading() {
         /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0120
      * @tc.name   : If halfleading is true, set align in the input field
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -409,6 +423,7 @@ export default function UiComponentHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_HALFLEADING_0140
      * @tc.name   : Modifier test
+     * @tc.desc   : Verify halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

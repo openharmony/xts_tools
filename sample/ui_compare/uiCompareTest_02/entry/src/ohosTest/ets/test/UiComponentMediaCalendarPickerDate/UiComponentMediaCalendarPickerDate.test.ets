@@ -43,6 +43,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0012
      * @tc.name   : CalendarPicker/CalendarPickerDialog set start equal end
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -70,6 +71,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0013
      * @tc.name   : CalendarPicker/CalendarPickerDialog sets an irregular date format
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -97,6 +99,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0014
      * @tc.name   : Set start and end to null/undefined in CalendarPicker/CalendarPickerDialog
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -124,6 +127,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0015
      * @tc.name   : CalendarPicker/CalendarPickerDialog选择超出范围日期
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -151,6 +155,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0016
      * @tc.name   : Dynamically modify the maximum and minimum dates of CalendarPicker/CalendarPickerDialog
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -195,6 +200,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0017
      * @tc.name   : CalendarPicker/CalendarPickerDialog selects a date earlier than the start time
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -222,6 +228,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0018
      * @tc.name   : CalendarPicker/CalendarPickerDialog selects a date later than the start time
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -249,6 +256,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0019
      * @tc.name   : CalendarPicker/CalendarPickerDialog set start later than current system date, selected date not set
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -276,6 +284,7 @@ export default function UiComponentMediaCalendarPickerDate() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_CALENDARPICKER_DATE_0020
      * @tc.name   : CalendarPicker/CalendarPickerDialog set end earlier than current system date, selected date not set
+     * @tc.desc   : Verify media CalendarPicker date interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

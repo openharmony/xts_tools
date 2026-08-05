@@ -57,6 +57,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0130
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed with a normal value), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +80,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0040
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes Option parameter)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -101,6 +103,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0090
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +126,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0010
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,6 +149,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0140
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed as undefined), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,6 +172,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0120
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes Option parameter), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -189,6 +195,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0170
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams does not pass parameters, non-Option set parameters)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,6 +218,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0150
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed with a normal value), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,6 +241,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0180
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the Option parameter of updateConstructorParams is passed with an abnormal value)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +264,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0190
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (any parameter of the Option of updateConstructorParams is passed with an abnormal value)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +287,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0080
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed as undefined)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -299,6 +310,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0050
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed with a normal value)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,6 +333,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0160
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed as undefined, the Option parameter is passed as undefined), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,6 +356,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0030
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes label parameter)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -365,6 +379,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0020
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes undefined parameter)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,6 +402,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0070
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed with a normal value)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -409,6 +425,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0100
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes undefined parameter), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -431,6 +448,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0060
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (the 'label' parameter of updateConstructorParams is passed with a normal value, the Option parameter is passed as undefined)
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -453,6 +471,7 @@ export default function UiComponentButtonButtonAttributeUpdater() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_BUTTON_ATTRIBUTEUPDATER_0110
      * @tc.name   : AttributeUpdater attribute update Button constructor parameters (updateConstructorParams passes label parameter), with child nodes
+     * @tc.desc   : Verify button attributeupdater interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

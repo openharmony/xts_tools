@@ -57,6 +57,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0110
      * @tc.name   : In the Canvas component, set the sepia in the filter to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0130
      * @tc.name   : In the Canvas component, set the sepia in the filter to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +95,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0250
      * @tc.name   : In the Canvas component, set the invert in the filter to -1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,6 +114,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0270
      * @tc.name   : In the Canvas component, set the invert in the filter to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,6 +133,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0150
      * @tc.name   : In the Canvas component, the sepia is not set
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +152,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0390
      * @tc.name   : In the Canvas component, the brightness is  set to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,6 +171,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0210
      * @tc.name   : In the Canvas component, the hugrotate is  set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +190,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0230
      * @tc.name   : In the Canvas component, the hugrotate is  set to 180
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +209,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0380
      * @tc.name   : In the Canvas component, the brightness is  set to 0.3
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,6 +228,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0370
      * @tc.name   : In the Canvas component, the brightness is  set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,6 +247,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0340
      * @tc.name   : In the Canvas component, the opacity is  set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +266,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0080
      * @tc.name   : In the Canvas component, the grayscale is  set to 2
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -273,6 +285,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0070
      * @tc.name   : In the Canvas component, the grayscale is  set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,6 +304,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0060
      * @tc.name   : In the Canvas component, the grayscale is  set to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,6 +323,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0040
      * @tc.name   : In the Canvas component, the grayscale is  set to -1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,6 +342,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0120
      * @tc.name   : In the Canvas component, the sepia is  set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,6 +361,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0100
      * @tc.name   : In the Canvas component, the sepia is  set to -1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,6 +380,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0400
      * @tc.name   : In the Canvas component, the sepia is  set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -381,6 +399,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0410
      * @tc.name   : In the Canvas component, the contrast is  set to default
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,6 +418,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0450
      * @tc.name   : In the Canvas component, the contrast is  set to 3
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,6 +437,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0430
      * @tc.name   : In the Canvas component, the contrast is  set to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,6 +456,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0440
      * @tc.name   : In the Canvas component, the contrast is  set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -453,6 +475,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0420
      * @tc.name   : In the Canvas component, the contrast is  set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -471,6 +494,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0200
      * @tc.name   : In the Canvas component, the saturate is  set to 3
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -489,6 +513,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0180
      * @tc.name   : In the Canvas component, the saturate is  set to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -507,6 +532,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0170
      * @tc.name   : In the Canvas component, the saturate is  set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -525,6 +551,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0190
      * @tc.name   : In the Canvas component, the saturate is  set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -543,6 +570,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0160
      * @tc.name   : In the Canvas component, the saturate is  not set
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -561,6 +589,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0260
      * @tc.name   : In the Canvas component, the invert is set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -579,6 +608,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0220
      * @tc.name   : In the Canvas component, the invert is set to 90
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -597,6 +627,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0240
      * @tc.name   : In the Canvas component, the invert is set to 360
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -615,6 +646,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0320
      * @tc.name   : In the Canvas component, the opacity is set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -633,6 +665,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0330
      * @tc.name   : In the Canvas component, the opacity is set to 0.5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -651,6 +684,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0300
      * @tc.name   : In the Canvas component, the opacity is set to defult
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -669,6 +703,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0490
      * @tc.name   : In the Canvas component, the blur is set to 5
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -687,6 +722,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0470
      * @tc.name   : In the Canvas component, the blur is set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -705,6 +741,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0480
      * @tc.name   : In the Canvas component, the blur is set to 3
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -723,6 +760,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0600
      * @tc.name   : In the Canvas component, the direction is set to rtl
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,6 +779,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0310
      * @tc.name   : In the Canvas component, the opacity is set to -11
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -759,6 +798,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0460
      * @tc.name   : In the Canvas component, the blur is set to default
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -777,6 +817,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0360
      * @tc.name   : In the Canvas component, the brightness is set to -1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -795,6 +836,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0280
      * @tc.name   : In the Canvas component, the invert is set to 1
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -813,6 +855,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0350
      * @tc.name   : In the Canvas component, the brightness is set to default
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -831,6 +874,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0590
      * @tc.name   : In the Canvas component, the direction is set to ltr
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -849,6 +893,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0050
      * @tc.name   : In the Canvas component, the grayscale is set to 0
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -867,6 +912,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0090
      * @tc.name   : In the Canvas component, the grayscale is not set
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -885,6 +931,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0140
      * @tc.name   : In the Canvas component, the sepia is set to 2
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -903,6 +950,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0290
      * @tc.name   : In the Canvas component, the invert is set to 2
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -921,6 +969,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0570
      * @tc.name   : In the Canvas component, the imageSmoothingEnabled is set to true
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -939,6 +988,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0580
      * @tc.name   : In the Canvas component, the imageSmoothingEnabled is set to false
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -957,6 +1007,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0540
      * @tc.name   : In the Canvas component, the imageSmoothingQuality is set to low
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -975,6 +1026,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0550
      * @tc.name   : In the Canvas component, the imageSmoothingQuality is set to medium
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -993,6 +1045,7 @@ export default function UiComponentCanvasMatrix2D() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_MATRIX2D_CANVASPATTERN_0560
      * @tc.name   : In the Canvas component, the imageSmoothingQuality is set to high
+     * @tc.desc   : Verify canvas matrix2d canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

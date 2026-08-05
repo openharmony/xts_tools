@@ -57,6 +57,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0010
      * @tc.name   : Add a callback when textPickerDialog pops up
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,6 +81,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0020
      * @tc.name   : Add a callback when textPickerDialog exits
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +105,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0030
      * @tc.name   : Add a callback before textPickerDialog display animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,6 +129,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0040
      * @tc.name   : Add a callback before textPickerDialog exit animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,6 +153,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0050
      * @tc.name   : Add a callback when datePickerDialog pops up
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,6 +177,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0060
      * @tc.name   : Add a callback when datePickerDialog exits
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,6 +201,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0070
      * @tc.name   : Add a callback before datePickerDialog display animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,6 +225,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0080
      * @tc.name   : Add a callback before datePickerDialog exit animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +249,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0130
      * @tc.name   : Add a callback when calendarPickerDialog pops up
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,6 +273,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0140
      * @tc.name   : Add a callback when calendarPickerDialog exits
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -287,6 +297,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0150
      * @tc.name   : Add a callback before calendarPickerDialog display animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -310,6 +321,7 @@ export default function UiComponentPopupBoxPicker() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_0160
      * @tc.name   : Add a callback before calendarPickerDialog exit animation
+     * @tc.desc   : Verify popupbox Picker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

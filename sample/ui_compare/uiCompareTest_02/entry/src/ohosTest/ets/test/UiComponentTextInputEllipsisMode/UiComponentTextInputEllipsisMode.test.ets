@@ -57,6 +57,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0230
      * @tc.name   : text component, set halfLeading to true
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +90,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0080
      * @tc.name   : The inline mode of the TextArea component is set to TextOverflow.Ellipsis, and the maxlines setting is greater than 1, and the edit mode is dynamically switched to ellipsisMode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,6 +118,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0100
      * @tc.name   : The inline mode of the TextInput component is set to TextOverflow.MARQUEE, and the maxlines setting is greater than 1, and the edit mode is dynamically switched to ellipsisMode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +146,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0040
      * @tc.name   : The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the maxlines setting is greater than 1, and the editing mode is dynamically switched to ellipsisMode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,6 +174,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0030
      * @tc.name   : The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the maxlines setting is 1, and the editing mode is dynamically switched to ellipsisMode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -197,6 +202,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0010
      * @tc.name   : The TextInput component is set in Default mode to TextOverflow.Ellipsis
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -224,6 +230,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0090
      * @tc.name   : The TextInput component is set to TextOverflow.MARQUEE in INLINE mode, maxlines is set to 1, and ellipsisMode is dynamically toggled in the non-editing state
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,6 +256,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0110
      * @tc.name   : The TextInput component is set to TextOverflow.MARQUEE in default mode, maxlines is set to 1, and ellipsisMode is dynamically switched in the edit state
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +285,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0130
      * @tc.name   : The TextArea component is set to TextOverflow.Clip, maxlines is set to 1, and ellipsisMode is dynamically toggled
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -303,6 +312,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0070
      * @tc.name   : The inline mode of the TextArea component is set to TextOverflow.Ellipsis, maxlines is set to 1, and the edit mode is dynamically toggled ellipsisMode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +341,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0120
      * @tc.name   : The TextArea component is set to TextOverflow.MARQUEE, maxlines is set to 1, and ellipsisMode is dynamically toggledx
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,6 +369,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0140
      * @tc.name   : The TextInput component is set to TextOverflow.Clip, maxlines is set to 1, and ellipsisMode is dynamically toggled
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +397,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0170
      * @tc.name   : The width of the input box is changed when a single line of the TextInput/TextArea component is omitted
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -405,6 +418,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0190
      * @tc.name   : If the TextInput/TextArea component mixes languages in a single line or special symbols are omitted, the omitted position is switched
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -429,6 +443,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0180
      * @tc.name   : If the TextInput/TextArea component omits a single-line emoji, the omit position is switched
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -453,6 +468,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0160
      * @tc.name   : The TextInput/TextArea component sets TextOverflow.Ellipsis to dynamically change maxLines
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -480,6 +496,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0020
      * @tc.name   : The INLINE mode of the TextInput component is set to TextOverflow.Ellipsis, and the ellipsisMode is dynamically switched to the non-editing state
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -505,6 +522,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0150
      * @tc.name   : The TextInput/TextArea component sets a single line of text for the over-long prompt
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -530,6 +548,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0060
      * @tc.name   : Set TextOverflow.Ellipsis to maxlines greater than 1 for different type types, and dynamically switch ellipsisMode in the edit mode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -566,6 +585,7 @@ export default function UiComponentTextInputEllipsisMode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_ELLIPSISMODE_0050
      * @tc.name   : The TextArea component is set to TextOverflow.Ellipsis for different type types, 1 for maxlines, and ellipsisMode for dynamic editing mode
+     * @tc.desc   : Verify textinput ellipsismode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

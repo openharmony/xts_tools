@@ -57,6 +57,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0030
      * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the up arrow on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -87,6 +88,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0040
      * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the down arrow on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +119,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0010
      * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the Home button on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -147,6 +150,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0020
      * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the end button on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -177,6 +181,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0050
      * @tc.name   : TextInput/TextArea/Search, enter a single line of text, and click the end button on the keyboard
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -208,6 +213,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0110
      * @tc.name   : TextInput/TextArea/Search component set onTextSelectionChange
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -247,6 +253,7 @@ export default function UiComponentArrowKey() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARROW_KEY_0080
      * @tc.name   : halfleading is true, switch the input box type.
+     * @tc.desc   : Verify arrow key interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

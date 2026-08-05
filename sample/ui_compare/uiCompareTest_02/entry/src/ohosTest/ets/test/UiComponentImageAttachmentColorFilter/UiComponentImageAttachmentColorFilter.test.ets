@@ -57,6 +57,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0080
      * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and objectFit at the same time
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,6 +81,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0090
      * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and layoutStyle at the same time
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +105,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0070
      * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and verticalAlign at the same time
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,6 +129,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0060
      * @tc.name   : Set the ImageAttachment property string to add an image, and set colorFilter and size at the same time
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,6 +153,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0030
      * @tc.name   : Set the ImageAttachment property string to add an image, and set the colorFilter to 19 bits
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,6 +177,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0020
      * @tc.name   : Set the ImageAttachment property string to add an image, and set the colorFilter to 20 bits
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,6 +201,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0100
      * @tc.name   : Set the ImageAttachment property string to add an image, set a colorFilter, and use replaceString to replace the image with text
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,6 +228,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0110
      * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use insertString to insert text before and after the image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,6 +258,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0200
      * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use appendStyledString to insert a new image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,6 +285,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0190
      * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use insertStyledString to insert a new image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -302,6 +312,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0180
      * @tc.name   : Set the ImageAttachment property string to add an image, set the colorFilter, and use replaceStyledString to insert a new image
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,6 +340,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0040
      * @tc.name   : Set ImageAttachment with colorFilter 21 bits
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -352,6 +364,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0050
      * @tc.name   : Set ImageAttachment with colorFilter null/undefined
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -376,6 +389,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0120
      * @tc.name   : Set ImageAttachment with colorFilter and removeString
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -405,6 +419,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0130
      * @tc.name   : Set ImageAttachment with colorFilter and replaceStyle
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -434,6 +449,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0140
      * @tc.name   : Set ImageAttachment with colorFilter and setStyle
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -463,6 +479,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0150
      * @tc.name   : Set ImageAttachment with colorFilter and clearStyles
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -492,6 +509,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0160
      * @tc.name   : Set ImageAttachment with colorFilter and removeStyle
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -521,6 +539,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0170
      * @tc.name   : Set ImageAttachment with colorFilter and removeStyles
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -550,6 +569,7 @@ export default function UiComponentImageAttachmentColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_IMAGEATTACHMENT_COLORFILTER_0220
      * @tc.name   : Set ImageAttachment with colorFilter in RichEditor
+     * @tc.desc   : Verify imageattachment colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

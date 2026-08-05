@@ -59,6 +59,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0410
      * @tc.name   : Static assignment for renderGroup interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -91,6 +92,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0420
      * @tc.name   : Dynamic assignment for renderGroup interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +119,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0510
      * @tc.name   : Static assignment for pixelStretchEffect interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -144,6 +147,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0520
      * @tc.name   : Dynamic assignment for pixelStretchEffect interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -170,6 +174,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0690
      * @tc.name   : Static assignment for clickEffect interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -206,6 +211,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0700
      * @tc.name   : Dynamic assignment for clickEffect interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -234,6 +240,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0770
      * @tc.name   : Static assignment for outlineStyle interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -261,6 +268,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0780
      * @tc.name   : Dynamic assignment for outlineStyle interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -287,6 +295,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0850
      * @tc.name   : Static assignment for motionBlur interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -314,6 +323,7 @@ export default function UIAttributesInterfaceReconstitution() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES__INTERFACE_RECONSTITUTION_0860
      * @tc.name   : Dynamic assignment for motionBlur interface
+     * @tc.desc   : Verify attributes interface reconstitution interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

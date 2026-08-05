@@ -57,6 +57,7 @@ export default function UiComponentCanvasOffScreenCanvas() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0060
      * @tc.name   : The OffScreenCavans component sets the height of the imageBitmap object to -10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function UiComponentCanvasOffScreenCanvas() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0050
      * @tc.name   : The OffScreenCavans component sets the height of the imageBitmap object to 0
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +95,7 @@ export default function UiComponentCanvasOffScreenCanvas() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0040
      * @tc.name   : The OffScreenCavans component sets the height of the imageBitmap object to 10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +114,7 @@ export default function UiComponentCanvasOffScreenCanvas() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0020
      * @tc.name   : The OffScreenCavans component sets the width of the imageBitmap object to 0
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,6 +133,7 @@ export default function UiComponentCanvasOffScreenCanvas() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0030
      * @tc.name   : The OffScreenCavans component sets the width of the imageBitmap object to -10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -147,6 +152,7 @@ export default function UiComponentCanvasOffScreenCanvas() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_OFFSCREENCANVAS_0010
      * @tc.name   : The OffScreenCavans component sets the width of the imageBitmap object to 10
+     * @tc.desc   : Verify canvas offscreencanvas interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

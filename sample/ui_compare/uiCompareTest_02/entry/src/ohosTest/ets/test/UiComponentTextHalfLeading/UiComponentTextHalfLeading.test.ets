@@ -57,6 +57,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0180
      * @tc.name   : Add span, imagespan, and symbolspan to the text component to dynamically change halfLeading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +79,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0210
      * @tc.name   : The text component sets clip to false to dynamically change halfLeading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0190
      * @tc.name   : Add a ContainerSpan to the text component to dynamically change halfLeading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,6 +123,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0070
      * @tc.name   : The text component settings dynamically change lineSpacing and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +151,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0050
      * @tc.name   : The text component settings dynamically change the baselineoffset and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,6 +179,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0130
      * @tc.name   : The text component settings dynamically change the baselineoffset and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -192,6 +198,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0170
      * @tc.name   : modifier test
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,6 +217,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0080
      * @tc.name   : The text component settings dynamically change textAlign and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,6 +245,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0110
      * @tc.name   : Halfleading is set to the text component, but halfleading is not set to package management
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +264,7 @@ export default function UiComponentTextHalfLeading() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_HALFLEADING_0060
      * @tc.name   : The text component settings dynamically change textAlign and halfleading
+     * @tc.desc   : Verify text halfleading interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

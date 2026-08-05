@@ -57,6 +57,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0060
      * @tc.name   : The parameter type of the title attribute of the Navigation component supports the Resource type
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0080
      * @tc.name   : The Swiper component supports next-margin/previous-margin
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +95,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0090
      * @tc.name   : The Text Span component supports property inheritance between parent and child components
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +114,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0130
      * @tc.name   : The scrolling component Grid allows developers to set the height and position of the scrollBar
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -132,6 +136,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0100
      * @tc.name   : The TextArea component supports the onEditChange callback
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -153,6 +158,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0070
      * @tc.name   : The placeHolder property of the Search component supports the Resource type
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -171,6 +177,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0140
      * @tc.name   : Component Routing (Navigation, NavRouter) capabilities are enhanced to support routing stacks and program triggering capabilities
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -190,6 +197,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0110
      * @tc.name   : WaterFlow and FlowItem waterfalls support the new framework
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -208,6 +216,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0120
      * @tc.name   : Scrollable Grid supports layout across major axes
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -226,6 +235,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0020
      * @tc.name   : bindPopup supports the ability to set an offset relative to the placement position and hide the arrows
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -247,6 +257,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0010
      * @tc.name   : The bindContextMenu/bindMenu capability is enhanced
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -272,6 +283,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0030
      * @tc.name   : bindPopup supports the ability to set an offset relative to the placement position and hide the arrows
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -294,6 +306,7 @@ export default function DocComponentSlayOut() {
     /*
      * @tc.number : SUB_ACE_DOC_COMPONENTSLAYOUT_0040
      * @tc.name   : Flex supports the flex-grow attribute
+     * @tc.desc   : Verify doc componentslayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

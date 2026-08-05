@@ -57,6 +57,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0090
      * @tc.name   : Apply the image resource to the property string and set the layoutStyle
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -79,6 +80,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0100
      * @tc.name   : Apply the image resource to the property string and set the colorFilter
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -101,6 +103,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0040
      * @tc.name   : Apply the image resource to the property string and set the size
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -123,6 +126,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0050
      * @tc.name   : Apply the image resource to the property string and set the size to(0,0)
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -145,6 +149,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0060
      * @tc.name   : Apply the image resource to the property string and set the size to(-100,-100)
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -167,6 +172,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0150
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use replaceStyle to replace the image style
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -193,6 +199,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0160
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use setStyle to add an image style
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -219,6 +226,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0030
      * @tc.name   : Referencing the wrong image resource
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -241,6 +249,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0170
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the clearstyles to clear the image style
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -267,6 +276,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0180
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the removestyle to clear the image style
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -293,6 +303,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0190
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the removestyles to clear the image style
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -319,6 +330,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0140
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and run the removestring to clear the image style
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -345,6 +357,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0220
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use appendStyledString to insert a new image
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -371,6 +384,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0210
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use insertStyledString to insert a new image
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -397,6 +411,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0200
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use replaceStyledString to insert a new image
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -423,6 +438,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0120
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use replaceString to insert a string
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -448,6 +464,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0130
      * @tc.name   : Set the ResourceImageAttachmentOptions property string to add an image, and use the insertString to insert text before and after the image
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -473,6 +490,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0070
      * @tc.name   : Apply the image resource to the property string and set the verticalAlign
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -495,6 +513,7 @@ export default function UiComponentResourceImageAttachmentOption() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_RESOURCEIMAGE_ATTACHMENTOPTIOND_0080
      * @tc.name   : Apply the image resource to the property string and set the objectFit
+     * @tc.desc   : Verify resourceimage attachmentoptiond interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

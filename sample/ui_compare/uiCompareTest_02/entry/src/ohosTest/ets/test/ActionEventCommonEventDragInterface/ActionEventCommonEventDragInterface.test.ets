@@ -57,6 +57,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1190
      * @tc.name   : Interface onDragLeave obtains DisplayY
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -83,6 +84,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1160
      * @tc.name   : Interface onDragMove obtains WindowX
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -109,6 +111,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1210
      * @tc.name   : Interface onDragLeave obtains WindowY
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -135,6 +138,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1100
      * @tc.name   : Interface onDragEnter obtains DisplayX
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -161,6 +165,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1170
      * @tc.name   : Interface onDragMove obtains WindowY
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -187,6 +192,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1150
      * @tc.name   : Interface onDragMove obtains DisplayY
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -213,6 +219,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1180
      * @tc.name   : Interface onDragLeave obtains DisplayX
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -239,6 +246,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1110
      * @tc.name   : Interface onDragEnter obtains DisplayY
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -265,6 +273,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1140
      * @tc.name   : Interface onDragMove obtains DisplayX
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -291,6 +300,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1130
      * @tc.name   : Interface onDragEnter obtains WindowY
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -317,6 +327,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1120
      * @tc.name   : Interface onDragEnter obtains WindowX
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -343,6 +354,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1200
      * @tc.name   : Interface onDragLeave obtains WindowX
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -369,6 +381,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1080
      * @tc.name   : Interface onDragStart sets setResult to DRAG_FAILED
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -395,6 +408,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1070
      * @tc.name   : Interface onDragStart sets setResult to DRAG_SUCCESSFUL
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -421,6 +435,7 @@ export default function ActionEventCommonEventDragInterface() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_DRAG_INTERFACE_1090
      * @tc.name   : Interface onDragStart sets setResult to DRAG_CANCELED
+     * @tc.desc   : Verify action event commonevent drag interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

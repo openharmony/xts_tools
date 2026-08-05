@@ -57,6 +57,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0230
      * @tc.name   : ComponentCotent's dispose method test
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0540
      * @tc.name   : TextArea component, using the onDidInsert method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -99,6 +101,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0450
      * @tc.name   : TextArea component, using the onchange method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -120,6 +123,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0460
      * @tc.name   : TextArea component, using the onEditChange method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,6 +145,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0530
      * @tc.name   : TextArea component, using the onWillInsert method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -162,6 +167,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0510
      * @tc.name   : TextArea component, using the onContentScroll method
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -184,6 +190,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0070
      * @tc.name   : TextArea component to set the prompt text color
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -208,6 +215,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0400
      * @tc.name   : TextArea component to set the line splitting rules
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -232,6 +240,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0380
      * @tc.name   : TextArea component to set how text is displayed when it is very long
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -256,6 +265,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0150
      * @tc.name   : TextArea component to set the polymorphic style of the text box
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -283,6 +293,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0090
      * @tc.name   : TextArea component to set the horizontal alignment of the text
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -307,6 +318,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0340
      * @tc.name   : TextArea component to set the text breakage rule
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -331,6 +343,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0350
      * @tc.name   : TextArea component to set the text breakage rule
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -361,6 +374,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0310
      * @tc.name   : TextArea component, which sets the text decoration
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -385,6 +399,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0320
      * @tc.name   : TextArea component to set text character spacing
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -409,6 +424,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0290
      * @tc.name   : TextArea component, which sets the input method enter key type
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -437,6 +453,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0370
      * @tc.name   : Turk Componin, Whitsett Furstreen Ben Texter Indent Tashen
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -461,6 +478,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0300
      * @tc.name   : TextArea component to set the line height
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -485,6 +503,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0220
      * @tc.name   : TextArea component, which sets the display mode of the scroll bar when the input box is edited
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -513,6 +532,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0240
      * @tc.name   : TextArea component, which sets the input box type
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -537,6 +557,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0390
      * @tc.name   : TextArea component to set the minimum display size, maximum display size, and text adaptive height
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -561,6 +582,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0140
      * @tc.name   : TextArea component, which sets the counter to be displayed when the number of characters entered via InputCounterOptions exceeds the threshold
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -585,6 +607,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0110
      * @tc.name   : TextArea component to set the minimum display size, maximum display size, and text adaptive height
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -611,6 +634,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0200
      * @tc.name   : TextArea component, which is set to pop up the system text selection menu
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -631,6 +655,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0410
      * @tc.name   : TextArea component, which sets the custom menu extension
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -651,6 +676,7 @@ export default function UiComponentFrameNodeText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_FRAMENODE_TEXT_0330
      * @tc.name   : TextArea component to set the effect of text characteristics
+     * @tc.desc   : Verify framenode text interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

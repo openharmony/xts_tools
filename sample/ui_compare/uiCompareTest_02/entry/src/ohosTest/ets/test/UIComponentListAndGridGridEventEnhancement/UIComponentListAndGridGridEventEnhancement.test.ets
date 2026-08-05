@@ -57,6 +57,7 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0070_700
      * @tc.name   : Verify that Grid gesture scroll to bottom triggers onReachEnd event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -76,6 +77,7 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0130_363
      * @tc.name   : Verify that Grid gesture sliding triggers onScrollStart event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -95,6 +97,7 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0180_821
      * @tc.name   : Verify that Grid gesture sliding stop triggers onScrollStop event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -114,6 +117,7 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0260_461
      * @tc.name   : Verify that finger sliding Grid triggers onScrollFrameBegin event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -133,6 +137,7 @@ export default function UIComponentListAndGridGridEventEnhancement() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_EVENTENHANCEMENT_0300_438
      * @tc.name   : Verify that gesture sliding component triggers onScrollIndex event
+     * @tc.desc   : Verify listandgrid grid eventenhancement interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

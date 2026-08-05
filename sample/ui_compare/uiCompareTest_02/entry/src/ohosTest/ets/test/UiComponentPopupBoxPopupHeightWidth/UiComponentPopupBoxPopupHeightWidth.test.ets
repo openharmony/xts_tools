@@ -57,6 +57,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0010
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50px'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,6 +78,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0100
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50lpx'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -97,6 +99,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0150
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50%'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +120,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0070
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50fp'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,6 +141,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0110
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '0lpx'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -157,6 +162,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0050
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '0vp'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -177,6 +183,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0040
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '50vp'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -197,6 +204,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0090
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50fp'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -217,6 +225,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0130
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '80%'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -237,6 +246,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0030
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50px'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -258,6 +268,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0020
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '0px'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -278,6 +289,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0120
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50lpx'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -298,6 +310,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0060
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-50vp'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -318,6 +331,7 @@ export default function UiComponentPopupBoxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0080
      * @tc.name   : The popup adds a width attribute, and the width parameter of PopupOptions is set to '-0fp'.
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

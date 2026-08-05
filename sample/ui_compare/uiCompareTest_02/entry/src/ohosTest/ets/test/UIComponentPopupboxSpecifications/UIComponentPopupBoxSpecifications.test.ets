@@ -57,6 +57,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0490
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Custom Popup
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,6 +85,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0500
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Alert Dialog
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -110,6 +112,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0510
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Action Menu
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,6 +140,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0520
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Date Picker
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -164,6 +168,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0530
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Time Picker
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -191,6 +196,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0540
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Text Picker
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -218,6 +224,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0550
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - Prompt
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -245,6 +252,7 @@ export default function UIComponentPopupBoxSpecifications() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_0560
      * @tc.name   : Popup Appearing Simultaneously with Other Pop-ups - PromptAction
+     * @tc.desc   : Verify popupbox specifications interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

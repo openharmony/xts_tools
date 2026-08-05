@@ -57,6 +57,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0220
      * @tc.name   : Text component, set the selection to select a blank row
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0200
      * @tc.name   : Text component, set the text, and set the indent value for the blank line
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +95,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0210
      * @tc.name   : Text component, set the text, change the text baseline offset
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +114,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0270
      * @tc.name   : Text component to change the font size
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -132,6 +136,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0300
      * @tc.name   : Text/TextArea/TextInput inline mode, only blank lines are set
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -159,6 +164,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0240
      * @tc.name   : Text component, span to baselineOffset
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -177,6 +183,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0260
      * @tc.name   : Text component, set the line spacing
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -198,6 +205,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0370
      * @tc.name   : Text/TextArea/TextInput inline mode, set the space carriage return
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -227,6 +235,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0400
      * @tc.name   : Text/TextArea/TextInput inline mode, set the space carriage return
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -254,6 +263,7 @@ export default function UiComponentBlankLineSelected() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BLANKLINE_SELECTED_0180
      * @tc.name   : Text component, set the baselineoffset to the property string
+     * @tc.desc   : Verify blankline selected interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

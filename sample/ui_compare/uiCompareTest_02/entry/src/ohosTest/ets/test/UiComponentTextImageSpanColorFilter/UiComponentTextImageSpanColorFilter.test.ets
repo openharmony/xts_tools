@@ -57,6 +57,7 @@ export default function UiComponentTextImageSpanColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0030
      * @tc.name   : imagespan to colorFilter
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentTextImageSpanColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0080
      * @tc.name   : After the imagespan is set to a privacy mask, call ColorFilter
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +95,7 @@ export default function UiComponentTextImageSpanColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0040
      * @tc.name   : imagespan to colorFilter, which contains a negative number
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,6 +114,7 @@ export default function UiComponentTextImageSpanColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_IMAGESPAN_COLORFILTER_0050
      * @tc.name   : imagespan to set the colorFilter to contain a large number
+     * @tc.desc   : Verify text imagespan colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -59,6 +59,7 @@ export default function UiAttributesUseEffectEffectType() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0010
      * @tc.name   : useEffect is false
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,6 +81,7 @@ export default function UiAttributesUseEffectEffectType() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0050
      * @tc.name   : useEffect is true and EffectType is DEFAULT
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -101,6 +103,7 @@ export default function UiAttributesUseEffectEffectType() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0020
      * @tc.name   : useEffect is true
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,6 +125,7 @@ export default function UiAttributesUseEffectEffectType() {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_USEEFFECT_EFFECTTYPE_0060
      * @tc.name   : useEffect is true and EffectType is WINDOW_EFFECT
+     * @tc.desc   : Verify attributes useeffect effecttype interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

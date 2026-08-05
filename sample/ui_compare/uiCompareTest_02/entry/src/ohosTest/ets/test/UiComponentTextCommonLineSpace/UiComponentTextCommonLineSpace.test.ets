@@ -57,6 +57,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0020
      * @tc.name   : textArea is switched to different type, and the line spacing is displayed normally
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -79,6 +80,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0030
      * @tc.name   : The textArea line spacing property does not take effect on placeHolder
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -99,6 +101,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTINPUT_PHONENUMBER_0050
      * @tc.name   : Instead of calling onChange, enter a space
+     * @tc.desc   : Verify textinput phonenumber interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -119,6 +122,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0390
      * @tc.name   : fontFeature is set to subs and the property value is set to 1
+     * @tc.desc   : Verify text textinput showpassword interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -139,6 +143,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXTINPUT_SHOWPASSWORD_0360
      * @tc.name   : There is no heightAdaptivePolicy
+     * @tc.desc   : Verify text textinput showpassword interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -159,6 +164,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0010
      * @tc.name   : There is no heightAdaptivePolicy
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -179,6 +185,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0070
      * @tc.name   : text, set the width and height, set the super text, and set the textOverFlow
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -197,6 +204,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0080
      * @tc.name   : Create an ets page to display the text component without lineSpacing
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -215,6 +223,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0030
      * @tc.name   : text: Set width and height, set ultra-large text, and set textOverFlow to Ellipsis
+     * @tc.desc   : Verify text common linespace c interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -233,6 +242,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0040
      * @tc.name   : text: Set width and height, set ultra-large text, and set textOverFlow to MARQUEE
+     * @tc.desc   : Verify text common linespace c interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -251,6 +261,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0020
      * @tc.name   : text: Set width and height, set ultra-large text, and set textOverFlow to Clip
+     * @tc.desc   : Verify text common linespace c interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -269,6 +280,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0070
      * @tc.name   : Set the component to an illegal value of type number
+     * @tc.desc   : Verify text common linespace c interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -287,6 +299,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_C_0080
      * @tc.name   : Set the component to null
+     * @tc.desc   : Verify text common linespace c interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -305,6 +318,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0090
      * @tc.name   : Set the normal value of type number for the component
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -323,6 +337,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0040
      * @tc.name   : text contains a ContainerSpan
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -345,6 +360,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0140
      * @tc.name   : Dynamically switch lineSpacing
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -363,6 +379,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0150
      * @tc.name   : Set lineHeight and line spacing at the same time
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -381,6 +398,7 @@ export default function UiComponentTextCommonLineSpace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_COMMON_LINESPACE_0050
      * @tc.name   : Set lineHeight and line spacing at the same time
+     * @tc.desc   : Verify text common linespace interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -60,6 +60,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0230
      * @tc.name   : In the input box, set minFontScale to be equal to maxFontScale
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -85,6 +86,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0220
      * @tc.name   : Set the minFontScale parameter in the input box to be greater than maxFontScale
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -110,6 +112,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0200
      * @tc.name   : Set maxFontScale to less than 1 in the input box
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -135,6 +138,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0120
      * @tc.name   : TextInput password mode, set the small eye icon
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -160,6 +164,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0010
      * @tc.name   : Set minFontScale and maxFontScale in the input box, and only set the prompt text
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -185,6 +190,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0150
      * @tc.name   : The input box does not set maxFontScale, and the fontSizeMaxScale is set to the application
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -210,6 +216,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0140
      * @tc.name   : In the input field, only maxFontScale is set, not minFontScale
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -235,6 +242,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0210
      * @tc.name   : Set maxFontScale in the input box to undifined/null
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -260,6 +268,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0190
      * @tc.name   : Set minFontScale in the input box to undifined/null
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -285,6 +294,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0170
      * @tc.name   : Set the minFontScale parameter in the input box to be less than 0
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -310,6 +320,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0160
      * @tc.name   : Set maxFontScale in the input box and set fontSizeMaxScale in the application box
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -335,6 +346,7 @@ export default function UiComponentInputFontsTzeScale() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INPUT_FONTSTZESCALE_0180
      * @tc.name   : In the input box, set the minFontScale to be greater than 1
+     * @tc.desc   : Verify input fontstzescale interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

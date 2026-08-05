@@ -57,6 +57,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1060
      * @tc.name   : Set the slider vertical display and slide the scroller to adjust the slider position
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -81,6 +82,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_1040
      * @tc.name   : Mouse placement slider on click to move
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -105,6 +107,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0270
      * @tc.name   : selectedColor is set multiple times, the last time it takes effect
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -124,6 +127,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0510
      * @tc.name   : trackColor is set multiple times, the last time it takes effect
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -143,6 +147,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0350
      * @tc.name   : showSteps is set multiple times, and the last time it takes effect
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -162,6 +167,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0120
      * @tc.name   : direction is not set, the default is Axis.Horizontal, and the slide is displayed horizontally
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -181,6 +187,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0160
      * @tc.name   : direction is set to Axis.Horizontal, and the slide rail is displayed horizontally
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -200,6 +207,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0590
      * @tc.name   : trackThickness is set multiple times, the last time it takes effect
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -219,6 +227,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0540
      * @tc.name   : trackColor settings 0xADD8E6
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -238,6 +247,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0600
      * @tc.name   : trackThickness is set to a valid value of >0, and the rail thickness takes effect normally
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -257,6 +267,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0610
      * @tc.name   : trackThickness setting is less than or equal to 0, when SliderStyle.InSet is 20.0vp, the default slider size is blockSize = 12.0vp * 12.0vp
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -275,6 +286,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0580
      * @tc.name   : trackThickness is not set, when SliderStyle.OutSet is set, the default slider thickness is 4.0vp, and the default slider size: blockSize = 16.0vp * 16.0vp
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -293,6 +305,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0020
      * @tc.name   : blockColor is set multiple times, and the last time it takes effect
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -311,6 +324,7 @@ export default function UiComponentButtonSliderInterFace() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_INTERFACE_0110
      * @tc.name   : blockSize dynamically changes trackThickness according to trackThickness and scale-up
+     * @tc.desc   : Verify button slider interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -57,6 +57,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0060
      * @tc.name   : Replace text, less text for more text
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0050
      * @tc.name   : Replace text, more text for less text
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -104,6 +106,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0030
      * @tc.name   : Delete individual characters
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -125,6 +128,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0040
      * @tc.name   : add  text
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -146,6 +150,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0020
      * @tc.name   : Delete the selected text.
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -172,6 +177,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0170
      * @tc.name   : Delete the text,set onWillDelete to true,and onWillChange to true
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -194,6 +200,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0180
      * @tc.name   : Delete the text, set onWillDelete to true, and onWillChange to false
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -216,6 +223,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0190
      * @tc.name   : Delete the text, set onWillDelete to false, and onWillChange to true
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -238,6 +246,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0110
      * @tc.name   : Insert text and set onWillInsert to false
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -259,6 +268,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0240
      * @tc.name   : Use addText to add text
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -280,6 +290,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0090
      * @tc.name   : Insert text with onWillInsert set to true and onWillChange set to true
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -301,6 +312,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0100
      * @tc.name   : Insert text with onWillInsert set to true and onWillChange set to false
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -322,6 +334,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0210
      * @tc.name   : Empty text deletion
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -344,6 +357,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0260
      * @tc.name   : modifier test
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -365,6 +379,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0140
      * @tc.name   : Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to true
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -389,6 +404,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0150
      * @tc.name   : Replace the text, set onWillInsert to true, onWillDelete to false, and onWillChange to false
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -413,6 +429,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0120
      * @tc.name   : Replace the text, set onWillInsert to true, onWillDelete to true, and onWillChange to true
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -437,6 +454,7 @@ export default function UiComponentOnWillChange() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ONWILLCHANGE_0160
      * @tc.name   : Replace the text, set onWillInsert to false, onWillDelete to true, and onWillChange to true
+     * @tc.desc   : Verify onwillchange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

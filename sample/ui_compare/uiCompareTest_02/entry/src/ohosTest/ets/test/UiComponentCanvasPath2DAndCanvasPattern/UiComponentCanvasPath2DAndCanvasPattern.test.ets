@@ -57,6 +57,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0350
      * @tc.name   : Set the value of the setTransform interface to 0.5 for rotateX
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0470
      * @tc.name   : Set the value of the setTransform interface to translateX=50 and translateY=50
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,6 +95,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0360
      * @tc.name   : Set the value of the setTransform interface to -0.5
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,6 +114,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0270
      * @tc.name   : Set the scaleX value of the setTransform interface to 1
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,6 +133,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0500
      * @tc.name   : Set the scaleY=1.5、rotateY=-1、translateY=100
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +152,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0420
      * @tc.name   : Set the translateY to 50
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,6 +171,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0370
      * @tc.name   : Set the rotateY to 0.5
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +190,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0440
      * @tc.name   : Set the translateY to 1000
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +209,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0380
      * @tc.name   : Set the rotateY to -0.5
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,6 +228,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0450
      * @tc.name   : Set the scaleX to 1.5、scaleY to 1.5
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,6 +247,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0410
      * @tc.name   : Set the translateX to 1000
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +266,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0310
      * @tc.name   : Set the scaleY TO 1
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -273,6 +285,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0460
      * @tc.name   : Set the value of the setTransform interface to rotateX=0.5 and rotateY=0.5
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,6 +304,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0260
      * @tc.name   : Set the value of the setTransform interface to the default value
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,6 +323,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0390
      * @tc.name   : Set the value of the setTransform interface to 50 for translateX
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -327,6 +342,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0510
      * @tc.name   : Set scaleY=1.5, rotateY=-1, and translateY=1000 in the value of the setTransform interface
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,6 +361,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0300
      * @tc.name   : Set scaleX=40 in the value of the setTransform interface
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -363,6 +380,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0340
      * @tc.name   : Set scaleY=40 in the value of the setTransform interface
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -381,6 +399,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0320
      * @tc.name   : Set scaleY=1.5 in the value of the setTransform interface
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,6 +418,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0490
      * @tc.name   : Set scaleX=1.5 rotateX=0.5、translateX=100 in the value of the setTransform interface
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,6 +437,7 @@ export default function UiComponentCanvasPath2DAndCanvasPattern() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_CANVAS_PATH2D_AND_CANVASPATTERN_0280
      * @tc.name   : Set scaleX=1.5 in the value of the setTransform interface
+     * @tc.desc   : Verify canvas path2d and canvaspattern interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -57,6 +57,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0090
      * @tc.name   : Set the empty text of the search component to true and add the onsubmit event
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,6 +82,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0010
      * @tc.name   : Set the empty text of the search component to true
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +107,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0050
      * @tc.name   : Set the empty text of the search component to null
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,6 +134,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0020
      * @tc.name   : Set the empty text of the search component to true and enter text
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,6 +161,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0040
      * @tc.name   : Set the empty text of the search component to false and enter text
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +188,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0060
      * @tc.name   : Set the empty text of the search component to true
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,6 +213,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0180
      * @tc.name   : Set the empty text of the search component to true
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +238,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0030
      * @tc.name   : Set the empty text of the search component to false
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +263,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0120
      * @tc.name   : Set the empty text of the search component to true and set placeholder
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,6 +288,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0080
      * @tc.name   : Set the empty text of the search component to autoDisable to true, and change the font color of the SearchButton
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,6 +311,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0070
      * @tc.name   : Set the empty text of the search component to autoDisable to true, and change the font size of the SearchButton
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -323,6 +334,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0130
      * @tc.name   : Set the empty text of the search component to autoDisable to true, and change the search type of the SearchButton
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,6 +357,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0110
      * @tc.name   : Set the empty text of the search component to autoDisable to true, and click the search icon
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -369,6 +382,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0150
      * @tc.name   : When there is text in the search component, delete or cut all text
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -395,6 +409,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0170
      * @tc.name   : enter tab key to focus
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,6 +435,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0190
      * @tc.name   : Modifier test
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -444,6 +460,7 @@ export default function UiComponentSearchAutoDisAble() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SEARCH_AUTODISABLE_0140
      * @tc.name   : Set the empty text of the search component to autoDisable to true, and enter the content on the pre-screen
+     * @tc.desc   : Verify search autodisable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

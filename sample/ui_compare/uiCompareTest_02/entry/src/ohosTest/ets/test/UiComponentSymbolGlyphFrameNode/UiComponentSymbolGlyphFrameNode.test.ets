@@ -57,6 +57,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0080
      * @tc.name   : Create symbolglyph on the FrameNode and set fontSize to 30vp.
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0010
      * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to Color.Red
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +95,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0070
      * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to null
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +114,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0020
      * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to 0x808080
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,6 +133,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0030
      * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to #ff000000
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -147,6 +152,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0130
      * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to -26
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -165,6 +171,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0140
      * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to undefined
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +190,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0150
      * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to null
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -201,6 +209,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0090
      * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to 70px
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -219,6 +228,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0100
      * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to 36
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -237,6 +247,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0160
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to FontWeight.Lighter
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -255,6 +266,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0170
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 800
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -273,6 +285,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0180
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 0
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -291,6 +304,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0190
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to -200
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -309,6 +323,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0200
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 600
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -327,6 +342,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0210
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to 1000
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -345,6 +361,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0230
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to null
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -363,6 +380,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0120
      * @tc.name   : Create symbolglyph on the FrameNode and set fontsize to 0
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -381,6 +399,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0050
      * @tc.name   : Create symbolglyph on the FrameNode and set fontColor to [Color.Orange,Color.Black]
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -399,6 +418,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0060
      * @tc.name   : Create symbolglyph on the FrameNode and set fontColor to undefined
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -417,6 +437,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0220
      * @tc.name   : Create symbolglyph on the FrameNode and set fontWeight to undefined
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -435,6 +456,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0240
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to SINGLE, and fontcolor to [Color.Red]
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -453,6 +475,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0250
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to SINGLE, and fontcolor to [Color.Orange,Color.Black]
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -471,6 +494,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0270
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Red
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -489,6 +513,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0300
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Red
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -507,6 +532,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0310
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Orange,Color.Black
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -525,6 +551,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0320
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_OPACITY, and fontcolor to Color.Yellow, Color.Green, Color.White
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -543,6 +570,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0280
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Orange,Color.Black
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -561,6 +589,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0290
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to MULTIPLE_COLOR, and fontcolor to Color.Yellow, Color.Green, Color.White
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -579,6 +608,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0260
      * @tc.name   : FrameNode creates symbolglyph, sets renderingStrategy to Single, and fontcolor to Color.Yellow, Color.Green, Color.White
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -597,6 +627,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0370
      * @tc.name   : Create a symbolglyph on the FrameNode and set the onTouch event
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -618,6 +649,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0390
      * @tc.name   : Create a symbolglyph on the FrameNode and set the onMouse event
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -638,6 +670,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0360
      * @tc.name   : Create a symbolglyph on the FrameNode and set the onClick event
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -658,6 +691,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0380
      * @tc.name   : Create symbolglyph on the FrameNode and set onAttach, onDetach, onAppear, and onDisAppear events
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -683,6 +717,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0040
      * @tc.name   : Create symbolglyph on the FrameNode and set fontcolor to rgb(255, 100, 255)
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -701,6 +736,7 @@ export default function UiComponentSymbolGlyphFrameNode() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SYMBOLGLYPH_FRAMENODE_0330
      * @tc.name   : Create symbolglyph on the FrameNode and set the effectStrategy to NONE
+     * @tc.desc   : Verify symbolglyph framenode interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

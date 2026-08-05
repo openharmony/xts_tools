@@ -57,6 +57,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0250
      * @tc.name   : The column component does not have a width and height set. The column only has a width and height set (width50height100), and column2 and column3 dynamically switch between width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -82,6 +83,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0210
      * @tc.name   : The column component does not have a width and height set. The column only has a width set LayoutPolicy.matchParent and height set 50,and column2 and column3 dynamically switch between width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -107,6 +109,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0260
      * @tc.name   : Set the width and height of the column component(width 200,height 300),set the width(LayoutPolicy.matchParent) height of 50 for column1,and dynamically switch the width and height of column2 and column3
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -132,6 +135,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0240
      * @tc.name   : Set the width and height of the column component,set the width and height(LayoutPolicy.matchParent) for column1,and dynamically switch the width and height of column2 and column3
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -157,6 +161,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0200
      * @tc.name   : Column setting width and height (width100height200) column1 setting only width and height (width50height100)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -182,6 +187,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0220
      * @tc.name   : Set the width and height (width100height200) for column1, and set the width (50) height (LayoutPolicy.matchParent) for column1
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -207,6 +213,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0180
      * @tc.name   : Set the width and height of the column component (width 200, height 300) for column1, and dynamically switch between width (LayoutPolicy. matchParent) and height (LayoutPolicy. matchParent) for column2 and column3
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -232,6 +239,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0270
      * @tc.name   : The column component is not set to width or height,column1 is set to width(50)height(LayoutPolicy. matchParent),column2 and column3 dynamically switch between width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -257,6 +265,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0190
      * @tc.name   : column sets (width200height300 column1 sets.width(LayoutPolicy.matchParent) .height(LayoutPolicy.matchParent), column2 and column3 dynamically switch width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -282,6 +291,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0310
      * @tc.name   : Column1 sets .width (LayoutPolicy.matchParent) or.height (LayoutPolicy.matchParent) row1 sets.width (50) height (LayoutPolicy.matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -300,6 +310,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0230
      * @tc.name   : The column component is not set to width or height.Column1 is set .width(LayoutPolicy.matchParent) or.height(LayoutPolicy.matchParent),and column2 and column3 dynamically switch between width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -325,6 +336,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0320
      * @tc.name   : Column has no width or height set, column1 has. width (LayoutPolicy. matchParent) or. height (LayoutPolicy. matchParent) set, row1 has no width or height set, row2, column2, row3, column3 dynamically switch between width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -343,6 +355,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0300
      * @tc.name   : Column not set width and height.Column1 is set .width(LayoutPolicy.matchParent)or.height(LayoutPolicy.matchParent),row1 is set to (Width50Height100)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -361,6 +374,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0710
      * @tc.name   : Set the width and height of column (width 200,height 300) ,set column1 .width(50).height(LayoutPolicy.matchParent),set row1 .width(50).height(LayoutPolicy.matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -379,6 +393,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0740
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 not set width and height,set row1 .width(LayoutPolicy.matchParent).height(LayoutPolicy.matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -397,6 +412,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0680
      * @tc.name   : Set the width and height of column (width 200,height 300) ,set column1 .width(50).height(LayoutPolicy.matchParent),set row1 .width(LayoutPolicy.matchParent)or.height(LayoutPolicy.matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -415,6 +431,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0760
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 not set width and height,set row1 .width(50).height(LayoutPolicy.matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -433,6 +450,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0700
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1  set width and height to 50 and LayoutPolicy.matchParent,set row1 .width(50).height(100)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -451,6 +469,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0690
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1  set width and height to 50 and LayoutPolicy.matchParent,set row1 .width(LayoutPolicy.matchParent).height(LayoutPolicy.matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -469,6 +488,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0720
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1  set width and height to 50 and LayoutPolicy.matchParent,not set row1 width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -487,6 +507,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0730
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 not set width and height,set row1 width and height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -505,6 +526,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0750
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 not set width and height,set row1 width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -523,6 +545,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0770
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 not set width and height,not set row1 width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -541,6 +564,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0530
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1  set width or height to LayoutPolicy.matchParent,row1  set width or height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -559,6 +583,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0540
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width or height to LayoutPolicy.matchParent,row1  set width and height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -577,6 +602,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0550
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width or height to LayoutPolicy.matchParent,row1  set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -595,6 +621,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0560
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width or height to LayoutPolicy.matchParent,row1  set width and height to 50 and LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -613,6 +640,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0570
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width or height to LayoutPolicy.matchParent,row1 not set width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -631,6 +659,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0600
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to LayoutPolicy.matchParent,row1 set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -649,6 +678,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0580
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to LayoutPolicy.matchParent,row1 set width or height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -667,6 +697,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0590
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to LayoutPolicy.matchParent,row1 set width and height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -685,6 +716,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0610
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to LayoutPolicy.matchParent,row1 set width and height to 50 and LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -703,6 +735,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0630
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to 50 and 100,row1 set width or height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -721,6 +754,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0640
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to 50 and 100,row1 set width and height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -739,6 +773,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0650
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to 50 and 100,row1 set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -757,6 +792,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0670
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to 50 and 100,row1 not set width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -775,6 +811,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0660
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to 50 and 100,row1 set width and height to 50 and LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -793,6 +830,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0620
      * @tc.name   : Set the width and height of column (width 200,height 300) ,column1 set width and height to LayoutPolicy.matchParent,row1 not set width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -811,6 +849,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0350
      * @tc.name   : not set the width and height of column,column1 set width and height to LayoutPolicy.matchParent,row1 set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -829,6 +868,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0380
      * @tc.name   : not set the width and height of column,column1 set width and height to 50 and 100,row1 set width or height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -847,6 +887,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0390
      * @tc.name   : not set the width and height of column,column1 set width and height to 50 and 100,row1 set width and height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -865,6 +906,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0400
      * @tc.name   : not set the width and height of column,column1 set width and height to 50 and 100,row1 set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -883,6 +925,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0410
      * @tc.name   : not set the width and height of column,column1 set width and height to 50 and 100,row1 set width and height to 50 and LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -901,6 +944,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0420
      * @tc.name   : not set the width and height of column,column1 set width and height to 50 and 100,row1 not  set width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -919,6 +963,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0450
      * @tc.name   : not set the width and height of column,column1 set width and height to 50 and LayoutPolicy.matchParent ,row1 set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -937,6 +982,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0500
      * @tc.name   : not set the width and height of column,column1 not set width and height,row1 set width and height to 50 and 100
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -955,6 +1001,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0520
      * @tc.name   : not set the width and height of column,column1 not set width and height,row1 not set width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -973,6 +1020,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0490
      * @tc.name   : not set the width and height of column,column1 not set width and height,row1  set width and height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -991,6 +1039,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0370
      * @tc.name   : not set the width and height of column,column1 set width and height to LayoutPolicy.matchParent,row1 not set width and height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1009,6 +1058,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0480
      * @tc.name   : not set the width and height of column,column1 not set width and height,row1 set width or height to LayoutPolicy.matchParent
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1027,6 +1077,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0470
      * @tc.name   : not set the width and height of column,column1  set width and height to 50 and LayoutPolicy.matchParent,row1 not set width or height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1045,6 +1096,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0510
      * @tc.name   : not set the width and height of column,row1  set width and height to 50 and LayoutPolicy.matchParent,column1 not set width or height
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1063,6 +1115,7 @@ export default function UiComponentColumnMatchParent() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COLUMN_MATCHPARENT_0170
      * @tc.name   : Set the flexSink attribute for column1, column2, and column3,Column3 sets width (LayoutPolicy. matchParent) and height (LayoutPolicy. matchParent)
+     * @tc.desc   : Verify column matchparent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

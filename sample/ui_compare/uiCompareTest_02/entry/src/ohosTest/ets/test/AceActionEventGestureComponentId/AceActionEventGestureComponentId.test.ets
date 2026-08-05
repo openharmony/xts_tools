@@ -57,6 +57,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0060
      * @tc.name   : Set the component ID to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0020
      * @tc.name   : Set the component ID to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -99,6 +101,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0030
      * @tc.name   : Set the component ID to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -120,6 +123,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0080
      * @tc.name   : Set the component ID to null, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,6 +145,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0040
      * @tc.name   : Set the component ID to a negative number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,6 +167,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0050
      * @tc.name   : Set the component ID to special characters, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,6 +189,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0070
      * @tc.name   : Set the component ID to undefined, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -204,6 +211,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0100
      * @tc.name   : Do not set the component ID, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +233,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0150
      * @tc.name   : Set the component key to special characters, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +255,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0120
      * @tc.name   : Set the component key to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +277,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0130
      * @tc.name   : Set the component key to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -288,6 +299,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0140
      * @tc.name   : Set the component key to a negative number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -309,6 +321,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0160
      * @tc.name   : Set the component key to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,6 +343,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0170
      * @tc.name   : Set the component key to undefined, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,6 +365,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0180
      * @tc.name   : Set the component key to null, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -372,6 +387,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0200
      * @tc.name   : Do not set the component key, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -393,6 +409,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0220
      * @tc.name   : Modifier-Set the component ID to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -414,6 +431,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0230
      * @tc.name   : Modifier-Set the component ID to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,6 +453,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0240
      * @tc.name   : Modifier-Set the component ID to a negative number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -456,6 +475,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0250
      * @tc.name   : Modifier-Set the component ID to special characters, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -477,6 +497,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0260
      * @tc.name   : Modifier-Set the component ID to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -498,6 +519,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0270
      * @tc.name   : Modifier-Set the component ID to undefined, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -519,6 +541,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0280
      * @tc.name   : Modifier-Set the component ID to null, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -540,6 +563,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0300
      * @tc.name   : Modifier-Do not set the component ID, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -561,6 +585,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0320
      * @tc.name   : Modifier-Set the component Key to contain newline character, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -582,6 +607,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0330
      * @tc.name   : Modifier-Set the component Key to a decimal number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -603,6 +629,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0340
      * @tc.name   : Modifier-Set the component Key to a negative number, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -624,6 +651,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0350
      * @tc.name   : Modifier-Set the component Key to special characters, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,6 +673,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0360
      * @tc.name   : Modifier-Set the component Key to an excessively long string, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -666,6 +695,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0370
      * @tc.name   : Modifier-Set the component Key to undefined, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -687,6 +717,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0380
      * @tc.name   : Modifier-Set the component Key to null, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -708,6 +739,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0400
      * @tc.name   : Modifier-Do not set the component Key, trigger the event, and retrieve the component information.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -729,6 +761,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0650
      * @tc.name   : The component's custom gesture is set to CONTINUE, and the component information is retrieved correctly.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -750,6 +783,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0660
      * @tc.name   : The component's custom gesture is set to REJECT, and the component's related information is not printed.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -771,6 +805,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0710
      * @tc.name   : modifier - parent and child components, child component responds to gestures
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -792,6 +827,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0700
      * @tc.name   : modifier - parent-child components, parent component responds to gestures
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -814,6 +850,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0670
      * @tc.name   : Parent and child components, the parent component responds to gestures
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -836,6 +873,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0680
      * @tc.name   : Parent and child components, the child component responds to gestures
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -857,6 +895,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0530
      * @tc.name   : The component responds to the LongPressGesture gesture and the component information is obtained correctly.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -878,6 +917,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0590
      * @tc.name   : Modifier-The component responds to the LongPressGesture gesture and the component information is obtained correctly.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -899,6 +939,7 @@ export default function AceActionEventGestureComponentId() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_GESTURE_COMPONENT_ID_0620
      * @tc.name   : Modifier-The component responds to the RotationGesture gesture and the component information is obtained correctly.
+     * @tc.desc   : Verify action event gesture component id interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

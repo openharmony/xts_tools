@@ -57,6 +57,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0018
      * @tc.name   : Linear Linear, Ring without scale, Eclipse circular,ScaleRing with scale,Capsule Style Progress component set the right border to 0,and private CapsuleStyleOptions.borderWidth is not set
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,6 +76,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0036
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circular,ScaleRing Scale Progress,Capsule Style Progress components set the right border width to -10,and set the private CapsuleStyleOptions.borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -93,6 +95,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0019
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,and Capsule Style Progress components are set to -10 on the right border,and Private CapsuleStyleOptions.borderWidth is not set
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -111,6 +114,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0038
      * @tc.name   : LinearLinear,Ring,Eclipse,ScaleRing,CapsuleStyleProgressComponent settingTop Border is less than component widthSetPrivate CapsuleStyleOptions.borderWidth is set to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,6 +133,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0014
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component is set to -10 The left border is not set to Private CapsuleStyleOptions.borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -147,6 +152,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0033
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component is set to -10 and borderWidth set to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -165,6 +171,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0024
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to -10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -183,6 +190,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0039
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to -10 and set borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -201,6 +209,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0023
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to 0 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -219,6 +228,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0021
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(topwidth) is set to percentage and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -237,6 +247,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0077
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to -10 and set borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -255,6 +266,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0064
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to -10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -273,6 +285,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0063
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to 0 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -291,6 +304,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0060
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -309,6 +323,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0074
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and set borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -327,6 +342,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0087
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components are set to Dotted, Dashed, and Solid respectively
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -352,6 +368,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0022
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to 10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -370,6 +387,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0013
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(leftwidth) is set to 0,not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -388,6 +406,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0088
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(top) are set to Dotted, Dashed, and Solid respectively
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -413,6 +432,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0086
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(left) are set to Dotted, Dashed, and Solid respectively
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -438,6 +458,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0089
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Circle,Capsule Capsule Style Progress components(bottom) are set to Dotted, Dashed, and Solid respectively
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -463,6 +484,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0026
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottomwidth) is set to percentage and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -481,6 +503,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0011
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(leftwidth) is set to percentage and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -499,6 +522,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0016
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(rightwidth) is set to percentage and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -517,6 +541,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0068
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(startwidth) is set to -10 and set borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -535,6 +560,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0070
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(endwidth) is set to 10 and set borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -553,6 +579,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0062
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(LocalizedEdgeWidths bottom) is set to 10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -571,6 +598,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0058
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to -10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -589,6 +617,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0059
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(top) is set to 0 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -607,6 +636,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0071
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(end) is set to -10 and set borderWidth to 3
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -625,6 +655,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0028
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottom) is set to 0 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -643,6 +674,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0029
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component(bottom) is set to -10 and not set borderWidth
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -661,6 +693,7 @@ export default function UiComponentMediaProgress() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_PROGRESS_BORDER_0104
      * @tc.name   : Linear Linear,Ring Circle,Eclipse Circle,ScaleRing Scale Progress,Capsule Style Progress component not set LocalizedEdgeColors and borderColor
+     * @tc.desc   : Verify media Progress border interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

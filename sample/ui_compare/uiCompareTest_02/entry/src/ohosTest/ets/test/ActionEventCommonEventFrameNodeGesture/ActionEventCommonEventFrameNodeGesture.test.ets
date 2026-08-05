@@ -57,6 +57,7 @@ export default function ActionEventCommonEventFrameNodeGesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_017
      * @tc.name   : Verify that LongPressGesture sets the limitFingerCount parameter to true
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -77,6 +78,7 @@ export default function ActionEventCommonEventFrameNodeGesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_026
      * @tc.name   : Verify whether the limitFingerCount parameter is set to true in PanGesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,6 +100,7 @@ export default function ActionEventCommonEventFrameNodeGesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_034
      * @tc.name   : Verify that it is normal for SwipeGesture to set the speed parameter to a normal value
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,6 +122,7 @@ export default function ActionEventCommonEventFrameNodeGesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_035
      * @tc.name   : Verify that SwipeGesture sets the speed parameter to undefined correctly
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +147,7 @@ export default function ActionEventCommonEventFrameNodeGesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_005
      * @tc.name   : Verify that the distanceThreshold parameter is set to normal in TapGesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,6 +169,7 @@ export default function ActionEventCommonEventFrameNodeGesture() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_036
      * @tc.name   : Verify that the limitFingerCount parameter is set to true in SwipeGesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

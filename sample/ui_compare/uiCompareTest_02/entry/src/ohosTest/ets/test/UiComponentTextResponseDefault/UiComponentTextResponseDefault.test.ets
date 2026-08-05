@@ -57,6 +57,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0060
      * @tc.name   : Text component, set a custom menu, TextSpanType.DEFAULT, bind the TextResponseType.DEFAULT menu
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -86,6 +87,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0010
      * @tc.name   : Text component, set a custom menu, TextSpanType.TEXT, bind the TextResponseType.DEFAULT menu
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -115,6 +117,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0020
      * @tc.name   : Text component, set custom menus, TextSpanType.TEXT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -144,6 +147,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0050
      * @tc.name   : Text component, set the custom menu, TextSpanType.MIXED, bind the TextResponseType.DEFAULT menu
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -163,6 +167,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0030
      * @tc.name   : Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -193,6 +198,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0040
      * @tc.name   : Text component, set custom menus, TextSpanType.IMAGE,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -223,6 +229,7 @@ export default function UiComponentTextResponseDefault() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXTRESPONSE_DEFAULT_0070
      * @tc.name   : Text component, set a custom menu, TextSpanType.DEFAULT,bind TextResponseType.DEFAULT, RIGHT_CLICK, LONG_PRESS, and SELECT menus
+     * @tc.desc   : Verify textresponse default interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

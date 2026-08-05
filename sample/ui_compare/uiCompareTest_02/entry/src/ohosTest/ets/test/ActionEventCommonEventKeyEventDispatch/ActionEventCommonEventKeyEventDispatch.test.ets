@@ -57,6 +57,7 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0020
      * @tc.name   : With the return value onKeyEvent, the property is tested for keycode
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -78,6 +79,7 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0030
      * @tc.name   : With the return value onKeyEvent, the property is tested for keytext
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -99,6 +101,7 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0160
      * @tc.name   : With the return value onKeyEventDispatch, the property is tested for keycode
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -120,6 +123,7 @@ export default function ActionEventCommonEventKeyEventDispatch() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0170
      * @tc.name   : With the return value onKeyEventDispatch, the property is tested for keytext
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -60,6 +60,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0014
      * @tc.name   : Select the Chinese version, click outside the component, and check the custom menu callback
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,6 +85,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0011
      * @tc.name   : Change the component position and check the custom menu callback
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -108,6 +110,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0003
      * @tc.name   : Bind any one or more menu types and response types of custom menus, gesture and long press/mouse right click/mouse to select any content to verify the menu effect
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -130,6 +133,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0010
      * @tc.name   : Change the component width/height, check the custom menu callback
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -154,6 +158,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0015
      * @tc.name   : Select the Chinese version and call closeSelectionMenu/stopEditing/setCaretOffset/setSelection to check the custom menu callback
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -178,6 +183,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0013
      * @tc.name   : Select the Chinese version and click on other areas in the component to check the custom menu callback
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -201,6 +207,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0012
      * @tc.name   : Select the Chinese book, back button to close the handle and menu, check the custom menu callback
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -223,6 +230,7 @@ export default function UiComponentRichEditorMenuReinforcing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_MENU_REINFORCING_0018
      * @tc.name   : Mirror mode, check the customization menu
+     * @tc.desc   : Verify text richeditor menu reinforcing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

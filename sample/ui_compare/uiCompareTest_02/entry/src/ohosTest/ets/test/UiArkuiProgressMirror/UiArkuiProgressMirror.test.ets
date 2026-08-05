@@ -59,6 +59,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0030
      * @tc.name   : Ring-type Progress component LOADING state
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -83,6 +84,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0020
      * @tc.name   : Progress component foreground color set gradient
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -107,6 +109,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0060
      * @tc.name   : Progress component text display effect
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -131,6 +134,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0010
      * @tc.name   : Progress component Value change
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -169,6 +173,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0070
      * @tc.name   : Progress component custom form mirroring capability
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -207,6 +212,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0050
      * @tc.name   : Progress component scan effect mirroring capability
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -231,6 +237,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0040
      * @tc.name   : Progress component smooth effect mirroring capability
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -269,6 +276,7 @@ export default function UiArkuiProgressMirror() {
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_PROGRESS_MIRROR_0090
      * @tc.name   : Progress component shadow effect
+     * @tc.desc   : Verify ArkUI Progress mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

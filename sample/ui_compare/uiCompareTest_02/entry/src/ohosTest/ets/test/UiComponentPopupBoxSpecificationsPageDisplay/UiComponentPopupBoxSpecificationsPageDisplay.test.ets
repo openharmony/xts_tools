@@ -57,6 +57,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0710
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to abnormal values, and levelUniqueId is set to a normal value, the dialog node that pops up is at the top layer 01 of the current page.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -87,6 +88,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0690
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to EXTEND, and levelUniqueId is set to a normal value, the dialog node that pops up is at the top layer 03 of the current page.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,6 +119,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0810
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -146,6 +149,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0780
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 04.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -175,6 +179,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0820
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to OVERLAY and ImmersiveMode to abnormal values, the dialog node that pops up is at the global window top layer 05.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -204,6 +209,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0680
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to EXTEND, and levelUniqueId is set to a normal value, the dialog node that pops up is at the top layer 02 of the current page.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -232,6 +238,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0750
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to abnormal values, and levelUniqueId is set to a normal value, the dialog node that pops up is at the current page top layer 07.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -260,6 +267,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0800
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 08.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -288,6 +296,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0770
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 09.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -316,6 +325,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0870
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to abnormal values and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 10.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -344,6 +354,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0890
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to abnormal values and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 11.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -372,6 +383,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0910
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to abnormal values and ImmersiveMode to abnormal values, the dialog node that pops up is at the global window top layer 12.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -400,6 +412,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1510
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to abnormal values and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 13.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -426,6 +439,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1550
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to abnormal values and ImmersiveMode to abnormal values, the dialog node that pops up is at the global window top layer 14.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -452,6 +466,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1530
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to abnormal values and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 15.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -478,6 +493,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1340
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the global window top layer 16.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -505,6 +521,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1390
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the global window top layer 17.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -532,6 +549,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1430
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to abnormal values, and levelUniqueId to a normal value, the dialog node that pops up is at the global window top layer 18.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -559,6 +577,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0280
      * @tc.name   : Verify that when AlertDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 19.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -578,6 +597,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0310
      * @tc.name   : Verify that when AlertDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to an abnormal value, the dialog node that pops up is at the global window top layer 20.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -597,6 +617,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0290
      * @tc.name   : Verify that when AlertDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 21.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -624,6 +645,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0340
      * @tc.name   : Verify that when AlertDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 22.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -651,6 +673,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0380
      * @tc.name   : Verify that when AlertDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal values, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 23.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -678,6 +701,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2600
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 24.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -705,6 +729,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2660
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 25.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -731,6 +756,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2640
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to an abnormal value, the dialog node that pops up is at the global window top layer 26.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -758,6 +784,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2670
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 27.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -785,6 +812,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2680
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to an abnormal value, the dialog node that pops up is at the global window top layer 28.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -812,6 +840,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2690
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 29.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -839,6 +868,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2730
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 30.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -865,6 +895,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1860
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 31.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -892,6 +923,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1850
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 32.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -918,6 +950,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1920
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 33.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -944,6 +977,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1930
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 34.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -971,6 +1005,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1950
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 35.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -998,6 +1033,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1990
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 36.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1024,6 +1060,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2220
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 37.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1050,6 +1087,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2230
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 38.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1077,6 +1115,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2300
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 39.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1103,6 +1142,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2280
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the global window top layer 40.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1129,6 +1169,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2320
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 41.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1155,6 +1196,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2360
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 42.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1181,6 +1223,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2470
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to an abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 43.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1210,6 +1253,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2420
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to OverLay and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 44.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1239,6 +1283,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2430
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to OverLay and ImmersiveMode to an abnormal value, the dialog node that pops up is at the global window top layer 45.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1268,6 +1313,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2540
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to an abnormal value and ImmersiveMode to an abnormal value, the dialog node that pops up is at the global window top layer 46.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1297,6 +1343,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2520
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to an abnormal value and ImmersiveMode to EXTEND, (router)the dialog node that pops up is at the global window top layer 47.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1326,6 +1373,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2390
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to OverLay and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 48.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1355,6 +1403,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1080
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 49.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1386,6 +1435,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1050
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 50.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1416,6 +1466,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1060
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 51.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1446,6 +1497,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1120
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 52.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1476,6 +1528,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0980
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 53.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1506,6 +1559,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0990
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 54.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1537,6 +1591,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0040
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 55.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1565,6 +1620,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0090
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 56.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1593,6 +1649,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0130
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to an abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 57.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1621,6 +1678,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0600
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 58.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1651,6 +1709,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0610
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the current page top layer 59.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1682,6 +1741,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1590
      * @tc.name   : Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to a normal value, the dialog node that pops up is at the page top layer 60.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1709,6 +1769,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1640
      * @tc.name   : Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND, and levelUniqueId to a normal value, the dialog node that pops up is at the page top layer 61.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1736,6 +1797,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1680
      * @tc.name   : Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value, and levelUniqueId to a normal value, the dialog node that pops up is at the page top layer 62.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1763,6 +1825,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0840
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to OverLay and ImmersiveMode to an abnormal value, the popped-up dialog node is at the global window top level 63
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1790,6 +1853,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0860
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to an abnormal value and ImmersiveMode to DEFAULT, the popped-up dialog node is at the top layer of the global window.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1818,6 +1882,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0660
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to EXTEND, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1847,6 +1912,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0740
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to abnormal value, and levelUniqueId is set to a normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1868,6 +1934,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0620
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to DEFAULT, and levelUniqueId is set to a normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1889,6 +1956,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0700
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to abnormal value, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1918,6 +1986,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0900
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1947,6 +2016,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0590
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED and ImmersiveMode to DEFAULT, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -1976,6 +2046,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1070
      * @tc.name   : Verify that when prompt_openCustomDialog is set with LevelMode as EMBEDDED or ImmersiveMode with abnormal values, and levelUniqueId is set to an abnormal value, the popped-up dialog node appears as the global window top-level
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2005,6 +2076,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1030
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED and ImmersiveMode to EXTEND, and levelUniqueId is set to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2034,6 +2106,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1180
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2063,6 +2136,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1190
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2092,6 +2166,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1240
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2121,6 +2196,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1270
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2150,6 +2226,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1280
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2179,6 +2256,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1150
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2208,6 +2286,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0960
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2237,6 +2316,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1110
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2258,6 +2338,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0970
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2279,6 +2360,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2150
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to abnormal value and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2308,6 +2390,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2060
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to OVERLAY and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2337,6 +2420,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2050
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2366,6 +2450,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2020
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2395,6 +2480,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2140
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2424,6 +2510,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2200
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2453,6 +2540,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2270
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2482,6 +2570,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2310
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2511,6 +2600,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2480
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2540,6 +2630,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2210
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2561,6 +2652,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2350
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2582,6 +2674,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2110
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2611,6 +2704,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1830
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2640,6 +2734,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1900
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to EXTEND and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2669,6 +2764,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1940
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2698,6 +2794,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1840
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2719,6 +2816,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1980
      * @tc.name   : Verify that when uiContext_openCustomDialogWithController sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2740,6 +2838,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2760
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2769,6 +2868,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2790
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2798,6 +2898,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2800
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to OVERLAY and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2827,6 +2928,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2850
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to abnormal value and ImmersiveMode to DEFAULT, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2856,6 +2958,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2880
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to abnormal value and ImmersiveMode to EXTEND, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2885,6 +2988,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2890
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to abnormal value and ImmersiveMode to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2914,6 +3018,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2570
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to abnormal value, the dialog node that pops up is at the global window top layer 03.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2943,6 +3048,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2580
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2965,6 +3071,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2720
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to abnormal value, and levelUniqueId to normal value, the dialog node that pops up is at the current page top layer 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -2987,6 +3094,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1330
      * @tc.name   : Verify that when ShowActionSheet is set with LevelMode as EMBEDDED, ImmersiveMode as DEFAULT, and levelUniqueId is set to a normal value, the popped-up dialog node is at the top level of the global window 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3009,6 +3117,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1420
      * @tc.name   : Verify that when ShowActionSheet is set with LevelMode as EMBEDDED, ImmersiveMode is set to an abnormal value, and levelUniqueId is set to a normal value, the dialog that pops up appears as the top-level window of the global node 01.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3031,6 +3140,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0370
      * @tc.name   : Verify that when AlertDialog is set with LevelMode as EMBEDDED, ImmersiveMode set to an abnormal value, and levelUniqueId set to a normal value, the popped-up dialog node is the top layer 01 of the current page.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3053,6 +3163,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_0630
      * @tc.name   : Verify that when CustomDialogController sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3078,6 +3189,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1600
      * @tc.name   : Verify that when showDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3105,6 +3217,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2610
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3130,6 +3243,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1870
      * @tc.name   : Verify that when uiContext_presentCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3155,6 +3269,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_2240
      * @tc.name   : Verify that when uiContext_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3180,6 +3295,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1350
      * @tc.name   : Verify that when ShowActionSheet sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -3207,6 +3323,7 @@ export default function UiComponentPopupBoxSpecificationsPageDisplay() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_SPECIFICATIONS_PAGEDISPLAY_1000
      * @tc.name   : Verify that when prompt_openCustomDialog sets LevelMode to EMBEDDED, ImmersiveMode to DEFAULT, levelUniqueId to a normal value, showInSubWindow to true, and isModal to false, the dialog node that pops up is at the global window top layer.
+     * @tc.desc   : Verify popupbox specifications pagedisplay interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
