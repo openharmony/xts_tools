@@ -41,7 +41,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0010
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,7 +66,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0020
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -91,7 +93,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0030
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,7 +118,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0040
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +145,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0050
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +170,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0060
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,7 +201,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0070
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +226,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0080
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -243,7 +251,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0090
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,7 +276,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0100
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +307,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0110
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,7 +332,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0130
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,7 +362,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0140
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,7 +392,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0150
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -408,7 +422,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0160
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -437,7 +452,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0170
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -466,7 +482,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0180
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -495,7 +512,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0190
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -525,7 +543,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0200
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -549,7 +568,8 @@ export default function ToggleTypeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TOGGLE_TYPE_0220
+     * @tc.name   : Button toggle type
+     * @tc.desc   : Verify button toggle type interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

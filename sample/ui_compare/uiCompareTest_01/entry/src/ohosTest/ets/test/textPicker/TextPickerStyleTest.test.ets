@@ -42,6 +42,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_012
      * @tc.name   : TextPicker二级文本颜色设置为黄色
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,6 +61,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_018
      * @tc.name   : TextPicker二级文本大小设置为20
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +80,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_020
      * @tc.name   : TextPicker三级文本样式设置
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,6 +99,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_024
      * @tc.name   : TextPicker联动自定义参数设置
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -114,6 +118,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_026
      * @tc.name   : TextPicker三级文本颜色设置为黄色
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,6 +137,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_033
      * @tc.name   : TextPicker选中项padding和获焦样式
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -150,6 +156,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_034
      * @tc.name   : TextPicker分割线样式配置
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -168,6 +175,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_035
      * @tc.name   : TextPicker选中项高度设置为75vp
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,6 +194,7 @@ export default function TextPickerStyleTest() {
     /*
      * @tc.number : SUB_TV_UX_TextPicker_036
      * @tc.name   : TextPicker组件边距设置为20vp
+     * @tc.desc   : Verify sub tv ux TextPicker interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

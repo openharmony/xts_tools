@@ -43,6 +43,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0010
      * @tc.name   : Test when waterflow component's fadingEdge property is true
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,6 +65,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0020
      * @tc.name   : Test when waterflow component's fadingEdge property is false
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,6 +87,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_FADINGEDGE_0050
      * @tc.name   : Set waterflow component fade distance to 32vp
+     * @tc.desc   : Verify listandgrid waterflow fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -106,6 +109,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672
      * @tc.name   : Set Waterflow property: scrollBarWidth with number type
+     * @tc.desc   : Verify function jichu waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,6 +131,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637
      * @tc.name   : Set Waterflow property: scrollBarWidth without value (default 4)
+     * @tc.desc   : Verify function jichu waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,6 +153,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672_462_424_902
      * @tc.name   : Set Waterflow property: scrollBarColor with Color type
+     * @tc.desc   : Verify function jichu waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,6 +178,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_FUNCTION_JICHU_WATERFLOW_0360_637_672_952
      * @tc.name   : Set Waterflow property: scrollBarColor with number type
+     * @tc.desc   : Verify function jichu waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,6 +203,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0410
      * @tc.name   : In SLIDING_WINDOW mode, test onWillScroll event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,6 +225,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0360
      * @tc.name   : In SLIDING_WINDOW mode, test onReachEnd event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,6 +247,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0420
      * @tc.name   : In SLIDING_WINDOW mode, test onDidScroll event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +269,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0350
      * @tc.name   : In SLIDING_WINDOW mode, test onReachStart event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -280,6 +291,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0380
      * @tc.name   : In SLIDING_WINDOW mode, test onScrollIndex event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,6 +313,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0390
      * @tc.name   : In SLIDING_WINDOW mode, test onScrollStart event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -322,6 +335,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0370
      * @tc.name   : In SLIDING_WINDOW mode, test onScrollFrameBegin event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,6 +357,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0400
      * @tc.name   : In SLIDING_WINDOW mode, test onScrollStop event
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -364,6 +379,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0010
      * @tc.name   : Repeat adaptation for waterflow, basic sliding test
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +401,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0240
      * @tc.name   : Test setting footerContent with Modifier method
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -406,6 +423,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0130
      * @tc.name   : Test setting footerContent with Modifier method
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -427,6 +445,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0120
      * @tc.name   : Set Text component within footerContent
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -448,6 +467,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0110
      * @tc.name   : Set Row component within footerContent
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,6 +489,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0220
      * @tc.name   : Event test after setting footerContent
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -490,6 +511,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_FOOTER_0230
      * @tc.name   : Window movement test after setting footerContent
+     * @tc.desc   : Verify waterflow footer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -511,6 +533,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0300
      * @tc.name   : Grouped waterfall flow, scroll gesture test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -535,6 +558,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0200
      * @tc.name   : Grouped waterfall flow, scrollBy(-150) test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -563,6 +587,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0320
      * @tc.name   : Grouped waterfall flow, onReachEnd test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -586,6 +611,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0340
      * @tc.name   : Grouped waterfall flow, onScrollIndex test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -609,6 +635,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0350
      * @tc.name   : Grouped waterfall flow, onScrollStart test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -632,6 +659,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0360
      * @tc.name   : Grouped waterfall flow, onWillScroll test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -655,6 +683,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0190
      * @tc.name   : Grouped waterfall flow, scrollBy(150) test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -678,6 +707,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0370
      * @tc.name   : Grouped waterfall flow, onDidScroll test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -701,6 +731,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0330
      * @tc.name   : Grouped waterfall flow, onScrollFrameBegin test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -724,6 +755,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0060
      * @tc.name   : Grouped waterfall flow, delete test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -747,6 +779,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0090
      * @tc.name   : Grouped waterfall flow, add group test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -767,6 +800,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0070
      * @tc.name   : Grouped waterfall flow, values test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -790,6 +824,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0040
      * @tc.name   : Grouped waterfall flow, update test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -813,6 +848,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0150
      * @tc.name   : Grouped waterfall flow, scrollPage upward test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -837,6 +873,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0050
      * @tc.name   : Grouped waterfall flow, splice test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -858,6 +895,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0030
      * @tc.name   : Grouped waterfall flow, scrollToIndex test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -879,6 +917,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0140
      * @tc.name   : Grouped waterfall flow, scrollPage downward test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -900,6 +939,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0170
      * @tc.name   : Grouped waterfall flow, Flowitem width change test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -921,6 +961,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0180
      * @tc.name   : Grouped waterfall flow, isAtEnd test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -944,6 +985,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0220
      * @tc.name   : Grouped waterfall flow, scrollEdge.Bottom test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -965,6 +1007,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0240
      * @tc.name   : Grouped waterfall flow, scrollEdge.End test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -986,6 +1029,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0210
      * @tc.name   : Grouped waterfall flow, scrollEdge.Top test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1007,6 +1051,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0230
      * @tc.name   : Grouped waterfall flow, scrollEdge.Start test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1028,6 +1073,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SECTIONS_0310
      * @tc.name   : Grouped waterfall flow, onReachStart test in window mode
+     * @tc.desc   : Verify waterflow sections interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1048,6 +1094,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0200
      * @tc.name   : Switch to SLIDING_WINDOW layout, scrollEdge test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1072,6 +1119,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0170
      * @tc.name   : Dynamic layout change between multiple layout modes
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1096,6 +1144,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0260
      * @tc.name   : Switch to SLIDING_WINDOW layout, set footer test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1117,6 +1166,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0250
      * @tc.name   : Switch to SLIDING_WINDOW layout, dynamic edgeEffect switching test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1146,6 +1196,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0230
      * @tc.name   : Switch to SLIDING_WINDOW layout, getItemRect test for child component size/position
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1169,6 +1220,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0240
      * @tc.name   : Switch to SLIDING_WINDOW layout, set enableScrollInteraction to false test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1198,6 +1250,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0210
      * @tc.name   : Switch to SLIDING_WINDOW layout, scrollToIndex test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1221,6 +1274,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0220
      * @tc.name   : Switch to SLIDING_WINDOW layout, scrollBy test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1245,6 +1299,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0280
      * @tc.name   : Switch to SLIDING_WINDOW layout, set nestedScroll test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1268,6 +1323,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0270
      * @tc.name   : Switch to SLIDING_WINDOW layout, set rowsGap test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1297,6 +1353,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0290
      * @tc.name   : Switch to SLIDING_WINDOW layout, set columnsGap test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1326,6 +1383,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0300
      * @tc.name   : Switch to SLIDING_WINDOW layout, set itemConstraintSize test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1347,6 +1405,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0340
      * @tc.name   : Switch to SLIDING_WINDOW mode, orientation change sliding test
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1387,6 +1446,7 @@ export default function WaterFlowFadingEdgeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_WATERFLOW_SLIDING_0440
      * @tc.name   : cachedCount test in window layout mode
+     * @tc.desc   : Verify waterflow sliding interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

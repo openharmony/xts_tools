@@ -41,7 +41,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0720
      * @tc.name   : Menu placement BottomRight with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -75,7 +76,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0500
      * @tc.name   : Menu placement Right without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -109,7 +111,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0750
      * @tc.name   : Menu placement RightTop with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -143,7 +146,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0600
      * @tc.name   : Menu placement TopLeft with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -177,7 +181,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0550
      * @tc.name   : Menu placement Bottom with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -211,7 +216,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0480
      * @tc.name   : Menu placement Right with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -245,7 +251,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0470
      * @tc.name   : Menu placement Right with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -279,7 +286,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0760
      * @tc.name   : Menu placement RightTop with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -308,7 +316,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1770
      * @tc.name   : Menu with submenu placement BottomLeft
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -342,7 +351,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0610
      * @tc.name   : Menu placement TopLeft with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -376,7 +386,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0810
      * @tc.name   : Menu placement RightBottom with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -410,7 +421,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0670
      * @tc.name   : Menu placement BottomLeft with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -444,7 +456,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0690
      * @tc.name   : Menu placement BottomLeft with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -478,7 +491,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0580
      * @tc.name   : Menu placement Bottom without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -512,7 +526,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0780
      * @tc.name   : Menu placement RightTop without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -546,7 +561,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0850
      * @tc.name   : Menu placement Bottom without placement setting
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -580,7 +596,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0820
      * @tc.name   : Menu placement RightBottom without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -614,7 +631,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1750
      * @tc.name   : Menu with submenu placement BottomLeft (LongPress)
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -648,7 +666,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1780
      * @tc.name   : Menu with submenu placement BottomLeft (RightClick)
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -682,7 +701,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0620
      * @tc.name   : Menu placement TopLeft without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -716,7 +736,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0660
      * @tc.name   : Menu placement TopRight without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -750,7 +771,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0520
      * @tc.name   : Menu placement Top with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -784,7 +806,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0680
      * @tc.name   : Menu placement BottomLeft with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -818,7 +841,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0640
      * @tc.name   : Menu placement TopRight with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -852,7 +876,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0770
      * @tc.name   : Menu placement RightTop with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -886,7 +911,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0650
      * @tc.name   : Menu placement TopRight with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -920,7 +946,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0740
      * @tc.name   : Menu placement BottomRight without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -954,7 +981,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0710
      * @tc.name   : Menu placement BottomRight with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -988,7 +1016,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1790
      * @tc.name   : Menu with submenu placement BottomLeft (RightClick)
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1022,7 +1051,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1740
      * @tc.name   : Menu with submenu placement BottomLeft (LongPress)
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1056,7 +1086,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0730
      * @tc.name   : Menu placement BottomRight with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1090,7 +1121,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0700
      * @tc.name   : Menu placement BottomLeft without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1124,7 +1156,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0830
      * @tc.name   : Menu placement RightBottom with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1158,7 +1191,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0570
      * @tc.name   : Menu placement Bottom with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1192,7 +1226,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0590
      * @tc.name   : Menu placement TopLeft with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1226,7 +1261,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0530
      * @tc.name   : Menu placement Top with width 64vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1260,7 +1296,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0540
      * @tc.name   : Menu placement Top without width
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1294,7 +1331,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0840
      * @tc.name   : Menu placement RightBottom with width 48vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1328,7 +1366,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0790
      * @tc.name   : Menu placement RightBottom with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1362,7 +1401,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_1760
      * @tc.name   : Menu with submenu placement BottomLeft (LongPress)
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1396,7 +1436,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0860
      * @tc.name   : Menu placement BottomRight with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1430,7 +1471,8 @@ export default function MenuPlacementTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_WIDTHANDPLACEMENTCONFORMUX_0560
      * @tc.name   : Menu placement Bottom with width 100vp
-     * @tc.type   : FUNC
+     * @tc.desc   : Verify popupbox menu widthandplacementconformux interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

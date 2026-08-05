@@ -42,7 +42,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0010
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,7 +76,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0020
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,7 +117,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0030
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,7 +141,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0040
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,7 +168,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0050
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,7 +191,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0060
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -208,7 +214,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0070
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -230,7 +237,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0080
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -252,7 +260,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0090
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -274,7 +283,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0100
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -296,7 +306,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0110
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -322,7 +333,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0120
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -360,7 +372,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0150
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -383,7 +396,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0160
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -409,7 +423,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0170
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,7 +450,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0180
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -457,7 +473,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0190
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -479,7 +496,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0200
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -501,7 +519,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0210
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -523,7 +542,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0220
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -545,7 +565,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0230
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -567,7 +588,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0240
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -589,7 +611,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0250
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -611,7 +634,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0260
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -633,7 +657,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0270
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -655,7 +680,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0280
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -677,7 +703,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0290
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -699,7 +726,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0300
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -721,7 +749,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0310
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -743,7 +772,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0320
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -765,7 +795,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0330
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -787,7 +818,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0340
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -809,7 +841,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0350
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -831,7 +864,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0360
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -857,7 +891,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0370
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -883,7 +918,8 @@ export default function SliderAgingTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_SLIDER_SUITABLEFORAGING_0380
+     * @tc.name   : Button slider suitableforaging
+     * @tc.desc   : Verify button slider suitableforaging interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

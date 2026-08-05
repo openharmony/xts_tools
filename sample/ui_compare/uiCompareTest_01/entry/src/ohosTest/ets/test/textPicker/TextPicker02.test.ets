@@ -43,6 +43,7 @@ export default function TextPicker02Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0012
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function TextPicker02Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0013
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function TextPicker02Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0015
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function TextPicker02Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0019
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function TextPicker02Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0020
      * @tc.name   : * @tc.type   : Function
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,7 +140,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0021
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -156,7 +162,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0023
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -178,7 +185,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0024
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,7 +208,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0025
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,7 +231,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0026
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,7 +254,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0028
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -262,7 +273,8 @@ export default function TextPicker02Test () {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_DISABLETSA_0029
+     * @tc.name   : Media TextPicker disabletsa
+     * @tc.desc   : Verify media TextPicker disabletsa interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

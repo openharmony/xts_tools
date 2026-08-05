@@ -43,6 +43,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0017
      * @tc.name   : When range is single-column data (string[] type), set columnWidths to abnormal value undefined to
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0018
      * @tc.name   : When range is single-column data (string[] type), set columnWidths to abnormal value null to
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +81,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0019
      * @tc.name   : When range is single-column data (string[] type), set columnWidths to abnormal value
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -97,6 +100,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0020
      * @tc.name   : When range is single-column data (string[] type), set columnWidths to abnormal value
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +119,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0026
      * @tc.name   : When range is single-column Resource type data, observe display effect without setting columnWidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,6 +138,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0027
      * @tc.name   : When range is single-column Resource type data, set columnWidths to normal value
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +157,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0028
      * @tc.name   : When range is single-column Resource type data, set columnWidths value larger than TextPicker
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +176,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0029
      * @tc.name   : When range is single-column Resource type data, set columnWidths length > 1
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +195,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0030
      * @tc.name   : When range is single-column Resource type data, set columnWidths length < 1 (empty array)
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,6 +214,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0031
      * @tc.name   : When range is single-column TextPickerRangeContent[] type data, set columnWidths to normal value
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,6 +233,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0035
      * @tc.name   : When range has n (n>1) columns (string[][] type), observe display effect without setting
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,6 +252,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0042
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length=n with all columns as
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -259,6 +271,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0043
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length=n with all columns as
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,6 +290,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0044
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length=n with all columns as
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -295,6 +309,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0045
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length=n with all columns as
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -313,6 +328,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0046
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length=n with all columns as
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -331,6 +347,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0047
      * @tc.name   : When range has multiple columns (string[][] type), set total columnWidths larger than TextPicker
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,6 +366,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0048
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length > n to observe column
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +385,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0049
      * @tc.name   : When range has n (n>1) columns (string[][] type), set columnWidths length < n to observe column
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -385,6 +404,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0050
      * @tc.name   : When range has n (n>1) columns (string[][] type), dynamically modify columnWidths values
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -415,6 +435,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0051
      * @tc.name   : When range has n (n>1) columns (TextCascadePickerRangeContent[] type), observe display effect
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -433,6 +454,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0059
      * @tc.name   : When range has n (n>1) columns (TextCascadePickerRangeContent[] type), set columnWidths length=n
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -451,6 +473,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0060
      * @tc.name   : When range has n (n>1) columns (TextCascadePickerRangeContent[] type), set columnWidths length=n
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,6 +492,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0061
      * @tc.name   : When range has n (n>1) columns (TextCascadePickerRangeContent[] type), set columnWidths length=n
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -487,6 +511,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0062
      * @tc.name   : When range has n (n>1) columns (TextCascadePickerRangeContent[] type), set columnWidths length=n
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -505,6 +530,7 @@ export default function TextPicker01Test () {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_TEXTPICKER_COLUMNWIDTHS_0063
      * @tc.name   : When range has multiple columns (TextCascadePickerRangeContent[] type), set total columnWidths
+     * @tc.desc   : Verify media TextPicker columnwidths interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

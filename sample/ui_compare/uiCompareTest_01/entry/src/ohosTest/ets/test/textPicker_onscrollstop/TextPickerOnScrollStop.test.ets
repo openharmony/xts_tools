@@ -55,6 +55,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1110
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,6 +83,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1150
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,6 +111,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1130
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,6 +139,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1030
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,6 +167,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1080
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,6 +195,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0190
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,6 +223,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1260
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -244,6 +251,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0010
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,6 +279,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1220
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode mouse click
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -296,6 +305,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1310
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode mouse click
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,6 +331,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1140
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode mouse click
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -346,6 +357,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0990
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode mouse click
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -371,6 +383,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0170
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode swipe up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -401,6 +414,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0330
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode swipe up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -431,6 +445,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1250
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode swipe down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -461,6 +476,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1000
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode swipe down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -491,6 +507,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1390
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode swipe up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -521,6 +538,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1270
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode swipe up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -551,6 +569,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1290
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode swipe down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -581,6 +600,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1450
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode swipe down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -611,6 +631,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1420
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode fling up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -639,6 +660,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1280
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode fling up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -667,6 +689,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1410
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode fling down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -695,6 +718,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1430
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode fling down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -723,6 +747,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0500
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode fling up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -751,6 +776,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0050
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode fling up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -779,6 +805,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0100
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode fling down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -807,6 +834,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0020
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode fling down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -835,6 +863,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0150
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode drag up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -865,6 +894,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0240
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode drag up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -895,6 +925,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0420
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode drag down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -925,6 +956,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0030
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode drag down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -955,6 +987,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0380
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode drag up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -985,6 +1018,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0130
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode drag up
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1015,6 +1049,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0290
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode drag down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1045,6 +1080,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0160
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode drag down
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1075,6 +1111,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0430
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode scroll rebound
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1105,6 +1142,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0140
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode scroll rebound
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1135,6 +1173,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0280
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode scroll rebound
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1165,6 +1204,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0410
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode scroll rebound
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1195,6 +1235,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0300
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode follow-hand swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1225,6 +1266,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0270
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode follow-hand swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1255,6 +1297,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0510
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode follow-hand swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1285,6 +1328,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0310
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode follow-hand swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1315,6 +1359,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0440
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1345,6 +1390,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0870
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1375,6 +1421,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0470
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1405,6 +1452,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0680
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1435,6 +1483,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0450
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard left
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1462,6 +1511,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0590
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard left
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1489,6 +1539,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0730
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard right
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1516,6 +1567,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0650
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard right
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1543,6 +1595,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0630
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard left
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1570,6 +1623,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0900
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard left
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1597,6 +1651,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0620
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard right
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1624,6 +1679,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0520
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard right
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1651,6 +1707,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0640
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1681,6 +1738,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0770
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1711,6 +1769,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0540
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1741,6 +1800,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0820
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode double finger swipe
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1771,6 +1831,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0660
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard enter
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1798,6 +1859,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0760
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard enter
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1825,6 +1887,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0930
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard enter
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1852,6 +1915,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0780
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard enter
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1879,6 +1943,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0960
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard tab
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1906,6 +1971,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0910
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard tab
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1933,6 +1999,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0920
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard tab
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1960,6 +2027,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0940
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard tab
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1987,6 +2055,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0800
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard escape
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2014,6 +2083,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1170
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard escape
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2041,6 +2111,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1010
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard escape
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2068,6 +2139,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_0790
      * @tc.name   : TextPicker onScrollStop event test - multi column loop mode keyboard escape
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2095,6 +2167,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1360
      * @tc.name   : TextPicker onScrollStop event test - single column non-loop mode keyboard space
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2122,6 +2195,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1400
      * @tc.name   : TextPicker onScrollStop event test - single column loop mode keyboard space
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2149,6 +2223,7 @@ export default function TextPickerOnScrollStopTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ONSCROLLSTOP_1120
      * @tc.name   : TextPicker onScrollStop event test - multi column non-loop mode keyboard space
+     * @tc.desc   : Verify button TextPicker onscrollstop interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

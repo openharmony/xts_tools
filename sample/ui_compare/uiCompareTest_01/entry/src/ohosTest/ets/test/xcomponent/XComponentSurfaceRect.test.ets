@@ -42,7 +42,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0170
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +90,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0180
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,7 +138,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0190
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -177,7 +180,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0200
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,7 +222,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0210
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -247,7 +252,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0220
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -276,7 +282,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0240
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +326,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0250
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -362,7 +370,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0260
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -405,7 +414,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0270
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -443,7 +453,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0280
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -481,7 +492,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0290
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -509,7 +521,8 @@ export default function XComponentSurfaceRectTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_XCOMPONENT_AI_0300
+     * @tc.name   : Xcomponent ai
+     * @tc.desc   : Verify xcomponent ai interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -42,6 +42,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0010
      * @tc.name   : select menuBackgroundBlurStyle设置为BlurStyle.NONE
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,6 +68,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0020
      * @tc.name   : select menuBackgroundBlurStyle设置为BlurStyle.BACKGROUND_REGULAR
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +94,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0030
      * @tc.name   : select menuBackgroundBlurStyle设置为BlurStyle.COMPONENT_THIN
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +120,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0040
      * @tc.name   : select menuBackgroundBlurStyle设置为undefined
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,6 +146,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0050
      * @tc.name   : select menuBackgroundBlurStyle设置为null
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,6 +172,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0060
      * @tc.name   : select menuBackgroundBlurStyle设置为-9.9
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -192,6 +198,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0070
      * @tc.name   : select menuBackgroundBlurStyle设置为9999
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,6 +224,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0080
      * @tc.name   : select menuBackgroundBlurStyle异常值改为正常值
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -242,6 +250,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0090
      * @tc.name   : select menuBackgroundBlurStyle正常值改为异常值
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -267,6 +276,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0100
      * @tc.name   : select menuBackgroundBlurStyle异常值改为异常值
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -292,6 +302,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0110
      * @tc.name   : select selectedOptionBgColor设置为Color.Red
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -317,6 +328,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0120
      * @tc.name   : select selectedOptionBgColor设置为undefined
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -342,6 +354,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0130
      * @tc.name   : select optionBgColor设置为Color.Green
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -367,6 +380,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0140
      * @tc.name   : select optionBgColor设置为undefined
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -392,6 +406,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0150
      * @tc.name   : select menuBackgroundColor设置为Color.Blue
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,6 +432,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0160
      * @tc.name   : select menuBackgroundColor设置为undefined
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -442,6 +458,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0170
      * @tc.name   : select menuBackgroundBlurStyle设置为数字类型1
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -467,6 +484,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0180
      * @tc.name   : select menuBackgroundBlurStyle设置为数字类型2
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -492,6 +510,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0190
      * @tc.name   : select menuBackgroundBlurStyle设置为数字类型3
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -517,6 +536,7 @@ export default function SelectFuzzyTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_SELECT_FUZZY_0200
      * @tc.name   : select menuBackgroundBlurStyle设置为数字类型"30%"
+     * @tc.desc   : Verify button select fuzzy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

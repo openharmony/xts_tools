@@ -44,6 +44,7 @@ export default function SelectionMenuSymbolTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0020
      * @tc.name   : SelectionMenu component, setting symbolStyle property with resource input
+     * @tc.desc   : Verify selectionmenu symbolstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -64,6 +65,7 @@ export default function SelectionMenuSymbolTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0010
      * @tc.name   : SelectionMenu component, passing symbol resource to icon property
+     * @tc.desc   : Verify selectionmenu symbolstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,6 +86,7 @@ export default function SelectionMenuSymbolTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0050
      * @tc.name   : SelectionMenu component, passing symbol resource to icon property
+     * @tc.desc   : Verify selectionmenu symbolstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -104,6 +107,7 @@ export default function SelectionMenuSymbolTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0070
      * @tc.name   : SelectionMenu component, passing symbol resource to icon property
+     * @tc.desc   : Verify selectionmenu symbolstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,6 +131,7 @@ export default function SelectionMenuSymbolTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SELECTIONMENU_SYMBOLSTYLE_0060
      * @tc.name   : SelectionMenu component, passing symbol resource to icon property
+     * @tc.desc   : Verify selectionmenu symbolstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

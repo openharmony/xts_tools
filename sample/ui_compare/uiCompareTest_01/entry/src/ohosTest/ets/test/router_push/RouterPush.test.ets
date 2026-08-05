@@ -44,7 +44,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0070
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,7 +68,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0010
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +88,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0270
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +126,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0190
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,7 +147,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0560
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,7 +177,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0200
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -198,7 +204,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0290
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,7 +225,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0570
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -241,7 +249,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0170
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +270,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0740
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -284,7 +294,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0250
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,7 +317,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0340
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -325,7 +337,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0650
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -345,7 +358,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0550
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,7 +382,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0080
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,7 +402,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0230
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -409,7 +425,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0770
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -428,7 +445,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0380
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -446,7 +464,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0470
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -468,7 +487,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0660
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -491,7 +511,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0090
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -512,7 +533,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0040
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -533,7 +555,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0060
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -556,7 +579,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0520
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -575,7 +599,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0210
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -596,7 +621,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0760
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -620,7 +646,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0680
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -644,7 +671,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0390
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -666,7 +694,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0590
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -687,7 +716,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0730
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -709,7 +739,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0670
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -731,7 +762,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0460
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -751,7 +783,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0430
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -769,7 +802,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0410
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -789,7 +823,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0420
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -811,7 +846,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0400
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -829,7 +865,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0490
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -849,7 +886,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0440
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -867,7 +905,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0580
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -894,7 +933,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0630
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -916,7 +956,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0640
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -936,7 +977,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0280
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -954,7 +996,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0610
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -972,7 +1015,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0620
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -994,7 +1038,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0500
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1012,7 +1057,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0510
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1032,7 +1078,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0260
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1056,7 +1103,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0370
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1078,7 +1126,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0220
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1100,7 +1149,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0350
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1119,7 +1169,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0300
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1140,7 +1191,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0310
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1161,7 +1213,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0690
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1188,7 +1241,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0360
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1210,7 +1264,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0030
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1232,7 +1287,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0050
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1254,7 +1310,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0150
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1276,7 +1333,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0330
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1301,7 +1359,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0100
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1321,7 +1380,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0480
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1347,7 +1407,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0780
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1377,7 +1438,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0240
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1401,7 +1463,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0320
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1422,7 +1485,8 @@ export default function RouterPushTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ROUTER_PUSH_BACK__0130
+     * @tc.name   : Router push back
+     * @tc.desc   : Verify router push back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

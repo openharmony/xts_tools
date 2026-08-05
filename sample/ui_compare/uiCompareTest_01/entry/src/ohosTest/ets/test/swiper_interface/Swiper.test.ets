@@ -43,6 +43,7 @@ export default function SwiperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0200
      * @tc.name   : For displayArrow(value: ArrowStyle | boolean, isHoverShow?: boolean), set the arrowSize parameter
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -61,6 +62,7 @@ export default function SwiperTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0170
      * @tc.name   : For displayArrow(value: ArrowStyle | boolean, isHoverShow?: boolean), set the arrowSize parameter
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

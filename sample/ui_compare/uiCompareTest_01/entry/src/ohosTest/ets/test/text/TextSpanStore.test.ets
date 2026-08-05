@@ -41,7 +41,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0030
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,7 +74,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0040
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,7 +111,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0050
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,7 +143,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0060
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -161,7 +165,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0070
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,7 +187,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0080
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +209,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0090
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -224,7 +231,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0100
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -245,7 +253,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0110
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -266,7 +275,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0120
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -287,7 +297,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0130
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -308,7 +319,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0140
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +341,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0150
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,7 +363,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0160
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -374,7 +388,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0170
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -398,7 +413,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0180
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -422,7 +438,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0190
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -446,7 +463,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0200
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -470,7 +488,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0210
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -494,7 +513,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0220
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -518,7 +538,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0230
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -542,7 +563,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0240
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -566,7 +588,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0250
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -590,7 +613,8 @@ export default function TextSpanStoreTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_TEXT_SPAN_STORE_0260
+     * @tc.name   : Text span store
+     * @tc.desc   : Verify text span store interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

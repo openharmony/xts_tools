@@ -54,6 +54,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0010
      * @tc.name   : Video组件重置AVPlayer和自动播放测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -96,6 +97,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0020
      * @tc.name   : Video组件重置AVPlayer和自动播放测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,6 +140,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0030
      * @tc.name   : Video组件停止播放、重置AVPlayer和自动播放测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,6 +191,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0040
      * @tc.name   : Video组件停止播放、重置AVPlayer和自动播放测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -238,6 +242,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0050
      * @tc.name   : Video组件onStop事件测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -272,6 +277,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0060
      * @tc.name   : Video组件onStop事件测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,6 +312,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0080
      * @tc.name   : Video组件跳转进度位置测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -340,6 +347,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0090
      * @tc.name   : Video组件onPrepared事件测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,6 +376,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0100
      * @tc.name   : Video组件开始播放和onPrepared事件测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -402,6 +411,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0110
      * @tc.name   : Video组件停止播放后滑出滑进屏幕测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -436,6 +446,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0120
      * @tc.name   : Video组件滑进屏幕onPrepared事件测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -464,6 +475,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0130
      * @tc.name   : Video组件隐藏状态onPrepared事件测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -492,6 +504,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0140
      * @tc.name   : Video组件停止播放后显示测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -534,6 +547,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0150
      * @tc.name   : Video组件隐藏状态onPrepared事件测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -562,6 +576,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0160
      * @tc.name   : Video组件切换视频源测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -596,6 +611,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0170
      * @tc.name   : Video组件开始播放后切换视频源测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -638,6 +654,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0180
      * @tc.name   : Video组件停止播放后切换视频源测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -680,6 +697,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0190
      * @tc.name   : Video组件切换视频源测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -714,6 +732,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0200
      * @tc.name   : Video组件开始播放、重置AVPlayer和自动播放测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -764,6 +783,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0210
      * @tc.name   : Video组件开始播放、重置AVPlayer和自动播放测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -814,6 +834,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0220
      * @tc.name   : Video组件开始播放、停止播放、重置AVPlayer和自动播放测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -872,6 +893,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0230
      * @tc.name   : Video组件开始播放、停止播放、重置AVPlayer和自动播放测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -930,6 +952,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0240
      * @tc.name   : Video组件停止播放后跳转进度位置测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -972,6 +995,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0250
      * @tc.name   : Video组件开始播放、停止播放后切换视频源测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1022,6 +1046,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0260
      * @tc.name   : Video组件跳转进度位置后开始播放测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1064,6 +1089,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0270
      * @tc.name   : Video组件重置AVPlayer和自动播放重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1121,6 +1147,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0280
      * @tc.name   : Video组件重置AVPlayer和自动播放重复测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1186,6 +1213,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0290
      * @tc.name   : Video组件onStop事件重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1224,6 +1252,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0300
      * @tc.name   : Video组件onStop事件重复测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1262,6 +1291,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0310
      * @tc.name   : Video组件跳转进度位置和重置AVPlayer重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1311,6 +1341,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0320
      * @tc.name   : Video组件跳转进度位置和停止播放重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1360,6 +1391,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0330
      * @tc.name   : Video组件切换视频源和重置AVPlayer重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1409,6 +1441,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0340
      * @tc.name   : Video组件开始播放、切换视频源、停止播放重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1466,6 +1499,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0350
      * @tc.name   : Video组件停止播放、切换视频源、重置AVPlayer重复测试
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1523,6 +1557,7 @@ export default function VideoOptimizeTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_OPTIMIZE_0360
      * @tc.name   : Video组件切换视频源和停止播放重复测试(三Video)
+     * @tc.desc   : Verify media video optimize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

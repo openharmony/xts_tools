@@ -54,6 +54,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0450
      * @tc.name   : TextPicker wearable single column focus display test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,6 +79,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0440
      * @tc.name   : TextPicker wearable single column scroll up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,6 +110,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0400
      * @tc.name   : TextPicker wearable single column fling up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -136,6 +139,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0380
      * @tc.name   : TextPicker wearable multi column click upper option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -160,6 +164,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0430
      * @tc.name   : TextPicker wearable single column fling down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,6 +193,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0370
      * @tc.name   : TextPicker wearable multi column scroll up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -218,6 +224,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0460
      * @tc.name   : TextPicker wearable single column fling up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,6 +253,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0390
      * @tc.name   : TextPicker wearable multi column click lower option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -270,6 +278,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0510
      * @tc.name   : TextPicker wearable multi column click lower option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,6 +303,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0490
      * @tc.name   : TextPicker wearable single column click lower option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -318,6 +328,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0520
      * @tc.name   : TextPicker wearable multi column scroll down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -348,6 +359,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0470
      * @tc.name   : TextPicker wearable single column fling down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -376,6 +388,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0550
      * @tc.name   : TextPicker wearable multi column fling down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -404,6 +417,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0530
      * @tc.name   : TextPicker wearable multi column click upper option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -428,6 +442,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0540
      * @tc.name   : TextPicker wearable single column focus display test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -452,6 +467,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0570
      * @tc.name   : TextPicker wearable single column click upper option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -476,6 +492,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0560
      * @tc.name   : TextPicker wearable single column fling up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -504,6 +521,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0630
      * @tc.name   : TextPicker wearable single column click upper option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -528,6 +546,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0640
      * @tc.name   : TextPicker wearable multi column scroll down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -558,6 +577,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0580
      * @tc.name   : TextPicker wearable multi column multi finger operation test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -582,6 +602,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0620
      * @tc.name   : TextPicker wearable single column drag up down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -615,6 +636,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0610
      * @tc.name   : TextPicker wearable single column scroll down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,6 +667,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0600
      * @tc.name   : TextPicker wearable single column fling down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -673,6 +696,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0660
      * @tc.name   : TextPicker wearable single column drag up down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -706,6 +730,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0650
      * @tc.name   : TextPicker wearable multi column fling up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -734,6 +759,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0680
      * @tc.name   : TextPicker wearable multi column fling up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -762,6 +788,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0670
      * @tc.name   : TextPicker wearable single column click lower option test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -786,6 +813,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0720
      * @tc.name   : TextPicker wearable single column focus display test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -810,6 +838,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0700
      * @tc.name   : TextPicker wearable single column scroll up test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -840,6 +869,7 @@ export default function TextPickerWearTest() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_PICKER_WEAR_0710
      * @tc.name   : TextPicker wearable single column scroll down test
+     * @tc.desc   : Verify popupbox Picker wear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
