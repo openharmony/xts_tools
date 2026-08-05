@@ -57,7 +57,8 @@ export default function UIBGSeriableTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0070
+     * @tc.name   : Attributes bcakground seriable
+     * @tc.desc   : Verify attributes bcakground seriable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -84,7 +85,8 @@ export default function UIBGSeriableTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0050
+     * @tc.name   : Attributes bcakground seriable
+     * @tc.desc   : Verify attributes bcakground seriable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -102,7 +104,8 @@ export default function UIBGSeriableTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0090
+     * @tc.name   : Attributes bcakground seriable
+     * @tc.desc   : Verify attributes bcakground seriable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -120,7 +123,8 @@ export default function UIBGSeriableTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_BCAKGROUND_SERIABLE_0080
+     * @tc.name   : Attributes bcakground seriable
+     * @tc.desc   : Verify attributes bcakground seriable interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

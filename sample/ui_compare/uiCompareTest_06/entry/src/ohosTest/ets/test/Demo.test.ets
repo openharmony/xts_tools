@@ -82,6 +82,7 @@ export default function demoTest() {
     /*
      * @tc.number : demoTest_001
      * @tc.name   : demoTest_001
+     * @tc.desc   : Verify demotest interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

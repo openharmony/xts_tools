@@ -57,7 +57,8 @@ export default function UIRadialGradientTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010
-     * @tc.name   : SUB_ACE_UI_OHOS_RADIALGRADIENT_RESOURCE_0010
+     * @tc.name   : Ohos radialgradient resource
+     * @tc.desc   : Verify ohos radialgradient resource interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

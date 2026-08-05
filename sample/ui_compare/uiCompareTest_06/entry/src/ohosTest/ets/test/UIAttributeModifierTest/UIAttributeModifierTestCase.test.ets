@@ -57,7 +57,8 @@ export default function UIAttributeModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0070
-     * @tc.name   : SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0070
+     * @tc.name   : Action gesture attributemodifier
+     * @tc.desc   : Verify action gesture attributemodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -85,7 +86,8 @@ export default function UIAttributeModifierTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0120
-     * @tc.name   : SUB_ACE_ACTION_GESTURE_ATTRIBUTEMODIFIER_0120
+     * @tc.name   : Action gesture attributemodifier
+     * @tc.desc   : Verify action gesture attributemodifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

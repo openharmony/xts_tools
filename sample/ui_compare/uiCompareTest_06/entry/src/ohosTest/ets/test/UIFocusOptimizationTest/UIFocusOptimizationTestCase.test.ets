@@ -57,7 +57,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_156
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -76,7 +77,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_169
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -95,7 +97,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_147
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -114,7 +117,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_145
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -133,7 +137,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_176
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -152,7 +157,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_148
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -171,7 +177,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_163
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -190,7 +197,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_131
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -209,7 +217,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_144
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -228,7 +237,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_129
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -247,7 +257,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_171
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -266,7 +277,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_177
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -285,7 +297,8 @@ export default function UIFocusOptimizationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_FOCUSOPTIMIZATION_172
+     * @tc.name   : Commonattr focusoptimization
+     * @tc.desc   : Verify commonattr focusoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

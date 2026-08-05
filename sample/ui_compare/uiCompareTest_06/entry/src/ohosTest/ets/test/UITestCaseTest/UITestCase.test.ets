@@ -57,7 +57,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_100
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -79,7 +80,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_200
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -101,7 +103,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_300
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -123,7 +126,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_400
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -145,7 +149,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_500
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -167,7 +172,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_600
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -189,7 +195,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_700
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -211,7 +218,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_800
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -233,7 +241,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_900
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -254,7 +263,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1000
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -275,7 +285,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1100
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -296,7 +307,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1200
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -317,7 +329,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1300
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -338,7 +351,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1400
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -359,7 +373,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1500
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -380,7 +395,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1600
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -401,7 +417,8 @@ export default function UITestCaseTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MATRIX_SETPOLY_1700
+     * @tc.name   : Matrix setpoly
+     * @tc.desc   : Verify matrix setpoly interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

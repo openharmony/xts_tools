@@ -57,7 +57,8 @@ export default function UIPositionOffsetTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0080
+     * @tc.name   : Position offset
+     * @tc.desc   : Verify position offset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -99,7 +100,8 @@ export default function UIPositionOffsetTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POSITION_OFFSET_0370
+     * @tc.name   : Position offset
+     * @tc.desc   : Verify position offset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

@@ -57,7 +57,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0240
+     * @tc.name   : Graphic nodecontainer
+     * @tc.desc   : Verify graphic nodecontainer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -83,7 +84,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0150
+     * @tc.name   : Graphic nodecontainer
+     * @tc.desc   : Verify graphic nodecontainer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -110,7 +112,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_NODECONTAINER_0160
+     * @tc.name   : Graphic nodecontainer
+     * @tc.desc   : Verify graphic nodecontainer interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -139,7 +142,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_0240
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -161,7 +165,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3180
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -183,7 +188,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3210
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -205,7 +211,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3220
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -227,7 +234,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3250
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -249,7 +257,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3190
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -271,7 +280,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3200
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -293,7 +303,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_RENDER_3240
+     * @tc.name   : Graphic nodecontainer render
+     * @tc.desc   : Verify graphic nodecontainer render interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -315,7 +326,8 @@ export default function UIFrameworkTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRAPHIC_NODECONTAINER_ONTOUCH_0050
+     * @tc.name   : Graphic nodecontainer ontouch
+     * @tc.desc   : Verify graphic nodecontainer ontouch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0

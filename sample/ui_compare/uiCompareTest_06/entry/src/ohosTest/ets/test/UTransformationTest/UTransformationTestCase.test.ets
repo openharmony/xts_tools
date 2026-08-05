@@ -57,7 +57,8 @@ export default function UTransformationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0280
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -75,7 +76,8 @@ export default function UTransformationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0330
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -93,7 +95,8 @@ export default function UTransformationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0110
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
@@ -111,7 +114,8 @@ export default function UTransformationTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_GRAPHICTRANSFORMATION_INTERFACE_0170
+     * @tc.name   : Attributes graphictransformation interface
+     * @tc.desc   : Verify attributes graphictransformation interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : SmallTest
      * @tc.level  : 0
