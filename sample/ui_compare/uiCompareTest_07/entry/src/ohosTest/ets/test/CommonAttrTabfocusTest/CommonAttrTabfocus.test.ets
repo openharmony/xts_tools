@@ -43,6 +43,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0010
      * @tc.name   : When tabbing through the page, the component designated as the default focus within the focus group receives focus first.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -68,6 +69,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0020
      * @tc.name   : When tabbing, the first component in the focus group receives focus.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -93,6 +95,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0030
      * @tc.name   : When holding tab key to navigate focus to the end of the page, focus can cycle through.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -124,6 +127,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0040
      * @tc.name   : Focus group with PREVIOUS priority and non-focus group with PRIOR priority, hold tab key to navigate focus across groups and cycle within page.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -166,6 +170,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0050
      * @tc.name   : Focus groups with tabIndex, cross-group cycling, after clicking button, the previously focused button in focus group receives focus during cycling.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -210,6 +215,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0060
      * @tc.name   : Tab key navigation in dialog popup.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -245,6 +251,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0070
      * @tc.name   : Tab key navigation in popup component.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -286,6 +293,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0080
      * @tc.name   : Tab key navigation in half-modal sheet.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -325,6 +333,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0090
      * @tc.name   : Use requestFocus to make component in focus group receive focus.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -362,6 +371,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0100
      * @tc.name   : Cross-page focus navigation, navigation changes from split to stack mode, tab key focus navigation.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -410,6 +420,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0110
      * @tc.name   : Use arrow keys to navigate focus within focus group and between focus group and non-focus group.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -458,6 +469,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0120
      * @tc.name   : Use arrow keys for non-first-time focus navigation between focus group and non-focus group.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -509,6 +521,7 @@ export default function CommonAttrTabfocus() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_TABFOCUS_0130
      * @tc.name   : After page navigation, use arrow keys for first-time focus navigation in new page.
+     * @tc.desc   : Verify commonattr tabfocus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

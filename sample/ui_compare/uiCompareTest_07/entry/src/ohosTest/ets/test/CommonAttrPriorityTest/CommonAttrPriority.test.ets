@@ -43,7 +43,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0010
      * @tc.name   : If a component in the focus group has only the PREVIOUS priority set, it will still receive focus when tabbing through—even on subsequent passes; the priority remains effective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -79,7 +80,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0020
      * @tc.name   : If a component in the focus group has only the PRIOR priority set, it will still receive focus when tabbing through—even on subsequent passes; the priority remains effective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -121,7 +123,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0030
      * @tc.name   : In a focus group with AUTO, PRIOR, and PREVIOUS priorities set simultaneously, the PREVIOUS component (highest priority) gets focus on the first pass, and remains focused on subsequent passes.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -171,7 +174,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0040
      * @tc.name   : In a focus group with AUTO and PRIOR priorities set simultaneously, the PRIOR component (highest priority) gets focus on the first pass, but on subsequent passes the priority becomes ineffective and the first component gets focus.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -231,7 +235,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0050
      * @tc.name   : In a focus group with PREVIOUS, PRIOR priorities and a component without priority set, the PREVIOUS component gets focus on both first and subsequent passes.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -289,7 +294,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0060
      * @tc.name   : In a non-focus group with only PREVIOUS priority set, the priority component gets focus on the first pass, but on subsequent passes the priority becomes ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -349,7 +355,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0070
      * @tc.name   : In a non-focus group with only PRIOR priority set, the priority component gets focus on the first pass, but on subsequent passes the priority becomes ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -401,7 +408,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0080
      * @tc.name   : In a non-focus group with AUTO, PRIOR, and PREVIOUS priorities set simultaneously, the PREVIOUS component (highest priority) gets focus on the first pass, but on subsequent passes the priority becomes ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -449,7 +457,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0090
      * @tc.name   : In a non-focus group with PRIOR, PREVIOUS priorities and a component without priority set, the PREVIOUS component (highest priority) gets focus on the first pass, but on subsequent passes the priority becomes ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -503,7 +512,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0100
      * @tc.name   : In a non-focus group with two PRIOR priority components and a component without priority, the PRIOR components get focus on the first pass, but on subsequent passes the priority becomes ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -559,7 +569,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0110
      * @tc.name   : In Menu non-subwindow mode, focus navigation between focus group and non-focus group, MenuItemGroup does not support focus-related operations, focus group is ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -616,7 +627,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0120
      * @tc.name   : In Menu subwindow mode, focus navigation between focus group and non-focus group, MenuItemGroup does not support focus-related operations, focus group is ineffective.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -673,7 +685,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0130
      * @tc.name   : In dialog component, focus navigation between focus group and non-focus group.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -722,7 +735,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0140
      * @tc.name   : In popup component, focus navigation between focus group and non-focus group.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -771,7 +785,8 @@ export default function CommonAttrPriority() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_PRIORITY_0150
      * @tc.name   : In half-modal component, focus navigation between focus group and non-focus group.
-     * @tc.type   : function
+     * @tc.desc   : Verify commonattr priority interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

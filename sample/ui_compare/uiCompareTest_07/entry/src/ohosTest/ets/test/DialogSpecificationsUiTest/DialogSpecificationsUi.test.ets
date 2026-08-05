@@ -42,7 +42,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0040
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0040
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -76,7 +77,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0030
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0030
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -110,7 +112,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0020
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0020
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -144,7 +147,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0050
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0050
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -192,7 +196,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0060
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0060
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -226,7 +231,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0090
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0090
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -260,7 +266,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0080
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0080
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -294,7 +301,8 @@ export default function DialogSpecificationsUi() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0120
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_UI_0120
+     * @tc.name   : Component function special components dialog specifications ui
+     * @tc.desc   : Verify component function special components dialog specifications ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

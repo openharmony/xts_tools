@@ -42,7 +42,8 @@ export default function AnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0019
+     * @tc.name   : Media LoadingProgress animateTo
+     * @tc.desc   : Verify media LoadingProgress animateTo interface behavior and expected UI result for this case.
      * @tc.type   : Simultaneously using both the LoadingProgress and animateTo effects requires setting the enableLoading property to false.
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -61,7 +62,8 @@ export default function AnimateTo() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_LOADINGPROGRESS_ANIMATETO_0018
+     * @tc.name   : Media LoadingProgress animateTo
+     * @tc.desc   : Verify media LoadingProgress animateTo interface behavior and expected UI result for this case.
      * @tc.type   : When using both the LoadingProgress and animateTo effects simultaneously, set the enableLoading property to true.
      * @tc.size   : MediumTest
      * @tc.level  : 2

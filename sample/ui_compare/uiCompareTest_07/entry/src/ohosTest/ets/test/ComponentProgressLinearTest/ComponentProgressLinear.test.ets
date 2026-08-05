@@ -42,7 +42,8 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0015
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -86,7 +87,8 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0016
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -186,7 +188,8 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0017
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -243,7 +246,8 @@ export default function ComponentProgressLinear() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_PROGRESS_LINEAR_0018
+     * @tc.name   : Progress linear
+     * @tc.desc   : Verify Progress linear interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

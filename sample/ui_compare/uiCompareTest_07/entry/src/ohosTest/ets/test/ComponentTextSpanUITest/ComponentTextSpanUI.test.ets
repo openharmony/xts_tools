@@ -44,6 +44,7 @@ export default function ComponentTextSpanUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0140
      * @tc.name   : Span#SpanTest#SpanTest_014
+     * @tc.desc   : Verify text span ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -63,6 +64,7 @@ export default function ComponentTextSpanUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0160
      * @tc.name   : Span#SpanTest#SpanTest_016
+     * @tc.desc   : Verify text span ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -82,6 +84,7 @@ export default function ComponentTextSpanUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_SPAN_UI_0270
      * @tc.name   : Span#SpanTest#SpanTest_027
+     * @tc.desc   : Verify text span ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

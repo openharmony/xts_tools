@@ -42,7 +42,8 @@ export default function DialogSpecificationsHand() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0020
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0020
+     * @tc.name   : Component function special components dialog specifications hand
+     * @tc.desc   : Verify component function special components dialog specifications hand interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -71,7 +72,8 @@ export default function DialogSpecificationsHand() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0030
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0030
+     * @tc.name   : Component function special components dialog specifications hand
+     * @tc.desc   : Verify component function special components dialog specifications hand interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -98,7 +100,8 @@ export default function DialogSpecificationsHand() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0070
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_SPECIFICATIONS_HAND_0070
+     * @tc.name   : Component function special components dialog specifications hand
+     * @tc.desc   : Verify component function special components dialog specifications hand interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

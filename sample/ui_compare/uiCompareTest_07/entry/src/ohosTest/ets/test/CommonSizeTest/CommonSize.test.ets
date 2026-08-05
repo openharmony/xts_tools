@@ -43,7 +43,8 @@ export default function CommonSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0009
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0009
+     * @tc.name   : Progress common size
+     * @tc.desc   : Verify Progress common size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -63,7 +64,8 @@ export default function CommonSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0007
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0007
+     * @tc.name   : Progress common size
+     * @tc.desc   : Verify Progress common size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -83,7 +85,8 @@ export default function CommonSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0010
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0010
+     * @tc.name   : Progress common size
+     * @tc.desc   : Verify Progress common size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -103,7 +106,8 @@ export default function CommonSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0008
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0008
+     * @tc.name   : Progress common size
+     * @tc.desc   : Verify Progress common size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -123,7 +127,8 @@ export default function CommonSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0006
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_SIZE_0006
+     * @tc.name   : Progress common size
+     * @tc.desc   : Verify Progress common size interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

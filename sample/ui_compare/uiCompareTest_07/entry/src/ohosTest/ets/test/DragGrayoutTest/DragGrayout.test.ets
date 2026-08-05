@@ -43,7 +43,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0010
      * @tc.name   : Button component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -85,7 +86,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0020
      * @tc.name   : Button component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -119,7 +121,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0030
      * @tc.name   : Column component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -161,7 +164,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0050
      * @tc.name   : Image component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -203,7 +207,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0060
      * @tc.name   : Image component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -237,7 +242,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0070
      * @tc.name   : List component single selection calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -279,7 +285,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0080
      * @tc.name   : List component single selection does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -313,7 +320,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0100
      * @tc.name   : List component multi-selection drag, button1 and button2 both call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -361,7 +369,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0110
      * @tc.name   : Grid component single selection calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -403,7 +412,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0120
      * @tc.name   : Grid component single selection does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -437,7 +447,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0130
      * @tc.name   : Grid component multi-selection calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -487,7 +498,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0140
      * @tc.name   : Grid component multi-selection does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -529,7 +541,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0150
      * @tc.name   : Video component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -571,7 +584,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0160
      * @tc.name   : Video component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -605,7 +619,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0170
      * @tc.name   : Link component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -647,7 +662,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0180
      * @tc.name   : Link component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -681,7 +697,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0190
      * @tc.name   : Text component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -723,7 +740,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0200
      * @tc.name   : Text component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -765,7 +783,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0210
      * @tc.name   : TextArea component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -807,7 +826,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0220
      * @tc.name   : TextArea component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -849,7 +869,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0230
      * @tc.name   : TextInput component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -891,7 +912,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0240
      * @tc.name   : TextInput component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -933,7 +955,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0250
      * @tc.name   : RichEditor component calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -975,7 +998,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0260
      * @tc.name   : RichEditor component does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1017,7 +1041,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0270
      * @tc.name   : Parent and child components are non-text components, parent does not call, child calls.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1058,7 +1083,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0280
      * @tc.name   : Parent and child components are non-text components, parent calls, child does not call.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1099,7 +1125,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0290
      * @tc.name   : Parent and child components are non-text components, both call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1140,7 +1167,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0300
      * @tc.name   : Parent and child components are non-text components, both do not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1181,7 +1209,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0310
      * @tc.name   : Parent and child components are non-text, child A calls, child B does not call.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1230,7 +1259,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0320
      * @tc.name   : Parent and child components are non-text, child A opacity 0.4, child B no opacity.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1279,7 +1309,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0330
      * @tc.name   : Component self opacity 0.4, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1320,7 +1351,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0340
      * @tc.name   : Component self opacity 0.4, calls ENABLE_DEFAULT_GRAYED, release to droppable area.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1361,7 +1393,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0350
      * @tc.name   : Component self opacity 0.4, does not call ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1402,7 +1435,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0360
      * @tc.name   : Parent opacity 0.2, child A opacity 0.9, child B opacity 0.4, parent calls - drag child.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1459,7 +1493,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0370
      * @tc.name   : Parent opacity 0.2, child A opacity 0.9, child B opacity 0.4, parent calls - drag parent.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1506,7 +1541,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0380
      * @tc.name   : Child component opacity 3, parent calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1547,7 +1583,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0400
      * @tc.name   : Continuously drag component 15 times with fast, slow, and normal speed.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1580,7 +1617,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0410
      * @tc.name   : DragController single object, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1613,7 +1651,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0420
      * @tc.name   : DragController multiple objects, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1652,7 +1691,8 @@ export default function DragGrayout() {
     /*
      * @tc.number : SUB_ACE_DRAG_GRAYOUT_0430
      * @tc.name   : ItemDrag drag, calls ENABLE_DEFAULT_GRAYED.
-     * @tc.type   : function
+     * @tc.desc   : Verify drag grayout interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

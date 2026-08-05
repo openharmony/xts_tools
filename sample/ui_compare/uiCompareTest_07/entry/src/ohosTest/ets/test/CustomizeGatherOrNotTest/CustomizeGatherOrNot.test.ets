@@ -43,6 +43,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_001
      * @tc.name   : Drag-and-drop multi-select effect for GridItem on mobile via finger touch
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -94,6 +95,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_002
      * @tc.name   : Drag-and-drop multi-select effect for adjacent GridItem components on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,6 +147,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_003
      * @tc.name   : Drag-and-drop multi-select effect for non-adjacent GridItem components on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,6 +199,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_004
      * @tc.name   : Continuous drag-and-drop multi-select effect for GridItem components on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -248,6 +252,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_005
      * @tc.name   : Multi-select drag-and-drop effect with selected state for GridItem components on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -303,6 +308,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_006
      * @tc.name   : Multi-select drag-and-drop effect with custom drag preview for GridItem components on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -358,6 +364,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_007
      * @tc.name   : Multi-select drag-and-drop effect for GridItem components with different sizes on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -410,6 +417,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_008
      * @tc.name   : Multi-select drag-and-drop effect for GridItem components created with CustomBuilder on mobile via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -462,6 +470,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_009
      * @tc.name   : Multi-select drag-and-drop effect for adjacent GridItem components with style change in onDragStart via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -517,6 +526,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_010
      * @tc.name   : Multi-select drag-and-drop effect for GridItem components with bindContextMenu via finger touch
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -572,6 +582,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_011
      * @tc.name   : Multi-select drag-and-drop effect by toggling between gathering and non-gathering states via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -635,6 +646,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_012
      * @tc.name   : Multi-select drag-and-drop effect for GridItem components with numberBadge enabled via finger touch
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -695,6 +707,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_013
      * @tc.name   : Multi-select drag-and-drop effect for GridItem components with custom backdrop style via finger touch
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -755,6 +768,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_014
      * @tc.name   : Multi-select drag-and-drop effect for GridItem components in landscape mode via finger touch
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -817,6 +831,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_029
      * @tc.name   : Multi-select drag-and-drop effect for ListItem components via finger touch
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -870,6 +885,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_030
      * @tc.name   : Multi-select drag-and-drop effect for adjacent ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -926,6 +942,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_031
      * @tc.name   : Multi-select drag-and-drop effect for non-adjacent ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -982,6 +999,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_032
      * @tc.name   : Multi-select continuous drag-and-drop effect for ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1038,6 +1056,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_033
      * @tc.name   : Multi-select drag-and-drop effect with selected state for ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1099,6 +1118,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_034
      * @tc.name   : Multi-select drag-and-drop effect with custom drag preview for ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1160,6 +1180,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_035
      * @tc.name   : Multi-select drag-and-drop effect for ListItem components with different widths and heights via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1218,6 +1239,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_036
      * @tc.name   : Multi-select drag-and-drop effect for ListItem components created by CustomBuilder via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1275,6 +1297,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_037
      * @tc.name   : Multi-select drag-and-drop effect with style changes in onDragStart for ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1335,6 +1358,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_038
      * @tc.name   : Multi-select drag-and-drop effect with bindContextMenu for ListItem components via finger
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1391,6 +1415,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_039
      * @tc.name   : Multi-select drag-and-drop effect by toggling between gathering and non-gathering states for ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1454,6 +1479,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_040
      * @tc.name   : Multi-select drag-and-drop effect with numberBadge for ListItem components via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1514,6 +1540,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_041
      * @tc.name   : Multi-select drag-and-drop effect with custom backdrop style for ListItem components via finger
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1574,6 +1601,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_042
      * @tc.name   : Multi-select drag-and-drop effect for ListItem components in landscape mode via finger
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1636,6 +1664,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_057
      * @tc.name   : Multi-select drag-and-drop effect for adjacent GridItem components with Modifier via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1692,6 +1721,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_058
      * @tc.name   : Multi-select drag-and-drop effect for non-adjacent GridItem components with Modifier via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1748,6 +1778,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_061
      * @tc.name   : Multi-select drag-and-drop effect for adjacent ListItem components with Modifier via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1804,6 +1835,7 @@ export default function CustomizeGatherOrNot() {
     /*
      * @tc.number : SUB_ACE_MULTIPLE_SELECTION_AND_DRAG_CUSTOMIZE_GATHER_OR_NOT_062
      * @tc.name   : Multi-select drag-and-drop effect for non-adjacent ListItem components with Modifier via mouse
+     * @tc.desc   : Verify multiple selection and drag customize gather or not interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -43,6 +43,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0020
      * @tc.name   : Text#TextTest#TextTest_002
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -62,6 +63,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0580
      * @tc.name   : Text#TextTest#TextTest_058
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -84,6 +86,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_0590
      * @tc.name   : Text#TextTest#TextTest_059
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -106,6 +109,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1000
      * @tc.name   : Text#TextTest#TextTest_100
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -128,6 +132,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1090
      * @tc.name   : Text#TextTest#TextTest_109
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -150,6 +155,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1730
      * @tc.name   : Text#TextTest#TextTest_173
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -172,6 +178,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1770
      * @tc.name   : Text#TextTest#TextTest_177
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -194,6 +201,7 @@ export default function ComponentTextTextUI() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_UI_1960
      * @tc.name   : Text#TextTest#TextTest_196
+     * @tc.desc   : Verify text ui interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

@@ -42,7 +42,8 @@ export default function BackwardAnalysisAln() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1380
+     * @tc.name   : Popupbox backwardanalysis aln
+     * @tc.desc   : Verify popupbox backwardanalysis aln interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,7 +68,8 @@ export default function BackwardAnalysisAln() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1390
+     * @tc.name   : Popupbox backwardanalysis aln
+     * @tc.desc   : Verify popupbox backwardanalysis aln interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +97,8 @@ export default function BackwardAnalysisAln() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1400
+     * @tc.name   : Popupbox backwardanalysis aln
+     * @tc.desc   : Verify popupbox backwardanalysis aln interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,7 +123,8 @@ export default function BackwardAnalysisAln() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1410
+     * @tc.name   : Popupbox backwardanalysis aln
+     * @tc.desc   : Verify popupbox backwardanalysis aln interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,7 +152,8 @@ export default function BackwardAnalysisAln() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1420
+     * @tc.name   : Popupbox backwardanalysis aln
+     * @tc.desc   : Verify popupbox backwardanalysis aln interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,7 +181,8 @@ export default function BackwardAnalysisAln() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1430
+     * @tc.name   : Popupbox backwardanalysis aln
+     * @tc.desc   : Verify popupbox backwardanalysis aln interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

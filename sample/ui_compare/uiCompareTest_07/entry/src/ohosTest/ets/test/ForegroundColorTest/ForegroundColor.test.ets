@@ -43,7 +43,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0018
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0018
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -63,7 +64,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0022
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0022
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -83,7 +85,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0012
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0012
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -103,7 +106,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0010
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0010
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -123,7 +127,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0011
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0011
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -143,7 +148,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0015
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0015
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -163,7 +169,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0014
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0014
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -183,7 +190,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0016
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0016
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -203,7 +211,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0019
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0019
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -223,7 +232,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0020
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0020
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -243,7 +253,8 @@ export default function ForegroundColor() {
 
     /*
      * @tc.number : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0023
-     * @tc.name   : SUB_ACE_UI_PROGRESS_COMMON_FOREGROUNDCOLOR_0023
+     * @tc.name   : Progress common foregroundcolor
+     * @tc.desc   : Verify Progress common foregroundcolor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

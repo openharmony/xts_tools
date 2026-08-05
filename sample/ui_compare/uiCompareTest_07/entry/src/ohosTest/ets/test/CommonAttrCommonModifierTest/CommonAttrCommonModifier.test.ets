@@ -42,8 +42,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0010
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -109,8 +110,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0020
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -153,8 +155,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0030
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -207,8 +210,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0040
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -257,8 +261,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0050
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -307,8 +312,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0060
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -357,8 +363,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0070
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -407,8 +414,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0080
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -455,8 +463,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0090
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -503,8 +512,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0100
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -551,8 +561,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0110
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -599,8 +610,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0120
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -647,8 +659,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0130
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -695,8 +708,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0140
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -739,8 +753,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0150
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -789,8 +804,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0160
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -839,8 +855,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0170
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -889,8 +906,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0180
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -935,8 +953,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0190
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -985,8 +1004,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0200
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1035,8 +1055,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0210
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1085,8 +1106,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0220
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1135,8 +1157,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0230
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1179,8 +1202,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0240
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1223,8 +1247,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0250
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1268,8 +1293,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0260
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1312,8 +1338,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0270
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1400,8 +1427,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0290
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1444,8 +1472,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0300
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1488,8 +1517,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0310
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1532,8 +1562,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0320
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1576,8 +1607,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0330
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1620,8 +1652,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0340
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1664,8 +1697,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0350
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1708,8 +1742,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0360
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1752,8 +1787,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0370
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1796,8 +1832,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0380
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1840,8 +1877,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0390
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1884,8 +1922,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0400
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1928,8 +1967,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0410
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -1972,8 +2012,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0420
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2016,8 +2057,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0430
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2060,8 +2102,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0440
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2104,8 +2147,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0450
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2148,8 +2192,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0460
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2192,8 +2237,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0470
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2236,8 +2282,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0480
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2280,8 +2327,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0490
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -2324,8 +2372,9 @@ export default function CommonAttrCommonModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_COMMONATTR_COMMONMODIFIER_0500
-     * @tc.type   : function
+     * @tc.name   : Commonattr commonmodifier
+     * @tc.desc   : Verify commonattr commonmodifier interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

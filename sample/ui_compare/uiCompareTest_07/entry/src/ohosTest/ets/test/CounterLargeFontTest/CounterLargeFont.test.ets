@@ -43,6 +43,7 @@ export default function CounterLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0016
      * @tc.name   : CounterType.LIST创建组件，使用设置公共组件字体大小设置
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,6 +85,7 @@ export default function CounterLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0017
      * @tc.name   : CounterType.LIST创建组件，动态切换跟随系统字体大小设置
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,6 +133,7 @@ export default function CounterLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0024
      * @tc.name   : CounterType.COMPACT创建组件，使用设置公共组件字体大小设置
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -172,6 +175,7 @@ export default function CounterLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0025
      * @tc.name   : CounterType.COMPACT创建组件，动态切换跟随系统字体大小设置
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,6 +223,7 @@ export default function CounterLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0029
      * @tc.name   : CounterType.INLINE创建组件，使用设置公共组件字体大小设置
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -266,6 +271,7 @@ export default function CounterLargeFont() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0033
      * @tc.name   : CounterType.INLINE_DATE创建组件，使用设置公共组件字体大小设置
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

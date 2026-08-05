@@ -42,6 +42,7 @@ export default function ComponentNavModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0070
      * @tc.name   : navigation组件hideBackButton设置为true
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -60,6 +61,7 @@ export default function ComponentNavModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0090
      * @tc.name   : navigation组件hideTitleBar设置为true
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -78,6 +80,7 @@ export default function ComponentNavModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0120
      * @tc.name   : navigation组件hideToolBar设置为false
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1
@@ -96,6 +99,7 @@ export default function ComponentNavModifier() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_NAV_MODIFIER_0230
      * @tc.name   : navigation组件hideNavBar设置为true
+     * @tc.desc   : Verify nav modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 1

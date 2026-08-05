@@ -42,8 +42,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0010
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0010
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -69,8 +70,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0080
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0080
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -96,8 +98,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0090
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0090
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -123,8 +126,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0100
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0100
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -150,8 +154,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0120
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0120
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -177,8 +182,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0140
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0140
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -204,8 +210,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0160
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0160
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -231,8 +238,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0180
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0180
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -258,8 +266,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0190
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0190
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -285,8 +294,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0200
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0200
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -312,8 +322,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0250
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0250
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -339,8 +350,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0260
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0260
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -366,8 +378,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0300
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0300
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -393,8 +406,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0310
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0310
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -420,8 +434,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0340
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0340
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -447,8 +462,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0390
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0390
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -474,8 +490,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0530
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0530
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -501,8 +518,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0550
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0550
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -528,8 +546,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0570
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0570
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -555,8 +574,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0590
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0590
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -582,8 +602,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0610
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0610
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -609,8 +630,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0660
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0660
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -636,8 +658,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0710
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0710
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -663,8 +686,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0740
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_0740
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -690,8 +714,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1500
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1500
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -717,8 +742,9 @@ export default function DialogAlertInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1600
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_Alert_INTERFACE_1600
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog alert interface
+     * @tc.desc   : Verify component function special components dialog alert interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

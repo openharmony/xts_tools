@@ -42,8 +42,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0010
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0010
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -74,8 +75,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0020
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0020
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -106,8 +108,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0030
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0030
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -140,8 +143,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0040
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0040
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -172,8 +176,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0050
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0050
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -204,8 +209,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0060
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0060
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -233,8 +239,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0070
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0070
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -262,8 +269,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0080
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0080
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -291,8 +299,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0600
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0600
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -319,8 +328,9 @@ export default function DialogActionsheet() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0700
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_ACTIONSHEET_0700
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog actionsheet
+     * @tc.desc   : Verify component function special components dialog actionsheet interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

@@ -43,6 +43,7 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0010
      * @tc.name   : Enable the halo flicker animation by default.
+     * @tc.desc   : Verify Progress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -66,6 +67,7 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0020
      * @tc.name   : Disable the halo flicker animation.
+     * @tc.desc   : Verify Progress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -89,6 +91,7 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0030
      * @tc.name   : Dynamically set halo flicker animation.
+     * @tc.desc   : Verify Progress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -117,6 +120,7 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0040
      * @tc.name   : Enable the halo flicker animation.
+     * @tc.desc   : Verify Progress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -140,6 +144,7 @@ export default function AceUiProgress() {
     /*
      * @tc.number : SUB_ACE_UI_Progress_0050
      * @tc.name   : LoadingProgress light mode conforms to UX specification.
+     * @tc.desc   : Verify Progress interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

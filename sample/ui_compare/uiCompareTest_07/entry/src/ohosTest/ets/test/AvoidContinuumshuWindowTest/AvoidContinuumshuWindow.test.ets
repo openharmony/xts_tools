@@ -42,8 +42,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0010
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -87,8 +88,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0020
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -132,8 +134,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0030
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -177,8 +180,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0040
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -228,8 +232,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0050
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -266,8 +271,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0060
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -311,8 +317,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0070
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
@@ -356,8 +363,9 @@ export default function AvoidContinuumshuWindow() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_AVOID_CONTINUUMSHUWINDOW_0080
-     * @tc.type   : function
+     * @tc.name   : Popupbox avoid continuumshuwindow
+     * @tc.desc   : Verify popupbox avoid continuumshuwindow interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */

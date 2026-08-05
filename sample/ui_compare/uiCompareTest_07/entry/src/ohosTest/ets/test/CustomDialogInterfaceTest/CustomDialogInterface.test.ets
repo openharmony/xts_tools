@@ -42,7 +42,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1420
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -68,7 +69,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1410
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -94,7 +96,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1990
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -120,7 +123,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1280
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -146,7 +150,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1680
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -172,7 +177,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1700
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -198,7 +204,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1880
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -224,7 +231,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1290
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -250,7 +258,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1740
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -276,7 +285,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1390
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -302,7 +312,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1830
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -328,7 +339,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1300
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -354,7 +366,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1840
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -380,7 +393,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1860
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -406,7 +420,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1870
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -432,7 +447,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1950
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -458,7 +474,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1760
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -484,7 +501,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1260
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -510,7 +528,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1210
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -536,7 +555,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1730
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -562,7 +582,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1380
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -588,7 +609,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1770
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -614,7 +636,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1480
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -640,7 +663,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1900
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -666,7 +690,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1310
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -691,7 +716,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1430
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -716,7 +742,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1710
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -741,7 +768,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1850
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -766,7 +794,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1400
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -791,7 +820,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1220
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -816,7 +846,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1470
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -841,7 +872,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1330
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -866,7 +898,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1230
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -891,7 +924,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1790
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -916,7 +950,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1460
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -941,7 +976,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1240
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -966,7 +1002,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1750
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -991,7 +1028,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1360
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1016,7 +1054,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1690
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1041,7 +1080,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1820
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1066,7 +1106,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1800
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1091,7 +1132,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1890
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1116,7 +1158,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1350
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1141,7 +1184,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1930
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1166,7 +1210,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1320
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1191,7 +1236,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1940
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1216,7 +1262,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1490
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1241,7 +1288,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1270
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1266,7 +1314,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1910
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1291,7 +1340,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1370
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1316,7 +1366,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1250
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1341,7 +1392,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1340
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1366,7 +1418,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1960
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1391,7 +1444,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1810
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1416,7 +1470,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1450
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1441,7 +1496,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1980
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1466,7 +1522,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1720
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1491,7 +1548,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1500
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1516,7 +1574,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1920
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1541,7 +1600,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1510
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1566,7 +1626,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1440
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1591,7 +1652,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1780
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1616,7 +1678,8 @@ export default function CustomDialogInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_POPUPBOX_CUSTOMDIALOG_INTERFACE_1970
+     * @tc.name   : Popupbox customdialog interface
+     * @tc.desc   : Verify popupbox customdialog interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

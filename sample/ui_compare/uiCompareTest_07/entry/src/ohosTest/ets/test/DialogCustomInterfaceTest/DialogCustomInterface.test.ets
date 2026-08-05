@@ -42,8 +42,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0020
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0020
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -60,8 +61,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0010
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0010
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -78,8 +80,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0030
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0030
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -96,8 +99,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0040
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0040
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -114,8 +118,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0050
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0050
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -132,8 +137,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0060
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0060
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -150,8 +156,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0100
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0100
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -168,8 +175,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0110
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0110
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -186,8 +194,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0120
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0120
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -204,8 +213,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0130
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0130
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -222,8 +232,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0140
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0140
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -240,8 +251,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0150
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0150
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -258,8 +270,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0160
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0160
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -276,8 +289,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0190
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0190
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -294,8 +308,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0230
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0230
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -312,8 +327,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0240
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0240
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -330,8 +346,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0250
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0250
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -348,8 +365,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0260
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0260
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -366,8 +384,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0270
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0270
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -384,8 +403,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0280
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0280
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -402,8 +422,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0290
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0290
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -420,8 +441,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0300
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0300
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -438,8 +460,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0330
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0330
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -456,8 +479,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0370
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0370
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -474,8 +498,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0420
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0420
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -492,8 +517,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0670
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0670
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
@@ -510,8 +536,9 @@ export default function DialogCustomInterface() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0700
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_INTERFACE_0700
-     * @tc.type   : function
+     * @tc.name   : Component function special components dialog custom interface
+     * @tc.desc   : Verify component function special components dialog custom interface interface behavior and expected UI result for this case.
+     * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
      */
