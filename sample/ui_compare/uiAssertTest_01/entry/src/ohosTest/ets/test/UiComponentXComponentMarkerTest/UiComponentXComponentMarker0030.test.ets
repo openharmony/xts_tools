@@ -22,8 +22,8 @@ export default function UiComponentXComponentMarker0030() {
   describe('UiComponentXComponentMarker0030', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_MULTITHREADING_0030
-     * @tc.name   : XCOMPONENT MULTITHREADING 0030
-     * @tc.desc   : Verify manual/external readiness marker for SUB_ACE_UI_COMPONENT_XCOMPONENT_MULTITHREADING_0030: 3线程+20线程并行场景下创建Xcomponent稳定性.
+     * @tc.name   : XComponent surface onLoad
+     * @tc.desc   : Verify XComponent SURFACE mounts and onLoad updates status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -31,23 +31,20 @@ export default function UiComponentXComponentMarker0030() {
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_MULTITHREADING_0030', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker0030')
       let driver = await Driver.create()
-      await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0030'), 8000)
-      if (btn == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
+      await Utils.sleep(800)
+      let ok = false
+      for (let i = 0; i < 10; i++) {
+        let result = await driver.waitForComponent(ON.id('xcomp_status'), 2000)
+        if (result != undefined) {
+          let text = await result.getText()
+          if (text == 'xcomp_onload') {
+            ok = true
+            break
+          }
+        }
+        await Utils.sleep(300)
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0030'), 5000)
-      if (result == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
-      }
-      let text = await result.getText()
-      expect(text).assertEqual('manual_case_pending')
+      expect(ok).assertTrue()
       done()
     })
   })

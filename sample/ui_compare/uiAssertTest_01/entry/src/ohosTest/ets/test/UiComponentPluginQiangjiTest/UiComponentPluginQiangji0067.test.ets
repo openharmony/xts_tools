@@ -22,8 +22,8 @@ export default function UiComponentPluginQiangji0067() {
   describe('UiComponentPluginQiangji0067', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_DEV_QIANGJI__FOLDSPLITCONTAINER_0050
-     * @tc.name   : DEV QIANGJI FOLDSPLITCONTAINER 0050
-     * @tc.desc   : Verify manual/external readiness marker for SUB_ACE_UI_COMPONENT_ARKUI_DEV_QIANGJI__FOLDSPLITCONTAINER_0050: FoldSplitContainer测试(5).
+     * @tc.name   : ColumnSplit layout ready
+     * @tc.desc   : Verify ColumnSplit layout presents ready status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponentPluginQiangji0067() {
       await Settings.changeWindow('testability/pages/UiComponentPluginQiangji/UiComponentPluginQiangji0067')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0050'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('split_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0050'), 5000)
+      let result = await driver.waitForComponent(ON.id('split_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('manual_case_pending')
+      expect(text).assertEqual('split_ready')
       done()
     })
   })

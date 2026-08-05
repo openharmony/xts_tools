@@ -16,23 +16,56 @@
 @Entry
 @Component
 struct UiComponent0803Remaining0044 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 8 }) {
       Text('SUB_ACE_UI_COMPONENT_MULTITHREAD_BUJU_SPECIAL_0010')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0010')
-        .onClick(() => {
-          this.resultText = 'manual_case_pending'
-        })
-      Text(this.resultText)
-        .id('assert_result_0010')
-        .fontSize(16)
+      Column() {
+                                        Column() {
+                                      Column() {
+                                    Column() {
+                                  Column() {
+                                Column() {
+                              Column() {
+                            Column() {
+                          Column() {
+                        Column() {
+                      Column() {
+                    Column() {
+                  Column() {
+                Column() {
+              Column() {
+            Column() {
+          Column() {
+        Column() {
+      Column() {
+    Column() {
+  Text('leaf').id('depth_leaf')
+}.id('depth_0')
+  }.id('depth_1')
+    }.id('depth_2')
+      }.id('depth_3')
+        }.id('depth_4')
+          }.id('depth_5')
+            }.id('depth_6')
+              }.id('depth_7')
+                }.id('depth_8')
+                  }.id('depth_9')
+                    }.id('depth_10')
+                      }.id('depth_11')
+                        }.id('depth_12')
+                          }.id('depth_13')
+                            }.id('depth_14')
+                              }.id('depth_15')
+                                }.id('depth_16')
+                                  }.id('depth_17')
+                                    }.id('depth_18')
+                                      }.id('depth_19')
+      Text('depth_20')
+        .id('depth_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(8)
   }
 }

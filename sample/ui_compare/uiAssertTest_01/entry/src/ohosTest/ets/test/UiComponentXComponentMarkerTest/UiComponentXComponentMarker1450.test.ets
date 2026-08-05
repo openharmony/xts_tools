@@ -22,8 +22,8 @@ export default function UiComponentXComponentMarker1450() {
   describe('UiComponentXComponentMarker1450', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450
-     * @tc.name   : SUPPORT XCOMPONENT CAPABILITY 1450
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450: NativeXComponentParameters方式构造texture类型的XC组件，hdrBrightness属性设置为1.
+     * @tc.name   : XComponent surface onLoad
+     * @tc.desc   : Verify XComponent SURFACE mounts and onLoad updates status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -31,23 +31,20 @@ export default function UiComponentXComponentMarker1450() {
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker1450')
       let driver = await Driver.create()
-      await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_1450'), 8000)
-      if (btn == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
+      await Utils.sleep(800)
+      let ok = false
+      for (let i = 0; i < 10; i++) {
+        let result = await driver.waitForComponent(ON.id('xcomp_status'), 2000)
+        if (result != undefined) {
+          let text = await result.getText()
+          if (text == 'xcomp_onload') {
+            ok = true
+            break
+          }
+        }
+        await Utils.sleep(300)
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_1450'), 5000)
-      if (result == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
-      }
-      let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(ok).assertTrue()
       done()
     })
   })

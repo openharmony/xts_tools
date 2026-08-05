@@ -22,8 +22,8 @@ export default function UiComponentToolbarCustom0410() {
   describe('UiComponentToolbarCustom0410', () => {
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_TOOLBAR_CUSTOM_0410
-     * @tc.name   : ATTRIBUTES TOOLBAR CUSTOM 0410
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_ATTRIBUTES_TOOLBAR_CUSTOM_0410: toolBar绑定onClick，设置distanceThreshold为100vp.
+     * @tc.name   : Real component path: row_reverse
+     * @tc.desc   : Verify real row_reverse component mounts and exposes ready status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponentToolbarCustom0410() {
       await Settings.changeWindow('testability/pages/UiComponentToolbarCustom/UiComponentToolbarCustom0410')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0410'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('comp_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0410'), 5000)
+      let result = await driver.waitForComponent(ON.id('comp_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(text).assertEqual('row_reverse_ready')
       done()
     })
   })

@@ -22,8 +22,8 @@ export default function UiComponentSpecialUecInterface0015() {
   describe('UiComponentSpecialUecInterface0015', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_QINAGJI_0015
-     * @tc.name   : SPECIALCOMPONENTS UIEXTENSIONCOMPONENT QINAGJI 0015
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_QINAGJI_0015: send参数测试.
+     * @tc.name   : UIExtensionComponent onError/host path
+     * @tc.desc   : Verify UIExtensionComponent mounts and reports error/status for provider path.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -31,23 +31,20 @@ export default function UiComponentSpecialUecInterface0015() {
     it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_QINAGJI_0015', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentSpecialUecInterface/UiComponentSpecialUecInterface0015')
       let driver = await Driver.create()
-      await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0015'), 8000)
-      if (btn == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
+      await Utils.sleep(800)
+      let ok = false
+      for (let i = 0; i < 10; i++) {
+        let result = await driver.waitForComponent(ON.id('uec_status'), 2000)
+        if (result != undefined) {
+          let text = await result.getText()
+          if (text != undefined && text.indexOf('uec_error:') >= 0) {
+            ok = true
+            break
+          }
+        }
+        await Utils.sleep(300)
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0015'), 5000)
-      if (result == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
-      }
-      let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(ok).assertTrue()
       done()
     })
   })

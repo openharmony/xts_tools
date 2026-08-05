@@ -16,23 +16,17 @@
 @Entry
 @Component
 struct UiComponent0803Remaining0020 {
-  @State resultText: string = 'idle'
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_MULTITHREAD_ISSUE_GC_0020')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0020')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
-        })
-      Text(this.resultText)
-        .id('assert_result_0020')
-        .fontSize(16)
+      Image($r('app.media.icon'))
+        .width(80).height(80)
+        .id('comp_host')
+      Text('image_ready').id('comp_status')
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }

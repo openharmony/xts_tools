@@ -22,8 +22,8 @@ export default function UiComponentXComponentMarker0167() {
   describe('UiComponentXComponentMarker0167', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_IGNORE_BUFFER_ALPHA_0150
-     * @tc.name   : IGNORE BUFFER ALPHA 0150
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_COMPONENT_XCOMPONENT_IGNORE_BUFFER_ALPHA_0150: c接口重复设置isOpaque.
+     * @tc.name   : XComponent surface onLoad
+     * @tc.desc   : Verify XComponent SURFACE mounts and onLoad updates status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -31,23 +31,20 @@ export default function UiComponentXComponentMarker0167() {
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_IGNORE_BUFFER_ALPHA_0150', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker0167')
       let driver = await Driver.create()
-      await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0150'), 8000)
-      if (btn == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
+      await Utils.sleep(800)
+      let ok = false
+      for (let i = 0; i < 10; i++) {
+        let result = await driver.waitForComponent(ON.id('xcomp_status'), 2000)
+        if (result != undefined) {
+          let text = await result.getText()
+          if (text == 'xcomp_onload') {
+            ok = true
+            break
+          }
+        }
+        await Utils.sleep(300)
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0150'), 5000)
-      if (result == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
-      }
-      let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(ok).assertTrue()
       done()
     })
   })

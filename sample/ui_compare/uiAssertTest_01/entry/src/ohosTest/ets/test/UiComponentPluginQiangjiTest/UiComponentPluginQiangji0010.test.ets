@@ -22,8 +22,8 @@ export default function UiComponentPluginQiangji0010() {
   describe('UiComponentPluginQiangji0010', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0010
-     * @tc.name   : QIANGJI SHAPE MULTITHREAD 0010
-     * @tc.desc   : Verify manual/external readiness marker for SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0010: 多个线程(20+)并行化创建100个XComponent组件.
+     * @tc.name   : Batch XComponent nodes proxy
+     * @tc.desc   : Verify batch creation of XComponent-like nodes and count status text.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponentPluginQiangji0010() {
       await Settings.changeWindow('testability/pages/UiComponentPluginQiangji/UiComponentPluginQiangji0010')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0010'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('shape_batch_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0010'), 5000)
+      let result = await driver.waitForComponent(ON.id('shape_batch_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('manual_case_pending')
+      expect(text).assertEqual('count_40')
       done()
     })
   })

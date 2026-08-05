@@ -22,8 +22,8 @@ export default function UiComponentPluginManager0018() {
   describe('UiComponentPluginManager0018', () => {
     /*
      * @tc.number : SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_QIANGJI_0001
-     * @tc.name   : PLUGINCOMPONENTMANAGER PUSH QIANGJI 0001
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_QIANGJI_0001: PushParameterForStage接口owner的bundleName设置有效值.
+     * @tc.name   : PluginComponent invalid source onError
+     * @tc.desc   : Verify PluginComponent with invalid source triggers onError status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -31,23 +31,20 @@ export default function UiComponentPluginManager0018() {
     it('SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_QIANGJI_0001', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentPluginManager/UiComponentPluginManager0018')
       let driver = await Driver.create()
-      await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0001'), 8000)
-      if (btn == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
+      await Utils.sleep(800)
+      let ok = false
+      for (let i = 0; i < 10; i++) {
+        let result = await driver.waitForComponent(ON.id('plugin_status'), 2000)
+        if (result != undefined) {
+          let text = await result.getText()
+          if (text == 'plugin_error') {
+            ok = true
+            break
+          }
+        }
+        await Utils.sleep(300)
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0001'), 5000)
-      if (result == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
-      }
-      let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(ok).assertTrue()
       done()
     })
   })

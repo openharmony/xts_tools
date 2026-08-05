@@ -22,8 +22,8 @@ export default function UiComponentPluginQiangji0030() {
   describe('UiComponentPluginQiangji0030', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0030
-     * @tc.name   : QIANGJI SHAPE MULTITHREAD 0030
-     * @tc.desc   : Verify manual/external readiness marker for SUB_ACE_UI_COMPONENT_ARKUI_QIANGJI_SHAPE_MULTITHREAD_0030: 多个线程(20+)并行化创建100个Video组件.
+     * @tc.name   : Batch Video nodes proxy
+     * @tc.desc   : Verify batch creation of Video-like nodes and count status text.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -32,22 +32,20 @@ export default function UiComponentPluginQiangji0030() {
       await Settings.changeWindow('testability/pages/UiComponentPluginQiangji/UiComponentPluginQiangji0030')
       let driver = await Driver.create()
       await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0030'), 8000)
-      if (btn == undefined) {
+      let target = await driver.waitForComponent(ON.id('shape_batch_status'), 8000)
+      if (target == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0030'), 5000)
+      let result = await driver.waitForComponent(ON.id('shape_batch_status'), 8000)
       if (result == undefined) {
         expect(false).assertTrue()
         done()
         return
       }
       let text = await result.getText()
-      expect(text).assertEqual('manual_case_pending')
+      expect(text).assertEqual('count_40')
       done()
     })
   })

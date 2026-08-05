@@ -22,8 +22,8 @@ export default function UiComponentXComponentMarker0018() {
   describe('UiComponentXComponentMarker0018', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_LIFESCALE_0018
-     * @tc.name   : XCOMPONENT LIFESCALE 0018
-     * @tc.desc   : Verify automation readiness marker for SUB_ACE_UI_COMPONENT_XCOMPONENT_LIFESCALE_0018: OH_ArkUI_SurfaceHolder创建异常值测试.
+     * @tc.name   : XComponent surface onLoad
+     * @tc.desc   : Verify XComponent SURFACE mounts and onLoad updates status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -31,23 +31,20 @@ export default function UiComponentXComponentMarker0018() {
     it('SUB_ACE_UI_COMPONENT_XCOMPONENT_LIFESCALE_0018', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentXComponentMarker/UiComponentXComponentMarker0018')
       let driver = await Driver.create()
-      await Utils.sleep(1500)
-      let btn = await driver.waitForComponent(ON.id('btn_0018'), 8000)
-      if (btn == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
+      await Utils.sleep(800)
+      let ok = false
+      for (let i = 0; i < 10; i++) {
+        let result = await driver.waitForComponent(ON.id('xcomp_status'), 2000)
+        if (result != undefined) {
+          let text = await result.getText()
+          if (text == 'xcomp_onload') {
+            ok = true
+            break
+          }
+        }
+        await Utils.sleep(300)
       }
-      await btn.click()
-      await Utils.sleep(500)
-      let result = await driver.waitForComponent(ON.id('assert_result_0018'), 5000)
-      if (result == undefined) {
-        expect(false).assertTrue()
-        done()
-        return
-      }
-      let text = await result.getText()
-      expect(text).assertEqual('assert_ready_pending')
+      expect(ok).assertTrue()
       done()
     })
   })
