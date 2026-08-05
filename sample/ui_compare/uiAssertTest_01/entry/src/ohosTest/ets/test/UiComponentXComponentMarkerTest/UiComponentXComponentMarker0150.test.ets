@@ -22,8 +22,8 @@ export default function UiComponentXComponentMarker0150() {
   describe('UiComponentXComponentMarker0150', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_XCOMPONENT_TYPENODE_CAPI_CAPABILITIE_EXPANSION_0150
-     * @tc.name   : XComponent surface onLoad
-     * @tc.desc   : Verify XComponent SURFACE mounts and onLoad updates status.
+     * @tc.name   : XComponent host onLoad
+     * @tc.desc   : Verify XComponent host mounts and onLoad updates status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

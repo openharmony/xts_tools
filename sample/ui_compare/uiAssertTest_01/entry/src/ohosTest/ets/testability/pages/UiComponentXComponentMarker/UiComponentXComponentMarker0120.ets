@@ -24,8 +24,8 @@ struct UiComponentXComponentMarker0120 {
       Text('SUB_ACE_UI_COMPONENT_XCOMPONENT_TYPENODE_CAPI_CAPABILITIE_EXPANSION_0120')
         .fontSize(12)
       XComponent({
-        id: 'xcomp_surface',
-        type: XComponentType.SURFACE,
+        id: 'xcomp_host',
+        type: XComponentType.TEXTURE,
         controller: this.xController
       })
         .width(200)

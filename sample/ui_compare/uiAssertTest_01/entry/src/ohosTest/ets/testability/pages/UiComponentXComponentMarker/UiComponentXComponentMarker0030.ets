@@ -24,8 +24,8 @@ struct UiComponentXComponentMarker0030 {
       Text('SUB_ACE_UI_COMPONENT_XCOMPONENT_MULTITHREADING_0030')
         .fontSize(12)
       XComponent({
-        id: 'xcomp_surface',
-        type: XComponentType.SURFACE,
+        id: 'xcomp_host',
+        type: XComponentType.TEXTURE,
         controller: this.xController
       })
         .width(200)

@@ -21,14 +21,14 @@ import { Driver, ON } from '@kit.TestKit'
 export default function UiComponentEmbeddedComponent0017() {
   describe('UiComponentEmbeddedComponent0017', () => {
     /*
-     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0017
+     * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0017
      * @tc.name   : EmbeddedComponent onError timeout marker
      * @tc.desc   : Verify EmbeddedComponent onCreate onError timeout readiness marker.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0017', Level.LEVEL3, async (done: Function) => {
+    it('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0017', Level.LEVEL3, async (done: Function) => {
       await Settings.changeWindow('testability/pages/UiComponentEmbeddedComponent/UiComponentEmbeddedComponent0017')
       let driver = await Driver.create()
       await Utils.sleep(1500)

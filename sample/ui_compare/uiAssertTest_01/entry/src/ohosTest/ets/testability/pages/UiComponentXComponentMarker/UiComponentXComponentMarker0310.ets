@@ -24,8 +24,8 @@ struct UiComponentXComponentMarker0310 {
       Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310')
         .fontSize(12)
       XComponent({
-        id: 'xcomp_surface',
-        type: XComponentType.SURFACE,
+        id: 'xcomp_host',
+        type: XComponentType.TEXTURE,
         controller: this.xController
       })
         .width(200)

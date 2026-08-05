@@ -24,8 +24,8 @@ struct UiComponentXComponentMarker1450 {
       Text('SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450')
         .fontSize(12)
       XComponent({
-        id: 'xcomp_surface',
-        type: XComponentType.SURFACE,
+        id: 'xcomp_host',
+        type: XComponentType.TEXTURE,
         controller: this.xController
       })
         .width(200)

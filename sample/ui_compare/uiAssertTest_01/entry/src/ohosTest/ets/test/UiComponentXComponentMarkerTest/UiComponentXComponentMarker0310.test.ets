@@ -22,8 +22,8 @@ export default function UiComponentXComponentMarker0310() {
   describe('UiComponentXComponentMarker0310', () => {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310
-     * @tc.name   : XComponent surface onLoad
-     * @tc.desc   : Verify XComponent SURFACE mounts and onLoad updates status.
+     * @tc.name   : XComponent host onLoad
+     * @tc.desc   : Verify XComponent host mounts and onLoad updates status.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

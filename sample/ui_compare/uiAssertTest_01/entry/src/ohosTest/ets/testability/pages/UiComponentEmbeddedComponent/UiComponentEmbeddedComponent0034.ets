@@ -19,7 +19,7 @@ struct UiComponentEmbeddedComponent0034 {
   @State resultText: string = 'idle'
   build() {
     Column({ space: 16 }) {
-      Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0034')
+      Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0034')
         .fontSize(12)
       Button('mark_term')
         .id('embedded_term_btn')

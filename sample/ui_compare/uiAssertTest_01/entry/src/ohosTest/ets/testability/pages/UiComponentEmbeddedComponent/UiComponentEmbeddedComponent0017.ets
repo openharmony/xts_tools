@@ -19,7 +19,7 @@ struct UiComponentEmbeddedComponent0017 {
   @State resultText: string = 'idle'
   build() {
     Column({ space: 16 }) {
-      Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0017')
+      Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0017')
         .fontSize(12)
       Button('mark_timeout')
         .id('embedded_timeout_btn')
