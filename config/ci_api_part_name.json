@@ -13115,6 +13115,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/common/lite/console.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/common/full/global.d.ts",
             "bundle_name": [
                 "ace_engine"
@@ -13158,6 +13165,13 @@
         },
         {
             "path": "interface/sdk-js/api/common/full/console.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/common/full/console.d.ts",
             "bundle_name": [
                 "ace_engine"
             ],
