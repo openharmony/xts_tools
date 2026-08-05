@@ -104,7 +104,7 @@ BATCH3_SNAP = [
         Text('dc_host')
         Progress({{ value: 40, total: 100 }}).width('80%').id('dc_progress_0030')
         LoadingProgress().width(48).height(48).id('dc_loading_0030')
-        Badge({{ value: 3 }}) {{ Text('badge') }}.id('dc_badge_0030')
+        Badge({{ count: 3, style: {{ badgeSize: 16, badgeColor: Color.Red }} }}) {{ Text('badge') }}.id('dc_badge_0030')
       }}
       .id('dc_container_0030')""",
         False,

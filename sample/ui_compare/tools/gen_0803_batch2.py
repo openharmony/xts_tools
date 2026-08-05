@@ -78,7 +78,7 @@ SNAP_CASES = [
         "Badge aging-friendly FrameNode style",
         "Verify Badge large-font / aging-friendly visual presentation.",
         """      Badge({{
-        value: 8,
+        count: 8,
         style: {{ badgeSize: 20, badgeColor: Color.Red }}
       }}) {{
         Text('msg')

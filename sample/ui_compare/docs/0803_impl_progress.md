@@ -2,15 +2,19 @@
 
 | 清单 | 已实现 | 清单总数 | 说明 |
 |------|--------|----------|------|
-| Snap（进 `_13` HAP） | 77 | ~121 | 组件视觉截图（含 interaction / ImageAnimator 等） |
-| Snap 表转 Assert marker | 含 IMAGE_APP/小语种等 | — | 无三方 App 时用 readiness marker |
-| Snap 表覆盖 | **全量（backtick 编号）** | | |
-| Assert 表 | **全量** | ~127–130 | 重依赖项为 marker（UEC/XComponent/Window 等） |
-| Manual/外仓 | **全量 marker** | 29 | `manual_case_pending`，非真机人工替代 |
-| **需求编号合计（去重）** | **≈280 / 280** | xlsx≈305 | 分流表可解析编号已全部落盘 |
+| Snap（进 `_13` HAP） | 77 | ~121 | 组件视觉截图 |
+| Snap/Assert/Manual 分流表 backtick 编号 | **267 / 267** | | 全量落盘 |
+| Assert/Manual 重依赖 | marker | | `assert_ready_pending` / `manual_case_pending` |
 
-## 说明
+## 设备验证（2026-08-05，`192.168.12.136:8710`）
 
-1. 注释规范：`number / name / desc / type / size / level`，`@tc.desc` 英文必填。
-2. 重依赖（真 UEC/元服务/外设/三方 App）当前为 **readiness marker**（按钮写入约定文案 + expect），便于清单闭环与后续替换真断言。
-3. 脚本：`tools/gen_0803_batch{2,3,4}.py`、`tools/gen_0803_fill_remaining.py`、`tools/unify_tc_comments.py`。
+| 工程 | 编签 | 抽样跑测 |
+|------|------|----------|
+| `uiCompareTest_13` | Pass（修 Badge `count`） | **8/8 Pass**（Progress/Badge/ImageAPI/QRCode/DC/Interaction/Crossplatform） |
+| `uiAssertTest_01` | Pass | **8/8 Pass**（Native/UEC/Plugin/XComponent/Window/IMAGE_APP/小语种 marker） |
+
+安装需在签名 profile 写入 `restricted-permissions`（`CAPTURE_SCREEN` / `SYSTEM_FLOAT_WINDOW` 等）；本地编签临时 numeric `compileSdkVersion: 26`，提交仍用 `"26.0.0"`。
+
+## 脚本
+
+`tools/gen_0803_batch{2,3,4}.py`、`tools/gen_0803_fill_remaining.py`、`tools/unify_tc_comments.py`。

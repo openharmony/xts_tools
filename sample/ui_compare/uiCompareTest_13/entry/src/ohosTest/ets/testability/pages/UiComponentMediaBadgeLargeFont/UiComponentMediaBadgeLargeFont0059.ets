@@ -21,7 +21,7 @@ struct UiComponentMediaBadgeLargeFont0059 {
       Text('SUB_ACE_UI_COMPONENT_MEDIA_BADGE_LARGE_FONT_0059')
         .fontSize(12)
       Badge({
-        value: 8,
+        count: 8,
         style: { badgeSize: 20, badgeColor: Color.Red }
       }) {
         Text('msg')
