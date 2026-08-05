@@ -7606,6 +7606,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@system.configuration.d.ts",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@ohos.file.keyManager.d.ts",
             "bundle_name": [
                 "storage_service"
@@ -8615,6 +8622,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.Parallelize.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.Parallelize.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
@@ -17995,6 +18009,13 @@
         },
         {
             "path": "interface/sdk-js/api/@ohos.arkui.performanceMonitor.static.d.ets",
+            "bundle_name": [
+                "ace_engine"
+            ],
+            "build_targets": {}
+        },
+        {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.arkui.performanceMonitor.static.d.ets",
             "bundle_name": [
                 "ace_engine"
             ],
