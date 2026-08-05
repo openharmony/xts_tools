@@ -45,6 +45,7 @@ export default function MouseBackwardanalysisTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_BACKWARDANALYSIS_0030
      * @tc.name   : 将鼠标从一个组件来回快速移动到另一个组件
+     * @tc.desc   : Verify action event commonevent mouse backwardanalysis interface behavior and expected UI result for this case.
      * @tc.type   : 将鼠标从一个组件来回快速移动到另一个组件，日志打印的鼠标坐标均正常
      * @tc.size   : MediumTest
      * @tc.level  : 3

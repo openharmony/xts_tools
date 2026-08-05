@@ -53,6 +53,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0010
      * @tc.name   : 验证默认鼠标样式移动至备忘录第一栏显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 启动备忘录应用，鼠标移动至备忘录第一栏，鼠标显示默认样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0020
      * @tc.name   : 验证修改鼠标样式移动至备忘录第一栏显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 修改鼠标样式后启动备忘录，鼠标移动至第一栏显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,6 +91,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0030
      * @tc.name   : 验证默认鼠标样式移动至第一、二栏之间sideBar显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 启动备忘录，鼠标移动至第一、二栏之间sideBar，鼠标显示分栏样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +110,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0050
      * @tc.name   : 验证默认鼠样式标移动至备忘录第二栏显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 启动备忘录，鼠标移动至第二栏，鼠标显示默认样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -125,6 +129,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0060
      * @tc.name   : 验证修改鼠样式标移动至备忘录第二栏显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 修改鼠标样式后启动备忘录，鼠标移动至第二栏显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +148,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0070
      * @tc.name   : 验证默认鼠样式标移动至第二、三栏之间sideBar显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 启动备忘录，鼠标移动至第二、三栏之间sideBar，鼠标显示分栏样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -161,6 +167,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0080
      * @tc.name   : 验证修改鼠样式标移动至第二、三栏之间sideBar显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 修改鼠标样式后启动备忘录，鼠标移动至第二、三栏之间sideBar显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -179,6 +186,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0090
      * @tc.name   : 验证默认鼠样式标移动至备忘录第三栏显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 启动备忘录，鼠标移动至第三栏，鼠标显示文本输入样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -197,6 +205,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0100
      * @tc.name   : 验证修改鼠样式标移动至备忘录第三栏显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 修改鼠标样式后启动备忘录，鼠标移动至第三栏显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,6 +224,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0110
      * @tc.name   : 验证自定义光标样式，鼠标快速移动至输入框显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 修改鼠标样式后启动备忘录，鼠标快速移动至输入框显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,6 +243,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0120
      * @tc.name   : 验证自定义光标样式，鼠标快速移动至文本显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 修改鼠标样式后启动备忘录，鼠标快速移动至文本区域显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -251,6 +262,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0130
      * @tc.name   : 验证一次设置所有自定义光标样式，鼠标快速移动至输入框显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 一次设置所有自定义光标样式后启动备忘录，鼠标快速移动至输入框显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -269,6 +281,7 @@ export default function MouseRefeshByVsyncTest() {
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_MOUSE_REFESHBYVSYNC_0140
      * @tc.name   : 验证一次设置所有自定义光标样式，鼠标快速移动至文本显示样式
+     * @tc.desc   : Verify action event commonevent mouse refeshbyvsync interface behavior and expected UI result for this case.
      * @tc.type   : 一次设置所有自定义光标样式后启动备忘录，鼠标快速移动至文本区域显示修改样式
      * @tc.size   : MediumTest
      * @tc.level  : 3
