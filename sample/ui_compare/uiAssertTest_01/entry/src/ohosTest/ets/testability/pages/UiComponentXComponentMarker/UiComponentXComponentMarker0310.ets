@@ -16,23 +16,32 @@
 @Entry
 @Component
 struct UiComponentXComponentMarker0310 {
-  @State resultText: string = 'idle'
+  @State statusText: string = 'idle'
+  private xController: XComponentController = new XComponentController()
+
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 12 }) {
       Text('SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310')
         .fontSize(12)
-      Button('mark_ready')
-        .id('btn_0310')
-        .onClick(() => {
-          this.resultText = 'assert_ready_pending'
+      XComponent({
+        id: 'xcomp_surface',
+        type: XComponentType.SURFACE,
+        controller: this.xController
+      })
+        .width(200)
+        .height(160)
+        .onLoad(() => {
+          this.statusText = 'xcomp_onload'
         })
-      Text(this.resultText)
-        .id('assert_result_0310')
-        .fontSize(16)
+        .onDestroy(() => {
+          this.statusText = 'xcomp_ondestroy'
+        })
+      Text(this.statusText)
+        .id('xcomp_status')
+        .fontSize(14)
     }
     .width('100%')
     .height('100%')
-    .padding(24)
-    .justifyContent(FlexAlign.Center)
+    .padding(16)
   }
 }
