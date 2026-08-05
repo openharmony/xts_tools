@@ -40,7 +40,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1460
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -58,7 +59,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2170
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,7 +78,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2800
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1560
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +117,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2810
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1650
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,7 +155,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1640
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,7 +174,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2850
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +193,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2890
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -203,7 +212,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2900
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -221,7 +231,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2830
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +250,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2870
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -257,7 +269,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2880
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,7 +288,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2820
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,7 +307,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2860
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,7 +326,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_2840
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -329,7 +345,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_3620
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -354,7 +371,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1140
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -373,7 +391,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0720
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -392,7 +411,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_0730
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -411,7 +431,8 @@ export default function UIComponentScrollSwiperInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_INTERFACE_1590
+     * @tc.name   : Scroll swiper interface
+     * @tc.desc   : Verify scroll swiper interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

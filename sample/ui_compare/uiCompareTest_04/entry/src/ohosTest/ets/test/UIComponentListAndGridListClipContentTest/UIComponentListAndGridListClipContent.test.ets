@@ -39,7 +39,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0040
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -57,7 +58,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0050
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -75,7 +77,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0070
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -109,7 +112,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0020
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -127,7 +131,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0060
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -145,7 +150,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0030
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -179,7 +185,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0080
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -197,7 +204,8 @@ export default function UIComponentListAndGridListClipContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CLIPCONTENT_0090
+     * @tc.name   : Listandgrid list clipcontent
+     * @tc.desc   : Verify listandgrid list clipcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

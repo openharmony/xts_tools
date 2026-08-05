@@ -40,6 +40,7 @@ export default function UIComponentRefreshPromptText() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_REFRESH_PROMPTTEXT_0020
      * @tc.name   : Set the promptText parameter of Refresh to string type
+     * @tc.desc   : Verify refresh prompttext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -39,7 +39,8 @@ export default function ActionGestureConfigurationTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120
-     * @tc.name   : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1120
+     * @tc.name   : Action gesture configuration
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -59,7 +60,8 @@ export default function ActionGestureConfigurationTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130
-     * @tc.name   : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1130
+     * @tc.name   : Action gesture configuration
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -79,7 +81,8 @@ export default function ActionGestureConfigurationTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140
-     * @tc.name   : SUB_ACE_ACTION_GESTURE_CONFIGURATION_1140
+     * @tc.name   : Action gesture configuration
+     * @tc.desc   : Verify action gesture configuration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

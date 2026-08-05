@@ -39,7 +39,8 @@ export default function UIImportComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040
-     * @tc.name   : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0040
+     * @tc.name   : Import componentcontent
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -67,7 +68,8 @@ export default function UIImportComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020
-     * @tc.name   : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0020
+     * @tc.name   : Import componentcontent
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -95,7 +97,8 @@ export default function UIImportComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030
-     * @tc.name   : SUB_ACE_UI_IMPORT_COMPONENTCONTENT_0030
+     * @tc.name   : Import componentcontent
+     * @tc.desc   : Verify import componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

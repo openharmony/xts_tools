@@ -39,7 +39,8 @@ export default function StatusManagerV2WithThemeTest() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_WITHTHEME_0020
+     * @tc.name   : Statusmanagerv2 withtheme
+     * @tc.desc   : Verify statusmanagerv2 withtheme interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

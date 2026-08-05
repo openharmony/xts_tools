@@ -40,6 +40,7 @@ export default function UIComponentMediaQualitys() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_QUALITYS_0050
      * @tc.name   : Set privacy mask that does not affect the attribute function
+     * @tc.desc   : Verify media qualitys interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

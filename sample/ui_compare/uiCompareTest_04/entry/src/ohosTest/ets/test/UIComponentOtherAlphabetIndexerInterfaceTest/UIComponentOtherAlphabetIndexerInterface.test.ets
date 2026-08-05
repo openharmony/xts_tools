@@ -40,6 +40,7 @@ export default function UIComponentOtherAlphabetIndexerInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0080
      * @tc.name   : Event onPopupSelect (callback: (index: number)=>void)
+     * @tc.desc   : Verify other alphabetindexer interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -63,6 +64,7 @@ export default function UIComponentOtherAlphabetIndexerInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_INTERFACE_0090
      * @tc.name   : Event onRequestPopupData (callback: (index: number)=>Array)
+     * @tc.desc   : Verify other alphabetindexer interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

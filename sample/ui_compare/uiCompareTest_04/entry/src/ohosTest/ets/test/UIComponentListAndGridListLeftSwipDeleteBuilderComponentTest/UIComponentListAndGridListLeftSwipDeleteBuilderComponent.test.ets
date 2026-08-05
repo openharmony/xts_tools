@@ -39,7 +39,8 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0100
+     * @tc.name   : Listandgrid list leftswipedelete buildercomponent
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -62,7 +63,8 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0090
+     * @tc.name   : Listandgrid list leftswipedelete buildercomponent
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -85,7 +87,8 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0040
+     * @tc.name   : Listandgrid list leftswipedelete buildercomponent
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -108,7 +111,8 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0180
+     * @tc.name   : Listandgrid list leftswipedelete buildercomponent
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -137,7 +141,8 @@ export default function UIComponentListAndGridListLeftSwipDeleteBuilderComponent
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSWIPEDELETE_BUILDERCOMPONENT_0080
+     * @tc.name   : Listandgrid list leftswipedelete buildercomponent
+     * @tc.desc   : Verify listandgrid list leftswipedelete buildercomponent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

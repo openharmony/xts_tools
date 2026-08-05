@@ -39,7 +39,8 @@ export default function ActionEventCommonEventAreaChangeApproximateChangeTest() 
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0010
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_AREACHANGE_APPROXIMATECHANGE_0010
+     * @tc.name   : Action event commonevent areachange approximatechange
+     * @tc.desc   : Verify action event commonevent areachange approximatechange interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -39,7 +39,8 @@ export default function UIArkUIGridCachedCountTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
-     * @tc.name   : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0010
+     * @tc.name   : ArkUI grid cachedcount
+     * @tc.desc   : Verify ArkUI grid cachedcount interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UIArkUIGridCachedCountTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020
-     * @tc.name   : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0020
+     * @tc.name   : ArkUI grid cachedcount
+     * @tc.desc   : Verify ArkUI grid cachedcount interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UIArkUIGridCachedCountTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090
-     * @tc.name   : SUB_ACE_UI_ARKUI_GRID_CACHEDCOUNT_0090
+     * @tc.name   : ArkUI grid cachedcount
+     * @tc.desc   : Verify ArkUI grid cachedcount interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

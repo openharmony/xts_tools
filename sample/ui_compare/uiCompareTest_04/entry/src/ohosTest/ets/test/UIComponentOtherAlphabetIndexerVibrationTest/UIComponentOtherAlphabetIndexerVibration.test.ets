@@ -40,6 +40,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0180
      * @tc.name   : Enable HapticFeedback to true, set the height of item to 10, click on the index bar letter
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -61,6 +62,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0010
      * @tc.name   : EnableHapticFeedback is not set, default value is true, click on the index bar letter
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -82,6 +84,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0100
      * @tc.name   : EnableHapticFeedback set to true, long press the index bar letter
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -103,6 +106,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0110
      * @tc.name   : EnableHapticFeedback set to true, release and switch index bar letters
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -124,6 +128,7 @@ export default function UIComponentOtherAlphabetIndexerVibration() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_VIBRATION_0030
      * @tc.name   : EnableHapticFeedback set to true, release and switch index bar letters
+     * @tc.desc   : Verify other alphabetindexer vibration interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

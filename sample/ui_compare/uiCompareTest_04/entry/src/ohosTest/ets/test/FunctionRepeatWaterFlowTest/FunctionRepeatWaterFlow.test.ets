@@ -40,7 +40,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0070
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -60,7 +61,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0050
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +82,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0110
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,7 +106,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0100
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,7 +126,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0060
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,7 +148,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0200
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +172,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0120
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,7 +194,8 @@ export default function FunctionRepeatWaterFlowTest() {
 
     /*
      * @tc.number : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130
-     * @tc.name   : SUB_ACE_FUNCTION_REPEAT_WATERFLOW_0130
+     * @tc.name   : Function repeat waterflow
+     * @tc.desc   : Verify function repeat waterflow interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

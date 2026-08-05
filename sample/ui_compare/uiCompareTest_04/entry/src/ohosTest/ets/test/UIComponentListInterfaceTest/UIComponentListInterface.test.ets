@@ -40,7 +40,8 @@ export default function UIComponentListInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_1250
+     * @tc.name   : Listandgrid list interface
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UIComponentListInterfaceTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_0060
+     * @tc.name   : Listandgrid list interface
+     * @tc.desc   : Verify listandgrid list interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

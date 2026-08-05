@@ -40,7 +40,8 @@ export default function UIComponentAcrListScrollBarWidthTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBARWIDTH_0010
+     * @tc.name   : Arclist scrollbarwidth
+     * @tc.desc   : Verify arclist scrollbarwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

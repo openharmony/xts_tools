@@ -40,6 +40,7 @@ export default function UIComponentOtherAlphabetIndexerUX() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_UX_0120
      * @tc.name   : Verify whether the display of multiple characters in the secondary pop-up window meets the specifications
+     * @tc.desc   : Verify other alphabetindexer ux interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

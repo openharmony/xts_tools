@@ -39,7 +39,8 @@ export default function UIComponentListAndGridGridMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0100
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -57,7 +58,8 @@ export default function UIComponentListAndGridGridMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0380
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -77,7 +79,8 @@ export default function UIComponentListAndGridGridMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0440
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -95,7 +98,8 @@ export default function UIComponentListAndGridGridMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0450
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -113,7 +117,8 @@ export default function UIComponentListAndGridGridMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0430
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,7 +136,8 @@ export default function UIComponentListAndGridGridMirrorTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_MIRROR_0420
+     * @tc.name   : Listandgrid grid mirror layout
+     * @tc.desc   : Verify listandgrid grid mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -39,7 +39,8 @@ export default function UIComponentListAndGridListComponentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_COMPONENT_0020
+     * @tc.name   : Listandgrid list component
+     * @tc.desc   : Verify listandgrid list component interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

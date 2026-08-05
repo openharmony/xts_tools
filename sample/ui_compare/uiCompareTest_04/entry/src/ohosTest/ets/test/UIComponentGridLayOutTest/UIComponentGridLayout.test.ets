@@ -39,7 +39,8 @@ export default function UIComponentGridLayoutTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0530_799
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,7 +58,8 @@ export default function UIComponentGridLayoutTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0520_674
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

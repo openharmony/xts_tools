@@ -39,7 +39,8 @@ export default function UIComponentSnapShotComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0010
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -63,7 +64,8 @@ export default function UIComponentSnapShotComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0650
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -90,7 +92,8 @@ export default function UIComponentSnapShotComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0550
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -117,7 +120,8 @@ export default function UIComponentSnapShotComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0450
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -144,7 +148,8 @@ export default function UIComponentSnapShotComponentContentTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SNAPSHOT_COMPONENTCONTEN_0480
+     * @tc.name   : Snapshot componentconten
+     * @tc.desc   : Verify snapshot componentconten interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

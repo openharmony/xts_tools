@@ -41,7 +41,8 @@ export default function UIComponentMediaCounterLargeFontTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0010
+     * @tc.name   : Media counter large font / aging font
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -92,7 +93,8 @@ export default function UIComponentMediaCounterLargeFontTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_MEDIA_COUNTER_LARGE_FONT_0018
+     * @tc.name   : Media counter large font / aging font
+     * @tc.desc   : Verify media counter large font / aging font interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

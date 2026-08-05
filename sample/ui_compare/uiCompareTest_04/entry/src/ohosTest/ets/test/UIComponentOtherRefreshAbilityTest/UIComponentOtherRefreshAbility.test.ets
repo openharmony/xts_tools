@@ -40,6 +40,7 @@ export default function UIComponentOtherRefreshAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0190
      * @tc.name   : OnStateChange event callback test
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -60,6 +61,7 @@ export default function UIComponentOtherRefreshAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0020
      * @tc.name   : Settings allow for dropdown refresh
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,6 +82,7 @@ export default function UIComponentOtherRefreshAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0030
      * @tc.name   : Do not set pullToRefresh, default value for testing
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -100,6 +103,7 @@ export default function UIComponentOtherRefreshAbility() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ABILITY_0060
      * @tc.name   : Set the dropdown refresh distance to 20
+     * @tc.desc   : Verify other refresh ability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

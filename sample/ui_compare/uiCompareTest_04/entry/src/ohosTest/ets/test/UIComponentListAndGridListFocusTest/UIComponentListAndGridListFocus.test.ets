@@ -39,7 +39,8 @@ export default function UIComponentListAndGridListFocusTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0010
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -64,7 +65,8 @@ export default function UIComponentListAndGridListFocusTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0030
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -89,7 +91,8 @@ export default function UIComponentListAndGridListFocusTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0040
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -114,7 +117,8 @@ export default function UIComponentListAndGridListFocusTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_FOCUS_0020
+     * @tc.name   : Listandgrid list focus
+     * @tc.desc   : Verify listandgrid list focus interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

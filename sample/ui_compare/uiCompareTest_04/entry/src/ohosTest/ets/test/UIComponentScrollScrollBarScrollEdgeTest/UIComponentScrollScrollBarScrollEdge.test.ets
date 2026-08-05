@@ -40,6 +40,7 @@ export default function UIComponentScrollScrollBarScrollEdge() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0260
      * @tc.name   : In the scroll container, set the velocity property parameter of scrollEdge to the normal value of 100
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -39,7 +39,8 @@ export default function UIComponentGridAutoStretchTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0070
+     * @tc.name   : Listandgrid grid auto stretch
+     * @tc.desc   : Verify listandgrid grid auto stretch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UIComponentGridAutoStretchTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0060
+     * @tc.name   : Listandgrid grid auto stretch
+     * @tc.desc   : Verify listandgrid grid auto stretch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UIComponentGridAutoStretchTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0050
+     * @tc.name   : Listandgrid grid auto stretch
+     * @tc.desc   : Verify listandgrid grid auto stretch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,7 +102,8 @@ export default function UIComponentGridAutoStretchTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_AUTO_STRETCH_0100_410
+     * @tc.name   : Listandgrid grid auto stretch
+     * @tc.desc   : Verify listandgrid grid auto stretch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

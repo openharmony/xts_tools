@@ -40,6 +40,7 @@ export default function UIComponentOtherRefreshInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0050
      * @tc.name   : Set RefreshStatues enumeration value: RefreshStatues.Refresh
+     * @tc.desc   : Verify other refresh interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -62,6 +63,7 @@ export default function UIComponentOtherRefreshInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0240
      * @tc.name   : Set the refresh dynamic component to False
+     * @tc.desc   : Verify other refresh interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,6 +86,7 @@ export default function UIComponentOtherRefreshInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_INTERFACE_0250
      * @tc.name   : Set the refresh dynamic component to true
+     * @tc.desc   : Verify other refresh interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -40,6 +40,7 @@ export default function UIComponentAlphabetIndexerAttributeAutocollapse() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_AUTOCOLLAPSE_0010
      * @tc.name   : Attribute - autoCollapse (value: boolean) - default value
+     * @tc.desc   : Verify alphabetindexer attribute autocollapse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

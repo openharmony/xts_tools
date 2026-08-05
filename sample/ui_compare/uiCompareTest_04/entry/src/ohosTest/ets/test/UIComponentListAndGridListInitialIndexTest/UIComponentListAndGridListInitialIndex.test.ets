@@ -39,7 +39,8 @@ export default function UIComponentListAndGridListInitialIndexTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0010
+     * @tc.name   : Listandgrid list initialindex
+     * @tc.desc   : Verify listandgrid list initialindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -65,7 +66,8 @@ export default function UIComponentListAndGridListInitialIndexTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INITIALINDEX_0020
+     * @tc.name   : Listandgrid list initialindex
+     * @tc.desc   : Verify listandgrid list initialindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

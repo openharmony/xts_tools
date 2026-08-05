@@ -39,7 +39,8 @@ export default function UIComponentScrollBarVelocityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -67,7 +68,8 @@ export default function UIComponentScrollBarVelocityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

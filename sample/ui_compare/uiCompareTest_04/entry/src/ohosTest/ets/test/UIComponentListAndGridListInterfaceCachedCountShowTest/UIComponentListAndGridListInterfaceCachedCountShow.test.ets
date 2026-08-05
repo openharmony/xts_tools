@@ -39,7 +39,8 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0010
+     * @tc.name   : Listandgrid list interface cachedcount show
+     * @tc.desc   : Verify listandgrid list interface cachedcount show interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -61,7 +62,8 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0020
+     * @tc.name   : Listandgrid list interface cachedcount show
+     * @tc.desc   : Verify listandgrid list interface cachedcount show interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,7 +81,8 @@ export default function UIComponentListAndGridListInterfaceCachedCountShowTest()
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_INTERFACE_CACHEDCOUNT_SHOW_0030
+     * @tc.name   : Listandgrid list interface cachedcount show
+     * @tc.desc   : Verify listandgrid list interface cachedcount show interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

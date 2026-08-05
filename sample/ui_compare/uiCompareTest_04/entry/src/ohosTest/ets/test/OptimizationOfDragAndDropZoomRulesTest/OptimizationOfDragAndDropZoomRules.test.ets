@@ -42,7 +42,8 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
 
     /*
      * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004
-     * @tc.name   : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_004
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -74,7 +75,8 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
 
     /*
      * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002
-     * @tc.name   : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_002
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -106,7 +108,8 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
 
     /*
      * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003
-     * @tc.name   : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_003
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -139,7 +142,8 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
 
     /*
      * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016
-     * @tc.name   : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_016
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -166,7 +170,8 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
 
     /*
      * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014
-     * @tc.name   : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_014
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -193,7 +198,8 @@ export default function OptimizationOfDragAndDropZoomRulesTest() {
 
     /*
      * @tc.number : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015
-     * @tc.name   : SUB_ACE_OPTIMIZATION_OF_DRAG_AND_DROP_ZOOM_RULES_FOR_HAND_FOLLOWING_IMAGES_015
+     * @tc.name   : Optimization of drag and drop zoom rules for hand following images
+     * @tc.desc   : Verify optimization of drag and drop zoom rules for hand following images interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

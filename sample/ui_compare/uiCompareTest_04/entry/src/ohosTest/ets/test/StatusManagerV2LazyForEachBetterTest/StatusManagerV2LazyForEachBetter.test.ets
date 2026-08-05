@@ -39,7 +39,8 @@ export default function StatusManagerV2LazyForEachBetterTest() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0010
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0010
+     * @tc.name   : Statusmanagerv2 lazyforeach better
+     * @tc.desc   : Verify statusmanagerv2 lazyforeach better interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -67,7 +68,8 @@ export default function StatusManagerV2LazyForEachBetterTest() {
 
     /*
      * @tc.number : SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030
-     * @tc.name   : SUB_ACE_STATUSMANAGERV2_LAZYFOREACH_BETTER_0030
+     * @tc.name   : Statusmanagerv2 lazyforeach better
+     * @tc.desc   : Verify statusmanagerv2 lazyforeach better interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

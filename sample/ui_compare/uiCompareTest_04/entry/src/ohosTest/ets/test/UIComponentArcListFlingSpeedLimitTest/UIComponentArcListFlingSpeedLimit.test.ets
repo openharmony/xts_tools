@@ -40,7 +40,8 @@ export default function UIComponentArcListFlingSpeedLimitTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_FLINGSPEEDLIMIT_0010
+     * @tc.name   : Arclist flingspeedlimit
+     * @tc.desc   : Verify arclist flingspeedlimit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

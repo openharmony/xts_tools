@@ -39,7 +39,8 @@ export default function UIComponentListOffSetTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0050
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,7 +58,8 @@ export default function UIComponentListOffSetTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0220
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,7 +77,8 @@ export default function UIComponentListOffSetTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0030
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,7 +96,8 @@ export default function UIComponentListOffSetTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_OFFSET_0251
+     * @tc.name   : Listandgrid list offset
+     * @tc.desc   : Verify listandgrid list offset interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

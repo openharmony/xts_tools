@@ -39,7 +39,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0120
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,7 +58,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0030
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,7 +77,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0040
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,7 +96,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0070
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +115,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0160
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,7 +134,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0150
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +153,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0110
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +172,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0080
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,7 +191,8 @@ export default function UIComponentListCapabilityTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1150
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

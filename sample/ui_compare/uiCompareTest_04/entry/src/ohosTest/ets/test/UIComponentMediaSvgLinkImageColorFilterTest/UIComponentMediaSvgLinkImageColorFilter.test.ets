@@ -40,6 +40,7 @@ export default function UIComponentMediaSvgLinkImageColorFilter() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_SVG_LINKIMAGE_COLORFILTER_0230
      * @tc.name   : Dynamically switch attribute values, corresponding effects take effect
+     * @tc.desc   : Verify media svg linkimage colorfilter interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -39,7 +39,8 @@ export default function UIComponentListScrollerScrollToTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_SCROLLER_SCROLLTO_0230
+     * @tc.name   : Listandgrid list scroller scrollto
+     * @tc.desc   : Verify listandgrid list scroller scrollto interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -40,7 +40,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0100
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0090
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -78,7 +80,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0080
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,7 +106,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0060
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,7 +126,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0050
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +146,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0070
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -166,7 +172,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0010
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +192,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0130
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -204,7 +212,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0140
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,7 +232,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0110
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -242,7 +252,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0120
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +272,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0150
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -280,7 +292,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0030
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -305,7 +318,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0160
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -324,7 +338,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0020
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,7 +358,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0040
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,7 +384,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0580
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -387,7 +404,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0560
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -406,7 +424,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0550
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -431,7 +450,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0570
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +470,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0600
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,7 +490,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0590
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -488,7 +510,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0510
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -507,7 +530,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0630
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -526,7 +550,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0640
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -545,7 +570,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0610
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -564,7 +590,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0650
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -583,7 +610,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0660
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -602,7 +630,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0530
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -621,7 +650,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0620
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -640,7 +670,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0520
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -659,7 +690,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0540
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -678,7 +710,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1080
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -699,7 +732,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1050
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -720,7 +754,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1060
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,7 +776,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1100
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -762,7 +798,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1070
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -783,7 +820,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1090
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -804,7 +842,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1130
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -825,7 +864,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1110
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -846,7 +886,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1150
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -867,7 +908,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1120
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -888,7 +930,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1140
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -909,7 +952,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1010
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -930,7 +974,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1030
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -951,7 +996,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1160
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -972,7 +1018,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1020
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -997,7 +1044,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_1040
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1018,7 +1066,8 @@ export default function UIComponentButtonTextPickerArkUITest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_ARKUI_0170
+     * @tc.name   : Button TextPicker ArkUI
+     * @tc.desc   : Verify button TextPicker ArkUI interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

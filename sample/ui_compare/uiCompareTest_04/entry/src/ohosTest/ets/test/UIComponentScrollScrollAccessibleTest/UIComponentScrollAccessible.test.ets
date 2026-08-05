@@ -40,6 +40,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0290
      * @tc.name   : Scroll: Use the scroll controller to scroll and obtain the scroll offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -63,6 +64,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0310
      * @tc.name   : Scroll: Slide the scrollbar to obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -89,6 +91,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0280
      * @tc.name   : Scroll: Use the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -114,6 +117,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0300
      * @tc.name   : Scroll uses keyboard focus to obtain scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,6 +145,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0120
      * @tc.name   : Slide the scroll bar on the List to obtain the scroll offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -164,6 +169,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0050
      * @tc.name   : List dynamically switches the number of items and obtains the offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -185,6 +191,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0110
      * @tc.name   : List dynamically switches the number of items and obtains the offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -212,6 +219,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0020
      * @tc.name   : List dynamically switches the width and height of items to obtain the offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -233,6 +241,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0090
      * @tc.name   : List: Use the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -256,6 +265,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0100
      * @tc.name   : List: Use the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -277,6 +287,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0360
      * @tc.name   : Waterflow uses keyboard autofocus to obtain scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -312,6 +323,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0350
      * @tc.name   : Waterflow uses a scrolling controller to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -333,6 +345,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0370
      * @tc.name   : Waterflow uses a scrolling controller to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -356,6 +369,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0230
      * @tc.name   : Grid uses a rolling controller to scroll and obtain the rolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -377,6 +391,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0250
      * @tc.name   : Grid sliding scrollbar to obtain scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -400,6 +415,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0140
      * @tc.name   : Grid dynamically switches spacing to obtain offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -421,6 +437,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0150
      * @tc.name   : Grid dynamically switches item width and height to obtain offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -442,6 +459,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0160
      * @tc.name   : Grid dynamically switches the number of items to obtain the offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -463,6 +481,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0170
      * @tc.name   : Obtain offset after dynamically switching the number of grid rows and columns
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -484,6 +503,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0240
      * @tc.name   : Grid uses keyboard focusing to obtain scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -515,6 +535,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0220
      * @tc.name   : Grid uses the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -538,6 +559,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0340
      * @tc.name   : Waterflow uses the mouse wheel to scroll and obtain the scrolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -561,6 +583,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0040
      * @tc.name   : Dynamically switch the number of rows and columns in the List to obtain the offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -582,6 +605,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0030
      * @tc.name   : List dynamically switches between rows and columns to obtain offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -603,6 +627,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0060
      * @tc.name   : List dynamically switches horizontally, vertically, and backward to obtain offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -624,6 +649,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0070
      * @tc.name   : Combining ListGroup and ListItem scenarios to obtain offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -647,6 +673,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0200
      * @tc.name   : Grid uses layoutDirection layout to obtain rolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -670,6 +697,7 @@ export default function UIComponentScrollScrollAccessible() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLL_ACCESSIBLE_0190
      * @tc.name   : Grid uses LayoutOptions layout to obtain rolling offset
+     * @tc.desc   : Verify scroll accessible interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

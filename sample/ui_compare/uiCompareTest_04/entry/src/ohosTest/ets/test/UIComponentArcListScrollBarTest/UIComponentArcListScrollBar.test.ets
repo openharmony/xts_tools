@@ -40,7 +40,8 @@ export default function UIComponentArcListScrollBarTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0010
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,7 +81,8 @@ export default function UIComponentArcListScrollBarTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_SCROLLBAR_0030
+     * @tc.name   : Arclist scrollbar
+     * @tc.desc   : Verify arclist scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

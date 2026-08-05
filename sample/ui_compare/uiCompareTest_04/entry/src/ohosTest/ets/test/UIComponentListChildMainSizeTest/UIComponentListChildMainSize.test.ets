@@ -40,7 +40,8 @@ export default function UIComponentListChildMainSizeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0160
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -59,7 +60,8 @@ export default function UIComponentListChildMainSizeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0680
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +82,8 @@ export default function UIComponentListChildMainSizeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0560
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,7 +108,8 @@ export default function UIComponentListChildMainSizeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0620
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,7 +130,8 @@ export default function UIComponentListChildMainSizeTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0580
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

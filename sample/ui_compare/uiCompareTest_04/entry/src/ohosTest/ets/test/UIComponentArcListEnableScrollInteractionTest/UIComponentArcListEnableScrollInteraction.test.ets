@@ -40,7 +40,8 @@ export default function UIComponentArcListEnableScrollInteractionTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ARCLIST_ENABLESCROLLINTERACTION_0010
+     * @tc.name   : Arclist enablescrollinteraction
+     * @tc.desc   : Verify arclist enablescrollinteraction interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

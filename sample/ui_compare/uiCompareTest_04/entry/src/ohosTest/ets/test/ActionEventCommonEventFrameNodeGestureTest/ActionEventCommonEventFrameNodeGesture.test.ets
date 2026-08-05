@@ -40,7 +40,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_002
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -60,7 +61,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_001
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -80,7 +82,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_004
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -100,7 +103,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_016
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -121,7 +125,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_012
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -141,7 +146,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_014
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -161,7 +167,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_011
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -181,7 +188,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_013
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -201,7 +209,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_015
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -222,7 +231,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_022
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -243,7 +253,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_023
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -264,7 +275,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_024
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -286,7 +298,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_025
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -307,7 +320,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_031
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -328,7 +342,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_033
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -349,7 +364,8 @@ export default function ActionEventCommonEventFrameNodeGestureTest() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_FRAMENODE_GESTURE_032
+     * @tc.name   : Action event commonevent framenode gesture
+     * @tc.desc   : Verify action event commonevent framenode gesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -40,6 +40,7 @@ export default function UIComponentOtherRefreshAnimation() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_REFRESH_ANIMATION_0120
      * @tc.name   : SRefresh component setting custom bulider component followed by hand drop-down, observe log printing
+     * @tc.desc   : Verify other refresh animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

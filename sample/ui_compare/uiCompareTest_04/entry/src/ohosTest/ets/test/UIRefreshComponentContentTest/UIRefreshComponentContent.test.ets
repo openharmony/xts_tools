@@ -40,6 +40,7 @@ export default function UIRefreshComponentContent() {
     /*
      * @tc.number : SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0010
      * @tc.name   : The builder parameter does not take effect when setting refreshingContent
+     * @tc.desc   : Verify refresh componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -66,6 +67,7 @@ export default function UIRefreshComponentContent() {
     /*
      * @tc.number : SUB_ACE_UI_REFRESH_COMPONENTCONTENT_0020
      * @tc.name   : Refresh Content function is normal
+     * @tc.desc   : Verify refresh componentcontent interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

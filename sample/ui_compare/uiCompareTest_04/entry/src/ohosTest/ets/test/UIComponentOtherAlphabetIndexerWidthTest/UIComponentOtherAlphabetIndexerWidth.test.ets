@@ -40,6 +40,7 @@ export default function UIComponentOtherAlphabetIndexerWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0070
      * @tc.name   : The width of AlphabetIndexer is of the number type
+     * @tc.desc   : Verify other alphabetindexer width interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -58,6 +59,7 @@ export default function UIComponentOtherAlphabetIndexerWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_WIDTH_0080
      * @tc.name   : The width of AlphabetIndexer is of the number type - long text
+     * @tc.desc   : Verify other alphabetindexer width interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -39,7 +39,8 @@ export default function UIComponentScrollSwiperDragTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0560
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,7 +58,8 @@ export default function UIComponentScrollSwiperDragTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0550
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,7 +77,8 @@ export default function UIComponentScrollSwiperDragTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0730
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +98,8 @@ export default function UIComponentScrollSwiperDragTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SWIPER_DRAG_0670
+     * @tc.name   : Scroll swiper drag
+     * @tc.desc   : Verify scroll swiper drag interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -42,6 +42,7 @@ export default function UIComponentOtherAlphabetIndexerImprove() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_OTHER_ALPHABETINDEXER_IMPROVE_0090
      * @tc.name   : Do not set the popupiTemBorderRadius property of AlphabetIndexer
+     * @tc.desc   : Verify other alphabetindexer improve interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -39,7 +39,8 @@ export default function UIComponentGridAlignItemsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0010
+     * @tc.name   : Grid alignltems
+     * @tc.desc   : Verify grid alignltems interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -57,7 +58,8 @@ export default function UIComponentGridAlignItemsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0060
+     * @tc.name   : Grid alignltems
+     * @tc.desc   : Verify grid alignltems interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,7 +77,8 @@ export default function UIComponentGridAlignItemsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0020
+     * @tc.name   : Grid alignltems
+     * @tc.desc   : Verify grid alignltems interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,7 +96,8 @@ export default function UIComponentGridAlignItemsTest() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ALIGNLTEMS_0300
+     * @tc.name   : Grid alignltems
+     * @tc.desc   : Verify grid alignltems interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
