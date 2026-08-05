@@ -81,7 +81,7 @@ duration测试修改为0时图片是否按照1s的间隔只循环三次切换格
 | `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0078` | 测试iterations测试都默认为-1将duration测试修改为3000时图片是否按照每三秒换七次图片的时间间隔一直循环切换格式 | 组件1组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_CROSSPLATFORM_0080` | 测试iterations测试都默认为-1时图片是否按照1s的间隔只进行一次切换格式 | 组件1组 |
 | `TestCase_5f255cbe232a4f89bcc64eb7b9bfd7ae` | 多列TextCascadePickerRangeContent[]向下抛滑 | 组件1组 |
-| `TestCase_bac8776d9aa94f7087bf2e13350d8157` | 多列TextCascadePickerRangeContent[]多指操作同时滑动多列 | 组件1组 |
+| `TestCase_bac8776d9a​a94f7087bf2e13350d​8157` | 多列TextCascadePickerRangeContent[]多指操作同时滑动多列 | 组件1组 |
 | `TestCase_07f07b14baf24fafa7a4743b3b6d6c3b` | 单列string[]向下滑动 | 组件1组 |
 | `TestCase_17c8e9a5845645029f5c7b91379c3fa9` | 多列TextCascadePickerRangeContent[]点击上面备选项 | 组件1组 |
 | `TestCase_d0cf236fa8224bb4b73ffea51564af48` | 单列Resource向下抛滑 | 组件1组 |
@@ -90,18 +90,18 @@ duration测试修改为0时图片是否按照1s的间隔只循环三次切换格
 | `TestCase_4b69a29e043d49f2826d78cdfa38c301` | 单列TextPickerRangeContent[]向上拖动 | 组件1组 |
 | `TestCase_3432d74b60784c37a3bbd9e7827161e7` | 单列string[]点击上面备选项 | 组件1组 |
 | `TestCase_6798a737e3c44b3ca369132b6d5539a9` | 单列string[]点击下面备选项 | 组件1组 |
-| `TestCase_1ea6aaaa59164ca09f779055a5f552bf` | 多列string[][]向下滑动 | 组件1组 |
-| `TestCase_45a89390e1fa4ed886efd8313e14becd` | 多列string[][]向上抛滑 | 组件1组 |
+| `TestCase_1ea6a​a​a​a59164ca09f779055a5f552bf` | 多列string[][]向下滑动 | 组件1组 |
+| `TestCase_45a89390e1fa4ed​886efd​8313e14becd` | 多列string[][]向上抛滑 | 组件1组 |
 | `TestCase_ee1555843b47437d94fdbd7b31861ca3` | 手表TimePicker1：TimePicker设置loop（true）,digitalCrownSensitivity（MEDIUM），disappearTextStyle、textStyle、selectedTextStyle都为（color：Pink，font: { size: "26fp", weight: FontWeight.Lighter,family:"Arial", style: FontStyle.Normal}），onChange事件，useMilitaryTime（true）,dateTimeOptions（2-digit）,format（HOUR_MINUTE_SECOND） | 组件1组 |
-| `TestCase_0d3bfb95867e48e1aaa4d247bb714fd9` | 手表DatePicker6：DatePicker设置lunar（true）、镜像语言（维吾尔语） | 组件1组 |
+| `TestCase_0d3bfb95867e48e1a​a​a4d247bb714fd9` | 手表DatePicker6：DatePicker设置lunar（true）、镜像语言（维吾尔语） | 组件1组 |
 | `TestCase_ad4440e5bc0f413a85c61c027db1963d` | 手表TimePicker6：TimePicker设置loop（true）,不设置digitalCrownSensitivity（MEDIUM），disappearTextStyle、textStyle、selectedTextStyle都为（color：$r("app.string.string1"#FFFF00)，font: { size:$r("app.string.string26"26, weight: FontWeight.Bolder,family:"Arial", style: FontStyle.Italic}），onChange事件，dateTimeOptions（2-digit）,不设置useMilitaryTime和format | 组件1组 |
 | `TestCase_9e50abe1fbb54022a36cae3109ffe7e6` | 手表DatePicker14：DatePicker设置lunar（false）、镜像语言（维吾尔语） | 组件1组 |
-| `TestCase_130eeddceede43fca1de0045458fccd8` | 手表DatePicker8：DatePicker设置lunar（true）、稳定性 | 组件1组 |
+| `TestCase_130eeddceede43fca1de0045458fccd​8` | 手表DatePicker8：DatePicker设置lunar（true）、稳定性 | 组件1组 |
 | `SUB_TV_UX_ImageAnimator_009` | 【imageAnimator】用户自定义borderradius，校验与修改值一致 | 组件1组 |
 | `TestCase_3f2e053adf414cd98e740c5d0c7b5ce1` | 手表TimePicker5：TimePicker设置loop（true）,digitalCrownSensitivity（MEDIUM），disappearTextStyle、textStyle、selectedTextStyle都为（color：$r("app.string.string1"#FFFF00)，font: { size:$r("app.string.string26"26, weight: FontWeight.Bolder,family:"Arial", style: FontStyle.Italic}），onChange事件，useMilitaryTime（true）,dateTimeOptions（2-digit）,format（HOUR_MINUTE_SECOND） | 组件1组 |
 | `TestCase_bf29740579c44dfeac0d5c6c028cda11` | 手表DatePicker9：DatePicker设置lunar（false）,digitalCrownSensitivity（MEDIUM），disappearTextStyle、textStyle、selectedTextStyle都为（color：Pink，font: { size: "26fp", weight: FontWeight.Lighter,family:"Arial", style: FontStyle.Normal}），onDateChange事件 | 组件1组 |
-| `TestCase_4e3772419cdb40e5970f5d85160b2cc1` | 手表DatePicker4：DatePicker设置lunar（true）,digitalCrownSensitivity（null），disappearTextStyle、textStyle、selectedTextStyle都为（color：$r("app.string.string1"#FFFF00)，font: { size:$r("app.string.string26"26, weight: FontWeight.Bold,family:"Arial", style: FontStyle.Normal}），onDateChange事件 | 组件1组 |
-| `TestCase_6a5f4aae88564e12a88e950de5f1aafb` | 手表TimePicker10：TimePicker设置loop（false）,digitalCrownSensitivity（HIGH），disappearTextStyle、textStyle、selectedTextStyle都为（color：0xff0000，font: { size: 30, weight: FontWeight.Normal,family:"HarmonyOS Sans", style: FontStyle.Italic}），onChange事件，useMilitaryTime（false）,dateTimeOptions（numeric）,format（HOUR_MINUTE） | 组件1组 |
+| `TestCase_4e3772419cdb40e5970f5d​85160b2cc1` | 手表DatePicker4：DatePicker设置lunar（true）,digitalCrownSensitivity（null），disappearTextStyle、textStyle、selectedTextStyle都为（color：$r("app.string.string1"#FFFF00)，font: { size:$r("app.string.string26"26, weight: FontWeight.Bold,family:"Arial", style: FontStyle.Normal}），onDateChange事件 | 组件1组 |
+| `TestCase_6a5f4a​ae88564e12a88e950de5f1a​afb` | 手表TimePicker10：TimePicker设置loop（false）,digitalCrownSensitivity（HIGH），disappearTextStyle、textStyle、selectedTextStyle都为（color：0xff0000，font: { size: 30, weight: FontWeight.Normal,family:"OpenHarmony Sans", style: FontStyle.Italic}），onChange事件，useMilitaryTime（false）,dateTimeOptions（numeric）,format（HOUR_MINUTE） | 组件1组 |
 | `SUB_TV_UX_ImageAnimator_003` | 【ImageAnimator】推入overlay，校验TV样式无差异 | 组件1组 |
 | `SUB_TV_TextPicker_FadingEdge_15` | range内容为文本，超长内容有渐隐 | 组件1组 |
 | `SUB_TV_DatePicker_UI_030` | 030.【DatePicker】不推入overlay，验证标准模式备忘录应用中datepicker | 组件1组 |

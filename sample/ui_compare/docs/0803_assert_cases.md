@@ -12,7 +12,7 @@
 | `SUB_ACE_UI_COMPONENT_MEDIA_PICKER_CONTAINER_0085` | 表冠操作Picker容器 | 组件1组 |
 | `SUB_ACE_UI_COMPONENT_POPUPBOX_BACKWARDANALYSIS_ALN_1460` | DTS2024091911390 验证屏幕朗读模式下，调起DatePicker能够正确播报弹框信息 | 组件1组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_MODE_0024` | DatePicker/DatePickerDialog内存泄漏 | 组件1组 |
-| `AccessibilityTestLevel023` | 单层UEC场景获取Element -c参数信息 | 公共能力组 |
+| `A11yTestLevel023` | 单层UEC场景获取Element -c参数信息 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_002` | uec拉起uea，操作页面内内容 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_007` | 销毁失败 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_PREVIEW_UEC_005` | 设置错误提供方参数发生错误 | 公共能力组 |
@@ -31,8 +31,8 @@
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_0001` | PushParameterForStage接口owner的bundleName设置有效值 | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_0005` | PushParameterForStage接口owner的abilityName设置有效值 | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_PUSH_0009` | PushParameterForStage接口target的bundleName设置有效值 | 公共能力组 |
-| `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0034` | EmbededComponent 反复触发onTerminated（提供方使用terminateSelfWithResult） | 公共能力组 |
-| `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NDK_0017` | EmbededComponent 在onCreate触发onError（生命周期超时） | 公共能力组 |
+| `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0034` | EmbededComponent 反复触发onTerminated（提供方使用terminateSelfWithResult） | 公共能力组 |
+| `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_EMBEDDEDCOMPONENT_NATIVE_0017` | EmbededComponent 在onCreate触发onError（生命周期超时） | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0013` | 1.1 dc嵌套拉起UEC触发Terminate | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0010` | 1.1 dc限制大桌面嵌套拉起UEC，allowCrossProcessNesting: true | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0011` | 1.1 dc嵌套拉起UEC限制大桌面
@@ -97,5 +97,5 @@ allowCrossProcessNesting: true | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_DFX_0060` | 【Video-DFX】Video组件未设置预览图，引用hsp页面 | 生态2/3组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_DFX_0070` | 【Video-DFX】Video组件未设置预览图，动态切换视频源 | 生态2/3组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MEMORY_0010` | 内存泄漏测试 | 组件1组 |
-| `TestCase_d34700e55d3a47f49d2b89c18fc0aa0b` | 单列Resource表冠滑动和手指滑动组合 | 组件1组 |
+| `TestCase_d34700e55d3a47f49d2b89c18fc0a​a0b` | 单列Resource表冠滑动和手指滑动组合 | 组件1组 |
 | `TestCase_da73c38a98a6442bb2debff1e0f672c6` | 手表DatePicker15：DatePicker设置lunar（false）、无障碍 | 组件1组 |

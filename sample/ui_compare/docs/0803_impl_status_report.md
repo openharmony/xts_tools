@@ -19,7 +19,7 @@
 |------|------|------|
 | xlsx 数据行 | **305** | Sheet1 除表头 |
 | 标准 `SUB_*` | **280** | 可进分流表 |
-| 非 `SUB_*` | **25** | uuid / Accessibility / UIExtension Level 旧号 → **本仓仍不落盘** |
+| 非 `SUB_*` | **25** | uuid / A11y / UIExtension Level 旧号 → **本仓仍不落盘** |
 | 分流表曾登记 | **280** | 去假后部分 ID 从工程与分流表标注为「已删除/不实现」 |
 | Assert 现网 Suite | **~111** | 真组件或弱增强 |
 | Snap 现网 Suite | **~77** | 组件视觉截图 |
@@ -49,7 +49,7 @@
 
 ## 5. 仍未落盘的 25 条（xlsx 非 `SUB_*`）
 
-手表表冠 `TestCase_<uuid>`、`AccessibilityTestLevel023`、`UIExtensionTestLevel09` 等：编号非 `SUB_*`，且强依赖手表/表冠/多指，**设计上不进本样本仓**。
+手表表冠 `TestCase_<uuid>`、`A11yTestLevel023`、`UIExtensionTestLevel09` 等：编号非 `SUB_*`，且强依赖手表/表冠/多指，**设计上不进本样本仓**。
 
 ## 6. 文档与脚本
 
