@@ -41,7 +41,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0110
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,7 +64,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0130
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +87,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0120
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +111,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0140
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +134,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0200
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,7 +158,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0180
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -175,7 +181,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0190
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -198,7 +205,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0170
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +227,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0210
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,7 +249,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0260
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -261,7 +271,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0220
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -282,7 +293,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0280
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -304,7 +316,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0300
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -326,7 +339,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0230
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -348,7 +362,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0290
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -373,7 +388,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0270
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -395,7 +411,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0070
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,7 +434,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0010
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -439,7 +457,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0020
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -461,7 +480,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0090
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -484,7 +504,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0060
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -506,7 +527,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0100
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -528,7 +550,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0080
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -550,7 +573,8 @@ export default function UIComponentScrollScrollbarVelocity() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_VELOCITY_0030
+     * @tc.name   : Scroll scrollbar velocity
+     * @tc.desc   : Verify scroll scrollbar velocity interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

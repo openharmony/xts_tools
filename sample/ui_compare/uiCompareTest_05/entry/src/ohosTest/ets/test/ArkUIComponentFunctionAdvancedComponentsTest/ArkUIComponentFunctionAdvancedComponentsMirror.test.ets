@@ -43,7 +43,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0530
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,7 +69,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0220
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,7 +95,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0590
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +121,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0560
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,7 +148,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0580
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,7 +174,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0210
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,7 +201,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0270
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -220,7 +227,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0290
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -246,7 +254,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0240
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,7 +280,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0510
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -296,7 +306,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0230
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -322,7 +333,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0250
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -348,7 +360,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0260
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -374,7 +387,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0310
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -400,7 +414,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0520
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -425,7 +440,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0320
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -450,7 +466,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0330
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -475,7 +492,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0340
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -501,7 +519,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0360
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -526,7 +545,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0350
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -551,7 +571,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0370
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -575,7 +596,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0280
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -600,7 +622,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0380
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -626,7 +649,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0420
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -652,7 +676,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0010
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -678,7 +703,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0470
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -704,7 +730,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0040
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -730,7 +757,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0430
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -756,7 +784,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0070
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -780,7 +809,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0020
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -806,7 +836,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0410
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -830,7 +861,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0460
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -856,7 +888,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0110
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -882,7 +915,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0440
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -906,7 +940,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0490
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -932,7 +967,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0060
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -956,7 +992,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0050
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -982,7 +1019,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0500
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1008,7 +1046,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0130
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1032,7 +1071,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0480
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1058,7 +1098,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0080
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1084,7 +1125,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0140
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1110,7 +1152,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0120
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1136,7 +1179,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0030
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1162,7 +1206,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0160
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1186,7 +1231,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0170
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1212,7 +1258,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0180
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1236,7 +1283,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
     })
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0200
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1262,7 +1310,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0190
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1288,7 +1337,8 @@ export default function ArkUIComponentFunctionAdvancedComponentsMirror() {
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_ADVANCEDCOMPONENTS_MIRROR_0570
+     * @tc.name   : Component function advanced components mirror layout
+     * @tc.desc   : Verify component function advanced components mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

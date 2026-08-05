@@ -41,7 +41,8 @@ export default function UIComponentScrollScrollbarScrolledge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0150
+     * @tc.name   : Scroll scrollbar scrolledge
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -63,7 +64,8 @@ export default function UIComponentScrollScrollbarScrolledge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0380
+     * @tc.name   : Scroll scrollbar scrolledge
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +87,8 @@ export default function UIComponentScrollScrollbarScrolledge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_SCROLL_SCROLLBAR_SCROLLEDGE_0030
+     * @tc.name   : Scroll scrollbar scrolledge
+     * @tc.desc   : Verify scroll scrollbar scrolledge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
