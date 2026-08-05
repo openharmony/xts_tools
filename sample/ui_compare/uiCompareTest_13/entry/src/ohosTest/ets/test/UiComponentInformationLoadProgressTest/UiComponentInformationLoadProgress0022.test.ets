@@ -42,6 +42,7 @@ export default function UiComponentInformationLoadProgress0022() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0022
      * @tc.name   : LoadingProgress in dark color mode
+     * @tc.desc   : Verify the interface under test: set dark color mode，loadingProgress scenario.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

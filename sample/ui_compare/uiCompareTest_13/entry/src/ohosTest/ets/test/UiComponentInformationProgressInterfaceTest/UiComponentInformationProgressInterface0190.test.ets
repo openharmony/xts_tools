@@ -41,6 +41,7 @@ export default function UiComponentInformationProgressInterface0190() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0190
      * @tc.name   : Ring progress color red
+     * @tc.desc   : Verify the interface under test: ring Progressset scan effectanimation，set ProgressType.Ring,colorset 0xFF0000.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

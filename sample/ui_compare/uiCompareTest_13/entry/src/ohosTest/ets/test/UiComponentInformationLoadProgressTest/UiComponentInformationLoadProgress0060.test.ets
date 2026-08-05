@@ -41,6 +41,7 @@ export default function UiComponentInformationLoadProgress0060() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_LOADPROGRESS_BUILDER_0060
      * @tc.name   : LoadingProgress unset enableLoading with contentModifier true
+     * @tc.desc   : Verify the interface under test: LoadingProgress component set enableLoading set 、 contentModifier set enableLoading to true.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

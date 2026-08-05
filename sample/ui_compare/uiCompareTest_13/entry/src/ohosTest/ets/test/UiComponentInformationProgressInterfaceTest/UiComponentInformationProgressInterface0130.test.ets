@@ -41,6 +41,7 @@ export default function UiComponentInformationProgressInterface0130() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_INFOMATION_PROGRESS_INTERFACE_0130
      * @tc.name   : Ring progress shadow true
+     * @tc.desc   : Verify the interface under test: ring Progressset scan effectanimation，RingStyleOptionsshadowset to true.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

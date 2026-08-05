@@ -42,6 +42,7 @@ export default function UiComponentMediaDarkColorMode0026() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_MEDIA_Dark_COLOR_MODE_0026
      * @tc.name   : Progress in dark color mode
+     * @tc.desc   : Verify the interface under test: set dark color mode，Progress.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -41,6 +41,7 @@ export default function UiComponentInformationLoadProgress0010() {
     /*
      * @tc.number : SUB_ACE_UI_loadingProgress_0010
      * @tc.name   : LoadingProgress non-linear refresh animation
+     * @tc.desc   : Verify the interface under test: Loading animation.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
