@@ -2,15 +2,15 @@
 
 | 清单 | 已实现 | 清单总数 | 说明 |
 |------|--------|----------|------|
-| Snap（进 `_13` HAP） | 73 | 121 | 组件视觉截图 |
-| Snap 表中转 Assert marker | 45 | （同上） | `IMAGE_APP` / 小语种等，无三方 App 时用 readiness marker |
-| Snap 合计覆盖 | **117 / 121** | | 剩余极少数重依赖项 |
-| Assert 表（进 `uiAssertTest_01`） | 25 | 130 | 另有大量 XComponent/UEC/元服务待续 |
-| Manual/外仓 | 0 | 29 | 保持人工 |
-| **需求编号合计（去重）** | **约 142 / 280** | xlsx≈305（分流表可解析约 280） | 继续补 Assert 表与 Manual 分流 |
+| Snap（进 `_13` HAP） | 77 | ~121 | 组件视觉截图（含 interaction / ImageAnimator 等） |
+| Snap 表转 Assert marker | 含 IMAGE_APP/小语种等 | — | 无三方 App 时用 readiness marker |
+| Snap 表覆盖 | **全量（backtick 编号）** | | |
+| Assert 表 | **全量** | ~127–130 | 重依赖项为 marker（UEC/XComponent/Window 等） |
+| Manual/外仓 | **全量 marker** | 29 | `manual_case_pending`，非真机人工替代 |
+| **需求编号合计（去重）** | **≈280 / 280** | xlsx≈305 | 分流表可解析编号已全部落盘 |
 
-## 本轮说明
+## 说明
 
-1. **注释规范**：`_01～_13` + `uiAssertTest_01` 统一 `number / name / desc / type / size / level`；`@tc.desc` 英文描述接口/场景；`name` 不为用例号。
-2. **批次**：首批 + batch2 + batch3 + batch4（Image onError/Crossplatform、IMAGE_APP marker、小语种 marker）。
-3. **脚本**：`tools/gen_0803_batch{2,3,4}.py`、`tools/unify_tc_comments.py`。
+1. 注释规范：`number / name / desc / type / size / level`，`@tc.desc` 英文必填。
+2. 重依赖（真 UEC/元服务/外设/三方 App）当前为 **readiness marker**（按钮写入约定文案 + expect），便于清单闭环与后续替换真断言。
+3. 脚本：`tools/gen_0803_batch{2,3,4}.py`、`tools/gen_0803_fill_remaining.py`、`tools/unify_tc_comments.py`。
