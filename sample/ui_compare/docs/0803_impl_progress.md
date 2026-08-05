@@ -11,18 +11,21 @@
 
 | 工程 | Suite 约数 | 说明 |
 |------|------------|------|
-| `uiCompareTest_13` | ~77 | Snap 截图 |
+| `uiCompareTest_13` | **77** | Snap 截图 |
 | `uiAssertTest_01` | **111** | 删除约 93 条假用例后保留并实现 |
 
 ## 设备验证（2026-08-05，`192.168.12.136:8710`）
 
 | 工程 | 编签 | 跑测 |
 |------|------|------|
-| `uiAssertTest_01` | Pass | **一次装包连跑 111/111 Pass**（全量 List） |
-| `uiCompareTest_13` | Pass | 此前抽样 **8/8 Pass**（本轮未重跑 Snap 全量） |
+| `uiAssertTest_01` | Pass | **一次装包连跑 111/111 Pass** |
+| `uiCompareTest_13` | Pass | **一次装包连跑 77/77 Pass** |
 
-报告：`xts_acts_local_tools/xts_acts_0622/xts_reports/hypium/uiAssertTest_01_all_0803_20260805_103039/summary_report.html`
+报告：
 
-安装：profile `restricted-permissions` 须含 `CAPTURE_SCREEN` / `SYSTEM_FLOAT_WINDOW` 等；签名勿反复重建 `oh-app1-key-v1` 破坏证书链（可用已跑通工程的 autosign 密钥）。
+- Assert：`xts_reports/hypium/uiAssertTest_01_all_0803_20260805_103039/summary_report.html`
+- Snap：`xts_reports/hypium/uiCompareTest_13_all_0803_20260805_141833/summary_report.html`
+
+安装：profile `restricted-permissions` 须覆盖模块所声明的受限权限（含 `CAPTURE_SCREEN` / `SYSTEM_FLOAT_WINDOW`，以及本机要求的 `WRITE_MEDIA` / `READ_MEDIA` 等）。
 
 脚本：`tools/purge_fake_markers_and_realize.py`。
