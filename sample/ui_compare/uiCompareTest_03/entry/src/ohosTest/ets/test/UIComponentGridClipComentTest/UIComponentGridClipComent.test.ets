@@ -60,7 +60,8 @@ export default function UIComponentGridClipComent() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0010
+     * @tc.name   : Grid clipcoment
+     * @tc.desc   : Verify grid clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +82,8 @@ export default function UIComponentGridClipComent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_CLIPCOMENT_0240
+     * @tc.name   : Grid clipcoment
+     * @tc.desc   : Verify grid clipcoment interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -60,7 +60,8 @@ export default function UIComponentDrawingSafeAreaE() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0010
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,7 +84,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0020
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -106,7 +108,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0030
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -129,7 +132,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0040
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -152,7 +156,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0050
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -175,7 +180,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0060
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -198,7 +204,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0070
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -221,7 +228,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0080
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -244,7 +252,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0090
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -297,7 +306,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0130
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -320,7 +330,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0140
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -343,7 +354,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0150
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -366,7 +378,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0160
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -389,7 +402,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0170
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -412,7 +426,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0180
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -435,7 +450,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0190
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -485,7 +501,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0200
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -535,7 +552,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0220
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -558,7 +576,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0230
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -581,7 +600,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0240
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -604,7 +624,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0250
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -627,7 +648,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0260
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -650,7 +672,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0270
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -673,7 +696,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0280
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -696,7 +720,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0290
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -719,7 +744,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0300
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -742,7 +768,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0310
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -765,7 +792,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0320
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -788,7 +816,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0330
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -811,7 +840,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0340
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -847,7 +877,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0350
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -883,7 +914,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0360
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -906,7 +938,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0370
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -929,7 +962,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0380
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -952,7 +986,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0390
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -975,7 +1010,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0400
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -998,7 +1034,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0410
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1021,7 +1058,8 @@ export default function UIComponentDrawingSafeAreaE() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_DRAWING_SAFEAREAE_0420
+     * @tc.name   : Drawing safeareae
+     * @tc.desc   : Verify drawing safeareae interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

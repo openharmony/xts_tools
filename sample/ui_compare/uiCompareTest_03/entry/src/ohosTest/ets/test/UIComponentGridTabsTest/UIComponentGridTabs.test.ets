@@ -60,7 +60,8 @@ export default function UIComponentGridTabs() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_TABS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_TABS_0010
+     * @tc.name   : Grid tabs
+     * @tc.desc   : Verify grid tabs interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

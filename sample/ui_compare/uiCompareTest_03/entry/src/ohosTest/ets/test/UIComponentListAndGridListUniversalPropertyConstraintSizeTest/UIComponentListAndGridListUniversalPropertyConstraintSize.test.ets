@@ -60,7 +60,8 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0130
+     * @tc.name   : Listandgrid list universalproperty constraintsize
+     * @tc.desc   : Verify listandgrid list universalproperty constraintsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +89,8 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0140
+     * @tc.name   : Listandgrid list universalproperty constraintsize
+     * @tc.desc   : Verify listandgrid list universalproperty constraintsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +118,8 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0150
+     * @tc.name   : Listandgrid list universalproperty constraintsize
+     * @tc.desc   : Verify listandgrid list universalproperty constraintsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,7 +147,8 @@ export default function UIComponentListAndGridListUniversalPropertyConstraintSiz
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_UNIVERSALPROPERTY_CONSTRAINTSIZE_0160
+     * @tc.name   : Listandgrid list universalproperty constraintsize
+     * @tc.desc   : Verify listandgrid list universalproperty constraintsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

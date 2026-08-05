@@ -60,7 +60,8 @@ export default function UIComponentGridForEach() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0010_679
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,7 +89,8 @@ export default function UIComponentGridForEach() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0020_681
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,7 +118,8 @@ export default function UIComponentGridForEach() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0030_403
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,7 +147,8 @@ export default function UIComponentGridForEach() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_FOREACH_0040_091
+     * @tc.name   : Grid foreach
+     * @tc.desc   : Verify grid foreach interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

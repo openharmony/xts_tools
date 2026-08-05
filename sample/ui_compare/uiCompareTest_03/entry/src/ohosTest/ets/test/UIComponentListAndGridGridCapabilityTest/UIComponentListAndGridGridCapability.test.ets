@@ -60,7 +60,8 @@ export default function UIComponentListAndGridGridCapability() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_CAPABILITY_0240_582
+     * @tc.name   : Listandgrid grid capability
+     * @tc.desc   : Verify listandgrid grid capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

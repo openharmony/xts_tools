@@ -59,7 +59,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0010
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0020
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0040
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +142,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0050
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +169,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0070
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -193,7 +198,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0080
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -219,7 +225,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0090
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -245,7 +252,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0110
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -271,7 +279,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0120
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +306,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0130
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -323,7 +333,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0150
+     * @tc.name   : Listandgrid list mouse
+     * @tc.desc   : Verify listandgrid list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -351,7 +362,8 @@ export default function UIComponentListAndGridListMouse() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGR0ID_LIST_MOUSE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSE_0160
+     * @tc.name   : Listandgr0id list mouse
+     * @tc.desc   : Verify listandgr0id list mouse interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

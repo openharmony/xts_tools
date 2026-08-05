@@ -59,7 +59,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0180
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0190
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0220
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +142,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0260
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +169,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0270
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,7 +196,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0300
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -217,7 +223,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0380
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -243,7 +250,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0390
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -269,7 +277,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0430
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -297,7 +306,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0470
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -323,7 +333,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0480
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -349,7 +360,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0520
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -377,7 +389,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0560
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -403,7 +416,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0570
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -429,7 +443,8 @@ export default function UIComponentListAndGridListAlign() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ALIGN_0610
+     * @tc.name   : Listandgrid list align
+     * @tc.desc   : Verify listandgrid list align interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -60,7 +60,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_014
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -82,7 +83,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_015
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -104,7 +106,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_016
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -126,7 +129,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_017
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -148,7 +152,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_018
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -170,7 +175,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_019
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -192,7 +198,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_020
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -214,7 +221,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_021
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -236,7 +244,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_022
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -258,7 +267,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_023
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -280,7 +290,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_024
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -302,7 +313,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_040
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -321,7 +333,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_060
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -343,7 +356,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_061
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -365,7 +379,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_062
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -387,7 +402,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_063
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -409,7 +425,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_073
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -431,7 +448,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_074
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -453,7 +471,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_075
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -475,7 +494,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_076
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -497,7 +517,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_077
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -519,7 +540,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_078
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -541,7 +563,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_079
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -563,7 +586,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_080
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -582,7 +606,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_081
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -601,7 +626,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_082
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -620,7 +646,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_083
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -639,7 +666,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_084
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -658,7 +686,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_085
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -677,7 +706,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_086
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -696,7 +726,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_087
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -715,7 +746,8 @@ export default function UIComponentLayoutStack() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LAYOUT_STACK_088
+     * @tc.name   : Layout stack
+     * @tc.desc   : Verify layout stack interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

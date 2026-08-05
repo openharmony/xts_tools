@@ -60,7 +60,8 @@ export default function UIComponentListAndGridModifier() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0010
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +90,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0150
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +120,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0370
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +150,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0450
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,7 +180,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0540
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,7 +210,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0550
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -234,7 +240,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0560
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -263,7 +270,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0570
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -292,7 +300,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0590
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -321,7 +330,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0600
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,7 +360,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_0710
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -379,7 +390,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1000
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -408,7 +420,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1010
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -437,7 +450,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1020
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -466,7 +480,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1030
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -495,7 +510,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1060
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -524,7 +540,8 @@ export default function UIComponentListAndGridModifier() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_MODIFIER_1120
+     * @tc.name   : Listandgrid modifier
+     * @tc.desc   : Verify listandgrid modifier interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

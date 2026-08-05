@@ -60,7 +60,8 @@ export default function UIComponentGridAnimation() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0040
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +90,8 @@ export default function UIComponentGridAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0050
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function UIComponentGridAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0110
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -135,7 +138,8 @@ export default function UIComponentGridAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0120
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -158,7 +162,8 @@ export default function UIComponentGridAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0130
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +190,8 @@ export default function UIComponentGridAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0140
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -212,7 +218,8 @@ export default function UIComponentGridAnimation() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_ANIMATION_0150
+     * @tc.name   : Grid animation
+     * @tc.desc   : Verify grid animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

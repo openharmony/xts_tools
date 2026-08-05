@@ -59,7 +59,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0190
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +81,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0200
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -101,7 +103,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0230
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -122,7 +125,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0240
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,7 +147,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0270
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -164,7 +169,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0280
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,7 +191,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0310
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -206,7 +213,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0320
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -227,7 +235,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0350
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -248,7 +257,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0360
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -269,7 +279,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0400
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -290,7 +301,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0430
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -311,7 +323,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0440
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -332,7 +345,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0470
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -353,7 +367,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0480
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -374,7 +389,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0510
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -395,7 +411,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0520
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -416,7 +433,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0550
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -437,7 +455,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0560
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -458,7 +477,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0590
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -479,7 +499,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0600
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -500,7 +521,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0630
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -521,7 +543,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0640
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -542,7 +565,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0670
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -563,7 +587,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0680
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -584,7 +609,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0710
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -605,7 +631,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0720
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -626,7 +653,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0750
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -647,7 +675,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0760
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -668,7 +697,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0790
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -689,7 +719,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0800
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -710,7 +741,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0820
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -731,7 +763,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0840
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -752,7 +785,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0870
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -773,7 +807,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_0910
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -794,7 +829,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1100
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -815,7 +851,8 @@ export default function UIComponentListAndGridListCapability() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CAPABILITY_1130
+     * @tc.name   : Listandgrid list capability
+     * @tc.desc   : Verify listandgrid list capability interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

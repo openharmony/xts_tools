@@ -60,7 +60,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0010
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -89,7 +90,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0020
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +120,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0030
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -153,7 +156,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0040
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -188,7 +192,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0050
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -223,7 +228,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0060
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -258,7 +264,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0070
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -293,7 +300,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0080
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -326,7 +334,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0090
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -361,7 +370,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0100
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -394,7 +404,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0110
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -429,7 +440,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0120
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,7 +481,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0130
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -531,7 +544,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0160
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -564,7 +578,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0170
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -599,7 +614,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0180
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -634,7 +650,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0190
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -669,7 +686,8 @@ export default function UIComponentListAndGridGridGetItemIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_GETITEMINDEX_0200
+     * @tc.name   : Listandgrid grid getitemindex
+     * @tc.desc   : Verify listandgrid grid getitemindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

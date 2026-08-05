@@ -60,7 +60,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0030
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +82,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0040
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,7 +104,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0060
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +126,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0070
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,7 +148,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0080
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +170,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0090
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -189,7 +195,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0100
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,7 +220,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0110
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,7 +245,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0120
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -264,7 +273,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0130
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -285,7 +295,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0150
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,7 +317,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0160
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,7 +342,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0170
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -354,7 +367,8 @@ export default function UIComponentListAndGridGridFadingEdge() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_FADINGEDGE_0180
+     * @tc.name   : Listandgrid grid fadingedge
+     * @tc.desc   : Verify listandgrid grid fadingedge interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -64,7 +64,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0010
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -84,7 +85,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0020
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -104,7 +106,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0030
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -124,7 +127,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0040
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -144,7 +148,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0050
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -164,7 +169,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0060
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -184,7 +190,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0070
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -204,7 +211,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0080
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -229,7 +237,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0090
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -254,7 +263,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0100
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -279,7 +289,8 @@ export default function UIAttributesImageEffectSpherical() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_IMAGEEFFECT_SPHERICAL_0110
+     * @tc.name   : Attributes imageeffect spherical
+     * @tc.desc   : Verify attributes imageeffect spherical interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

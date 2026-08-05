@@ -60,7 +60,8 @@ export default function UIComponentGridEvent() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0010
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function UIComponentGridEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0020
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function UIComponentGridEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0030
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +144,8 @@ export default function UIComponentGridEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0040
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,7 +174,8 @@ export default function UIComponentGridEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0090
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -199,7 +204,8 @@ export default function UIComponentGridEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0100
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,7 +232,8 @@ export default function UIComponentGridEvent() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_EVENT_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_EVENT_0110
+     * @tc.name   : Grid event
+     * @tc.desc   : Verify grid event interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

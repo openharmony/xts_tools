@@ -64,7 +64,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_019
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_019
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_020
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_020
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_021
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_021
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,7 +140,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_022
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_022
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,7 +166,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_023
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_023
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,7 +192,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_024
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_024
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -212,7 +218,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_025
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_025
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -237,7 +244,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_026
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_026
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -262,7 +270,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_027
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_027
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -287,7 +296,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_028
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_028
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -310,7 +320,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_029
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_029
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -335,7 +346,8 @@ export default function BackgroundImageCommonPropertySupportSyncLoad() {
 
     /*
      * @tc.number : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_030
-     * @tc.name   : SUB_ACE_BACKGROUNDIMAGE_COMMON_PROPERTY_SUPPORT_SYNC_LOAD_030
+     * @tc.name   : Backgroundimage common property support sync load
+     * @tc.desc   : Verify backgroundimage common property support sync load interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

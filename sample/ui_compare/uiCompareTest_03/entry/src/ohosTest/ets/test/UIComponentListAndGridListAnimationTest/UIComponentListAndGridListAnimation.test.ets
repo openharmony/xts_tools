@@ -60,7 +60,8 @@ export default function UIComponentListAndGridListAnimation() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_ANIMATION_0130
+     * @tc.name   : Listandgrid list animation
+     * @tc.desc   : Verify listandgrid list animation interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

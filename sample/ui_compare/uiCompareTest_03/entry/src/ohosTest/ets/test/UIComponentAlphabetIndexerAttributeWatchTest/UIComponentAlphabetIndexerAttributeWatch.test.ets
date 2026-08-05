@@ -60,7 +60,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0010
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,7 +94,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0020
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,7 +128,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0030
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,7 +162,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0040
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -194,7 +198,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0050
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -229,7 +234,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0060
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -284,7 +290,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0070
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -319,7 +326,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0080
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -354,7 +362,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0090
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -389,7 +398,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0160
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -420,7 +430,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0170
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -453,7 +464,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0180
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -486,7 +498,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0190
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -519,7 +532,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0200
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -552,7 +566,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0210
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -585,7 +600,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0220
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -622,7 +638,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0230
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -661,7 +678,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0240
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -697,7 +715,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0250
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -733,7 +752,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0260
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -768,7 +788,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0270
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -805,7 +826,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0280
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -844,7 +866,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0290
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -877,7 +900,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0300
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -916,7 +940,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0310
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -947,7 +972,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0320
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -978,7 +1004,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0330
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1009,7 +1036,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0340
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1044,7 +1072,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0350
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1081,7 +1110,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0360
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1112,7 +1142,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0370
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1143,7 +1174,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0380
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1178,7 +1210,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0390
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1211,7 +1244,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0400
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1244,7 +1278,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0410
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1279,7 +1314,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0420
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1310,7 +1346,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0430
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1341,7 +1378,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0440
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1372,7 +1410,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0450
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1403,7 +1442,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0460
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1434,7 +1474,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0470
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1465,7 +1506,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0480
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1496,7 +1538,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0490
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1527,7 +1570,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0500
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1558,7 +1602,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0510
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1589,7 +1634,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0570
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1620,7 +1666,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0580
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1651,7 +1698,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0590
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1682,7 +1730,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0600
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1713,7 +1762,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0610
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1744,7 +1794,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0620
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1775,7 +1826,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0630
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1806,7 +1858,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0640
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1837,7 +1890,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0650
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1868,7 +1922,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0660
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1899,7 +1954,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0670
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1934,7 +1990,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0680
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1969,7 +2026,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0690
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2004,7 +2062,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0700
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2039,7 +2098,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0710
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2074,7 +2134,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0720
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2109,7 +2170,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0730
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2140,7 +2202,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0740
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2171,7 +2234,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0750
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2202,7 +2266,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0760
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2233,7 +2298,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0770
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2264,7 +2330,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0780
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2295,7 +2362,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0790
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2326,7 +2394,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0800
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2357,7 +2426,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0810
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2388,7 +2458,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0820
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2419,7 +2490,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0830
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2450,7 +2522,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0840
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2481,7 +2554,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0850
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2512,7 +2586,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0860
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2543,7 +2618,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0870
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2574,7 +2650,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0880
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2609,7 +2686,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0890
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2644,7 +2722,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0900
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2679,7 +2758,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0910
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2714,7 +2794,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0920
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2749,7 +2830,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0930
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2784,7 +2866,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0940
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2819,7 +2902,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0950
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2854,7 +2938,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0960
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2889,7 +2974,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0970
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2924,7 +3010,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0980
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2959,7 +3046,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_0990
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2994,7 +3082,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1000
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3029,7 +3118,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1010
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3064,7 +3154,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1020
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3095,7 +3186,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1030
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3126,7 +3218,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1040
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3157,7 +3250,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1050
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3188,7 +3282,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1060
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3219,7 +3314,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1070
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3250,7 +3346,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1080
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3281,7 +3378,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1090
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3312,7 +3410,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1100
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3343,7 +3442,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1110
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3374,7 +3474,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1120
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3405,7 +3506,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1130
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3436,7 +3538,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1140
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3467,7 +3570,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1150
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -3498,7 +3602,8 @@ export default function UIComponentAlphabetIndexerAttributeWatch() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_ALPHABETINDEXER_ATTRIBUTE_WATCH_1160
+     * @tc.name   : Alphabetindexer attribute watch
+     * @tc.desc   : Verify alphabetindexer attribute watch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

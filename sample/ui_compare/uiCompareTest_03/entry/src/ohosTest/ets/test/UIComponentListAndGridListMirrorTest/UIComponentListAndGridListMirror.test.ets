@@ -61,7 +61,8 @@ export default function UIComponentListAndGridListMirror() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0020
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +96,8 @@ export default function UIComponentListAndGridListMirror() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0040
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -129,7 +131,8 @@ export default function UIComponentListAndGridListMirror() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0050
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,7 +166,8 @@ export default function UIComponentListAndGridListMirror() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MIRROR_0650
+     * @tc.name   : Listandgrid list mirror layout
+     * @tc.desc   : Verify listandgrid list mirror layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

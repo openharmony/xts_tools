@@ -61,7 +61,8 @@ export default function UIComponentGridJiaoDian() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0010
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -95,7 +96,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0020
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -132,7 +134,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0050
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -177,7 +180,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0060
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -211,7 +215,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0070
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -245,7 +250,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0080
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -307,7 +313,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0090
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -344,7 +351,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0100
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -377,7 +385,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0110
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,7 +428,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0120
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -453,7 +463,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0130
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -489,7 +500,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0140
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -524,7 +536,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0150
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -560,7 +573,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0160
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -596,7 +610,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0170
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -634,7 +649,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0180
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -669,7 +685,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0190
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -704,7 +721,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0200
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -741,7 +759,8 @@ export default function UIComponentGridJiaoDian() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_JIAODIAN_0210
+     * @tc.name   : Grid jiaodian
+     * @tc.desc   : Verify grid jiaodian interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

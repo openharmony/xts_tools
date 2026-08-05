@@ -59,7 +59,8 @@ export default function UIComponentListAndGridListMouseGesture() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0010
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0020
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -113,7 +115,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0040
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,7 +142,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0070
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +169,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0080
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -191,7 +196,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0120
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,7 +231,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0130
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,7 +260,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0150
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,7 +287,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0160
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -308,7 +317,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0170
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -334,7 +344,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0210
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -362,7 +373,8 @@ export default function UIComponentListAndGridListMouseGesture() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_MOUSEGESTURE_0230
+     * @tc.name   : Listandgrid list mousegesture
+     * @tc.desc   : Verify listandgrid list mousegesture interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

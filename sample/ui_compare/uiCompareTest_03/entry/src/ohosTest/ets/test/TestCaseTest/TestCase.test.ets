@@ -61,6 +61,7 @@ export default function TestCase() {
     /*
      * @tc.number : TestCase_7b95b49b1c6b41b0a17704449c409e0d
      * @tc.name   : TestCase_7b95b49b1c6b41b0a17704449c409e0d
+     * @tc.desc   : Verify testcase 7b95b49b1c6b41b0a17704449c409e0d interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0
@@ -90,6 +91,7 @@ export default function TestCase() {
     /*
      * @tc.number : TestCase_c4b7742b9a304b6faa16642b1d99b837
      * @tc.name   : TestCase_c4b7742b9a304b6faa16642b1d99b837
+     * @tc.desc   : Verify testcase c4b7742b9a304b6faa16642b1d99b837 interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

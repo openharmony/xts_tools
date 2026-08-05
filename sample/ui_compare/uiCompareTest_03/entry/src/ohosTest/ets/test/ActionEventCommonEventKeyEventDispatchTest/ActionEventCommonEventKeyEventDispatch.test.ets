@@ -64,7 +64,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0040
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0050
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,7 +110,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0060
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,7 +133,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0180
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -152,7 +156,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0190
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -174,7 +179,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0200
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,7 +202,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0250
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -224,7 +231,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0260
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -252,7 +260,8 @@ export default function ActionEventCommonEventKeyEventDispatch() {
 
     /*
      * @tc.number : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270
-     * @tc.name   : SUB_ACE_ACTION_EVENT_COMMONEVENT_KEYEVENT_DISPATCH_0270
+     * @tc.name   : Action event commonevent keyevent dispatch
+     * @tc.desc   : Verify action event commonevent keyevent dispatch interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

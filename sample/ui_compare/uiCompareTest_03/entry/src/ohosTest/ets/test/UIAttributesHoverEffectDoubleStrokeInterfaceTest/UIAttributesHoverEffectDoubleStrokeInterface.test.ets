@@ -64,7 +64,8 @@ export default function UIAttributesHoverEffectDoubleStrokeInterface() {
 
     /*
      * @tc.number : SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270
-     * @tc.name   : SUB_ACE_UI_ATTRIBUTES_HOVEREFFECT_DOUBLESTROKE_INTERFACE_0270
+     * @tc.name   : Attributes hovereffect doublestroke interface
+     * @tc.desc   : Verify attributes hovereffect doublestroke interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

@@ -60,7 +60,8 @@ export default function UIComponentListAndGridListChildMainSize() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0100
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,7 +84,8 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0130
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -106,7 +108,8 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0170
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,7 +130,8 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0180
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,7 +152,8 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0200
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -171,7 +176,8 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0220
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -196,7 +202,8 @@ export default function UIComponentListAndGridListChildMainSize() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_CHILDMAINSIZE_0470
+     * @tc.name   : Listandgrid list childmainsize
+     * @tc.desc   : Verify listandgrid list childmainsize interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -60,7 +60,8 @@ export default function UIComponentListAndGridGridDirectionLayout() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0040_392
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +82,8 @@ export default function UIComponentListAndGridGridDirectionLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0050_392
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,7 +104,8 @@ export default function UIComponentListAndGridGridDirectionLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0060_279
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -126,7 +129,8 @@ export default function UIComponentListAndGridGridDirectionLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0080_804
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +151,8 @@ export default function UIComponentListAndGridGridDirectionLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DIRECTIONLAYOUT_0090_199
+     * @tc.name   : Listandgrid grid directionlayout
+     * @tc.desc   : Verify listandgrid grid directionlayout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -61,7 +61,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0250
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -85,7 +86,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0260
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -109,7 +111,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0270
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -133,7 +136,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0310
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,7 +161,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0430
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0430
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -181,7 +186,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0440
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0440
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -205,7 +211,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0470
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0470
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -229,7 +236,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0480
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0480
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,7 +261,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0490
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0490
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -277,7 +286,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0530
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0530
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -301,7 +311,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0590
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0590
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -325,7 +336,8 @@ export default function UIComponentListAndGridListItemGroupScrollToIndex() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0600
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LISTITEMGROUP_SCROLLTOINDEX_0600
+     * @tc.name   : Listandgrid listitemgroup scrolltoindex
+     * @tc.desc   : Verify listandgrid listitemgroup scrolltoindex interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -59,7 +59,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0010
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -93,7 +94,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0040
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -118,7 +120,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0050
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -145,7 +148,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0060
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,7 +174,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0070
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -195,7 +200,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0080
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,7 +231,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0090
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -250,7 +257,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0100
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0100
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -275,7 +283,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0110
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -306,7 +315,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0120
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -337,7 +347,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0130
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0130
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -369,7 +380,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0140
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -394,7 +406,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0180
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -419,7 +432,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0190
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -444,7 +458,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0200
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,7 +484,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0210
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0210
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -494,7 +510,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0230
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -519,7 +536,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0240
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -544,7 +562,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0250
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -569,7 +588,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0260
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -594,7 +614,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0270
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0270
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -619,7 +640,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0280
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -644,7 +666,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0290
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0290
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -669,7 +692,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0300
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -694,7 +718,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0310
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -719,7 +744,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0320
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -744,7 +770,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0360
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0360
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -769,7 +796,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0370
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0370
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -794,7 +822,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0380
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0380
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -819,7 +848,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0390
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0390
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -844,7 +874,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0400
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0400
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -871,7 +902,8 @@ export default function UIComponentListAndGridListLeftSeipeDeleteChain() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0410
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_LEFTSEIPEDELETE_CHAIN_0410
+     * @tc.name   : Listandgrid list leftseipedelete chain
+     * @tc.desc   : Verify listandgrid list leftseipedelete chain interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

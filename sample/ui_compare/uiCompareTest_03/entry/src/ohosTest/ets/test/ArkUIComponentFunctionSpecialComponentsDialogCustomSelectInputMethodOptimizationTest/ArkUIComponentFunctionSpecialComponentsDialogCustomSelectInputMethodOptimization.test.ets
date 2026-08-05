@@ -84,7 +84,8 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0070
+     * @tc.name   : Component function special components dialog custom selectinputmethodoptimization
+     * @tc.desc   : Verify component function special components dialog custom selectinputmethodoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,7 +158,8 @@ export default function ArkUIComponentFunctionSpecialComponentsDialogCustomSelec
 
     /*
      * @tc.number : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210
-     * @tc.name   : ARKUI_COMPONENTFUNCTION_SPECIALCOMPONENTS_DIALOG_CUSTOM_SELECTINPUTMETHODOPTIMIZATION_0210
+     * @tc.name   : Component function special components dialog custom selectinputmethodoptimization
+     * @tc.desc   : Verify component function special components dialog custom selectinputmethodoptimization interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

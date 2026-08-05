@@ -60,7 +60,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0020_925
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,7 +87,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0030_720
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -112,7 +114,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0050_323
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -142,7 +145,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0060_356
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -171,7 +175,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0070_772
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -200,7 +205,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0180_810
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -226,7 +232,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0190_003
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -252,7 +259,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0200_983
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -278,7 +286,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0210_008
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -304,7 +313,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0220_706
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,7 +340,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0230_749
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -356,7 +367,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0240_208
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -382,7 +394,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0250_204
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -408,7 +421,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0260_699
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -434,7 +448,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0330_371
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -460,7 +475,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0340_608
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -486,7 +502,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0350_527
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -512,7 +529,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0360_760
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -538,7 +556,8 @@ export default function UIComponentListAndGridWaterFlowAdd() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_WATERFLOW_ADD_0370_350
+     * @tc.name   : Listandgrid waterflow add
+     * @tc.desc   : Verify listandgrid waterflow add interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

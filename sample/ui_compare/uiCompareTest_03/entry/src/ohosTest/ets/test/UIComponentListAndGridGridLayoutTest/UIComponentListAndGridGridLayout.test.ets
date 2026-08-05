@@ -59,7 +59,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0020_965
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,7 +81,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0030_208
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -101,7 +103,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0130_500
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -127,7 +130,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0140_148
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -157,7 +161,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0150_305
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -183,7 +188,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0160_632
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -213,7 +219,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_142
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -239,7 +246,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0170_193
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,7 +273,8 @@ export default function UIComponentListAndGridGridLayout() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_LAYOUT_0550_597
+     * @tc.name   : Listandgrid grid layout
+     * @tc.desc   : Verify listandgrid grid layout interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

@@ -64,7 +64,8 @@ export default function UIComponentButtonTextPickerDefaultTextStyle() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_DEFAULTTEXTSTYLE_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_BUTTON_TEXTPICKER_DEFAULTTEXTSTYLE_0010
+     * @tc.name   : Button TextPicker defaulttextstyle
+     * @tc.desc   : Verify button TextPicker defaulttextstyle interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 0

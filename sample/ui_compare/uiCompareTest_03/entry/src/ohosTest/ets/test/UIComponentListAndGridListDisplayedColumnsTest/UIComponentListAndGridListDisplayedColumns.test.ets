@@ -60,7 +60,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0010
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -81,7 +82,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0020
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -102,7 +104,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0030
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,7 +126,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0050
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -144,7 +148,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0060
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,7 +170,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0070
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -186,7 +192,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0080
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -207,7 +214,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0090
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -228,7 +236,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0110
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -249,7 +258,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0120
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -270,7 +280,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0140
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -291,7 +302,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0150
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -312,7 +324,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0160
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -333,7 +346,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0170
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -354,7 +368,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0180
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -375,7 +390,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0190
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -396,7 +412,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0200
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -417,7 +434,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0230
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -438,7 +456,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0240
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -459,7 +478,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0250
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -480,7 +500,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0260
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -501,7 +522,8 @@ export default function UIComponentListAndGridListDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_LIST_DISPLAYEDCOLUMNS_0300
+     * @tc.name   : Listandgrid list displayedcolumns
+     * @tc.desc   : Verify listandgrid list displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

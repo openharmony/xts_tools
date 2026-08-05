@@ -59,7 +59,8 @@ export default function UIComponentListAndGridGridScrollbar() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0010
+     * @tc.name   : Listandgrid grid scrollbar
+     * @tc.desc   : Verify listandgrid grid scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,7 +85,8 @@ export default function UIComponentListAndGridGridScrollbar() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0020
+     * @tc.name   : Listandgrid grid scrollbar
+     * @tc.desc   : Verify listandgrid grid scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -111,7 +113,8 @@ export default function UIComponentListAndGridGridScrollbar() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0030
+     * @tc.name   : Listandgrid grid scrollbar
+     * @tc.desc   : Verify listandgrid grid scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -141,7 +144,8 @@ export default function UIComponentListAndGridGridScrollbar() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_SCROLLBAR_0040
+     * @tc.name   : Listandgrid grid scrollbar
+     * @tc.desc   : Verify listandgrid grid scrollbar interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

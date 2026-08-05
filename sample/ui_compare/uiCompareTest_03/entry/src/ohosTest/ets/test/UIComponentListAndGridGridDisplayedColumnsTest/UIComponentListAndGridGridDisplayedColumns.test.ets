@@ -60,7 +60,8 @@ export default function UIComponentListAndGridGridDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0150_347
+     * @tc.name   : Listandgrid grid displayedcolumns
+     * @tc.desc   : Verify listandgrid grid displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -82,7 +83,8 @@ export default function UIComponentListAndGridGridDisplayedColumns() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526
-     * @tc.name   : SUB_ACE_UI_COMPONENT_LISTANDGRID_GRID_DISPLAYEDCOLUMNS_0290_526
+     * @tc.name   : Listandgrid grid displayedcolumns
+     * @tc.desc   : Verify listandgrid grid displayedcolumns interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

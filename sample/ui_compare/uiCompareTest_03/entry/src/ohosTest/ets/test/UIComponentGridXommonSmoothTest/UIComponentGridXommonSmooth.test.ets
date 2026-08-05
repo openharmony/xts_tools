@@ -60,7 +60,8 @@ export default function UIComponentGridXommonSmooth() {
     
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0280
+     * @tc.name   : Grid xommon smooth
+     * @tc.desc   : Verify grid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -87,7 +88,8 @@ export default function UIComponentGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0310
+     * @tc.name   : Grid xommon smooth
+     * @tc.desc   : Verify grid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -120,7 +122,8 @@ export default function UIComponentGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0320
+     * @tc.name   : Grid xommon smooth
+     * @tc.desc   : Verify grid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,7 +150,8 @@ export default function UIComponentGridXommonSmooth() {
 
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340
-     * @tc.name   : SUB_ACE_UI_COMPONENT_GRID_XOMMON_SMOOTH_0340
+     * @tc.name   : Grid xommon smooth
+     * @tc.desc   : Verify grid xommon smooth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
