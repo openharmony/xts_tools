@@ -40,6 +40,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0140
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to "0"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -65,6 +66,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0160
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50px"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -90,6 +92,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0170
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0px"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +118,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0180
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50px"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -140,6 +144,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0190
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50vp"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -165,6 +170,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0200
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0vp"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -190,6 +196,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0210
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50vp"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -215,6 +222,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0220
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50fp"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -240,6 +248,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0230
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-0fp"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,6 +274,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0240
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50fp"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -290,6 +300,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0250
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "50lpx"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -315,6 +326,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0260
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0lpx"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -340,6 +352,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0270
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50lpx"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -365,6 +378,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0280
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "80%"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -390,6 +404,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0290
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "0"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -415,6 +430,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0300
      * @tc.name   : Popup adds width property, PopupOptions parameter width set to Resource type "-50%"
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -440,6 +456,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0310
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, short text input 1 (grid count less than 4)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -465,6 +482,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0320
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, short text input 2 (grid count less than 4)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -490,6 +508,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0330
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, short text input 3 (grid count less than 4)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -515,6 +534,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0340
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, longer text input 1 (grid count greater than 4 and less than 480vp)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -540,6 +560,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0350
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, longer text input 2 (grid count greater than 4 and less than 480vp)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -565,6 +586,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0360
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, longer text input 3 (grid count greater than 4 and less than 480vp)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -590,6 +612,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_0370
      * @tc.name   : Popup adds width property, PopupOptions parameter width not set, very long text input (grid count greater than 480vp)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -615,6 +638,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2280
      * @tc.name   : Preview capability blue zone test
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -640,6 +664,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2290
      * @tc.name   : Popup adds arrowPlacement property, ContextPopupOptions parameter ArrowPlacement set to Start
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -665,6 +690,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2300
      * @tc.name   : Popup adds arrowPlacement property, ContextPopupOptions parameter ArrowPlacement set to Center
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -690,6 +716,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2310
      * @tc.name   : Popup adds arrowPlacement property, ContextPopupOptions parameter ArrowPlacement set to End
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -715,6 +742,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2320
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, within 20vp of leftmost (top) side of bubble (including 20vp)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -740,6 +768,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2330
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, within safe distance of bubble
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -765,6 +794,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2340
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, within 20vp of rightmost (bottom) side of bubble (including 20vp)
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -790,6 +820,7 @@ export default function UiComponentPopupboxPopupHeightWidth() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_HEIGHTWIDTH_2350
      * @tc.name   : Popup adds arrow style, arrow position set via arrowOffset, popup width less than 40vp
+     * @tc.desc   : Verify popupbox popup heightwidth interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

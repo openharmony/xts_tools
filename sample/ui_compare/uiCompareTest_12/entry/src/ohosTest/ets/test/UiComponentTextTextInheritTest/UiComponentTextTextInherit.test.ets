@@ -41,6 +41,7 @@ export default function UiComponentTextTextInherit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0020
      * @tc.name   : Only the Text component is set properties
+     * @tc.desc   : Verify text inherit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +69,7 @@ export default function UiComponentTextTextInherit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0070
      * @tc.name   : Dynamically change the size of text's size or letterSpacing or lineHeight to verify dynamic inheritance
+     * @tc.desc   : Verify text inherit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -119,6 +121,7 @@ export default function UiComponentTextTextInherit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0050
      * @tc.name   : Both Text component and its child component Span set multiple properties simultaneously
+     * @tc.desc   : Verify text inherit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -147,6 +150,7 @@ export default function UiComponentTextTextInherit() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_INHERIT_0030
      * @tc.name   : Only the child component Span is set properties
+     * @tc.desc   : Verify text inherit interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

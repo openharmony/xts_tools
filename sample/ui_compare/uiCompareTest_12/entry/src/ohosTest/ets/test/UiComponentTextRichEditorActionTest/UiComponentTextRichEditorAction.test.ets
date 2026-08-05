@@ -44,6 +44,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0040
      * @tc.name   : Double handle position swap
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -74,6 +75,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0030
      * @tc.name   : Long press in empty text state
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -103,6 +105,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0140
      * @tc.name   : Move handle, verify selected position
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -138,6 +141,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_197
      * @tc.name   : addTextSpan set offset greater than total string length, observe cursor position
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -162,6 +166,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0070_198
      * @tc.name   : Super long text triple click
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -193,6 +198,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_0340
      * @tc.name   : When different content is placed at the beginning of the text, indentation and cursor position display normally
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +237,7 @@ export default function UiComponentTextRichEditorAction() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ACTION_251
      * @tc.name   : Continuous deletion without lag
+     * @tc.desc   : Verify text richeditor action interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

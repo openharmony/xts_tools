@@ -45,6 +45,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00031
      * @tc.name   : Switch dark/light mode when the page with setColorMode remains open
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -88,6 +89,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_00030
      * @tc.name   : Switch dark/light mode when the page with setColorMode and preset typingstyle remains open
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -131,6 +133,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0005
      * @tc.name   : Obtain preset styles in different dark/light modes through getTypingStyle
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -176,6 +179,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0014
      * @tc.name   : The selected background color of selectedBackgroundColor can switch with dark/light mode
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -216,6 +220,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0003
      * @tc.name   : The text color added by addtextspan follows dark/light mode
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -253,6 +258,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0012
      * @tc.name   : The cursor handle color of caretColor can switch with dark/light mode
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -294,6 +300,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0017
      * @tc.name   : The decoration line color of decoration follows dark/light mode switching
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -330,6 +337,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0006
      * @tc.name   : The color of addSymbolSpan can switch with dark/light mode
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -368,6 +376,7 @@ export default function UiComponentTextRichEditorDarkAndBase() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_darkandbase_0016
      * @tc.name   : The shadow color of textShadow follows dark/light mode switching
+     * @tc.desc   : Verify text richeditor darkandbase interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

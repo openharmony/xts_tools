@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0025
      * @tc.name   : Keyboard compression setting, lift mode, menu can correctly avoid
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -86,6 +87,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0035
      * @tc.name   : Menu correctly avoids custom keyboard
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -130,6 +132,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0032
      * @tc.name   : In floating window mode, select all component content
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -187,6 +190,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0030
      * @tc.name   : Select a line of content and slide to make content obscured until left/right handles are invisible
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -255,6 +259,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0017
      * @tc.name   : setSelection sets selection area at top, middle, and bottom
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -320,6 +325,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0022
      * @tc.name   : Multi-type span combination selection
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -377,6 +383,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0020
      * @tc.name   : Set custom menu
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -423,6 +430,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0021
      * @tc.name   : Set AI menu
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -469,6 +477,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_0026
      * @tc.name   : Attribute string, menu can correctly avoid
+     * @tc.desc   : Verify text richeditor optimize select all menu location interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -517,6 +526,7 @@ export default function UiComponentTextRichEditorOptimizeSelectAllMenuLocation()
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_OPTIMIZE_Select_All_MENU_LOCATION_F
      * @tc.name   : Before and after portrait/landscape switching, menu normally avoids
+     * @tc.desc   : Verify text richeditor optimize select all menu location f interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

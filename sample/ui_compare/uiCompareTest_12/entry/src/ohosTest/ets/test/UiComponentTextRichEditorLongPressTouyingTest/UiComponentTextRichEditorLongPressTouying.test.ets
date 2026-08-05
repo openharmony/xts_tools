@@ -43,6 +43,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0005
      * @tc.name   : Long press mixed content, cancel and re-long press
+     * @tc.desc   : Verify text richeditor lonngpresstouying interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -80,6 +81,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0003
      * @tc.name   : Double click image content then long press
+     * @tc.desc   : Verify text richeditor lonngpresstouying interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +119,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0010
      * @tc.name   : Long press text with height greater than component height
+     * @tc.desc   : Verify text richeditor lonngpresstouying interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -151,6 +154,7 @@ export default function UiComponentTextRichEditorLongPressTouying() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_lonngpresstouying_0009
      * @tc.name   : Long press image with height greater than component height
+     * @tc.desc   : Verify text richeditor lonngpresstouying interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

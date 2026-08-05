@@ -33,6 +33,7 @@ export default function UiComponentTextKeybordPullBack() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_KEYBORD_Pull_Back_0020
      * @tc.name   : Switch page to trigger keyboard retract
+     * @tc.desc   : Verify text keybord pull back interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

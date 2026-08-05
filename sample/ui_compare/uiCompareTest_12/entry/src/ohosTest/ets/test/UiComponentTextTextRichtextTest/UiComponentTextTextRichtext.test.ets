@@ -43,6 +43,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0050
      * @tc.name   : Horizontal alignment of Text when the child component type is plain text
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -71,6 +72,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0080
      * @tc.name   : Indentation of Text component (plain text)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -116,6 +118,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0060
      * @tc.name   : Indentation of Text component (image-text mixed)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -161,6 +164,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0010
      * @tc.name   : ImageSpan construction parameter value is null/undefined/empty string/not an image
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -189,6 +193,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0070
      * @tc.name   : Indentation of Text component (pure images)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -234,6 +239,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0100
      * @tc.name   : Vertical alignment of images (image-text mixed, multi-line single image)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -262,6 +268,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0030
      * @tc.name   : Horizontal alignment when Text child component type is image and text mixed (single line)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -290,6 +297,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0020
      * @tc.name   : Horizontal alignment when Text child component type is image and text mixed (two lines)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -318,6 +326,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0130
      * @tc.name   : Image scaling (ImageSpan width/height greater than image width/height)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -371,6 +380,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0120
      * @tc.name   : Vertical alignment of images (pure images)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -399,6 +409,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0140
      * @tc.name   : Image scaling (ImageSpan width/height equal to image width/height)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -445,6 +456,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0150
      * @tc.name   : Default values of interface parameters
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -473,6 +485,7 @@ export default function UiComponentTextTextRichtext() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_TEXT_RICHTEXT_0110
      * @tc.name   : Vertical alignment of images (image-text mixed, multi-line multiple images)
+     * @tc.desc   : Verify text richtext interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

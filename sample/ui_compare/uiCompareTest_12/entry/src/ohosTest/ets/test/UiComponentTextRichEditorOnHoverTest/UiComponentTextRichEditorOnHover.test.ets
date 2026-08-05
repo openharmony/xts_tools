@@ -39,6 +39,7 @@ export default function UiComponentTextRichEditorOnHover() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00004
      * @tc.name   : Select image by button and long press to bring up menu to test onHover callback
+     * @tc.desc   : Verify text richeditor onhover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -107,6 +108,7 @@ export default function UiComponentTextRichEditorOnHover() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00002
      * @tc.name   : onHover event trigger area test
+     * @tc.desc   : Verify text richeditor onhover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -167,6 +169,7 @@ export default function UiComponentTextRichEditorOnHover() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00003
      * @tc.name   : onHover (true/false) event trigger test
+     * @tc.desc   : Verify text richeditor onhover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,6 +213,7 @@ export default function UiComponentTextRichEditorOnHover() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_onHover_00008
      * @tc.name   : Cursor moving between images onHover event test
+     * @tc.desc   : Verify text richeditor onhover interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

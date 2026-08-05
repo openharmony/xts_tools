@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0007
      * @tc.name   : Test RichEditor component with BALANCED line break strategy for mixed content
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -98,6 +99,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0008
      * @tc.name   : Test RichEditor component with HIGH_QUALITY line break strategy for mixed content
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -149,6 +151,7 @@ export default function UiComponentTextRichEditorLineBreakStrategy() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEBREAKSTRATEGY_0009
      * @tc.name   : Test RichEditor component with GREEDY line break strategy for mixed content
+     * @tc.desc   : Verify text richeditor linebreakstrategy interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

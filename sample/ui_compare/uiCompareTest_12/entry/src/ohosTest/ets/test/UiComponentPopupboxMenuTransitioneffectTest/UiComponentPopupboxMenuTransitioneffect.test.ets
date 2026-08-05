@@ -41,6 +41,7 @@ export default function UiComponentPopupboxMenuTransitioneffect() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0010
      * @tc.name   : bindContextMenu sets asymmetric transition animation, appears from the left edge and disappears from the right edge
+     * @tc.desc   : Verify popupbox menu transitioneffect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -73,6 +74,7 @@ export default function UiComponentPopupboxMenuTransitioneffect() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0100
      * @tc.name   : bindMenu sets combined transition animation (opacity + translate)
+     * @tc.desc   : Verify popupbox menu transitioneffect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +107,7 @@ export default function UiComponentPopupboxMenuTransitioneffect() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_MENU_TRANSITIONEFFECT_0140
      * @tc.name   : menu does not set animation, preview sets animation
+     * @tc.desc   : Verify popupbox menu transitioneffect interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

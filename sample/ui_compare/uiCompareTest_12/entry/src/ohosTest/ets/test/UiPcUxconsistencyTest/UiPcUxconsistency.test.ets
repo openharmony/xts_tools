@@ -41,6 +41,7 @@ export default function UiPcUxconsistency() {
     /*
      * @tc.number : SUB_ACE_UI_PC_UXCONSISTENCY_0150
      * @tc.name   : Dynamic switching showSideBar attribute focus loss gray display test
+     * @tc.desc   : Verify pc uxconsistency interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -72,6 +73,7 @@ export default function UiPcUxconsistency() {
     /*
      * @tc.number : SUB_ACE_UI_PC_UXCONSISTENCY_0130
      * @tc.name   : Sidebar with SideBarPosition.Start focus loss gray display test
+     * @tc.desc   : Verify pc uxconsistency interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -99,6 +101,7 @@ export default function UiPcUxconsistency() {
     /*
      * @tc.number : SUB_ACE_UI_PC_UXCONSISTENCY_0060
      * @tc.name   : NavBar focus loss gray display test when dragging to hide and show navigation bar
+     * @tc.desc   : Verify pc uxconsistency interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +146,7 @@ export default function UiPcUxconsistency() {
     /*
      * @tc.number : SUB_ACE_UI_PC_UXCONSISTENCY_0110
      * @tc.name   : Sidebar with showSideBar true focus loss gray display test
+     * @tc.desc   : Verify pc uxconsistency interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -170,6 +174,7 @@ export default function UiPcUxconsistency() {
     /*
      * @tc.number : SUB_ACE_UI_PC_UXCONSISTENCY_0090
      * @tc.name   : Sidebar with SideBarContainerType.Embed focus loss gray display test
+     * @tc.desc   : Verify pc uxconsistency interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -197,6 +202,7 @@ export default function UiPcUxconsistency() {
     /*
      * @tc.number : SUB_ACE_UI_PC_UXCONSISTENCY_0170
      * @tc.name   : Dynamic switching SideBarContainerType focus loss gray display test
+     * @tc.desc   : Verify pc uxconsistency interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

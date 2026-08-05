@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_009_234
      * @tc.name   : Preview mode, selecting content to the boundary downwards (upwards), can trigger page scrolling
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -68,6 +69,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_008
      * @tc.name   : Text/symbol/image/builderspan combination scrolling
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -105,6 +107,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_003
      * @tc.name   : Selected area scrolls to invisible area and then scrolls back to visible area
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -137,6 +140,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_001
      * @tc.name   : Selected area scrolls within the visible area
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -169,6 +173,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_009
      * @tc.name   : Selected content scrolls in memo
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -206,6 +211,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_002
      * @tc.name   : Selected area scrolls to invisible area
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -233,6 +239,7 @@ export default function UiComponentTextRichEditorSelectScroll() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_selectscroll_010
      * @tc.name   : Selected content scrolls in attribute string
+     * @tc.desc   : Verify text richeditor selectscroll interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

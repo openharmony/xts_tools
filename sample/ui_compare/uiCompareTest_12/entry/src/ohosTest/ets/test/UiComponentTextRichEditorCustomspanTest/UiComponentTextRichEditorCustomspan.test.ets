@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorCustomspan() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMSPAN_0005
      * @tc.name   : Custom drawing pure text span
+     * @tc.desc   : Verify text richeditor customspan interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

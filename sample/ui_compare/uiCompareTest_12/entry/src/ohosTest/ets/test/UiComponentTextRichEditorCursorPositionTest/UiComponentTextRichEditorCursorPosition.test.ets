@@ -42,6 +42,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0001
      * @tc.name   : Get cursor relative position when cursor is blinking and changing text style
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0002
      * @tc.name   : Get cursor relative position when cursor is blinking and changing component layout
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -110,6 +112,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0003
      * @tc.name   : Get cursor relative position when cursor is blinking and changing image text layout
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -139,6 +142,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0004
      * @tc.name   : Get cursor relative position when cursor is at empty line, line start or line end
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -182,6 +186,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0008
      * @tc.name   : Get cursor relative position after multiple touch changes
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +230,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0009
      * @tc.name   : Get cursor relative position when text content is RTL display
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -265,6 +271,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0010
      * @tc.name   : Get cursor relative position when device switches screen orientation
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -312,6 +319,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0011
      * @tc.name   : Get cursor relative position in StyledString component
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -353,6 +361,7 @@ export default function UiComponentTextRichEditorCursorPosition() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CURSOR_POSITION_0014
      * @tc.name   : Multi-device verification
+     * @tc.desc   : Verify text richeditor cursor position interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

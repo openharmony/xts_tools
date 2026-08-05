@@ -41,6 +41,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0060
      * @tc.name   : Verify openPopup interface with target parameter (id and componentId both number type)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -75,6 +76,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0070
      * @tc.name   : Verify openPopup interface with target parameter (id is number type, componentId not used)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -117,6 +119,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0080
      * @tc.name   : Verify openPopup interface with target parameter (id is string type, componentId is number type)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -159,6 +162,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0090
      * @tc.name   : Verify openPopup interface with target parameter (id is string type, componentId not used)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -201,6 +205,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0100
      * @tc.name   : Verify openPopup interface options with radius parameter set to undefined
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -231,6 +236,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0190
      * @tc.name   : Verify openPopup interface options with shadow parameter set to ShadowOptions property
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -269,6 +275,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0200
      * @tc.name   : Verify openPopup interface with target parameter (id is string type but not unique, using componentId)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -316,6 +323,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0210
      * @tc.name   : Verify openPopup interface options with shadow parameter set to null
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -350,6 +358,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0220
      * @tc.name   : Verify openPopup interface options with shadow parameter set to undefined
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -384,6 +393,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0280
      * @tc.name   : Verify openPopup interface options with backgroundBlurStyle parameter set to BACKGROUND_THICK
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -418,6 +428,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0290
      * @tc.name   : Verify openPopup interface options with backgroundBlurStyle parameter set to BACKGROUND_ULTRA_THICK
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -452,6 +463,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0310
      * @tc.name   : Verify openPopup interface with target parameter (id is string type but not unique, componentId string also not unique)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -499,6 +511,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0320
      * @tc.name   : Verify openPopup interface options with backgroundBlurStyle parameter set to COMPONENT_ULTRA_THIN
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -533,6 +546,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0390
      * @tc.name   : Verify openPopup interface options with focusable parameter set to true
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -572,6 +586,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0400
      * @tc.name   : Verify openPopup interface options with focusable parameter set to false
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -611,6 +626,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0410
      * @tc.name   : Verify openPopup interface options with focusable parameter set to null
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -645,6 +661,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0420
      * @tc.name   : Verify openPopup interface with target parameter (id is string type but not unique, componentId not used)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -692,6 +709,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0430
      * @tc.name   : Verify openPopup interface options with focusable parameter set to undefined
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -726,6 +744,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0440
      * @tc.name   : Verify openPopup interface options with transition parameter opacity set to 0.5
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -760,6 +779,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0450
      * @tc.name   : Verify openPopup interface options with transition parameter translate all set to 50
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -794,6 +814,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0460
      * @tc.name   : Verify openPopup interface options with transition parameter translate all set to "50"
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -828,6 +849,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0470
      * @tc.name   : Verify openPopup interface options with transition parameter scale set to 1,1.5,2,50,50
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -862,6 +884,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0480
      * @tc.name   : Verify openPopup interface options with transition parameter rotate set to 50,50.50,90deg,50,50,0,0
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -896,6 +919,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0490
      * @tc.name   : Verify openPopup interface options with transition parameter move set to TOP and START, asymmetric, combine
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -939,6 +963,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0500
      * @tc.name   : Verify openPopup interface options with transition parameter move set to BOTTOM and END, asymmetric, combine
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -982,6 +1007,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0510
      * @tc.name   : Verify openPopup interface with onWillDismiss set to true
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1027,6 +1053,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0520
      * @tc.name   : Verify openPopup interface with onWillDismiss set to false
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1076,6 +1103,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0540
      * @tc.name   : Verify openPopup interface with onWillDismiss set to null
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1121,6 +1149,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0550
      * @tc.name   : Verify openPopup interface with onWillDismiss set to undefined
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1166,6 +1195,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0590
      * @tc.name   : Verify openPopup interface with followTransformOfTarget set to undefined
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1195,6 +1225,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0720
      * @tc.name   : Verify updatePopup interface options with showInSubWindow parameter set to false, then modified to true (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1233,6 +1264,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0760
      * @tc.name   : Verify updatePopup interface options with offset parameters x and y set to null, then modified to 100 (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1271,6 +1303,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0770
      * @tc.name   : Verify updatePopup interface options with width parameter set to null, then modified to 50vp (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1309,6 +1342,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0790
      * @tc.name   : Verify updatePopup interface options with arrowWidth parameter set to null, then modified to 20vp (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1347,6 +1381,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0800
      * @tc.name   : Verify updatePopup interface options with arrowHeight parameter set to null, then modified to 20vp (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1385,6 +1420,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0840
      * @tc.name   : Verify updatePopup interface options with focusable parameter set to true, then modified to false (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1423,6 +1459,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0850
      * @tc.name   : Verify updatePopup interface options with transition parameter not set, then modified transition value (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1461,6 +1498,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0870
      * @tc.name   : Verify updatePopup interface with onWillDismiss set to true, then modified to false (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1503,6 +1541,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_0880
      * @tc.name   : Verify openPopup interface with followTransformOfTarget set to false, then modified to true (partialUpdate is false)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1543,6 +1582,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1020
      * @tc.name   : Verify calling updatePopup interface first then openPopup
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1580,6 +1620,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1030
      * @tc.name   : Verify multiple asynchronous callbacks opening the same openPopup simultaneously
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1621,6 +1662,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1040
      * @tc.name   : Verify multiple asynchronous callbacks updating the same updatePopup simultaneously
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1670,6 +1712,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1060
      * @tc.name   : Verify multiple asynchronous callbacks opening openPopup simultaneously (same targetinfo)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1704,6 +1747,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1070
      * @tc.name   : Verify multiple asynchronous callbacks updating updatePopup simultaneously (same targetinfo)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1745,6 +1789,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1080
      * @tc.name   : Verify multiple asynchronous callbacks closing closePopup simultaneously (same targetinfo)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1793,6 +1838,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1100
      * @tc.name   : Verify multiple asynchronous callbacks opening openPopup simultaneously (different targetinfo)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1827,6 +1873,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1110
      * @tc.name   : Verify multiple asynchronous callbacks updating updatePopup simultaneously (different targetinfo)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1868,6 +1915,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1120
      * @tc.name   : Verify multiple asynchronous callbacks closing closePopup simultaneously (different targetinfo)
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1916,6 +1964,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1130
      * @tc.name   : Verify calling openPopup, updatePopup, and closePopup interfaces inside half-modal
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1964,6 +2013,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1380
      * @tc.name   : Verify openPopup interface with onStateChange set
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -1998,6 +2048,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1410
      * @tc.name   : Verify openPopup interface options with arrowOffset parameter set to $r("app.string.string45")
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2032,6 +2083,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1440
      * @tc.name   : Verify openPopup interface options with showInSubWindow parameter set to true
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2066,6 +2118,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1450
      * @tc.name   : Verify openPopup interface options with showInSubWindow parameter set to false
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2100,6 +2153,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1460
      * @tc.name   : Verify openPopup interface options with showInSubWindow parameter set to null
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2134,6 +2188,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1560
      * @tc.name   : Verify openPopup interface options with targetSpace parameter set to $r("app.string.string10")-10
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2168,6 +2223,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1670
      * @tc.name   : Verify openPopup interface options with width parameter set to $r("app.string.string45") 45vp
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -2202,6 +2258,7 @@ export default function UiComponentPopupboxPopupGlobal() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_POPUPBOX_POPUP_GLOBAL_1890
      * @tc.name   : Verify openPopup interface options with radius parameter set to 10px
+     * @tc.desc   : Verify popupbox popup global interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

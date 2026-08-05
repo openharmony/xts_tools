@@ -43,6 +43,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0002
      * @tc.name   : Gesture select all content, verify search menu position
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -84,6 +85,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0003
      * @tc.name   : Copy then select all, verify search menu position
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -150,6 +152,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0004
      * @tc.name   : Search menu display incomplete, shown in extend menu
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -192,6 +195,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0005
      * @tc.name   : Mouse right click select text, verify search menu position
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -232,6 +236,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0008
      * @tc.name   : Custom search button via editMenuOptions
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -279,6 +284,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0010
      * @tc.name   : Select non-text content, no search menu displayed
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -310,6 +316,7 @@ export default function UiComponentTextRichEditorSearch() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_SEARCH_0011
      * @tc.name   : Only Huawei browser installed, no search menu displayed
+     * @tc.desc   : Verify text richeditor search interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

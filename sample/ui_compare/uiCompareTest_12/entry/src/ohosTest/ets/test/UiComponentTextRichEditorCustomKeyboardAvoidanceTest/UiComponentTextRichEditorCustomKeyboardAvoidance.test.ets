@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorCustomKeyboardAvoidance() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0018
      * @tc.name   : Continue inputting content after the page avoids the custom keyboard
+     * @tc.desc   : Verify text richeditor customkeyboardavoidance interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -92,6 +93,7 @@ export default function UiComponentTextRichEditorCustomKeyboardAvoidance() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_CUSTOMKEYBOARDAVOIDANCE_0020
      * @tc.name   : Continue inputting content after the page avoids the custom keyboard
+     * @tc.desc   : Verify text richeditor customkeyboardavoidance interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

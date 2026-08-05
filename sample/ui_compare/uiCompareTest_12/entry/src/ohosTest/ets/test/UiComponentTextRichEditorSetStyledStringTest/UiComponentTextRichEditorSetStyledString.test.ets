@@ -42,6 +42,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201_232
      * @tc.name   : Verify attribute string built RichEditor component supports onSubmit
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,6 +84,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0048_665
      * @tc.name   : Verify attribute string built RichEditor component supports getLayoutManager
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -108,6 +110,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0064
      * @tc.name   : Verify attribute string deletion operation
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -148,6 +151,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201
      * @tc.name   : Verify attribute string built RichEditor component does not support onDidIMEInput
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -185,6 +189,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0030
      * @tc.name   : Verify attribute string supports placeholder attribute
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -225,6 +230,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0033
      * @tc.name   : Verify attribute string supports caretColor attribute
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -272,6 +278,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0041
      * @tc.name   : Verify attribute string input operation
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -314,6 +321,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0042
      * @tc.name   : Verify attribute string supports getCaretOffset
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -344,6 +352,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0081
      * @tc.name   : Get attribute string displayed by rich text component through getStyledString
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -384,6 +393,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478_201_232_533
      * @tc.name   : Verify attribute string built RichEditor component supports editMenuOptions
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -429,6 +439,7 @@ export default function UiComponentTextRichEditorSetStyledString() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_setStyledString_0058_478
      * @tc.name   : Verify attribute string built RichEditor component supports barState
+     * @tc.desc   : Verify text richeditor setstyledstring interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

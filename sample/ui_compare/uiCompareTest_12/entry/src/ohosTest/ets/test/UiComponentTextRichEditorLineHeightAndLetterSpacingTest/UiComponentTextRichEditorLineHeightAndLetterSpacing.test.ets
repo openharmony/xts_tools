@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorLineHeightAndLetterSpacing() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_LINEHEIGHT_LETTERSPACING_0027
      * @tc.name   : Set lineHeight property when setting indentation for PixelMap image content
+     * @tc.desc   : Verify text richeditor lineheight letterspacing interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

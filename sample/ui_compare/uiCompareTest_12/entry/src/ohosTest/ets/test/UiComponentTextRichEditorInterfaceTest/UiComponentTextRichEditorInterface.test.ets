@@ -43,6 +43,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0031
      * @tc.name   : Using getSpans within the aboutToIMEInput callback can accurately obtain span information.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -83,6 +84,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0032
      * @tc.name   : Using getCaretOffset within the aboutToIMEInput callback can accurately obtain the cursor position before input.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -123,6 +125,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0033
      * @tc.name   : Using getParagraphs within the aboutToIMEInput callback can accurately obtain paragraph styles and range information before input.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -163,6 +166,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0037
      * @tc.name   : Using getSpans within the aboutToDelete callback can accurately obtain span information before deletion.
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -210,6 +214,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0043
      * @tc.name   : Using updateSpanStyle within the onIMEInputComplete callback to update text or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -254,6 +259,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0034
      * @tc.name   : Using getSpans within the onIMEInputComplete callback can accurately obtain span information after input completion
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -294,6 +300,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0035
      * @tc.name   : Using getCaretOffset within the onIMEInputComplete callback can accurately obtain cursor position
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -334,6 +341,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0036
      * @tc.name   : Using getParagraphs within the onIMEInputComplete callback can accurately obtain paragraph style and range information after input completion
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -374,6 +382,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0041
      * @tc.name   : Using getCaretOffset within the onDeleteComplete callback can accurately obtain cursor position
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -421,6 +430,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0068
      * @tc.name   : deleteSpans deletes content within specified range, with range boundaries falling in the middle of elements longer than 1
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -455,6 +465,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0076
      * @tc.name   : Using updateSpanStyle within the onSelect callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -505,6 +516,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0079
      * @tc.name   : Using updateSpanStyle within the onDeleteComplete callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -552,6 +564,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0082
      * @tc.name   : Using updateSpanStyle within the onEditingChange callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -585,6 +598,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0084
      * @tc.name   : Using updateSpanStyle within the onWillChange callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -622,6 +636,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0085
      * @tc.name   : Using updateSpanStyle within the aboutToDelete callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -667,6 +682,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0081
      * @tc.name   : Using updateSpanStyle within the onSelectionChange callback to update text, image or SymbolSpan styles
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -701,6 +717,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0058
      * @tc.name   : Continuous calling of addTextSpan, updateSpanStyle and deleteSpans
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -751,6 +768,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0069
      * @tc.name   : Set typingStyle, input emoji, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -785,6 +803,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0073
      * @tc.name   : Change typingStyle and input text between original spans, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -829,6 +848,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0072
      * @tc.name   : Line break between spans, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -862,6 +882,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0071
      * @tc.name   : Select part of component content and input text, aboutToIMEInput and onIMEInputComplete callback normally
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -904,6 +925,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0004
      * @tc.name   : Check the accuracy of aboutToDelete callback values
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -941,6 +963,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_9998
      * @tc.name   : Using getSpans within the onDeleteComplete callback can accurately obtain span information
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -976,6 +999,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0075
      * @tc.name   : onWillChange returns false, input text does not trigger aboutToIMEInput and onIMEInputComplete callbacks
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1015,6 +1039,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0018
      * @tc.name   : closeSelectionMenu can close custom selection menu or system default selection menu
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1063,6 +1088,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0003
      * @tc.name   : aboutToIMEInput callback value accuracy check
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1102,6 +1128,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0003_060
      * @tc.name   : Input text and use updateSpanStyle to update content style, then continue to input text
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1134,6 +1161,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0029
      * @tc.name   : Using getCaretOffset within the onCut callback can accurately obtain cursor position before text cutting
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1167,6 +1195,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0053
      * @tc.name   : Continuous calling of addImageSpan/addSymbolSpan and deleteSpans
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2
@@ -1199,6 +1228,7 @@ export default function UiComponentTextRichEditorInterface() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_INTERFACE_0049
      * @tc.name   : Continuous calling of addTextSpan and deleteSpans
+     * @tc.desc   : Verify text richeditor interface interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 2

@@ -42,6 +42,7 @@ export default function UiComponentTextRichEditorOnDragStart() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_005
      * @tc.name   : Drag out text content and set onDragStart
+     * @tc.desc   : Verify text richeditor ondragstart interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -76,6 +77,7 @@ export default function UiComponentTextRichEditorOnDragStart() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_ONDRAGSTART_006
      * @tc.name   : Drag images and text in RichEditor component into the edge hot zone with the mouse
+     * @tc.desc   : Verify text richeditor ondragstart interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

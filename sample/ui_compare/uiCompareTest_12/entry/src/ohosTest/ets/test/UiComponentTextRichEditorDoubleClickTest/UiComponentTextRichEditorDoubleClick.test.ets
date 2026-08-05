@@ -43,6 +43,7 @@ export default function UiComponentTextRichEditorDoubleClick() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_003
      * @tc.name   : Double click to display numbers in one line
+     * @tc.desc   : Verify text richeditor doubleclick interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -79,6 +80,7 @@ export default function UiComponentTextRichEditorDoubleClick() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_010
      * @tc.name   : Double click words distributed in two lines within visible range
+     * @tc.desc   : Verify text richeditor doubleclick interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -115,6 +117,7 @@ export default function UiComponentTextRichEditorDoubleClick() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_doubleclick_001
      * @tc.name   : Double click textspan without spaces displayed in one line
+     * @tc.desc   : Verify text richeditor doubleclick interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

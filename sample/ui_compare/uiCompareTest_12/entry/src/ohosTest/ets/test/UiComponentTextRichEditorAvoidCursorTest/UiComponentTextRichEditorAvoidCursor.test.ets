@@ -41,6 +41,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0001
      * @tc.name   : Set cursor avoidance mechanism to OFFSET_WITH_CARET mode, change cursor position, observe avoidance effect
+     * @tc.desc   : Verify text richeditor avoid cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -106,6 +107,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0002
      * @tc.name   : Set cursor avoidance mechanism to OFFSET_WITH_CARET mode, long press text content, observe avoidance effect
+     * @tc.desc   : Verify text richeditor avoid cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -143,6 +145,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0014
      * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, long press text content, observe avoidance effect
+     * @tc.desc   : Verify text richeditor avoid cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -180,6 +183,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0015
      * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, continuously input content, observe avoidance effect
+     * @tc.desc   : Verify text richeditor avoid cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
@@ -222,6 +226,7 @@ export default function UiComponentTextRichEditorAvoidCursor() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_AVOID_CURSOR_0013
      * @tc.name   : Set cursor avoidance mechanism to RESIZE_WITH_CARET mode, change cursor position, observe avoidance effect
+     * @tc.desc   : Verify text richeditor avoid cursor interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3

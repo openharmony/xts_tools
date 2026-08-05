@@ -43,6 +43,7 @@ export default function UiComponentTextRichEditorThreeStrikes() {
     /*
      * @tc.number : SUB_ACE_UI_COMPONENT_TEXT_RICHEDITOR_THREESTRIKES_0003
      * @tc.name   : Triple click on empty text
+     * @tc.desc   : Verify text richeditor threestrikes interface behavior and expected UI result for this case.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
