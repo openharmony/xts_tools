@@ -47,10 +47,6 @@ allowCrossProcessNesting: false | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0014` | 1.1 dc嵌套拉起UEC触发onDrawReady | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_DYNAMICCOMPONENT_UEC_ARKUI_0024` | 1.2DC嵌套拉起UEC失败
 allowCrossProcessNesting: true | 公共能力组 |
-| `SUB_ACE_ACTION_ARKUI_SR20250911884688_0030` | DC支持高优先级--多任务（频繁触发） | 公共能力组 |
-| `SUB_ACE_ACTION_ARKUI_SR20250911884763_0020` | 非scb线程横竖屏旋转，DC子线程不跟随主线程同步送显 | 公共能力组 |
-| `SUB_ACE_ACTION_ARKUI_SR20250911884688_0010` | DC支持高优先级任务trace查看 | 公共能力组 |
-| `SUB_ACE_ACTION_ARKUI_SR20250911884688_0020` | DC支持高优先级--多任务 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_XCOMPONENT_SUPPORT_FUNCTION_KEY_STATUS_AND_MOUSE_EVENT_0310` | 按键事件中获取FN键的状态,使用自带键盘 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_XCOMPONENT_PRIVACY_LAYER_0110` | 分屏模式验证Xcomponent组件支持设置隐私图层 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_XCOMPONENT_TYPENODE_CAPI_CAPABILITIE_EXPANSION_0150` | TypeNode创建Node类型的XComponent响应失焦事件（onBlur） | 公共能力组 |
@@ -63,37 +59,7 @@ allowCrossProcessNesting: true | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_XCOMPONENT_IGNORE_BUFFER_ALPHA_0130` | 图库悬浮窗场景（srgb到P3色域转换） | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_XCOMPONENT_LIFESCALE_0018` | OH_ArkUI_SurfaceHolder创建异常值测试 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_XCOMPONENT_IGNORE_BUFFER_ALPHA_0120` | 与图库分屏场景（srgb到P3色域转换） | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_SR20250428415694_UI_WINDOW_GESTURES_0005` | 手势启用-固定标题栏-触控板-双击 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0010` | 基于ASCF框架使用OH_ArkUI_NativeModule_AtomicServiceMenuBarSetVisible接口设置menubar胶囊不可见 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0016` | 使用FullScreenLaunchComponent组件拉起三方的元服务 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0012` | 使用FullScreenLaunchComponent组件全屏拉起元服务显示menubar | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0013` | 使用FullScreenLaunchComponent组件全屏拉起元服务不显示menubar | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0015` | 使用FullScreenLaunchComponent组件半模态屏拉起元服务不显示menubar | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0014` | 使用FullScreenLaunchComponent组件半模态屏拉起元服务显示menubar | 公共能力组 |
-| `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0090` | 小窗模式，获取胶囊的相对位置 | 公共能力组 |
-| `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0040` | 获取胶囊的相对位置：只获取y | 公共能力组 |
-| `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0070` | 获取胶囊的相对位置：只获取x、y | 公共能力组 |
-| `SUB_ACE_UI_ABILITY_ATOMICSERVICE_CAPSULE_POSITION_0100` | 横屏，获取胶囊的相对位置 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_SR20250428415694_UI_WINDOW_GESTURES_0001` | 日志打印正确 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_ARKUI_ATOMICSERVICEMENUBARSETVISIBLE_0011` | 基于ASCF框架使用OH_ArkUI_NativeModule_AtomicServiceMenuBarSetVisible接口设置menubar胶囊可见 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_TITLEBAR_FUNCTION_0990` | 隐藏标题栏-最大化窗口-拖拽-鼠标 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_SR20250428415694_UI_WINDOW_GESTURES_0011` | 固定标题栏-双击-触控板 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_TITLEBAR_FUNCTION_0040` | 固定标题栏-缩小状态-关闭窗口-触控板 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_TITLEBAR_FUNCTION_0160` | 固定标题栏-最大化窗口-触控板 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_TITLEBAR_FUNCTION_0890` | 隐藏标题栏-最大化窗口-触控板 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_TITLEBAR_FUNCTION_0980` | 隐藏标题栏-最大化窗口-拖拽-触控板 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0440` | 手势启用-悬浮标题栏-触控板-一只手按住，一只手拖拽 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_003` | 自由窗口，ConfigWindowMask为false,蒙层关闭 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_005` | 蒙层窗口上方显示其他窗口，被部分遮挡，蒙层开启/关闭 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_GESTURES_ENABLED_NEW_0090` | 手势禁用-固定标题栏-触控板-一只手按住，一只手拖拽 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_TITLEBAR_FUNCTION_0830` | 隐藏标题栏-缩小状态-最小化窗口-触控板 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_HOVER_MENU_0040` | 平铺、分屏重复切换50次 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_001` | 自由窗口，ConfigWindowMask为true,有产品自定义文件（abc），蒙层开启 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_HOVER_MENU_0010` | 平铺显示 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_HOVER_MENU_0030` | 日志打印正确 | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_HOVER_MENU_0020` | 分屏显示 | 公共能力组 |
 | `SUB_ACE_UI_ATTRIBUTES_TOOLBAR_CUSTOM_0410` | toolBar绑定onClick，设置distanceThreshold为100vp | 公共能力组 |
-| `SUB_ACE_UI_WINDOW_ABILITY_MASK_LAYER_004` | 窗口最大化，蒙层开启/关闭 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_ARKUI_DARK_LIGHT_0015` | 深色模式SUEC触发terminate事件 | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0016` | RequestParameterForStage接口target的abilityName设置undefined | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_SPECIALCOMPONENTS_UIEXTENSIONCOMPONENT_ARKUI_QINAGJI_0015` | send参数测试 | 公共能力组 |
@@ -111,10 +77,8 @@ allowCrossProcessNesting: true | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0026` | request方法callback回调设为undefined | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0021` | RequestParameterForStage接口date设置有效值 | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0023` | RequestParameterForStage接口jsonPath设置undefined | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_INSPECTOR_0010` | getInspectorByKey设置有效值 | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0025` | request方法callback回调正常 | 公共能力组 |
 | `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_PLUGINCOMPONENTMANAGER_REQUEST_QIANGJI_0024` | RequestParameterForStage接口jsonPath设置有效值 | 公共能力组 |
-| `SUB_ACE_TOOLCHAIN_ARKUI_BARRIERFREE_INSPECTOR_0016` | registerVsyncCallback注册回调 | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_COLUMN_ROW_REVERSE_0050` | 验证内存泄漏 | 生态2/3组 |
 | `SUB_ACE_UI_COMPONENT_MEMORY_LEAK_0090` | column组件嵌套video组件，VideoController动态切换 | 生态2/3组 |
 | `SUB_ACE_UI_COMPONENT_XCOMPONENT_TECH_SUPPORT_XCOMPONENT_CAPABILITY_1450` | NativeXComponentParameters方式构造texture类型的XC组件，hdrBrightness属性设置为1 | 生态2/3组 |
@@ -133,11 +97,5 @@ allowCrossProcessNesting: true | 公共能力组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_DFX_0060` | 【Video-DFX】Video组件未设置预览图，引用hsp页面 | 生态2/3组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_VIDEO_DFX_0070` | 【Video-DFX】Video组件未设置预览图，动态切换视频源 | 生态2/3组 |
 | `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_MEMORY_0010` | 内存泄漏测试 | 组件1组 |
-| `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_YUV_00161` | 内存泄漏，image组件支持heif/heic格式图片按照YUV21格式解码，瀑布流上下滑动 | 组件1组 |
-| `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_SYSTEMAPP_0018` | 加载没有ai属性的静态图和有ai属性的静态图，反复进行横竖屏切换，抓取trace，搜索关键词onimageload，查看耗时不同 | 组件1组 |
-| `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_Native_0007` | CalendarPicker，DatePicker，TextPicker，TimePicker，image，ImageAnimator多组件Native内存追踪测试 | 组件1组 |
-| `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_Native_0008` | Native内存追踪稳定性测试 | 组件1组 |
-| `SUB_ACE_UI_COMPONENT_MEDIA_IMAGE_TRACE_0011` | 图片加载成功上报验证 | 组件1组 |
-| `SUB_ACE_UI_COMPONENT_MEDIA_DATEPICKER_VOICE_0028` | datePicker/datePickerDialog参数设置为true，鼠标快划 | 组件1组 |
 | `TestCase_d34700e55d3a47f49d2b89c18fc0aa0b` | 单列Resource表冠滑动和手指滑动组合 | 组件1组 |
 | `TestCase_da73c38a98a6442bb2debff1e0f672c6` | 手表DatePicker15：DatePicker设置lunar（false）、无障碍 | 组件1组 |
