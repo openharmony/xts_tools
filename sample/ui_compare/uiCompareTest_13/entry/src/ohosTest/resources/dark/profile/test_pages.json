@@ -73,6 +73,10 @@
     "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0084",
     "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0086",
     "testability/pages/UiComponentMediaImageCrossplatform/UiComponentMediaImageCrossplatform0088",
-    "testability/pages/UiComponentMediaConcurrency/UiComponentMediaConcurrency0036"
+    "testability/pages/UiComponentMediaConcurrency/UiComponentMediaConcurrency0036",
+    "testability/pages/UiComponentMediaImageInteraction/UiComponentMediaImageInteraction0010",
+    "testability/pages/UiComponentMediaImageInteraction/UiComponentMediaImageInteraction0060",
+    "testability/pages/UiComponentMediaImageInteraction/UiComponentMediaImageInteraction0020",
+    "testability/pages/UiComponent0803Remaining/UiComponent0803Remaining0087"
   ]
 }

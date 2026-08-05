@@ -134,7 +134,19 @@ import UiComponentMediaImageCrossplatform0088 from './UiComponentMediaImageCross
 
 import UiComponentMediaConcurrency0036 from './UiComponentMediaConcurrencyTest/UiComponentMediaConcurrency0036.test'
 
+import UiComponentMediaImageInteraction0010 from './UiComponentMediaImageInteractionTest/UiComponentMediaImageInteraction0010.test'
+
+import UiComponentMediaImageInteraction0060 from './UiComponentMediaImageInteractionTest/UiComponentMediaImageInteraction0060.test'
+
+import UiComponentMediaImageInteraction0020 from './UiComponentMediaImageInteractionTest/UiComponentMediaImageInteraction0020.test'
+
+import UiComponent0803Remaining0087 from './UiComponent0803RemainingTest/UiComponent0803Remaining0087.test'
+
 export default function testsuite() {
+  UiComponent0803Remaining0087()
+  UiComponentMediaImageInteraction0020()
+  UiComponentMediaImageInteraction0060()
+  UiComponentMediaImageInteraction0010()
   UiComponentMediaConcurrency0036()
   UiComponentMediaImageCrossplatform0088()
   UiComponentMediaImageCrossplatform0086()
