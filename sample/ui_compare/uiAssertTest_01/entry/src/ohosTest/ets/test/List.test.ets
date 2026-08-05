@@ -55,7 +55,139 @@ import UiComponentEmbeddedComponent0034 from './UiComponentEmbeddedComponentTest
 
 import UiComponentXComponentMarker0110 from './UiComponentXComponentMarkerTest/UiComponentXComponentMarker0110.test'
 
+import UiComponentMediaImageApp0927 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0927.test'
+
+import UiComponentMediaImageApp0930 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0930.test'
+
+import UiComponentMediaImageApp0922 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0922.test'
+
+import UiComponentMediaImageApp0928 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0928.test'
+
+import UiComponentMediaImageApp0923 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0923.test'
+
+import UiComponentMediaImageApp0915 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0915.test'
+
+import UiComponentMediaImageApp0929 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0929.test'
+
+import UiComponentMediaImageApp0920 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0920.test'
+
+import UiComponentMediaImageApp0932 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0932.test'
+
+import UiComponentMediaImageApp0936 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0936.test'
+
+import UiComponentMediaImageApp0935 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0935.test'
+
+import UiComponentMediaImageApp0925 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0925.test'
+
+import UiComponentMediaImageApp0049 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0049.test'
+
+import UiComponentMediaImageApp0022 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0022.test'
+
+import UiComponentMediaImageApp0019 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0019.test'
+
+import UiComponentMediaImageApp0032 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0032.test'
+
+import UiComponentMediaImageApp0038 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0038.test'
+
+import UiComponentMediaImageApp0028 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0028.test'
+
+import UiComponentMediaImageApp0033 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0033.test'
+
+import UiComponentMediaImageApp0044 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0044.test'
+
+import UiComponentMediaImageApp0039 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0039.test'
+
+import UiComponentMediaImageApp0035 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0035.test'
+
+import UiComponentMediaImageApp0034 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0034.test'
+
+import UiComponentMediaImageApp0036 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0036.test'
+
+import UiComponentMediaImageApp0037 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0037.test'
+
+import UiComponentMediaMinorLanguage0050 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0050.test'
+
+import UiComponentMediaMinorLanguage0051 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0051.test'
+
+import UiComponentMediaMinorLanguage0052 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0052.test'
+
+import UiComponentMediaMinorLanguage0053 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0053.test'
+
+import UiComponentMediaImageTuku0013 from './UiComponentMediaImageTukuTest/UiComponentMediaImageTuku0013.test'
+
+import UiComponentMediaImageAction0210 from './UiComponentMediaImageActionTest/UiComponentMediaImageAction0210.test'
+
+import UiComponentMediaImageApp0031 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0031.test'
+
+import UiComponentMediaImageApp0007 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0007.test'
+
+import UiComponentMediaImageApp0080 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0080.test'
+
+import UiComponentMediaImageApp0024 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0024.test'
+
+import UiComponentMediaImageApp0017 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0017.test'
+
+import UiComponentMediaImageApp0063 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0063.test'
+
+import UiComponentMediaImageApp0016 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0016.test'
+
+import UiComponentMediaImageApp0051 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0051.test'
+
+import UiComponentMediaImageApp0053 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0053.test'
+
+import UiComponentMediaImageApp0055 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0055.test'
+
+import UiComponentMediaImageApp0056 from './UiComponentMediaImageAppTest/UiComponentMediaImageApp0056.test'
+
+import UiComponentMediaMinorLanguage0021 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0021.test'
+
+import UiComponentMediaMinorLanguage0031 from './UiComponentMediaMinorLanguageTest/UiComponentMediaMinorLanguage0031.test'
+
 export default function testsuite() {
+  UiComponentMediaMinorLanguage0031()
+  UiComponentMediaMinorLanguage0021()
+  UiComponentMediaImageApp0056()
+  UiComponentMediaImageApp0055()
+  UiComponentMediaImageApp0053()
+  UiComponentMediaImageApp0051()
+  UiComponentMediaImageApp0016()
+  UiComponentMediaImageApp0063()
+  UiComponentMediaImageApp0017()
+  UiComponentMediaImageApp0024()
+  UiComponentMediaImageApp0080()
+  UiComponentMediaImageApp0007()
+  UiComponentMediaImageApp0031()
+  UiComponentMediaImageAction0210()
+  UiComponentMediaImageTuku0013()
+  UiComponentMediaMinorLanguage0053()
+  UiComponentMediaMinorLanguage0052()
+  UiComponentMediaMinorLanguage0051()
+  UiComponentMediaMinorLanguage0050()
+  UiComponentMediaImageApp0037()
+  UiComponentMediaImageApp0036()
+  UiComponentMediaImageApp0034()
+  UiComponentMediaImageApp0035()
+  UiComponentMediaImageApp0039()
+  UiComponentMediaImageApp0044()
+  UiComponentMediaImageApp0033()
+  UiComponentMediaImageApp0028()
+  UiComponentMediaImageApp0038()
+  UiComponentMediaImageApp0032()
+  UiComponentMediaImageApp0019()
+  UiComponentMediaImageApp0022()
+  UiComponentMediaImageApp0049()
+  UiComponentMediaImageApp0925()
+  UiComponentMediaImageApp0935()
+  UiComponentMediaImageApp0936()
+  UiComponentMediaImageApp0932()
+  UiComponentMediaImageApp0920()
+  UiComponentMediaImageApp0929()
+  UiComponentMediaImageApp0915()
+  UiComponentMediaImageApp0923()
+  UiComponentMediaImageApp0928()
+  UiComponentMediaImageApp0922()
+  UiComponentMediaImageApp0930()
+  UiComponentMediaImageApp0927()
   UiComponentXComponentMarker0110()
   UiComponentEmbeddedComponent0034()
   UiComponentEmbeddedComponent0017()
