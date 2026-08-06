@@ -3791,6 +3791,13 @@
             "build_targets": {}
         },
         {
+            "path": "interface/sdk-js/zh-cn/api/@ohos.fileshare.d.ts",
+            "bundle_name": [
+                "app_file_service"
+            ],
+            "build_targets": {}
+        },
+        {
             "path": "interface/sdk-js/api/@system.package.d.ts",
             "bundle_name": [
                 "bundle_framework"
