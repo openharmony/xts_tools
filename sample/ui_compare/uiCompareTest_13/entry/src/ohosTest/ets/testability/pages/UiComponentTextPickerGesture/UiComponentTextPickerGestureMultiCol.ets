@@ -15,14 +15,14 @@
 
 @Entry
 @Component
-struct UiComponentTextPickerGesturebac8 {
+struct UiComponentTextPickerGestureMultiCol {
   range: string[][] = [['省1', '省2', '省3'], ['市1', '市2', '市3'], ['区1', '区2', '区3']]
   build() {
     Column({ space: 12 }) {
-      Text('TestCase_bac8776d9aa94f7087bf2e13350d8157')
+      Text('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100')
         .fontSize(11)
       TextPicker({ range: this.range })
-        .id('textpicker_gesture_bac8')
+        .id('textpicker_gesture_MultiCol')
         .height(220)
         .width('90%')
     }

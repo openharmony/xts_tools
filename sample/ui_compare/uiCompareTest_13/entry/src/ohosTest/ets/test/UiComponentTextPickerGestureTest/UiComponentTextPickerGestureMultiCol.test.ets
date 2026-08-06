@@ -20,8 +20,8 @@ import Utils from '../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../model/snapShot'
 
-export default function UiComponentTextPickerGesturebac8() {
-  describe('UiComponentTextPickerGesturebac8', () => {
+export default function UiComponentTextPickerGestureMultiCol() {
+  describe('UiComponentTextPickerGestureMultiCol', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()
@@ -39,18 +39,18 @@ export default function UiComponentTextPickerGesturebac8() {
     })
 
     /*
-     * @tc.number : TestCase_bac8776d9aa94f7087bf2e13350d8157
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100
      * @tc.name   : Cascade TextPicker multi-column swipe
      * @tc.desc   : Verify cascade TextPicker columns update after sequential swipes on left and right columns.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_bac8776d9aa94f7087bf2e13350d8157', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentTextPickerGesture/UiComponentTextPickerGesturebac8')
+    it('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/UiComponentTextPickerGesture/UiComponentTextPickerGestureMultiCol')
       let driver = await Driver.create()
       await Utils.sleep(1000)
-      let picker = await driver.waitForComponent(ON.id('textpicker_gesture_bac8'), 5000)
+      let picker = await driver.waitForComponent(ON.id('textpicker_gesture_MultiCol'), 5000)
       expect(picker !== undefined).assertTrue()
       if (picker === undefined) {
         done()
@@ -67,7 +67,7 @@ export default function UiComponentTextPickerGesturebac8() {
       await Utils.sleep(200)
       await driver.swipe(rightX, startY, rightX, endY, 500)
       await Utils.sleep(600)
-      await windowSnap.snapShot('TestCase_bac8776d9aa94f7087bf2e13350d8157_01')
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTICOL_0100_01')
       await Utils.sleep(800)
       done()
     })

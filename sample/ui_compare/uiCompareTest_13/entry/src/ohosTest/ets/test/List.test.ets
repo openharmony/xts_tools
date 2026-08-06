@@ -142,7 +142,7 @@ import UiComponentMediaImageInteraction0020 from './UiComponentMediaImageInterac
 
 import UiComponent0803Remaining0087 from './UiComponent0803RemainingTest/UiComponent0803Remaining0087.test'
 import UiComponentTextPickerGesture5f25 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture5f25.test'
-import UiComponentTextPickerGesturebac8 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesturebac8.test'
+import UiComponentTextPickerGestureMultiCol from './UiComponentTextPickerGestureTest/UiComponentTextPickerGestureMultiCol.test'
 import UiComponentTextPickerGesture07f0 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture07f0.test'
 import UiComponentTextPickerGesture17c8 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture17c8.test'
 import UiComponentTextPickerGestured0cf from './UiComponentTextPickerGestureTest/UiComponentTextPickerGestured0cf.test'
@@ -152,7 +152,7 @@ import UiComponentTextPickerGesture4b69 from './UiComponentTextPickerGestureTest
 import UiComponentTextPickerGesture3432 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture3432.test'
 import UiComponentTextPickerGesture6798 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture6798.test'
 import UiComponentTextPickerGesture1ea6 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture1ea6.test'
-import UiComponentTextPickerGesture45a8 from './UiComponentTextPickerGestureTest/UiComponentTextPickerGesture45a8.test'
+import UiComponentTextPickerGestureMultiUp from './UiComponentTextPickerGestureTest/UiComponentTextPickerGestureMultiUp.test'
 
 export default function testsuite() {
   UiComponent0803Remaining0087()
@@ -233,7 +233,7 @@ export default function testsuite() {
   UiComponentMediaProgressAnimateto0011()
   UiComponentMediaProgressEvent0027()
   UiComponentTextPickerGesture5f25()
-  UiComponentTextPickerGesturebac8()
+  UiComponentTextPickerGestureMultiCol()
   UiComponentTextPickerGesture07f0()
   UiComponentTextPickerGesture17c8()
   UiComponentTextPickerGestured0cf()
@@ -243,6 +243,6 @@ export default function testsuite() {
   UiComponentTextPickerGesture3432()
   UiComponentTextPickerGesture6798()
   UiComponentTextPickerGesture1ea6()
-  UiComponentTextPickerGesture45a8()
+  UiComponentTextPickerGestureMultiUp()
 
 }

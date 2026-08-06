@@ -22,7 +22,7 @@ xlsx G/H 列已全量标注（2026-08-06）：**已实现 ~197** + **无法实�
 |------|------|------|
 | xlsx 数据行 | **305** | Sheet1 除表头 |
 | 已实现（xlsx） | **~197** | Snap `_13` + Assert `_01`（含双轨 1） |
-| 无法实现（xlsx） | **108** | 删除 93 + 手表/表冠 11 + hidumper/多UEA/NDK 提供方 4 |
+| 无法实现（xlsx） | **108** | 删除 93 + 手表/表冠 11 + hidumper/多UEA/NATIVE 提供方 4 |
 | Assert 现网 Suite | **~111** | 真组件或弱增强 |
 | Snap 现网 Suite | **~89** | 组件视觉截图 + TextPicker 手势 |
 
@@ -56,7 +56,7 @@ xlsx G/H 列已全量标注（2026-08-06）：**已实现 ~197** + **无法实�
 | 手表/表冠 | 11 | 无手表形态与 digitalCrown |
 | hidumper A11y dump | 1 | `AccessibilityTestLevel023` 依赖 WMS `-element -c` 沙箱 dump |
 | 多 UEA 提供方 | 1 | `UIExtensionTestLevel09` 需 provider3/4/5 套件 |
-| Embedded NDK | 2 | 需 `EmbeddedComponentNDK-*.hap` 真提供方；Assert 里旧假 pending **不算覆盖** |
+| Embedded NATIVE | 2 | 需 Embedded 专用提供方 HAP（terminate/生命周期超时注入）；Assert 里旧假 pending **不算覆盖** |
 
 Picker 手势 `TestCase_<uuid>`（12）已补入 `uiCompareTest_13`。
 

@@ -15,14 +15,14 @@
 
 @Entry
 @Component
-struct UiComponentTextPickerGesture45a8 {
+struct UiComponentTextPickerGestureMultiUp {
   range: string[][] = [['A1', 'A2', 'A3', 'A4'], ['B1', 'B2', 'B3', 'B4'], ['C1', 'C2', 'C3', 'C4']]
   build() {
     Column({ space: 12 }) {
-      Text('TestCase_45a89390e1fa4ed886efd8313e14becd')
+      Text('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100')
         .fontSize(11)
       TextPicker({ range: this.range })
-        .id('textpicker_gesture_45a8')
+        .id('textpicker_gesture_MultiUp')
         .height(220)
         .width('90%')
     }

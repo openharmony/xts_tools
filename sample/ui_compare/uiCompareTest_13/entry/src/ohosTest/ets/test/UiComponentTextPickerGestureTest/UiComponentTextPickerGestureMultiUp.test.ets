@@ -20,8 +20,8 @@ import Utils from '../model/Utils'
 import { Driver, ON } from '@kit.TestKit'
 import windowSnap from '../model/snapShot'
 
-export default function UiComponentTextPickerGesture45a8() {
-  describe('UiComponentTextPickerGesture45a8', () => {
+export default function UiComponentTextPickerGestureMultiUp() {
+  describe('UiComponentTextPickerGestureMultiUp', () => {
     afterEach(async (done: Function) => {
       if (Settings.windowClass == undefined) {
         done()
@@ -39,18 +39,18 @@ export default function UiComponentTextPickerGesture45a8() {
     })
 
     /*
-     * @tc.number : TestCase_45a89390e1fa4ed886efd8313e14becd
+     * @tc.number : SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100
      * @tc.name   : Multi string[][] TextPicker fling up
      * @tc.desc   : Verify multi-column string[][] TextPicker selection changes after fling up.
      * @tc.type   : Function
      * @tc.size   : MediumTest
      * @tc.level  : 3
      */
-    it('TestCase_45a89390e1fa4ed886efd8313e14becd', Level.LEVEL3, async (done: Function) => {
-      Settings.createWindow('testability/pages/UiComponentTextPickerGesture/UiComponentTextPickerGesture45a8')
+    it('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100', Level.LEVEL3, async (done: Function) => {
+      Settings.createWindow('testability/pages/UiComponentTextPickerGesture/UiComponentTextPickerGestureMultiUp')
       let driver = await Driver.create()
       await Utils.sleep(1000)
-      let picker = await driver.waitForComponent(ON.id('textpicker_gesture_45a8'), 5000)
+      let picker = await driver.waitForComponent(ON.id('textpicker_gesture_MultiUp'), 5000)
       expect(picker !== undefined).assertTrue()
       if (picker === undefined) {
         done()
@@ -65,7 +65,7 @@ export default function UiComponentTextPickerGesture45a8() {
       let rightX: number = Math.floor(rect.left + (rect.right - rect.left) * 0.75)
       await driver.swipe(centerX, endY, centerX, startY, 600)
       await Utils.sleep(600)
-      await windowSnap.snapShot('TestCase_45a89390e1fa4ed886efd8313e14becd_01')
+      await windowSnap.snapShot('SUB_ACE_UI_COMPONENT_TEXTPICKER_GESTURE_MULTIUP_0100_01')
       await Utils.sleep(800)
       done()
     })
