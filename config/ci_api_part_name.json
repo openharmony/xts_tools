@@ -2927,7 +2927,7 @@
             "bundle_name": [
                 "call_manager"
             ],
-            "build_targets": []
+            "build_targets": {}
         },
         {
             "path": "interface/sdk-js/api/@ohos.enterprise.systemManager.d.ts",
